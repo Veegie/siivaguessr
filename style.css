@@ -138,25 +138,6 @@ button.text-btn {
   font-size: 3rem;
 }
 
-#modeView nav {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-#modeView button {
-  font-size: 3rem;
-  line-height: 0.5;
-}
-#modeView button small {
-  font-size: 1rem;
-}
-#modeHelpText {
-  font-size: 1.75rem;
-  height: 1rem;
-  margin: 0.5rem 0 1.5rem;
-}
-
 button.text-btn:hover {
   text-shadow: 0 0 0.5rem #dedede;
 }

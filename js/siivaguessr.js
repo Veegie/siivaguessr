@@ -34,7 +34,7 @@ const volumeSlider = document.getElementById('volumeSlider');
 const guessInput = document.getElementById('guessInput');
 const autofillOptionsElem = document.getElementById('autofill-options');
 const backBtn = document.getElementById('backBtn');
-const backNavViews = ['customQuizView', 'createCustomQuizView', 'modeView', 'helpView'];
+const backNavViews = ['customQuizView', 'createCustomQuizView', 'helpView'];
 const vidPlayer = document.getElementById('vidPlayer');
 let currentQuestionMode = QuestionMode.NORMAL;
 let curView = 'loadingView';
@@ -207,10 +207,6 @@ document.querySelectorAll('#modeView button').forEach((e) => {
 document.getElementById('dailyBtn').addEventListener('click', () => {
     const sickoMode = document.getElementById('dailySickoSwitch').checked;
     loadQuestion(daily.hash, sickoMode ? QuestionMode.SICKO : daily.mode);
-});
-document.getElementById('randomBtn').addEventListener('click', () => {
-    // Load random question
-    showView('modeView');
 });
 document.getElementById('customQuizBtn').addEventListener('click', () => {
     showView('customQuizView');
