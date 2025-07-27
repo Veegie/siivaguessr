@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 jokeRegex = re.compile(r"Joke.*")
 count = 0
 with open("lastoutput", "w", encoding="utf8") as outfile:
-    with open("articlestest", encoding="utf8") as file:
+    with open("articles", encoding="utf8") as file:
         for url in file:
             try:
                 response = requests.get(url.rstrip("\n"))
