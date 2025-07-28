@@ -1,4 +1,4 @@
-{
+const db = {
 "MFFy3zH81es": {
 	"title": "Break Down - Cave Story",
 	"wiki": "https://siivagunner.wiki/wiki/Break%20Down%20(Alpha%20Mix)%20-%20Cave%20Story",
@@ -58135,8 +58135,24 @@
 	"wiki": "https://siivagunner.wiki/wiki/Steam%20Gardens%20(Album%20Version)%20-%20Super%20Smash%20Bros.%20UItimate ",
 	"joke": "Beat It - Michael Jackson",
 	"artist": "Sarvéproductions"},
-4UbxwUE5UGk;;;Staff Roll - Super Mario 64;;;https://siivagunner.wiki/wiki/Staff%20Roll%20-%20Super%20M%CC%B8%CC%8C%CC%8Aa%CC%B4%CD%9B%CC%BF%E2%96%88%CC%B8%CD%8C%CC%91i%CC%B5%CC%9B%CD%8A%E2%96%88%CC%B7%CC%BE%CC%93%2064 ;;;Viva La Vida - Coldplay;;;eg_9371
-BO6pUT2-vDA;;;Gang-Plank Galleon - Donkey Kong Country;;;https://siivagunner.wiki/wiki/Gang-Plank%20Galleon%20-%20Donkey%20Kong%20Country ;;;50 Ways to Say Goodbye - Train;;;eg_9371
-rEcOzjg7vBU;;;Athletic Theme (PAL Version) - Super Mario World;;;https://siivagunner.wiki/wiki/Athletic%20Theme%20(PAL%20Version)%20-%20Super%20Mario%20World ;;;Witch Doctor - David Seville;;;Psycosis
-2joknwVfcPw;;;Fortress Boss (Hurry Up!) - Super Mario World;;;https://siivagunner.wiki/wiki/Fortress%20Boss%20(Hurry%20Up!)%20-%20Super%20Mario%20World ;;;Caravan - Juan Tizol and Duke Ellington;;;Zoom
+"4UbxwUE5UGk": {
+	"title": "Staff Roll - Super Mario 64",
+	"wiki": "https://siivagunner.wiki/wiki/Staff%20Roll%20-%20Super%20M%CC%B8%CC%8C%CC%8Aa%CC%B4%CD%9B%CC%BF%E2%96%88%CC%B8%CD%8C%CC%91i%CC%B5%CC%9B%CD%8A%E2%96%88%CC%B7%CC%BE%CC%93%2064 ",
+	"joke": "Viva La Vida - Coldplay",
+	"artist": "eg_9371"},
+"BO6pUT2-vDA": {
+	"title": "Gang-Plank Galleon - Donkey Kong Country",
+	"wiki": "https://siivagunner.wiki/wiki/Gang-Plank%20Galleon%20-%20Donkey%20Kong%20Country ",
+	"joke": "50 Ways to Say Goodbye - Train",
+	"artist": "eg_9371"},
+"rEcOzjg7vBU": {
+	"title": "Athletic Theme (PAL Version) - Super Mario World",
+	"wiki": "https://siivagunner.wiki/wiki/Athletic%20Theme%20(PAL%20Version)%20-%20Super%20Mario%20World ",
+	"joke": "Witch Doctor - David Seville",
+	"artist": "Psycosis"},
+"2joknwVfcPw": {
+	"title": "Fortress Boss (Hurry Up!) - Super Mario World",
+	"wiki": "https://siivagunner.wiki/wiki/Fortress%20Boss%20(Hurry%20Up!)%20-%20Super%20Mario%20World ",
+	"joke": "Caravan - Juan Tizol and Duke Ellington",
+	"artist": "Zoom"},
 }

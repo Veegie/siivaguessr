@@ -1,3 +1,9 @@
+/**
+ * Sneaking a little peek? Yes, I could have obfuscated this more, but if someone really 
+ * wants to cheat at a 'dle, they're gonna do it; no amount of trickery can prevent that.
+ * This saves me the trouble of setting up an entire backend.
+ */
+
 const db = {
 "MFFy3zH81es": {
 	"title": "Break Down - Cave Story",
@@ -1325,7 +1331,7 @@ const db = {
 	"joke": "Wizards in Winter - Trans-Siberian Orchestra",
 	"artist": "Emm Bee Sea"},
 "CttcR37RVmM": {
-	"title": "Super Mario All Stars SMB3 World 6 Map",
+	"title": "World 6 Map - Super Mario Bros. 3 (Super Mario All-Stars)",
 	"wiki": "https://siivagunner.fandom.com/wiki/Super%20Mario%20All%20Stars%20SMB3%20World%206%20Map%20(In-Game%20Version)",
 	"joke": "Landslide - Fleetwood Mac",
 	"artist": "Emm Bee Sea"},
@@ -3510,7 +3516,7 @@ const db = {
 	"joke": "Angel Voices - Porter Robinson",
 	"artist": "eg_9371"},
 "7A3h73tdx5A": {
-	"title": "Super Mario All Stars SMB3 Slot Screen",
+	"title": "Slot Screen - Super Mario Bros. 3 (Super Mario All-Stars)",
 	"wiki": "https://siivagunner.fandom.com/wiki/Super%20Mario%20All%20Stars%20SMB3%20Slot%20Screen%20(NA%20Version)",
 	"joke": "Baby Got Back - Sir Mix-a-Lot",
 	"artist": "Unknown Ripper"},
@@ -59509,7 +59515,13 @@ const db = {
 		{"time": "3:33:15", "joke": "Proto Man Whistle - Mega Man 3"},
 		{"time": "3:33:25", "joke": "Stage Start"}
 	],
-        "artist": "Peacock Woman, Grampa Man, Taiyaki Man and the Robot Masters"}
+        "artist": "Peacock Woman, Grampa Man, Taiyaki Man and the Robot Masters"},
+		
+"2joknwVfcPw": {
+	"title": "Fortress Boss - Super Mario World",
+	"wiki": "https://siivagunner.wiki/wiki/Fortress%20Boss%20(Hurry%20Up!)%20-%20Super%20Mario%20World ",
+	"joke": "Caravan - Juan Tizol and Duke Ellington",
+	"artist": "Zoom"}
 };
 
 const QuestionMode = {
