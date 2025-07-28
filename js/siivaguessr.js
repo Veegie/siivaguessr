@@ -34,7 +34,7 @@ const curTimeCode = document.getElementById('curTimeCode');
 const durationTimeCode = document.getElementById('durationTimeCode');
 const muteBtn = document.getElementById('muteBtn');
 const volumeSlider = document.getElementById('volumeSlider');
-const statusMsg = document.getElementById('statusMsg');
+const statusMsgElem = document.getElementById('statusMsg');
 const guessInput = document.getElementById('guessInput');
 const autofillOptionsElem = document.getElementById('autofill-options');
 let curView = 'loadingView';
@@ -51,6 +51,7 @@ let guesses = new Set();
  */
 const loadQuestion = function (videoHash, mode) {
     showView('loadingView');
+    document.getElementById('logo').className = 'img-small';
     strikes = 0;
     vidPlayer.setAttribute('hidden', '');
     const question = db[videoHash];
@@ -67,6 +68,7 @@ const loadQuestion = function (videoHash, mode) {
         case QuestionMode.NORMAL:
             vidPlayer.removeAttribute('hidden');
             sourceTrackAnswerElem.innerText = question.title;
+            updateStatusMsg('Guess the joke!')
             break;
         case QuestionMode.REVERSE:
             jokeAnwserElem.innerText = question.joke;
@@ -115,7 +117,7 @@ const populateMultiJokeTable = function (jokesArray) {
         for (const time of instanceTimestamps) {
             curQuestionMultijokeEntries.push({ 'time': time.trim(), 'joke': joke.joke });
         }
-        answerSet.add(joke.joke);
+        answerSet.add(simpleHash(joke.joke, true));
     }
     curQuestionMultijokeEntries = curQuestionMultijokeEntries.sort((a, b) => timestampToSeconds(a.time) - timestampToSeconds(b.time));
     for (const jokeEntry of curQuestionMultijokeEntries) {
@@ -266,13 +268,18 @@ const submitGuess = function (guess) {
     clearActiveAutofillOption();
     guessInput.value = '';
     const hash = simpleHash(guess, true);
-    if (guesses.has(guess)) {
+    if (guesses.has(hash)) {
         updateStatusMsg('You already guessed that!');
         return;
     }
     guesses.add(guess);
-    if (answerSet.has(simpleHash(guess))) {
-
+    if (answerSet.has(hash)) {
+        answerSet.delete(hash);
+        if (answerSet.size === 0) {
+            guessInput.setAttribute('hidden','');
+            updateStatusMsg('Conflaguration')
+        }
+        document.querySelectorAll('.' + hash).forEach((e) => e.innerText = guess);
     }
     console.log(guess);
     // TODO
@@ -283,7 +290,7 @@ const submitGuess = function (guess) {
  * @param {string} msg the message to display 
  */
 const updateStatusMsg = function (msg) {
-
+    statusMsgElem.innerText = msg;
 }
 
 //    document.getElementById('goBtn').addEventListener('click', function () {
@@ -541,6 +548,7 @@ function onVideoPlayerReady() {
         volumeSlider.value = localStorage.getItem('lastVolume');
     }
     ytPlayer.setVolume(parseInt(volumeSlider.value));
+    showView('startView');
 }
 
 let ytPlayer;
@@ -620,6 +628,5 @@ const updateTimeCode = function () {
 }
 
 // Script is deferred, so only switch to startView after everything is loaded.
-showView('startView');
 
 //TODO - add block around script to prevent basic console sniffing

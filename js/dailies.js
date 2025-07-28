@@ -1,6 +1,6 @@
 const dailies = {
     "20250720": { "hash": "Q6CE-x67QDA", "mode": QuestionMode.NORMAL },
-    "20250727": { "hash": "2joknwVfcPw", "mode": QuestionMode.NORMAL }, // Sunday
+    "20250727": { "hash": "9WSxM2SZGy0", "mode": QuestionMode.NORMAL }, // Sunday
     "20250728": { "hash": "", "mode": QuestionMode.NORMAL },
     "20250729": { "hash": "", "mode": QuestionMode.NORMAL },
     "20250730": { "hash": "", "mode": QuestionMode.NORMAL },
