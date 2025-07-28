@@ -22,6 +22,9 @@ const dateToString = function (date) {
 
 const today = dateToString(new Date());
 const daily = dailies[today];
+const backNavViews = ['customQuizView', 'createCustomQuizView', 'helpView'];
+const backBtn = document.getElementById('backBtn');
+const vidPlayer = document.getElementById('vidPlayer');
 const playbackControls = document.getElementById('playbackControls');
 const playPauseBtn = document.getElementById('playPauseBtn');
 const playIcon = document.getElementById('playIcon');
@@ -31,40 +34,63 @@ const curTimeCode = document.getElementById('curTimeCode');
 const durationTimeCode = document.getElementById('durationTimeCode');
 const muteBtn = document.getElementById('muteBtn');
 const volumeSlider = document.getElementById('volumeSlider');
+const statusMsg = document.getElementById('statusMsg');
 const guessInput = document.getElementById('guessInput');
 const autofillOptionsElem = document.getElementById('autofill-options');
-const backBtn = document.getElementById('backBtn');
-const backNavViews = ['customQuizView', 'createCustomQuizView', 'helpView'];
-const vidPlayer = document.getElementById('vidPlayer');
-let currentQuestionMode = QuestionMode.NORMAL;
 let curView = 'loadingView';
-let curQuestion;
 let strikes = 0;
-let curQuestionMultijokeEntries = [];
-let curJokeSet = new Set();
+let answerSet = new Set();
+let guesses = new Set();
 
 /**
- * Loads a question and cues the corresponding video.
- * @param {string} hash the YT hash of the video to load and 
+ * Loads a question and cues the corresponding video. When the video is cued,
+ * it fires a statechange event, handled by {@link onVideoStateChange}.
+ * 
+ * @param {string} videoHash the YT hash of the video to load and 
  * @param {QuestionMode} mode 
  */
-const loadQuestion = function (hash, mode) {
+const loadQuestion = function (videoHash, mode) {
+    showView('loadingView');
     strikes = 0;
     vidPlayer.setAttribute('hidden', '');
-    currentQuestionMode = mode;
-    curQuestion = db[hash];
-    curJokeSet.clear();
-    document.getElementById('multiJokeDisplay').setAttribute('hidden', '');
-    document.getElementById('singleJokeDisplay').setAttribute('hidden', '');
-    if (Array.isArray(curQuestion.joke)) {
-        populateMultiJokeTable(curQuestion.joke);
+    const question = db[videoHash];
+    const sourceTrackHash = simpleHash(question.title, true);
+    answerSet.clear();
+    guesses.clear();
+    const sourceTrackAnswerElem = document.getElementById('sTAns');
+    sourceTrackAnswerElem.innerText = '???';
+    sourceTrackAnswerElem.className = sourceTrackHash;
+    const jokeAnwserElem = document.getElementById('jAns');
+    jokeAnwserElem.innerText = '???';
+    vidPlayer.setAttribute('hidden', '');
+    switch (mode) {
+        case QuestionMode.NORMAL:
+            vidPlayer.removeAttribute('hidden');
+            sourceTrackAnswerElem.innerText = question.title;
+            break;
+        case QuestionMode.REVERSE:
+            jokeAnwserElem.innerText = question.joke;
+            answerSet.add(sourceTrackHash);
+            break;
+        case QuestionMode.SICKO:
+            answerSet.add(sourceTrackHash);
+            break;
+    }
+    const isMultiJoke = Array.isArray(question.joke);
+    if (isMultiJoke) {
+        populateMultiJokeTable(question.joke);
+        document.getElementById('singleJokeDisplay').setAttribute('hidden', '');
         document.getElementById('multiJokeDisplay').removeAttribute('hidden');
     } else {
-        curJokeSet.add(curQuestion.joke);
+        const jokeAnswerHash = simpleHash(question.joke, true);
+        answerSet.add(jokeAnswerHash);
+        jokeAnwserElem.className = jokeAnswerHash;
+        document.getElementById('multiJokeDisplay').setAttribute('hidden', '');
         document.getElementById('singleJokeDisplay').removeAttribute('hidden');
     }
-    ytPlayer.cueVideoById(hash);
+    ytPlayer.cueVideoById(videoHash);
 };
+
 
 /**
  * Populates the HTML for a multi-joke question.
@@ -82,14 +108,14 @@ const populateMultiJokeTable = function (jokesArray) {
     jokeAnswer.classList.add('multi-joke-joke');
     entry.appendChild(jokeTime);
     entry.appendChild(jokeAnswer);
-    curQuestionMultijokeEntries = [];
+    let curQuestionMultijokeEntries = [];
     // Split joke definitions with multiple timestamps separated by commas.
     for (const joke of jokesArray) {
         const instanceTimestamps = joke.time.split(',');
         for (const time of instanceTimestamps) {
             curQuestionMultijokeEntries.push({ 'time': time.trim(), 'joke': joke.joke });
         }
-        curJokeSet.add(joke.joke);
+        answerSet.add(joke.joke);
     }
     curQuestionMultijokeEntries = curQuestionMultijokeEntries.sort((a, b) => timestampToSeconds(a.time) - timestampToSeconds(b.time));
     for (const jokeEntry of curQuestionMultijokeEntries) {
@@ -112,15 +138,16 @@ const populateMultiJokeTable = function (jokesArray) {
  * Hashes a single character in a longer string.
  * 
  * @param {string} char input character
- * @param {number} s length of the overall string being ciphered; used to prevent 
- * @returns 
+ * @param {number} s a salt value based on the overall string being hashed, used to prevent
+ * substrings from being identifiable. in our case, the sum of the character codes of the input string.
+ * @returns the hashed character
  */
 const hashChar = function (char, s) {
     if (char === ' ') {
         return '';
     }
     let code = (((char.charCodeAt(0) * 17) + s) % 62) + 48;
-    // Keep chars in valid ASCII range.
+    // Keep chars in valid ASCII range for HTML classes. 0-9, A-z only.
     if (code > 57) {
         code += 7;
     }
@@ -133,11 +160,12 @@ const hashChar = function (char, s) {
 const invalidClassRegex = /[0-9+/=]/;
 const filler = "zaq1xsw2cde3vfr4bgt5nhy6mju7ki8lo9p0";
 /**
- * Simple, non-secure string hash function
+ * Simple, non-secure string hash function to obscure song titles. Hashed song titles are used as HTML classes
+ * for multi-joke rips, allowing quick retrieval of multiple joke instances without exposing the answers.
  * 
  * @param {string} str string to hash
  * @param {boolean} fixLength fix output length to 20, to further obscure input
- * @returns 
+ * @returns a hashed version of the string
  */
 const simpleHash = function (str, fixLength) {
     let s = str.length;
@@ -155,8 +183,8 @@ const simpleHash = function (str, fixLength) {
         }
     }
     if (fixLength) {
-        for (let i = filler.length % s; hash.length < 20; i++) {
-            if (i === filler.length) {
+        for (let i = str.length; hash.length < 20; i++) {
+            if (i >= filler.length) {
                 i = 0;
             }
             hash += hashChar(filler[i], s);
@@ -237,8 +265,25 @@ const submitGuess = function (guess) {
     autofillOptionsElem.setAttribute('hidden', '');
     clearActiveAutofillOption();
     guessInput.value = '';
+    const hash = simpleHash(guess, true);
+    if (guesses.has(guess)) {
+        updateStatusMsg('You already guessed that!');
+        return;
+    }
+    guesses.add(guess);
+    if (answerSet.has(simpleHash(guess))) {
+
+    }
     console.log(guess);
     // TODO
+}
+
+/**
+ * Updates the status message with the specified string.
+ * @param {string} msg the message to display 
+ */
+const updateStatusMsg = function (msg) {
+
 }
 
 //    document.getElementById('goBtn').addEventListener('click', function () {
@@ -443,6 +488,11 @@ const durationToTimeCode = function (duration) {
 }
 
 let timeCodeUpdateInterval;
+/**
+ * Handles state changes in the embedded YouTube player.
+ * @param {Event} event the state change event. The data property indicates the new state of the player.
+ * 1 is playing, 0 is paused, -1 is "unstarted", for newly cued videos.
+ */
 function onVideoStateChange(event) {
     if (event.data === 1) {
         timeCodeUpdateInterval = setInterval(() => {
@@ -461,17 +511,18 @@ function onVideoStateChange(event) {
         seekBar.max = ytPlayer.getDuration();
         durationTimeCode.innerText = durationToTimeCode(ytPlayer.getDuration());
         updateTimeCode();
-        if (currentQuestionMode === QuestionMode.NORMAL) {
-            vidPlayer.removeAttribute('hidden');
-        }
         playbackControls.removeAttribute('hidden');
         showView('ripView');
     }
 }
 
+/**
+ * On multi-joke rips, highlights and scrolls to the timecode of the current joke.
+ * @param {number} seconds the number of seconds elapsed in the current song
+ */
 const updateMultiJokeHighlight = function (seconds) {
     let nextHighlight = document.getElementById('jokeAt' + seconds);
-    while (seconds > 0 && !nextHighlight) {
+    while (seconds >= 0 && !nextHighlight) {
         seconds--;
         nextHighlight = document.getElementById('jokeAt' + seconds);
     }
@@ -490,8 +541,6 @@ function onVideoPlayerReady() {
         volumeSlider.value = localStorage.getItem('lastVolume');
     }
     ytPlayer.setVolume(parseInt(volumeSlider.value));
-    // TODO temp
-    loadQuestion('8SwhEQj9qes', QuestionMode.NORMAL);
 }
 
 let ytPlayer;
@@ -517,6 +566,8 @@ muteBtn.addEventListener('click', function () {
     updateVolume();
 });
 
+// Seekbar logic - Pause the video (if playing) while seeking to avoid noise. Keep track of the
+// player state to unpause automatically after seeking.
 let preSeekState;
 let seeking = false;
 seekBar.addEventListener('mousedown', function () {
@@ -552,6 +603,7 @@ if (localStorage.getItem('dailySicko') !== null) {
     }
 }
 
+// Basic email obfuscation. Apparently, surprisingly effective despite its simplicity.
 const a = document.getElementById('enail');
 a.setAttribute('href', a.getAttribute('href')
     .replace('vee', 'il@ve')
@@ -562,9 +614,12 @@ a.setAttribute('href', a.getAttribute('href')
 
 const updateTimeCode = function () {
     curTimeCode.innerText = durationToTimeCode(parseInt(seekBar.value));
-    if (curJokeSet.size > 1) {
+    if (answerSet.size > 1) {
         updateMultiJokeHighlight(parseInt(seekBar.value));
     }
 }
 
+// Script is deferred, so only switch to startView after everything is loaded.
 showView('startView');
+
+//TODO - add block around script to prevent basic console sniffing
