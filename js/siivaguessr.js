@@ -123,17 +123,28 @@ const populateMultiJokeTable = function (jokesArray) {
     for (const jokeEntry of curQuestionMultijokeEntries) {
         const entryElem = entry.cloneNode(entry);
         entryElem.children[0].innerText = jokeEntry.time;
-        let id = 'jokeAt' + timestampToSeconds(jokeEntry.time);
+        const seconds = timestampToSeconds(jokeEntry.time);;
+        let id = 'jokeAt' + seconds;
         let num = 0;
         // Avoid duplicate IDs if two jokes share the same timestamp
         while (document.getElementById(id)) {
             num++;
-            id = id + num;
+            id = id + seconds + '-' + num;
         }
         entryElem.children[0].id = id;
+        entryElem.children[0].dataset.seconds = seconds;
         entryElem.children[1].classList.add(simpleHash(jokeEntry.joke, true));
         multiJokeContainer.appendChild(entryElem);
     }
+    multiJokeContainer.querySelectorAll('.multi-joke-timestamp').forEach((e) => {
+        if (e.dataset.seconds) {
+            e.addEventListener('click', function () {
+                ytPlayer.seekTo(parseInt(this.dataset.seconds));
+                seekBar.value = this.dataset.seconds;
+                updateTimeCode();
+            });
+        }
+    })
 };
 
 /**
@@ -269,14 +280,14 @@ const submitGuess = function (guess) {
     guessInput.value = '';
     const hash = simpleHash(guess, true);
     if (guesses.has(hash)) {
-        updateStatusMsg('You already guessed that!');
+        updateStatusMsg('Already guessed!', 2000);
         return;
     }
-    guesses.add(guess);
+    guesses.add(hash);
     if (answerSet.has(hash)) {
         answerSet.delete(hash);
         if (answerSet.size === 0) {
-            guessInput.setAttribute('hidden','');
+            guessInput.setAttribute('hidden', '');
             updateStatusMsg('Conflaguration')
         }
         document.querySelectorAll('.' + hash).forEach((e) => e.innerText = guess);
@@ -285,11 +296,26 @@ const submitGuess = function (guess) {
     // TODO
 }
 
+let statusResetTimeout;
+let prevStatus;
 /**
  * Updates the status message with the specified string.
  * @param {string} msg the message to display 
+ * @param {string} timeout timeout in ms after which the previous message will be displayed
  */
-const updateStatusMsg = function (msg) {
+const updateStatusMsg = function (msg, timeout = 0) {
+    if (!statusResetTimeout) {
+        prevStatus = statusMsgElem.innerText;
+    } else {
+        // Status msg changed while waiting to reset previous temp status.
+        clearTimeout(statusResetTimeout);
+        statusResetTimeout = 0;
+    }
+    if (timeout) {
+        statusResetTimeout = setTimeout(() => {
+            statusMsgElem.innerText = prevStatus;
+        }, timeout);
+    }
     statusMsgElem.innerText = msg;
 }
 

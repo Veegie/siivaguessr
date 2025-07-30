@@ -7,7 +7,7 @@
   --dark-color-bg: #242329;
   --dark-color-text: #efefef;
   --table-dark-even: #323138;
-  --table-dark-odd: #242329;
+  --table-dark-odd: #282631;
   --table-highlight-light: #87a3f3;
 }
 
@@ -275,11 +275,17 @@ button small {
 }
 .multi-joke-entry {
   display: flex;
-  justify-self: center;
-  background-color: light-dark(var(--table-light-even), var(--table-dark-even));
+  margin-bottom: 0.2rem;
+  height: 3rem;
+  break-inside: avoid;
 }
-.multi-joke-entry:nth-child(even) {
+.multi-joke-entry > .multi-joke-timestamp,
+.multi-joke-entry > .multi-joke-joke {
   background-color: light-dark(var(--table-light-odd), var(--table-dark-odd));
+}
+.multi-joke-entry:nth-child(2n) > .multi-joke-timestamp,
+.multi-joke-entry:nth-child(2n) > .multi-joke-joke {
+  background-color: light-dark(var(--table-light-even), var(--table-dark-even));
 }
 .multi-joke-entry > div {
   padding: 0.25rem;
@@ -289,9 +295,10 @@ button small {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid #dedede;
 }
 .multi-joke-timestamp {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
   width: 6rem;
 }
 .multi-joke-joke {
@@ -299,11 +306,14 @@ button small {
   word-break: break-word;
 }
 .multi-joke-timestamp.highlight {
-    background-color: light-dark(var(--table-highlight-light), #ffffff);
-    color: #000000;
-    text-shadow: none;
-    font-weight: 900;
-    box-shadow: inset 0px 0px 5px grey;
+  background-color: light-dark(
+    var(--table-highlight-light),
+    #ffffff
+  ) !important;
+  color: #000000;
+  text-shadow: none;
+  font-weight: 900;
+  box-shadow: inset 0px 0px 5px grey;
 }
 
 #helpView p {
