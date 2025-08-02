@@ -2,10 +2,10 @@ const dailies = {
     "20250720": { "hash": "Q6CE-x67QDA", "mode": QuestionMode.NORMAL },
     "20250727": { "hash": "", "mode": QuestionMode.NORMAL }, // Sunday
     "20250728": { "hash": "", "mode": QuestionMode.NORMAL },
-    "20250729": { "hash": "EhEAazYMdwM", "mode": QuestionMode.NORMAL },
+    "20250729": { "hash": "", "mode": QuestionMode.NORMAL },
     "20250730": { "hash": "", "mode": QuestionMode.NORMAL },
     "20250731": { "hash": "", "mode": QuestionMode.NORMAL },
-    "20250801": { "hash": "", "mode": QuestionMode.NORMAL },
+    "20250801": { "hash": "EhEAazYMdwM", "mode": QuestionMode.NORMAL },
     "20250802": { "hash": "", "mode": QuestionMode.NORMAL },
     "20250803": { "hash": "", "mode": QuestionMode.NORMAL }, // Sunday
     "20250804": { "hash": "", "mode": QuestionMode.NORMAL },

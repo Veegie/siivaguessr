@@ -51,7 +51,6 @@ let guesses = new Set();
  */
 const loadQuestion = function (videoHash, mode) {
     showView('loadingView');
-    document.getElementById('logo').className = 'img-small';
     strikes = 0;
     vidPlayer.setAttribute('hidden', '');
     const question = db[videoHash];
@@ -60,7 +59,7 @@ const loadQuestion = function (videoHash, mode) {
     guesses.clear();
     const sourceTrackAnswerElem = document.getElementById('sTAns');
     sourceTrackAnswerElem.innerText = '???';
-    sourceTrackAnswerElem.className = sourceTrackHash;
+    sourceTrackAnswerElem.className = 'free-text-answer ' + sourceTrackHash;
     const jokeAnwserElem = document.getElementById('jAns');
     jokeAnwserElem.innerText = '???';
     vidPlayer.setAttribute('hidden', '');
@@ -86,7 +85,7 @@ const loadQuestion = function (videoHash, mode) {
     } else {
         const jokeAnswerHash = simpleHash(question.joke, true);
         answerSet.add(jokeAnswerHash);
-        jokeAnwserElem.className = jokeAnswerHash;
+        jokeAnwserElem.className = 'free-text-answer ' + jokeAnswerHash;
         document.getElementById('multiJokeDisplay').setAttribute('hidden', '');
         document.getElementById('singleJokeDisplay').removeAttribute('hidden');
     }
@@ -234,6 +233,9 @@ const showView = function (id) {
     } else {
         backBtn.setAttribute('hidden', '');
     }
+    if (id !== 'startView') {
+        document.getElementById('logo').className = 'img-small';
+    }
 }
 
 document.querySelectorAll('#modeView button').forEach((e) => {
@@ -287,10 +289,21 @@ const submitGuess = function (guess) {
     if (answerSet.has(hash)) {
         answerSet.delete(hash);
         if (answerSet.size === 0) {
+            // TODO
             guessInput.setAttribute('hidden', '');
             updateStatusMsg('Conflaguration')
         }
-        document.querySelectorAll('.' + hash).forEach((e) => e.innerText = guess);
+        document.querySelectorAll('.' + hash).forEach((e) => {
+            e.classList.add('correct');
+            e.innerText = guess;
+            setTimeout(() => {
+                e.classList.add('fade');
+                e.classList.remove('correct');
+                setTimeout(() => {
+                    e.classList.remove('fade');
+                }, 1100);
+            }, 250);
+        });
     }
     console.log(guess);
     // TODO
