@@ -52,6 +52,9 @@ let guesses = new Set();
 const loadQuestion = function (videoHash, mode) {
     showView('loadingView');
     strikes = 0;
+    document.getElementById('strike1').setAttribute('hidden', '');
+    document.getElementById('strike2').setAttribute('hidden', '');
+    document.getElementById('strike3').setAttribute('hidden', '');
     vidPlayer.setAttribute('hidden', '');
     const question = db[videoHash];
     const sourceTrackHash = simpleHash(question.title, true);
@@ -289,9 +292,8 @@ const submitGuess = function (guess) {
     if (answerSet.has(hash)) {
         answerSet.delete(hash);
         if (answerSet.size === 0) {
-            // TODO
             guessInput.setAttribute('hidden', '');
-            updateStatusMsg('Conflaguration')
+            updateStatusMsg('You got it!');
         }
         document.querySelectorAll('.' + hash).forEach((e) => {
             e.classList.add('correct');
@@ -304,6 +306,21 @@ const submitGuess = function (guess) {
                 }, 1100);
             }, 250);
         });
+    } else {
+        strikes++;
+        document.getElementById('strike' + strikes).removeAttribute('hidden');
+        if (strikes === 3) {
+            guessInput.setAttribute('hidden', '');
+            updateStatusMsg('Better luck next time.');
+        }
+        guessInput.classList.add('incorrect');
+        setTimeout(() => {
+            guessInput.classList.add('fade');
+            guessInput.classList.remove('incorrect');
+            setTimeout(() => {
+                guessInput.classList.remove('fade');
+            }, 1100);
+        }, 500);
     }
     console.log(guess);
     // TODO

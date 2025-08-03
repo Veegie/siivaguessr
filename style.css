@@ -240,6 +240,40 @@ button small {
   z-index: 1;
 }
 
+#guessInput {
+  background-color: light-dark(var(--table-light-odd), var(--table-dark-odd));
+}
+
+#guessInput.incorrect {
+  background-color: #c02e2e;
+  animation: shake .4s ease-in-out;
+}
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+
+  20% {
+    transform: translateX(-10px);
+  }
+
+  40% {
+    transform: translateX(10px);
+  }
+
+  60% {
+    transform: translateX(-10px);
+  }
+
+  80% {
+    transform: translateX(10px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
 #autofill-options {
   position: absolute;
   left: 50%;
