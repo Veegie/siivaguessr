@@ -39,6 +39,7 @@ const guessInput = document.getElementById('guessInput');
 const autofillOptionsElem = document.getElementById('autofill-options');
 let curView = 'loadingView';
 let strikes = 0;
+let question = undefined;
 let answerSet = new Set();
 let guesses = new Set();
 
@@ -52,19 +53,20 @@ let guesses = new Set();
 const loadQuestion = function (videoHash, mode) {
     showView('loadingView');
     strikes = 0;
+    vidPlayer.setAttribute('hidden', '');
     document.getElementById('strike1').setAttribute('hidden', '');
     document.getElementById('strike2').setAttribute('hidden', '');
     document.getElementById('strike3').setAttribute('hidden', '');
-    vidPlayer.setAttribute('hidden', '');
-    const question = db[videoHash];
-    const sourceTrackHash = simpleHash(question.title, true);
+    document.getElementById('ripCredits').setAttribute('hidden', '');
+    question = db[videoHash];
+    const sourceTrackHash = simpleHash(question.title);
     answerSet.clear();
     guesses.clear();
-    const sourceTrackAnswerElem = document.getElementById('sTAns');
-    sourceTrackAnswerElem.innerText = '???';
+    const sourceTrackAnswerElem = document.getElementById('stAns');
+    sourceTrackAnswerElem.innerText = '____________';
     sourceTrackAnswerElem.className = 'free-text-answer ' + sourceTrackHash;
     const jokeAnwserElem = document.getElementById('jAns');
-    jokeAnwserElem.innerText = '???';
+    jokeAnwserElem.innerText = '____________';
     vidPlayer.setAttribute('hidden', '');
     switch (mode) {
         case QuestionMode.NORMAL:
@@ -83,15 +85,26 @@ const loadQuestion = function (videoHash, mode) {
     const isMultiJoke = Array.isArray(question.joke);
     if (isMultiJoke) {
         populateMultiJokeTable(question.joke);
-        document.getElementById('singleJokeDisplay').setAttribute('hidden', '');
+        jokeAnwserElem.setAttribute('hidden', '');
+        document.getElementById('singleJokeLabel').setAttribute('hidden', '');
         document.getElementById('multiJokeDisplay').removeAttribute('hidden');
     } else {
-        const jokeAnswerHash = simpleHash(question.joke, true);
+        const jokeAnswerHash = simpleHash(question.joke);
         answerSet.add(jokeAnswerHash);
         jokeAnwserElem.className = 'free-text-answer ' + jokeAnswerHash;
         document.getElementById('multiJokeDisplay').setAttribute('hidden', '');
-        document.getElementById('singleJokeDisplay').removeAttribute('hidden');
+        jokeAnwserElem.removeAttribute('hidden');
+        document.getElementById('singleJokeLabel').removeAttribute('hidden');
     }
+    if (question.artist === 'Unknown Ripper') {
+        document.getElementById('creditUnknown').removeAttribute('hidden');
+        document.getElementById('credit').setAttribute('hidden', '');
+    } else {
+        document.getElementById('ripArtist').innerText = question.artist;
+        document.getElementById('credit').removeAttribute('hidden');
+        document.getElementById('creditUnknown').setAttribute('hidden', '');
+    }
+    document.getElementById('wikiLink').href = question.wiki;
     ytPlayer.cueVideoById(videoHash);
 };
 
@@ -119,7 +132,7 @@ const populateMultiJokeTable = function (jokesArray) {
         for (const time of instanceTimestamps) {
             curQuestionMultijokeEntries.push({ 'time': time.trim(), 'joke': joke.joke });
         }
-        answerSet.add(simpleHash(joke.joke, true));
+        answerSet.add(simpleHash(joke.joke));
     }
     curQuestionMultijokeEntries = curQuestionMultijokeEntries.sort((a, b) => timestampToSeconds(a.time) - timestampToSeconds(b.time));
     for (const jokeEntry of curQuestionMultijokeEntries) {
@@ -135,7 +148,7 @@ const populateMultiJokeTable = function (jokesArray) {
         }
         entryElem.children[0].id = id;
         entryElem.children[0].dataset.seconds = seconds;
-        entryElem.children[1].classList.add(simpleHash(jokeEntry.joke, true));
+        entryElem.children[1].classList.add(simpleHash(jokeEntry.joke));
         multiJokeContainer.appendChild(entryElem);
     }
     multiJokeContainer.querySelectorAll('.multi-joke-timestamp').forEach((e) => {
@@ -182,7 +195,7 @@ const filler = "zaq1xsw2cde3vfr4bgt5nhy6mju7ki8lo9p0";
  * @param {boolean} fixLength fix output length to 20, to further obscure input
  * @returns a hashed version of the string
  */
-const simpleHash = function (str, fixLength) {
+const simpleHash = function (str, fixLength = true) {
     let s = str.length;
     for (let i = 0; i < str.length; i++) {
         s += str.charCodeAt(i);
@@ -283,7 +296,7 @@ const submitGuess = function (guess) {
     autofillOptionsElem.setAttribute('hidden', '');
     clearActiveAutofillOption();
     guessInput.value = '';
-    const hash = simpleHash(guess, true);
+    const hash = simpleHash(guess);
     if (guesses.has(hash)) {
         updateStatusMsg('Already guessed!', 2000);
         return;
@@ -291,10 +304,6 @@ const submitGuess = function (guess) {
     guesses.add(hash);
     if (answerSet.has(hash)) {
         answerSet.delete(hash);
-        if (answerSet.size === 0) {
-            guessInput.setAttribute('hidden', '');
-            updateStatusMsg('You got it!');
-        }
         document.querySelectorAll('.' + hash).forEach((e) => {
             e.classList.add('correct');
             e.innerText = guess;
@@ -306,12 +315,14 @@ const submitGuess = function (guess) {
                 }, 1100);
             }, 250);
         });
+        if (answerSet.size === 0) {
+            endQuestion();
+        }
     } else {
         strikes++;
         document.getElementById('strike' + strikes).removeAttribute('hidden');
         if (strikes === 3) {
-            guessInput.setAttribute('hidden', '');
-            updateStatusMsg('Better luck next time.');
+            endQuestion();
         }
         guessInput.classList.add('incorrect');
         setTimeout(() => {
@@ -322,8 +333,50 @@ const submitGuess = function (guess) {
             }, 1100);
         }, 500);
     }
-    console.log(guess);
-    // TODO
+}
+
+/**
+ * Ends the current question. If the player has three strikes or gave up, missed answers will be revealed.
+ * @param {boolean} gaveUp player gave up
+ */
+const endQuestion = function (gaveUp = false) {
+    guessInput.setAttribute('hidden', '');
+    if (gaveUp || strikes === 3) {
+        updateStatusMsg('Better luck next time.');
+        // Reveal missed answers
+        const tHash = simpleHash(question.title);
+        if (answerSet.has(tHash)) {
+            document.querySelectorAll('.' + tHash).forEach((e) => {
+                e.classList.add('missed');
+                e.innerText = question.title;
+            });
+        }
+        if (Array.isArray(question.joke)) {
+            for (const entry of question.joke) {
+                const jHash = simpleHash(entry.joke);
+                if (answerSet.has(jHash)) {
+                    document.querySelectorAll('.' + jHash).forEach((e) => {
+                        e.classList.add('missed');
+                        e.innerText = entry.joke;
+                    });
+                    answerSet.delete(jHash);
+                }
+            }
+        } else {
+            const jHash = simpleHash(question.joke);
+            if (answerSet.has(jHash)) {
+                document.querySelectorAll('.' + jHash).forEach((e) => {
+                    e.classList.add('missed');
+                    e.innerText = question.joke;
+                });
+            }
+        }
+    } else {
+        updateStatusMsg('You got it!');
+    }
+    
+    vidPlayer.removeAttribute('hidden');
+    document.getElementById('ripCredits').removeAttribute('hidden');
 }
 
 let statusResetTimeout;

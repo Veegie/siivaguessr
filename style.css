@@ -2,14 +2,18 @@
   color-scheme: light dark;
   --light-color-text: #000000;
   --light-color-bg: #ebebeb;
-  --table-light-even: #ffffff;
-  --table-light-odd: #d7d7d7;
+  --light-table-even: #ffffff;
+  --light-table-odd: #d7d7d7;
+  --light-table-highlight: #87a3f3;
+  --light-missed-answer-highlight: #f67070;
   --dark-color-bg: #242329;
   --dark-color-text: #efefef;
-  --table-dark-even: #323138;
-  --table-dark-odd: #282631;
-  --table-highlight-light: #87a3f3;
+  --dark-table-even: #323138;
+  --dark-table-odd: #282631;
+  --dark-table-highlight: #ffffff;
+  --dark-missed-answer-highlight: #6d1919;
   --correct-answer-highlight: #1d6717;
+  --incorrect-answer-guess-input-flash: #c02e2e;
 }
 
 body,
@@ -87,7 +91,7 @@ main {
   }
 }
 
-main>* {
+main > * {
   width: 100%;
 }
 
@@ -241,13 +245,14 @@ button small {
 }
 
 #guessInput {
-  background-color: light-dark(var(--table-light-odd), var(--table-dark-odd));
+  background-color: light-dark(var(--light-table-odd), var(--dark-table-odd));
 }
 
 #guessInput.incorrect {
-  background-color: #c02e2e;
-  animation: shake .4s ease-in-out;
+  background-color: var(--incorrect-answer-guess-input-flash);
+  animation: shake 0.4s ease-in-out;
 }
+
 @keyframes shake {
   0% {
     transform: translateX(0);
@@ -308,6 +313,28 @@ button small {
   font-size: 1.5rem;
 }
 
+#ripInfoContainer {
+  display: flex;
+  column-gap: 1rem;
+  flex-direction: column;
+}
+
+.answer-group {
+  display: flex;
+  column-gap: 1rem;
+}
+
+.answer-group > span {
+  display: flex;
+  flex: 1;
+  justify-content: end;
+}
+
+.answer-group > span:nth-child(2) {
+  justify-content: start;
+  text-align: left;
+}
+
 #multiJokeDisplay {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -330,22 +357,12 @@ button small {
 .multi-joke-entry {
   display: flex;
   justify-content: center;
-  margin-bottom: 0.2rem;
+  margin-bottom: 4px;
   height: 3rem;
   break-inside: avoid;
 }
 
-.multi-joke-entry>.multi-joke-timestamp,
-.multi-joke-entry>.multi-joke-joke {
-  background-color: light-dark(var(--table-light-odd), var(--table-dark-odd));
-}
-
-.multi-joke-entry:nth-child(2n)>.multi-joke-timestamp,
-.multi-joke-entry:nth-child(2n)>.multi-joke-joke {
-  background-color: light-dark(var(--table-light-even), var(--table-dark-even));
-}
-
-.multi-joke-entry>div {
+.multi-joke-entry > div {
   padding: 0.25rem;
 }
 
@@ -367,15 +384,58 @@ button small {
   word-break: break-word;
 }
 
-.multi-joke-entry>.multi-joke-joke.correct,
-.multi-joke-entry:nth-child(2n)>.multi-joke-joke.correct {
+.multi-joke-entry > .multi-joke-timestamp,
+.multi-joke-entry > .multi-joke-joke {
+  background-color: light-dark(var(--light-table-odd), var(--dark-table-odd));
+}
+
+.multi-joke-entry:nth-child(2n) > .multi-joke-timestamp,
+.multi-joke-entry:nth-child(2n) > .multi-joke-joke {
+  background-color: light-dark(var(--light-table-even), var(--dark-table-even));
+}
+
+.multi-joke-entry > .multi-joke-joke.correct,
+.multi-joke-entry:nth-child(2n) > .multi-joke-joke.correct {
   background-color: var(--correct-answer-highlight);
   color: #ffffff;
 }
 
+.multi-joke-joke.missed,
+.multi-joke-entry:nth-child(2n) > .multi-joke-joke.missed {
+  background-color: light-dark(
+    var(--light-missed-answer-highlight),
+    var(--dark-missed-answer-highlight)
+  );
+}
+
 .free-text-answer.correct {
-  filter: drop-shadow(0px 0px 7px var(--correct-answer-highlight)) drop-shadow(0px 0px 7px var(--correct-answer-highlight));
+  filter: drop-shadow(0px 0px 7px var(--correct-answer-highlight))
+    drop-shadow(0px 0px 7px var(--correct-answer-highlight));
   color: #ffffff;
+}
+
+.free-text-answer.missed {
+  filter: drop-shadow(
+      0px 0px 7px
+        light-dark(
+          var(--light-missed-answer-highlight),
+          var(--dark-missed-answer-highlight)
+        )
+    )
+    drop-shadow(
+      0px 0px 7px
+        light-dark(
+          var(--light-missed-answer-highlight),
+          var(--dark-missed-answer-highlight)
+        )
+    )
+    drop-shadow(
+      0px 0px 7px
+        light-dark(
+          var(--light-missed-answer-highlight),
+          var(--dark-missed-answer-highlight)
+        )
+    );
 }
 
 .fade {
@@ -383,8 +443,10 @@ button small {
 }
 
 .multi-joke-timestamp.highlight {
-  background-color: light-dark(var(--table-highlight-light),
-      #ffffff) !important;
+  background-color: light-dark(
+    var(--light-table-highlight),
+    var(--dark-table-highlight)
+  ) !important;
   color: #000000;
   text-shadow: none;
   font-weight: 900;
@@ -420,7 +482,7 @@ footer p {
 }
 
 footer aside {
-  margin: 2rem 0 0.25rem;
+  margin: 1rem 0 0.25rem;
 }
 
 /*********** Baseline, reset styles ***********/
@@ -582,15 +644,15 @@ input[type="range"]:focus::-moz-range-thumb {
   border-radius: 20px;
 }
 
-input:checked+.slider {
+input:checked + .slider {
   background-color: #28a41c;
 }
 
-input:focus+.slider {
+input:focus + .slider {
   box-shadow: 0 0 1px #145a0e;
 }
 
-input:checked+.slider:before {
+input:checked + .slider:before {
   transform: translateX(21px);
 }
 
@@ -604,7 +666,7 @@ input:checked+.slider:before {
   opacity: 0;
 }
 
-#sickoSwitchHelpIcon:hover~#sickoSwitchHelpText {
+#sickoSwitchHelpIcon:hover ~ #sickoSwitchHelpText {
   visibility: visible;
   opacity: 1;
 }

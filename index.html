@@ -117,27 +117,26 @@
                     </div>
                 </div>
 
-                <div hidden id="singleJokeResult">
-                    <h3 hidden id="correct">You got it!</h3>
-                    <h3 hidden id="incorrect">Better luck next time.</h3>
-                </div>
-
                 <div hidden id="multiJokeResult">
                     <h3>You got <span id="percentCorrect"></span>%!</h3>
                     <h4>(<span id="multiCorrect"></span> out of <span id="multiTotal"></span>)</h4>
                 </div>
 
-                <div class="m-1">
-                    <span>Source Track:</span> <span class="free-text-answer" id="sTAns">____________</span>
-                </div>
-
-                <div hidden id="singleJokeDisplay">
-                    <span>Joke:</span> <span class="free-text-answer" id="jAns">____________</span>
+                <div class="m-1" id="ripInfoContainer">
+                    <div class="answer-group">
+                        <span>Source Track:</span> <span class="free-text-answer" id="stAns">____________</span>
+                    </div>
+                    <div class="answer-group">
+                        <span id="singleJokeLabel">Joke:</span><span class="free-text-answer" id="jAns">____________</span>
+                    </div>
                 </div>
 
                 <div hidden class="my-1" id="ripCredits">
-                    <span id="credit">Rip created by <span id="ripArtist"></span></span>
-                    <div id="wikiLink"></div>
+                    <span hidden id="credit">Rip created by <span id="ripArtist"></span></span>
+                    <span hidden id="creditUnknown">Rip artist unknown</span>
+                    <div>
+                        <a id="wikiLink" rel="noopener noreferrer" target="_blank" href="/"><small>⧉</small> Wiki</a>
+                    </div>
                 </div>
 
                 <div hidden id="multiJokeDisplay" class="my-1">
@@ -172,7 +171,7 @@
                 <h3>What are Reverse and Sicko Mode?</h3>
                 <p>In Normal Mode, the video will be shown on the page along with the source track name, and you'll have to guess the joke.</p>
                 <p>In Reverse Mode, the video will be hidden, the joke will already be revealed, and you have to guess the <em>source track</em> based on the audio. Some daily songs will be in Reverse Mode.</p>
-                <p>In Sicko Mode, the video will be hidden, and you'll have to guess <em>both</em> the joke and the source track based on the rip audio.</p>
+                <p>In Sicko Mode, the video will be hidden, and you'll have to guess <em>both</em> the joke and the source track based on the audio.</p>
                 <h3>This seems hard!</h3>
                 <p>It is! Unlike most <a href="https://dles.aukspot.com/" target="_blank" rel="noopener noreferrer">'dles</a>, there's no easy way to hint or provide extra information about how close a guess is to the answer. You either know it or you don't. Don't take it too seriously, and just have fun.</p>
                 <h3>One of the answers is wrong!</h3>
