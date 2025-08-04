@@ -59728,7 +59728,7 @@ const db = {
 		{"time": "2:59", "joke": "Krab Borg - Spongebob Squarepants"}],
         "artist": "Eva Twin"},
 "zq2tm0OIap8": {
-	"title": "Rec Room (Original Version) - Super Mario 64 DS",
+	"title": "Rec Room - Super Mario 64 DS",
 	"wiki": "https://siivagunner.wiki/wiki/Rec%20Room%20(Original%20Version)%20-%20Super%20Mario%2064%20DS",
 	"joke": [
 		{"time": "0:00", "joke": "Puttin' on the Ritz - Irving Berlin / Taco"},

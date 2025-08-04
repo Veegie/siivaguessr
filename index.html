@@ -122,12 +122,12 @@
                     <h4>(<span id="multiCorrect"></span> out of <span id="multiTotal"></span>)</h4>
                 </div>
 
-                <div class="m-1" id="ripInfoContainer">
-                    <div class="answer-group">
+                <div id="ripInfoContainer">
+                    <div class="answer-group my-1">
                         <span>Source Track:</span> <span class="free-text-answer" id="stAns">____________</span>
                     </div>
-                    <div class="answer-group">
-                        <span id="singleJokeLabel">Joke:</span><span class="free-text-answer" id="jAns">____________</span>
+                    <div id="singleJokeDisplay" class="answer-group">
+                        <span>Joke:</span><span class="free-text-answer" id="jAns">____________</span>
                     </div>
                 </div>
 
@@ -144,6 +144,17 @@
                         <div class="multi-joke-entry">
                             <div class="multi-joke-timestamp">0:00</div>
                             <div class="multi-joke-joke"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="giveUpContainer" class="my-1">
+                    <button id="giveUpBtn" type="button" class="text-btn text-sm">Give Up</button>
+                    <div hidden id="giveUpConfirm">
+                        <small>Give up on this question and reveal answer(s)?</small>
+                        <div>
+                            <button id="giveUpCancelBtn" type="button" class="text-btn text-sm">No</button>
+                            <button id="giveUpConfirmBtn" type="button" class="text-btn text-sm">Yes</button>
                         </div>
                     </div>
                 </div>

@@ -37,11 +37,14 @@ const volumeSlider = document.getElementById('volumeSlider');
 const statusMsgElem = document.getElementById('statusMsg');
 const guessInput = document.getElementById('guessInput');
 const autofillOptionsElem = document.getElementById('autofill-options');
+const highlightRanges = new Map();
 let curView = 'loadingView';
 let strikes = 0;
 let question = undefined;
 let answerSet = new Set();
 let guesses = new Set();
+let quiz = [];
+let quizQuestion = -1;
 
 /**
  * Loads a question and cues the corresponding video. When the video is cued,
@@ -58,8 +61,12 @@ const loadQuestion = function (videoHash, mode) {
     document.getElementById('strike2').setAttribute('hidden', '');
     document.getElementById('strike3').setAttribute('hidden', '');
     document.getElementById('ripCredits').setAttribute('hidden', '');
+    document.getElementById('giveUpContainer').removeAttribute('hidden');
+    document.getElementById('giveUpConfirm').setAttribute('hidden','');
+    document.getElementById('giveUpBtn').removeAttribute('hidden');
     question = db[videoHash];
     const sourceTrackHash = simpleHash(question.title);
+    highlightRanges.clear();
     answerSet.clear();
     guesses.clear();
     const sourceTrackAnswerElem = document.getElementById('stAns');
@@ -86,7 +93,7 @@ const loadQuestion = function (videoHash, mode) {
     if (isMultiJoke) {
         populateMultiJokeTable(question.joke);
         jokeAnwserElem.setAttribute('hidden', '');
-        document.getElementById('singleJokeLabel').setAttribute('hidden', '');
+        document.getElementById('singleJokeDisplay').setAttribute('hidden', '');
         document.getElementById('multiJokeDisplay').removeAttribute('hidden');
     } else {
         const jokeAnswerHash = simpleHash(question.joke);
@@ -94,7 +101,7 @@ const loadQuestion = function (videoHash, mode) {
         jokeAnwserElem.className = 'free-text-answer ' + jokeAnswerHash;
         document.getElementById('multiJokeDisplay').setAttribute('hidden', '');
         jokeAnwserElem.removeAttribute('hidden');
-        document.getElementById('singleJokeLabel').removeAttribute('hidden');
+        document.getElementById('singleJokeDisplay').removeAttribute('hidden');
     }
     if (question.artist === 'Unknown Ripper') {
         document.getElementById('creditUnknown').removeAttribute('hidden');
@@ -104,10 +111,9 @@ const loadQuestion = function (videoHash, mode) {
         document.getElementById('credit').removeAttribute('hidden');
         document.getElementById('creditUnknown').setAttribute('hidden', '');
     }
-    document.getElementById('wikiLink').href = question.wiki;
+    document.getElementById('wikiLink').href = '/';
     ytPlayer.cueVideoById(videoHash);
 };
-
 
 /**
  * Populates the HTML for a multi-joke question.
@@ -144,10 +150,23 @@ const populateMultiJokeTable = function (jokesArray) {
         // Avoid duplicate IDs if two jokes share the same timestamp
         while (document.getElementById(id)) {
             num++;
-            id = id + seconds + '-' + num;
+            id = 'jokeAt' + seconds + '-' + num;
         }
         entryElem.children[0].id = id;
         entryElem.children[0].dataset.seconds = seconds;
+        if (jokeEntry.time.indexOf('-') !== -1) {
+            const startEndTime = jokeEntry.time.split('-');
+            const startHighlightAt = timestampToSeconds(startEndTime[0]);
+            const endHighlightAt = timestampToSeconds(startEndTime[1]);
+            entryElem.children[0].dataset.startHighlightAt = startHighlightAt;
+            entryElem.children[0].dataset.endHighlightAt = endHighlightAt;
+            for (let i = startHighlightAt; i <= endHighlightAt; i++) {
+                if (!highlightRanges.get(i)) {
+                    highlightRanges.set(i, []);
+                }
+                highlightRanges.get(i).push(entryElem.children[0]);
+            }
+        }
         entryElem.children[1].classList.add(simpleHash(jokeEntry.joke));
         multiJokeContainer.appendChild(entryElem);
     }
@@ -228,7 +247,7 @@ const simpleHash = function (str, fixLength = true) {
  * @returns the number of seconds from 00:00:00 to the timestamp
  */
 const timestampToSeconds = function (timestamp) {
-    const parts = timestamp.trim().split(':');
+    const parts = timestamp.indexOf('-') !== -1 ? timestamp.substring(0, timestamp.indexOf('-')).trim().split(':') : timestamp.trim().split(':');
     if (parts.length === 3) {
         return parseInt(parts[0]) * 3600 + parseInt(parts[1]) * 60 + parseInt(parts[2]);
     } else {
@@ -374,8 +393,9 @@ const endQuestion = function (gaveUp = false) {
     } else {
         updateStatusMsg('You got it!');
     }
-    
+
     vidPlayer.removeAttribute('hidden');
+    document.getElementById('wikiLink').href = question.wiki;
     document.getElementById('ripCredits').removeAttribute('hidden');
 }
 
@@ -637,18 +657,35 @@ function onVideoStateChange(event) {
  * @param {number} seconds the number of seconds elapsed in the current song
  */
 const updateMultiJokeHighlight = function (seconds) {
-    let nextHighlight = document.getElementById('jokeAt' + seconds);
-    while (seconds >= 0 && !nextHighlight) {
-        seconds--;
-        nextHighlight = document.getElementById('jokeAt' + seconds);
+    let checkSeconds = seconds;
+    let nextHighlight = document.getElementById('jokeAt' + checkSeconds);
+    while (checkSeconds >= 0 && !nextHighlight) {
+        checkSeconds--;
+        nextHighlight = document.getElementById('jokeAt' + checkSeconds);
     }
     if (!nextHighlight || !nextHighlight.classList.contains('highlight')) {
-        multiJokeContainer.querySelectorAll('.multi-joke-timestamp.highlight').forEach((e) => e.classList.remove('highlight'));
+        multiJokeContainer.querySelectorAll('.multi-joke-timestamp.highlight').forEach((e) => {
+            if (!e.dataset.endHighlightAt
+                || parseInt(e.dataset.endHighlightAt) < seconds
+                || parseInt(e.dataset.startHighlightAt) > seconds) {
+                e.classList.remove('highlight');
+            }
+        });
     }
     if (nextHighlight && !nextHighlight.classList.contains('highlight')) {
         nextHighlight.classList.add('highlight');
+        let suffix = 1;
+        while (document.getElementById('jokeAt' + seconds + '-' + suffix)) {
+            document.getElementById('jokeAt' + seconds + '-' + suffix).classList.add('highlight');
+            suffix++;
+        }
         const dispElem = document.getElementById('multiJokeDisplay');
         dispElem.scrollTo({ top: nextHighlight.offsetTop - (dispElem.offsetHeight / 2), behavior: 'smooth' });
+    }
+    if (highlightRanges.get(seconds)) {
+        for (const elem of highlightRanges.get(seconds)) {
+            elem.classList.add('highlight');
+        }
     }
 }
 
@@ -720,6 +757,21 @@ if (localStorage.getItem('dailySicko') !== null) {
     }
 }
 
+document.getElementById('giveUpBtn').addEventListener('click', function() {
+    document.getElementById('giveUpBtn').setAttribute('hidden','');
+    document.getElementById('giveUpConfirm').removeAttribute('hidden');
+});
+
+document.getElementById('giveUpCancelBtn').addEventListener('click', function() {
+    document.getElementById('giveUpConfirm').setAttribute('hidden','');
+    document.getElementById('giveUpBtn').removeAttribute('hidden');
+});
+
+document.getElementById('giveUpConfirmBtn').addEventListener('click', function() {
+    document.getElementById('giveUpContainer').setAttribute('hidden','');
+    endQuestion(true);
+});
+
 // Basic email obfuscation. Apparently, surprisingly effective despite its simplicity.
 const a = document.getElementById('enail');
 a.setAttribute('href', a.getAttribute('href')
@@ -731,9 +783,7 @@ a.setAttribute('href', a.getAttribute('href')
 
 const updateTimeCode = function () {
     curTimeCode.innerText = durationToTimeCode(parseInt(seekBar.value));
-    if (answerSet.size > 1) {
-        updateMultiJokeHighlight(parseInt(seekBar.value));
-    }
+    updateMultiJokeHighlight(parseInt(seekBar.value));
 }
 
 // Script is deferred, so only switch to startView after everything is loaded.
