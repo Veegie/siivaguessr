@@ -28,7 +28,7 @@
                         <span>Sicko Mode</span>
                     </label>
                     <span id="sickoSwitchHelpIcon">🛈</span>
-                    <span id="sickoSwitchHelpText">When enabled, you must guess both the source track <em>and</em> the joke.</span>
+                    <span id="sickoSwitchHelpText" class="tooltip">When enabled, you must guess both the source track <em>and</em> the joke.</span>
                 </div>
                 <button id="customQuizBtn" class="text-btn mx-1" type="button">Custom Quiz</button>
                 <div>
@@ -157,6 +157,11 @@
                             <button id="giveUpConfirmBtn" type="button" class="text-btn text-sm">Yes</button>
                         </div>
                     </div>
+                </div>
+
+                <div id="shareResults" class="my-1">
+                    <div hidden id="shareResultsMsg">Copied to clipboard!</div>
+                    <button id="shareResultsBtn" type="button" class="text-btn text-sm p-0">Share Results</button>
                 </div>
             </div>
 

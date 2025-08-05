@@ -132,6 +132,10 @@ h5 {
   padding-right: 0.5rem;
 }
 
+.p-0 {
+  padding: 0 !important;
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -679,7 +683,7 @@ input:checked + .slider:before {
   opacity: 1;
 }
 
-#sickoSwitchHelpText {
+.tooltip {
   position: absolute;
   background-color: var(--light-color-bg);
   color: var(--light-color-text);
@@ -689,9 +693,12 @@ input:checked + .slider:before {
   border-radius: 12px;
   font-size: 1rem;
   font-weight: 500;
-  width: 12rem;
   bottom: 100%;
   left: 46%;
   transition: opacity 0.25s ease-out;
   box-shadow: 2px 2px 3px black;
+}
+
+#sickoSwitchHelpText {
+  width: 12rem;
 }

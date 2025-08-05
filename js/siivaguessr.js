@@ -1,3 +1,22 @@
+const hide = function (elem) {
+    elem.setAttribute('hidden', '');
+}
+const show = function (elem) {
+    elem.removeAttribute('hidden');
+}
+
+const hideElems = function (idArray) {
+    for (const id of idArray) {
+        hide(document.getElementById(id));
+    }
+}
+
+const showElems = function (idArray) {
+    for (const id of idArray) {
+        show(document.getElementById(id));
+    }
+}
+
 const songSet = new Set();
 for (const hash in db) {
     songSet.add(db[hash].title);
@@ -56,14 +75,9 @@ let quizQuestion = -1;
 const loadQuestion = function (videoHash, mode) {
     showView('loadingView');
     strikes = 0;
-    vidPlayer.setAttribute('hidden', '');
-    document.getElementById('strike1').setAttribute('hidden', '');
-    document.getElementById('strike2').setAttribute('hidden', '');
-    document.getElementById('strike3').setAttribute('hidden', '');
-    document.getElementById('ripCredits').setAttribute('hidden', '');
-    document.getElementById('giveUpContainer').removeAttribute('hidden');
-    document.getElementById('giveUpConfirm').setAttribute('hidden','');
-    document.getElementById('giveUpBtn').removeAttribute('hidden');
+    hide(vidPlayer);
+    hideElems(['strike1', 'strike2', 'strike3', 'ripCredits', 'giveUpConfirm']);
+    showElems(['giveUpContainer', 'giveUpBtn']);
     question = db[videoHash];
     const sourceTrackHash = simpleHash(question.title);
     highlightRanges.clear();
@@ -74,10 +88,9 @@ const loadQuestion = function (videoHash, mode) {
     sourceTrackAnswerElem.className = 'free-text-answer ' + sourceTrackHash;
     const jokeAnwserElem = document.getElementById('jAns');
     jokeAnwserElem.innerText = '____________';
-    vidPlayer.setAttribute('hidden', '');
     switch (mode) {
         case QuestionMode.NORMAL:
-            vidPlayer.removeAttribute('hidden');
+            show(vidPlayer);
             sourceTrackAnswerElem.innerText = question.title;
             updateStatusMsg('Guess the joke!')
             break;
@@ -92,24 +105,24 @@ const loadQuestion = function (videoHash, mode) {
     const isMultiJoke = Array.isArray(question.joke);
     if (isMultiJoke) {
         populateMultiJokeTable(question.joke);
-        jokeAnwserElem.setAttribute('hidden', '');
-        document.getElementById('singleJokeDisplay').setAttribute('hidden', '');
-        document.getElementById('multiJokeDisplay').removeAttribute('hidden');
+        hide(jokeAnwserElem);
+        hide(document.getElementById('singleJokeDisplay'));
+        show(document.getElementById('multiJokeDisplay'));
     } else {
         const jokeAnswerHash = simpleHash(question.joke);
         answerSet.add(jokeAnswerHash);
         jokeAnwserElem.className = 'free-text-answer ' + jokeAnswerHash;
-        document.getElementById('multiJokeDisplay').setAttribute('hidden', '');
-        jokeAnwserElem.removeAttribute('hidden');
-        document.getElementById('singleJokeDisplay').removeAttribute('hidden');
+        hide(document.getElementById('multiJokeDisplay'));
+        show(jokeAnwserElem);
+        show(document.getElementById('singleJokeDisplay'));
     }
     if (question.artist === 'Unknown Ripper') {
-        document.getElementById('creditUnknown').removeAttribute('hidden');
-        document.getElementById('credit').setAttribute('hidden', '');
+        show(document.getElementById('creditUnknown'));
+        hide(document.getElementById('credit'));
     } else {
         document.getElementById('ripArtist').innerText = question.artist;
-        document.getElementById('credit').removeAttribute('hidden');
-        document.getElementById('creditUnknown').setAttribute('hidden', '');
+        show(document.getElementById('credit'));
+        hide(document.getElementById('creditUnknown'));
     }
     document.getElementById('wikiLink').href = '/';
     ytPlayer.cueVideoById(videoHash);
@@ -260,27 +273,18 @@ const timestampToSeconds = function (timestamp) {
  * @param {string} id HTML ID of the view to switch to
  */
 const showView = function (id) {
-    document.getElementById(curView).setAttribute('hidden', '');
-    document.getElementById(id).removeAttribute('hidden');
+    hide(document.getElementById(curView));
+    show(document.getElementById(id));
     curView = id;
     if (backNavViews.includes(curView)) {
-        backBtn.removeAttribute('hidden');
+        show(backBtn);
     } else {
-        backBtn.setAttribute('hidden', '');
+        hide(backBtn);
     }
     if (id !== 'startView') {
         document.getElementById('logo').className = 'img-small';
     }
 }
-
-document.querySelectorAll('#modeView button').forEach((e) => {
-    e.addEventListener('mouseenter', function (e) {
-        document.getElementById(this.dataset.mode + 'HelpText').removeAttribute('hidden');
-    })
-    e.addEventListener('mouseleave', function (e) {
-        document.getElementById(this.dataset.mode + 'HelpText').setAttribute('hidden', '');
-    });
-})
 
 document.getElementById('dailyBtn').addEventListener('click', () => {
     const sickoMode = document.getElementById('dailySickoSwitch').checked;
@@ -299,7 +303,7 @@ document.getElementById('backBtn').addEventListener('click', function () {
 });
 
 const beforeUnloadHandler = (event) => { event.preventDefault(); };
-// TODO - add/remove listener when unsaved changes
+// TODO - add/remove listener when unsaved changes or in question
 // addEventListener('beforeunload', beforeUnloadHandler);
 
 backBtn.addEventListener('click', function () {
@@ -312,7 +316,7 @@ backBtn.addEventListener('click', function () {
  * @param {string} guess the title being guessed
  */
 const submitGuess = function (guess) {
-    autofillOptionsElem.setAttribute('hidden', '');
+    hide(autofillOptionsElem);
     clearActiveAutofillOption();
     guessInput.value = '';
     const hash = simpleHash(guess);
@@ -339,7 +343,7 @@ const submitGuess = function (guess) {
         }
     } else {
         strikes++;
-        document.getElementById('strike' + strikes).removeAttribute('hidden');
+        show(document.getElementById('strike' + strikes));
         if (strikes === 3) {
             endQuestion();
         }
@@ -359,7 +363,8 @@ const submitGuess = function (guess) {
  * @param {boolean} gaveUp player gave up
  */
 const endQuestion = function (gaveUp = false) {
-    guessInput.setAttribute('hidden', '');
+    hide(guessInput);
+    hide(document.getElementById('giveUpContainer'));
     if (gaveUp || strikes === 3) {
         updateStatusMsg('Better luck next time.');
         // Reveal missed answers
@@ -394,9 +399,9 @@ const endQuestion = function (gaveUp = false) {
         updateStatusMsg('You got it!');
     }
 
-    vidPlayer.removeAttribute('hidden');
+    show(vidPlayer);
     document.getElementById('wikiLink').href = question.wiki;
-    document.getElementById('ripCredits').removeAttribute('hidden');
+    show(document.getElementById('ripCredits'));
 }
 
 let statusResetTimeout;
@@ -449,7 +454,7 @@ const updateAutocomplete = function () {
     lastGuessInputLength = this.value.length;
     // Only update if at least two characters.
     if (this.value.length < 2) {
-        autofillOptionsElem.setAttribute('hidden', '');
+        hide(autofillOptionsElem);
         clearActiveAutofillOption();
         return;
     }
@@ -480,26 +485,26 @@ const updateAutocomplete = function () {
             optionSource.innerText = filteredSongs[i].substring(lastDividerIndex + 3);
         }
         optionElem.dataset.guessVal = filteredSongs[i];
-        optionElem.removeAttribute('hidden');
+        show(optionElem);
         lastVisibleMatchIndex++;
     }
     if (lastVisibleMatchIndex === -1) {
-        autofillOptionsElem.setAttribute('hidden', '');
+        hide(autofillOptionsElem);
         clearActiveAutofillOption();
         return;
     }
     for (let i = lastVisibleMatchIndex + 1; i < 10; i++) {
-        document.getElementById('autofill-' + i).setAttribute('hidden', '');
+        hide(document.getElementById('autofill-' + i));
     }
     activeAutofillOption = 0;
     document.getElementById('autofill-0').classList.add('active');
-    autofillOptionsElem.removeAttribute('hidden');
+    show(autofillOptionsElem);
 }
 
 guessInput.addEventListener('click', updateAutocomplete);
 guessInput.addEventListener('input', updateAutocomplete);
 guessInput.addEventListener('blur', function () {
-    autofillOptionsElem.setAttribute('hidden', '');
+    hide(autofillOptionsElem);
     clearActiveAutofillOption();
 });
 
@@ -572,9 +577,9 @@ const swapIcon = function (btnElement) {
             return;
         }
         if (e.getAttribute('hidden') !== null) {
-            e.removeAttribute('hidden');
+            show(e);
         } else {
-            e.setAttribute('hidden', '');
+            hide(e);
         }
     })
 }
@@ -592,11 +597,11 @@ playPauseBtn.addEventListener('click', function () {
 
 const updateVolume = function () {
     if (volumeSlider.value === '0') {
-        document.getElementById('volumeIcon').setAttribute('hidden', '');
-        document.getElementById('mutedIcon').removeAttribute('hidden');
+        hide(document.getElementById('volumeIcon'));
+        show(document.getElementById('mutedIcon'));
     } else {
-        document.getElementById('volumeIcon').removeAttribute('hidden');
-        document.getElementById('mutedIcon').setAttribute('hidden', '');
+        show(document.getElementById('volumeIcon'));
+        hide(document.getElementById('mutedIcon'));
     }
     ytPlayer.setVolume(parseInt(volumeSlider.value));
     localStorage.setItem('lastVolume', volumeSlider.value);
@@ -635,19 +640,19 @@ function onVideoStateChange(event) {
             seekBar.value = Math.floor(ytPlayer.getCurrentTime());
             updateTimeCode();
         }, 300);
-        playIcon.setAttribute('hidden', '');
-        pauseIcon.removeAttribute('hidden');
+        hide(playIcon);
+        show(pauseIcon);
     } else {
         clearInterval(timeCodeUpdateInterval);
-        playIcon.removeAttribute('hidden');
-        pauseIcon.setAttribute('hidden', '');
+        show(playIcon);
+        hide(pauseIcon);
     }
     if (event.data === -1) {
         seekBar.value = '0';
         seekBar.max = ytPlayer.getDuration();
         durationTimeCode.innerText = durationToTimeCode(ytPlayer.getDuration());
         updateTimeCode();
-        playbackControls.removeAttribute('hidden');
+        show(playbackControls);
         showView('ripView');
     }
 }
@@ -757,19 +762,28 @@ if (localStorage.getItem('dailySicko') !== null) {
     }
 }
 
-document.getElementById('giveUpBtn').addEventListener('click', function() {
-    document.getElementById('giveUpBtn').setAttribute('hidden','');
-    document.getElementById('giveUpConfirm').removeAttribute('hidden');
+document.getElementById('giveUpBtn').addEventListener('click', function () {
+    hide(document.getElementById('giveUpBtn'))
+    show(document.getElementById('giveUpConfirm'));
 });
 
-document.getElementById('giveUpCancelBtn').addEventListener('click', function() {
-    document.getElementById('giveUpConfirm').setAttribute('hidden','');
-    document.getElementById('giveUpBtn').removeAttribute('hidden');
+document.getElementById('giveUpCancelBtn').addEventListener('click', function () {
+    hide(document.getElementById('giveUpConfirm'))
+    show(document.getElementById('giveUpBtn'));
 });
 
-document.getElementById('giveUpConfirmBtn').addEventListener('click', function() {
-    document.getElementById('giveUpContainer').setAttribute('hidden','');
+document.getElementById('giveUpConfirmBtn').addEventListener('click', function () {
     endQuestion(true);
+});
+
+document.getElementById('shareResultsBtn').addEventListener('click', function () {
+    // TODO - copy results
+    hide(document.getElementById('shareResultsBtn'));
+    show(document.getElementById('shareResultsMsg'));
+    setTimeout(() => {
+        show(document.getElementById('shareResultsBtn'));
+        hide(document.getElementById('shareResultsMsg'));
+    }, 3000);
 });
 
 // Basic email obfuscation. Apparently, surprisingly effective despite its simplicity.
@@ -785,7 +799,5 @@ const updateTimeCode = function () {
     curTimeCode.innerText = durationToTimeCode(parseInt(seekBar.value));
     updateMultiJokeHighlight(parseInt(seekBar.value));
 }
-
-// Script is deferred, so only switch to startView after everything is loaded.
 
 //TODO - add block around script to prevent basic console sniffing
