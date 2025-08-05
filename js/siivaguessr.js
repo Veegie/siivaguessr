@@ -39,8 +39,7 @@ const dateToString = function (date) {
     return date.getFullYear().toString() + (date.getMonth() + 1).toString().padStart(2, '0') + date.getDate().toString().padStart(2, '0');
 };
 
-const today = dateToString(new Date());
-const daily = dailies[today];
+const daily = dailies[dateToString(new Date())];
 const backNavViews = ['customQuizView', 'createCustomQuizView', 'helpView'];
 const backBtn = document.getElementById('backBtn');
 const vidPlayer = document.getElementById('vidPlayer');
@@ -75,9 +74,8 @@ let quizQuestion = -1;
 const loadQuestion = function (videoHash, mode) {
     showView('loadingView');
     strikes = 0;
-    hide(vidPlayer);
-    hideElems(['strike1', 'strike2', 'strike3', 'ripCredits', 'giveUpConfirm']);
-    showElems(['giveUpContainer', 'giveUpBtn']);
+    hideElems(['strike1', 'strike2', 'strike3', 'ripCredits', 'giveUpConfirm', 'shareResultsContainer', 'vidPlayer']);
+    showElems(['giveUpContainer', 'giveUpBtn', 'guessInput']);
     question = db[videoHash];
     const sourceTrackHash = simpleHash(question.title);
     highlightRanges.clear();
@@ -92,14 +90,16 @@ const loadQuestion = function (videoHash, mode) {
         case QuestionMode.NORMAL:
             show(vidPlayer);
             sourceTrackAnswerElem.innerText = question.title;
-            updateStatusMsg('Guess the joke!')
+            updateStatusMsg('Guess the joke!');
             break;
         case QuestionMode.REVERSE:
             jokeAnwserElem.innerText = question.joke;
             answerSet.add(sourceTrackHash);
+            updateStatusMsg('Guess the source track!');
             break;
         case QuestionMode.SICKO:
             answerSet.add(sourceTrackHash);
+            updateStatusMsg('Guess the joke, or the source track!');
             break;
     }
     const isMultiJoke = Array.isArray(question.joke);
@@ -296,19 +296,17 @@ document.getElementById('customQuizBtn').addEventListener('click', () => {
 document.getElementById('helpBtn').addEventListener('click', () => {
     showView('helpView');
 });
-document.getElementById('backBtn').addEventListener('click', function () {
-    if (!unsavedChanges || confirm('Unsaved changes will be lost. Continue?')) {
-
+backBtn.addEventListener('click', function () {
+    if (ytPlayer.getPlayerState() === 1 || ytPlayer.getPlayerState() === 3) {
+        ytPlayer.pauseVideo();
     }
-});
+    showView('startView');
+})
 
 const beforeUnloadHandler = (event) => { event.preventDefault(); };
 // TODO - add/remove listener when unsaved changes or in question
 // addEventListener('beforeunload', beforeUnloadHandler);
 
-backBtn.addEventListener('click', function () {
-    showView('startView');
-})
 
 /**
  * Checks the specified string against the current question's answers.
@@ -401,7 +399,11 @@ const endQuestion = function (gaveUp = false) {
 
     show(vidPlayer);
     document.getElementById('wikiLink').href = question.wiki;
-    show(document.getElementById('ripCredits'));
+    showElems(['shareResultsContainer', 'ripCredits']);
+
+    if (quizQuestion === -1) {
+        show(backBtn);
+    }
 }
 
 let statusResetTimeout;

@@ -120,6 +120,30 @@ h5 {
   margin-right: 0.5rem;
 }
 
+.my-2,
+.m-2 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.mx-2,
+.m-2 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.my-3,
+.m-3 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.mx-3,
+.m-3 {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
 .py-1,
 .p-1 {
   padding-top: 0.5rem;
