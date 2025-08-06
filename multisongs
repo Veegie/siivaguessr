@@ -5671,12 +5671,12 @@ CD single art for "Stanky Legg"   {"time": "0:21", "joke": "They Cussed on The R
 	"title": "GET ENUF - Bomb Rush Cyberfunk",
 	"wiki": "https://siivagunner.wiki/wiki/GET%20ENUF%20-%20Bomb%20Rush%20Cyberfunk",
 	"joke": [
-		Joke   {"time": "0:13, 2:14", "joke": "Mechanical JUNGLE -"},
-		{"time": "0:28, 3:17", "joke": "CrossFire (Hard Arrange) -"},
-		{"time": "0:54", "joke": "Mechanical JUNGLE (Hard Arrange) -"},
-		{"time": "1:23", "joke": "Interface -"},
-		{"time": "2:30", "joke": "NRG FielD"}],
-	"artist": "COCONABE -"},
+		{"time": "0:13, 2:14", "joke": "Mechanical JUNGLE - Blue Archive"},
+		{"time": "0:28, 3:17", "joke": "CrossFire (Hard Arrange) - Blue Archive"},
+		{"time": "0:54", "joke": "Mechanical JUNGLE (Hard Arrange) - Blue Archive"},
+		{"time": "1:23", "joke": "Interface - Blue Archive"},
+		{"time": "2:30", "joke": "NRG FielD - Blue Archive"}],
+	"artist": "COCONABE"},
 "m6-P-KVxv0c": {
 	"title": "Sneaking (Unused) - Deltarune",
 	"wiki": "https://siivagunner.wiki/wiki/Sneaking%20(Unused)%20-%20Deltarune",

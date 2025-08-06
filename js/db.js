@@ -59783,6 +59783,16 @@ const db = {
 		{"time": "2:53", "joke": "Uncover Secret Fanfare - The Legend of Zelda"},
 		{"time": "3:40", "joke": "Shave and a haircut - Traditional"}],
 	"artist": "overcast07"},
+"VEqQuSpo8GM": {
+	"title": "GET ENUF - Bomb Rush Cyberfunk",
+	"wiki": "https://siivagunner.wiki/wiki/GET%20ENUF%20-%20Bomb%20Rush%20Cyberfunk",
+	"joke": [
+		{"time": "0:13, 2:14", "joke": "Mechanical JUNGLE - Blue Archive"},
+		{"time": "0:28, 3:17", "joke": "CrossFire (Hard Arrange) - Blue Archive"},
+		{"time": "0:54", "joke": "Mechanical JUNGLE (Hard Arrange) - Blue Archive"},
+		{"time": "1:23", "joke": "Interface - Blue Archive"},
+		{"time": "2:30", "joke": "NRG FielD - Blue Archive"}],
+	"artist": "COCONABE"}
 };
 
 const QuestionMode = {

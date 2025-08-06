@@ -30,9 +30,9 @@
                     <span id="sickoSwitchHelpIcon">🛈</span>
                     <span id="sickoSwitchHelpText" class="tooltip">When enabled, you must guess both the source track <em>and</em> the joke.</span>
                 </div>
-                <button id="customQuizBtn" class="text-btn mx-1" type="button">Custom Quiz</button>
+                <button id="customQuizBtn" class="text-btn text-sm mx-1" type="button">Custom Quiz</button>
                 <div>
-                    <button id="helpBtn" class="text-btn mx-1" type="button">Help</button>
+                    <button id="helpBtn" class="text-btn text-sm mx-1" type="button">Help</button>
                 </div>
             </nav>
             <div hidden id="ripView">
@@ -62,6 +62,9 @@
                     </div>
                 </div>
 
+                <button hidden id="nextQuestionBtn" type="button" class="text-btn text-sm">Next Question →</button>
+                <button hidden id="quizResultsBtn" type="button" class="text-btn text-sm">View Final Results</button>
+                <div hidden id="multiCorrect"></div>
                 <div id="statusRow">
                     <div id="statusMsg">Name the joke, or the source track!</div>
                     <div>
@@ -117,11 +120,6 @@
                     </div>
                 </div>
 
-                <div hidden id="multiJokeResult">
-                    <h3>You got <span id="percentCorrect"></span>%!</h3>
-                    <h4>(<span id="multiCorrect"></span> out of <span id="multiTotal"></span>)</h4>
-                </div>
-
                 <div id="ripInfoContainer">
                     <div class="answer-group my-1 px-1">
                         <span>Source Track:</span> <span class="free-text-answer" id="stAns">____________</span>
@@ -161,18 +159,18 @@
 
                 <div hidden id="shareResultsContainer" class="my-3">
                     <div hidden id="shareResultsMsg">Copied to clipboard!</div>
-                    <button id="shareResultsBtn" type="button" class="text-btn text-sm p-0">Share Results</button>
+                    <button id="shareResultsBtn" type="button" class="text-btn text-sm">Share Results</button>
                 </div>
             </div>
 
             <div hidden id="customQuizView">
                 <div class="row">
                     <label for="quizCodeInput">Enter Custom Quiz Code:</label>
-                    <span><input class="mx-1" id="quizCodeInput">
-                        <button type="button" class="text-btn" disabled>Play</button></span>
+                    <input class="mx-1" id="quizCodeInput">
+                    <button type="button" class="text-btn" disabled>Play</button>
                 </div>
                 <div>or</div>
-                <button id="createCustomQuizBtn" type="button" class="text-btn">Create Custom Quiz</button>
+                <button id="createCustomQuizBtn" type="button" class="text-btn text-sm">Create Custom Quiz</button>
             </div>
 
             <div hidden id="createCustomQuizView">
@@ -197,7 +195,7 @@
                 <p><small><sup>1</sup> No, I did not use an LLM.<sup>2</sup></small></p>
                 <p class="my-1"><small><sup>2</sup> No, I do not want to use an LLM.</small></p>
                 <h3>I'm making a custom quiz, and you're missing a song I want to use.</h3>
-                <p>As of this writing, the database contains approximately 12,000 songs, or roughly a third of the channel's uploads. I'd ideally like to add as many as possible, but it's a pretty tedious process. There's no existing database suitable for this purpose, so it all has to be cobbled together by hand (with a few programming shortcuts, of course).</p>
+                <p>As of this writing, the database contains approximately 12,000 songs, or roughly a third of the channel's uploads. I'd ideally like to add as many as possible, but it's a pretty tedious process. There's no existing database suitable for this purpose, so it all has to be cobbled together by hand (with a few programming shortcuts, of course). I'll do my best to keep people apprised of any updates to the database.</p>
             </div>
             <nav>
                 <button hidden id="backBtn" class="text-btn">↩ Back</button>

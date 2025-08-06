@@ -1,21 +1,25 @@
-const hide = function (elem) {
-    elem.setAttribute('hidden', '');
-}
-const show = function (elem) {
-    elem.removeAttribute('hidden');
-}
-
-const hideElems = function (idArray) {
-    for (const id of idArray) {
-        hide(document.getElementById(id));
+const hide = function (val) {
+    if (Array.isArray(val)) {
+        for (const elem of val) {
+            hide(elem);
+        }
+    } else if (val instanceof HTMLElement) {
+        val.setAttribute('hidden', '');
+    } else {
+        document.getElementById(val).setAttribute('hidden', '');
     }
-}
-
-const showElems = function (idArray) {
-    for (const id of idArray) {
-        show(document.getElementById(id));
+};
+const show = function (val) {
+    if (Array.isArray(val)) {
+        for (const elem of val) {
+            show(elem);
+        }
+    } else if (val instanceof HTMLElement) {
+        val.removeAttribute('hidden');
+    } else {
+        document.getElementById(val).removeAttribute('hidden');
     }
-}
+};
 
 const songSet = new Set();
 for (const hash in db) {
@@ -55,10 +59,13 @@ const volumeSlider = document.getElementById('volumeSlider');
 const statusMsgElem = document.getElementById('statusMsg');
 const guessInput = document.getElementById('guessInput');
 const autofillOptionsElem = document.getElementById('autofill-options');
+const multiJokeContainer = document.getElementById('multiJokeContainer');
+const multiCorrect = document.getElementById('multiCorrect');
 const highlightRanges = new Map();
 let curView = 'loadingView';
 let strikes = 0;
 let question = undefined;
+let multiTotalAnswers = 0;
 let answerSet = new Set();
 let guesses = new Set();
 let quiz = [];
@@ -74,8 +81,8 @@ let quizQuestion = -1;
 const loadQuestion = function (videoHash, mode) {
     showView('loadingView');
     strikes = 0;
-    hideElems(['strike1', 'strike2', 'strike3', 'ripCredits', 'giveUpConfirm', 'shareResultsContainer', 'vidPlayer']);
-    showElems(['giveUpContainer', 'giveUpBtn', 'guessInput']);
+    hide(['strike1', 'strike2', 'strike3', 'ripCredits', 'giveUpConfirm', 'shareResultsContainer', 'quizResultsBtn', 'nextQuestionBtn', 'giveUpContainer', 'giveUpBtn', vidPlayer, multiCorrect]);
+    show(['giveUpBtn', guessInput]);
     question = db[videoHash];
     const sourceTrackHash = simpleHash(question.title);
     highlightRanges.clear();
@@ -102,27 +109,24 @@ const loadQuestion = function (videoHash, mode) {
             updateStatusMsg('Guess the joke, or the source track!');
             break;
     }
-    const isMultiJoke = Array.isArray(question.joke);
-    if (isMultiJoke) {
+    if (Array.isArray(question.joke)) {
         populateMultiJokeTable(question.joke);
-        hide(jokeAnwserElem);
-        hide(document.getElementById('singleJokeDisplay'));
-        show(document.getElementById('multiJokeDisplay'));
+        hide([jokeAnwserElem, 'singleJokeDisplay']);
+        show('multiJokeDisplay');
     } else {
         const jokeAnswerHash = simpleHash(question.joke);
         answerSet.add(jokeAnswerHash);
         jokeAnwserElem.className = 'free-text-answer ' + jokeAnswerHash;
-        hide(document.getElementById('multiJokeDisplay'));
-        show(jokeAnwserElem);
-        show(document.getElementById('singleJokeDisplay'));
+        hide('multiJokeDisplay');
+        show([jokeAnwserElem, 'singleJokeDisplay']);
     }
     if (question.artist === 'Unknown Ripper') {
-        show(document.getElementById('creditUnknown'));
-        hide(document.getElementById('credit'));
+        show('creditUnknown');
+        hide('credit');
     } else {
         document.getElementById('ripArtist').innerText = question.artist;
-        show(document.getElementById('credit'));
-        hide(document.getElementById('creditUnknown'));
+        show('credit');
+        hide('creditUnknown');
     }
     document.getElementById('wikiLink').href = '/';
     ytPlayer.cueVideoById(videoHash);
@@ -134,7 +138,6 @@ const loadQuestion = function (videoHash, mode) {
  * @param {Array} jokesArray array of joke definitions. 
  */
 const populateMultiJokeTable = function (jokesArray) {
-    const multiJokeContainer = document.getElementById('multiJokeContainer');
     multiJokeContainer.innerText = '';
     const entry = document.createElement('div');
     entry.classList.add('multi-joke-entry');
@@ -191,7 +194,8 @@ const populateMultiJokeTable = function (jokesArray) {
                 updateTimeCode();
             });
         }
-    })
+    });
+    multiTotalAnswers = answerSet.size;
 };
 
 /**
@@ -273,8 +277,8 @@ const timestampToSeconds = function (timestamp) {
  * @param {string} id HTML ID of the view to switch to
  */
 const showView = function (id) {
-    hide(document.getElementById(curView));
-    show(document.getElementById(id));
+    hide(curView);
+    show(id);
     curView = id;
     if (backNavViews.includes(curView)) {
         show(backBtn);
@@ -301,10 +305,10 @@ backBtn.addEventListener('click', function () {
         ytPlayer.pauseVideo();
     }
     showView('startView');
-})
+});
 
 const beforeUnloadHandler = (event) => { event.preventDefault(); };
-// TODO - add/remove listener when unsaved changes or in question
+// TODO - add/remove listener when unsaved changes or in question/quiz
 // addEventListener('beforeunload', beforeUnloadHandler);
 
 
@@ -341,8 +345,10 @@ const submitGuess = function (guess) {
         }
     } else {
         strikes++;
-        show(document.getElementById('strike' + strikes));
-        if (strikes === 3) {
+        show('strike' + strikes);
+        if (strikes === 1) {
+            show('giveUpContainer');
+        } else if (strikes === 3) {
             endQuestion();
         }
         guessInput.classList.add('incorrect');
@@ -362,10 +368,27 @@ const submitGuess = function (guess) {
  */
 const endQuestion = function (gaveUp = false) {
     hide(guessInput);
-    hide(document.getElementById('giveUpContainer'));
-    if (gaveUp || strikes === 3) {
-        updateStatusMsg('Better luck next time.');
-        // Reveal missed answers
+    hide('giveUpContainer');
+    const lost = gaveUp || strikes === 3;
+    const isMultiJoke = Array.isArray(question.joke);
+
+    // Display status message
+    if (isMultiJoke) {
+        const gotCount = multiTotalAnswers - answerSet.size;
+        const percentCorrect = Math.floor((gotCount / multiTotalAnswers) * 100);
+        multiCorrect.innerText = 'You got ' + percentCorrect + '%' + (percentCorrect > 50 ? '!' : '')
+        updateStatusMsg('(' + gotCount + ' out of ' + multiTotalAnswers + ')');
+        show(multiCorrect);
+    } else {
+        if (lost) {
+            updateStatusMsg('Better luck next time.');
+        } else {
+            updateStatusMsg('You got it!');
+        }
+    }
+
+    // Reveal any missed answers
+    if (lost) {
         const tHash = simpleHash(question.title);
         if (answerSet.has(tHash)) {
             document.querySelectorAll('.' + tHash).forEach((e) => {
@@ -373,7 +396,7 @@ const endQuestion = function (gaveUp = false) {
                 e.innerText = question.title;
             });
         }
-        if (Array.isArray(question.joke)) {
+        if (isMultiJoke) {
             for (const entry of question.joke) {
                 const jHash = simpleHash(entry.joke);
                 if (answerSet.has(jHash)) {
@@ -393,17 +416,26 @@ const endQuestion = function (gaveUp = false) {
                 });
             }
         }
-    } else {
-        updateStatusMsg('You got it!');
     }
 
-    show(vidPlayer);
     document.getElementById('wikiLink').href = question.wiki;
-    showElems(['shareResultsContainer', 'ripCredits']);
+    show([vidPlayer, 'ripCredits']);
 
     if (quizQuestion === -1) {
-        show(backBtn);
+        show([backBtn, 'shareResultsContainer']);
+    } else {
+        quizQuestion++;
+        if (quizQuestion === quiz.length) {
+            show('quizResultsBtn')
+            endQuiz();
+        } else {
+            show('nextQuestionBtn');
+        }
     }
+}
+
+const endQuiz = function () {
+
 }
 
 let statusResetTimeout;
@@ -465,7 +497,11 @@ const updateAutocomplete = function () {
     // the guess box technically supports regex for free.
     let regexes = [];
     this.value.split(' ').filter((w) => w.trim().length > 0).forEach((w) => {
-        regexes.push(new RegExp(w.trim(), 'i'));
+        try {
+            regexes.push(new RegExp(w.trim(), 'i'));
+        } catch (error) {
+            // Some bad character sequence. Skip this word.
+        }
     });
     if (!regexes.length) {
         return;
@@ -496,7 +532,7 @@ const updateAutocomplete = function () {
         return;
     }
     for (let i = lastVisibleMatchIndex + 1; i < 10; i++) {
-        hide(document.getElementById('autofill-' + i));
+        hide('autofill-' + i);
     }
     activeAutofillOption = 0;
     document.getElementById('autofill-0').classList.add('active');
@@ -599,17 +635,27 @@ playPauseBtn.addEventListener('click', function () {
 
 const updateVolume = function () {
     if (volumeSlider.value === '0') {
-        hide(document.getElementById('volumeIcon'));
-        show(document.getElementById('mutedIcon'));
+        hide('volumeIcon');
+        show('mutedIcon');
     } else {
-        show(document.getElementById('volumeIcon'));
-        hide(document.getElementById('mutedIcon'));
+        show('volumeIcon');
+        hide('mutedIcon');
     }
     ytPlayer.setVolume(parseInt(volumeSlider.value));
     localStorage.setItem('lastVolume', volumeSlider.value);
 }
 
 volumeSlider.addEventListener('input', function () {
+    this.dataset.lastVal = this.value;
+    updateVolume();
+});
+volumeSlider.addEventListener('wheel', function (wheelEvent) {
+    wheelEvent.preventDefault();
+    if (wheelEvent.deltaY < 0) {
+        this.value = parseInt(this.value) + 5;
+    } else if (wheelEvent.deltaY > 0) {
+        this.value = parseInt(this.value) - 5;
+    }
     this.dataset.lastVal = this.value;
     updateVolume();
 });
@@ -765,13 +811,13 @@ if (localStorage.getItem('dailySicko') !== null) {
 }
 
 document.getElementById('giveUpBtn').addEventListener('click', function () {
-    hide(document.getElementById('giveUpBtn'))
-    show(document.getElementById('giveUpConfirm'));
+    hide('giveUpBtn')
+    show('giveUpConfirm');
 });
 
 document.getElementById('giveUpCancelBtn').addEventListener('click', function () {
-    hide(document.getElementById('giveUpConfirm'))
-    show(document.getElementById('giveUpBtn'));
+    hide('giveUpConfirm')
+    show('giveUpBtn');
 });
 
 document.getElementById('giveUpConfirmBtn').addEventListener('click', function () {
@@ -780,11 +826,11 @@ document.getElementById('giveUpConfirmBtn').addEventListener('click', function (
 
 document.getElementById('shareResultsBtn').addEventListener('click', function () {
     // TODO - copy results
-    hide(document.getElementById('shareResultsBtn'));
-    show(document.getElementById('shareResultsMsg'));
+    hide('shareResultsBtn');
+    show('shareResultsMsg');
     setTimeout(() => {
-        show(document.getElementById('shareResultsBtn'));
-        hide(document.getElementById('shareResultsMsg'));
+        show('shareResultsBtn');
+        hide('shareResultsMsg');
     }, 3000);
 });
 
