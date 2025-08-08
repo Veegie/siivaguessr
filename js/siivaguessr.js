@@ -59,6 +59,7 @@ const durationTimeCode = document.getElementById('durationTimeCode');
 const muteBtn = document.getElementById('muteBtn');
 const volumeSlider = document.getElementById('volumeSlider');
 const statusMsgElem = document.getElementById('statusMsg');
+const customQuizHelpTextElem = document.getElementById('customQuizHelpText');
 const guessInput = document.getElementById('guessInput');
 const autofillOptionsElem = document.getElementById('autofill-options');
 const multiJokeContainer = document.getElementById('multiJokeContainer');
@@ -99,16 +100,16 @@ const loadQuestion = function (videoHash, mode) {
         case QuestionMode.NORMAL:
             show(vidPlayer);
             sourceTrackAnswerElem.innerText = question.title;
-            updateStatusMsg('Guess the joke!');
+            updateText(statusMsgElem, 'Guess the joke!');
             break;
         case QuestionMode.REVERSE:
             jokeAnwserElem.innerText = question.joke;
             answerSet.add(sourceTrackHash);
-            updateStatusMsg('Guess the source track!');
+            updateText(statusMsgElem, 'Guess the source track!');
             break;
         case QuestionMode.SICKO:
             answerSet.add(sourceTrackHash);
-            updateStatusMsg('Guess the joke, or the source track!');
+            updateText(statusMsgElem, 'Guess the joke, or the source track!');
             break;
     }
     if (Array.isArray(question.joke)) {
@@ -355,7 +356,7 @@ const submitGuess = function (guess) {
     guessInput.value = '';
     const hash = simpleHash(guess);
     if (guesses.has(hash)) {
-        updateStatusMsg('Already guessed!', 2000);
+        updateText(statusMsgElem, 'Already guessed!', 2000);
         return;
     }
     guesses.add(hash);
@@ -409,13 +410,13 @@ const endQuestion = function (gaveUp = false) {
         const gotCount = multiTotalAnswers - answerSet.size;
         const percentCorrect = Math.floor((gotCount / multiTotalAnswers) * 100);
         multiCorrect.innerText = 'You got ' + percentCorrect + '%' + (percentCorrect > 50 ? '!' : '')
-        updateStatusMsg('(' + gotCount + ' out of ' + multiTotalAnswers + ')');
+        updateText(statusMsgElem, '(' + gotCount + ' out of ' + multiTotalAnswers + ')');
         show(multiCorrect);
     } else {
         if (lost) {
-            updateStatusMsg('Better luck next time.');
+            updateText(statusMsgElem, 'Better luck next time.');
         } else {
-            updateStatusMsg('You got it!');
+            updateText(statusMsgElem, 'You got it!');
         }
     }
 
@@ -473,13 +474,14 @@ const endQuiz = function () {
 let statusResetTimeout;
 let prevStatus;
 /**
- * Updates the status message with the specified string.
+ * Updates the specified element with the specified string.
+ * @param {string} elem reference to the text element to update
  * @param {string} msg the message to display 
  * @param {string} timeout timeout in ms after which the previous message will be displayed
  */
-const updateStatusMsg = function (msg, timeout = 0) {
+const updateText = function (elem, msg, timeout = 0) {
     if (!statusResetTimeout) {
-        prevStatus = statusMsgElem.innerText;
+        prevStatus = elem.innerText;
     } else {
         // Status msg changed while waiting to reset previous temp status.
         clearTimeout(statusResetTimeout);
@@ -487,10 +489,10 @@ const updateStatusMsg = function (msg, timeout = 0) {
     }
     if (timeout) {
         statusResetTimeout = setTimeout(() => {
-            statusMsgElem.innerText = prevStatus;
+            elem.innerText = prevStatus;
         }, timeout);
     }
-    statusMsgElem.innerText = msg;
+    elem.innerText = msg;
 }
 
 //    document.getElementById('goBtn').addEventListener('click', function () {
@@ -843,12 +845,12 @@ if (localStorage.getItem('dailySicko') !== null) {
 }
 
 document.getElementById('giveUpBtn').addEventListener('click', function () {
-    hide('giveUpBtn')
+    hide('giveUpBtn');
     show('giveUpConfirm');
 });
 
 document.getElementById('giveUpCancelBtn').addEventListener('click', function () {
-    hide('giveUpConfirm')
+    hide('giveUpConfirm');
     show('giveUpBtn');
 });
 
@@ -866,13 +868,56 @@ document.getElementById('shareResultsBtn').addEventListener('click', function ()
     }, 3000);
 });
 
-document.getElementById('createCustomQuizBtn').addEventListener('click', function() {
+document.getElementById('createCustomQuizBtn').addEventListener('click', function () {
     showView('createCustomQuizView');
 });
 
-document.getElementById('addQuestionBtn').addEventListener('click', function() {
+document.getElementById('addQuestionBtn').addEventListener('click', function () {
     const url = document.getElementById('addQuestionInput').value;
+    if (!url) {
+        return;
+    }
+    const plPrefix = 'playlist?list=';
+    const plPrefixIndex = url.indexOf(plPrefix);
+    if (plPrefixIndex > -1) {
+        const playlistRegex = /^PL[A-Za-z0-9_-]{10}[A-Za-z0-9_-]{22}$/;
+        const playlistCode = url.substring(plPrefixIndex + plPrefix.length, plPrefixIndex + plPrefix.length + 35);
+        if (playlistRegex.test(playlistCode)) {
+            const xhr = new XMLHttpRequest();
+            let url = 'https://www.googleapis.com/youtube/v3/playlistItems?';
+            url += 'key=' + simpleCircleCipher(ak);
+            url += '&playlistId=' + playlistCode;
+            url += '&part=' + encodeURIComponent('snippet,contentDetails');
+            url += '&maxResults=50';
+            url += '&fields=' + encodeURIComponent('items(id,snippet(title,position),contentDetails(videoId))');
+            xhr.addEventListener('load', () => {
+                const respObj = JSON.parse(xhr.response);
+                const nonExistList = document.getElementById('nonExistSongsList');
+                nonExistList.innerText = '';
+                for (const item of respObj.items) {
+                    if (db[item.contentDetails.videoId]) {
+                        addCustomQuizQuestion(item.contentDetails.videoId);
+                    } else {
+                        let li = document.createElement('li');
+                        li.innerText = item.snippet.title;
+                        nonExistList.appendChild(li);
+                    }
+                }
+                if (nonExistList.children.length > 0) {
+                    show('playlistNonExistSongs');
+                }
+            });
+            xhr.open('GET', url);
+            xhr.send();
+        } else {
+            updateText(customQuizHelpTextElem, 'Invalid YouTube playlist URL.', 3000);
+        }
+    }
 });
+
+const addCustomQuizQuestion = function (id) {
+
+}
 
 // Basic email obfuscation. Apparently, surprisingly effective despite its simplicity.
 const a = document.getElementById('enail');
