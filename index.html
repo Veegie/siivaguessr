@@ -176,9 +176,15 @@
             <div hidden id="createCustomQuizView">
                 <h3 class="my-1">Create Custom Quiz</h3>
 
-                <div id="helpText" class="row text-sm">Enter a video link and click Add to add your first question.</div>
+                <div id="customQuizHelpText" class="row text-sm">Enter a video link and click Add to add your first question.</div>
                 <div class="row">
                     <input id="addQuestionInput" type="text" /> <button type="button" id="addQuestionBtn" class="text-btn text-sm">Add</button>
+                </div>
+                <div hidden id="playlistNonExistSongs">
+                    The following songs are not yet in the database and were not added (sorry):
+                    <ul id="nonExistSongsList">
+                        
+                    </ul>
                 </div>
                 <div id="customQuizTableContainer" class="px-1">
                     <table>
