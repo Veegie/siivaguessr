@@ -1,3 +1,5 @@
+const ak = '6c5Gm465STOJdHcIUrP6NHIiJMtmNbdXSoW-Xbu';
+
 const hide = function (val) {
     if (Array.isArray(val)) {
         for (const elem of val) {
@@ -866,6 +868,10 @@ document.getElementById('shareResultsBtn').addEventListener('click', function ()
 
 document.getElementById('createCustomQuizBtn').addEventListener('click', function() {
     showView('createCustomQuizView');
+});
+
+document.getElementById('addQuestionBtn').addEventListener('click', function() {
+    const url = document.getElementById('addQuestionInput').value;
 });
 
 // Basic email obfuscation. Apparently, surprisingly effective despite its simplicity.
