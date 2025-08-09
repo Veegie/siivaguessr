@@ -71,8 +71,9 @@ let question = undefined;
 let multiTotalAnswers = 0;
 let answerSet = new Set();
 let guesses = new Set();
-let quiz = [];
+let activeQuiz = [];
 let quizQuestion = -1;
+let curCustomQuiz = [];
 
 /**
  * Loads a question and cues the corresponding video. When the video is cued,
@@ -169,7 +170,7 @@ const populateMultiJokeTable = function (jokesArray) {
         // Avoid duplicate IDs if two jokes share the same timestamp
         while (document.getElementById(id)) {
             num++;
-            id = 'jokeAt' + seconds + '-' + num;
+            id = `jokeAt${seconds}-${num}`;
         }
         entryElem.children[0].id = id;
         entryElem.children[0].dataset.seconds = seconds;
@@ -409,8 +410,8 @@ const endQuestion = function (gaveUp = false) {
     if (isMultiJoke) {
         const gotCount = multiTotalAnswers - answerSet.size;
         const percentCorrect = Math.floor((gotCount / multiTotalAnswers) * 100);
-        multiCorrect.innerText = 'You got ' + percentCorrect + '%' + (percentCorrect > 50 ? '!' : '')
-        updateText(statusMsgElem, '(' + gotCount + ' out of ' + multiTotalAnswers + ')');
+        multiCorrect.innerText = `You got ${percentCorrect}%${(percentCorrect > 50 ? '!' : '')}`;
+        updateText(statusMsgElem, `(${gotCount} out of ${multiTotalAnswers})`);
         show(multiCorrect);
     } else {
         if (lost) {
@@ -458,7 +459,7 @@ const endQuestion = function (gaveUp = false) {
         show([backBtn, 'shareResultsContainer']);
     } else {
         quizQuestion++;
-        if (quizQuestion === quiz.length) {
+        if (quizQuestion === activeQuiz.length) {
             show('quizResultsBtn')
             endQuiz();
         } else {
@@ -704,9 +705,9 @@ const durationToTimeCode = function (duration) {
     const seconds = Math.floor((duration % 60)).toString().padStart(2, '0');
 
     if (hours) {
-        return hours + ':' + minutes.toString().padStart(2, '0') + ':' + seconds;
+        return `${hours}:${minutes.toString().padStart(2, '0')}:${seconds}`;
     } else {
-        return minutes + ':' + seconds;
+        return `${minutes}:${seconds}`;
     }
 }
 
@@ -762,8 +763,8 @@ const updateMultiJokeHighlight = function (seconds) {
     if (nextHighlight && !nextHighlight.classList.contains('highlight')) {
         nextHighlight.classList.add('highlight');
         let suffix = 1;
-        while (document.getElementById('jokeAt' + seconds + '-' + suffix)) {
-            document.getElementById('jokeAt' + seconds + '-' + suffix).classList.add('highlight');
+        while (document.getElementById(`jokeAt${seconds}-${suffix}`)) {
+            document.getElementById(`jokeAt${seconds}-${suffix}`).classList.add('highlight');
             suffix++;
         }
         const dispElem = document.getElementById('multiJokeDisplay');
@@ -869,34 +870,43 @@ document.getElementById('shareResultsBtn').addEventListener('click', function ()
 });
 
 document.getElementById('createCustomQuizBtn').addEventListener('click', function () {
+    curCustomQuiz = [];
     showView('createCustomQuizView');
 });
 
+const vidIdRegex= /^[A-Za-z0-9_-]{10}[AEIMQUYcgkosw048]$/;
+const playlistRegex = /^PL[A-Za-z0-9_-]{10}[A-Za-z0-9_-]{22}$/;
 document.getElementById('addQuestionBtn').addEventListener('click', function () {
-    const url = document.getElementById('addQuestionInput').value;
+    const addQInput = document.getElementById('addQuestionInput');
+    const url = addQInput.value;
     if (!url) {
         return;
     }
+    addQInput.value = '';
+    const vidPrefix = 'watch?v=';
     const plPrefix = 'playlist?list=';
     const plPrefixIndex = url.indexOf(plPrefix);
+    const vidPrefixIndex = url.indexOf(vidPrefix);
     if (plPrefixIndex > -1) {
-        const playlistRegex = /^PL[A-Za-z0-9_-]{10}[A-Za-z0-9_-]{22}$/;
         const playlistCode = url.substring(plPrefixIndex + plPrefix.length, plPrefixIndex + plPrefix.length + 35);
         if (playlistRegex.test(playlistCode)) {
+            updateText(customQuizHelpTextElem, 'Fetching playlist contents...');
             const xhr = new XMLHttpRequest();
-            let url = 'https://www.googleapis.com/youtube/v3/playlistItems?';
-            url += 'key=' + simpleCircleCipher(ak);
-            url += '&playlistId=' + playlistCode;
-            url += '&part=' + encodeURIComponent('snippet,contentDetails');
-            url += '&maxResults=50';
-            url += '&fields=' + encodeURIComponent('items(id,snippet(title,position),contentDetails(videoId))');
+            let url = `https://www.googleapis.com/youtube/v3/playlistItems?
+            key=${simpleCircleCipher(ak)}
+            &playlistId=${playlistCode}
+            &part=${encodeURIComponent('snippet,contentDetails')}
+            &maxResults=50
+            &fields=${encodeURIComponent('items(id,snippet(title,position),contentDetails(videoId))')}`;
             xhr.addEventListener('load', () => {
                 const respObj = JSON.parse(xhr.response);
                 const nonExistList = document.getElementById('nonExistSongsList');
                 nonExistList.innerText = '';
+                let added = 0;
                 for (const item of respObj.items) {
                     if (db[item.contentDetails.videoId]) {
                         addCustomQuizQuestion(item.contentDetails.videoId);
+                        added++;
                     } else {
                         let li = document.createElement('li');
                         li.innerText = item.snippet.title;
@@ -906,16 +916,24 @@ document.getElementById('addQuestionBtn').addEventListener('click', function () 
                 if (nonExistList.children.length > 0) {
                     show('playlistNonExistSongs');
                 }
+                updateText(customQuizHelpTextElem, `Added ${added} songs from playlist.`);
             });
             xhr.open('GET', url);
             xhr.send();
         } else {
             updateText(customQuizHelpTextElem, 'Invalid YouTube playlist URL.', 3000);
         }
+    } else if (vidPrefixIndex > -1) {
+        const videoHash = url.substring(vidPrefixIndex + vidPrefix.length, vidPrefixIndex + vidPrefix.length + 11);
+        console.log(videoHash);
+    } else {
+        updateText(customQuizHelpTextElem, 'Invalid video link/code.', 3000);
     }
 });
 
 const addCustomQuizQuestion = function (id) {
+    const tbody = document.getElementById('questionTableBody');
+    const tr = document.getElementById('questionTableRowTemplate').cloneNode(true);
 
 }
 
