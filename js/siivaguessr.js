@@ -78,7 +78,7 @@ let answerSet = new Set();
 let guesses = new Set();
 let activeQuiz = [];
 let quizQuestion = -1;
-let unsaved = false;
+let hasUnsavedChanges = false;
 
 /**
  * Loads a question and cues the corresponding video. When the video is cued,
@@ -336,7 +336,7 @@ document.getElementById('helpBtn').addEventListener('click', function () {
     showView('helpView');
 });
 backBtn.addEventListener('click', function () {
-    if (!unsaved || confirm('Your custom quiz has unsaved changes. Continue?')) {
+    if (!hasUnsavedChanges || confirm('Your custom quiz has unsaved changes. Continue?')) {
         this.blur();
         if (ytPlayer.getPlayerState() === 1 || ytPlayer.getPlayerState() === 3) {
             ytPlayer.pauseVideo();
@@ -473,28 +473,28 @@ const endQuiz = function () {
 
 }
 
-let statusResetTimeout;
-let prevStatus;
 /**
  * Updates the specified element with the specified string.
  * @param {string} elem reference to the text element to update
  * @param {string} msg the message to display 
- * @param {string} timeout timeout in ms after which the previous message will be displayed
+ * @param {string} timeoutMs timeout in ms after which the previous message will be displayed
  */
-const updateText = function (elem, msg, timeout = 0) {
-    if (!statusResetTimeout) {
-        prevStatus = elem.innerText;
+const updateText = function (elem, msg, timeoutMs = 0) {
+    if (!elem.dataset.resetTimeoutId) {
+        elem.dataset.prevStatus = elem.innerText;
     } else {
         // Status msg changed while waiting to reset previous temp status.
-        clearTimeout(statusResetTimeout);
-        statusResetTimeout = 0;
-    }
-    if (timeout) {
-        statusResetTimeout = setTimeout(() => {
-            elem.innerText = prevStatus;
-        }, timeout);
+        clearTimeout(elem.dataset.resetTimeoutId);
+        elem.dataset.resetTimeoutId = '';
     }
     elem.innerText = msg;
+    if (timeoutMs) {
+        elem.dataset.resetTimeoutId = setTimeout(() => {
+            elem.innerText = elem.dataset.prevStatus;
+        }, timeoutMs);
+    } else {
+        elem.dataset.prevStatus = elem.innerText;
+    }
 }
 
 //    document.getElementById('goBtn').addEventListener('click', function () {
@@ -867,7 +867,7 @@ document.getElementById('shareResultsBtn').addEventListener('click', function ()
     setTimeout(() => {
         show('shareResultsBtn');
         hide('shareResultsMsg');
-    }, 3000);
+    }, 5000);
 });
 
 document.getElementById('createCustomQuizBtn').addEventListener('click', function () {
@@ -880,7 +880,7 @@ document.getElementById('createCustomQuizBtn').addEventListener('click', functio
 const updateSavedQuizList = function () {
     const savedQuizList = localStorage.getItem(SAVED_QUIZZES_KEY);
     const savedQuizSelect = document.getElementById('savedQuizSelect');
-    savedQuizList.innerText = '';
+    savedQuizSelect.innerText = '';
     if (savedQuizList && savedQuizList.length) {
         for (const quiz of savedQuizList.split(';')) {
             const quizName = quiz.split(':')[0];
@@ -897,6 +897,7 @@ const updateSavedQuizList = function () {
 
 const newCustomQuiz = function () {
     document.getElementById('questionTableBody').innerText = '';
+    hide(['saveQuizPanel', 'customQuizTableContainer', 'shareQuizPanel', 'shareQuizContainer']);
     updateText(customQuizHelpTextElem, 'Enter a video link and click Add to add your first question.');
 }
 
@@ -943,16 +944,17 @@ key=${simpleCircleCipher(ak)}\
                     if (nonExistList.children.length > 0) {
                         show('playlistNonExistSongs');
                     }
-                    updateText(customQuizHelpTextElem, `Added ${added} songs from playlist.`);
+                    updateText(customQuizHelpTextElem, 'When you\'re finished adding questions, name and save your quiz below.');
+                    updateText(customQuizHelpTextElem, `Added ${added} songs from playlist.`, 5000);
                 } else {
                     updateText(customQuizHelpTextElem, '');
-                    updateText(customQuizHelpTextElem, 'Failed to load playlist. Make sure the playlist is public.', 3000);
+                    updateText(customQuizHelpTextElem, 'Failed to load playlist. Make sure the playlist is public.', 5000);
                 }
             });
             xhr.open('GET', url);
             xhr.send();
         } else {
-            updateText(customQuizHelpTextElem, 'Invalid YouTube playlist URL.', 3000);
+            updateText(customQuizHelpTextElem, 'Invalid YouTube playlist URL.', 5000);
         }
     } else {
         let videoHash;
@@ -961,36 +963,38 @@ key=${simpleCircleCipher(ak)}\
         } else if (vidIdRegex.test(url)) {
             videoHash = url;
         } else {
-            updateText(customQuizHelpTextElem, 'Invalid video link/code.', 3000);
+            updateText(customQuizHelpTextElem, 'Invalid video link/code.', 5000);
             return;
         }
 
         if (db[videoHash]) {
             addCustomQuizQuestion(videoHash);
         } else if (noDbSet.has(videoHash)) {
-            updateText(customQuizHelpTextElem, 'This rip is not in the database. Sorry!', 3000);
+            updateText(customQuizHelpTextElem, 'This rip is not in the database (yet). Sorry!', 5000);
         } else {
-            updateText(customQuizHelpTextElem, 'Link does not appear to be a valid rip or playlist.', 3000);
+            updateText(customQuizHelpTextElem, 'Link does not appear to be a valid rip or playlist.', 5000);
         }
     }
 });
 
-const moveEntry = function (down, vidId, upBtn, downBtn) {
+const moveEntry = function (down, vidId, upBtn, downBtn, tbody) {
     const questionRow = document.getElementById(`question${vidId}`);
     if (down) {
         if (questionRow.nextElementSibling) {
             questionRow.nextElementSibling.querySelector('.move-down-btn').removeAttribute('disabled');
-            questionRow.parentNode.insertBefore(questionRow.nextElementSibling, questionRow);
+            tbody.insertBefore(questionRow.nextElementSibling, questionRow);
             upBtn.removeAttribute('disabled');
         }
     } else {
         if (questionRow.previousElementSibling) {
             questionRow.previousElementSibling.querySelector('.move-up-btn').removeAttribute('disabled');
-            questionRow.parentNode.insertBefore(questionRow, questionRow.previousElementSibling);
+            tbody.insertBefore(questionRow, questionRow.previousElementSibling);
             downBtn.removeAttribute('disabled');
         }
     }
-    unsaved = true;
+    tbody.querySelector('tr:first-child .move-up-btn').setAttribute('disabled', '');
+    tbody.querySelector('tr:last-child .move-down-btn').setAttribute('disabled', '');
+    setHasUnsavedChanges(true);
 }
 
 const addCustomQuizQuestion = function (idToAdd, mode = 1) {
@@ -1009,22 +1013,17 @@ const addCustomQuizQuestion = function (idToAdd, mode = 1) {
     const downBtn = tr.querySelector('.move-down-btn');
     upBtn.dataset.vidId = idToAdd;
     upBtn.addEventListener('click', () => {
-        moveEntry(false, idToAdd, upBtn, downBtn);
-        tbody.querySelector('tr:first-child .move-up-btn').setAttribute('disabled', '');
-        tbody.querySelector('tr:last-child .move-down-btn').setAttribute('disabled', '');
+        moveEntry(false, idToAdd, upBtn, downBtn, tbody);
     });
     downBtn.dataset.vidId = idToAdd;
     downBtn.addEventListener('click', () => {
-        moveEntry(true, idToAdd, upBtn, downBtn);
-        tbody.querySelector('tr:first-child .move-up-btn').setAttribute('disabled', '');
-        tbody.querySelector('tr:last-child .move-down-btn').setAttribute('disabled', '');
+        moveEntry(true, idToAdd, upBtn, downBtn, tbody);
     });
     downBtn.setAttribute('disabled', '');
     if (tbody.children.length === 0) {
         upBtn.setAttribute('disabled', '');
-        show(['saveQuizPanel', 'customQuizTableContainer']);
+        show(['saveQuizPanel', 'customQuizTableContainer', 'shareQuizPanel']);
         updateText(customQuizHelpTextElem, 'When you\'re finished adding questions, name and save your quiz below.');
-        addEventListener('beforeunload', beforeUnloadHandler);
     } else {
         tbody.children[tbody.children.length - 1].querySelector('.move-down-btn').removeAttribute('disabled');
     }
@@ -1044,18 +1043,28 @@ const addCustomQuizQuestion = function (idToAdd, mode = 1) {
     tr.querySelector('.remove-question-btn').addEventListener('click', function () {
         document.getElementById(`question${this.dataset.vidId}`).remove();
         if (tbody.children.length === 0) {
-            hide(['saveQuizPanel', 'customQuizTableContainer']);
+            hide(['saveQuizPanel', 'customQuizTableContainer', 'shareQuizPanel', 'shareQuizContainer']);
             document.getElementById('customQuizNameInput').value = '';
-            unsaved = false;
+            setHasUnsavedChanges(false);
         } else {
             tbody.querySelector('tr:first-child .move-up-btn').setAttribute('disabled', '');
             tbody.querySelector('tr:last-child .move-down-btn').setAttribute('disabled', '');
-            unsaved = true;
+            setHasUnsavedChanges(true);
         }
     });
     tbody.appendChild(tr);
-    unsaved = true;
+    setHasUnsavedChanges(true);
 };
+
+const setHasUnsavedChanges = function (unsaved) {
+    hasUnsavedChanges = unsaved;
+    if (unsaved) {
+        hide('shareQuizContainer');
+        addEventListener('beforeunload', beforeUnloadHandler);
+    } else {
+        removeEventListener('beforeunload', beforeUnloadHandler);
+    }
+}
 
 const serializeCurrentQuiz = function () {
     let res = '';
@@ -1072,7 +1081,7 @@ document.getElementById('saveQuizBtn').addEventListener('click', function () {
     name.replaceAll(/[:;]/g, '').trim();
     document.getElementById('customQuizNameInput').value = name;
     if (!name) {
-        updateText(saveStatusElem, 'Please enter a valid name.', 3000);
+        updateText(saveStatusElem, 'Please enter a valid name.', 5000);
         return;
     }
     const quizList = localStorage.getItem(SAVED_QUIZZES_KEY) ? localStorage.getItem(SAVED_QUIZZES_KEY).split(';') : [];
@@ -1082,18 +1091,67 @@ document.getElementById('saveQuizBtn').addEventListener('click', function () {
         if (quizList[i].startsWith(name)) {
             quizList.splice(i, 1, entry);
             updatedExisting = true;
-            updateText(saveStatusElem, `Updated existing quiz ${name}`, 3000);
+            updateText(saveStatusElem, `Updated existing quiz.`, 5000);
             break;
         }
     }
     if (!updatedExisting) {
         quizList.push(entry);
-        updateText(saveStatusElem, `Added new quiz ${name}`, 3000);
+        updateText(saveStatusElem, `Quiz saved!`, 5000);
     }
     localStorage.setItem(SAVED_QUIZZES_KEY, quizList.join(';'));
-    unsaved = false;
+    setHasUnsavedChanges(false);
     updateSavedQuizList();
 });
+
+document.getElementById('loadSavedQuizBtn').addEventListener('click', function () {
+    if (hasUnsavedChanges && !confirm('The current quiz has unsaved changes. Continue loading?')) {
+        return;
+    }
+    const nameToLoad = document.getElementById('savedQuizSelect').value;
+    const quizList = localStorage.getItem(SAVED_QUIZZES_KEY).split(';');
+    let quiz = undefined;
+    for (let i = 0; i < quizList.length; i++) {
+        if (quizList[i].startsWith(nameToLoad)) {
+            quiz = quizList[i].split(':')[1];
+            break;
+        }
+    }
+    document.getElementById('questionTableBody').innerText = '';
+    for (let i = 0; i < quiz.length; i += 12) {
+        addCustomQuizQuestion(simpleCircleCipher(quiz.substring(i, i + 11)), quiz[i + 11]);
+    }
+    updateText(document.getElementById('manageStatusText'), `Loaded Quiz.`, 5000);
+    setHasUnsavedChanges(false);
+});
+
+document.getElementById('deleteSavedQuizBtn').addEventListener('click', function () {
+    const toDelete = document.getElementById('savedQuizSelect').value;
+    const quizList = localStorage.getItem(SAVED_QUIZZES_KEY).split(';');
+    for (let i = 0; i < quizList.length; i++) {
+        if (quizList[i].startsWith(toDelete)) {
+            quizList.splice(i, 1);
+            updateText(document.getElementById('manageStatusText'), `Deleted Quiz.`, 5000);
+            break;
+        }
+    }
+    localStorage.setItem(SAVED_QUIZZES_KEY, quizList.join(';'));
+    this.blur();
+    updateSavedQuizList();
+});
+
+document.getElementById('shareSavedQuizBtn').addEventListener('click', function () {
+    document.getElementById('shareSavedQuizCodeBtn').dataset.copyData = serializeCurrentQuiz();
+    document.getElementById('shareSavedQuizLinkBtn').dataset.copyData = `https://siivaguessr.meme/?quiz=${serializeCurrentQuiz()}`;
+    show('shareQuizContainer');
+});
+
+document.querySelectorAll('.share-quiz-btn').forEach((e) => {
+    e.addEventListener('click', async function () {
+        await navigator.clipboard.writeText(this.dataset.copyData);
+        updateText(document.getElementById('shareStatusText'), 'Copied to clipboard!', 5000);
+    })
+})
 
 document.querySelectorAll('.dismiss-btn').forEach((btn) => {
     btn.addEventListener('click', function () {

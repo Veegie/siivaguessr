@@ -296,6 +296,10 @@ button small {
   width: 100%;
 }
 
+.status-text {
+  height: 2rem;
+}
+
 #guessContainer {
   position: relative;
 }
@@ -759,8 +763,8 @@ input:checked + .slider:before {
 }
 
 td .tooltip {
-    width: 18rem;
-    left: -140%;
+  width: 18rem;
+  left: -140%;
 }
 
 #createCustomQuizView div {
@@ -816,6 +820,8 @@ td .tooltip {
 }
 
 .panel {
+  min-width: 390px;
+  min-height: 220px;
   background: light-dark(var(--light-panel-bg), var(--dark-panel-bg));
   padding: 1.5rem;
   box-shadow: 0px 0px 8px

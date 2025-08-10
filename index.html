@@ -66,7 +66,7 @@
                 <button hidden id="quizResultsBtn" type="button" class="text-btn text-sm">View Final Results</button>
                 <div hidden id="multiCorrect"></div>
                 <div id="statusRow">
-                    <div id="statusMsg" role="status">Name the joke, or the source track!</div>
+                    <div id="statusMsg" class="status-text" role="status">Name the joke, or the source track!</div>
                     <div>
                         <span hidden id="strike1">❌</span>
                         <span hidden id="strike2">❌</span>
@@ -176,7 +176,7 @@
             <div hidden id="createCustomQuizView">
                 <h3 class="my-1">Create Custom Quiz</h3>
 
-                <div id="customQuizHelpText" class="row text-sm">Enter a video link and click Add to add your first question.</div>
+                <div id="customQuizHelpText" class="row text-sm">Enter a video link and click Add to add a question.</div>
                 <div class="row">
                     <input id="addQuestionInput" type="text" /> <button type="button" id="addQuestionBtn" class="text-btn text-sm">Add</button>
                 </div>
@@ -223,7 +223,7 @@
                 </div>
 
                 <div class="row m-2">
-                    <div hidden id="saveQuizPanel" class="panel m-1">
+                    <div hidden id="saveQuizPanel" class="panel">
                         <div class="panel-header">
                             <h4 class="m-0">Save Quiz</h4>
                         </div>
@@ -233,7 +233,21 @@
                                 <input id="customQuizNameInput" type="text" />
                                 <button type="button" class="text-btn text-sm" id="saveQuizBtn">Save</button>
                             </div>
-                            <div id="saveStatusText" role="status"></div>
+                            <div id="saveStatusText" class="status-text" role="status"></div>
+                        </div>
+                    </div>
+                    <div hidden id="shareQuizPanel" class="panel m-1">
+                        <div class="panel-header">
+                            <h4 class="m-0">Share Quiz</h4>
+                        </div>
+                        <button type="button" class="text-btn text-sm" id="shareSavedQuizBtn">Share</button>
+                        <div hidden id="shareQuizContainer" class="panel-body">
+                            <div class="row">Ready to share. Choose format:</div>
+                            <div class="row">
+                                <button type="button" class="text-btn text-sm share-quiz-btn" id="shareSavedQuizCodeBtn">Code</button>
+                                <button type="button" class="text-btn text-sm share-quiz-btn" id="shareSavedQuizLinkBtn">Link</button>
+                            </div>
+                            <div id="shareStatusText" class="status-text" role="status"></div>
                         </div>
                     </div>
                     <div hidden id="manageQuizzesPanel" class="panel">
@@ -245,8 +259,8 @@
                             <div class="row">
                                 <button type="button" class="text-btn text-sm" id="loadSavedQuizBtn">Load</button>
                                 <button type="button" class="text-btn text-sm" id="deleteSavedQuizBtn">Delete</button>
-                                <button type="button" class="text-btn text-sm" id="shareSavedQuizBtn">Share</button>
                             </div>
+                            <div id="manageStatusText" class="status-text" role="status"></div>
                         </div>
                     </div>
                 </div>
@@ -267,9 +281,12 @@
                 <h3>One of the answers is wrong!</h3>
                 <p>This is quite possible! I sourced my data from the wonderful folks at the <a href="https://siivagunner.wiki/" target="_blank" rel="noopener noreferrer">SiIvaGunner wiki</a>, and the naive method I used to automate parsing and collating that data isn't foolproof.<sup>1</sup> I manually verify the daily questions before selecting them, so this should only be an issue in custom quizzes.</p>
                 <p>One thing to note is that for rips that feature incidental jokes (melody changes after a full loop, one or two smaller motific references, jokes while the track is fading out, etc.), I've opted to interpret the joke as the <em>first and most prominent</em> reference in the song <em>only</em>.</p>
-                <p>For any egregious errors, send me an <a id="enail" href="email-to-veegie/">email</a>, or message me on <a href="https://bsky.app/profile/veegie.me">Bluesky</a>.</p>
+                <p>For any egregious errors, send me an <a id="enail" href="email-to-veegie/" target="_blank" rel="noreferrer noopener">email</a>, or message me on <a href="https://bsky.app/profile/veegie.me" target="_blank" rel="noreferrer noopener">Bluesky</a>.</p>
                 <p><small><sup>1</sup> No, I did not use an LLM.<sup>2</sup></small></p>
                 <p class="my-1"><small><sup>2</sup> No, I do not want to use an LLM.</small></p>
+                <h3>How do I add multiple songs to a custom quiz at once?</h3>
+                <p>Create a public YouTube playlist with the rips you want to use. Then add the playlist URL to the quiz instead of using a direct video link. Any songs in the playlist that exist in the database will be added.</p>
+                <p>This feature currently only supports adding the first 50 songs in a playlist. I'd hope that's sufficient, but if there is demand for it, I can look into expanding this feature in the future.</p>
                 <h3>I'm making a custom quiz, and you're missing a song I want to use.</h3>
                 <p>As of this writing, the database contains approximately 12,000 songs, or roughly a third of the channel's uploads. I'd ideally like to add as many as possible, but it's a pretty tedious process. There's no existing database suitable for this purpose, so it all has to be cobbled together by hand (with a few programming shortcuts, of course). I'll do my best to keep people apprised of any updates to the database.</p>
             </div>
