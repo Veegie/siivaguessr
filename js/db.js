@@ -59795,6 +59795,8 @@ const db = {
 	"artist": "COCONABE"}
 };
 
+const noDbSet = new Set();
+
 const QuestionMode = {
     NORMAL: 1,
     REVERSE: 2,

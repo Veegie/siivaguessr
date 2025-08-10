@@ -2,11 +2,13 @@
   color-scheme: light dark;
   --light-color-text: #000000;
   --light-color-bg: #ebebeb;
+  --light-panel-bg: #c6c6c6;
   --light-table-even: #ffffff;
   --light-table-odd: #d7d7d7;
   --light-table-highlight: #87a3f3;
   --light-missed-answer-highlight: #f67070;
   --dark-color-bg: #242329;
+  --dark-panel-bg: #1d1d20;
   --dark-color-text: #efefef;
   --dark-table-even: #323138;
   --dark-table-odd: #282631;
@@ -104,8 +106,21 @@ h2,
 h3,
 h4,
 h5 {
+  font-family: "Boogaloo", sans-serif;
   font-weight: 400;
   margin: 2rem 0 0.5rem;
+}
+
+.my-0,
+.m-0 {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.mx-0,
+.m-0 {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
 }
 
 .my-1,
@@ -144,6 +159,18 @@ h5 {
   margin-right: 1.5rem;
 }
 
+.py-0,
+.p-0 {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.px-0,
+.p-0 {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
 .py-1,
 .p-1 {
   padding-top: 0.5rem;
@@ -154,10 +181,6 @@ h5 {
 .p-1 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
-}
-
-.p-0 {
-  padding: 0 !important;
 }
 
 .row {
@@ -181,9 +204,9 @@ button {
   padding: 8px;
   margin: 8px;
   font-size: 3rem;
-  border: 2px solid #979797;
+  border: 2px solid light-dark(#a2a2a2, #979797);
   border-radius: 20px;
-  box-shadow: 0px 0px 6px black;
+  box-shadow: 0px 0px 6px light-dark(#727272, black);
 }
 
 button.text-btn:hover {
@@ -644,8 +667,11 @@ input[type="range"]:focus::-moz-range-thumb {
   outline-offset: 0.125rem;
 }
 
-#switchContainer {
+.tooltip-container {
   position: relative;
+}
+
+#switchContainer {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -707,12 +733,12 @@ input:checked + .slider:before {
   font-size: 1.75rem;
 }
 
-#sickoSwitchHelpText {
+.tooltip {
   visibility: hidden;
   opacity: 0;
 }
 
-#sickoSwitchHelpIcon:hover ~ #sickoSwitchHelpText {
+.tooltip-icon:hover ~ .tooltip {
   visibility: visible;
   opacity: 1;
 }
@@ -728,13 +754,13 @@ input:checked + .slider:before {
   font-size: 1rem;
   font-weight: 500;
   bottom: 100%;
-  left: 46%;
   transition: opacity 0.25s ease-out;
   box-shadow: 2px 2px 3px black;
 }
 
-#sickoSwitchHelpText {
-  width: 12rem;
+td .tooltip {
+    width: 18rem;
+    left: -140%;
 }
 
 #createCustomQuizView div {
@@ -750,8 +776,9 @@ input:checked + .slider:before {
   background: none;
 }
 
-select.mode-select {
+.mode-select {
   font-size: 1.5rem;
+  border: none;
 }
 
 #createCustomQuizView .text-btn {
@@ -760,11 +787,51 @@ select.mode-select {
 }
 
 .remove-question-btn {
-    font-size: 24px;
-    background: none;
-    border: none;
+  font-size: 24px;
+  background: none;
+  border: none;
 }
 
 .remove-question-btn:hover {
-    text-shadow: 0px 0px 5px light-dark(#232323, #ffffff);
+  text-shadow: 0px 0px 5px light-dark(#232323, #ffffff);
+}
+
+.arrange-btn-cell > button {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.move-down-btn {
+  margin-bottom: 0.5rem;
+}
+
+.move-up-btn[disabled],
+.move-down-btn[disabled] {
+  cursor: default;
+}
+
+#nonExistSongsList {
+  list-style: none;
+  padding: 0;
+}
+
+.panel {
+  background: light-dark(var(--light-panel-bg), var(--dark-panel-bg));
+  padding: 1.5rem;
+  box-shadow: 0px 0px 8px
+    light-dark(var(--light-panel-bg), var(--dark-panel-bg));
+  justify-self: center;
+}
+
+.dismiss-btn {
+  float: right;
+  margin: 0 0 0 1rem;
+  background: none;
+  border: none;
+  font-size: 24px;
+}
+
+#savedQuizSelect {
+  width: 24rem;
+  font-size: 1.25rem;
 }

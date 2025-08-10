@@ -21,14 +21,14 @@
             <div id="loadingView">Loading...</div>
             <nav hidden id="startView">
                 <button id="dailyBtn" class="text-btn mx-1" type="button">Play Daily</button>
-                <div id="switchContainer">
+                <div id="switchContainer" class="tooltip-container">
                     <label class="switch">
-                        <input id="dailySickoSwitch" type="checkbox">
+                        <input id="dailySickoSwitch" type="checkbox" aria-describedby="sickoSwitchHelpText">
                         <div class="slider"></div>
                         <span>Sicko Mode</span>
                     </label>
-                    <span id="sickoSwitchHelpIcon">🛈</span>
-                    <span id="sickoSwitchHelpText" class="tooltip">When enabled, you must guess both the source track <em>and</em> the joke.</span>
+                    <span class="tooltip-icon" id="sickoSwitchHelpIcon">🛈</span>
+                    <span id="sickoSwitchHelpText" class="tooltip" aria-hidden="true" role="tooltip">When enabled, you must guess both the source track <em>and</em> the joke.</span>
                 </div>
                 <button id="customQuizBtn" class="text-btn text-sm mx-1" type="button">Custom Quiz</button>
                 <div>
@@ -66,7 +66,7 @@
                 <button hidden id="quizResultsBtn" type="button" class="text-btn text-sm">View Final Results</button>
                 <div hidden id="multiCorrect"></div>
                 <div id="statusRow">
-                    <div id="statusMsg">Name the joke, or the source track!</div>
+                    <div id="statusMsg" role="status">Name the joke, or the source track!</div>
                     <div>
                         <span hidden id="strike1">❌</span>
                         <span hidden id="strike2">❌</span>
@@ -180,50 +180,74 @@
                 <div class="row">
                     <input id="addQuestionInput" type="text" /> <button type="button" id="addQuestionBtn" class="text-btn text-sm">Add</button>
                 </div>
-                <div hidden id="playlistNonExistSongs">
-                    The following songs were not found in the database and were not added:
-                    <ul id="nonExistSongsList"></ul>
+                <div hidden id="playlistNonExistSongs" class="panel my-2">
+                    <div class="panel-header"><button type="button" class="dismiss-btn" data-target="playlistNonExistSongs">×</button></div>
+                    <div class="panel-body">
+                        The following songs were not found in the database and were not added:
+                        <ul id="nonExistSongsList"></ul>
+                    </div>
                 </div>
-                <div id="customQuizTableContainer" class="px-1">
+                <div hidden id="customQuizTableContainer">
                     <table>
                         <thead>
                             <th width="1%"></th>
-                            <th>Title</th>
+                            <th>Source Track</th>
                             <th>Joke</th>
                             <th width="10%">Mode</th>
                             <th width="3%"></th>
                         </thead>
-                        <tbody id="questionTableBody">
+                        <tbody id="questionTableBody"></tbody>
+                        <tfoot hidden>
                             <tr id="questionTableRowTemplate">
                                 <td class="arrange-btn-cell">
-                                    <button type="button" class="move-up-btn">⇧</button>
-                                    <button type="button" class="move-down-btn">⇩</button>
+                                    <button type="button" class="move-up-btn px-1 m-1">⬆</button>
+                                    <button type="button" class="move-down-btn px-1">⬇</button>
                                 </td>
                                 <td class="rip-title">Test title</td>
                                 <td class="rip-joke">Test joke</td>
                                 <td class="rip-mode">
-                                    <select id="templateModeSelect" class="mode-select">
+                                    <select class="mode-select">
                                         <option value="1">Normal</option>
                                         <option value="2">Reverse</option>
                                         <option value="3">Sicko</option>
                                     </select>
+                                    <div hidden class="tooltip-container" aria-hidden="true">
+                                        <span class="tooltip-icon">🛈</span>
+                                        <span class="tooltip" aria-hidden="true" role="tooltip">Reverse Mode isn't recommended for Multi-joke rips. All answers except the source track will be revealed by default!</span>
+                                    </div>
                                 </td>
-                                <td><button type="button" class="remove-question-btn my-1 p-0">×</button></td>
+                                <td><button type="button" class="remove-question-btn my-1 mx-2 p-0">×</button></td>
                             </tr>
-                        </tbody>
+                        </tfoot>
                     </table>
                 </div>
 
-                <div class="row">
-                    <div id="saveQuizPanel" class="panel">
-                        <h5>Save Quiz</h5>
-                        <input id="customQuizNameInput" type="text" /> <button type="button" class="text-btn text-sm">Save</button>
+                <div class="row m-2">
+                    <div hidden id="saveQuizPanel" class="panel m-1">
+                        <div class="panel-header">
+                            <h4 class="m-0">Save Quiz</h4>
+                        </div>
+                        <div class="panel-body my-1">
+                            <label for="customQuizNameInput">Quiz Name:</label>
+                            <div class="row">
+                                <input id="customQuizNameInput" type="text" />
+                                <button type="button" class="text-btn text-sm" id="saveQuizBtn">Save</button>
+                            </div>
+                            <div id="saveStatusText" role="status"></div>
+                        </div>
                     </div>
-                    <div id="manageQuizzesPanel" class="panel">
-                        <h5>Manage Saved Quizzes</h5>
-                        <select id="savedQuizzes"></select>
-                        <button type="button" class="text-btn text-sm" id="loadSavedQuizBtn">Load</button>
-                        <button type="button" class="text-btn text-sm" id="deleteSavedQuizBtn">Delete</button>
+                    <div hidden id="manageQuizzesPanel" class="panel">
+                        <div class="panel-header">
+                            <h4 class="m-0">Manage Saved Quizzes</h4>
+                        </div>
+                        <div class="panel-body my-1">
+                            <select id="savedQuizSelect"></select>
+                            <div class="row">
+                                <button type="button" class="text-btn text-sm" id="loadSavedQuizBtn">Load</button>
+                                <button type="button" class="text-btn text-sm" id="deleteSavedQuizBtn">Delete</button>
+                                <button type="button" class="text-btn text-sm" id="shareSavedQuizBtn">Share</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
 

@@ -7,8 +7,10 @@ const hide = function (val) {
         }
     } else if (val instanceof HTMLElement) {
         val.setAttribute('hidden', '');
+        val.setAttribute('aria-hidden', 'true');
     } else {
         document.getElementById(val).setAttribute('hidden', '');
+        document.getElementById(val).setAttribute('aria-hidden', 'true');
     }
 };
 const show = function (val) {
@@ -18,8 +20,10 @@ const show = function (val) {
         }
     } else if (val instanceof HTMLElement) {
         val.removeAttribute('hidden');
+        val.removeAttribute('aria-hidden');
     } else {
         document.getElementById(val).removeAttribute('hidden');
+        document.getElementById(val).removeAttribute('aria-hidden');
     }
 };
 
@@ -45,6 +49,7 @@ const dateToString = function (date) {
     return date.getFullYear().toString() + (date.getMonth() + 1).toString().padStart(2, '0') + date.getDate().toString().padStart(2, '0');
 };
 
+const SAVED_QUIZZES_KEY = 'savedQuizzes';
 const daily = dailies[dateToString(new Date())];
 const backNavViews = ['customQuizView', 'createCustomQuizView', 'helpView'];
 const backBtn = document.getElementById('backBtn');
@@ -67,13 +72,13 @@ const multiCorrect = document.getElementById('multiCorrect');
 const highlightRanges = new Map();
 let curView = 'loadingView';
 let strikes = 0;
-let question = undefined;
+let activeQuestion = undefined;
 let multiTotalAnswers = 0;
 let answerSet = new Set();
 let guesses = new Set();
 let activeQuiz = [];
 let quizQuestion = -1;
-let curCustomQuiz = [];
+let unsaved = false;
 
 /**
  * Loads a question and cues the corresponding video. When the video is cued,
@@ -87,8 +92,8 @@ const loadQuestion = function (videoHash, mode) {
     strikes = 0;
     hide(['strike1', 'strike2', 'strike3', 'ripCredits', 'giveUpConfirm', 'shareResultsContainer', 'quizResultsBtn', 'nextQuestionBtn', 'giveUpContainer', 'giveUpBtn', vidPlayer, multiCorrect]);
     show(['giveUpBtn', guessInput]);
-    question = db[videoHash];
-    const sourceTrackHash = simpleHash(question.title);
+    activeQuestion = db[videoHash];
+    const sourceTrackHash = simpleHash(activeQuestion.title);
     highlightRanges.clear();
     answerSet.clear();
     guesses.clear();
@@ -100,11 +105,11 @@ const loadQuestion = function (videoHash, mode) {
     switch (mode) {
         case QuestionMode.NORMAL:
             show(vidPlayer);
-            sourceTrackAnswerElem.innerText = question.title;
+            sourceTrackAnswerElem.innerText = activeQuestion.title;
             updateText(statusMsgElem, 'Guess the joke!');
             break;
         case QuestionMode.REVERSE:
-            jokeAnwserElem.innerText = question.joke;
+            jokeAnwserElem.innerText = activeQuestion.joke;
             answerSet.add(sourceTrackHash);
             updateText(statusMsgElem, 'Guess the source track!');
             break;
@@ -113,22 +118,22 @@ const loadQuestion = function (videoHash, mode) {
             updateText(statusMsgElem, 'Guess the joke, or the source track!');
             break;
     }
-    if (Array.isArray(question.joke)) {
-        populateMultiJokeTable(question.joke);
+    if (Array.isArray(activeQuestion.joke)) {
+        populateMultiJokeTable(activeQuestion.joke);
         hide([jokeAnwserElem, 'singleJokeDisplay']);
         show('multiJokeDisplay');
     } else {
-        const jokeAnswerHash = simpleHash(question.joke);
+        const jokeAnswerHash = simpleHash(activeQuestion.joke);
         answerSet.add(jokeAnswerHash);
         jokeAnwserElem.className = 'free-text-answer ' + jokeAnswerHash;
         hide('multiJokeDisplay');
         show([jokeAnwserElem, 'singleJokeDisplay']);
     }
-    if (question.artist === 'Unknown Ripper') {
+    if (activeQuestion.artist === 'Unknown Ripper') {
         show('creditUnknown');
         hide('credit');
     } else {
-        document.getElementById('ripArtist').innerText = question.artist;
+        document.getElementById('ripArtist').innerText = activeQuestion.artist;
         show('credit');
         hide('creditUnknown');
     }
@@ -260,22 +265,16 @@ const simpleHash = function (str, fixLength = true) {
     return hash;
 }
 
+const ytHashChars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_-".split('');
 /** Map of YT hash chars to numbers. */
-const abet = {
-    "a": 0, "b": 1, "c": 2, "d": 3, "e": 4, "f": 5, "g": 6, "h": 7, "i": 8, "j": 9, "k": 10, "l": 11, "m": 12, "n": 13, "o": 14,
-    "p": 15, "q": 16, "r": 17, "s": 18, "t": 19, "u": 20, "v": 21, "w": 22, "x": 23, "y": 24, "z": 25, "A": 26, "B": 27, "C": 28,
-    "D": 29, "E": 30, "F": 31, "G": 32, "H": 33, "I": 34, "J": 35, "K": 36, "L": 37, "M": 38, "N": 39, "O": 40, "P": 41, "Q": 42,
-    "R": 43, "S": 44, "T": 45, "U": 46, "V": 47, "W": 48, "X": 49, "Y": 50, "Z": 51, "0": 52, "1": 53, "2": 54, "3": 55, "4": 56,
-    "5": 57, "6": 58, "7": 59, "8": 60, "9": 61, "_": 62, "-": 63
-};
+const abet = {};
 /** Inverse map of abet. */
-const teba = {
-    0: "a", 1: "b", 2: "c", 3: "d", 4: "e", 5: "f", 6: "g", 7: "h", 8: "i", 9: "j", 10: "k", 11: "l", 12: "m", 13: "n", 14: "o",
-    15: "p", 16: "q", 17: "r", 18: "s", 19: "t", 20: "u", 21: "v", 22: "w", 23: "x", 24: "y", 25: "z", 26: "A", 27: "B", 28: "C",
-    29: "D", 30: "E", 31: "F", 32: "G", 33: "H", 34: "I", 35: "J", 36: "K", 37: "L", 38: "M", 39: "N", 40: "O", 41: "P", 42: "Q",
-    43: "R", 44: "S", 45: "T", 46: "U", 47: "V", 48: "W", 49: "X", 50: "Y", 51: "Z", 52: "0", 53: "1", 54: "2", 55: "3", 56: "4",
-    57: "5", 58: "6", 59: "7", 60: "8", 61: "9", 62: "_", 63: "-"
-};
+const teba = {};
+for (let i = 0; i < ytHashChars.length; i++) {
+    abet[ytHashChars[i]] = i;
+    teba[i] = ytHashChars[i];
+}
+
 /**
  * Ciphers (or de-ciphers) a string using a simple circular cipher.
  * Only works for strings consisting of valid YouTube video hash characters, [-_0-9a-Z].
@@ -328,23 +327,25 @@ document.getElementById('dailyBtn').addEventListener('click', () => {
     const sickoMode = document.getElementById('dailySickoSwitch').checked;
     loadQuestion(daily.hash, sickoMode ? QuestionMode.SICKO : daily.mode);
 });
-document.getElementById('customQuizBtn').addEventListener('click', () => {
+document.getElementById('customQuizBtn').addEventListener('click', function () {
+    this.blur();
     showView('customQuizView');
 });
-document.getElementById('helpBtn').addEventListener('click', () => {
+document.getElementById('helpBtn').addEventListener('click', function () {
+    this.blur();
     showView('helpView');
 });
 backBtn.addEventListener('click', function () {
-    if (ytPlayer.getPlayerState() === 1 || ytPlayer.getPlayerState() === 3) {
-        ytPlayer.pauseVideo();
+    if (!unsaved || confirm('Your custom quiz has unsaved changes. Continue?')) {
+        this.blur();
+        if (ytPlayer.getPlayerState() === 1 || ytPlayer.getPlayerState() === 3) {
+            ytPlayer.pauseVideo();
+        }
+        showView('startView');
     }
-    showView('startView');
 });
 
 const beforeUnloadHandler = (event) => { event.preventDefault(); };
-// TODO - add/remove listener when unsaved changes or in question/quiz
-// addEventListener('beforeunload', beforeUnloadHandler);
-
 
 /**
  * Checks the specified string against the current question's answers.
@@ -404,7 +405,7 @@ const endQuestion = function (gaveUp = false) {
     hide(guessInput);
     hide('giveUpContainer');
     const lost = gaveUp || strikes === 3;
-    const isMultiJoke = Array.isArray(question.joke);
+    const isMultiJoke = Array.isArray(activeQuestion.joke);
 
     // Display status message
     if (isMultiJoke) {
@@ -423,15 +424,15 @@ const endQuestion = function (gaveUp = false) {
 
     // Reveal any missed answers
     if (lost) {
-        const tHash = simpleHash(question.title);
+        const tHash = simpleHash(activeQuestion.title);
         if (answerSet.has(tHash)) {
             document.querySelectorAll('.' + tHash).forEach((e) => {
                 e.classList.add('missed');
-                e.innerText = question.title;
+                e.innerText = activeQuestion.title;
             });
         }
         if (isMultiJoke) {
-            for (const entry of question.joke) {
+            for (const entry of activeQuestion.joke) {
                 const jHash = simpleHash(entry.joke);
                 if (answerSet.has(jHash)) {
                     document.querySelectorAll('.' + jHash).forEach((e) => {
@@ -442,17 +443,17 @@ const endQuestion = function (gaveUp = false) {
                 }
             }
         } else {
-            const jHash = simpleHash(question.joke);
+            const jHash = simpleHash(activeQuestion.joke);
             if (answerSet.has(jHash)) {
                 document.querySelectorAll('.' + jHash).forEach((e) => {
                     e.classList.add('missed');
-                    e.innerText = question.joke;
+                    e.innerText = activeQuestion.joke;
                 });
             }
         }
     }
 
-    document.getElementById('wikiLink').href = question.wiki;
+    document.getElementById('wikiLink').href = activeQuestion.wiki;
     show([vidPlayer, 'ripCredits']);
 
     if (quizQuestion === -1) {
@@ -870,72 +871,236 @@ document.getElementById('shareResultsBtn').addEventListener('click', function ()
 });
 
 document.getElementById('createCustomQuizBtn').addEventListener('click', function () {
-    curCustomQuiz = [];
+    updateSavedQuizList();
+    newCustomQuiz();
+    this.blur();
     showView('createCustomQuizView');
 });
 
-const vidIdRegex= /^[A-Za-z0-9_-]{10}[AEIMQUYcgkosw048]$/;
+const updateSavedQuizList = function () {
+    const savedQuizList = localStorage.getItem(SAVED_QUIZZES_KEY);
+    const savedQuizSelect = document.getElementById('savedQuizSelect');
+    savedQuizList.innerText = '';
+    if (savedQuizList && savedQuizList.length) {
+        for (const quiz of savedQuizList.split(';')) {
+            const quizName = quiz.split(':')[0];
+            const option = document.createElement('option');
+            option.value = quizName;
+            option.innerText = quizName;
+            savedQuizSelect.appendChild(option);
+        }
+        show('manageQuizzesPanel');
+    } else {
+        hide('manageQuizzesPanel');
+    }
+}
+
+const newCustomQuiz = function () {
+    document.getElementById('questionTableBody').innerText = '';
+    updateText(customQuizHelpTextElem, 'Enter a video link and click Add to add your first question.');
+}
+
+const vidIdRegex = /^[A-Za-z0-9_-]{10}[AEIMQUYcgkosw048]$/;
 const playlistRegex = /^PL[A-Za-z0-9_-]{10}[A-Za-z0-9_-]{22}$/;
 document.getElementById('addQuestionBtn').addEventListener('click', function () {
     const addQInput = document.getElementById('addQuestionInput');
     const url = addQInput.value;
-    if (!url) {
+    addQInput.value = '';
+    if (!url || !url.trim()) {
         return;
     }
-    addQInput.value = '';
     const vidPrefix = 'watch?v=';
     const plPrefix = 'playlist?list=';
     const plPrefixIndex = url.indexOf(plPrefix);
     const vidPrefixIndex = url.indexOf(vidPrefix);
     if (plPrefixIndex > -1) {
-        const playlistCode = url.substring(plPrefixIndex + plPrefix.length, plPrefixIndex + plPrefix.length + 35);
+        const playlistCode = url.substring(plPrefixIndex + plPrefix.length, plPrefixIndex + plPrefix.length + 34);
         if (playlistRegex.test(playlistCode)) {
             updateText(customQuizHelpTextElem, 'Fetching playlist contents...');
             const xhr = new XMLHttpRequest();
-            let url = `https://www.googleapis.com/youtube/v3/playlistItems?
-            key=${simpleCircleCipher(ak)}
-            &playlistId=${playlistCode}
-            &part=${encodeURIComponent('snippet,contentDetails')}
-            &maxResults=50
-            &fields=${encodeURIComponent('items(id,snippet(title,position),contentDetails(videoId))')}`;
+            let url = `https://www.googleapis.com/youtube/v3/playlistItems?\
+key=${simpleCircleCipher(ak)}\
+&playlistId=${playlistCode}\
+&part=${encodeURIComponent('snippet,contentDetails')}\
+&maxResults=50\
+&fields=${encodeURIComponent('items(id,snippet(title,position),contentDetails(videoId))')}`;
             xhr.addEventListener('load', () => {
-                const respObj = JSON.parse(xhr.response);
-                const nonExistList = document.getElementById('nonExistSongsList');
-                nonExistList.innerText = '';
-                let added = 0;
-                for (const item of respObj.items) {
-                    if (db[item.contentDetails.videoId]) {
-                        addCustomQuizQuestion(item.contentDetails.videoId);
-                        added++;
-                    } else {
-                        let li = document.createElement('li');
-                        li.innerText = item.snippet.title;
-                        nonExistList.appendChild(li);
+                if (xhr.status === 200) {
+                    const respObj = JSON.parse(xhr.response);
+                    const nonExistList = document.getElementById('nonExistSongsList');
+                    nonExistList.innerText = '';
+                    let added = 0;
+                    for (const item of respObj.items) {
+                        if (db[item.contentDetails.videoId]) {
+                            addCustomQuizQuestion(item.contentDetails.videoId);
+                            added++;
+                        } else {
+                            let li = document.createElement('li');
+                            li.innerText = item.snippet.title;
+                            nonExistList.appendChild(li);
+                        }
                     }
+                    if (nonExistList.children.length > 0) {
+                        show('playlistNonExistSongs');
+                    }
+                    updateText(customQuizHelpTextElem, `Added ${added} songs from playlist.`);
+                } else {
+                    updateText(customQuizHelpTextElem, '');
+                    updateText(customQuizHelpTextElem, 'Failed to load playlist. Make sure the playlist is public.', 3000);
                 }
-                if (nonExistList.children.length > 0) {
-                    show('playlistNonExistSongs');
-                }
-                updateText(customQuizHelpTextElem, `Added ${added} songs from playlist.`);
             });
             xhr.open('GET', url);
             xhr.send();
         } else {
             updateText(customQuizHelpTextElem, 'Invalid YouTube playlist URL.', 3000);
         }
-    } else if (vidPrefixIndex > -1) {
-        const videoHash = url.substring(vidPrefixIndex + vidPrefix.length, vidPrefixIndex + vidPrefix.length + 11);
-        console.log(videoHash);
     } else {
-        updateText(customQuizHelpTextElem, 'Invalid video link/code.', 3000);
+        let videoHash;
+        if (vidPrefixIndex > -1) {
+            videoHash = url.substring(vidPrefixIndex + vidPrefix.length, vidPrefixIndex + vidPrefix.length + 11);
+        } else if (vidIdRegex.test(url)) {
+            videoHash = url;
+        } else {
+            updateText(customQuizHelpTextElem, 'Invalid video link/code.', 3000);
+            return;
+        }
+
+        if (db[videoHash]) {
+            addCustomQuizQuestion(videoHash);
+        } else if (noDbSet.has(videoHash)) {
+            updateText(customQuizHelpTextElem, 'This rip is not in the database. Sorry!', 3000);
+        } else {
+            updateText(customQuizHelpTextElem, 'Link does not appear to be a valid rip or playlist.', 3000);
+        }
     }
 });
 
-const addCustomQuizQuestion = function (id) {
+const moveEntry = function (down, vidId, upBtn, downBtn) {
+    const questionRow = document.getElementById(`question${vidId}`);
+    if (down) {
+        if (questionRow.nextElementSibling) {
+            questionRow.nextElementSibling.querySelector('.move-down-btn').removeAttribute('disabled');
+            questionRow.parentNode.insertBefore(questionRow.nextElementSibling, questionRow);
+            upBtn.removeAttribute('disabled');
+        }
+    } else {
+        if (questionRow.previousElementSibling) {
+            questionRow.previousElementSibling.querySelector('.move-up-btn').removeAttribute('disabled');
+            questionRow.parentNode.insertBefore(questionRow, questionRow.previousElementSibling);
+            downBtn.removeAttribute('disabled');
+        }
+    }
+    unsaved = true;
+}
+
+const addCustomQuizQuestion = function (idToAdd, mode = 1) {
+    if (document.getElementById(`question${idToAdd}`)) {
+        // Duplicate question - ignore.
+        return;
+    }
+    const jokeToAdd = db[idToAdd];
     const tbody = document.getElementById('questionTableBody');
     const tr = document.getElementById('questionTableRowTemplate').cloneNode(true);
+    const isMultiJoke = Array.isArray(jokeToAdd.joke)
+    tr.id = `question${idToAdd}`;
+    tr.dataset.vidId = idToAdd;
+    tr.classList.add('custom-quiz-question');
+    const upBtn = tr.querySelector('.move-up-btn');
+    const downBtn = tr.querySelector('.move-down-btn');
+    upBtn.dataset.vidId = idToAdd;
+    upBtn.addEventListener('click', () => {
+        moveEntry(false, idToAdd, upBtn, downBtn);
+        tbody.querySelector('tr:first-child .move-up-btn').setAttribute('disabled', '');
+        tbody.querySelector('tr:last-child .move-down-btn').setAttribute('disabled', '');
+    });
+    downBtn.dataset.vidId = idToAdd;
+    downBtn.addEventListener('click', () => {
+        moveEntry(true, idToAdd, upBtn, downBtn);
+        tbody.querySelector('tr:first-child .move-up-btn').setAttribute('disabled', '');
+        tbody.querySelector('tr:last-child .move-down-btn').setAttribute('disabled', '');
+    });
+    downBtn.setAttribute('disabled', '');
+    if (tbody.children.length === 0) {
+        upBtn.setAttribute('disabled', '');
+        show(['saveQuizPanel', 'customQuizTableContainer']);
+        updateText(customQuizHelpTextElem, 'When you\'re finished adding questions, name and save your quiz below.');
+        addEventListener('beforeunload', beforeUnloadHandler);
+    } else {
+        tbody.children[tbody.children.length - 1].querySelector('.move-down-btn').removeAttribute('disabled');
+    }
+    const modeSelect = tr.querySelector('.mode-select');
+    modeSelect.name = `modeSelect${idToAdd}`;
+    modeSelect.value = mode;
+    modeSelect.addEventListener('change', function () {
+        if (this.value === '2' && isMultiJoke) {
+            show(tr.querySelector('.tooltip-container'));
+        } else {
+            hide(tr.querySelector('.tooltip-container'));
+        }
+    });
+    tr.querySelector('.rip-title').innerText = jokeToAdd.title;
+    tr.querySelector('.rip-joke').innerText = isMultiJoke ? `Multi (${jokeToAdd.joke.length} answers)` : jokeToAdd.joke;
+    tr.querySelector('.remove-question-btn').dataset.vidId = idToAdd;
+    tr.querySelector('.remove-question-btn').addEventListener('click', function () {
+        document.getElementById(`question${this.dataset.vidId}`).remove();
+        if (tbody.children.length === 0) {
+            hide(['saveQuizPanel', 'customQuizTableContainer']);
+            document.getElementById('customQuizNameInput').value = '';
+            unsaved = false;
+        } else {
+            tbody.querySelector('tr:first-child .move-up-btn').setAttribute('disabled', '');
+            tbody.querySelector('tr:last-child .move-down-btn').setAttribute('disabled', '');
+            unsaved = true;
+        }
+    });
+    tbody.appendChild(tr);
+    unsaved = true;
+};
 
+const serializeCurrentQuiz = function () {
+    let res = '';
+    document.getElementById('questionTableBody').querySelectorAll('tr').forEach((row) => {
+        res += simpleCircleCipher(row.dataset.vidId);
+        res += row.querySelector('.mode-select').value;
+    })
+    return res;
 }
+
+document.getElementById('saveQuizBtn').addEventListener('click', function () {
+    const saveStatusElem = document.getElementById('saveStatusText');
+    let name = document.getElementById('customQuizNameInput').value;
+    name.replaceAll(/[:;]/g, '').trim();
+    document.getElementById('customQuizNameInput').value = name;
+    if (!name) {
+        updateText(saveStatusElem, 'Please enter a valid name.', 3000);
+        return;
+    }
+    const quizList = localStorage.getItem(SAVED_QUIZZES_KEY) ? localStorage.getItem(SAVED_QUIZZES_KEY).split(';') : [];
+    const entry = `${name}:${serializeCurrentQuiz()}`;
+    let updatedExisting = false;
+    for (let i = 0; i < quizList.length; i++) {
+        if (quizList[i].startsWith(name)) {
+            quizList.splice(i, 1, entry);
+            updatedExisting = true;
+            updateText(saveStatusElem, `Updated existing quiz ${name}`, 3000);
+            break;
+        }
+    }
+    if (!updatedExisting) {
+        quizList.push(entry);
+        updateText(saveStatusElem, `Added new quiz ${name}`, 3000);
+    }
+    localStorage.setItem(SAVED_QUIZZES_KEY, quizList.join(';'));
+    unsaved = false;
+    updateSavedQuizList();
+});
+
+document.querySelectorAll('.dismiss-btn').forEach((btn) => {
+    btn.addEventListener('click', function () {
+        this.blur();
+        hide(this.dataset.target);
+    });
+})
 
 // Basic email obfuscation. Apparently, surprisingly effective despite its simplicity.
 const a = document.getElementById('enail');
