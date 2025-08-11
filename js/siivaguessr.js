@@ -49,164 +49,6 @@ const dateToString = function (date) {
     return date.getFullYear().toString() + (date.getMonth() + 1).toString().padStart(2, '0') + date.getDate().toString().padStart(2, '0');
 };
 
-const SAVED_QUIZZES_KEY = 'savedQuizzes';
-const daily = dailies[dateToString(new Date())];
-const backNavViews = ['customQuizView', 'createCustomQuizView', 'helpView'];
-const backBtn = document.getElementById('backBtn');
-const vidPlayer = document.getElementById('vidPlayer');
-const playbackControls = document.getElementById('playbackControls');
-const playPauseBtn = document.getElementById('playPauseBtn');
-const playIcon = document.getElementById('playIcon');
-const pauseIcon = document.getElementById('pauseIcon');
-const seekBar = document.getElementById('seekBar');
-const curTimeCode = document.getElementById('curTimeCode');
-const durationTimeCode = document.getElementById('durationTimeCode');
-const muteBtn = document.getElementById('muteBtn');
-const volumeSlider = document.getElementById('volumeSlider');
-const statusMsgElem = document.getElementById('statusMsg');
-const customQuizHelpTextElem = document.getElementById('customQuizHelpText');
-const guessInput = document.getElementById('guessInput');
-const autofillOptionsElem = document.getElementById('autofill-options');
-const multiJokeContainer = document.getElementById('multiJokeContainer');
-const multiCorrect = document.getElementById('multiCorrect');
-const highlightRanges = new Map();
-let curView = 'loadingView';
-let strikes = 0;
-let activeQuestion = undefined;
-let multiTotalAnswers = 0;
-let answerSet = new Set();
-let guesses = new Set();
-let activeQuiz = [];
-let quizQuestion = -1;
-let hasUnsavedChanges = false;
-
-/**
- * Loads a question and cues the corresponding video. When the video is cued,
- * it fires a statechange event, handled by {@link onVideoStateChange}.
- * 
- * @param {string} videoHash the YT hash of the video to load and the hash of the joke object in the database
- * @param {QuestionMode} mode the question mode to use
- */
-const loadQuestion = function (videoHash, mode) {
-    showView('loadingView');
-    strikes = 0;
-    hide(['strike1', 'strike2', 'strike3', 'ripCredits', 'giveUpConfirm', 'shareResultsContainer', 'quizResultsBtn', 'nextQuestionBtn', 'giveUpContainer', 'giveUpBtn', vidPlayer, multiCorrect]);
-    show(['giveUpBtn', guessInput]);
-    activeQuestion = db[videoHash];
-    const sourceTrackHash = simpleHash(activeQuestion.title);
-    highlightRanges.clear();
-    answerSet.clear();
-    guesses.clear();
-    const sourceTrackAnswerElem = document.getElementById('stAns');
-    sourceTrackAnswerElem.innerText = '____________';
-    sourceTrackAnswerElem.className = 'free-text-answer ' + sourceTrackHash;
-    const jokeAnwserElem = document.getElementById('jAns');
-    jokeAnwserElem.innerText = '____________';
-    switch (mode) {
-        case QuestionMode.NORMAL:
-            show(vidPlayer);
-            sourceTrackAnswerElem.innerText = activeQuestion.title;
-            updateText(statusMsgElem, 'Guess the joke!');
-            break;
-        case QuestionMode.REVERSE:
-            jokeAnwserElem.innerText = activeQuestion.joke;
-            answerSet.add(sourceTrackHash);
-            updateText(statusMsgElem, 'Guess the source track!');
-            break;
-        case QuestionMode.SICKO:
-            answerSet.add(sourceTrackHash);
-            updateText(statusMsgElem, 'Guess the joke, or the source track!');
-            break;
-    }
-    if (Array.isArray(activeQuestion.joke)) {
-        populateMultiJokeTable(activeQuestion.joke);
-        hide([jokeAnwserElem, 'singleJokeDisplay']);
-        show('multiJokeDisplay');
-    } else {
-        const jokeAnswerHash = simpleHash(activeQuestion.joke);
-        answerSet.add(jokeAnswerHash);
-        jokeAnwserElem.className = 'free-text-answer ' + jokeAnswerHash;
-        hide('multiJokeDisplay');
-        show([jokeAnwserElem, 'singleJokeDisplay']);
-    }
-    if (activeQuestion.artist === 'Unknown Ripper') {
-        show('creditUnknown');
-        hide('credit');
-    } else {
-        document.getElementById('ripArtist').innerText = activeQuestion.artist;
-        show('credit');
-        hide('creditUnknown');
-    }
-    document.getElementById('wikiLink').href = '/';
-    ytPlayer.cueVideoById(videoHash);
-};
-
-/**
- * Populates the HTML for a multi-joke question.
- * 
- * @param {Array} jokesArray array of joke definitions. 
- */
-const populateMultiJokeTable = function (jokesArray) {
-    multiJokeContainer.innerText = '';
-    const entry = document.createElement('div');
-    entry.classList.add('multi-joke-entry');
-    const jokeTime = document.createElement('div');
-    jokeTime.classList.add('multi-joke-timestamp');
-    const jokeAnswer = document.createElement('div');
-    jokeAnswer.classList.add('multi-joke-joke');
-    entry.appendChild(jokeTime);
-    entry.appendChild(jokeAnswer);
-    let curQuestionMultijokeEntries = [];
-    // Split joke definitions with multiple timestamps separated by commas.
-    for (const joke of jokesArray) {
-        const instanceTimestamps = joke.time.split(',');
-        for (const time of instanceTimestamps) {
-            curQuestionMultijokeEntries.push({ 'time': time.trim(), 'joke': joke.joke });
-        }
-        answerSet.add(simpleHash(joke.joke));
-    }
-    curQuestionMultijokeEntries = curQuestionMultijokeEntries.sort((a, b) => timestampToSeconds(a.time) - timestampToSeconds(b.time));
-    for (const jokeEntry of curQuestionMultijokeEntries) {
-        const entryElem = entry.cloneNode(entry);
-        entryElem.children[0].innerText = jokeEntry.time;
-        const seconds = timestampToSeconds(jokeEntry.time);;
-        let id = 'jokeAt' + seconds;
-        let num = 0;
-        // Avoid duplicate IDs if two jokes share the same timestamp
-        while (document.getElementById(id)) {
-            num++;
-            id = `jokeAt${seconds}-${num}`;
-        }
-        entryElem.children[0].id = id;
-        entryElem.children[0].dataset.seconds = seconds;
-        if (jokeEntry.time.indexOf('-') !== -1) {
-            const startEndTime = jokeEntry.time.split('-');
-            const startHighlightAt = timestampToSeconds(startEndTime[0]);
-            const endHighlightAt = timestampToSeconds(startEndTime[1]);
-            entryElem.children[0].dataset.startHighlightAt = startHighlightAt;
-            entryElem.children[0].dataset.endHighlightAt = endHighlightAt;
-            for (let i = startHighlightAt; i <= endHighlightAt; i++) {
-                if (!highlightRanges.get(i)) {
-                    highlightRanges.set(i, []);
-                }
-                highlightRanges.get(i).push(entryElem.children[0]);
-            }
-        }
-        entryElem.children[1].classList.add(simpleHash(jokeEntry.joke));
-        multiJokeContainer.appendChild(entryElem);
-    }
-    multiJokeContainer.querySelectorAll('.multi-joke-timestamp').forEach((e) => {
-        if (e.dataset.seconds) {
-            e.addEventListener('click', function () {
-                ytPlayer.seekTo(parseInt(this.dataset.seconds));
-                seekBar.value = this.dataset.seconds;
-                updateTimeCode();
-            });
-        }
-    });
-    multiTotalAnswers = answerSet.size;
-};
-
 /**
  * Hashes a single character in a longer string.
  * 
@@ -310,7 +152,7 @@ const timestampToSeconds = function (timestamp) {
  * @param {string} id HTML ID of the view to switch to
  */
 const showView = function (id) {
-    hide(curView);
+    hide([curView, 'shareResultsContainer']);
     show(id);
     curView = id;
     if (backNavViews.includes(curView)) {
@@ -322,6 +164,182 @@ const showView = function (id) {
         document.getElementById('logo').className = 'img-small';
     }
 }
+
+const beforeUnloadHandler = (event) => { event.preventDefault(); };
+
+const SAVED_QUIZZES_KEY = 'savedQuizzes';
+const daily = dailies[dateToString(new Date())];
+const backNavViews = ['customQuizView', 'createCustomQuizView', 'helpView', 'quizIntroView', 'quizEndView'];
+const backBtn = document.getElementById('backBtn');
+const vidPlayer = document.getElementById('vidPlayer');
+const playbackControls = document.getElementById('playbackControls');
+const playPauseBtn = document.getElementById('playPauseBtn');
+const playIcon = document.getElementById('playIcon');
+const pauseIcon = document.getElementById('pauseIcon');
+const seekBar = document.getElementById('seekBar');
+const curTimeCode = document.getElementById('curTimeCode');
+const durationTimeCode = document.getElementById('durationTimeCode');
+const muteBtn = document.getElementById('muteBtn');
+const volumeSlider = document.getElementById('volumeSlider');
+const statusMsgElem = document.getElementById('statusMsg');
+const customQuizHelpTextElem = document.getElementById('customQuizHelpText');
+const guessInput = document.getElementById('guessInput');
+const autofillOptionsElem = document.getElementById('autofill-options');
+const multiJokeContainer = document.getElementById('multiJokeContainer');
+const multiCorrect = document.getElementById('multiCorrect');
+const highlightRanges = new Map();
+let curView = 'loadingView';
+let strikes = 0;
+let activeQuestion = undefined;
+let activeQuestionTotalAnswers = 0;
+let answerSet = new Set();
+let guesses = new Set();
+let dailyNumber = -1;
+let activeQuiz = [];
+let activeQuizQuestionIndex = -1;
+let hasUnsavedChanges = false;
+
+/**
+ * Loads a question and cues the corresponding video. When the video is cued,
+ * it fires a statechange event, handled by {@link onVideoStateChange}.
+ * 
+ * @param {string} videoHash the YT hash of the video to load and the hash of the joke object in the database
+ * @param {QuestionMode} mode the question mode to use
+ */
+const loadQuestion = function (videoHash, mode) {
+    showView('loadingView');
+    strikes = 0;
+    hide(['strike1', 'strike2', 'strike3', 'ripCredits', 'giveUpConfirm', 'shareResultsContainer', 'quizResultsBtn', 'nextQuestionBtn', 'giveUpContainer', 'giveUpBtn', 'quizQuestionNumber', vidPlayer, multiCorrect]);
+    show(['giveUpBtn', guessInput]);
+    activeQuestion = db[videoHash];
+    if (activeQuizQuestionIndex > -1) {
+        const quizQuestionNumberElem = document.getElementById('quizQuestionNumber');
+        quizQuestionNumberElem.innerText = `Question ${activeQuizQuestionIndex + 1} of ${activeQuiz.length}`;
+        show(quizQuestionNumberElem);
+    }
+    const sourceTrackHash = simpleHash(activeQuestion.title);
+    highlightRanges.clear();
+    answerSet.clear();
+    guesses.clear();
+    const sourceTrackAnswerElem = document.getElementById('stAns');
+    sourceTrackAnswerElem.innerText = '____________';
+    sourceTrackAnswerElem.className = 'free-text-answer ' + sourceTrackHash;
+    const jokeAnwserElem = document.getElementById('jAns');
+    jokeAnwserElem.innerText = '____________';
+    switch (mode) {
+        case QuestionMode.NORMAL:
+            show(vidPlayer);
+            sourceTrackAnswerElem.innerText = activeQuestion.title;
+            updateText(statusMsgElem, 'Guess the joke!');
+            break;
+        case QuestionMode.REVERSE:
+            jokeAnwserElem.innerText = activeQuestion.joke;
+            answerSet.add(sourceTrackHash);
+            updateText(statusMsgElem, 'Guess the source track!');
+            break;
+        case QuestionMode.SICKO:
+            answerSet.add(sourceTrackHash);
+            updateText(statusMsgElem, 'Guess the joke, or the source track!');
+            break;
+    }
+    if (Array.isArray(activeQuestion.joke)) {
+        populateMultiJokeTable(activeQuestion.joke, mode === QuestionMode.REVERSE);
+        hide([jokeAnwserElem, 'singleJokeDisplay']);
+        show('multiJokeDisplay');
+    } else {
+        if (mode !== QuestionMode.REVERSE) {
+            const jokeAnswerHash = simpleHash(activeQuestion.joke);
+            answerSet.add(jokeAnswerHash);
+            jokeAnwserElem.className = 'free-text-answer ' + jokeAnswerHash;
+        }
+        hide('multiJokeDisplay');
+        show([jokeAnwserElem, 'singleJokeDisplay']);
+    }
+    if (activeQuestion.artist === 'Unknown Ripper') {
+        show('creditUnknown');
+        hide('credit');
+    } else {
+        document.getElementById('ripArtist').innerText = activeQuestion.artist;
+        show('credit');
+        hide('creditUnknown');
+    }
+    document.getElementById('shareResultsBtn').dataset.sickoMode = mode === QuestionMode.SICKO;
+    activeQuestionTotalAnswers = answerSet.size;
+    document.getElementById('wikiLink').href = '/';
+    ytPlayer.cueVideoById(videoHash);
+};
+
+/**
+ * Populates the HTML for a multi-joke question.
+ * 
+ * @param {Array} jokesArray array of joke definitions.
+ * @param {boolean} isReverseMode although ill-advised, reverse mode can be set for a multi-joke question. if true, all answers in the table will automatically be revealed. Bad idea!
+ */
+const populateMultiJokeTable = function (jokesArray, isReverseMode = false) {
+    multiJokeContainer.innerText = '';
+    const entry = document.createElement('div');
+    entry.classList.add('multi-joke-entry');
+    const jokeTime = document.createElement('div');
+    jokeTime.classList.add('multi-joke-timestamp');
+    const jokeAnswer = document.createElement('div');
+    jokeAnswer.classList.add('multi-joke-joke');
+    entry.appendChild(jokeTime);
+    entry.appendChild(jokeAnswer);
+    let curQuestionMultijokeEntries = [];
+    // Split joke definitions with multiple timestamps separated by commas.
+    for (const joke of jokesArray) {
+        const instanceTimestamps = joke.time.split(',');
+        for (const time of instanceTimestamps) {
+            curQuestionMultijokeEntries.push({ 'time': time.trim(), 'joke': joke.joke });
+        }
+        if (!isReverseMode) {
+            answerSet.add(simpleHash(joke.joke));
+        }
+    }
+    curQuestionMultijokeEntries = curQuestionMultijokeEntries.sort((a, b) => timestampToSeconds(a.time) - timestampToSeconds(b.time));
+    for (const jokeEntry of curQuestionMultijokeEntries) {
+        const entryElem = entry.cloneNode(entry);
+        entryElem.children[0].innerText = jokeEntry.time;
+        const seconds = timestampToSeconds(jokeEntry.time);;
+        let id = 'jokeAt' + seconds;
+        let num = 0;
+        // Avoid duplicate IDs if two jokes share the same timestamp
+        while (document.getElementById(id)) {
+            num++;
+            id = `jokeAt${seconds}-${num}`;
+        }
+        entryElem.children[0].id = id;
+        entryElem.children[0].dataset.seconds = seconds;
+        if (jokeEntry.time.indexOf('-') !== -1) {
+            const startEndTime = jokeEntry.time.split('-');
+            const startHighlightAt = timestampToSeconds(startEndTime[0]);
+            const endHighlightAt = timestampToSeconds(startEndTime[1]);
+            entryElem.children[0].dataset.startHighlightAt = startHighlightAt;
+            entryElem.children[0].dataset.endHighlightAt = endHighlightAt;
+            for (let i = startHighlightAt; i <= endHighlightAt; i++) {
+                if (!highlightRanges.get(i)) {
+                    highlightRanges.set(i, []);
+                }
+                highlightRanges.get(i).push(entryElem.children[0]);
+            }
+        }
+        if (isReverseMode) {
+            entryElem.children[1].innerText = jokeEntry.joke;
+        } else {
+            entryElem.children[1].classList.add(simpleHash(jokeEntry.joke));
+        }
+        multiJokeContainer.appendChild(entryElem);
+    }
+    multiJokeContainer.querySelectorAll('.multi-joke-timestamp').forEach((e) => {
+        if (e.dataset.seconds) {
+            e.addEventListener('click', function () {
+                ytPlayer.seekTo(parseInt(this.dataset.seconds));
+                seekBar.value = this.dataset.seconds;
+                updateTimeCode();
+            });
+        }
+    });
+};
 
 document.getElementById('dailyBtn').addEventListener('click', () => {
     const sickoMode = document.getElementById('dailySickoSwitch').checked;
@@ -344,8 +362,6 @@ backBtn.addEventListener('click', function () {
         showView('startView');
     }
 });
-
-const beforeUnloadHandler = (event) => { event.preventDefault(); };
 
 /**
  * Checks the specified string against the current question's answers.
@@ -406,13 +422,13 @@ const endQuestion = function (gaveUp = false) {
     hide('giveUpContainer');
     const lost = gaveUp || strikes === 3;
     const isMultiJoke = Array.isArray(activeQuestion.joke);
+    const gotCount = activeQuestionTotalAnswers - answerSet.size;
 
     // Display status message
     if (isMultiJoke) {
-        const gotCount = multiTotalAnswers - answerSet.size;
-        const percentCorrect = Math.floor((gotCount / multiTotalAnswers) * 100);
+        const percentCorrect = Math.floor((gotCount / activeQuestionTotalAnswers) * 100);
         multiCorrect.innerText = `You got ${percentCorrect}%${(percentCorrect > 50 ? '!' : '')}`;
-        updateText(statusMsgElem, `(${gotCount} out of ${multiTotalAnswers})`);
+        updateText(statusMsgElem, `(${gotCount} out of ${activeQuestionTotalAnswers})`);
         show(multiCorrect);
     } else {
         if (lost) {
@@ -420,6 +436,9 @@ const endQuestion = function (gaveUp = false) {
         } else {
             updateText(statusMsgElem, 'You got it!');
         }
+    }
+    if (activeQuizQuestionIndex > -1) {
+        activeQuiz[activeQuizQuestionIndex].result = `${activeQuestionTotalAnswers - answerSet.size}/${activeQuestionTotalAnswers}`;
     }
 
     // Reveal any missed answers
@@ -456,18 +475,41 @@ const endQuestion = function (gaveUp = false) {
     document.getElementById('wikiLink').href = activeQuestion.wiki;
     show([vidPlayer, 'ripCredits']);
 
-    if (quizQuestion === -1) {
+    if (activeQuizQuestionIndex === -1) {
+        const shareBtn = document.getElementById('shareResultsBtn');
+        shareBtn.dataset.shareData =
+            `SiIvaGuessr #${dailyNumber}${shareBtn.dataset.sickoMode === 'true' ? ' (Sicko Mode)' : ''} ${gotCount}/${activeQuestionTotalAnswers}
+${getStrikeString()}
+https://siivaguessr.meme`;
         show([backBtn, 'shareResultsContainer']);
     } else {
-        quizQuestion++;
-        if (quizQuestion === activeQuiz.length) {
-            show('quizResultsBtn')
-            endQuiz();
+        activeQuizQuestionIndex++;
+        if (activeQuizQuestionIndex === activeQuiz.length) {
+            show('quizResultsBtn');
         } else {
             show('nextQuestionBtn');
         }
     }
 }
+
+const getStrikeString = function () {
+    switch (strikes) {
+        case 0: return '✅✅✅'; 
+        case 1: return '❌✅✅';
+        case 2: return '❌❌✅';
+        case 3: return '❌❌❌';
+        default: return '';
+    }
+}
+
+document.getElementById('nextQuestionBtn').addEventListener('click', function () {
+    loadQuestion(simpleCircleCipher(activeQuiz[activeQuizQuestionIndex].id), parseInt(activeQuiz[activeQuizQuestionIndex].mode));
+});
+
+document.getElementById('quizResultsBtn').addEventListener('click', function () {
+    showView('quizEndView');
+    show('shareResultsContainer');
+});
 
 const endQuiz = function () {
 
@@ -723,7 +765,7 @@ function onVideoStateChange(event) {
         timeCodeUpdateInterval = setInterval(() => {
             seekBar.value = Math.floor(ytPlayer.getCurrentTime());
             updateTimeCode();
-        }, 300);
+        }, 250);
         hide(playIcon);
         show(pauseIcon);
     } else {
@@ -783,7 +825,12 @@ function onVideoPlayerReady() {
         volumeSlider.value = localStorage.getItem('lastVolume');
     }
     ytPlayer.setVolume(parseInt(volumeSlider.value));
-    showView('startView');
+    if (window.location.search) {
+        const params = new URLSearchParams(window.location.search);
+        loadQuiz(params.get('quiz'));
+    } else {
+        showView('startView');
+    }
 }
 
 let ytPlayer;
@@ -852,16 +899,18 @@ document.getElementById('giveUpBtn').addEventListener('click', function () {
 });
 
 document.getElementById('giveUpCancelBtn').addEventListener('click', function () {
+    this.blur();
     hide('giveUpConfirm');
     show('giveUpBtn');
 });
 
 document.getElementById('giveUpConfirmBtn').addEventListener('click', function () {
+    this.blur();
     endQuestion(true);
 });
 
-document.getElementById('shareResultsBtn').addEventListener('click', function () {
-    // TODO - copy results
+document.getElementById('shareResultsBtn').addEventListener('click', async function () {
+    await navigator.clipboard.writeText(this.dataset.shareData);
     hide('shareResultsBtn');
     show('shareResultsMsg');
     setTimeout(() => {
@@ -869,6 +918,43 @@ document.getElementById('shareResultsBtn').addEventListener('click', function ()
         hide('shareResultsMsg');
     }, 5000);
 });
+
+document.getElementById('quizCodeInput').addEventListener('input', function () {
+    if (/^([-_A-z0-9]{11}[1-3])+$/.test(this.value)) {
+        document.getElementById('loadQuizFromCodeBtn').removeAttribute('disabled');
+    } else {
+        document.getElementById('loadQuizFromCodeBtn').setAttribute('disabled', '');
+    }
+});
+
+document.getElementById('loadQuizFromCodeBtn').addEventListener('click', function () {
+    loadQuiz(document.getElementById('quizCodeInput').value);
+});
+
+document.getElementById('startCustomQuizBtn').addEventListener('click', function () {
+    activeQuizQuestionIndex = 0;
+    loadQuestion(simpleCircleCipher(activeQuiz[activeQuizQuestionIndex].id), parseInt(activeQuiz[activeQuizQuestionIndex].mode));
+    addEventListener('beforeunload', beforeUnloadHandler);
+});
+
+const loadQuiz = function (quizStr) {
+    activeQuiz = [];
+    for (let i = 0; i < quizStr.length; i += 12) {
+        if (!db[simpleCircleCipher(quizStr.substring(i, i + 11))]) {
+            show('badQuizErrMsg');
+            setTimeout(() => {
+                hide('badQuizErrMsg');
+            }, 5000);
+            return;
+        }
+        activeQuiz.push({
+            "id": quizStr.substring(i, i + 11),
+            "mode": quizStr[i + 11]
+        });
+    }
+    document.getElementById('quizIntroMsg').innerText = `Loaded custom quiz with ${activeQuiz.length} questions. Ready to begin.`;
+    showView('quizIntroView');
+}
 
 document.getElementById('createCustomQuizBtn').addEventListener('click', function () {
     updateSavedQuizList();

@@ -36,7 +36,7 @@
                 </div>
             </nav>
             <div hidden id="ripView">
-                <h3 hidden id="quizQuestionNumber" class="m-1">Question <span id="questionNumber">?</span> of <span id="totalQuestions">?</span></h3>
+                <h3 hidden id="quizQuestionNumber" class="m-1"></h3>
 
                 <iframe
                     id="vidPlayer"
@@ -156,19 +156,31 @@
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <div hidden id="shareResultsContainer" class="my-3">
-                    <div hidden id="shareResultsMsg">Copied to clipboard!</div>
-                    <button id="shareResultsBtn" type="button" class="text-btn text-sm">Share Results</button>
-                </div>
+            <div hidden id="quizIntroView">
+                <h3>Custom Quiz</h3>
+                <div class="row" id="quizIntroMsg"></div>
+                <div class="row"><button id="startCustomQuizBtn" type="button" class="text-btn">Play!</button></div>
+            </div>
+
+            <div hidden id="quizEndView">
+                <h3>Quiz Results</h3>
+
+            </div>
+
+            <div hidden id="shareResultsContainer" class="my-3">
+                <div hidden id="shareResultsMsg">Copied to clipboard!</div>
+                <button id="shareResultsBtn" type="button" class="text-btn text-sm">Share Results</button>
             </div>
 
             <div hidden id="customQuizView">
                 <div class="row">
                     <label for="quizCodeInput">Enter Custom Quiz Code:</label>
                     <input class="mx-1" id="quizCodeInput">
-                    <button type="button" class="text-btn" disabled>Play</button>
+                    <button type="button" id="loadQuizFromCodeBtn" class="text-btn text-sm" disabled>Load</button>
                 </div>
+                <div hidden id="badQuizErrMsg">Invalid Quiz Code! Ensure that the code was copied correctly.</div>
                 <div>or</div>
                 <button id="createCustomQuizBtn" type="button" class="text-btn text-sm">Create Custom Quiz</button>
             </div>
