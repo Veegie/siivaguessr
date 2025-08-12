@@ -356,6 +356,7 @@ document.getElementById('helpBtn').addEventListener('click', function () {
 backBtn.addEventListener('click', function () {
     if (!hasUnsavedChanges || confirm('Your custom quiz has unsaved changes. Continue?')) {
         this.blur();
+        setHasUnsavedChanges(false);
         if (ytPlayer.getPlayerState() === 1 || ytPlayer.getPlayerState() === 3) {
             ytPlayer.pauseVideo();
         }
@@ -472,6 +473,10 @@ const endQuestion = function (gaveUp = false) {
         }
     }
 
+    if (document.getElementById('giveUpContainer').dataset.timeout) {
+        clearTimeout(document.getElementById('giveUpContainer').dataset.timeout);
+        delete document.getElementById('giveUpContainer').dataset.timeout;
+    }
     document.getElementById('wikiLink').href = activeQuestion.wiki;
     show([vidPlayer, 'ripCredits']);
 
@@ -494,7 +499,7 @@ https://siivaguessr.meme`;
 
 const getStrikeString = function () {
     switch (strikes) {
-        case 0: return '✅✅✅'; 
+        case 0: return '✅✅✅';
         case 1: return '❌✅✅';
         case 2: return '❌❌✅';
         case 3: return '❌❌❌';
@@ -507,13 +512,51 @@ document.getElementById('nextQuestionBtn').addEventListener('click', function ()
 });
 
 document.getElementById('quizResultsBtn').addEventListener('click', function () {
+    this.blur();
+    if (ytPlayer.getPlayerState() === 1 || ytPlayer.getPlayerState() === 3) {
+        ytPlayer.pauseVideo();
+    }
+    let totalGot = 0;
+    let totalAnswers = 0;
+    const quizResultsTbody = document.getElementById('quizResultsTableBody');
+    quizResultsTbody.innerText = '';
+    let quizStr = '';
+    let questionIcons = '';
+    for (let i = 0; i < activeQuiz.length; i++) {
+        const question = activeQuiz[i];
+        const tr = document.getElementById('resultsTableRowTemplate').cloneNode(true);
+        tr.id = '';
+        const questionDbEntry = db[simpleCircleCipher(question.id)];
+        tr.children[0].innerText = i + 1;
+        tr.children[1].innerText = questionDbEntry.title;
+        tr.children[2].innerText = Array.isArray(questionDbEntry.joke) ? `Multi (${questionDbEntry.joke.length} answers)` : questionDbEntry.joke;
+        tr.children[3].innerText = question.result;
+        const resultParts = question.result.split('/');
+        const gotCount = parseInt(resultParts[0]);
+        const answersCount = parseInt(resultParts[1]);
+        totalGot += gotCount;
+        totalAnswers += answersCount;
+        const percentCorrect = Math.floor((gotCount / answersCount) * 100);
+        if (percentCorrect === 100) {
+            questionIcons += '✅';
+        } else if (percentCorrect > 40) {
+            questionIcons += '🆗';
+        } else {
+            questionIcons += '❌';
+        }
+        quizResultsTbody.appendChild(tr);
+        quizStr += question.id;
+        quizStr += question.mode;
+    }
+    document.getElementById('finalScore').innerText = `${totalGot}/${totalAnswers}`;
+    document.getElementById('shareResultsBtn').dataset.shareData =
+        `SiIvaGuessr Custom Quiz - ${totalGot}/${totalAnswers}
+${questionIcons}
+https://siivaguessr.meme/?quiz=${quizStr}`;
     showView('quizEndView');
     show('shareResultsContainer');
+    removeEventListener('beforeunload', beforeUnloadHandler);
 });
-
-const endQuiz = function () {
-
-}
 
 /**
  * Updates the specified element with the specified string.
@@ -768,6 +811,15 @@ function onVideoStateChange(event) {
         }, 250);
         hide(playIcon);
         show(pauseIcon);
+        // Ten seconds after first play, show Give Up button.
+        if (document.getElementById('giveUpContainer').hasAttribute('hidden')
+            && !document.getElementById('giveUpContainer').dataset.timeout) {
+            document.getElementById('giveUpContainer').dataset.timeout = setTimeout(() => {
+                if (document.getElementById('ripCredits').hasAttribute('hidden')) {
+                    show('giveUpContainer');
+                }
+            }, 10000);
+        }
     } else {
         clearInterval(timeCodeUpdateInterval);
         show(playIcon);
@@ -928,10 +980,12 @@ document.getElementById('quizCodeInput').addEventListener('input', function () {
 });
 
 document.getElementById('loadQuizFromCodeBtn').addEventListener('click', function () {
+    this.blur();
     loadQuiz(document.getElementById('quizCodeInput').value);
 });
 
 document.getElementById('startCustomQuizBtn').addEventListener('click', function () {
+    this.blur();
     activeQuizQuestionIndex = 0;
     loadQuestion(simpleCircleCipher(activeQuiz[activeQuizQuestionIndex].id), parseInt(activeQuiz[activeQuizQuestionIndex].mode));
     addEventListener('beforeunload', beforeUnloadHandler);

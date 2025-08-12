@@ -166,7 +166,27 @@
 
             <div hidden id="quizEndView">
                 <h3>Quiz Results</h3>
+                <table id="quizResultsTable">
+                    <thead>
+                        <tr>
+                            <th>Question</th>
+                            <th>Source Track</th>
+                            <th>Joke</th>
+                            <th>Score</th>
+                        </tr>
+                    </thead>
+                    <tbody id="quizResultsTableBody"></tbody>
+                    <tfoot hidden>
+                        <tr id="resultsTableRowTemplate">
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tfoot>
+                </table>
 
+                <h2 class="row my-1">Final Score:&nbsp;<span id="finalScore"></span></h2>
             </div>
 
             <div hidden id="shareResultsContainer" class="my-3">

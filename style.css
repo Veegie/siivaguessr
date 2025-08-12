@@ -453,13 +453,13 @@ button small {
 
 .multi-joke-entry > .multi-joke-timestamp,
 .multi-joke-entry > .multi-joke-joke,
-#createCustomQuizView table tr {
+table tr {
   background-color: light-dark(var(--light-table-odd), var(--dark-table-odd));
 }
 
 .multi-joke-entry:nth-child(2n) > .multi-joke-timestamp,
 .multi-joke-entry:nth-child(2n) > .multi-joke-joke,
-#createCustomQuizView table tr:nth-child(2n) {
+table tr:nth-child(2n) {
   background-color: light-dark(var(--light-table-even), var(--dark-table-even));
 }
 
@@ -772,12 +772,21 @@ td .tooltip {
   font-size: 1.5rem;
 }
 
-#createCustomQuizView table {
+table {
   width: 100%;
 }
 
-#createCustomQuizView table thead tr {
+table thead tr {
   background: none;
+}
+
+#quizResultsTable thead tr th {
+  font-weight: 400;
+  font-size: 2.5rem;
+}
+
+#quizResultsTableBody {
+  font-size: 1.75rem;
 }
 
 .mode-select {
