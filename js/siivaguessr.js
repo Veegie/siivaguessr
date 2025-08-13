@@ -251,6 +251,8 @@ const loadQuestion = function (videoHash, mode) {
             const jokeAnswerHash = simpleHash(activeQuestion.joke);
             answerSet.add(jokeAnswerHash);
             jokeAnwserElem.className = 'free-text-answer ' + jokeAnswerHash;
+        } else {
+            jokeAnwserElem.className = 'free-text-answer';
         }
         hide('multiJokeDisplay');
         show([jokeAnwserElem, 'singleJokeDisplay']);
@@ -341,7 +343,8 @@ const populateMultiJokeTable = function (jokesArray, isReverseMode = false) {
     });
 };
 
-document.getElementById('dailyBtn').addEventListener('click', () => {
+document.getElementById('dailyBtn').addEventListener('click', function () {
+    this.blur();
     const sickoMode = document.getElementById('dailySickoSwitch').checked;
     loadQuestion(daily.hash, sickoMode ? QuestionMode.SICKO : daily.mode);
 });
@@ -581,14 +584,6 @@ const updateText = function (elem, msg, timeoutMs = 0) {
         elem.dataset.prevStatus = elem.innerText;
     }
 }
-
-//    document.getElementById('goBtn').addEventListener('click', function () {
-//        if (guessInput.value) {
-//            ytPlayer.cueVideoById(guessInput.value);
-//        } else {
-//            vidPlayer.src = '';
-//        }
-//    });
 
 let filteredSongs = songs;
 let lastGuessInputLength = 0;
