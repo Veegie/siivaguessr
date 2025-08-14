@@ -1,14 +1,14 @@
-var confettea = {
+const confettea = {
     defaultOptions: {
         particleCount: 100,
         origin: { x: 0.5, y: 0.3 },
         spread: 90,
         startVelocity: 30,
-        images: ['./img/gdc.png'],
+        images: ['./img/gdc.png', './img/snc.png', './img/sgc.png', './img/wmc.png'],
         ticks: 200,
-        gravity: 0.08,
+        gravity: 0.06,
         decay: 0.95,
-        scalar: 3
+        scalar: 4
     },
     // Function to generate a random number between a range
     randomInRange: function (min, max) {
@@ -16,53 +16,25 @@ var confettea = {
     },
     // Function to create elements for the particles
     createElements: function (root, elementCount, options) {
-        var elements = [];
-        var shapeTypes = ['image'];
-        var shapeCount = shapeTypes.reduce((acc, type) =>
-            acc + (options[type + 's'] ? options[type + 's'].length : 0), 0);
+        let elements = [];
+        let shapeCount = options.images.length;
 
-        for (var i = 0; i < elementCount; i++) {
-            var element = document.createElement('div');
+        for (let i = 0; i < elementCount; i++) {
+            let element = document.createElement('div');
             element.style.position = 'fixed';
             element.style.top = '0';
             element.style.left = '0';
-            element.style.width = element.style.height = `${10 * this.options.scalar}px`;
+            element.style.width = element.style.height = `${10 * options.scalar}px`;
             element.style.pointerEvents = 'none';
             element.style.opacity = '0';
 
-            var shapeIndex = Math.floor(Math.random() * shapeCount);
-            var currentCount = 0;
-
-            for (var j = 0; j < shapeTypes.length; j++) {
-                var type = shapeTypes[j];
-                var typeCount = 1;
-
-                if (shapeIndex < currentCount + typeCount) {
-                    if (type === 'color') {
-                        var colorIndex = shapeIndex - currentCount;
-                        var shape = options.shapes[colorIndex];
-                        var color = options.colors[Math.floor(Math.random() * options.colors.length)];
-                        element.style.backgroundColor = color;
-                        element.style.borderRadius = shape === 'circle' ? '50%' : '0';
-                    } else if (type === 'emoji') {
-                        var emojiIndex = shapeIndex - currentCount;
-                        element.innerHTML = options.emojis[emojiIndex];
-                        element.style.fontSize = '20px';
-                        element.style.display = 'flex';
-                        element.style.alignItems = 'center';
-                        element.style.justifyContent = 'center';
-                    } else if (type === 'image' || type === 'svg') {
-                        var imgIndex = shapeIndex - currentCount;
-                        var img = document.createElement('img');
-                        img.src = options[type + 's'][imgIndex];
-                        img.style.width = img.style.height = '100%';
-                        img.style.objectFit = 'contain';
-                        element.appendChild(img);
-                    }
-                    break;
-                }
-                currentCount += typeCount;
-            }
+            const shapeIndex = Math.floor(Math.random() * shapeCount);
+            const imgIndex = shapeIndex;
+            const img = document.createElement('img');
+            img.src = options['images'][imgIndex];
+            img.style.width = img.style.height = '100%';
+            img.style.objectFit = 'contain';
+            element.appendChild(img);
 
             root.appendChild(element);
             elements.push(element);
@@ -86,10 +58,10 @@ var confettea = {
         particle.physics.rotation.y += particle.physics.rotationSpeed.y;
         particle.physics.rotation.z += particle.physics.rotationSpeed.z;
 
-        var wobbleX = Math.sin(particle.physics.wobble) * particle.physics.wobbleHeight;
-        var wobbleY = Math.cos(particle.physics.wobble) * particle.physics.wobbleHeight;
+        const wobbleX = Math.sin(particle.physics.wobble) * particle.physics.wobbleHeight;
+        const wobbleY = Math.cos(particle.physics.wobble) * particle.physics.wobbleHeight;
 
-        var transform = `
+        const transform = `
             translate3d(${particle.physics.x + wobbleX}px, ${particle.physics.y + wobbleY}px, ${particle.physics.z}px)
             rotate3d(1, 0, 0, ${particle.physics.rotation.x}rad)
             rotate3d(0, 1, 0, ${particle.physics.rotation.y}rad)
@@ -104,19 +76,19 @@ var confettea = {
     // Function to create a confetti burst
     burst: function (customOptions) {
         this.options = Object.assign({}, this.defaultOptions, customOptions);
-        var particles = [];
-        var root = document.body;
+        const particles = [];
+        const root = document.body;
 
-        var rect = root.getBoundingClientRect();
-        var originX = this.options.origin.x * rect.width;
-        var originY = this.options.origin.y * rect.height;
+        const rect = root.getBoundingClientRect();
+        const originX = this.options.origin.x * rect.width;
+        const originY = this.options.origin.y * rect.height;
 
-        var elements = this.createElements(root, this.options.particleCount, this.options);
+        const elements = this.createElements(root, this.options.particleCount, this.options);
 
-        for (var i = 0; i < elements.length; i++) {
-            var angle = this.randomInRange(0, Math.PI * 2);
-            var velocity = this.randomInRange(this.options.startVelocity * 0.7, this.options.startVelocity * 1.3);
-            var spreadAngle = (Math.PI / 180) * this.randomInRange(-this.options.spread, this.options.spread);
+        for (let i = 0; i < elements.length; i++) {
+            const angle = this.randomInRange(0, Math.PI * 2);
+            const velocity = this.randomInRange(this.options.startVelocity * 0.7, this.options.startVelocity * 1.3);
+            const spreadAngle = (Math.PI / 180) * this.randomInRange(-this.options.spread, this.options.spread);
 
             particles.push({
                 element: elements[i],
@@ -140,12 +112,12 @@ var confettea = {
             });
         }
 
-        var ticks = 0;
-        var animate = () => {
+        let ticks = 0;
+        const animate = () => {
             ticks += 1;
-            var progress = ticks / this.options.ticks;
+            const progress = ticks / this.options.ticks;
 
-            for (var i = particles.length - 1; i >= 0; i--) {
+            for (let i = particles.length - 1; i >= 0; i--) {
                 if (!this.updateParticle(particles[i], progress)) {
                     root.removeChild(particles[i].element);
                     particles.splice(i, 1);
