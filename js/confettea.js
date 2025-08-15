@@ -106,13 +106,11 @@ const confettea = {
     burst: function (customOptions) {
         this.options = Object.assign({}, this.defaultOptions, customOptions);
         const particles = [];
-        const root = document.body;
+        const rect = document.body.getBoundingClientRect();
+        const originX = this.randomInRange(0.9,1.1) * this.options.origin.x * rect.width;
+        const originY = this.randomInRange(0.9,1.1) * this.options.origin.y * rect.height;
 
-        const rect = root.getBoundingClientRect();
-        const originX = this.options.origin.x * rect.width;
-        const originY = this.options.origin.y * rect.height;
-
-        const elements = this.createElements(root, this.options.particleCount, this.options);
+        const elements = this.createElements(document.body, this.options.particleCount, this.options);
 
         for (let i = 0; i < elements.length; i++) {
             const angle = this.randomInRange(0, Math.PI * 2);
@@ -148,7 +146,7 @@ const confettea = {
 
             for (let i = particles.length - 1; i >= 0; i--) {
                 if (!this.updateParticle(particles[i], progress)) {
-                    root.removeChild(particles[i].element);
+                    document.body.removeChild(particles[i].element);
                     particles.splice(i, 1);
                 }
             }

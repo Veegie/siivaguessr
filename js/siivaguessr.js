@@ -433,12 +433,30 @@ const endQuestion = function (gaveUp = false) {
         const percentCorrect = Math.floor((gotCount / activeQuestionTotalAnswers) * 100);
         multiCorrect.innerText = `You got ${percentCorrect}%${(percentCorrect > 50 ? '!' : '')}`;
         updateText(statusMsgElem, `(${gotCount} out of ${activeQuestionTotalAnswers})`);
+        if (!matchMedia('(prefers-reduced-motion: reduce)').matches) {
+            if (percentCorrect > 70) {
+                confettea.burst({origin: { x: 0.3, y: 0.3 }});
+            }
+            if (percentCorrect > 85) {
+                setTimeout(() => {
+                    confettea.burst({ x: 0.7, y: 0.3 });
+                }, 1000);
+            }
+            if (percentCorrect === 100) {
+                setTimeout(() => {
+                    confettea.burst({ x: 0.5, y: 0.3 });
+                }, 2000);
+            }
+        }
         show(multiCorrect);
     } else {
         if (lost) {
             updateText(statusMsgElem, 'Better luck next time.');
         } else {
             updateText(statusMsgElem, 'You got it!');
+            if (!matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                confettea.burst();
+            }
         }
     }
     if (activeQuizQuestionIndex > -1) {
