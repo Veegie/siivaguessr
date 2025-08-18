@@ -1152,7 +1152,7 @@ const moveEntry = function (down, vidId, upBtn, downBtn, tbody) {
     setHasUnsavedChanges(true);
 }
 
-const addCustomQuizQuestion = function (idToAdd, mode = 1) {
+const addCustomQuizQuestion = function (idToAdd, mode = '1') {
     if (document.getElementById(`question${idToAdd}`)) {
         // Duplicate question - ignore.
         return;
@@ -1208,6 +1208,9 @@ const addCustomQuizQuestion = function (idToAdd, mode = 1) {
         }
     });
     tbody.appendChild(tr);
+    if (isMultiJoke && mode === '2') {
+        show(tr.querySelector('.tooltip-container'));
+    }
     setHasUnsavedChanges(true);
 };
 

@@ -16,6 +16,7 @@
   --dark-missed-answer-highlight: #6d1919;
   --correct-answer-highlight: #1d6717;
   --incorrect-answer-guess-input-flash: #c02e2e;
+  --default-shadow: 2px 2px 3px black;
 }
 
 body,
@@ -27,29 +28,57 @@ html {
 }
 
 body {
-  color: light-dark(var(--light-color-text), var(--dark-color-text));
-  background-color: light-dark(var(--light-color-bg), var(--dark-color-bg));
   font-family: "Boogaloo", sans-serif;
   font-size: 2rem;
   font-weight: 400;
   font-style: normal;
-  text-shadow: 2px 2px 3px black;
   text-align: center;
 }
 
-@media (prefers-color-scheme: light) {
-  body {
-    text-shadow: none;
-  }
+:root.dark body {
+  color: var(--dark-color-text);
+  background-color: var(--dark-color-bg);
+  text-shadow: var(--default-shadow);
+}
+
+:root.light body {
+  color: var(--light-color-text);
+  background-color: var(--light-color-bg);
+  text-shadow: none;
 }
 
 div[hidden] {
   display: none !important;
 }
 
-svg {
-  fill: light-dark(var(--light-color-text), var(--dark-color-text));
-  filter: drop-shadow(2px 2px 1px light-dark(#727272, black));
+:root.dark svg {
+  fill: var(--dark-color-text);
+  filter: drop-shadow(2px 2px 1px black);
+}
+
+:root.light svg {
+  fill: var(--light-color-text);
+  filter: drop-shadow(2px 2px 1px #727272);
+}
+
+:root.dark a {
+  color: #d0adf0;
+}
+
+:root.light a {
+  color: #551a8b;
+}
+
+:root.dark input {
+  color: #ffffff;
+  background-color: #3b3b3b;
+  border-color: #858585;
+}
+
+:root.light input {
+  color: #000000;
+  background: #ffffff;
+  border-color: #767676;
 }
 
 #playbackControls svg {
@@ -209,31 +238,58 @@ button {
   font-family: "Boogaloo", sans-serif;
   font-weight: 400;
   font-style: normal;
-  text-shadow: 2px 2px 3px light-dark(#727272, black);
   padding: 8px;
   margin: 8px;
   font-size: 3rem;
-  border: 2px solid light-dark(#a2a2a2, #979797);
   border-radius: 20px;
-  box-shadow: 0px 0px 6px light-dark(#727272, black);
 }
 
-button.text-btn:hover {
-  text-shadow: 0 0 0.5rem #dedede;
+:root.dark .text-btn {
+  color: var(--dark-color-text);
+  text-shadow: var(--default-shadow);
+  border: 2px solid #979797;
+  box-shadow: 0px 0px 6px black;
+}
+
+:root.light .text-btn {
+  color: var(--light-color-text);
+  text-shadow: 2px 2px 3px #727272;
+  border: 2px solid #a2a2a2;
+  box-shadow: 0px 0px 6px #727272;
+}
+
+:root.dark .text-btn:hover,
+:root.light .text-btn:hover {
+  text-shadow: 0 0 0.25rem #dedede;
   border-color: #cdcccc;
 }
 
-button.text-btn:disabled,
-button.text-btn:active {
+:root.dark button.text-btn:disabled,
+:root.dark button.text-btn:active,
+:root.light button.text-btn:disabled,
+:root.light button.text-btn:active {
   cursor: unset;
-  text-shadow: 2px 2px 3px black;
+  text-shadow: var(--default-shadow);
+  opacity: 0.6;
 }
-button.text-btn:disabled:hover {
+:root.dark button.text-btn:disabled:hover,
+:root.light button.text-btn:disabled:hover {
   border-color: #979797;
 }
 
-button.text-btn:active {
+:root.dark button.text-btn:active,
+:root.light button.text-btn:active {
   text-shadow: none;
+}
+
+:root.dark select {
+  background: #3b3b3b;
+  color: #ffffff;
+}
+
+:root.light select {
+  background: #f1f1f1;
+  color: #000000;
 }
 
 button small {
@@ -285,8 +341,12 @@ button small {
   margin-top: 0.25rem;
 }
 
+#volumeSlider {
+  background: transparent;
+}
+
 #muteBtn > span {
-    margin-top: 6px;
+  margin-top: 6px;
 }
 
 #statusRow {
@@ -316,11 +376,16 @@ button small {
   z-index: 1;
 }
 
-#guessInput {
-  background-color: light-dark(var(--light-table-odd), var(--dark-table-odd));
+:root.dark #guessInput {
+  background-color: var(--dark-table-odd);
 }
 
-#guessInput.incorrect {
+:root.light #guessInput {
+  background-color: var(--light-table-odd);
+}
+
+:root.light #guessInput.incorrect,
+:root.dark #guessInput.incorrect {
   background-color: var(--incorrect-answer-guess-input-flash);
   animation: shake 0.4s ease-in-out;
 }
@@ -456,60 +521,65 @@ button small {
   word-break: break-word;
 }
 
-.multi-joke-entry > .multi-joke-timestamp,
-.multi-joke-entry > .multi-joke-joke,
-table tr {
-  background-color: light-dark(var(--light-table-odd), var(--dark-table-odd));
+:root.dark .multi-joke-entry > .multi-joke-timestamp,
+:root.dark .multi-joke-entry > .multi-joke-joke,
+:root.dark table tr {
+  background-color: var(--dark-table-odd);
 }
 
-.multi-joke-entry:nth-child(2n) > .multi-joke-timestamp,
-.multi-joke-entry:nth-child(2n) > .multi-joke-joke,
-table tr:nth-child(2n) {
-  background-color: light-dark(var(--light-table-even), var(--dark-table-even));
+:root.dark .multi-joke-entry:nth-child(2n) > .multi-joke-timestamp,
+:root.dark .multi-joke-entry:nth-child(2n) > .multi-joke-joke,
+:root.dark table tr:nth-child(2n) {
+  background-color: var(--dark-table-even);
 }
 
-.multi-joke-entry > .multi-joke-joke.correct,
-.multi-joke-entry:nth-child(2n) > .multi-joke-joke.correct {
-  background-color: var(--correct-answer-highlight);
-  color: #ffffff;
+:root.light .multi-joke-entry > .multi-joke-timestamp,
+:root.light .multi-joke-entry > .multi-joke-joke,
+:root.light table tr {
+  background-color: var(--light-table-odd);
 }
 
-.multi-joke-joke.missed,
-.multi-joke-entry:nth-child(2n) > .multi-joke-joke.missed {
-  background-color: light-dark(
-    var(--light-missed-answer-highlight),
-    var(--dark-missed-answer-highlight)
-  );
+:root.light .multi-joke-entry:nth-child(2n) > .multi-joke-timestamp,
+:root.light .multi-joke-entry:nth-child(2n) > .multi-joke-joke,
+:root.light table tr:nth-child(2n) {
+  background-color: var(--light-table-even);
 }
 
-.free-text-answer.correct {
+:root.light .free-text-answer.correct,
+:root.dark .free-text-answer.correct {
   filter: drop-shadow(0px 0px 7px var(--correct-answer-highlight))
     drop-shadow(0px 0px 7px var(--correct-answer-highlight));
   color: #ffffff;
 }
 
-.free-text-answer.missed {
-  filter: drop-shadow(
-      0px 0px 7px
-        light-dark(
-          var(--light-missed-answer-highlight),
-          var(--dark-missed-answer-highlight)
-        )
-    )
-    drop-shadow(
-      0px 0px 7px
-        light-dark(
-          var(--light-missed-answer-highlight),
-          var(--dark-missed-answer-highlight)
-        )
-    )
-    drop-shadow(
-      0px 0px 7px
-        light-dark(
-          var(--light-missed-answer-highlight),
-          var(--dark-missed-answer-highlight)
-        )
-    );
+:root.dark .multi-joke-entry > .multi-joke-joke.correct,
+:root.dark .multi-joke-entry:nth-child(2n) > .multi-joke-joke.correct,
+:root.light .multi-joke-entry > .multi-joke-joke.correct,
+:root.light .multi-joke-entry:nth-child(2n) > .multi-joke-joke.correct {
+  background-color: var(--correct-answer-highlight);
+  color: #ffffff;
+}
+
+:root.dark .multi-joke-joke.missed,
+:root.dark .multi-joke-entry:nth-child(2n) > .multi-joke-joke.missed {
+  background-color: var(--dark-missed-answer-highlight);
+}
+
+:root.dark .free-text-answer.missed {
+  filter: drop-shadow(0px 0px 7px var(--dark-missed-answer-highlight))
+    drop-shadow(0px 0px 7px var(--dark-missed-answer-highlight))
+    drop-shadow(0px 0px 7px var(--dark-missed-answer-highlight));
+}
+
+:root.light .multi-joke-joke.missed,
+:root.light .multi-joke-entry:nth-child(2n) > .multi-joke-joke.missed {
+  background-color: var(--light-missed-answer-highlight);
+}
+
+:root.light .free-text-answer.missed {
+  filter: drop-shadow(0px 0px 7px var(--light-missed-answer-highlight))
+    drop-shadow(0px 0px 7px var(--light-missed-answer-highlight))
+    drop-shadow(0px 0px 7px var(--light-missed-answer-highlight));
 }
 
 .fade {
@@ -517,14 +587,18 @@ table tr:nth-child(2n) {
 }
 
 .multi-joke-timestamp.highlight {
-  background-color: light-dark(
-    var(--light-table-highlight),
-    var(--dark-table-highlight)
-  ) !important;
   color: #000000;
   text-shadow: none;
   font-weight: 900;
   box-shadow: inset 0px 0px 5px grey;
+}
+
+:root.dark .multi-joke-timestamp.highlight {
+  background-color: var(--dark-table-highlight) !important;
+}
+
+:root.light .multi-joke-timestamp.highlight {
+  background-color: var(--light-table-highlight) !important;
 }
 
 #helpView p {
@@ -765,7 +839,7 @@ input:checked + .slider:before {
   font-weight: 500;
   bottom: 100%;
   transition: opacity 0.25s ease-out;
-  box-shadow: 2px 2px 3px black;
+  box-shadow: var(--default-shadow);
 }
 
 td .tooltip {
@@ -810,9 +884,17 @@ table thead tr {
   background: none;
   border: none;
 }
-
-.remove-question-btn:hover {
-  text-shadow: 0px 0px 5px light-dark(#232323, #ffffff);
+:root.dark .remove-question-btn {
+  color: #ffffff;
+}
+:root.light .remove-question-btn {
+  color: #000000;
+}
+:root.dark .remove-question-btn:hover {
+  text-shadow: 0px 0px 5px #ffffff;
+}
+:root.light .remove-question-btn:hover {
+  text-shadow: 0px 0px 5px #232323;
 }
 
 .arrange-btn-cell > button {
@@ -824,9 +906,26 @@ table thead tr {
   margin-bottom: 0.5rem;
 }
 
+:root.dark .move-down-btn,
+:root.dark .move-up-btn {
+  background: #6b6b6b;
+  color: #ffffff;
+  border: 2px solid #6b6b6b;
+  border-radius: 2px;
+}
+
+:root.light .move-down-btn,
+:root.light .move-up-btn {
+  background: #e5e5e5;
+  color: #000000;
+  border: 2px solid #bcbcbc;
+  border-radius: 2px;
+}
+
 .move-up-btn[disabled],
 .move-down-btn[disabled] {
   cursor: default;
+  opacity: 0.5;
 }
 
 #nonExistSongsList {
@@ -837,11 +936,18 @@ table thead tr {
 .panel {
   min-width: 390px;
   min-height: 220px;
-  background: light-dark(var(--light-panel-bg), var(--dark-panel-bg));
   padding: 1.5rem;
-  box-shadow: 0px 0px 8px
-    light-dark(var(--light-panel-bg), var(--dark-panel-bg));
   justify-self: center;
+}
+
+:root.dark .panel {
+  background: var(--dark-panel-bg);
+  box-shadow: 0px 0px 8px var(--dark-panel-bg);
+}
+
+:root.light .panel {
+  background: var(--light-panel-bg);
+  box-shadow: 0px 0px 8px var(--light-panel-bg);
 }
 
 .dismiss-btn {
