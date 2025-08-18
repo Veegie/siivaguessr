@@ -435,7 +435,7 @@ const endQuestion = function (gaveUp = false) {
         updateText(statusMsgElem, `(${gotCount} out of ${activeQuestionTotalAnswers})`);
         if (!matchMedia('(prefers-reduced-motion: reduce)').matches) {
             if (percentCorrect > 70) {
-                confettea.burst({origin: { x: 0.3, y: 0.3 }});
+                confettea.burst({ origin: { x: 0.3, y: 0.3 } });
             }
             if (percentCorrect > 85) {
                 setTimeout(() => {
@@ -757,7 +757,6 @@ const swapIcon = function (btnElement) {
 }
 
 playPauseBtn.addEventListener('click', function () {
-    swapIcon(playPauseBtn);
     if (ytPlayer) {
         if (ytPlayer.getPlayerState() === 1 || ytPlayer.getPlayerState() === 3) {
             ytPlayer.pauseVideo();
@@ -859,16 +858,19 @@ const updateMultiJokeHighlight = function (seconds) {
         checkSeconds--;
         nextHighlight = document.getElementById('jokeAt' + checkSeconds);
     }
-    if (!nextHighlight || !nextHighlight.classList.contains('highlight')) {
+    multiJokeContainer.querySelectorAll('.multi-joke-timestamp.highlight').forEach((e) => {
+        if (e.dataset.endHighlightAt
+            && (seconds >= parseInt(e.dataset.endHighlightAt)
+                || seconds < parseInt(e.dataset.startHighlightAt))) {
+            e.classList.remove('highlight');
+        }
+    });
+    if (nextHighlight && !nextHighlight.classList.contains('highlight')) {
         multiJokeContainer.querySelectorAll('.multi-joke-timestamp.highlight').forEach((e) => {
-            if (!e.dataset.endHighlightAt
-                || parseInt(e.dataset.endHighlightAt) < seconds
-                || parseInt(e.dataset.startHighlightAt) > seconds) {
+            if (!e.dataset.endHighlightAt) {
                 e.classList.remove('highlight');
             }
         });
-    }
-    if (nextHighlight && !nextHighlight.classList.contains('highlight')) {
         nextHighlight.classList.add('highlight');
         let suffix = 1;
         while (document.getElementById(`jokeAt${seconds}-${suffix}`)) {

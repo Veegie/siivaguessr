@@ -14,14 +14,14 @@ const dailies = {
     "20250807": { "hash": "", "mode": QuestionMode.NORMAL },
     "20250808": { "hash": "", "mode": QuestionMode.NORMAL },
     "20250809": { "hash": "", "mode": QuestionMode.NORMAL },
-    "20250810": { "hash": "T4Al6jQXa_4", "mode": QuestionMode.NORMAL }, // Sunday
+    "20250810": { "hash": "", "mode": QuestionMode.NORMAL }, // Sunday
     "20250811": { "hash": "", "mode": QuestionMode.NORMAL },
     "20250812": { "hash": "", "mode": QuestionMode.NORMAL },
     "20250813": { "hash": "", "mode": QuestionMode.NORMAL },
     "20250814": { "hash": "vaaqd11yyKg", "mode": QuestionMode.NORMAL },
     "20250815": { "hash": "", "mode": QuestionMode.NORMAL },
     "20250816": { "hash": "", "mode": QuestionMode.NORMAL },
-    "20250817": { "hash": "", "mode": QuestionMode.NORMAL }, // Sunday
+    "20250817": { "hash": "T4Al6jQXa_4", "mode": QuestionMode.NORMAL }, // Sunday
     "20250818": { "hash": "", "mode": QuestionMode.NORMAL },
     "20250819": { "hash": "", "mode": QuestionMode.NORMAL },
     "20250820": { "hash": "", "mode": QuestionMode.NORMAL },
