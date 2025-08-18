@@ -27,7 +27,9 @@
                         <div class="slider"></div>
                         <span>Sicko Mode</span>
                     </label>
-                    <span class="tooltip-icon" id="sickoSwitchHelpIcon">🛈</span>
+                    <span class="tooltip-icon" id="sickoSwitchHelpIcon">
+                        <svg width="24px" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12,1A11,11,0,1,0,23,12,11.013,11.013,0,0,0,12,1Zm0,20a9,9,0,1,1,9-9A9.011,9.011,0,0,1,12,21ZM13,8H11V6h2Zm0,10H11V10h2Z"/></svg>
+                    </span>
                     <span id="sickoSwitchHelpText" class="tooltip" aria-hidden="true" role="tooltip">When enabled, you must guess both the source track <em>and</em> the joke.</span>
                 </div>
                 <button id="customQuizBtn" class="text-btn text-sm mx-1" type="button">Custom Quiz</button>
@@ -48,15 +50,19 @@
 
                 <div id="playbackControls">
                     <button type="button" id="playPauseBtn">
-                        <span hidden id="pauseIcon">⏸︎</span>
-                        <span id="playIcon">⏵</span>
+                        <span hidden id="pauseIcon"><svg width="24px" height="24px" viewBox="-2 -5 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M7 1H2V15H7V1Z" /><path d="M14 1H9V15H14V1Z" /></svg></span>
+                        <span id="playIcon"><svg width="24px" height="24px" viewBox="-3 -7 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M5 16L7 16L15 8L7 -2.7818e-08L5 0L5 16Z" /></svg></span>
                     </button>
                     <input id="seekBar" type="range" value="0" min="0" max="100">
                     <span class="mx-1"><span id="curTimeCode">0:00</span>/<span id="durationTimeCode">1:00</span></span>
                     <div id="volumeControls">
                         <button type="button" id="muteBtn">
-                            <span hidden id="mutedIcon">🔇</span>
-                            <span id="volumeIcon">🔊</span>
+                            <span hidden id="mutedIcon">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24px" width="32px" viewBox="0 0 21.47 17.43"><path d="m11.4932.1156-7.2224 5.424a.4288.4288 90 00-.1084.13H0v6.128h4.1624a.4232.4232 90 00.1084.13l7.2224 5.4208a.4332.4332 90 00.6936-.3464V.462a.4332.4332 90 00-.6936-.3464zM19.4828 12.316l.896-.8964-2.688-2.688 2.688-2.688-.896-.896-2.688 2.688-2.688-2.688-.896.896 2.688 2.688-2.688 2.688.896.896 2.688-2.688 2.688 2.688z"/></svg>
+                            </span>
+                            <span id="volumeIcon">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24px" width="32px" viewBox="0 0 21.47 17.43"><path d="m11.4932.1156-7.2224 5.424a.4288.4288 90 00-.1084.13H0v6.128h4.1624a.4232.4232 90 00.1084.13l7.2224 5.4208a.4332.4332 90 00.6936-.3464V.462a.4332.4332 90 00-.6936-.3464zM15 14c-.44 0-.87-.225-1.105-.635-.355-.61-.15-1.395.46-1.75.035-.02 1.23-.8 1.23-2.755s-1.195-2.735-1.25-2.77c-.59-.37-.785-1.155-.42-1.75.36-.6 1.125-.8 1.73-.45.1.06 2.5 1.495 2.5 4.97s-2.4 4.91-2.5 4.97c-.205.115-.425.17-.645.17zm2.723 1.574c-.33 0-.6525-.1688-.8325-.4763-.2662-.4575-.1125-1.0463.345-1.3125.09-.0525 2.3138-1.44 2.3138-4.95 0-3.5625-2.2913-4.935-2.3138-4.95-.4575-.2662-.6113-.855-.345-1.3125.2662-.4575.855-.6113 1.3125-.345.1388.075 3.27 1.9575 3.27 6.6075s-3.1312 6.5325-3.2662 6.6075c-.1537.09-.3188.1313-.4838.1313z"/></svg>
+                            </span>
                         </button>
                         <input id="volumeSlider" class="vol" type="range" min="0" max="100" value="25" data-last-val="25">
                     </div>

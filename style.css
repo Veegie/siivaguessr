@@ -47,6 +47,15 @@ div[hidden] {
   display: none !important;
 }
 
+svg {
+  fill: light-dark(var(--light-color-text), var(--dark-color-text));
+  filter: drop-shadow(2px 2px 1px light-dark(#727272, black));
+}
+
+#playbackControls svg {
+  filter: none;
+}
+
 input {
   font-size: 1.5rem;
 }
@@ -264,14 +273,6 @@ button small {
   font-size: 1.5rem;
 }
 
-#pauseIcon {
-  margin-top: -0.25rem;
-}
-
-#playIcon {
-  margin-top: -0.25rem;
-}
-
 #seekBar {
   flex-grow: 1;
   margin: 0 0.5rem;
@@ -282,6 +283,10 @@ button small {
   width: 100%;
   justify-content: end;
   margin-top: 0.25rem;
+}
+
+#muteBtn > span {
+    margin-top: 6px;
 }
 
 #statusRow {
@@ -735,6 +740,7 @@ input:checked + .slider:before {
 #sickoSwitchHelpIcon {
   margin-left: 10px;
   font-size: 1.75rem;
+  display: flex;
 }
 
 .tooltip {
