@@ -34619,7 +34619,7 @@ const db = {
 "LdiL64nH-Ik": {
 	"title": "Minigame Clear - Super Mario 64 DS",
 	"wiki": "https://siivagunner.wiki/wiki/Minigame%20Clear%20-%20Super%20Mario%2064%20DS",
-	"joke": "Day Start - various games in the Papa Louie series",
+	"joke": "Day Start - Papa Louie series",
 	"artist": "ThePowerPlayer"},
 "u4fui8te5XE": {
 	"title": "Bowling - Results - Wii Sports",
@@ -59831,7 +59831,22 @@ const db = {
 		{"time": "1:39-1:51", "joke": "S.L.A.B. Freestyle - Chip tha Ripper"},
 		{"time": "1:52-1:58", "joke": "Snow halation - μ's"},
 		{"time": "1:52-1:58", "joke": "Meet the Flintstones - Hoyt Curtin"}],
-	"artist": "Ellie53"}
+	"artist": "Ellie53"},
+"JbIiJQWpPx8": {
+	"title": "Circus - Five Nights at Freddy's",
+	"wiki": "https://siivagunner.wiki/wiki/Circus%20(%20mix)%20-%20Five%20Nights%20at%20Freddy's",
+	"joke": [
+		{"time": "0:02-4:08", "joke": "Old money bitch - underscores"},
+		{"time": "0:09, 0:36, 1:13, 1:25, 1:52, 2:29, 3:52", "joke": "Toxic - Britney Spears"},
+		{"time": "0:34, 1:37, 2:43", "joke": "Smooth - Santana ft. Rob Thomas"},
+		{"time": "0:47, 1:23, 1:45, 3:22", "joke": "ANTONYMPH - Vylet Pony"},
+		{"time": "1:04", "joke": "Discord Notification - Discord"},
+		{"time": "1:04, 1:17, 2:05, 3:41", "joke": "Emergency Meeting - Among Us"},
+		{"time": "1:04, 2:05, 2:20, 3:01, 3:41", "joke": "6 AM - Five Nights at Freddy's"},
+		{"time": "2:37, 2:50, 2:57", "joke": "Circles - Post Malone"},
+		{"time": "2:46", "joke": "GRAND DAD - Vinesauce Joel"},
+		{"time": "3:01", "joke": "Minecraft with Gadget - Cinemassacre"}],
+	"artist": "Half Pixel"}
 };
 
 const noDbSet = new Set();

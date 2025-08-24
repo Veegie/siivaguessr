@@ -106,7 +106,7 @@ const db = {
 	"artist": "Nakaky"},
 "8oLhE0qOmeQ": {
 	"title": "One Tip March/One Chip March - We Love Katamari REROLL+ Royal Reverie",
-	"wiki": "https://siivagunner.wiki/wiki/One%20Tip%20March%2FOne%20Chip%20March%20-%20We%20Love%20Katamari%20REROLL%2B%20Royal%20Reverie",
+	"wiki": "https://siivagunner.wiki/wiki/One%20Tip%20March/One%20Chip%20March%20-%20We%20Love%20Katamari%20REROLL%2B%20Royal%20Reverie",
 	"joke": "Rubber Human - Mili",
 	"artist": "tdude"},
 "4mRKIH80ci8": {
@@ -496,7 +496,7 @@ const db = {
 	"artist": "scooblee"},
 "KhVY9nWOciU": {
 	"title": "Pollyanna - EarthBound Beginnings/MOTHER",
-	"wiki": "https://siivagunner.wiki/wiki/Pollyanna%20(Extended%20Mix)%20-%20EarthBound%20Beginnings%2FMOTHER",
+	"wiki": "https://siivagunner.wiki/wiki/Pollyanna%20(Extended%20Mix)%20-%20EarthBound%20Beginnings/MOTHER",
 	"joke": "Good Luck, Babe! - Chappell Roan",
 	"artist": "Brendan"},
 "f6uWibMlJ60": {
@@ -1846,7 +1846,7 @@ const db = {
 	"artist": "Memmy"},
 "4BhSrh0nP3o": {
 	"title": "Vs. CPU / Multiplayer - Bust-A-Move DS",
-	"wiki": "https://siivagunner.wiki/wiki/Vs.%20CPU%20%2F%20Multiplayer%20-%20Bust-A-Move%20DS",
+	"wiki": "https://siivagunner.wiki/wiki/Vs.%20CPU%20/%20Multiplayer%20-%20Bust-A-Move%20DS",
 	"joke": "The Original 2204355 Chicken Man Song - Zalza (a chiptune cover of the opening theme to Alf)",
 	"artist": "Unknown Ripper"},
 "EAnNQMK8Mys": {
@@ -2141,7 +2141,7 @@ const db = {
 	"artist": "Ellie53"},
 "hQHbi8X5GUI": {
 	"title": "The Garden (Skateboard/BMX) - Stuart Little 3: Big Photo Adventure",
-	"wiki": "https://siivagunner.wiki/wiki/The%20Garden%20(Skateboard%2FBMX)%20-%20Stuart%20Little%203%3A%20Big%20Photo%20Adventure",
+	"wiki": "https://siivagunner.wiki/wiki/The%20Garden%20(Skateboard/BMX)%20-%20Stuart%20Little%203%3A%20Big%20Photo%20Adventure",
 	"joke": "GOLD - BROCKHAMPTON",
 	"artist": "Najvyexi"},
 "rqHQQr-7wW4": {
@@ -2236,7 +2236,7 @@ const db = {
 	"artist": "Heboyi"},
 "b7TUwfC9Pwc": {
 	"title": "Silent Forest / Windy Prairie / Bright Beach - Pokémon Rumble",
-	"wiki": "https://siivagunner.wiki/wiki/Silent%20Forest%20%2F%20Windy%20Prairie%20%2F%20Bright%20Beach%20-%20Pok%C3%A9mon%20Rumble",
+	"wiki": "https://siivagunner.wiki/wiki/Silent%20Forest%20/%20Windy%20Prairie%20/%20Bright%20Beach%20-%20Pok%C3%A9mon%20Rumble",
 	"joke": "Brave Adventurers - World of Goo",
 	"artist": "Faces in the Clouds"},
 "EUi9MsMumis": {
@@ -2551,7 +2551,7 @@ const db = {
 	"artist": "Alex Wumbo"},
 "_SNnIkF38K0": {
 	"title": "Sweet Board - Monopoly (Wii/PS2)",
-	"wiki": "https://siivagunner.wiki/wiki/Sweet%20Board%20(OST%20Version)%20-%20Monopoly%20(Wii%2FPS2)",
+	"wiki": "https://siivagunner.wiki/wiki/Sweet%20Board%20(OST%20Version)%20-%20Monopoly%20(Wii/PS2)",
 	"joke": "I'm a Gummy Bear (The Gummy Bear Song) - Gummibär",
 	"artist": "Retro Gaming"},
 "OZ6MzyWfm_Y": {
@@ -3286,7 +3286,7 @@ const db = {
 	"artist": "Unknown Ripper"},
 "AIOR-mEZd7Y": {
 	"title": "Upstairs (Skateboard/BMX) - Stuart Little 3: Big Photo Adventure",
-	"wiki": "https://siivagunner.wiki/wiki/Upstairs%20(Skateboard%2FBMX)%20-%20Stuart%20Little%203%3A%20Big%20Photo%20Adventure",
+	"wiki": "https://siivagunner.wiki/wiki/Upstairs%20(Skateboard/BMX)%20-%20Stuart%20Little%203%3A%20Big%20Photo%20Adventure",
 	"joke": "The Mask - Danger Doom ft. Ghostface Killah",
 	"artist": "Najvyexi"},
 "qoqn4_IbPGE": {
@@ -3351,7 +3351,7 @@ const db = {
 	"artist": "BluLuigi7"},
 "SNgzL_Z6Q_U": {
 	"title": "Eureka River - Ultimate Angler / StreetPass Fishing",
-	"wiki": "https://siivagunner.wiki/wiki/Eureka%20River%20(New%20Nintendo%203DS%20Version)%20-%20Ultimate%20Angler%20%2F%20StreetPass%20Fishing",
+	"wiki": "https://siivagunner.wiki/wiki/Eureka%20River%20(New%20Nintendo%203DS%20Version)%20-%20Ultimate%20Angler%20/%20StreetPass%20Fishing",
 	"joke": "Del mar county fair 2008 - underscores and Maxwell Young",
 	"artist": "MtH"},
 "92dVYjQ-LFA": {
@@ -3651,7 +3651,7 @@ const db = {
 	"artist": "athenamite"},
 "knjnzLZvsqk": {
 	"title": "Game Over - EarthBound Beginnings/MOTHER",
-	"wiki": "https://siivagunner.wiki/wiki/Game%20Over%20(Beta%20Mix)%20-%20EarthBound%20Beginnings%2FMOTHER",
+	"wiki": "https://siivagunner.wiki/wiki/Game%20Over%20(Beta%20Mix)%20-%20EarthBound%20Beginnings/MOTHER",
 	"joke": "A Quick One Before The Eternal Worm Devours Connecticut - Have a Nice Life",
 	"artist": "eg_9371"},
 "Xl0hLYIJKns": {
@@ -5086,7 +5086,7 @@ const db = {
 	"artist": "eg_9371"},
 "6vHa2rNUNJo": {
 	"title": "Dark Cave/Ice Path - Pokémon Crystal",
-	"wiki": "https://siivagunner.wiki/wiki/Dark%20Cave%2FIce%20Path%20-%20Pok%C3%A9mon%20Crystal",
+	"wiki": "https://siivagunner.wiki/wiki/Dark%20Cave/Ice%20Path%20-%20Pok%C3%A9mon%20Crystal",
 	"joke": "Greedy Grove - Void Stranger",
 	"artist": "PixelSword"},
 "4lnLBf1jID8": {
@@ -5246,7 +5246,7 @@ const db = {
 	"artist": "lollo"},
 "JZtpAap7k-c": {
 	"title": "Radio: Lucky Channel/Game Corner - Pokémon Gold & Silver",
-	"wiki": "https://siivagunner.wiki/wiki/Radio%3A%20Lucky%20Channel%2FGame%20Corner%20(Alpha%20Mix)%20-%20Pok%C3%A9mon%20Gold%20%26%20Silver",
+	"wiki": "https://siivagunner.wiki/wiki/Radio%3A%20Lucky%20Channel/Game%20Corner%20(Alpha%20Mix)%20-%20Pok%C3%A9mon%20Gold%20%26%20Silver",
 	"joke": "I'm Still Standing - Elton John",
 	"artist": "mullar"},
 "P2CrvkgF22I": {
@@ -5961,7 +5961,7 @@ const db = {
 	"artist": "axological"},
 "BK5L4i5jP4c": {
 	"title": "Invincibility/Starman - New Super Mario Bros",
-	"wiki": "https://siivagunner.wiki/wiki/Invincibility%2FStarman%20(OST%20Version)%20-%20New%20Super%20Mario%20Bros.",
+	"wiki": "https://siivagunner.wiki/wiki/Invincibility/Starman%20(OST%20Version)%20-%20New%20Super%20Mario%20Bros.",
 	"joke": "Break Into My Heart - Jelly Hoshiumi",
 	"artist": "Ellie53"},
 "IJhYJGvUdR8": {
@@ -6381,7 +6381,7 @@ const db = {
 	"artist": "minindo"},
 "57ev4tHJK5Q": {
 	"title": "The Final Hour/Sadness - The 11th Hour",
-	"wiki": "https://siivagunner.wiki/wiki/The%20Final%20Hour%2FSadness%20(OST%20Version)%20-%20The%2011th%20Hour",
+	"wiki": "https://siivagunner.wiki/wiki/The%20Final%20Hour/Sadness%20(OST%20Version)%20-%20The%2011th%20Hour",
 	"joke": "Ain't No Sunshine - Bill Withers",
 	"artist": "eg_9371"},
 "eDQVGEuPtVI": {
@@ -6596,7 +6596,7 @@ const db = {
 	"artist": "eg_9371"},
 "uIzWtGC_9hA": {
 	"title": "3 A.M. ディテクティブ・ゲーム - MÚSECA 1+1/2",
-	"wiki": "https://siivagunner.wiki/wiki/3%20A.M.%20%E3%83%87%E3%82%A3%E3%83%86%E3%82%AF%E3%83%86%E3%82%A3%E3%83%96%E3%83%BB%E3%82%B2%E3%83%BC%E3%83%A0%20-%20M%C3%9ASECA%201%2B1%2F2",
+	"wiki": "https://siivagunner.wiki/wiki/3%20A.M.%20%E3%83%87%E3%82%A3%E3%83%86%E3%82%AF%E3%83%86%E3%82%A3%E3%83%96%E3%83%BB%E3%82%B2%E3%83%BC%E3%83%A0%20-%20M%C3%9ASECA%201%2B1/2",
 	"joke": "Undercover Martyn - Two Door Cinema Club",
 	"artist": "eg_9371"},
 "_4IGYCpGLEc": {
@@ -7106,7 +7106,7 @@ const db = {
 	"artist": "mullar"},
 "H17CVoLp7sk": {
 	"title": "Versus Giegue - EarthBound Beginnings/MOTHER",
-	"wiki": "https://siivagunner.wiki/wiki/Versus%20Giegue%20-%20EarthBound%20Beginnings%2FMOTHER",
+	"wiki": "https://siivagunner.wiki/wiki/Versus%20Giegue%20-%20EarthBound%20Beginnings/MOTHER",
 	"joke": "Stress - Justice",
 	"artist": "eg_9371"},
 "TZCN_br-7Lg": {
@@ -7206,7 +7206,7 @@ const db = {
 	"artist": "AdamCrossing"},
 "UZ65iI7zs1o": {
 	"title": "Eggsplode! - Short Order / Eggsplode!",
-	"wiki": "https://siivagunner.wiki/wiki/Eggsplode!%20-%20Short%20Order%20%2F%20Eggsplode!",
+	"wiki": "https://siivagunner.wiki/wiki/Eggsplode!%20-%20Short%20Order%20/%20Eggsplode!",
 	"joke": "Chevy Ridin' High - Dre ft. Rick Ross",
 	"artist": "bloomin' pingas"},
 "bOsE-ON15j0": {
@@ -8006,7 +8006,7 @@ const db = {
 	"artist": "eg_9371"},
 "YiQqGYBCzss": {
 	"title": "Moonlight Mansion / Carrot Castle - Kirby & The Amazing Mirror",
-	"wiki": "https://siivagunner.wiki/wiki/Moonlight%20Mansion%20%2F%20Carrot%20Castle%20(Beta%20Mix)%20-%20Kirby%20%26%20The%20Amazing%20Mirror",
+	"wiki": "https://siivagunner.wiki/wiki/Moonlight%20Mansion%20/%20Carrot%20Castle%20(Beta%20Mix)%20-%20Kirby%20%26%20The%20Amazing%20Mirror",
 	"joke": "Raft Ride - The Legend of Zelda: Link's Awakening",
 	"artist": "mullar"},
 "eocsa9Y1QCg": {
@@ -8236,7 +8236,7 @@ const db = {
 	"artist": "bloomin' pingas"},
 "h4clFeOvmMQ": {
 	"title": "Today's Results - Ultimate Angler / StreetPass Fishing",
-	"wiki": "https://siivagunner.wiki/wiki/Today's%20Results%20(OST%20Version)%20-%20Ultimate%20Angler%20%2F%20StreetPass%20Fishing",
+	"wiki": "https://siivagunner.wiki/wiki/Today's%20Results%20(OST%20Version)%20-%20Ultimate%20Angler%20/%20StreetPass%20Fishing",
 	"joke": "Sunday Morning - Maroon 5",
 	"artist": "Brawlcats"},
 "2IzS3b47WCU": {
@@ -8531,7 +8531,7 @@ const db = {
 	"artist": "alan"},
 "O4bI_ke7vjU": {
 	"title": "Undella Town (Autumn/Winter/Spring) (Beta Edition) - Pokémon Black & White",
-	"wiki": "https://siivagunner.wiki/wiki/Undella%20Town%20(Autumn%2FWinter%2FSpring)%20(Beta%20Edition)%20-%20Pok%C3%A9mon%20Black%20%26%20White",
+	"wiki": "https://siivagunner.wiki/wiki/Undella%20Town%20(Autumn/Winter/Spring)%20(Beta%20Edition)%20-%20Pok%C3%A9mon%20Black%20%26%20White",
 	"joke": "Possibly Maybe - Björk",
 	"artist": "Memmy"},
 "ZhmbqOev2hE": {
@@ -9406,7 +9406,7 @@ const db = {
 	"artist": "Wekko"},
 "JIxyjnGkM_0": {
 	"title": "Neo Geo Opening - Console/BIOS Music",
-	"wiki": "https://siivagunner.wiki/wiki/Neo%20Geo%20Opening%20-%20Console%2FBIOS%20Music",
+	"wiki": "https://siivagunner.wiki/wiki/Neo%20Geo%20Opening%20-%20Console/BIOS%20Music",
 	"joke": "The Nutshack Intro - The Nutshack",
 	"artist": "Kenji Furutani"},
 "5VxAp6HnP0E": {
@@ -9671,7 +9671,7 @@ const db = {
 	"artist": "ThePowerPlayer"},
 "FhijL5NN7Ws": {
 	"title": "World Mushroom/Flower - Super Mario 3D World",
-	"wiki": "https://siivagunner.wiki/wiki/World%20Mushroom%2FFlower%20-%20Super%20Mario%203D%20World",
+	"wiki": "https://siivagunner.wiki/wiki/World%20Mushroom/Flower%20-%20Super%20Mario%203D%20World",
 	"joke": "Space Jam - Space Jam",
 	"artist": "Yassir F."},
 "kf0jYUgDCjs": {
@@ -12121,7 +12121,7 @@ const db = {
 	"artist": "PixelSword"},
 "gAW1IAFi_9Y": {
 	"title": "grode - vivid/stasis",
-	"wiki": "https://siivagunner.wiki/wiki/Grode%20-%20vivid%2Fstasis",
+	"wiki": "https://siivagunner.wiki/wiki/Grode%20-%20vivid/stasis",
 	"joke": "Crazy - Gnarls Barkley",
 	"artist": "MLM3"},
 "5iZfJY6y3mw": {
@@ -13737,7 +13737,7 @@ const db = {
 	"artist": "eg_9371"},
 "QFqJT2MkI3c": {
 	"title": "Mother Earth - EarthBound Beginnings/MOTHER",
-	"wiki": "https://siivagunner.wiki/wiki/Mother%20Earth%20(Alpha%20Mix)%20-%20EarthBound%20Beginnings%2FMOTHER",
+	"wiki": "https://siivagunner.wiki/wiki/Mother%20Earth%20(Alpha%20Mix)%20-%20EarthBound%20Beginnings/MOTHER",
 	"joke": "Lion's Theme - Steven Universe",
 	"artist": "Retro Gaming"},
 "dc3HCC5O2wI": {
@@ -14077,7 +14077,7 @@ const db = {
 	"artist": "BluLuigi7"},
 "h862OQHFOJ0": {
 	"title": "Clearwater Lake - Ultimate Angler / StreetPass Fishing",
-	"wiki": "https://siivagunner.wiki/wiki/Clearwater%20Lake%20(JP%20Version)%20-%20Ultimate%20Angler%20%2F%20StreetPass%20Fishing",
+	"wiki": "https://siivagunner.wiki/wiki/Clearwater%20Lake%20(JP%20Version)%20-%20Ultimate%20Angler%20/%20StreetPass%20Fishing",
 	"joke": "Kiseki Hikaru - Aqours",
 	"artist": "Emm Bee Sea"},
 "YA0mjU56ETo": {
@@ -15287,7 +15287,7 @@ const db = {
 	"artist": "minindo"},
 "xEAlyOTuTME": {
 	"title": "Covert/Impossible Mission - Yo-kai Watch Blasters: Red Cat Corps and White Dog Squad",
-	"wiki": "https://siivagunner.wiki/wiki/Covert%2FImpossible%20Mission%20-%20Yo-kai%20Watch%20Blasters%3A%20Red%20Cat%20Corps%20and%20White%20Dog%20Squad",
+	"wiki": "https://siivagunner.wiki/wiki/Covert/Impossible%20Mission%20-%20Yo-kai%20Watch%20Blasters%3A%20Red%20Cat%20Corps%20and%20White%20Dog%20Squad",
 	"joke": "NOW'S YOUR CHANCE TO BE A - Deltarune",
 	"artist": "lollo"},
 "Ly7hrnAfQcI": {
@@ -15552,7 +15552,7 @@ const db = {
 	"artist": "eg_9371"},
 "9nZ3SU-_xgM": {
 	"title": "Bein' Friends - EarthBound Beginnings/MOTHER",
-	"wiki": "https://siivagunner.wiki/wiki/Bein'%20Friends%20(Alternate%20Version)%20-%20EarthBound%20Beginnings%2FMOTHER",
+	"wiki": "https://siivagunner.wiki/wiki/Bein'%20Friends%20(Alternate%20Version)%20-%20EarthBound%20Beginnings/MOTHER",
 	"joke": "Kings & Queens - Ava Max",
 	"artist": "berg8793"},
 "tIeSk5puIsU": {
@@ -16707,7 +16707,7 @@ const db = {
 	"artist": "Nafun"},
 "5aNdBogd9IM": {
 	"title": "POP/STARS - League of Legends",
-	"wiki": "https://siivagunner.wiki/wiki/POP%2FSTARS%20(NA%20Version)%20-%20League%20of%20Legends",
+	"wiki": "https://siivagunner.wiki/wiki/POP/STARS%20(NA%20Version)%20-%20League%20of%20Legends",
 	"joke": "Can't Hold Us - Macklemore & Ryan Lewis ft. Ray Dalton",
 	"artist": "berg8793"},
 "ucHzbojhA54": {
@@ -16967,62 +16967,62 @@ const db = {
 	"artist": "eg_9371"},
 "SuVhsdt2syc": {
 	"title": "Collection Complete - Ultimate Angler / StreetPass Fishing",
-	"wiki": "https://siivagunner.wiki/wiki/Collection%20Complete%20-%20Ultimate%20Angler%20%2F%20StreetPass%20Fishing",
+	"wiki": "https://siivagunner.wiki/wiki/Collection%20Complete%20-%20Ultimate%20Angler%20/%20StreetPass%20Fishing",
 	"joke": "Meet the Flintstones - The Flintstones",
 	"artist": "Myeauxyoozi"},
 "DvoaFv5qMk4": {
 	"title": "Ending - Ultimate Angler / StreetPass Fishing",
-	"wiki": "https://siivagunner.wiki/wiki/Ending%20(Beta%20Mix)%20-%20Ultimate%20Angler%20%2F%20StreetPass%20Fishing",
+	"wiki": "https://siivagunner.wiki/wiki/Ending%20(Beta%20Mix)%20-%20Ultimate%20Angler%20/%20StreetPass%20Fishing",
 	"joke": "Mother - Porter Robinson",
 	"artist": "MtH"},
 "IGF_N3-EeJo": {
 	"title": "A Visitor from the Stars - Ultimate Angler / StreetPass Fishing",
-	"wiki": "https://siivagunner.wiki/wiki/A%20Visitor%20from%20the%20Stars%20(Extended%20Version)%20-%20Ultimate%20Angler%20%2F%20StreetPass%20Fishing",
+	"wiki": "https://siivagunner.wiki/wiki/A%20Visitor%20from%20the%20Stars%20(Extended%20Version)%20-%20Ultimate%20Angler%20/%20StreetPass%20Fishing",
 	"joke": "Unfold - Porter Robinson & Totally Enormous Extinct Dinosaurs",
 	"artist": "eg_9371"},
 "1olLeWQLrIg": {
 	"title": "Sulani River - Ultimate Angler / StreetPass Fishing",
-	"wiki": "https://siivagunner.wiki/wiki/Sulani%20River%20-%20Ultimate%20Angler%20%2F%20StreetPass%20Fishing",
+	"wiki": "https://siivagunner.wiki/wiki/Sulani%20River%20-%20Ultimate%20Angler%20/%20StreetPass%20Fishing",
 	"joke": "Yesteryear - RuneScape",
 	"artist": "RHMan"},
 "PmBPFLQg-2I": {
 	"title": "Arcana Beach - Ultimate Angler / StreetPass Fishing",
-	"wiki": "https://siivagunner.wiki/wiki/Arcana%20Beach%20(Beta%20Mix)%20-%20Ultimate%20Angler%20%2F%20StreetPass%20Fishing",
+	"wiki": "https://siivagunner.wiki/wiki/Arcana%20Beach%20(Beta%20Mix)%20-%20Ultimate%20Angler%20/%20StreetPass%20Fishing",
 	"joke": "Nothing Lasts Forever - Maroon 5",
 	"artist": "Emm Bee Sea"},
 "osMgLd-Ls6c": {
 	"title": "Poseidon Deep-Sea Cruise - Ultimate Angler / StreetPass Fishing",
-	"wiki": "https://siivagunner.wiki/wiki/Poseidon%20Deep-Sea%20Cruise%20-%20Ultimate%20Angler%20%2F%20StreetPass%20Fishing",
+	"wiki": "https://siivagunner.wiki/wiki/Poseidon%20Deep-Sea%20Cruise%20-%20Ultimate%20Angler%20/%20StreetPass%20Fishing",
 	"joke": "Rude - MAGIC!",
 	"artist": "ChickenSuitGuy"},
 "PfJPRZmUhHI": {
 	"title": "Sellbrook River - Ultimate Angler / StreetPass Fishing",
-	"wiki": "https://siivagunner.wiki/wiki/Sellbrook%20River%20(Beta%20Mix)%20-%20Ultimate%20Angler%20%2F%20StreetPass%20Fishing",
+	"wiki": "https://siivagunner.wiki/wiki/Sellbrook%20River%20(Beta%20Mix)%20-%20Ultimate%20Angler%20/%20StreetPass%20Fishing",
 	"joke": "Grandma's Theme - The Legend of Zelda: The Wind Waker",
 	"artist": "Emm Bee Sea"},
 "YM0RZV31J6Y": {
 	"title": "Memento Deep-Sea Cruise - Ultimate Angler / StreetPass Fishing",
-	"wiki": "https://siivagunner.wiki/wiki/Memento%20Deep-Sea%20Cruise%20-%20Ultimate%20Angler%20%2F%20StreetPass%20Fishing",
+	"wiki": "https://siivagunner.wiki/wiki/Memento%20Deep-Sea%20Cruise%20-%20Ultimate%20Angler%20/%20StreetPass%20Fishing",
 	"joke": "THE WORLD REVOLVING - Deltarune",
 	"artist": "Retro Gaming"},
 "3q85GYlTGWI": {
 	"title": "Cypress Lake - Ultimate Angler / StreetPass Fishing",
-	"wiki": "https://siivagunner.wiki/wiki/Cypress%20Lake%20-%20Ultimate%20Angler%20%2F%20StreetPass%20Fishing",
+	"wiki": "https://siivagunner.wiki/wiki/Cypress%20Lake%20-%20Ultimate%20Angler%20/%20StreetPass%20Fishing",
 	"joke": "Accumula Town - Pokémon Black & White",
 	"artist": "Emm Bee Sea"},
 "_E_8ioLOfac": {
 	"title": "Hazeldown River - Ultimate Angler / StreetPass Fishing",
-	"wiki": "https://siivagunner.wiki/wiki/Hazeldown%20River%20(OST%20Version)%20-%20Ultimate%20Angler%20%2F%20StreetPass%20Fishing",
+	"wiki": "https://siivagunner.wiki/wiki/Hazeldown%20River%20(OST%20Version)%20-%20Ultimate%20Angler%20/%20StreetPass%20Fishing",
 	"joke": "Star Light Zone - Sonic the Hedgehog",
 	"artist": "Kirbio"},
 "fz_9w5KueZU": {
 	"title": "Arcana Beach - Ultimate Angler / StreetPass Fishing",
-	"wiki": "https://siivagunner.wiki/wiki/Arcana%20Beach%20-%20Ultimate%20Angler%20%2F%20StreetPass%20Fishing",
+	"wiki": "https://siivagunner.wiki/wiki/Arcana%20Beach%20-%20Ultimate%20Angler%20/%20StreetPass%20Fishing",
 	"joke": "True - Spandau Ballet",
 	"artist": "Myeauxyoozi"},
 "xtTRZfrhNrE": {
 	"title": "Let's Go Fishing - Ultimate Angler / StreetPass Fishing",
-	"wiki": "https://siivagunner.wiki/wiki/Let's%20Go%20Fishing%20(OST%20Version)%20-%20Ultimate%20Angler%20%2F%20StreetPass%20Fishing",
+	"wiki": "https://siivagunner.wiki/wiki/Let's%20Go%20Fishing%20(OST%20Version)%20-%20Ultimate%20Angler%20/%20StreetPass%20Fishing",
 	"joke": "Everybody Wants to Rule the World - Tears for Fears",
 	"artist": "alan"},
 "stncTcBwh_A": {
@@ -17067,7 +17067,7 @@ const db = {
 	"artist": "eg_9371"},
 "A2VqRcgkAYQ": {
 	"title": "Sanzaneeta Reef - Ultimate Angler / StreetPass Fishing",
-	"wiki": "https://siivagunner.wiki/wiki/Sanzaneeta%20Reef%20(Beta%20Mix)%20-%20Ultimate%20Angler%20%2F%20StreetPass%20Fishing",
+	"wiki": "https://siivagunner.wiki/wiki/Sanzaneeta%20Reef%20(Beta%20Mix)%20-%20Ultimate%20Angler%20/%20StreetPass%20Fishing",
 	"joke": "Ichiban no Takaramono - Angel Beats!",
 	"artist": "Emm Bee Sea"},
 "3IjgI-Ms1pw": {
@@ -17077,7 +17077,7 @@ const db = {
 	"artist": "JerryStuff (Ro)"},
 "oPbFvLjRFzM": {
 	"title": "Coraline's Dad - Ultimate Angler / StreetPass Fishing",
-	"wiki": "https://siivagunner.wiki/wiki/Coraline's%20Dad%20(Beta%20Mix)%20-%20Ultimate%20Angler%20%2F%20StreetPass%20Fishing",
+	"wiki": "https://siivagunner.wiki/wiki/Coraline's%20Dad%20(Beta%20Mix)%20-%20Ultimate%20Angler%20/%20StreetPass%20Fishing",
 	"joke": "Raft Ride - The Legend of Zelda: Link's Awakening",
 	"artist": "alan"},
 "jn0FkHrgvPw": {
@@ -17092,7 +17092,7 @@ const db = {
 	"artist": "Unknown Ripper"},
 "401vnrYaSQc": {
 	"title": "Wyverdun Lake - Ultimate Angler / StreetPass Fishing",
-	"wiki": "https://siivagunner.wiki/wiki/Wyverdun%20Lake%20-%20Ultimate%20Angler%20%2F%20StreetPass%20Fishing",
+	"wiki": "https://siivagunner.wiki/wiki/Wyverdun%20Lake%20-%20Ultimate%20Angler%20/%20StreetPass%20Fishing",
 	"joke": "Ordon Village - The Legend of Zelda: Twilight Princess",
 	"artist": "Emm Bee Sea"},
 "wRY4e9oAf2I": {
@@ -17117,17 +17117,17 @@ const db = {
 	"artist": "ChickenSuitGuy"},
 "SEI_7aaWJJE": {
 	"title": "Coraline's Clubhouse - Ultimate Angler / StreetPass Fishing",
-	"wiki": "https://siivagunner.wiki/wiki/Coraline's%20Clubhouse%20(Beta%20Mix)%20-%20Ultimate%20Angler%20%2F%20StreetPass%20Fishing",
+	"wiki": "https://siivagunner.wiki/wiki/Coraline's%20Clubhouse%20(Beta%20Mix)%20-%20Ultimate%20Angler%20/%20StreetPass%20Fishing",
 	"joke": "Bikini Bottom - SpongeBob SquarePants: Battle for Bikini Bottom",
 	"artist": "Emm Bee Sea"},
 "1-qqyAc5XPo": {
 	"title": "Stardust Speedway Bad Future (JPN/PAL) - Sonic CD",
-	"wiki": "https://siivagunner.wiki/wiki/Stardust%20Speedway%20Bad%20Future%20(JPN%2FPAL)%20(OST%20Version)%20-%20Sonic%20CD",
+	"wiki": "https://siivagunner.wiki/wiki/Stardust%20Speedway%20Bad%20Future%20(JPN/PAL)%20(OST%20Version)%20-%20Sonic%20CD",
 	"joke": "Hot Property - Jamiroquai",
 	"artist": "eg_9371"},
 "prYq2Yo4ajg": {
 	"title": "Sylvana River - Ultimate Angler / StreetPass Fishing",
-	"wiki": "https://siivagunner.wiki/wiki/Sylvana%20River%20-%20Ultimate%20Angler%20%2F%20StreetPass%20Fishing",
+	"wiki": "https://siivagunner.wiki/wiki/Sylvana%20River%20-%20Ultimate%20Angler%20/%20StreetPass%20Fishing",
 	"joke": "Dragon Roost Island - The Legend of Zelda: The Wind Waker",
 	"artist": "Emm Bee Sea"},
 "CESBQYo7qHY": {
@@ -17137,7 +17137,7 @@ const db = {
 	"artist": "mullar"},
 "3pF2k3rBb-8": {
 	"title": "Landing a Legend - Ultimate Angler / StreetPass Fishing",
-	"wiki": "https://siivagunner.wiki/wiki/Landing%20a%20Legend%20-%20Ultimate%20Angler%20%2F%20StreetPass%20Fishing",
+	"wiki": "https://siivagunner.wiki/wiki/Landing%20a%20Legend%20-%20Ultimate%20Angler%20/%20StreetPass%20Fishing",
 	"joke": "Bloody Tears - Castlevania II: Simon's Quest",
 	"artist": "Emm Bee Sea"},
 "x6a-t9RMzk0": {
@@ -17172,7 +17172,7 @@ const db = {
 	"artist": "Arados"},
 "9spJGfiMIos": {
 	"title": "Mistfall River - Ultimate Angler / StreetPass Fishing",
-	"wiki": "https://siivagunner.wiki/wiki/Mistfall%20River%20-%20Ultimate%20Angler%20%2F%20StreetPass%20Fishing",
+	"wiki": "https://siivagunner.wiki/wiki/Mistfall%20River%20-%20Ultimate%20Angler%20/%20StreetPass%20Fishing",
 	"joke": "Goodbye to a World - Porter Robinson",
 	"artist": "berg8793"},
 "47PGLwiEu4w": {
@@ -17202,7 +17202,7 @@ const db = {
 	"artist": "lollo"},
 "vn9liokB290": {
 	"title": "Abunda Jungle - Ultimate Angler / StreetPass Fishing",
-	"wiki": "https://siivagunner.wiki/wiki/Abunda%20Jungle%20-%20Ultimate%20Angler%20%2F%20StreetPass%20Fishing",
+	"wiki": "https://siivagunner.wiki/wiki/Abunda%20Jungle%20-%20Ultimate%20Angler%20/%20StreetPass%20Fishing",
 	"joke": "Dearly Beloved - Kingdom Hearts",
 	"artist": "berg8793"},
 "trDWkOyqmAI": {
@@ -17232,7 +17232,7 @@ const db = {
 	"artist": "DonnieTheGuy"},
 "B2FA6wt0rmc": {
 	"title": "Beginner's Bay - Ultimate Angler / StreetPass Fishing",
-	"wiki": "https://siivagunner.wiki/wiki/Beginner's%20Bay%20-%20Ultimate%20Angler%20%2F%20StreetPass%20Fishing",
+	"wiki": "https://siivagunner.wiki/wiki/Beginner's%20Bay%20-%20Ultimate%20Angler%20/%20StreetPass%20Fishing",
 	"joke": "Bopeebo - Friday Night Funkin'",
 	"artist": "berg8793"},
 "A5dh9aBXYyk": {
@@ -17267,7 +17267,7 @@ const db = {
 	"artist": "Ellie53"},
 "Tzz4vxPxkpw": {
 	"title": "Steelsbay Rock - Ultimate Angler / StreetPass Fishing",
-	"wiki": "https://siivagunner.wiki/wiki/Steelsbay%20Rock%20-%20Ultimate%20Angler%20%2F%20StreetPass%20Fishing",
+	"wiki": "https://siivagunner.wiki/wiki/Steelsbay%20Rock%20-%20Ultimate%20Angler%20/%20StreetPass%20Fishing",
 	"joke": "Gymnopédie No. 1 - Erik Satie",
 	"artist": "berg8793"},
 "z6l24fSK7ac": {
@@ -17287,7 +17287,7 @@ const db = {
 	"artist": "mullar"},
 "11bIz9UB6N0": {
 	"title": "Hazeldown River - Ultimate Angler / StreetPass Fishing",
-	"wiki": "https://siivagunner.wiki/wiki/Hazeldown%20River%20-%20Ultimate%20Angler%20%2F%20StreetPass%20Fishing",
+	"wiki": "https://siivagunner.wiki/wiki/Hazeldown%20River%20-%20Ultimate%20Angler%20/%20StreetPass%20Fishing",
 	"joke": "Hey Jude - The Beatles",
 	"artist": "eg_9371"},
 "6kgcIEUtSrQ": {
@@ -17332,7 +17332,7 @@ const db = {
 	"artist": "DonnieTheGuy"},
 "nOmYfiq8GU0": {
 	"title": "Fernhollow Pond - Ultimate Angler / StreetPass Fishing",
-	"wiki": "https://siivagunner.wiki/wiki/Fernhollow%20Pond%20-%20Ultimate%20Angler%20%2F%20StreetPass%20Fishing",
+	"wiki": "https://siivagunner.wiki/wiki/Fernhollow%20Pond%20-%20Ultimate%20Angler%20/%20StreetPass%20Fishing",
 	"joke": "Far - Minecraft",
 	"artist": "eg_9371"},
 "chjsQQNO-mI": {
@@ -17362,7 +17362,7 @@ const db = {
 	"artist": "lonk"},
 "5sNCZlDxRBQ": {
 	"title": "Seraphia Pier - Ultimate Angler / StreetPass Fishing",
-	"wiki": "https://siivagunner.wiki/wiki/Seraphia%20Pier%20-%20Ultimate%20Angler%20%2F%20StreetPass%20Fishing",
+	"wiki": "https://siivagunner.wiki/wiki/Seraphia%20Pier%20-%20Ultimate%20Angler%20/%20StreetPass%20Fishing",
 	"joke": "Good Riddance (Time of Your Life) - Green Day",
 	"artist": "eg_9371"},
 "-uVuiCKcCyw": {
@@ -17377,7 +17377,7 @@ const db = {
 	"artist": "MtH"},
 "VefU-BzyYHI": {
 	"title": "Yunali Reef - Ultimate Angler / StreetPass Fishing",
-	"wiki": "https://siivagunner.wiki/wiki/Yunali%20Reef%20-%20Ultimate%20Angler%20%2F%20StreetPass%20Fishing",
+	"wiki": "https://siivagunner.wiki/wiki/Yunali%20Reef%20-%20Ultimate%20Angler%20/%20StreetPass%20Fishing",
 	"joke": "Space Boyfriend's Tape - I Want Nothing More - OMORI",
 	"artist": "eg_9371"},
 "C4vJeHgK2Vk": {
@@ -17417,7 +17417,7 @@ const db = {
 	"artist": "Emm Bee Sea"},
 "ysjZp3Y8AFM": {
 	"title": "Atlantis Deep-Sea Cruise - Ultimate Angler / StreetPass Fishing",
-	"wiki": "https://siivagunner.wiki/wiki/Atlantis%20Deep-Sea%20Cruise%20(New%20Nintendo%203DS%20Version)%20-%20Ultimate%20Angler%20%2F%20StreetPass%20Fishing",
+	"wiki": "https://siivagunner.wiki/wiki/Atlantis%20Deep-Sea%20Cruise%20(New%20Nintendo%203DS%20Version)%20-%20Ultimate%20Angler%20/%20StreetPass%20Fishing",
 	"joke": "Secret of the Forest - Chrono Trigger",
 	"artist": "pixelsword_"},
 "dtAeppmqe1U": {
@@ -17462,7 +17462,7 @@ const db = {
 	"artist": "Memesauce"},
 "7tuQsG9FVKM": {
 	"title": "Mossmeadow Pond - Ultimate Angler / StreetPass Fishing",
-	"wiki": "https://siivagunner.wiki/wiki/Mossmeadow%20Pond%20-%20Ultimate%20Angler%20%2F%20StreetPass%20Fishing",
+	"wiki": "https://siivagunner.wiki/wiki/Mossmeadow%20Pond%20-%20Ultimate%20Angler%20/%20StreetPass%20Fishing",
 	"joke": "Lake Lamode - Super Mario Odyssey",
 	"artist": "eg_9371"},
 "IyHuSe5t1d8": {
@@ -17497,7 +17497,7 @@ const db = {
 	"artist": "BluLuigi7"},
 "ISIrTwkohRU": {
 	"title": "Oceanora Deep-Sea Cruise 2 - Ultimate Angler / StreetPass Fishing",
-	"wiki": "https://siivagunner.wiki/wiki/Oceanora%20Deep-Sea%20Cruise%202%20-%20Ultimate%20Angler%20%2F%20StreetPass%20Fishing",
+	"wiki": "https://siivagunner.wiki/wiki/Oceanora%20Deep-Sea%20Cruise%202%20-%20Ultimate%20Angler%20/%20StreetPass%20Fishing",
 	"joke": "Kiss from a Rose - Seal",
 	"artist": "eg_9371"},
 "fqpOgA0QrRg": {
@@ -17847,7 +17847,7 @@ const db = {
 	"artist": "Gomamon1125"},
 "6zmlOqjbO2k": {
 	"title": "Highland Lake - Ultimate Angler / StreetPass Fishing",
-	"wiki": "https://siivagunner.wiki/wiki/Highland%20Lake%20-%20Ultimate%20Angler%20%2F%20StreetPass%20Fishing",
+	"wiki": "https://siivagunner.wiki/wiki/Highland%20Lake%20-%20Ultimate%20Angler%20/%20StreetPass%20Fishing",
 	"joke": "Jib Jig - Donkey Kong Country 2: Diddy's Kong Quest",
 	"artist": "eg_9371"},
 "P_K_v_ciBY0": {
@@ -17907,7 +17907,7 @@ const db = {
 	"artist": "mullar"},
 "4bJWj0ml7qA": {
 	"title": "Heading to Distant Waters 1 - Ultimate Angler / StreetPass Fishing",
-	"wiki": "https://siivagunner.wiki/wiki/Heading%20to%20Distant%20Waters%201%20-%20Ultimate%20Angler%20%2F%20StreetPass%20Fishing",
+	"wiki": "https://siivagunner.wiki/wiki/Heading%20to%20Distant%20Waters%201%20-%20Ultimate%20Angler%20/%20StreetPass%20Fishing",
 	"joke": "Deirdre - The Beach Boys",
 	"artist": "eg_9371"},
 "EhfcubOtWmE": {
@@ -18097,12 +18097,12 @@ const db = {
 	"artist": "Jamangar"},
 "hroU5ew1LTw": {
 	"title": "Dayton Point - Ultimate Angler / StreetPass Fishing",
-	"wiki": "https://siivagunner.wiki/wiki/Dayton%20Point%20-%20Ultimate%20Angler%20%2F%20StreetPass%20Fishing",
+	"wiki": "https://siivagunner.wiki/wiki/Dayton%20Point%20-%20Ultimate%20Angler%20/%20StreetPass%20Fishing",
 	"joke": "Sad Machine - Porter Robinson",
 	"artist": "eg_9371"},
 "luGDXfGilZ4": {
 	"title": "Deep-Blue Tank - Ultimate Angler / StreetPass Fishing",
-	"wiki": "https://siivagunner.wiki/wiki/Deep-Blue%20Tank%20-%20Ultimate%20Angler%20%2F%20StreetPass%20Fishing",
+	"wiki": "https://siivagunner.wiki/wiki/Deep-Blue%20Tank%20-%20Ultimate%20Angler%20/%20StreetPass%20Fishing",
 	"joke": "Avril 14th - Aphex Twin",
 	"artist": "eg_9371"},
 "-DtpBP1VGq8": {
@@ -18297,7 +18297,7 @@ const db = {
 	"artist": "lonk"},
 "q0p0pEqGJSg": {
 	"title": "Nokia N-Gage Medieval Ringtone - Console/BIOS Music",
-	"wiki": "https://siivagunner.wiki/wiki/Nokia%20N-Gage%20Medieval%20Ringtone%20-%20Console%2FBIOS%20Music",
+	"wiki": "https://siivagunner.wiki/wiki/Nokia%20N-Gage%20Medieval%20Ringtone%20-%20Console/BIOS%20Music",
 	"joke": "Grape Garden - Kirby's Adventure",
 	"artist": "fusoxide"},
 "kVWZxYcFsdo": {
@@ -18322,7 +18322,7 @@ const db = {
 	"artist": "MJ"},
 "zZx99EQ99pU": {
 	"title": "Slot / Nervous Breakdown - Super Mario Bros. 3",
-	"wiki": "https://siivagunner.wiki/wiki/Slot%20%2F%20Nervous%20Breakdown%20(OST%20Version)%20-%20Super%20Mario%20Bros%203",
+	"wiki": "https://siivagunner.wiki/wiki/Slot%20/%20Nervous%20Breakdown%20(OST%20Version)%20-%20Super%20Mario%20Bros%203",
 	"joke": "Powerhouse - Raymond Scott",
 	"artist": "Matsu Muhō"},
 "_eQ23_jHShA": {
@@ -18842,7 +18842,7 @@ const db = {
 	"artist": "lollo"},
 "OgtHpaSRxd4": {
 	"title": "Jail/R&B - The Urbz: Sims in the City",
-	"wiki": "https://siivagunner.wiki/wiki/Jail%2FR%26B%20(Alpha%20Mix)%20-%20The%20Urbz%3A%20Sims%20in%20the%20City",
+	"wiki": "https://siivagunner.wiki/wiki/Jail/R%26B%20(Alpha%20Mix)%20-%20The%20Urbz%3A%20Sims%20in%20the%20City",
 	"joke": "All Rise - Blue",
 	"artist": "SassyFlow"},
 "cK2lf1-yjzo": {
@@ -18992,7 +18992,7 @@ const db = {
 	"artist": "xIncisions"},
 "hD3U5eTegKM": {
 	"title": "Super Famicom Box Main Menu - Console/BIOS Music",
-	"wiki": "https://siivagunner.wiki/wiki/Super%20Famicom%20Box%20Main%20Menu%20-%20Console%2FBIOS%20Music",
+	"wiki": "https://siivagunner.wiki/wiki/Super%20Famicom%20Box%20Main%20Menu%20-%20Console/BIOS%20Music",
 	"joke": "David S. Pumpkins - Saturday Night Live",
 	"artist": "MtH"},
 "NJ8zNCoyPxg": {
@@ -19002,7 +19002,7 @@ const db = {
 	"artist": "Bruh de la Boi"},
 "ui37BVOTjSw": {
 	"title": "Eureka River - Ultimate Angler / StreetPass Fishing",
-	"wiki": "https://siivagunner.wiki/wiki/Eureka%20River%20-%20Ultimate%20Angler%20%2F%20StreetPass%20Fishing",
+	"wiki": "https://siivagunner.wiki/wiki/Eureka%20River%20-%20Ultimate%20Angler%20/%20StreetPass%20Fishing",
 	"joke": "Captain Splendid - Kara's Flowers",
 	"artist": "MtH"},
 "dfqsztwppSE": {
@@ -19092,7 +19092,7 @@ const db = {
 	"artist": "CactusTeam"},
 "VoXA7ahlN_g": {
 	"title": "Matsunoa Pier - Ultimate Angler / StreetPass Fishing",
-	"wiki": "https://siivagunner.wiki/wiki/Matsunoa%20Pier%20-%20Ultimate%20Angler%20%2F%20StreetPass%20Fishing",
+	"wiki": "https://siivagunner.wiki/wiki/Matsunoa%20Pier%20-%20Ultimate%20Angler%20/%20StreetPass%20Fishing",
 	"joke": "Drip Drop Galaxy - Super Mario Galaxy",
 	"artist": "berg8793"},
 "OMyPteSWYi4": {
@@ -19282,7 +19282,7 @@ const db = {
 	"artist": "Madinstance"},
 "RlQur5EEQVQ": {
 	"title": "Rainhaven River - Ultimate Angler / StreetPass Fishing",
-	"wiki": "https://siivagunner.wiki/wiki/Rainhaven%20River%20-%20Ultimate%20Angler%20%2F%20StreetPass%20Fishing",
+	"wiki": "https://siivagunner.wiki/wiki/Rainhaven%20River%20-%20Ultimate%20Angler%20/%20StreetPass%20Fishing",
 	"joke": "What a Wonderful World - Louis Armstrong",
 	"artist": "eg_9371"},
 "Fbm8_kZof-M": {
@@ -19362,7 +19362,7 @@ const db = {
 	"artist": "PsychLantern"},
 "YkJ_u-WJVHs": {
 	"title": "Let's Catch a Big One - Ultimate Angler / StreetPass Fishing",
-	"wiki": "https://siivagunner.wiki/wiki/Let's%20Catch%20a%20Big%20One%20-%20Ultimate%20Angler%20%2F%20StreetPass%20Fishing",
+	"wiki": "https://siivagunner.wiki/wiki/Let's%20Catch%20a%20Big%20One%20-%20Ultimate%20Angler%20/%20StreetPass%20Fishing",
 	"joke": "Bad Apple!! feat.nomico - Alstroemeria Records",
 	"artist": "berg8793"},
 "4QdGJGyC6oY": {
@@ -19382,7 +19382,7 @@ const db = {
 	"artist": "xIncisions"},
 "StLP-AbSWRw": {
 	"title": "Heading to Distant Waters 2 - Ultimate Angler / StreetPass Fishing",
-	"wiki": "https://siivagunner.wiki/wiki/Heading%20to%20Distant%20Waters%202%20-%20Ultimate%20Angler%20%2F%20StreetPass%20Fishing",
+	"wiki": "https://siivagunner.wiki/wiki/Heading%20to%20Distant%20Waters%202%20-%20Ultimate%20Angler%20/%20StreetPass%20Fishing",
 	"joke": "The Blue Skies Yonder - Mario Party 2",
 	"artist": "berg8793"},
 "ay_Qmk3-dR8": {
@@ -19392,7 +19392,7 @@ const db = {
 	"artist": "Memmy"},
 "r_1IBXKejH0": {
 	"title": "Twinkle Elementary - EarthBound Beginnings/MOTHER",
-	"wiki": "https://siivagunner.wiki/wiki/Twinkle%20Elementary%20(Beta%20Mix)%20-%20EarthBound%20Beginnings%2FMOTHER",
+	"wiki": "https://siivagunner.wiki/wiki/Twinkle%20Elementary%20(Beta%20Mix)%20-%20EarthBound%20Beginnings/MOTHER",
 	"joke": "Take Five - the Dave Brubeck Quartet",
 	"artist": "brubsby"},
 "CGvj-PrLNf8": {
@@ -20127,7 +20127,7 @@ const db = {
 	"artist": "Sarvéproductions"},
 "fS7Zlctf640": {
 	"title": "Level Up! - EarthBound Beginnings/MOTHER",
-	"wiki": "https://siivagunner.wiki/wiki/Level%20Up!%20-%20EarthBound%20Beginnings%2FMOTHER",
+	"wiki": "https://siivagunner.wiki/wiki/Level%20Up!%20-%20EarthBound%20Beginnings/MOTHER",
 	"joke": "Lost Library - OMORI",
 	"artist": "Brendan"},
 "xtzUVR71Yyg": {
@@ -20392,7 +20392,7 @@ const db = {
 	"artist": "Retro Gaming"},
 "7BV5jq_IwFk": {
 	"title": "You Won! - EarthBound Beginnings/MOTHER",
-	"wiki": "https://siivagunner.wiki/wiki/You%20Won!%20(OST%20Version)%20-%20EarthBound%20Beginnings%2FMOTHER",
+	"wiki": "https://siivagunner.wiki/wiki/You%20Won!%20(OST%20Version)%20-%20EarthBound%20Beginnings/MOTHER",
 	"joke": "Emote: Dance Moves - Fortnite",
 	"artist": "Unknown Ripper"},
 "C0tHeyVdYjo": {
@@ -22162,7 +22162,7 @@ const db = {
 	"artist": "circunflexo"},
 "e3kt9K2rnaI": {
 	"title": "Philips CD-i Startup - Console/BIOS Music",
-	"wiki": "https://siivagunner.wiki/wiki/Philips%20CD-i%20Startup%20-%20Console%2FBIOS%20Music",
+	"wiki": "https://siivagunner.wiki/wiki/Philips%20CD-i%20Startup%20-%20Console/BIOS%20Music",
 	"joke": "Dark Fantasy - Kanye West ft. Teyana Taylor",
 	"artist": "Sarvéproductions"},
 "e1P3a9JQnvI": {
@@ -23002,7 +23002,7 @@ const db = {
 	"artist": "Grambam36"},
 "vGjj8lcw598": {
 	"title": "August/Water - OMORI",
-	"wiki": "https://siivagunner.wiki/wiki/August%2FWater%20(Beta%20Mix)%20-%20OMORI",
+	"wiki": "https://siivagunner.wiki/wiki/August/Water%20(Beta%20Mix)%20-%20OMORI",
 	"joke": "silly rabbit (bugs Bunny) - TisaKorean",
 	"artist": "Expensive Dispenser"},
 "xQFusmAjveQ": {
@@ -23867,7 +23867,7 @@ const db = {
 	"artist": "vvsvlogs"},
 "YsCFt6WVxFU": {
 	"title": "Confession / Secret - Persona 5",
-	"wiki": "https://siivagunner.wiki/wiki/Confession%20%2F%20Secret%20(JP%20Version)%20-%20Persona%205",
+	"wiki": "https://siivagunner.wiki/wiki/Confession%20/%20Secret%20(JP%20Version)%20-%20Persona%205",
 	"joke": "Your Power - Billie Eilish",
 	"artist": "vvsvlogs"},
 "8Fm3zX4xe5Q": {
@@ -24247,7 +24247,7 @@ const db = {
 	"artist": "Pan"},
 "RkGbDkNToYw": {
 	"title": "Monkey Cave - EarthBound Beginnings/MOTHER",
-	"wiki": "https://siivagunner.wiki/wiki/Monkey%20Cave%20-%20EarthBound%20Beginnings%2FMOTHER",
+	"wiki": "https://siivagunner.wiki/wiki/Monkey%20Cave%20-%20EarthBound%20Beginnings/MOTHER",
 	"joke": "Tanukichi no Bouken - MAKOOTO",
 	"artist": "Brendan"},
 "XphDCSVyo0k": {
@@ -24387,7 +24387,7 @@ const db = {
 	"artist": "eg_9371"},
 "mJU7fXFfIgs": {
 	"title": "Live House - EarthBound Beginnings/MOTHER",
-	"wiki": "https://siivagunner.wiki/wiki/Live%20House%20-%20EarthBound%20Beginnings%2FMOTHER",
+	"wiki": "https://siivagunner.wiki/wiki/Live%20House%20-%20EarthBound%20Beginnings/MOTHER",
 	"joke": "Your Best Friend - Undertale",
 	"artist": "Brendan"},
 "VDxq30DHA30": {
@@ -24502,7 +24502,7 @@ const db = {
 	"artist": "berg8793"},
 "F7SMKAASIMw": {
 	"title": "Yucca Desert - EarthBound Beginnings/MOTHER",
-	"wiki": "https://siivagunner.wiki/wiki/Yucca%20Desert%20-%20EarthBound%20Beginnings%2FMOTHER",
+	"wiki": "https://siivagunner.wiki/wiki/Yucca%20Desert%20-%20EarthBound%20Beginnings/MOTHER",
 	"joke": "Honeyhive Galaxy - Super Mario Galaxy",
 	"artist": "Brendan"},
 "-yKjm5_E_NE": {
@@ -24602,7 +24602,7 @@ const db = {
 	"artist": "Emm Bee Sea"},
 "W0qZGe1ae20": {
 	"title": "Youngtown - EarthBound Beginnings/MOTHER",
-	"wiki": "https://siivagunner.wiki/wiki/Youngtown%20-%20EarthBound%20Beginnings%2FMOTHER",
+	"wiki": "https://siivagunner.wiki/wiki/Youngtown%20-%20EarthBound%20Beginnings/MOTHER",
 	"joke": "Drowning - A Boogie Wit Da Hoodie ft. Kodak Black",
 	"artist": "Brendan"},
 "dlNNsI9XWAo": {
@@ -24937,12 +24937,12 @@ const db = {
 	"artist": "ItsGameBoy"},
 "vuzAOlqWRwk": {
 	"title": "POP/STARS - League of Legends",
-	"wiki": "https://siivagunner.wiki/wiki/POP%2FSTARS%20(OST%20Version)%20-%20League%20of%20Legends",
+	"wiki": "https://siivagunner.wiki/wiki/POP/STARS%20(OST%20Version)%20-%20League%20of%20Legends",
 	"joke": "SYNDICATE - Vylet Pony",
 	"artist": "ChickenSuitGuy"},
 "g3iVwKe89a4": {
 	"title": "Invincibility/Starman - New Super Mario Bros",
-	"wiki": "https://siivagunner.wiki/wiki/Invincibility%2FStarman%20(NTSC%20Version)%20-%20New%20Super%20Mario%20Bros.",
+	"wiki": "https://siivagunner.wiki/wiki/Invincibility/Starman%20(NTSC%20Version)%20-%20New%20Super%20Mario%20Bros.",
 	"joke": "Crime Pays - Freddie Gibbs and Madlib",
 	"artist": "Father Sheep"},
 "hSmkS-zeibE": {
@@ -25167,7 +25167,7 @@ const db = {
 	"artist": "berg8793"},
 "HRo2KklQ1Fs": {
 	"title": "Approaching Mt. Itoi - EarthBound Beginnings/MOTHER",
-	"wiki": "https://siivagunner.wiki/wiki/Approaching%20Mt.%20Itoi%20-%20EarthBound%20Beginnings%2FMOTHER",
+	"wiki": "https://siivagunner.wiki/wiki/Approaching%20Mt.%20Itoi%20-%20EarthBound%20Beginnings/MOTHER",
 	"joke": "in this unstable world - Yoshiko Tsushima",
 	"artist": "Brendan"},
 "bWfy4N0HM8c": {
@@ -25277,7 +25277,7 @@ const db = {
 	"artist": "mullar"},
 "HKEdkx6tsWw": {
 	"title": "Bridge Zone - Sonic the Hedgehog (Game Gear/Master System)",
-	"wiki": "https://siivagunner.wiki/wiki/Bridge%20Zone%20(JP%20Mix)%20-%20Sonic%20the%20Hedgehog%20(Game%20Gear%2FMaster%20System)",
+	"wiki": "https://siivagunner.wiki/wiki/Bridge%20Zone%20(JP%20Mix)%20-%20Sonic%20the%20Hedgehog%20(Game%20Gear/Master%20System)",
 	"joke": "HINOTORI - Takanashi Kiara",
 	"artist": "Ellie53"},
 "KZfL1eFmQGM": {
@@ -25612,7 +25612,7 @@ const db = {
 	"artist": "Vincent Mashups"},
 "ZNCZDma5Jxo": {
 	"title": "Bridge Zone - Sonic the Hedgehog (Game Gear/Master System)",
-	"wiki": "https://siivagunner.wiki/wiki/Bridge%20Zone%20(Alternate%20Mix)%20-%20Sonic%20the%20Hedgehog%20(Game%20Gear%2FMaster%20System)",
+	"wiki": "https://siivagunner.wiki/wiki/Bridge%20Zone%20(Alternate%20Mix)%20-%20Sonic%20the%20Hedgehog%20(Game%20Gear/Master%20System)",
 	"joke": "Sky Garden - Mario Kart: Super Circuit",
 	"artist": "lollo"},
 "GFeRCa6mkk8": {
@@ -25787,7 +25787,7 @@ const db = {
 	"artist": "dizzlybuck"},
 "Kw3FAnuU_gk": {
 	"title": "Intro/Outdoors - Pico vs Bear",
-	"wiki": "https://siivagunner.wiki/wiki/Intro%2FOutdoors%20(Alpha%20Mix)%20-%20Pico%20vs%20Bear",
+	"wiki": "https://siivagunner.wiki/wiki/Intro/Outdoors%20(Alpha%20Mix)%20-%20Pico%20vs%20Bear",
 	"joke": "Electric Zoo - SpongeBob SquarePants",
 	"artist": "Sarvéproductions"},
 "RmpQ10D7J3k": {
@@ -26137,7 +26137,7 @@ const db = {
 	"artist": "Aps17"},
 "GPokcsZwhrM": {
 	"title": "Atlantis Deep-Sea Cruise - Ultimate Angler / StreetPass Fishing",
-	"wiki": "https://siivagunner.wiki/wiki/Atlantis%20Deep-Sea%20Cruise%20-%20Ultimate%20Angler%20%2F%20StreetPass%20Fishing",
+	"wiki": "https://siivagunner.wiki/wiki/Atlantis%20Deep-Sea%20Cruise%20-%20Ultimate%20Angler%20/%20StreetPass%20Fishing",
 	"joke": "Meta Knight Defeated - Kirby Super Star",
 	"artist": "eg_9371"},
 "e_7CVYRGa5Q": {
@@ -26237,7 +26237,7 @@ const db = {
 	"artist": "eg_9371"},
 "nXwOolZngqI": {
 	"title": "E-Crystals for my Heart - Mega Man Zero/ZX Legacy Collection",
-	"wiki": "https://siivagunner.wiki/wiki/E-Crystals%20for%20my%20Heart%20-%20Mega%20Man%20Zero%2FZX%20Legacy%20Collection",
+	"wiki": "https://siivagunner.wiki/wiki/E-Crystals%20for%20my%20Heart%20-%20Mega%20Man%20Zero/ZX%20Legacy%20Collection",
 	"joke": "Freek'N You - Jodeci",
 	"artist": "Unknown Ripper"},
 "rM9iGf2k7K4": {
@@ -26642,7 +26642,7 @@ const db = {
 	"artist": "Madinstance"},
 "UEyKpqoq0U4": {
 	"title": "Verdant Tank - Ultimate Angler / StreetPass Fishing",
-	"wiki": "https://siivagunner.wiki/wiki/Verdant%20Tank%20-%20Ultimate%20Angler%20%2F%20StreetPass%20Fishing",
+	"wiki": "https://siivagunner.wiki/wiki/Verdant%20Tank%20-%20Ultimate%20Angler%20/%20StreetPass%20Fishing",
 	"joke": "Lost Girl - Deltarune",
 	"artist": "eg_9371"},
 "ZB0sKFAlsuE": {
@@ -27252,7 +27252,7 @@ const db = {
 	"artist": "Sponge Lord"},
 "s_eHMz_jwjs": {
 	"title": "Disk System - Console/BIOS Music",
-	"wiki": "https://siivagunner.wiki/wiki/Disk%20System%20(Beta%20Mix)%20-%20Console%2FBIOS%20Music",
+	"wiki": "https://siivagunner.wiki/wiki/Disk%20System%20(Beta%20Mix)%20-%20Console/BIOS%20Music",
 	"joke": "Battle! (Ultra Necrozma) - Pokémon Ultra Sun & Ultra Moon",
 	"artist": "Unknown Ripper"},
 "xvJezcEBw7Y": {
@@ -27532,7 +27532,7 @@ const db = {
 	"artist": "Expensive Dispenser"},
 "qCDCgoHKluE": {
 	"title": "Bridge Zone - Sonic the Hedgehog (Game Gear/Master System)",
-	"wiki": "https://siivagunner.wiki/wiki/Bridge%20Zone%20(Extended%20Version)%20-%20Sonic%20the%20Hedgehog%20(Game%20Gear%2FMaster%20System)",
+	"wiki": "https://siivagunner.wiki/wiki/Bridge%20Zone%20(Extended%20Version)%20-%20Sonic%20the%20Hedgehog%20(Game%20Gear/Master%20System)",
 	"joke": "Nobody's Bigger Than A Giant - The Backyardigans",
 	"artist": "Junnboi"},
 "fcz7Aqi_zEs": {
@@ -27812,7 +27812,7 @@ const db = {
 	"artist": "Retro Gaming"},
 "j-SepxDW9RE": {
 	"title": "Jungle Level Jazz Style (for 3DS / Wii U) - Super Smash Bros. UItimate",
-	"wiki": "https://siivagunner.wiki/wiki/Jungle%20Level%20Jazz%20Style%20(for%203DS%20%2F%20Wii%20U)%20-%20Super%20Smash%20Bros.%20UItimate",
+	"wiki": "https://siivagunner.wiki/wiki/Jungle%20Level%20Jazz%20Style%20(for%203DS%20/%20Wii%20U)%20-%20Super%20Smash%20Bros.%20UItimate",
 	"joke": "Saga Jihen - Zombie Land Saga",
 	"artist": "Sarvéproductions"},
 "ni4--9MlpIQ": {
@@ -27822,7 +27822,7 @@ const db = {
 	"artist": "eg_9371"},
 "tXjfS_nYPOI": {
 	"title": "Battle! (Cheren/Bianca) - Pokémon Black & White",
-	"wiki": "https://siivagunner.wiki/wiki/Battle!%20(Cheren%2FBianca)%20-%20Pok%C3%A9mon%20Black%20%26%20White",
+	"wiki": "https://siivagunner.wiki/wiki/Battle!%20(Cheren/Bianca)%20-%20Pok%C3%A9mon%20Black%20%26%20White",
 	"joke": "Fight With Seymour - Final Fantasy X",
 	"artist": "sykhro"},
 "XKiDa1qdPog": {
@@ -28042,7 +28042,7 @@ const db = {
 	"artist": "ChristopherLry"},
 "xU7VRYnrLrA": {
 	"title": "Trouble - NEVER​/​ALWAYS - OMORI",
-	"wiki": "https://siivagunner.wiki/wiki/Trouble%20-%20NEVER%E2%80%8B%2F%E2%80%8BALWAYS%20-%20OMORI",
+	"wiki": "https://siivagunner.wiki/wiki/Trouble%20-%20NEVER%E2%80%8B/%E2%80%8BALWAYS%20-%20OMORI",
 	"joke": "Iridocyclitis [Trap Remix] - Dennibro",
 	"artist": "RHMan"},
 "zZL2QugrpP8": {
@@ -28532,7 +28532,7 @@ const db = {
 	"artist": "Nernant"},
 "9tOo7pM7ZCY": {
 	"title": "Humoresque of a Little Dog - EarthBound Beginnings/MOTHER",
-	"wiki": "https://siivagunner.wiki/wiki/Humoresque%20of%20a%20Little%20Dog%20(Nintendo%20Switch%20Version)%20-%20EarthBound%20Beginnings%2FMOTHER",
+	"wiki": "https://siivagunner.wiki/wiki/Humoresque%20of%20a%20Little%20Dog%20(Nintendo%20Switch%20Version)%20-%20EarthBound%20Beginnings/MOTHER",
 	"joke": "Organica - The Jackbox Party Pack 6",
 	"artist": "literallyn01imp0rtant"},
 "-quKaBJln7g": {
@@ -28922,7 +28922,7 @@ const db = {
 	"artist": "berg8793"},
 "g_Y5_nMvT-8": {
 	"title": "Confession / Secret - Persona 5",
-	"wiki": "https://siivagunner.wiki/wiki/Confession%20%2F%20Secret%20-%20Persona%205",
+	"wiki": "https://siivagunner.wiki/wiki/Confession%20/%20Secret%20-%20Persona%205",
 	"joke": "DIKEMBE! - JPEGMAFIA",
 	"artist": "Expensive Dispenser"},
 "pVfvY_2kgE0": {
@@ -29472,7 +29472,7 @@ const db = {
 	"artist": "ThePowerPlayer"},
 "l7a1KEKzgvg": {
 	"title": "Super Mario All Stars SMB3 World 4 Map (JPN/PAL)",
-	"wiki": "https://siivagunner.wiki/wiki/Super%20Mario%20All%20Stars%20SMB3%20World%204%20Map%20(JPN%2FPAL)",
+	"wiki": "https://siivagunner.wiki/wiki/Super%20Mario%20All%20Stars%20SMB3%20World%204%20Map%20(JPN/PAL)",
 	"joke": "Happy Xmas (War Is Over) - the Plastic Ono Band",
 	"artist": "beardfear"},
 "mjI66Sa6gds": {
@@ -29602,7 +29602,7 @@ const db = {
 	"artist": "Expensive Dispenser"},
 "t5Pv9nifDjg": {
 	"title": "Menu/Loading Screen Beat - PaRappa the Rapper",
-	"wiki": "https://siivagunner.wiki/wiki/Menu%2FLoading%20Screen%20Beat%20-%20PaRappa%20the%20Rapper",
+	"wiki": "https://siivagunner.wiki/wiki/Menu/Loading%20Screen%20Beat%20-%20PaRappa%20the%20Rapper",
 	"joke": "Stuff Mart Rap - VeggieTales",
 	"artist": "ThePowerPlayer"},
 "XagclV0zzEY": {
@@ -29947,7 +29947,7 @@ const db = {
 	"artist": "berg8793"},
 "mUUv3xcmvkA": {
 	"title": "Title (Day) (5.0 Update) - Ultimate Angler / StreetPass Fishing",
-	"wiki": "https://siivagunner.wiki/wiki/Title%20(Day)%20(5.0%20Update)%20-%20Ultimate%20Angler%20%2F%20StreetPass%20Fishing",
+	"wiki": "https://siivagunner.wiki/wiki/Title%20(Day)%20(5.0%20Update)%20-%20Ultimate%20Angler%20/%20StreetPass%20Fishing",
 	"joke": "Once Upon a Time - Undertale",
 	"artist": "pixelsword_"},
 "h7xpo9KUHQw": {
@@ -30422,7 +30422,7 @@ const db = {
 	"artist": "ChristopherLry"},
 "CjPXzxuefnQ": {
 	"title": "Snowman - EarthBound Beginnings/MOTHER",
-	"wiki": "https://siivagunner.wiki/wiki/Snowman%20(AUS%20Version)%20-%20EarthBound%20Beginnings%2FMOTHER",
+	"wiki": "https://siivagunner.wiki/wiki/Snowman%20(AUS%20Version)%20-%20EarthBound%20Beginnings/MOTHER",
 	"joke": "City of Tears - Hollow Knight",
 	"artist": "Brendan"},
 "CGhk9vtSshk": {
@@ -30527,7 +30527,7 @@ const db = {
 	"artist": "Vincent Mashups"},
 "t5OndKkMqw4": {
 	"title": "House Theme - EarthBound Beginnings/MOTHER",
-	"wiki": "https://siivagunner.wiki/wiki/House%20Theme%20-%20EarthBound%20Beginnings%2FMOTHER",
+	"wiki": "https://siivagunner.wiki/wiki/House%20Theme%20-%20EarthBound%20Beginnings/MOTHER",
 	"joke": "Rosalina in the Observatory - Super Mario Galaxy",
 	"artist": "Brendan"},
 "NQRLiN27glM": {
@@ -30557,7 +30557,7 @@ const db = {
 	"artist": "Sponge Lord"},
 "FnWXUU11dtM": {
 	"title": "Mt. Itoi - EarthBound Beginnings/MOTHER",
-	"wiki": "https://siivagunner.wiki/wiki/Mt.%20Itoi%20(OST%20Version)%20-%20EarthBound%20Beginnings%2FMOTHER",
+	"wiki": "https://siivagunner.wiki/wiki/Mt.%20Itoi%20(OST%20Version)%20-%20EarthBound%20Beginnings/MOTHER",
 	"joke": "Iron Man - Black Sabbath",
 	"artist": "eg_9371"},
 "FrfQPErdfVE": {
@@ -30572,7 +30572,7 @@ const db = {
 	"artist": "eg_9371"},
 "wVIWshmxqk0": {
 	"title": "Comforting Sleep - EarthBound Beginnings/MOTHER",
-	"wiki": "https://siivagunner.wiki/wiki/Comforting%20Sleep%20(JP%20Version)%20-%20EarthBound%20Beginnings%2FMOTHER",
+	"wiki": "https://siivagunner.wiki/wiki/Comforting%20Sleep%20(JP%20Version)%20-%20EarthBound%20Beginnings/MOTHER",
 	"joke": "Plastic Love - Mariya Takeuchi",
 	"artist": "Sponge Lord"},
 "h9OSREFrARw": {
@@ -30582,7 +30582,7 @@ const db = {
 	"artist": "TheHolyT-Bo"},
 "NVFY0ReO_fI": {
 	"title": "Player Selection - U.N. Squadron / Area 88 (Arcade)",
-	"wiki": "https://siivagunner.wiki/wiki/Player%20Selection%20-%20U.N.%20Squadron%20%2F%20Area%2088%20(Arcade)",
+	"wiki": "https://siivagunner.wiki/wiki/Player%20Selection%20-%20U.N.%20Squadron%20/%20Area%2088%20(Arcade)",
 	"joke": "Big Chungus - The Slopster",
 	"artist": "RANDY02"},
 "m2hD-4wJ3IU": {
@@ -30617,7 +30617,7 @@ const db = {
 	"artist": "Najvyexi"},
 "Oyvs1ZcgCMo": {
 	"title": "Area 2/6/11 - Santa Claus Saves the Earth",
-	"wiki": "https://siivagunner.wiki/wiki/Area%202%2F6%2F11%20-%20Santa%20Claus%20Saves%20the%20Earth",
+	"wiki": "https://siivagunner.wiki/wiki/Area%202/6/11%20-%20Santa%20Claus%20Saves%20the%20Earth",
 	"joke": "Give it Up - KC & the Sunshine Band",
 	"artist": "Najvyexi"},
 "Jjue7bV2rH8": {
@@ -30812,7 +30812,7 @@ const db = {
 	"artist": "berg8793"},
 "6ex30kBK0D0": {
 	"title": "Wisdom of the World (Queen Mary's Castle) - EarthBound Beginnings/MOTHER",
-	"wiki": "https://siivagunner.wiki/wiki/Wisdom%20of%20the%20World%20(Queen%20Mary's%20Castle)%20-%20EarthBound%20Beginnings%2FMOTHER",
+	"wiki": "https://siivagunner.wiki/wiki/Wisdom%20of%20the%20World%20(Queen%20Mary's%20Castle)%20-%20EarthBound%20Beginnings/MOTHER",
 	"joke": "The Legend - Deltarune",
 	"artist": "Brendan"},
 "MGdyLxEPQYc": {
@@ -31017,7 +31017,7 @@ const db = {
 	"artist": "PsychLantern"},
 "dhbj4v28CG0": {
 	"title": "Magicant - EarthBound Beginnings/MOTHER",
-	"wiki": "https://siivagunner.wiki/wiki/Magicant%20-%20EarthBound%20Beginnings%2FMOTHER",
+	"wiki": "https://siivagunner.wiki/wiki/Magicant%20-%20EarthBound%20Beginnings/MOTHER",
 	"joke": "To The Gateway - Super Mario Galaxy",
 	"artist": "Brendan"},
 "1ahZ4sQZDms": {
@@ -31027,7 +31027,7 @@ const db = {
 	"artist": "Emm Bee Sea"},
 "VB4WAiMID8Y": {
 	"title": "Comforting Sleep - EarthBound Beginnings/MOTHER",
-	"wiki": "https://siivagunner.wiki/wiki/Comforting%20Sleep%20(OST%20Version)%20-%20EarthBound%20Beginnings%2FMOTHER",
+	"wiki": "https://siivagunner.wiki/wiki/Comforting%20Sleep%20(OST%20Version)%20-%20EarthBound%20Beginnings/MOTHER",
 	"joke": "Angel of Music - the 1986 The Phantom of the Opera musical",
 	"artist": "Brendan"},
 "mi3xyOra-gA": {
@@ -31542,7 +31542,7 @@ const db = {
 	"artist": "MidnightIsADog"},
 "dFOoEMpShNs": {
 	"title": "The Paradise Line - EarthBound Beginnings/MOTHER",
-	"wiki": "https://siivagunner.wiki/wiki/The%20Paradise%20Line%20(OST%20Version)%20-%20EarthBound%20Beginnings%2FMOTHER",
+	"wiki": "https://siivagunner.wiki/wiki/The%20Paradise%20Line%20(OST%20Version)%20-%20EarthBound%20Beginnings/MOTHER",
 	"joke": "Folsom Prison Blues - Johnny Cash",
 	"artist": "Brendan"},
 "_6ZRoBNF0iQ": {
@@ -31607,7 +31607,7 @@ const db = {
 	"artist": "Emm Bee Sea"},
 "rM5DxY7BLdk": {
 	"title": "Twinkle Elementary - EarthBound Beginnings/MOTHER",
-	"wiki": "https://siivagunner.wiki/wiki/Twinkle%20Elementary%20(PAL%20Version)%20-%20EarthBound%20Beginnings%2FMOTHER",
+	"wiki": "https://siivagunner.wiki/wiki/Twinkle%20Elementary%20(PAL%20Version)%20-%20EarthBound%20Beginnings/MOTHER",
 	"joke": "While My Guitar Gently Weeps - The Beatles",
 	"artist": "Brendan"},
 "_lGFMGJGn38": {
@@ -31657,7 +31657,7 @@ const db = {
 	"artist": "literallyn01imp0rtant"},
 "q9tvH0D-fX8": {
 	"title": "March of the Pink Soldier (Forest/Nature Area) - Kirby: Squeak Squad",
-	"wiki": "https://siivagunner.wiki/wiki/March%20of%20the%20Pink%20Soldier%20(Forest%2FNature%20Area)%20(PAL%20Version)%20-%20Kirby%3A%20Squeak%20Squad",
+	"wiki": "https://siivagunner.wiki/wiki/March%20of%20the%20Pink%20Soldier%20(Forest/Nature%20Area)%20(PAL%20Version)%20-%20Kirby%3A%20Squeak%20Squad",
 	"joke": "I Want to Hold Your Hand - The Beatles",
 	"artist": "Brendan"},
 "MAaJI6zXsP8": {
@@ -31672,7 +31672,7 @@ const db = {
 	"artist": "LarryInc64"},
 "wr3WBF2ZEvY": {
 	"title": "Bein' Friends - EarthBound Beginnings/MOTHER",
-	"wiki": "https://siivagunner.wiki/wiki/Bein'%20Friends%20-%20EarthBound%20Beginnings%2FMOTHER",
+	"wiki": "https://siivagunner.wiki/wiki/Bein'%20Friends%20-%20EarthBound%20Beginnings/MOTHER",
 	"joke": "With a Little Help from My Friends - The Beatles",
 	"artist": "Brendan"},
 "YiAKIiSX7uA": {
@@ -31887,12 +31887,12 @@ const db = {
 	"artist": "Avolience"},
 "UaJNJDNb2uA": {
 	"title": "Eight Melodies - EarthBound Beginnings/MOTHER",
-	"wiki": "https://siivagunner.wiki/wiki/Eight%20Melodies%20(JP%20Version)%20-%20EarthBound%20Beginnings%2FMOTHER",
+	"wiki": "https://siivagunner.wiki/wiki/Eight%20Melodies%20(JP%20Version)%20-%20EarthBound%20Beginnings/MOTHER",
 	"joke": "Shining in the Sky - Clannad",
 	"artist": "Brendan"},
 "pRfaMjKI1fc": {
 	"title": "Jungle Zone - Sonic the Hedgehog (Game Gear/Master System)",
-	"wiki": "https://siivagunner.wiki/wiki/Jungle%20Zone%20(Beta%20Mix)%20-%20Sonic%20the%20Hedgehog%20(Game%20Gear%2FMaster%20System)",
+	"wiki": "https://siivagunner.wiki/wiki/Jungle%20Zone%20(Beta%20Mix)%20-%20Sonic%20the%20Hedgehog%20(Game%20Gear/Master%20System)",
 	"joke": "The Babysitter's a Vampire - Fred Figglehorn",
 	"artist": "KnightOfGames"},
 "TtsFTH5K1oI": {
@@ -32167,7 +32167,7 @@ const db = {
 	"artist": "eg_9371"},
 "4xbn_j9VcuM": {
 	"title": "Green Hill Zone - Sonic the Hedgehog (Game Gear/Master System)",
-	"wiki": "https://siivagunner.wiki/wiki/Green%20Hill%20Zone%20(Beta%20Mix)%20-%20Sonic%20the%20Hedgehog%20(Game%20Gear%2FMaster%20System)",
+	"wiki": "https://siivagunner.wiki/wiki/Green%20Hill%20Zone%20(Beta%20Mix)%20-%20Sonic%20the%20Hedgehog%20(Game%20Gear/Master%20System)",
 	"joke": "Ice on the Road - Quinn Wolf",
 	"artist": "ChristopherLry"},
 "jrlRG45yRvU": {
@@ -32987,7 +32987,7 @@ const db = {
 	"artist": "Jiko Music"},
 "60Ekd3xpkU4": {
 	"title": "Ecruteak City/Cianwood City - Pokémon Gold & Silver",
-	"wiki": "https://siivagunner.wiki/wiki/Ecruteak%20City%2FCianwood%20City%20(Alpha%20Mix)%20-%20Pok%C3%A9mon%20Gold%20%26%20Silver",
+	"wiki": "https://siivagunner.wiki/wiki/Ecruteak%20City/Cianwood%20City%20(Alpha%20Mix)%20-%20Pok%C3%A9mon%20Gold%20%26%20Silver",
 	"joke": "Baby My Phone - Yameii Online",
 	"artist": "Expensive Dispenser"},
 "wMeG0Ep6Tf4": {
@@ -33012,7 +33012,7 @@ const db = {
 	"artist": "Expensive Dispenser"},
 "yF9WJU0biAc": {
 	"title": "Underground Theme - EarthBound Beginnings/MOTHER",
-	"wiki": "https://siivagunner.wiki/wiki/Underground%20Theme%20-%20EarthBound%20Beginnings%2FMOTHER",
+	"wiki": "https://siivagunner.wiki/wiki/Underground%20Theme%20-%20EarthBound%20Beginnings/MOTHER",
 	"joke": "The Mystery Underground Road - Yume Nikki",
 	"artist": "Unknown Ripper"},
 "VjSxsRM977s": {
@@ -33322,7 +33322,7 @@ const db = {
 	"artist": "Vincent Mashups"},
 "Jt6XySy_FQA": {
 	"title": "Act Clear - Sonic the Hedgehog 2 (Game Gear/Master System)",
-	"wiki": "https://siivagunner.wiki/wiki/Act%20Clear%20-%20Sonic%20the%20Hedgehog%202%20(Game%20Gear%2FMaster%20System)",
+	"wiki": "https://siivagunner.wiki/wiki/Act%20Clear%20-%20Sonic%20the%20Hedgehog%202%20(Game%20Gear/Master%20System)",
 	"joke": "Meet the Flintstones - The Flintstones",
 	"artist": "beardfear"},
 "tG0cToT4Vgo": {
@@ -33842,7 +33842,7 @@ const db = {
 	"artist": "eg_9371"},
 "KieOQTk35fI": {
 	"title": "The Paradise Line - EarthBound Beginnings/MOTHER",
-	"wiki": "https://siivagunner.wiki/wiki/The%20Paradise%20Line%20(Epic%20Mix)%20-%20EarthBound%20Beginnings%2FMOTHER",
+	"wiki": "https://siivagunner.wiki/wiki/The%20Paradise%20Line%20(Epic%20Mix)%20-%20EarthBound%20Beginnings/MOTHER",
 	"joke": "Big Chungus - CG5",
 	"artist": "Credited to \"Chungen\""},
 "NpcLqnenvuA": {
@@ -34317,7 +34317,7 @@ const db = {
 	"artist": "RHMan"},
 "-PLdnP33Yhc": {
 	"title": "Title Theme (Metroid) (for 3DS / Wii U) - Super Smash Bros. UItimate",
-	"wiki": "https://siivagunner.wiki/wiki/Title%20Theme%20(Metroid)%20(for%203DS%20%2F%20Wii%20U)%20-%20Super%20Smash%20Bros.%20UItimate",
+	"wiki": "https://siivagunner.wiki/wiki/Title%20Theme%20(Metroid)%20(for%203DS%20/%20Wii%20U)%20-%20Super%20Smash%20Bros.%20UItimate",
 	"joke": "Cat Girls Are Ruining My Life! - Corpse Husband",
 	"artist": "Expensive Dispenser"},
 "GIlbDQclrzA": {
@@ -34613,7 +34613,7 @@ const db = {
 "LdiL64nH-Ik": {
 	"title": "Minigame Clear - Super Mario 64 DS",
 	"wiki": "https://siivagunner.wiki/wiki/Minigame%20Clear%20-%20Super%20Mario%2064%20DS",
-	"joke": "Day Start - various games in the Papa Louie series",
+	"joke": "Day Start - Papa Louie series",
 	"artist": "ThePowerPlayer"},
 "u4fui8te5XE": {
 	"title": "Bowling - Results - Wii Sports",
@@ -34682,7 +34682,7 @@ const db = {
 	"artist": "Unknown Ripper"},
 "UUclVW_HCyk": {
 	"title": "Factory Theme - Earthbound Beginnings/MOTHER",
-	"wiki": "https://siivagunner.wiki/wiki/Factory%20Theme%20-%20Earthbound%20Beginnings%2FMOTHER",
+	"wiki": "https://siivagunner.wiki/wiki/Factory%20Theme%20-%20Earthbound%20Beginnings/MOTHER",
 	"joke": "Psycho Killer - Talking Heads",
 	"artist": "Vulpatrino"},
 "A6MUtQooRTQ": {
@@ -34847,7 +34847,7 @@ const db = {
 	"artist": "WarCrimeInspector"},
 "hbK8IUJrRCY": {
 	"title": "The Paradise Line - EarthBound Beginnings/MOTHER",
-	"wiki": "https://siivagunner.wiki/wiki/The%20Paradise%20Line%20-%20EarthBound%20Beginnings%2FMOTHER",
+	"wiki": "https://siivagunner.wiki/wiki/The%20Paradise%20Line%20-%20EarthBound%20Beginnings/MOTHER",
 	"joke": "The Ballad of John And Yoko - The Beatles",
 	"artist": "niktu"},
 "II1ej6XY5hs": {
@@ -35062,7 +35062,7 @@ const db = {
 	"artist": "Mochi"},
 "5UByZ0PmiF8": {
 	"title": "Cave of the Tail - EarthBound Beginnings/MOTHER",
-	"wiki": "https://siivagunner.wiki/wiki/Cave%20of%20the%20Tail%20-%20EarthBound%20Beginnings%2FMOTHER",
+	"wiki": "https://siivagunner.wiki/wiki/Cave%20of%20the%20Tail%20-%20EarthBound%20Beginnings/MOTHER",
 	"joke": "Money Longer - Lil Uzi Vert",
 	"artist": "eg_9371"},
 "LGAKoC_WARo": {
@@ -35877,7 +35877,7 @@ const db = {
 	"artist": "eg_9371"},
 "wnPWOISGsyU": {
 	"title": "Air Hockey / Slot Cars - Clubhouse Games: 51 Worldwide Classics",
-	"wiki": "https://siivagunner.wiki/wiki/Air%20Hockey%20%2F%20Slot%20Cars%20-%20Clubhouse%20Games%3A%2051%20Worldwide%20Classics",
+	"wiki": "https://siivagunner.wiki/wiki/Air%20Hockey%20/%20Slot%20Cars%20-%20Clubhouse%20Games%3A%2051%20Worldwide%20Classics",
 	"joke": "Litmas - Jake Paul",
 	"artist": "Vincent Mashups"},
 "XLKTVVGHasA": {
@@ -36387,7 +36387,7 @@ const db = {
 	"artist": "eg_9371"},
 "-vkfO380xh0": {
 	"title": "Moonlight Mansion / Carrot Castle (Echo) - Kirby & The Amazing Mirror",
-	"wiki": "https://siivagunner.wiki/wiki/Moonlight%20Mansion%20%2F%20Carrot%20Castle%20(Echo)%20-%20Kirby%20%26%20The%20Amazing%20Mirror",
+	"wiki": "https://siivagunner.wiki/wiki/Moonlight%20Mansion%20/%20Carrot%20Castle%20(Echo)%20-%20Kirby%20%26%20The%20Amazing%20Mirror",
 	"joke": "Menu 1 - Super Smash Bros. Melee",
 	"artist": "Jp"},
 "m9sVE1CP0cI": {
@@ -37002,7 +37002,7 @@ const db = {
 	"artist": "Unknown Ripper"},
 "ob7nuhzjEbY": {
 	"title": "Snow - Xevious 3D/G+",
-	"wiki": "https://siivagunner.wiki/wiki/Snow%20-%20Xevious%203D%2FG%2B",
+	"wiki": "https://siivagunner.wiki/wiki/Snow%20-%20Xevious%203D/G%2B",
 	"joke": "Macarena - Los Del Rio",
 	"artist": "fusoxide"},
 "fCFo6kzrb-A": {
@@ -37157,7 +37157,7 @@ const db = {
 	"artist": "Unknown Ripper"},
 "wb_x9jSLy1c": {
 	"title": "Rescue/Bonus Theme - The Goonies",
-	"wiki": "https://siivagunner.wiki/wiki/Rescue%2FBonus%20Theme%20-%20The%20Goonies",
+	"wiki": "https://siivagunner.wiki/wiki/Rescue/Bonus%20Theme%20-%20The%20Goonies",
 	"joke": "Underground - Super Mario Bros.",
 	"artist": "PS999"},
 "9rNIgZEbkU4": {
@@ -37242,7 +37242,7 @@ const db = {
 	"artist": "Unknown Ripper"},
 "qdPZ6Vctkcg": {
 	"title": "Hotel Sleep - EarthBound Beginnings/MOTHER",
-	"wiki": "https://siivagunner.wiki/wiki/Hotel%20Sleep%20(Beta%20Mix)%20-%20EarthBound%20Beginnings%2FMOTHER",
+	"wiki": "https://siivagunner.wiki/wiki/Hotel%20Sleep%20(Beta%20Mix)%20-%20EarthBound%20Beginnings/MOTHER",
 	"joke": "My Superhero Movie - Teen Titans GO! To the Movies",
 	"artist": "Sarvéproductions"},
 "rrXpU7wPitA": {
@@ -37342,7 +37342,7 @@ const db = {
 	"artist": "Sarvéproductions"},
 "DmaJd5SAeE8": {
 	"title": "Castle / Boss Fortress (Super Mario World / SMB3) - Super Smash Bros. UItimate",
-	"wiki": "https://siivagunner.wiki/wiki/Castle%20%2F%20Boss%20Fortress%20(Super%20Mario%20World%20%2F%20SMB3)%20-%20Super%20Smash%20Bros.%20UItimate",
+	"wiki": "https://siivagunner.wiki/wiki/Castle%20/%20Boss%20Fortress%20(Super%20Mario%20World%20/%20SMB3)%20-%20Super%20Smash%20Bros.%20UItimate",
 	"joke": "Stir Fry - Migos",
 	"artist": "Expensive Dispenser"},
 "e5Ij0a4gkOQ": {
@@ -37417,7 +37417,7 @@ const db = {
 	"artist": "radiator"},
 "E7Hk_bJgj5M": {
 	"title": "Aqua Lake Zone - Sonic the Hedgehog 2 (Game Gear/Master System)",
-	"wiki": "https://siivagunner.wiki/wiki/Aqua%20Lake%20Zone%20-%20Sonic%20the%20Hedgehog%202%20(Game%20Gear%2FMaster%20System)",
+	"wiki": "https://siivagunner.wiki/wiki/Aqua%20Lake%20Zone%20-%20Sonic%20the%20Hedgehog%202%20(Game%20Gear/Master%20System)",
 	"joke": "Rogues Gallery - Mirage Saloon Zone, Act 2 - Sonic Mania",
 	"artist": "SoundSync5000"},
 "n-FN5tOK1LQ": {
@@ -37652,7 +37652,7 @@ const db = {
 	"artist": "beardfear"},
 "V8lK8FigcRA": {
 	"title": "Radio: Lucky Channel/Game Corner - Pokémon Gold & Silver",
-	"wiki": "https://siivagunner.wiki/wiki/Radio%3A%20Lucky%20Channel%2FGame%20Corner%20(Beta%20Mix)%20-%20Pok%C3%A9mon%20Gold%20%26%20Silver",
+	"wiki": "https://siivagunner.wiki/wiki/Radio%3A%20Lucky%20Channel/Game%20Corner%20(Beta%20Mix)%20-%20Pok%C3%A9mon%20Gold%20%26%20Silver",
 	"joke": "Havana - Camila Cabello",
 	"artist": "eg_9371"},
 "bbly8SGp7xk": {
@@ -37692,7 +37692,7 @@ const db = {
 	"artist": "beardfear"},
 "yzy1gp6U3aI": {
 	"title": "Slot / Nervous Breakdown - Super Mario Bros. 3",
-	"wiki": "https://siivagunner.wiki/wiki/Slot%20%2F%20Nervous%20Breakdown%20(Alpha%20Mix)%20-%20Super%20Mario%20Bros%203",
+	"wiki": "https://siivagunner.wiki/wiki/Slot%20/%20Nervous%20Breakdown%20(Alpha%20Mix)%20-%20Super%20Mario%20Bros%203",
 	"joke": "Dummy! - Undertale",
 	"artist": "Sarvéproductions"},
 "GrYNBBtsnWc": {
@@ -38122,7 +38122,7 @@ const db = {
 	"artist": "Expensive Dispenser"},
 "kB_rHTiJLjw": {
 	"title": "Boss Battle (Game Gear) - Sonic the Hedgehog 2 (Game Gear/Master System)",
-	"wiki": "https://siivagunner.wiki/wiki/Boss%20Battle%20(Game%20Gear)%20-%20Sonic%20the%20Hedgehog%202%20(Game%20Gear%2FMaster%20System)",
+	"wiki": "https://siivagunner.wiki/wiki/Boss%20Battle%20(Game%20Gear)%20-%20Sonic%20the%20Hedgehog%202%20(Game%20Gear/Master%20System)",
 	"joke": "Vela-Nova - Sonic Rush",
 	"artist": "SoundSync5000"},
 "ccLGZQS-t5M": {
@@ -38807,7 +38807,7 @@ const db = {
 	"artist": "eg_9371"},
 "CZOD5fyW0Ss": {
 	"title": "Mother Earth - EarthBound Beginnings/MOTHER",
-	"wiki": "https://siivagunner.wiki/wiki/Mother%20Earth%20(OST%20Version)%20-%20EarthBound%20Beginnings%2FMOTHER",
+	"wiki": "https://siivagunner.wiki/wiki/Mother%20Earth%20(OST%20Version)%20-%20EarthBound%20Beginnings/MOTHER",
 	"joke": "Space World - Super Mario Maker 2",
 	"artist": "Nernant"},
 "ERe1EjO-JKY": {
@@ -39137,7 +39137,7 @@ const db = {
 	"artist": "BobTheTacocat"},
 "Rbjk5InP3Zw": {
 	"title": "Fallin' Love - EarthBound Beginnings/MOTHER",
-	"wiki": "https://siivagunner.wiki/wiki/Fallin'%20Love%20(OST%20Version)%20-%20EarthBound%20Beginnings%2FMOTHER",
+	"wiki": "https://siivagunner.wiki/wiki/Fallin'%20Love%20(OST%20Version)%20-%20EarthBound%20Beginnings/MOTHER",
 	"joke": "DJ Got Us Fallin' in Love - Usher ft. Pitbull",
 	"artist": "RHMan"},
 "Wh1FbACyLe8": {
@@ -39547,7 +39547,7 @@ const db = {
 	"artist": "Oliver Hancock"},
 "7XXoFp-x3bI": {
 	"title": "Battle! (Uxie/Mesprit/Azelf) - Pokémon Diamond & Pearl",
-	"wiki": "https://siivagunner.wiki/wiki/Battle!%20(Uxie%2FMesprit%2FAzelf)%20(Beta%20Mix)%20-%20Pok%C3%A9mon%20Diamond%20%26%20Pearl",
+	"wiki": "https://siivagunner.wiki/wiki/Battle!%20(Uxie/Mesprit/Azelf)%20(Beta%20Mix)%20-%20Pok%C3%A9mon%20Diamond%20%26%20Pearl",
 	"joke": "Venari Strigas - Puella Magi Madoka Magica",
 	"artist": "MtH"},
 "6K9Ir9WQEgE": {
@@ -39667,7 +39667,7 @@ const db = {
 	"artist": "Helpful Salad"},
 "zVKfh_ppkdw": {
 	"title": "Scrap Brain Zone - Sonic the Hedgehog (Game Gear/Master System)",
-	"wiki": "https://siivagunner.wiki/wiki/Scrap%20Brain%20Zone%20-%20Sonic%20the%20Hedgehog%20(Game%20Gear%2FMaster%20System)",
+	"wiki": "https://siivagunner.wiki/wiki/Scrap%20Brain%20Zone%20-%20Sonic%20the%20Hedgehog%20(Game%20Gear/Master%20System)",
 	"joke": "Most of Resurrections - Celeste",
 	"artist": "Mitchell"},
 "b0qaF5WpZ2I": {
@@ -39807,7 +39807,7 @@ const db = {
 	"artist": "Sarvéproductions"},
 "2-0k9rbW5hc": {
 	"title": "Humoresque of a Little Dog - EarthBound Beginnings/MOTHER",
-	"wiki": "https://siivagunner.wiki/wiki/Humoresque%20of%20a%20Little%20Dog%20(OST%20Version)%20-%20EarthBound%20Beginnings%2FMOTHER",
+	"wiki": "https://siivagunner.wiki/wiki/Humoresque%20of%20a%20Little%20Dog%20(OST%20Version)%20-%20EarthBound%20Beginnings/MOTHER",
 	"joke": "Fun Shopping - MOTHER 3",
 	"artist": "adumb"},
 "-dy2YmytR5M": {
@@ -40057,7 +40057,7 @@ const db = {
 	"artist": "dante"},
 "L9HHKHf9pbo": {
 	"title": "Hippie Battle - EarthBound Beginnings/MOTHER",
-	"wiki": "https://siivagunner.wiki/wiki/Hippie%20Battle%20(Beta%20Mix)%20-%20EarthBound%20Beginnings%2FMOTHER",
+	"wiki": "https://siivagunner.wiki/wiki/Hippie%20Battle%20(Beta%20Mix)%20-%20EarthBound%20Beginnings/MOTHER",
 	"joke": "A Hard Day's Night - The Beatles",
 	"artist": "lonk"},
 "rq7l6XJSsZk": {
@@ -40432,7 +40432,7 @@ const db = {
 	"artist": "TheEpicMan"},
 "4j-b9oVS6xg": {
 	"title": "Bridge Zone - Sonic the Hedgehog (Game Gear/Master System)",
-	"wiki": "https://siivagunner.wiki/wiki/Bridge%20Zone%20(JP%20Version)%20-%20Sonic%20the%20Hedgehog%20(Game%20Gear%2FMaster%20System)",
+	"wiki": "https://siivagunner.wiki/wiki/Bridge%20Zone%20(JP%20Version)%20-%20Sonic%20the%20Hedgehog%20(Game%20Gear/Master%20System)",
 	"joke": "Give Me! - Daito Giken Koushiki Pachi-Slot Simulator: Shake II",
 	"artist": "KnightOfGames"},
 "YvBIR7v49zY": {
@@ -40657,7 +40657,7 @@ const db = {
 	"artist": "mullar"},
 "9jJaevl38go": {
 	"title": "Pollyanna - EarthBound Beginnings/MOTHER",
-	"wiki": "https://siivagunner.wiki/wiki/Pollyanna%20(NTSC%20Version)%20-%20EarthBound%20Beginnings%2FMOTHER",
+	"wiki": "https://siivagunner.wiki/wiki/Pollyanna%20(NTSC%20Version)%20-%20EarthBound%20Beginnings/MOTHER",
 	"joke": "Hobart Drive - Jerry Galeries",
 	"artist": "Emotional Snail"},
 "KsRtzvb7OIg": {
@@ -40782,7 +40782,7 @@ const db = {
 	"artist": "ChickenSuitGuy"},
 "X4n-4J9rzUI": {
 	"title": "All That I Needed Was You - EarthBound Beginnings/MOTHER",
-	"wiki": "https://siivagunner.wiki/wiki/All%20That%20I%20Needed%20Was%20You%20-%20EarthBound%20Beginnings%2FMOTHER",
+	"wiki": "https://siivagunner.wiki/wiki/All%20That%20I%20Needed%20Was%20You%20-%20EarthBound%20Beginnings/MOTHER",
 	"joke": "(Don't Fear) The Reaper - Blue Oyster Cult",
 	"artist": "The Duane"},
 "GR0mJFcEsOw": {
@@ -40867,7 +40867,7 @@ const db = {
 	"artist": "Retro Gaming"},
 "SReYHLNbxXs": {
 	"title": "Pollyanna - EarthBound Beginnings/MOTHER",
-	"wiki": "https://siivagunner.wiki/wiki/Pollyanna%20(OST%20Version)%20-%20EarthBound%20Beginnings%2FMOTHER",
+	"wiki": "https://siivagunner.wiki/wiki/Pollyanna%20(OST%20Version)%20-%20EarthBound%20Beginnings/MOTHER",
 	"joke": "Revenge - TryHardNinja ft. CaptainSparklez",
 	"artist": "Retro Gaming"},
 "2zeoGvzJo-E": {
@@ -41077,7 +41077,7 @@ const db = {
 	"artist": "The Duane"},
 "cL4SFLNnMIw": {
 	"title": "Boss!! (JPN/PAL) - Sonic CD",
-	"wiki": "https://siivagunner.wiki/wiki/Boss!!%20(JPN%2FPAL)%20-%20Sonic%20CD",
+	"wiki": "https://siivagunner.wiki/wiki/Boss!!%20(JPN/PAL)%20-%20Sonic%20CD",
 	"joke": "Deez Nuts! [Trap Remix] - Dennibro",
 	"artist": "KnightOfGames"},
 "0w71YCibtHQ": {
@@ -41277,17 +41277,17 @@ const db = {
 	"artist": "TheEpicMan"},
 "ysqvCR8qM7Y": {
 	"title": "Ending - Ultimate Angler / StreetPass Fishing",
-	"wiki": "https://siivagunner.wiki/wiki/Ending%20(OST%20Version)%20-%20Ultimate%20Angler%20%2F%20StreetPass%20Fishing",
+	"wiki": "https://siivagunner.wiki/wiki/Ending%20(OST%20Version)%20-%20Ultimate%20Angler%20/%20StreetPass%20Fishing",
 	"joke": "Partner's Theme - Pokémon Super Mystery Dungeon",
 	"artist": "reason"},
 "ZkJ0d0iOOkQ": {
 	"title": "Fishing Log - Ultimate Angler / StreetPass Fishing",
-	"wiki": "https://siivagunner.wiki/wiki/Fishing%20Log%20-%20Ultimate%20Angler%20%2F%20StreetPass%20Fishing",
+	"wiki": "https://siivagunner.wiki/wiki/Fishing%20Log%20-%20Ultimate%20Angler%20/%20StreetPass%20Fishing",
 	"joke": "Laboratory - Steins;Gate",
 	"artist": "MtH"},
 "xstyXw7jpro": {
 	"title": "Simple Tank - Ultimate Angler / StreetPass Fishing",
-	"wiki": "https://siivagunner.wiki/wiki/Simple%20Tank%20-%20Ultimate%20Angler%20%2F%20StreetPass%20Fishing",
+	"wiki": "https://siivagunner.wiki/wiki/Simple%20Tank%20-%20Ultimate%20Angler%20/%20StreetPass%20Fishing",
 	"joke": "Gentle Rain - MOTHER 3",
 	"artist": "ScribbleStar"},
 "ieb87DFuP3M": {
@@ -41297,12 +41297,12 @@ const db = {
 	"artist": "Retro Gaming"},
 "bdZo-3CmLzI": {
 	"title": "Maple River - Ultimate Angler / StreetPass Fishing",
-	"wiki": "https://siivagunner.wiki/wiki/Maple%20River%20-%20Ultimate%20Angler%20%2F%20StreetPass%20Fishing",
+	"wiki": "https://siivagunner.wiki/wiki/Maple%20River%20-%20Ultimate%20Angler%20/%20StreetPass%20Fishing",
 	"joke": "Ecruteak City/Cianwood City - Pokémon Gold & Silver",
 	"artist": "Kirbio"},
 "IvMJpDMsJrw": {
 	"title": "Cutty's Cave - Ultimate Angler / StreetPass Fishing",
-	"wiki": "https://siivagunner.wiki/wiki/Cutty's%20Cave%20-%20Ultimate%20Angler%20%2F%20StreetPass%20Fishing",
+	"wiki": "https://siivagunner.wiki/wiki/Cutty's%20Cave%20-%20Ultimate%20Angler%20/%20StreetPass%20Fishing",
 	"joke": "Corridors of Time - Chrono Trigger",
 	"artist": "Mitchell"},
 "GiU5gm_lmcw": {
@@ -41312,12 +41312,12 @@ const db = {
 	"artist": "Scribblenaut19"},
 "03HwwJ-9fK4": {
 	"title": "Let's Catch Some Fish - Ultimate Angler / StreetPass Fishing",
-	"wiki": "https://siivagunner.wiki/wiki/Let's%20Catch%20Some%20Fish%20-%20Ultimate%20Angler%20%2F%20StreetPass%20Fishing",
+	"wiki": "https://siivagunner.wiki/wiki/Let's%20Catch%20Some%20Fish%20-%20Ultimate%20Angler%20/%20StreetPass%20Fishing",
 	"joke": "The Lion Sleeps Tonight (Wimoweh) - The Tokens",
 	"artist": "Retro Gaming"},
 "eDZolDc5xhM": {
 	"title": "New Fishing Spot - Ultimate Angler / StreetPass Fishing",
-	"wiki": "https://siivagunner.wiki/wiki/New%20Fishing%20Spot%20-%20Ultimate%20Angler%20%2F%20StreetPass%20Fishing",
+	"wiki": "https://siivagunner.wiki/wiki/New%20Fishing%20Spot%20-%20Ultimate%20Angler%20/%20StreetPass%20Fishing",
 	"joke": "Discovery - Title Screen - Sonic Mania",
 	"artist": "Mitchell"},
 "a3OIjOwjz8k": {
@@ -41332,7 +41332,7 @@ const db = {
 	"artist": "adumb"},
 "WN8BKLJ9a4Q": {
 	"title": "Treasure Tank - Ultimate Angler / StreetPass Fishing",
-	"wiki": "https://siivagunner.wiki/wiki/Treasure%20Tank%20-%20Ultimate%20Angler%20%2F%20StreetPass%20Fishing",
+	"wiki": "https://siivagunner.wiki/wiki/Treasure%20Tank%20-%20Ultimate%20Angler%20/%20StreetPass%20Fishing",
 	"joke": "THE HOLY - Deltarune",
 	"artist": "Anonite"},
 "4EBxKIccAHk": {
@@ -41342,7 +41342,7 @@ const db = {
 	"artist": "Emotional Snail"},
 "SpFPkWbCgpQ": {
 	"title": "Coraline's Dad - Ultimate Angler / StreetPass Fishing",
-	"wiki": "https://siivagunner.wiki/wiki/Coraline's%20Dad%20-%20Ultimate%20Angler%20%2F%20StreetPass%20Fishing",
+	"wiki": "https://siivagunner.wiki/wiki/Coraline's%20Dad%20-%20Ultimate%20Angler%20/%20StreetPass%20Fishing",
 	"joke": "Nook's Cranny - the Animal Crossing series",
 	"artist": "Jiko Music"},
 "sZlgp77BDx8": {
@@ -42152,7 +42152,7 @@ const db = {
 	"artist": "trivial171"},
 "LqKtsVsKfgE": {
 	"title": "Slot / Nervous Breakdown - Super Mario Bros. 3",
-	"wiki": "https://siivagunner.wiki/wiki/Slot%20%2F%20Nervous%20Breakdown%20(PAL%20Version)%20-%20Super%20Mario%20Bros%203",
+	"wiki": "https://siivagunner.wiki/wiki/Slot%20/%20Nervous%20Breakdown%20(PAL%20Version)%20-%20Super%20Mario%20Bros%203",
 	"joke": "Money Longer - Lil Uzi Vert",
 	"artist": "UUN4"},
 "VJaK7volBKU": {
@@ -42482,7 +42482,7 @@ const db = {
 	"artist": "PinkieOats"},
 "rjEiaCGgWAM": {
 	"title": "Danger / Victory Dog Encounter! - The Dog Island",
-	"wiki": "https://siivagunner.wiki/wiki/Danger%20%2F%20Victory%20Dog%20Encounter!%20-%20The%20Dog%20Island",
+	"wiki": "https://siivagunner.wiki/wiki/Danger%20/%20Victory%20Dog%20Encounter!%20-%20The%20Dog%20Island",
 	"joke": "Trapped by the Ocean Scent - Danganronpa 2: Goodbye Despair",
 	"artist": "Jp"},
 "PyvQrsH4qRs": {
@@ -42562,7 +42562,7 @@ const db = {
 	"artist": "UUN4"},
 "O16Qs4Oms2I": {
 	"title": "Humoresque of a Little Dog - EarthBound Beginnings/MOTHER",
-	"wiki": "https://siivagunner.wiki/wiki/Humoresque%20of%20a%20Little%20Dog%20(Alpha%20Mix)%20-%20EarthBound%20Beginnings%2FMOTHER",
+	"wiki": "https://siivagunner.wiki/wiki/Humoresque%20of%20a%20Little%20Dog%20(Alpha%20Mix)%20-%20EarthBound%20Beginnings/MOTHER",
 	"joke": "Do You Like Waffles? - Parry Gripp",
 	"artist": "UUN4"},
 "vAJg8LYP_sI": {
@@ -42747,7 +42747,7 @@ const db = {
 	"artist": "trivial171"},
 "T1AiEbKzZ4c": {
 	"title": "Stardust Speedway Bad Future (JPN/PAL) (2011) - Sonic CD",
-	"wiki": "https://siivagunner.wiki/wiki/Stardust%20Speedway%20Bad%20Future%20(JPN%2FPAL)%20(2011)%20-%20Sonic%20CD",
+	"wiki": "https://siivagunner.wiki/wiki/Stardust%20Speedway%20Bad%20Future%20(JPN/PAL)%20(2011)%20-%20Sonic%20CD",
 	"joke": "Be Mine - Ofenbach",
 	"artist": "andres"},
 "IYD2Dn5pWoo": {
@@ -42937,7 +42937,7 @@ const db = {
 	"artist": "Lakitwo"},
 "Hy2RwRtxYdo": {
 	"title": "Battle Against a Dangerous Foe - EarthBound Beginnings/MOTHER",
-	"wiki": "https://siivagunner.wiki/wiki/Battle%20Against%20a%20Dangerous%20Foe%20(Beta%20Mix)%20-%20EarthBound%20Beginnings%2FMOTHER",
+	"wiki": "https://siivagunner.wiki/wiki/Battle%20Against%20a%20Dangerous%20Foe%20(Beta%20Mix)%20-%20EarthBound%20Beginnings/MOTHER",
 	"joke": "Peridot's Theme - Steven Universe",
 	"artist": "SUPAHSTAR CLOD"},
 "FJbdbTvjjI8": {
@@ -43182,7 +43182,7 @@ const db = {
 	"artist": "Jiko Music"},
 "jkQoPvBj0Cc": {
 	"title": "Monopoly Menu - Monopoly / Boggle / Yahtzee / Battleship",
-	"wiki": "https://siivagunner.wiki/wiki/Monopoly%20Menu%20-%20Monopoly%20%2F%20Boggle%20%2F%20Yahtzee%20%2F%20Battleship",
+	"wiki": "https://siivagunner.wiki/wiki/Monopoly%20Menu%20-%20Monopoly%20/%20Boggle%20/%20Yahtzee%20/%20Battleship",
 	"joke": "Blue Monday - New Order",
 	"artist": "Peacock Roy"},
 "NBcZpSTqy9o": {
@@ -43612,7 +43612,7 @@ const db = {
 	"artist": "Scooblee"},
 "r83ab44TSIc": {
 	"title": "Mt. Itoi - EarthBound Beginnings/MOTHER",
-	"wiki": "https://siivagunner.wiki/wiki/Mt.%20Itoi%20-%20EarthBound%20Beginnings%2FMOTHER",
+	"wiki": "https://siivagunner.wiki/wiki/Mt.%20Itoi%20-%20EarthBound%20Beginnings/MOTHER",
 	"joke": "The Final Road - Pokémon Red & Blue",
 	"artist": "SMALF"},
 "Ks0uVV2z_jo": {
@@ -43882,7 +43882,7 @@ const db = {
 	"artist": "ivan"},
 "xsauKuYVq3U": {
 	"title": "Slot / Nervous Breakdown - Super Mario Bros. 3",
-	"wiki": "https://siivagunner.wiki/wiki/Slot%20%2F%20Nervous%20Breakdown%20-%20Super%20Mario%20Bros%203",
+	"wiki": "https://siivagunner.wiki/wiki/Slot%20/%20Nervous%20Breakdown%20-%20Super%20Mario%20Bros%203",
 	"joke": "Taking Coins - Mario Party",
 	"artist": "SMALF"},
 "QZNpXV8niBs": {
@@ -44182,7 +44182,7 @@ const db = {
 	"artist": "MtH"},
 "MDmHycKrdF4": {
 	"title": "Dark Cave/Ice Path - Pokémon Gold & Silver",
-	"wiki": "https://siivagunner.wiki/wiki/Dark%20Cave%2FIce%20Path%20(OST%20Version)%20-%20Pok%C3%A9mon%20Gold%20%26%20Silver",
+	"wiki": "https://siivagunner.wiki/wiki/Dark%20Cave/Ice%20Path%20(OST%20Version)%20-%20Pok%C3%A9mon%20Gold%20%26%20Silver",
 	"joke": "Ruins - Undertale",
 	"artist": "JerryStuff (Ro)"},
 "MTMYqzpTPJI": {
@@ -44727,7 +44727,7 @@ const db = {
 	"artist": "Xarlable"},
 "IORpVOReqbk": {
 	"title": "Brain Power - MÚSECA 1+1/2",
-	"wiki": "https://siivagunner.wiki/wiki/Brain%20Power%20(Beta%20Mix)%20-%20M%C3%9ASECA%201%2B1%2F2",
+	"wiki": "https://siivagunner.wiki/wiki/Brain%20Power%20(Beta%20Mix)%20-%20M%C3%9ASECA%201%2B1/2",
 	"joke": "Brainpower - Freezepop",
 	"artist": "Maggie"},
 "FWcl6JCnqmI": {
@@ -45267,7 +45267,7 @@ const db = {
 	"artist": "Eva Twin"},
 "445AP_YdiDk": {
 	"title": "Undella Town (Autumn/Winter/Spring) - Pokémon Black & White",
-	"wiki": "https://siivagunner.wiki/wiki/Undella%20Town%20(Autumn%2FWinter%2FSpring)%20-%20Pok%C3%A9mon%20Black%20%26%20White",
+	"wiki": "https://siivagunner.wiki/wiki/Undella%20Town%20(Autumn/Winter/Spring)%20-%20Pok%C3%A9mon%20Black%20%26%20White",
 	"joke": "See You Again - Wiz Khalifa ft. Charlie Puth",
 	"artist": "dante"},
 "_l1UU6cOJaw": {
@@ -45727,12 +45727,12 @@ const db = {
 	"artist": "BuraiPlayer"},
 "W8wL_1OoQ58": {
 	"title": "Sky Base Zone - Sonic the Hedgehog (Game Gear/Master System)",
-	"wiki": "https://siivagunner.wiki/wiki/Sky%20Base%20Zone%20-%20Sonic%20the%20Hedgehog%20(Game%20Gear%2FMaster%20System)",
+	"wiki": "https://siivagunner.wiki/wiki/Sky%20Base%20Zone%20-%20Sonic%20the%20Hedgehog%20(Game%20Gear/Master%20System)",
 	"joke": "Beloved Tomboyish Girl - Touhou 6: the Embodiment of Scarlet Devil",
 	"artist": "Chip Jockey"},
 "XVek0uE5nhs": {
 	"title": "Ahoy There / Escape from Central Park - Stuart Little: The Journey Home",
-	"wiki": "https://siivagunner.wiki/wiki/Ahoy%20There%20%2F%20Escape%20from%20Central%20Park%20(Beta%20Mix)%20-%20Stuart%20Little%3A%20The%20Journey%20Home",
+	"wiki": "https://siivagunner.wiki/wiki/Ahoy%20There%20/%20Escape%20from%20Central%20Park%20(Beta%20Mix)%20-%20Stuart%20Little%3A%20The%20Journey%20Home",
 	"joke": "Escape from the City ...for City Escape - Sonic Adventure 2",
 	"artist": "LuNiney"},
 "Mc7qIRXIhl0": {
@@ -45822,7 +45822,7 @@ const db = {
 	"artist": "trivial171 and Matsu Muhō"},
 "4h7n0-hanS4": {
 	"title": "Collision Chaos Good Future (JPN/PAL) - Sonic CD",
-	"wiki": "https://siivagunner.wiki/wiki/Collision%20Chaos%20Good%20Future%20(JPN%2FPAL)%20-%20Sonic%20CD",
+	"wiki": "https://siivagunner.wiki/wiki/Collision%20Chaos%20Good%20Future%20(JPN/PAL)%20-%20Sonic%20CD",
 	"joke": "A Different Feeling - The Avalanches",
 	"artist": "CrystalForce"},
 "c9LQzAo0qkg": {
@@ -45982,7 +45982,7 @@ const db = {
 	"artist": "trivial171"},
 "rbjX7ARcvcw": {
 	"title": "Main Menu / Golfer, Course Select - Neo Turf Masters",
-	"wiki": "https://siivagunner.wiki/wiki/Main%20Menu%20%2F%20Golfer%2C%20Course%20Select%20-%20Neo%20Turf%20Masters",
+	"wiki": "https://siivagunner.wiki/wiki/Main%20Menu%20/%20Golfer%2C%20Course%20Select%20-%20Neo%20Turf%20Masters",
 	"joke": "Powerful Infant - Super Mario World 2: Yoshi's Island",
 	"artist": "Scooblee"},
 "wEZajSXx85k": {
@@ -46147,7 +46147,7 @@ const db = {
 	"artist": "Prims Sdfghjkl"},
 "oO0QO8BxwvE": {
 	"title": "At Dusk, I Will Think of You - Kingdom Hearts 358/2 Days",
-	"wiki": "https://siivagunner.wiki/wiki/At%20Dusk%2C%20I%20Will%20Think%20Of%20You%20(OST%20Version)%20-%20Kingdom%20Hearts%20358%2F2%20Days",
+	"wiki": "https://siivagunner.wiki/wiki/At%20Dusk%2C%20I%20Will%20Think%20Of%20You%20(OST%20Version)%20-%20Kingdom%20Hearts%20358/2%20Days",
 	"joke": "My Boo - Ghost Town DJ's",
 	"artist": "toonlink"},
 "R3QiGEQIrnE": {
@@ -46182,7 +46182,7 @@ const db = {
 	"artist": "SoundSync5000"},
 "xlUAYAwZLfE": {
 	"title": "Green Hills Zone - Sonic the Hedgehog 2 (Game Gear/Master System)",
-	"wiki": "https://siivagunner.wiki/wiki/Green%20Hills%20Zone%20-%20Sonic%20the%20Hedgehog%202%20(Game%20Gear%2FMaster%20System)",
+	"wiki": "https://siivagunner.wiki/wiki/Green%20Hills%20Zone%20-%20Sonic%20the%20Hedgehog%202%20(Game%20Gear/Master%20System)",
 	"joke": "Wacky Workbench Past - Sonic CD",
 	"artist": "Scooblee"},
 "Q7VMYc0XBKk": {
@@ -46347,7 +46347,7 @@ const db = {
 	"artist": "Unknown Ripper"},
 "OK11RXpoUAw": {
 	"title": "Pollyanna - EarthBound Beginnings/MOTHER",
-	"wiki": "https://siivagunner.wiki/wiki/Pollyanna%20(US%20Version)%20-%20EarthBound%20Beginnings%2FMOTHER",
+	"wiki": "https://siivagunner.wiki/wiki/Pollyanna%20(US%20Version)%20-%20EarthBound%20Beginnings/MOTHER",
 	"joke": "Video Killed the Radio Star - The Buggles",
 	"artist": "toonlink"},
 "7bfaHWMaOvk": {
@@ -46377,7 +46377,7 @@ const db = {
 	"artist": "NBGMusic"},
 "D92glLIfwEA": {
 	"title": "GameCube Main Menu - Console/BIOS Music",
-	"wiki": "https://siivagunner.wiki/wiki/GameCube%20Main%20Menu%20-%20Console%2FBIOS%20Music",
+	"wiki": "https://siivagunner.wiki/wiki/GameCube%20Main%20Menu%20-%20Console/BIOS%20Music",
 	"joke": "Meet the Flintstones - The Flintstones",
 	"artist": "Maggie"},
 "D6xuBcRDxI0": {
@@ -47327,7 +47327,7 @@ const db = {
 	"artist": "Unknown Ripper"},
 "FLhmShMfy8g": {
 	"title": "Fairground / Big Top (Unused) - SpongeBob SquarePants: SuperSponge",
-	"wiki": "https://siivagunner.wiki/wiki/Fairground%20%2F%20Big%20Top%20(Unused)%20-%20SpongeBob%20SquarePants%3A%20SuperSponge",
+	"wiki": "https://siivagunner.wiki/wiki/Fairground%20/%20Big%20Top%20(Unused)%20-%20SpongeBob%20SquarePants%3A%20SuperSponge",
 	"joke": "Bonetrousle - Undertale",
 	"artist": "LuNiney"},
 "d5H_Q955j5A": {
@@ -48057,7 +48057,7 @@ const db = {
 	"artist": "Unknown Ripper"},
 "mVnbz9gwFmc": {
 	"title": "Ecruteak City/Cianwood City - Pokémon Gold & Silver",
-	"wiki": "https://siivagunner.wiki/wiki/Ecruteak%20City%2FCianwood%20City%20(OST%20Version)%20-%20Pok%C3%A9mon%20Gold%20%26%20Silver",
+	"wiki": "https://siivagunner.wiki/wiki/Ecruteak%20City/Cianwood%20City%20(OST%20Version)%20-%20Pok%C3%A9mon%20Gold%20%26%20Silver",
 	"joke": "Platinum Disco - Nisemonogatari",
 	"artist": "Unknown Ripper"},
 "RRZqgX4QWn8": {
@@ -48477,7 +48477,7 @@ const db = {
 	"artist": "toonlink"},
 "mNAE9X2nALg": {
 	"title": "Ecruteak City/Cianwood City - Pokémon Gold & Silver",
-	"wiki": "https://siivagunner.wiki/wiki/Ecruteak%20City%2FCianwood%20City%20-%20Pok%C3%A9mon%20Gold%20%26%20Silver",
+	"wiki": "https://siivagunner.wiki/wiki/Ecruteak%20City/Cianwood%20City%20-%20Pok%C3%A9mon%20Gold%20%26%20Silver",
 	"joke": "Star Light Zone - Sonic the Hedgehog",
 	"artist": "Sonicheroesfan1"},
 "kSI29aGR8WE": {
@@ -48717,7 +48717,7 @@ const db = {
 	"artist": "CrystalForce"},
 "2_w19HrferU": {
 	"title": "Twinkle Elementary - EarthBound Beginnings/MOTHER",
-	"wiki": "https://siivagunner.wiki/wiki/Twinkle%20Elementary%20-%20EarthBound%20Beginnings%2FMOTHER",
+	"wiki": "https://siivagunner.wiki/wiki/Twinkle%20Elementary%20-%20EarthBound%20Beginnings/MOTHER",
 	"joke": "Credits - Game Boy Camera",
 	"artist": "scooblee"},
 "nB1hZei3XVs": {
@@ -48749,7 +48749,7 @@ const db = {
 	"title": "Viridian Forest - Pokémon Red & Blue",
 	"wiki": "https://siivagunner.wiki/wiki/Viridian%20Forest%20(Beta%20Mix)%20-%20Pok%C3%A9mon%20Red%20%26%20Blue",
 	"joke": "Ultimate - Denzel Curry ft. Juicy J",
-	"artist": "Various"},
+	"artist": "RachelVarious"},
 "L8THgzH-tgQ": {
 	"title": "Thomas MacLaine - Deadly Premonition",
 	"wiki": "https://siivagunner.wiki/wiki/Thomas%20MacLaine%20-%20Deadly%20Premonition",
@@ -48912,9 +48912,9 @@ const db = {
 	"artist": "QTQTQ"},
 "_g3Wq2onBoo": {
 	"title": "Jail/R&B - The Urbz: Sims in the City",
-	"wiki": "https://siivagunner.wiki/wiki/Jail%2FR%26B%20-%20The%20Urbz%3A%20Sims%20in%20the%20City",
+	"wiki": "https://siivagunner.wiki/wiki/Jail/R%26B%20-%20The%20Urbz%3A%20Sims%20in%20the%20City",
 	"joke": "Walk This Way - Aerosmith",
-	"artist": "Various"},
+	"artist": "RachelVarious"},
 "FNWSmQdPWxM": {
 	"title": "Casino Night: Act 2 - Sonic Generations",
 	"wiki": "https://siivagunner.wiki/wiki/Casino%20Night%3A%20Act%202%20-%20Sonic%20Generations",
@@ -48999,7 +48999,7 @@ const db = {
 	"title": "King Tower - The Urbz: Sims in the City (removed)",
 	"wiki": "https://siivagunner.wiki/wiki/King%20Tower%20-%20The%20Urbz%3A%20Sims%20in%20the%20City%20(removed)",
 	"joke": "King Kunta - Kendrick Lamar",
-	"artist": "Various"},
+	"artist": "RachelVarious"},
 "M3OWZxfjqIs": {
 	"title": "Tripod - Bomberman Hero",
 	"wiki": "https://siivagunner.wiki/wiki/Tripod%20-%20Bomberman%20Hero",
@@ -49472,7 +49472,7 @@ const db = {
 	"artist": "Unknown Ripper"},
 "_ctFBHoqa_s": {
 	"title": "Mysteria Deep-Sea Cruise - Ultimate Angler / StreetPass Fishing",
-	"wiki": "https://siivagunner.wiki/wiki/Mysteria%20Deep-Sea%20Cruise%20-%20Ultimate%20Angler%20%2F%20StreetPass%20Fishing",
+	"wiki": "https://siivagunner.wiki/wiki/Mysteria%20Deep-Sea%20Cruise%20-%20Ultimate%20Angler%20/%20StreetPass%20Fishing",
 	"joke": "Don't Worry, Be Happy - Bobby McFerrin",
 	"artist": "Marrow"},
 "qtd7--fSyK4": {
@@ -49542,7 +49542,7 @@ const db = {
 	"artist": "toonlink"},
 "yPO6gTUL8cw": {
 	"title": "At Dusk, I Will Think of You - Kingdom Hearts 358/2 Days",
-	"wiki": "https://siivagunner.wiki/wiki/At%20Dusk%2C%20I%20Will%20Think%20Of%20You%20-%20Kingdom%20Hearts%20358%2F2%20Days",
+	"wiki": "https://siivagunner.wiki/wiki/At%20Dusk%2C%20I%20Will%20Think%20Of%20You%20-%20Kingdom%20Hearts%20358/2%20Days",
 	"joke": "I Will Follow You Into The Dark - Death Cab For Cutie",
 	"artist": "toonlink"},
 "BBAnq69vqTY": {
@@ -49687,7 +49687,7 @@ const db = {
 	"artist": "Unknown Ripper"},
 "Cih0oWi5xwg": {
 	"title": "Battle! (Reshiram/Zekrom) - Pokémon Black & White",
-	"wiki": "https://siivagunner.wiki/wiki/Battle!%20(Reshiram%2FZekrom)%20(Beta%20Mix)%20-%20Pok%C3%A9mon%20Black%20%26%20White",
+	"wiki": "https://siivagunner.wiki/wiki/Battle!%20(Reshiram/Zekrom)%20(Beta%20Mix)%20-%20Pok%C3%A9mon%20Black%20%26%20White",
 	"joke": "X - Ao No Exorcist",
 	"artist": "dante"},
 "RiUyO5_ryjo": {
@@ -49902,7 +49902,7 @@ const db = {
 	"artist": "Unknown Ripper"},
 "Yfr56lRWoMA": {
 	"title": "Wii Shop Channel / Mii Channel - Super Smash Bros. for Wii U",
-	"wiki": "https://siivagunner.wiki/wiki/Wii%20Shop%20Channel%20%2F%20Mii%20Channel%20(Beta%20Mix)%20-%20Super%20Smash%20Bros.%20for%20Wii%20U",
+	"wiki": "https://siivagunner.wiki/wiki/Wii%20Shop%20Channel%20/%20Mii%20Channel%20(Beta%20Mix)%20-%20Super%20Smash%20Bros.%20for%20Wii%20U",
 	"joke": "Walk The Dinosaur - Was (Not Was)",
 	"artist": "PinkieOats"},
 "vlHFendnW48": {
@@ -49927,7 +49927,7 @@ const db = {
 	"artist": "Chaze the Chat"},
 "lgvun5iEg_o": {
 	"title": "Stardust Speedway Bad Future (JPN/PAL) - Sonic CD",
-	"wiki": "https://siivagunner.wiki/wiki/Stardust%20Speedway%20Bad%20Future%20(JPN%2FPAL)%20-%20Sonic%20CD",
+	"wiki": "https://siivagunner.wiki/wiki/Stardust%20Speedway%20Bad%20Future%20(JPN/PAL)%20-%20Sonic%20CD",
 	"joke": "Parity - Katawa Shoujo",
 	"artist": "FMFlameNinja"},
 "9W1hbVP9Dk8": {
@@ -49937,7 +49937,7 @@ const db = {
 	"artist": "megamanlego"},
 "Cn-Qj96zBgI": {
 	"title": "Play of The Game/Results - Overwatch",
-	"wiki": "https://siivagunner.wiki/wiki/Play%20Of%20The%20Game%2FResults%20-%20Overwatch",
+	"wiki": "https://siivagunner.wiki/wiki/Play%20Of%20The%20Game/Results%20-%20Overwatch",
 	"joke": "Ms. New Booty - Bubba Sparxxx ft. the Ying Yang Twins and Mr. Collipark",
 	"artist": "Hinchy"},
 "6FvqGFV9AkU": {
@@ -51077,7 +51077,7 @@ const db = {
 	"artist": "Blazephlozard"},
 "u4q6Z1MaWS0": {
 	"title": "Disk System - Console/BIOS Music",
-	"wiki": "https://siivagunner.wiki/wiki/Disk%20System%20-%20Console%2FBIOS%20Music",
+	"wiki": "https://siivagunner.wiki/wiki/Disk%20System%20-%20Console/BIOS%20Music",
 	"joke": "Meet the Flintstones - The Flintstones",
 	"artist": "Can of Nothing"},
 "K9Xs6d9H3vc": {
@@ -51422,7 +51422,7 @@ const db = {
 	"artist": "adumb"},
 "yV7JJJsdTlw": {
 	"title": "Museum / Warp Star - Kirby's Adventure",
-	"wiki": "https://siivagunner.wiki/wiki/Museum%20%2F%20Warp%20Star%20-%20Kirby's%20Adventure",
+	"wiki": "https://siivagunner.wiki/wiki/Museum%20/%20Warp%20Star%20-%20Kirby's%20Adventure",
 	"joke": "Space Cruise (Title) - FTL: Faster Than Light",
 	"artist": "eg_9371"},
 "EFFtfgQbdH0": {
@@ -51527,7 +51527,7 @@ const db = {
 	"artist": "Blookerstein"},
 "iclPvDb54sM": {
 	"title": "Roving Tank - EarthBound Beginnings/MOTHER",
-	"wiki": "https://siivagunner.wiki/wiki/Roving%20Tank%20(Alpha%20Mix)%20-%20EarthBound%20Beginnings%2FMOTHER",
+	"wiki": "https://siivagunner.wiki/wiki/Roving%20Tank%20(Alpha%20Mix)%20-%20EarthBound%20Beginnings/MOTHER",
 	"joke": "Tank! - Cowboy Bebop",
 	"artist": "cookiefonster"},
 "swOAswD-IRg": {
@@ -51592,7 +51592,7 @@ const db = {
 	"artist": "KnightOfGames"},
 "5xOa2hE8WQg": {
 	"title": "Fallin' Love - EarthBound Beginnings/MOTHER",
-	"wiki": "https://siivagunner.wiki/wiki/Fallin'%20Love%20(In-Game%20Version)%20-%20EarthBound%20Beginnings%2FMOTHER",
+	"wiki": "https://siivagunner.wiki/wiki/Fallin'%20Love%20(In-Game%20Version)%20-%20EarthBound%20Beginnings/MOTHER",
 	"joke": "SAD! - XXXTentacion",
 	"artist": "eg_9371"},
 "LODDaoZDkGw": {
@@ -51692,7 +51692,7 @@ const db = {
 	"artist": "BarryBM"},
 "JtJ4o2OIkQo": {
 	"title": "Labyrinth Zone - Sonic the Hedgehog (Game Gear/Master System)",
-	"wiki": "https://siivagunner.wiki/wiki/Labyrinth%20Zone%20-%20Sonic%20the%20Hedgehog%20(Game%20Gear%2FMaster%20System)",
+	"wiki": "https://siivagunner.wiki/wiki/Labyrinth%20Zone%20-%20Sonic%20the%20Hedgehog%20(Game%20Gear/Master%20System)",
 	"joke": "Labyrinth Zone - Sonic the Hedgehog",
 	"artist": "Unknown Ripper"},
 "VXwoaYBzvHU": {
@@ -51862,7 +51862,7 @@ const db = {
 	"artist": "ChristopherLry"},
 "wfLx96YmSJ0": {
 	"title": "Ariana Beach - Ultimate Angler / StreetPass Fishing",
-	"wiki": "https://siivagunner.wiki/wiki/Ariana%20Beach%20-%20Ultimate%20Angler%20%2F%20StreetPass%20Fishing",
+	"wiki": "https://siivagunner.wiki/wiki/Ariana%20Beach%20-%20Ultimate%20Angler%20/%20StreetPass%20Fishing",
 	"joke": "Into You - Ariana Grande",
 	"artist": "Emm Bee Sea"},
 "7zQIhiYjmD4": {
@@ -52297,7 +52297,7 @@ const db = {
 	"artist": "Smoky"},
 "zftv8sB6F6k": {
 	"title": "Prelude Deep-Sea Cruise - Ultimate Angler / StreetPass Fishing",
-	"wiki": "https://siivagunner.wiki/wiki/Prelude%20Deep-Sea%20Cruise%20-%20Ultimate%20Angler%20%2F%20StreetPass%20Fishing",
+	"wiki": "https://siivagunner.wiki/wiki/Prelude%20Deep-Sea%20Cruise%20-%20Ultimate%20Angler%20/%20StreetPass%20Fishing",
 	"joke": "Shooting Stars - Bag Raiders",
 	"artist": "toonlink"},
 "X0qeiAWRsBg": {
@@ -52542,7 +52542,7 @@ const db = {
 	"artist": "DonnieTheGuy"},
 "M4w52hPZX_o": {
 	"title": "Neo Geo Pocket Menu - Console/BIOS Music",
-	"wiki": "https://siivagunner.wiki/wiki/Neo%20Geo%20Pocket%20Menu%20-%20Console%2FBIOS%20Music",
+	"wiki": "https://siivagunner.wiki/wiki/Neo%20Geo%20Pocket%20Menu%20-%20Console/BIOS%20Music",
 	"joke": "Wonton Soup - Lil B",
 	"artist": "bloomin' pingas"},
 "n1flDkq_UVE": {
@@ -53007,7 +53007,7 @@ const db = {
 	"artist": "Madinstance"},
 "LnLPVKRbEqY": {
 	"title": "Bridge Zone - Sonic the Hedgehog (Game Gear/Master System)",
-	"wiki": "https://siivagunner.wiki/wiki/Bridge%20Zone%20(OST%20Version)%20-%20Sonic%20the%20Hedgehog%20(Game%20Gear%2FMaster%20System)",
+	"wiki": "https://siivagunner.wiki/wiki/Bridge%20Zone%20(OST%20Version)%20-%20Sonic%20the%20Hedgehog%20(Game%20Gear/Master%20System)",
 	"joke": "Dollar in the Woods - DJ Keemstar",
 	"artist": "minindo"},
 "iqs1hGQnLRM": {
@@ -53307,12 +53307,12 @@ const db = {
 	"artist": "RHMan"},
 "44E1u2RVQ9c": {
 	"title": "Wacky Workbench Good Future (JPN/PAL) - Sonic CD",
-	"wiki": "https://siivagunner.wiki/wiki/Wacky%20Workbench%20Good%20Future%20(JPN%2FPAL)%20-%20Sonic%20CD",
+	"wiki": "https://siivagunner.wiki/wiki/Wacky%20Workbench%20Good%20Future%20(JPN/PAL)%20-%20Sonic%20CD",
 	"joke": "Yankin - Lady",
 	"artist": "mBluett"},
 "mlDhJPig9lU": {
 	"title": "Wacky Workbench Good Future (JPN/PAL) - Sonic CD",
-	"wiki": "https://siivagunner.wiki/wiki/Wacky%20Workbench%20Good%20Future%20(JPN%2FPAL)%20-%20Sonic%20CD",
+	"wiki": "https://siivagunner.wiki/wiki/Wacky%20Workbench%20Good%20Future%20(JPN/PAL)%20-%20Sonic%20CD",
 	"joke": "Yankin - Lady",
 	"artist": "mBluett"},
 "n1CvAbCYUVs": {
@@ -53382,7 +53382,7 @@ const db = {
 	"artist": "Heboyi"},
 "TxBpr3nkTtA": {
 	"title": "Snowman - EarthBound Beginnings/MOTHER",
-	"wiki": "https://siivagunner.wiki/wiki/Snowman%20(In-Game%20Version)%20-%20EarthBound%20Beginnings%2FMOTHER",
+	"wiki": "https://siivagunner.wiki/wiki/Snowman%20(In-Game%20Version)%20-%20EarthBound%20Beginnings/MOTHER",
 	"joke": "Kraid - Metroid",
 	"artist": "Ethan"},
 "0qkDFognN2c": {
@@ -55562,7 +55562,7 @@ const db = {
 	"artist": "Unknown Ripper"},
 "ACsKbpKa7MI": {
 	"title": "VR Training (Weapon Mode) - Metal Gear Solid (GBC)/Metal Gear: Ghost Babel",
-	"wiki": "https://siivagunner.wiki/wiki/VR%20Training%20(Weapon%20Mode)%20-%20Metal%20Gear%20Solid%20(GBC)%2FMetal%20Gear%3A%20Ghost%20Babel",
+	"wiki": "https://siivagunner.wiki/wiki/VR%20Training%20(Weapon%20Mode)%20-%20Metal%20Gear%20Solid%20(GBC)/Metal%20Gear%3A%20Ghost%20Babel",
 	"joke": "Predestined Fate - VVVVVV",
 	"artist": "pokemonpasta"},
 "HXUH3rwZPQk": {
@@ -55917,7 +55917,7 @@ const db = {
 	"artist": "Mitchell"},
 "eCVjO2lrWj8": {
 	"title": "Marshview Pond - Ultimate Angler / StreetPass Fishing",
-	"wiki": "https://siivagunner.wiki/wiki/Marshview%20Pond%20-%20Ultimate%20Angler%20%2F%20StreetPass%20Fishing",
+	"wiki": "https://siivagunner.wiki/wiki/Marshview%20Pond%20-%20Ultimate%20Angler%20/%20StreetPass%20Fishing",
 	"joke": "The Noble Haltmann - Kirby Planet Robobot",
 	"artist": "eg_9371"},
 "W-WjqdPNPys": {
@@ -56027,7 +56027,7 @@ const db = {
 	"artist": "Memesauce"},
 "DEbKKUeer8U": {
 	"title": "Find Pou/Memory - Pou",
-	"wiki": "https://siivagunner.wiki/wiki/Find%20Pou%2FMemory%20(Beta%20Version)%20-%20Pou",
+	"wiki": "https://siivagunner.wiki/wiki/Find%20Pou/Memory%20(Beta%20Version)%20-%20Pou",
 	"joke": "Harlem Shake - Baauer",
 	"artist": "nerdonho"},
 "rfvx3wvrN-s": {
@@ -56177,7 +56177,7 @@ const db = {
 	"artist": "Heboyi"},
 "m_QBH_rCLv0": {
 	"title": "Find Pou/Memory - Pou",
-	"wiki": "https://siivagunner.wiki/wiki/Find%20Pou%2FMemory%20(Beta%20Mix)%20-%20Pou",
+	"wiki": "https://siivagunner.wiki/wiki/Find%20Pou/Memory%20(Beta%20Mix)%20-%20Pou",
 	"joke": "Gangnam Style - PSY",
 	"artist": "nerdonho"},
 "Iily2fEjJP4": {
@@ -56187,7 +56187,7 @@ const db = {
 	"artist": "treydog1357"},
 "E-0CNS4yXV4": {
 	"title": "You Won! - EarthBound Beginnings/MOTHER",
-	"wiki": "https://siivagunner.wiki/wiki/You%20Won!%20-%20EarthBound%20Beginnings%2FMOTHER",
+	"wiki": "https://siivagunner.wiki/wiki/You%20Won!%20-%20EarthBound%20Beginnings/MOTHER",
 	"joke": "Giant Steps - John Coltrane",
 	"artist": "Brendan"},
 "iYOiBmcmNP0": {
@@ -56332,7 +56332,7 @@ const db = {
 	"artist": "mullar"},
 "nocYWajUtGI": {
 	"title": "The End - EarthBound Beginnings/MOTHER",
-	"wiki": "https://siivagunner.wiki/wiki/The%20End%20-%20EarthBound%20Beginnings%2FMOTHER",
+	"wiki": "https://siivagunner.wiki/wiki/The%20End%20-%20EarthBound%20Beginnings/MOTHER",
 	"joke": "Komm, süsser Tod - The End of Evangelion",
 	"artist": "Brendan"},
 "QvcKGwVmxQI": {
@@ -56477,7 +56477,7 @@ const db = {
 	"artist": "Retro Gaming"},
 "k8lF83rxl9c": {
 	"title": "Ghostbusters II Theme/The Evil Banker - The Three Stooges (NES)",
-	"wiki": "https://siivagunner.wiki/wiki/Ghostbusters%20II%20Theme%2FThe%20Evil%20Banker%20-%20The%20Three%20Stooges%20(NES)",
+	"wiki": "https://siivagunner.wiki/wiki/Ghostbusters%20II%20Theme/The%20Evil%20Banker%20-%20The%20Three%20Stooges%20(NES)",
 	"joke": "Giant Steps - John Coltrane",
 	"artist": "Jack Sheldon"},
 "0Gcc520TKCk": {
@@ -56687,7 +56687,7 @@ const db = {
 	"artist": "Vincent Mashups"},
 "ZuAnrGnrXjg": {
 	"title": "Alien Investigation - EarthBound Beginnings/MOTHER",
-	"wiki": "https://siivagunner.wiki/wiki/Alien%20Investigation%20-%20EarthBound%20Beginnings%2FMOTHER",
+	"wiki": "https://siivagunner.wiki/wiki/Alien%20Investigation%20-%20EarthBound%20Beginnings/MOTHER",
 	"joke": "Lavender Town - Pokemon Red & Blue",
 	"artist": "Brendan"},
 "aCHzOif6lok": {
@@ -57152,7 +57152,7 @@ const db = {
 	"artist": "Expensive Dispenser"},
 "nST4dzWTAwc": {
 	"title": "Stages 1, 3 & 6: Slash Joe / Billy Morgan / Keith - Cowboy Kid",
-	"wiki": "https://siivagunner.wiki/wiki/Stages%201%2C%203%20%26%206%3A%20Slash%20Joe%20%2F%20Billy%20Morgan%20%2F%20Keith%20(Short%20Version)%20-%20Cowboy%20Kid",
+	"wiki": "https://siivagunner.wiki/wiki/Stages%201%2C%203%20%26%206%3A%20Slash%20Joe%20/%20Billy%20Morgan%20/%20Keith%20(Short%20Version)%20-%20Cowboy%20Kid",
 	"joke": "Gadget Room - Club Penguin: Elite Penguin Force",
 	"artist": "TheBeastlyPichu"},
 "rUDjjjOX4Rc": {
@@ -57219,12 +57219,7 @@ const db = {
 	"title": "Electro Beat - Tom Clancy's Rainbow Six Siege",
 	"wiki": "https://siivagunner.wiki/wiki/Electro%20Beat%20-%20Tom%20Clancy's%20Rainbow%20Six%20Siege",
 	"joke": "Harlem Shake - Baauer",
-	"artist": "Various"},
-"iE8PbGzmT8Q": {
-	"title": "Electro Beat - Tom Clancy's Rainbow Six Siege",
-	"wiki": "https://siivagunner.wiki/wiki/Electro%20Beat%20-%20Tom%20Clancy's%20Rainbow%20Six%20Siege",
-	"joke": "Harlem Shake - Baauer",
-	"artist": "Various"},
+	"artist": "RachelVarious"},
 "gyVpKwqAJDQ": {
 	"title": "Knock Blockers (Boss Theme) - Crawlco Block Knockers",
 	"wiki": "https://siivagunner.wiki/wiki/Knock%20Blockers%20(Boss%20Theme)%20-%20Crawlco%20Block%20Knockers",
@@ -57777,7 +57772,7 @@ const db = {
 	"artist": "Jiko Music"},
 "zgoP-gw5qMg": {
 	"title": "Hotel Sleep - EarthBound Beginnings/MOTHER",
-	"wiki": "https://siivagunner.wiki/wiki/Hotel%20Sleep%20-%20EarthBound%20Beginnings%2FMOTHER",
+	"wiki": "https://siivagunner.wiki/wiki/Hotel%20Sleep%20-%20EarthBound%20Beginnings/MOTHER",
 	"joke": "TOTINO BOY! - Tim & Eric",
 	"artist": "The Duane"},
 "SqlPJcUbxu4": {
@@ -57862,12 +57857,12 @@ const db = {
 	"artist": "KnightOfGames"},
 "I8Jcyl8jGxY": {
 	"title": "Coraline's Clubhouse - Ultimate Angler / StreetPass Fishing",
-	"wiki": "https://siivagunner.wiki/wiki/Coraline's%20Clubhouse%20-%20Ultimate%20Angler%20%2F%20StreetPass%20Fishing",
+	"wiki": "https://siivagunner.wiki/wiki/Coraline's%20Clubhouse%20-%20Ultimate%20Angler%20/%20StreetPass%20Fishing",
 	"joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip tha Ripper",
 	"artist": "Marrow"},
 "9zmKXv1Sbu0": {
 	"title": "Humoresque of a Little Dog - EarthBound Beginnings/MOTHER",
-	"wiki": "https://siivagunner.wiki/wiki/Humoresque%20of%20a%20Little%20Dog%20(Beta%20Mix)%20-%20EarthBound%20Beginnings%2FMOTHER",
+	"wiki": "https://siivagunner.wiki/wiki/Humoresque%20of%20a%20Little%20Dog%20(Beta%20Mix)%20-%20EarthBound%20Beginnings/MOTHER",
 	"joke": "Hammer Bros. Theme - Super Mario Bros. 3",
 	"artist": "SMALF"},
 "nDjDX5yX7CY": {
