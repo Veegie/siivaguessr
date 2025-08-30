@@ -118,7 +118,7 @@ const dailies = {
     "20251119": { "hash": "", "mode": QuestionMode.NORMAL },
     "20251120": { "hash": "", "mode": QuestionMode.NORMAL },
     "20251121": { "hash": "", "mode": QuestionMode.NORMAL },
-    "20251122": { "hash": "", "mode": QuestionMode.NORMAL },
+    "20251122": { "hash": "QM55RcYvU2o", "mode": QuestionMode.NORMAL },
     "20251123": { "hash": "", "mode": QuestionMode.NORMAL }, // Sunday
     "20251124": { "hash": "", "mode": QuestionMode.NORMAL },
     "20251125": { "hash": "", "mode": QuestionMode.NORMAL },
