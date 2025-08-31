@@ -12,7 +12,7 @@ output_file = "similar_grouped_and_long_titles.txt"
 with open(input_file, "r", encoding="utf-8") as f:
     lines = [line.strip() for line in f if line.strip()]
 
-# Group similar titles (>= 60% similarity)
+# Group similar titles (>= 90% similarity)
 visited = set()
 groups = []
 
@@ -27,7 +27,7 @@ for i, line1 in enumerate(lines):
             continue
         line2 = lines[j]
         similarity = CSequenceMatcher(None, line1, line2).ratio()
-        if similarity >= 0.60:
+        if similarity >= 0.90:
             group.append(line2)
             visited.add(j)
     if len(group) > 1:

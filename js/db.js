@@ -4338,7 +4338,7 @@ const db = {
 	"joke": "Meatball Parade - Kevin MacLeod",
 	"artist": "Myeauxyoozi, Heboyi"},
 "a2sWwW1NT6A": {
-	"title": "Bowling (Results) - Wii Sports Club",
+	"title": "Bowling - Results - Wii Sports Club",
 	"wiki": "https://siivagunner.wiki/wiki/Bowling%20(Results)%20-%20Wii%20Sports%20Club",
 	"joke": "Beautiful Girls - Sean Kingston",
 	"artist": "Sponge Lord"},
@@ -5643,7 +5643,7 @@ const db = {
 	"joke": "Hello Kitty - Avril Lavigne",
 	"artist": "Ashley"},
 "TIB9UcCmCjs": {
-	"title": "Title Screen & Mode Introduction (Old) - Hello Kitty Daily",
+	"title": "Title Screen & Mode Introduction - Hello Kitty Daily",
 	"wiki": "https://siivagunner.wiki/wiki/Title%20Screen%20%26%20Mode%20Introduction%20(Old)%20-%20Hello%20Kitty%20Daily",
 	"joke": "Able Sisters - Animal Crossing",
 	"artist": "Edgi"},
@@ -5653,7 +5653,7 @@ const db = {
 	"joke": "Welcome to the Internet - Bo Burnham",
 	"artist": "Grambam36"},
 "6Bu6b2T1knA": {
-	"title": "Hello Kitty's Room (Old) - Hello Kitty Daily",
+	"title": "Hello Kitty's Room - Hello Kitty Daily",
 	"wiki": "https://siivagunner.wiki/wiki/Hello%20Kitty's%20Room%20(Old)%20-%20Hello%20Kitty%20Daily",
 	"joke": "Telepathic Love - Snail's House",
 	"artist": "Edgi"},
@@ -5678,7 +5678,7 @@ const db = {
 	"joke": "Friday - Rebecca Black",
 	"artist": "Grambam36"},
 "EW4lbV-zH-c": {
-	"title": "Calculator & Diary (Old) - Hello Kitty Daily",
+	"title": "Calculator & Diary - Hello Kitty Daily",
 	"wiki": "https://siivagunner.wiki/wiki/Calculator%20%26%20Diary%20(Old)%20-%20Hello%20Kitty%20Daily",
 	"joke": "Just Communication - Mobile Suit Gundam Wing",
 	"artist": "Edgi"},
@@ -6038,7 +6038,7 @@ const db = {
 	"joke": "Butterfly - Smile.dk",
 	"artist": "Ellie53"},
 "FP4vexpcuDI": {
-	"title": "Overworld (Fast) - Newer Super Mario Bros. Wii",
+	"title": "Overworld - Newer Super Mario Bros. Wii",
 	"wiki": "https://siivagunner.wiki/wiki/Overworld%20(Fast)%20-%20Newer%20Super%20Mario%20Bros.%20Wii",
 	"joke": "Don't Stop Me Now - Queen",
 	"artist": "SamanthaMK"},
@@ -6103,7 +6103,7 @@ const db = {
 	"joke": "Le Coucou - Louis-Claude Daquin",
 	"artist": "Unknown Ripper"},
 "_2li67o51Ss": {
-	"title": "Super Mario Land Theme (Old) - Another Super Mario Bros. Wii",
+	"title": "Super Mario Land Theme - Another Super Mario Bros. Wii",
 	"wiki": "https://siivagunner.wiki/wiki/Super%20Mario%20Land%20Theme%20(Old)%20-%20Another%20Super%20Mario%20Bros.%20Wii",
 	"joke": "Your New Home - The Amazing Digital Circus",
 	"artist": "SamanthaMK"},
@@ -6248,7 +6248,7 @@ const db = {
 	"joke": "Wasted - Juice WRLD ft. Lil Uzi Vert",
 	"artist": "alan"},
 "cGyn-kDPkPI": {
-	"title": "Chobobo Chobobo - Final Fantasy IV",
+	"title": "Chocobo Chocobo - Final Fantasy IV",
 	"wiki": "https://siivagunner.wiki/wiki/Chobobo%20Chobobo%20(PAL%20Version)%20-%20Final%20Fantasy%20IV",
 	"joke": "Monkeys Spinning Monkeys - Kevin MacLeod",
 	"artist": "Unknown Ripper"},
@@ -8218,7 +8218,7 @@ const db = {
 	"joke": "Hobart Drive - Jerry Galeries",
 	"artist": "Heboyi"},
 "LMB9uC_DnkQ": {
-	"title": "mmm yes put the tree on my pizza (Old) - Pizza Tower",
+	"title": "mmm yes put the tree on my pizza - Pizza Tower",
 	"wiki": "https://siivagunner.wiki/wiki/Mmm%20yes%20put%20the%20tree%20on%20my%20pizza%20(Old)%20(Alpha%20Mix)%20-%20Pizza%20Tower",
 	"joke": "地球の裏 (Leave you on The Back of the Earth) - Iyowa ft. RIME",
 	"artist": "Tina the Cyclops girl"},
@@ -8828,7 +8828,7 @@ const db = {
 	"joke": "Showtime (Original Mix) - Homestuck",
 	"artist": "literallyn01imp0rtant"},
 "TW9Nb8yT9tI": {
-	"title": "Don't Preheat Your Oven Because If You Do The Song Won't Play (Old) - Pizza Tower",
+	"title": "Don't Preheat Your Oven Because If You Do The Song Won't Play - Pizza Tower",
 	"wiki": "https://siivagunner.wiki/wiki/Don't%20Preheat%20Your%20Oven%20Because%20If%20You%20Do%20The%20Song%20Won't%20Play%20(Old)%20(CD%20Version)%20-%20Pizza%20Tower",
 	"joke": "Last Friday Night (T.G.I.F.) - Katy Perry",
 	"artist": "BluLuigi7"},
@@ -9608,7 +9608,7 @@ const db = {
 	"joke": "The Bears Are Coming - Late of the Pier",
 	"artist": "Dyseminate"},
 "g703OR7Shcw": {
-	"title": "Don't Preheat Your Oven Because If You Do The Song Won't Play (Old) - Pizza Tower",
+	"title": "Don't Preheat Your Oven Because If You Do The Song Won't Play - Pizza Tower",
 	"wiki": "https://siivagunner.wiki/wiki/Don't%20Preheat%20Your%20Oven%20Because%20If%20You%20Do%20The%20Song%20Won't%20Play%20(Old)%20(Removed%20Version)%20-%20Pizza%20Tower",
 	"joke": "[BLUE] - KiIvaKunner",
 	"artist": "BigBadBlob"},
@@ -12169,6 +12169,7 @@ const db = {
 	"artist": "PixelSword"},
 "ttK0HvnAUh0": {
 	"title": "mus_f_6s_3 - Undertale",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Mus%20f%206s%203%20-%20Undertale",
 	"joke": "Pop Champagne - Ron Browz and Jim Jones ft. Juelz Santana",
 	"artist": "minindo"},
@@ -13885,6 +13886,7 @@ const db = {
 	"artist": "mlm3"},
 "im5Is8k_dRo": {
 	"title": "mus_f_6s_2 - Undertale",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Mus%20f%206s%202%20-%20Undertale",
 	"joke": "Raft Ride - The Legend of Zelda: Link's Awakening",
 	"artist": "Honey (GD Conner)"},
@@ -14824,7 +14826,7 @@ const db = {
 	"joke": "Boulevard of Broken Dreams - Green Day",
 	"artist": "Sponge Lord"},
 "Gj0aDmcXpe0": {
-	"title": "Chobobo Theme - Final Fantasy III DS",
+	"title": "Chocobo Theme - Final Fantasy III DS",
 	"wiki": "https://siivagunner.wiki/wiki/Chobobo%20Theme%20-%20Final%20Fantasy%20III%20DS",
 	"joke": "Humble (Roblox Cover) - Shiny Blowfish",
 	"artist": "minindo"},
@@ -14881,7 +14883,7 @@ const db = {
 "TfSwjfNPpq0": {
 	"title": "Golden Oak Library - My Little Pony: Friendship Roleplay",
 	"wiki": "https://siivagunner.wiki/wiki/Golden%20Oak%20Library%20-%20My%20Little%20Pony%3A%20Friendship%20Roleplay",
-	"joke": "pinkie just had sex!!!!!!!!!! - theburninice1 using the characters in the advertised game",
+	"joke": "pinkie just had sex!!!!!!!!!! - theburninice1",
 	"artist": "Ashley, MLPFun, Grambam36"},
 "7x5-BMKuXmg": {
 	"title": "Results - RBLXWare",
@@ -15694,7 +15696,7 @@ const db = {
 	"joke": "Folkin' Around - Panic! At the Disco",
 	"artist": "Emm Bee Sea"},
 "EQYYzD5HEtg": {
-	"title": "Can You Really Call This A Hotel, I Didn't Receive A Mint On My Pillow Or Anything - Unde",
+	"title": "Can You Really Call This A Hotel, I Didn't Receive A Mint On My Pillow Or Anything - Undertale",
 	"wiki": "https://siivagunner.wiki/wiki/Can%20You%20Really%20Call%20This%20A%20Hotel%2C%20I%20Didn't%20Receive%20A%20Mint%20On%20My%20Pillow%20Or%20Anything%20(Beta%20Mix)%20-%20Unde",
 	"joke": "Special World 8 - Super Mario 3D Land",
 	"artist": "lollo"},
@@ -16609,7 +16611,7 @@ const db = {
 	"joke": "Sunset Wilds - Mario Kart: Super Circuit",
 	"artist": "Unknown Ripper"},
 "NZgIoIptqgY": {
-	"title": "Don't Preheat Your Oven Because If You Do The Song Won't Play (Old) - Pizza Tower",
+	"title": "Don't Preheat Your Oven Because If You Do The Song Won't Play - Pizza Tower",
 	"wiki": "https://siivagunner.wiki/wiki/Don't%20Preheat%20Your%20Oven%20Because%20If%20You%20Do%20The%20Song%20Won't%20Play%20(Old)%20(OST%20Version)%20-%20Pizza%20Tower",
 	"joke": "Vancouver Velocity - Mario Kart Tour",
 	"artist": "SamanthaMK"},
@@ -17755,6 +17757,7 @@ const db = {
 	"artist": "Maggie"},
 "nGEaCEAEHGA": {
 	"title": "mus_f_6s_1 - Undertale",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Mus%20f%206s%201%20-%20Undertale",
 	"joke": "Bloody Mary - Lady Gaga",
 	"artist": "Memesauce"},
@@ -19165,6 +19168,7 @@ const db = {
 	"artist": "lollo"},
 "YfW3zfU_x1g": {
 	"title": "mus_tv - Undertale",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Mus%20tv%20(OST%20Version)%20-%20Undertale",
 	"joke": "Still Alive (Radio Mix) - Portal",
 	"artist": "Retro Gaming"},
@@ -24414,7 +24418,7 @@ const db = {
 	"joke": "Tutorial - Cuphead",
 	"artist": "eg_9371"},
 "7i8DNFRlwcU": {
-	"title": "Chobobo Theme - Final Fantasy III",
+	"title": "Chocobo Theme - Final Fantasy III",
 	"wiki": "https://siivagunner.wiki/wiki/Chobobo%20Theme%20(NTSC-J%20Version)%20-%20Final%20Fantasy%20III",
 	"joke": "Tanukichi no Bouken - MAKOOTO",
 	"artist": "Brendan"},
@@ -25834,7 +25838,7 @@ const db = {
 	"joke": "Tell The Vision - Pop Smoke",
 	"artist": "Expensive Dispenser"},
 "uAtgsg3dYY0": {
-	"title": "Can You Really Call This A Hotel, I Didn't Receive A Mint On My Pillow Or Anything - U",
+	"title": "Can You Really Call This A Hotel, I Didn't Receive A Mint On My Pillow Or Anything - Undertale",
 	"wiki": "https://siivagunner.wiki/wiki/Can%20You%20Really%20Call%20This%20A%20Hotel%2C%20I%20Didn't%20Receive%20A%20Mint%20On%20My%20Pillow%20Or%20Anything%20(OST%20Version)%20-%20U",
 	"joke": "Get Lucky - Daft Punk",
 	"artist": "Myeauxyoozi"},
@@ -26830,6 +26834,7 @@ const db = {
 	"artist": "eg_9371"},
 "RgAZ5WaxrQ0": {
 	"title": "mus_f_6s_5 - Undertale",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Mus%20f%206s%205%20-%20Undertale",
 	"joke": "Hartmann's Youkai Girl - Touhou 11: Subterranean Animism",
 	"artist": "Sarvéproductions"},
@@ -29500,6 +29505,7 @@ const db = {
 	"artist": "Jiko Music"},
 "sXTAfLN9uBM": {
 	"title": "mus_menu4 - Undertale",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Mus%20menu4%20-%20Undertale",
 	"joke": "We Are Living in the Future - South Park: Post Covid",
 	"artist": "Retro Gaming"},
@@ -31485,6 +31491,7 @@ const db = {
 	"artist": "Grambam36"},
 "g8W87N86gDs": {
 	"title": "mus_menu2 - Undertale",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Mus%20menu2%20-%20Undertale",
 	"joke": "Space Boyfriend's Tape - I Want Nothing More - OMORI",
 	"artist": "Retro Gaming"},
@@ -32110,6 +32117,7 @@ const db = {
 	"artist": "eg_9371"},
 "sOOjPI4xmZk": {
 	"title": "mus_menu1 - Undertale",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Mus%20menu1%20-%20Undertale",
 	"joke": "The Bunny Do! - SuperMarioLogan",
 	"artist": "Memesauce"},
@@ -34084,7 +34092,7 @@ const db = {
 	"joke": "NFT For Your Vanity - Elon Musk",
 	"artist": "Expensive Dispenser"},
 "Lh8YfDOza9k": {
-	"title": "Type C (Fast) - Tetris (NES)",
+	"title": "Type C - Tetris (NES)",
 	"wiki": "https://siivagunner.wiki/wiki/Type%20C%20(Fast)%20-%20Tetris%20(NES)",
 	"joke": "Aerodynamic - Daft Punk",
 	"artist": "berg8793"},
@@ -37375,6 +37383,7 @@ const db = {
 	"artist": "Sega77"},
 "lYYSKrwn9kk": {
 	"title": "mus_ruinspiano - Undertale",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Mus%20ruinspiano%20-%20Undertale",
 	"joke": "Meet the Flintstones - The Flintstones",
 	"artist": "ashy"},
@@ -38706,7 +38715,7 @@ const db = {
 "B1mIsQuxQns": {
 	"title": "40 Below Fridge - Wario Land 4",
 	"wiki": "https://siivagunner.wiki/wiki/40%20Below%20Fridge%20-%20Wario%20Land%204",
-	"joke": "Don't Preheat Your Oven Because If You Do The Song Won't Play (Old) - Pizza Tower",
+	"joke": "Don't Preheat Your Oven Because If You Do The Song Won't Play - Pizza Tower",
 	"artist": "daypeecone"},
 "XeSd7xdDoOE": {
 	"title": "All Stage Clear - Mega Man 3",
@@ -38840,6 +38849,7 @@ const db = {
 	"artist": "adumb"},
 "OxXVCQZhQ-o": {
 	"title": "Dumb Victory - Undertale",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Dumb%20Victory%20-%20Undertale",
 	"joke": "1-Up - Super Mario Bros.",
 	"artist": "Aquacycle"},
@@ -38890,6 +38900,7 @@ const db = {
 	"artist": "Unknown Ripper"},
 "-t7_PjdC7gs": {
 	"title": "Save Point - Undertale",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Save%20Point%20-%20Undertale",
 	"joke": "Differences - Big Purp",
 	"artist": "ashy"},
@@ -41175,6 +41186,7 @@ const db = {
 	"artist": "Unknown Ripper"},
 "aSH_B2EYE3w": {
 	"title": "Grandpa Semi - Undertale",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Grandpa%20Semi%20-%20Undertale",
 	"joke": "I'm Not Yo Daddy, I'm Yo Grandpa - Biff Chitlins",
 	"artist": "Jp"},
@@ -41319,7 +41331,7 @@ const db = {
 	"joke": "A Letter to You, Honey - MOTHER 3",
 	"artist": "adumb"},
 "Y5-6oWaQsMM": {
-	"title": "Fishing: Results - Wii Play",
+	"title": "Fishing - Results - Wii Play",
 	"wiki": "https://siivagunner.wiki/wiki/Fishing%3A%20Results%20-%20Wii%20Play",
 	"joke": "Meet the Flintstones - The Flintstones",
 	"artist": "adumb"},
@@ -42115,7 +42127,7 @@ const db = {
 	"joke": "Dsco - Sweet Trip",
 	"artist": "Eva Twin"},
 "FVyt-baBfwk": {
-	"title": "Chobobo Chobobo - Final Fantasy IV",
+	"title": "Chocobo Chocobo - Final Fantasy IV",
 	"wiki": "https://siivagunner.wiki/wiki/Chobobo%20Chobobo%20-%20Final%20Fantasy%20IV",
 	"joke": "Cats on Mars - The Seatbelts",
 	"artist": "pedipanol"},
@@ -42585,7 +42597,7 @@ const db = {
 	"joke": "Fluffing a Duck - Kevin MacLeod",
 	"artist": "RHMan"},
 "vLkh87neP-8": {
-	"title": "Chobobo Theme - Final Fantasy III",
+	"title": "Chocobo Theme - Final Fantasy III",
 	"wiki": "https://siivagunner.wiki/wiki/Chobobo%20Theme%20(Beta%20Mix)%20-%20Final%20Fantasy%20III",
 	"joke": "Fluffing a Duck - Kevin MacLeod",
 	"artist": "SoundSync5000"},
@@ -50987,7 +50999,7 @@ const db = {
 "0NSRhBZaZzA": {
 	"title": "Data Select - Sonic the Hedgehog 3 & Knuckles",
 	"wiki": "https://siivagunner.wiki/wiki/Data%20Select%20(Unused%20Mix)%20-%20Sonic%20the%20Hedgehog%203%20%26%20Knuckles",
-	"joke": "Main Theme (μ's Mode) - the mobile app Love Live! School idol festival",
+	"joke": "Main Theme (μ's Mode) - Love Live! School idol festival",
 	"artist": "dante"},
 "zdFPVzFgl68": {
 	"title": "Gerudo Valley - The Legend of Zelda: Ocarina of Time",
@@ -52435,7 +52447,7 @@ const db = {
 	"joke": "I Show The Meat - DaddySpeed",
 	"artist": "ChickenSuitGuy"},
 "5j_TJcurte8": {
-	"title": "Made a Word! (OLD) - LeapFrog Word Whammer Fridge Phonics Set",
+	"title": "Made a Word! - LeapFrog Word Whammer Fridge Phonics Set",
 	"wiki": "https://siivagunner.wiki/wiki/Made%20a%20Word!%20(OLD)%20-%20LeapFrog%20Word%20Whammer%20Fridge%20Phonics%20Set",
 	"joke": "Old Town Road - Lil Nas X ft. Billy Ray Cyrus",
 	"artist": "Unknown Ripper"},
@@ -53985,7 +53997,7 @@ const db = {
 	"joke": "Gangnam Style - PSY",
 	"artist": "gameonion"},
 "hcSpWCzYu9k": {
-	"title": "Guide (Fast) - Mario & Luigi: Brothership",
+	"title": "Guide - Mario & Luigi: Brothership",
 	"wiki": "https://siivagunner.wiki/wiki/Guide%20(Fast)%20-%20Mario%20%26%20Luigi%3A%20Brothership",
 	"joke": "Laughing Baby Bubbling Remix - Marcel Plomp",
 	"artist": "ChickenSuitGuy"},
@@ -54260,7 +54272,7 @@ const db = {
 	"joke": "Emote: Dance Moves - Fortnite",
 	"artist": "mBluett"},
 "RINuXgKhPgo": {
-	"title": "Fire (Fast) - Newer Super Mario Bros. Wii",
+	"title": "Fire - Newer Super Mario Bros. Wii",
 	"wiki": "https://siivagunner.wiki/wiki/Fire%20(Fast)%20-%20Newer%20Super%20Mario%20Bros.%20Wii",
 	"joke": "Lucid Dreamer - Touhou 16.5: Violet Detector",
 	"artist": "SamanthaMK"},
@@ -54630,7 +54642,7 @@ const db = {
 	"joke": "Stuck Inside - Black Gryph0n ft. The Living Tombstone and Kevin Foster",
 	"artist": "DonnieTheGuy"},
 "_FBlCc7n1-E": {
-	"title": "mmm yes put the tree on my pizza (Old) (Beach and Forest Build) - Pizza Tower",
+	"title": "mmm yes put the tree on my pizza - Pizza Tower",
 	"wiki": "https://siivagunner.wiki/wiki/Mmm%20yes%20put%20the%20tree%20on%20my%20pizza%20(Old)%20(Beach%20and%20Forest%20Build)%20-%20Pizza%20Tower",
 	"joke": "Stuck Inside - Black Gryph0n ft. The Living Tombstone and Kevin Foster",
 	"artist": "Retro Gaming"},
@@ -55206,7 +55218,7 @@ const db = {
 	"joke": "We Are Number One - LazyTown",
 	"artist": "xIncisions"},
 "byvvW4FHQdc": {
-	"title": "Chobobo Theme - Final Fantasy III",
+	"title": "Chocobo Theme - Final Fantasy III",
 	"wiki": "https://siivagunner.wiki/wiki/Chobobo%20Theme%20(JP%20Version)%20-%20Final%20Fantasy%20III",
 	"joke": "Shocking Party - A-RISE",
 	"artist": "Ellie53"},
@@ -55606,7 +55618,7 @@ const db = {
 	"joke": "One More Night - Maroon 5",
 	"artist": "CactusTeam"},
 "6b1AuPvqGaE": {
-	"title": "Party Palace (Old) - Natural Disaster Survival",
+	"title": "Party Palace - Natural Disaster Survival",
 	"wiki": "https://siivagunner.wiki/wiki/Party%20Palace%20(Old)%20-%20Natural%20Disaster%20Survival",
 	"joke": "Mo Bamba - Sheck Wes",
 	"artist": "Grambam36"},
@@ -56201,7 +56213,7 @@ const db = {
 	"joke": "EKSE - Off The Meds",
 	"artist": "Pan"},
 "QG954V1EQk8": {
-	"title": "Watery Graves (Fast) - Plants vs. Zombies",
+	"title": "Watery Graves - Plants vs. Zombies",
 	"wiki": "https://siivagunner.wiki/wiki/Watery%20Graves%20(Fast)%20(OST%20Mix)%20-%20Plants%20vs.%20Zombies",
 	"joke": "Dame Tu Cosita - El Chombo ft. Cutty Ranks",
 	"artist": "venula"},
@@ -56601,7 +56613,7 @@ const db = {
 	"joke": "FORTNITE SONG!!! - Misha",
 	"artist": "ChickenSuitGuy"},
 "JELBRHkQTJI": {
-	"title": "Main Theme (Old) - Bubble Bobble: Old & New",
+	"title": "Main Theme - Bubble Bobble: Old & New",
 	"wiki": "https://siivagunner.wiki/wiki/Main%20Theme%20(Old)%20-%20Bubble%20Bobble%3A%20Old%20%26%20New",
 	"joke": "The Hampsterdance Song - Hampton the Hamster",
 	"artist": "Turbo Invader"},
@@ -57007,6 +57019,7 @@ const db = {
 	"artist": "Retro Gaming"},
 "nZm6aqrCX7s": {
 	"title": "mus_menu3 - Undertale",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Mus%20menu3%20-%20Undertale",
 	"joke": "Heartaches (It's just a burning memory) - Al Hoffman & John Klenner (James Leyland Kirby)",
 	"artist": "Myeauxyoozi"},
@@ -57537,6 +57550,7 @@ const db = {
 	"artist": "Maggie"},
 "moFI8axduXE": {
 	"title": "mus_tv - Undertale",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Mus%20tv%20(In-Game%20Version)%20-%20Undertale",
 	"joke": "FORTNITE SONG!!! - Misha",
 	"artist": "eg_9371"},
@@ -57587,6 +57601,7 @@ const db = {
 	"artist": "Maggie"},
 "LF-v7ZpsJOo": {
 	"title": "mus_bad - Undertale",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Mus%20bad%20-%20Undertale",
 	"joke": "PPAP (Pen-Pineapple-Apple-Pen) - Daimaou Kosaka",
 	"artist": "ChickenSuitGuy, Sarvéproductions"},
@@ -68370,7 +68385,7 @@ const db = {
 		{"time": "2:32-2:34", "joke": "Poo-Putt Platter - MF DOOM"},
 		{"time": "2:32-2:34", "joke": "Baby Blue - Fishmans"},
 		{"time": "2:35-2:43", "joke": "Sir Duke - Stevie Wonder"},
-		{"time": "2:35-2:36", "joke": "Superstition - Trumpet"},
+		{"time": "2:35-2:36", "joke": "Superstition - Stevie Wonder"},
 		{"time": "2:35-2:42", "joke": "Ikareta Baby - Fishmans"},
 		{"time": "2:43-2:44", "joke": "You are the Sunshine of My Life - Stevie Wonder"},
 		{"time": "2:44-2:48", "joke": "Baka Mitai - Yakuza 5"},
@@ -68412,7 +68427,7 @@ const db = {
 		{"time": "4:28", "joke": "Meet the Flintstones - Hoyt Curtin"},
 		{"time": "4:30", "joke": "Megalovania - Undertale"},
 		{"time": "4:56", "joke": "reunion - ClariS"},
-		{"time": "5:06", "joke": "irony - Piano"},
+		{"time": "5:06", "joke": "irony - ClariS"},
 		{"time": "5:14", "joke": "P-R-O-G-R-A-M - Kirby Planet Robobot"},
 		{"time": "5:16", "joke": "Super Bell Hill - Super Mario 3D World"},
 		{"time": "5:17", "joke": "Replay - Iyaz"},
@@ -68432,9 +68447,9 @@ const db = {
 		{"time": "6:36", "joke": "Finale - Undertale"},
 		{"time": "6:41", "joke": "Gomen ne, Iiko ja Irarenai. - Kill la Kill"},
 		{"time": "6:51", "joke": "Zzz - Nichijou"},
-		{"time": "6:51", "joke": "Hyadain no Kakakata Kataomoi-C - Piano"},
+		{"time": "6:51", "joke": "Hyadain no Kakakata Kataomoi-C - Nichijou"},
 		{"time": "6:56", "joke": "They Call Me Sonic - Sonic the Hedgehog (Arcade album)"},
-		{"time": "6:56", "joke": "King of the Ring - Piano"},
+		{"time": "6:56", "joke": "King of the Ring - Sonic the Hedgehot (1998 Arcade album)"},
 		{"time": "6:59", "joke": "Green Hill Zone - Sonic the Hedgehog"},
 		{"time": "7:01", "joke": "voiceless - The SilvaGunner Christmas Comeback Crisis"},
 		{"time": "7:06", "joke": "GO MY WAY!! - THE iDOLM@STER"},
@@ -73647,7 +73662,6 @@ const db = {
 		{"time": "1:30", "joke": "Gangnam Style - PSY"},
 		{"time": "1:32", "joke": "We Are Number One - LazyTown, Máni Svavarsson"},
 		{"time": "1:33", "joke": "Megalovania - Undertale"},
-		{"time": "1:35", "joke": "trap drums - Undertale"},
 		{"time": "1:37", "joke": "Bringin' da Noise - NSYNC"},
 		{"time": "1:45", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "1:53", "joke": "All Star - Smash Mouth"},
@@ -75638,7 +75652,7 @@ const db = {
 		{"time": "1:02", "joke": "The Nutshack theme - NUMP"}],
 	"artist": "SoundSync5000"},
 "HJOChzJzBU0": {
-	"title": "Chobobo Theme - Final Fantasy III",
+	"title": "Chocobo Theme - Final Fantasy III",
 	"wiki": "https://siivagunner.wiki/wiki/Chobobo%20Theme%20-%20Final%20Fantasy%20III",
 	"joke": [
 		{"time": "0:18, 0:03, 0:09", "joke": "Stage Theme 01 - Spelunker"},
@@ -77105,6 +77119,7 @@ const db = {
 	"artist": "l4ureleye, TeeOS"},
 "q0YaC46lGFM": {
 	"title": "Oops!... I Did It Again - Britney's Dance Beat (GBA)",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Oops!...%20I%20Did%20It%20Again%20-%20Britney's%20Dance%20Beat%20(GBA)",
 	"joke": [
 		{"time": "0:22", "joke": "The Noble Haltmann - Kirby Planet Robobot"},
@@ -79243,7 +79258,6 @@ const db = {
 	"joke": [
 		{"time": "0:43, 0:00", "joke": "Meet the Flintstones - The Flintstones"},
 		{"time": "0:29", "joke": "The Nutshack theme - The Nutshack"},
-		{"time": "0:36", "joke": "Dog instrument plays along with the advertised track. - Mario Paint music mode"},
 		{"time": "0:40", "joke": "Snow halation - Love Live!, the µ's"},
 		{"time": "0:45", "joke": "His Theme - Undertale"}],
 	"artist": "emeraldschemer"},
@@ -79346,7 +79360,6 @@ const db = {
 		{"time": "1:57", "joke": "Snow halation - µ's"},
 		{"time": "2:21", "joke": "GO MY WAY!! - THE iDOLM@STER"},
 		{"time": "2:47", "joke": "We Are Number One - LazyTown, Máni Svavarsson"},
-		{"time": "3:11", "joke": "Sans talking - Undertale"},
 		{"time": "3:12", "joke": "Megalovania - Undertale"}],
 	"artist": "Dead Line"},
 "ub9JI4mcJmw": {
