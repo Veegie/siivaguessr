@@ -22,7 +22,7 @@ with open(input_file, "r", encoding="utf-8") as f:
 # Prepare normalized entries
 entries = [(normalize(line.split(":")[0]), line) for line in lines]
 
-# Group similar titles (>= 95% similarity)
+# Group similar titles (>= 60% similarity)
 visited = set()
 groups = []
 
@@ -37,7 +37,7 @@ for i, (norm1, line1) in enumerate(entries):
             continue
         norm2, line2 = entries[j]
         similarity = CSequenceMatcher(None, norm1, norm2).ratio()
-        if similarity >= 0.95:
+        if similarity >= 0.60:
             group.append(line2)
             visited.add(j)
     if len(group) > 1:
