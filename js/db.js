@@ -112,6 +112,7 @@ const db = {
 	"artist": "Nakaky"},
 "8oLhE0qOmeQ": {
 	"title": "One Tip March/One Chip March - We Love Katamari REROLL+ Royal Reverie",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/One%20Tip%20March/One%20Chip%20March%20-%20We%20Love%20Katamari%20REROLL%2B%20Royal%20Reverie",
 	"joke": "Rubber Human - Mili",
 	"artist": "tdude"},
@@ -136,7 +137,7 @@ const db = {
 	"joke": "Alice→Dere (アリス→デレ) - IOSYS",
 	"artist": "Unknown Ripper"},
 "evRCfq9PRVU": {
-	"title": "Slider (Rematch with Koopa the Quick) - Super Mario 64",
+	"title": "Slider - Super Mario 64",
 	"wiki": "https://siivagunner.wiki/wiki/Slider%20(Rematch%20with%20Koopa%20the%20Quick)%20-%20Super%20Mario%2064",
 	"joke": "Running Hell - Cave Story",
 	"artist": "Helpful Salad"},
@@ -181,7 +182,7 @@ const db = {
 	"joke": "Dating Start! - Undertale",
 	"artist": "Unknown Ripper"},
 "5U2dM8KQAU4": {
-	"title": "Dark Bowser! - Mario & Luigi Bowser's Inside Story",
+	"title": "Dark Bowser! - Mario & Luigi: Bowser's Inside Story",
 	"wiki": "https://siivagunner.wiki/wiki/Dark%20Bowser!%20-%20Mario%20%26%20Luigi%20Bowser's%20Inside%20Story",
 	"joke": "King of the Koopas - Paper Mario",
 	"artist": "Emm Bee Sea"},
@@ -221,12 +222,12 @@ const db = {
 	"joke": "Taste - Sabrina Carpenter",
 	"artist": "Unknown Ripper"},
 "C1kNdu-0Fug": {
-	"title": "Stolen Koopa Castle (Inside Bowser) - Mario & Luigi Bowser's Inside Story",
+	"title": "Stolen Koopa Castle (Inside Bowser) - Mario & Luigi: Bowser's Inside Story",
 	"wiki": "https://siivagunner.wiki/wiki/Stolen%20Koopa%20Castle%20(Inside%20Bowser)%20-%20Mario%20%26%20Luigi%20Bowser's%20Inside%20Story",
 	"joke": "Corridors of Time - Chrono Trigger",
 	"artist": "Emm Bee Sea"},
 "4_PdY-MeBt0": {
-	"title": "Stolen Koopa Castle - Mario & Luigi Bowser's Inside Story",
+	"title": "Stolen Koopa Castle - Mario & Luigi: Bowser's Inside Story",
 	"wiki": "https://siivagunner.wiki/wiki/Stolen%20Koopa%20Castle%20-%20Mario%20%26%20Luigi%20Bowser's%20Inside%20Story",
 	"joke": "Corridors of Time - Chrono Trigger",
 	"artist": "Emm Bee Sea"},
@@ -246,7 +247,7 @@ const db = {
 	"joke": "Rolex - Ayo & Teo",
 	"artist": "tdude"},
 "UEYln5nKRRg": {
-	"title": "SHOWTIME! - Mario & Luigi Bowser's Inside Story",
+	"title": "SHOWTIME! - Mario & Luigi: Bowser's Inside Story",
 	"wiki": "https://siivagunner.wiki/wiki/SHOWTIME!%20(Beta%20Mix)%20-%20Mario%20%26%20Luigi%20Bowser's%20Inside%20Story",
 	"joke": "Let the Battles Begin! - Final Fantasy VII",
 	"artist": "Unknown Ripper"},
@@ -1326,7 +1327,7 @@ const db = {
 	"joke": "Shiver Star - Kirby 64: The Crystal Shards",
 	"artist": "Emm Bee Sea"},
 "R0qx6i7cA1g": {
-	"title": "Danger! - Mario & Luigi Bowser's Inside Story",
+	"title": "Danger! - Mario & Luigi: Bowser's Inside Story",
 	"wiki": "https://siivagunner.wiki/wiki/Danger!%20-%20Mario%20%26%20Luigi%20Bowser's%20Inside%20Story",
 	"joke": "Wizards in Winter - Trans-Siberian Orchestra",
 	"artist": "Emm Bee Sea"},
@@ -2261,7 +2262,7 @@ const db = {
 	"joke": "Safe and Sound - Justice",
 	"artist": "Unknown Ripper"},
 "o7PTCfavB-4": {
-	"title": "Oki Doki!! - Mario & Luigi Bowser's Inside Story",
+	"title": "Oki Doki!! - Mario & Luigi: Bowser's Inside Story",
 	"wiki": "https://siivagunner.wiki/wiki/Oki%20Doki!!%20(Alternate%20Version)%20-%20Mario%20%26%20Luigi%20Bowser's%20Inside%20Story",
 	"joke": "Battle Theme - Mario & Luigi: Brothership",
 	"artist": "Nakaky"},
@@ -3613,7 +3614,7 @@ const db = {
 "3J3Ay3DUoBs": {
 	"title": "X-Naut Fortress ~ Sublevel Two - Paper Mario: The Thousand-Year Door (Switch)",
 	"wiki": "https://siivagunner.wiki/wiki/X-Naut%20Fortress%20~%20Sublevel%20Two%20-%20Paper%20Mario%3A%20The%20Thousand-Year%20Door%20(Switch)",
-	"joke": "LUV CAN SAVE U - Hideki Naganuma from beatmania IIDX 20 tricoro",
+	"joke": "LUV CAN SAVE U - Hideki Naganuma (beatmania IIDX 20 tricoro)",
 	"artist": "Jiko Music"},
 "qT2-j5UWAjE": {
 	"title": "Game Over - WarioWare: Touched!",
@@ -4116,7 +4117,7 @@ const db = {
 	"joke": "Item Get! (Miracle Cure) - Mario & Luigi: Bowser's Inside Story",
 	"artist": "Emm Bee Sea"},
 "0Ps_yk_T_-8": {
-	"title": "Item Get! (Miracle Cure) - Mario & Luigi Bowser's Inside Story",
+	"title": "Item Get! (Miracle Cure) - Mario & Luigi: Bowser's Inside Story",
 	"wiki": "https://siivagunner.wiki/wiki/Item%20Get!%20(Miracle%20Cure)%20-%20Mario%20%26%20Luigi%20Bowser's%20Inside%20Story",
 	"joke": "Kirby Dance - Kirby's Dream Land",
 	"artist": "Emm Bee Sea"},
@@ -4182,6 +4183,7 @@ const db = {
 	"artist": "Emm Bee Sea"},
 "IEnF_4EDJA8": {
 	"title": "Sunday Morning - Maroon GO",
+	"exclude":"title",
 	"wiki": "https://siivagunner.wiki/wiki/Sunday%20Morning%20-%20Maroon%20GO",
 	"joke": "Starry Prayer - Sumire Heanna",
 	"artist": "Ellie53"},
@@ -4391,7 +4393,7 @@ const db = {
 	"joke": "Ballin' (Country Version) - Rvshvd",
 	"artist": "BluLuigi7"},
 "hlXZeMCU1R4": {
-	"title": "Slider (Footrace with Koopa the Quick) - Super Mario 64",
+	"title": "Slider - Super Mario 64",
 	"wiki": "https://siivagunner.wiki/wiki/Slider%20(Footrace%20with%20Koopa%20the%20Quick)%20-%20Super%20Mario%2064",
 	"joke": "Shooting Athletes - Blue Archive",
 	"artist": "COCONABE"},
@@ -4476,7 +4478,7 @@ const db = {
 	"joke": "Wiegenlied / Lullaby - Johannes Brahms",
 	"artist": "Myeauxyoozi"},
 "dDVprQhP6eA": {
-	"title": "Short Break in Toad Town - Mario & Luigi Bowser's Inside Story",
+	"title": "Short Break in Toad Town - Mario & Luigi: Bowser's Inside Story",
 	"wiki": "https://siivagunner.wiki/wiki/Short%20Break%20in%20Toad%20Town%20(Alpha%20Mix)%20-%20Mario%20%26%20Luigi%20Bowser's%20Inside%20Story",
 	"joke": "Break at Pi'illo Castle - Mario & Luigi: Dream Team",
 	"artist": "lollo"},
@@ -4616,7 +4618,7 @@ const db = {
 	"joke": "Flight of the Bumblebee - Nikolai Rimsky-Korsakov",
 	"artist": "MJ"},
 "6CGrf2bS0rA": {
-	"title": "Let's Meet in the Mysterious Forest (Inside Bowser) - Mario & Luigi Bowser's Inside Story",
+	"title": "Let's Meet in the Mysterious Forest (Inside Bowser) - Mario & Luigi: Bowser's Inside Story",
 	"wiki": "https://siivagunner.wiki/wiki/Let's%20Meet%20in%20the%20Mysterious%20Forest%20(Inside%20Bowser)%20-%20Mario%20%26%20Luigi%20Bowser's%20Inside%20Story",
 	"joke": "Beware the Forest's Mushrooms - Super Mario RPG: Legend of the Seven Stars",
 	"artist": "Emm Bee Sea"},
@@ -5218,7 +5220,7 @@ const db = {
 "HDT3FFKBJ7c": {
 	"title": "Original Pac-Man World - Pac-Man Arrangement",
 	"wiki": "https://siivagunner.wiki/wiki/Original%20Pac-Man%20World%20-%20Pac-Man%20Arrangement",
-	"joke": "The Humpback Hop - Theo Mondle from SpongeBob SquarePants",
+	"joke": "The Humpback Hop - Theo Mondle (SpongeBob SquarePants)",
 	"artist": "mullar"},
 "bjxWKcwSrZU": {
 	"title": "Aqua Star Select - Kirby 64: The Crystal Shards",
@@ -6286,7 +6288,7 @@ const db = {
 	"joke": "Television Rules the Nation - Daft Punk",
 	"artist": "SuperDeucePlush"},
 "ZjD2_0uhLa0": {
-	"title": "Shock! - Mario & Luigi Bowser's Inside Story",
+	"title": "Shock! - Mario & Luigi: Bowser's Inside Story",
 	"wiki": "https://siivagunner.wiki/wiki/Shock!%20-%20Mario%20%26%20Luigi%20Bowser's%20Inside%20Story",
 	"joke": "[絶望] - Love Live! School Idol Project",
 	"artist": "Emm Bee Sea"},
@@ -6926,7 +6928,7 @@ const db = {
 	"joke": "Souvenir - Billy Joel",
 	"artist": "Emm Bee Sea"},
 "OO0qbTV4Xb4": {
-	"title": "The Wind is Blowing at Cavi Cape - Mario & Luigi Bowser's Inside Story",
+	"title": "The Wind is Blowing at Cavi Cape - Mario & Luigi: Bowser's Inside Story",
 	"wiki": "https://siivagunner.wiki/wiki/The%20Wind%20is%20Blowing%20at%20Cavi%20Cape%20-%20Mario%20%26%20Luigi%20Bowser's%20Inside%20Story",
 	"joke": "Floro Sapien Caverns - Super Paper Mario",
 	"artist": "Emm Bee Sea"},
@@ -7161,7 +7163,7 @@ const db = {
 	"joke": "Style - Taylor Swift",
 	"artist": "Emm Bee Sea"},
 "lnFWpl5MR3A": {
-	"title": "Have A Sweet Talk - Mario & Luigi Bowser's Inside Story",
+	"title": "Have A Sweet Talk - Mario & Luigi: Bowser's Inside Story",
 	"wiki": "https://siivagunner.wiki/wiki/Have%20A%20Sweet%20Talk%20(JP%20Version)%20-%20Mario%20%26%20Luigi%20Bowser's%20Inside%20Story",
 	"joke": "CHANGELESS - CYaRon!",
 	"artist": "Memmy"},
@@ -7186,7 +7188,7 @@ const db = {
 	"joke": "Complicated - Avril Lavigne",
 	"artist": "MSL925 the fox"},
 "y2Oovvy67w8": {
-	"title": "Let's Meet in the Mysterious Forest - Mario & Luigi Bowser's Inside Story",
+	"title": "Let's Meet in the Mysterious Forest - Mario & Luigi: Bowser's Inside Story",
 	"wiki": "https://siivagunner.wiki/wiki/Let's%20Meet%20in%20the%20Mysterious%20Forest%20-%20Mario%20%26%20Luigi%20Bowser's%20Inside%20Story",
 	"joke": "Kimi no Hitomi o Meguru Bouken - Aqours",
 	"artist": "Emm Bee Sea"},
@@ -7596,7 +7598,7 @@ const db = {
 	"joke": "All My Life - Electric Light Orchestra",
 	"artist": "Faces in the Clouds"},
 "2a-lAPqMnpA": {
-	"title": "Short Break in Toad Town - Mario & Luigi Bowser's Inside Story",
+	"title": "Short Break in Toad Town - Mario & Luigi: Bowser's Inside Story",
 	"wiki": "https://siivagunner.wiki/wiki/Short%20Break%20in%20Toad%20Town%20-%20Mario%20%26%20Luigi%20Bowser's%20Inside%20Story",
 	"joke": "Mattete Ai no Uta - Aqours",
 	"artist": "Emm Bee Sea"},
@@ -8001,7 +8003,7 @@ const db = {
 	"joke": "All Star - Smash Mouth",
 	"artist": "Chango"},
 "yK3P3VulBAw": {
-	"title": "Beachside Dream (Inside Bowser) - Mario & Luigi Bowser's Inside Story",
+	"title": "Beachside Dream (Inside Bowser) - Mario & Luigi: Bowser's Inside Story",
 	"wiki": "https://siivagunner.wiki/wiki/Beachside%20Dream%20(Inside%20Bowser)%20-%20Mario%20%26%20Luigi%20Bowser's%20Inside%20Story",
 	"joke": "Shadow gate to love - Guilty Kiss",
 	"artist": "Emm Bee Sea"},
@@ -8106,7 +8108,7 @@ const db = {
 	"joke": "Because It's Hard to Develop That Capacity on Your Own - Bruno Pernadas",
 	"artist": "yhenestik"},
 "Zzd3RR9csSc": {
-	"title": "Fawful is There - Mario & Luigi Bowser's Inside Story",
+	"title": "Fawful is There - Mario & Luigi: Bowser's Inside Story",
 	"wiki": "https://siivagunner.wiki/wiki/Fawful%20is%20There%20(Extended%20Version)%20-%20Mario%20%26%20Luigi%20Bowser's%20Inside%20Story",
 	"joke": "I'm The Map! - Dora the Explorer",
 	"artist": "Cosmic199X"},
@@ -8918,7 +8920,7 @@ const db = {
 "AKoxZV3vrV4": {
 	"title": "Doppler Stage - Mega Man X3",
 	"wiki": "https://siivagunner.wiki/wiki/Doppler%20Stage%20-%20Mega%20Man%20X3",
-	"joke": "Endless Possibility - Jaret Reddick from Sonic Unleashed",
+	"joke": "Endless Possibility - Jaret Reddick (Sonic Unleashed)",
 	"artist": "Emm Bee Sea"},
 "AuLLx_CEV14": {
 	"title": "Hey Vincent. - Muse Dash",
@@ -9091,14 +9093,14 @@ const db = {
 	"joke": "Grass Skirt Chase - SpongeBob SquarePants",
 	"artist": "Unknown Ripper"},
 "kmJyG5HJCe0": {
-	"title": "Oki Doki!! - Mario & Luigi Bowser's Inside Story",
+	"title": "Oki Doki!! - Mario & Luigi: Bowser's Inside Story",
 	"wiki": "https://siivagunner.wiki/wiki/Oki%20Doki!!%20-%20Mario%20%26%20Luigi%20Bowser's%20Inside%20Story",
 	"joke": "Bikini Bottom: Restaurant District - SpongeBob SquarePants: The Yellow Avenger (DS)",
 	"artist": "ObsoleteQuality"},
 "Pp7yvkpkZb4": {
-	"title": "Slider (Variant) - Super Mario 64 DS",
+	"title": "Slider - Super Mario 64 DS",
 	"wiki": "https://siivagunner.wiki/wiki/Slider%20(Variant)%20-%20Super%20Mario%2064%20DS",
-	"joke": "Hawaiian Adventures aka SpongeBob Theme - SpongeBob SquarePants",
+	"joke": "Hawaiian Adventures - SpongeBob SquarePants",
 	"artist": "Sponge Lord"},
 "K-radOYX5aA": {
 	"title": "Bee Chase - Animal Crossing: City Folk",
@@ -9188,7 +9190,7 @@ const db = {
 "PJ1eKyQyulA": {
 	"title": "Dungeon of Shadows - The Legend of Zelda: A Link to the Past",
 	"wiki": "https://siivagunner.wiki/wiki/Dungeon%20of%20Shadows%20-%20The%20Legend%20of%20Zelda%3A%20A%20Link%20to%20the%20Past",
-	"joke": "NERV - Shirō Sagisu from Neon Genesis Evangelion",
+	"joke": "NERV - Shirō Sagisu (Neon Genesis Evangelion)",
 	"artist": "lonk"},
 "eFuG5B5BvsY": {
 	"title": "Chai Kingdom - Super Mario Land",
@@ -9483,7 +9485,7 @@ const db = {
 "3OHcwFysIoU": {
 	"title": "Maple Treeway - Mario Kart Wii",
 	"wiki": "https://siivagunner.wiki/wiki/Maple%20Treeway%20(JP%20Version)%20-%20Mario%20Kart%20Wii",
-	"joke": "Sugar Rush - AKB48 from Wreck-It-Ralph",
+	"joke": "Sugar Rush - AKB48 (Wreck-It-Ralph)",
 	"artist": "Ellie53"},
 "fUwEeYINZz0": {
 	"title": "Equal Shuffle Menu - Math Play",
@@ -9658,7 +9660,7 @@ const db = {
 "lO1FK_tbrYE": {
 	"title": "FINALLY, A Boss Fight - Galaxy of Pen & Paper",
 	"wiki": "https://siivagunner.wiki/wiki/FINALLY%2C%20A%20Boss%20Fight%20-%20Galaxy%20of%20Pen%20%26%20Paper",
-	"joke": "STEP UP - Lotus Juice from Soul Eater",
+	"joke": "STEP UP - Lotus Juice (Soul Eater)",
 	"artist": "Tina the Cyclops girl"},
 "ng3nKfj5KPI": {
 	"title": "The Pousada - Mario & Sonic at the Rio 2016 Olympic Games",
@@ -9933,7 +9935,7 @@ const db = {
 "VroqScfLl-s": {
 	"title": "Candy Kingdom Action - Adventure Time: Hey Ice King! Why'd You Steal Our Garbage?!!",
 	"wiki": "https://siivagunner.wiki/wiki/Candy%20Kingdom%20Action%20-%20Adventure%20Time%3A%20Hey%20Ice%20King!%20Why'd%20You%20Steal%20Our%20Garbage%3F!!",
-	"joke": "Three Is a Magic Number - Bob Dorough from Schoolhouse Rock!. This rip was uploaded at 3 PM PST",
+	"joke": "Three Is a Magic Number - Bob Dorough (Schoolhouse Rock!)",
 	"artist": "BigBadBlob"},
 "Yxm6sHRXIcw": {
 	"title": "Equal Shuffle - Math Play",
@@ -10291,7 +10293,7 @@ const db = {
 	"joke": "Wishing Well - Juice WRLD",
 	"artist": "Credited to \"THE iRISM@STER\""},
 "PMXFt_kN8_w": {
-	"title": "Final Castle (Inside Bowser) - Mario & Luigi Bowser's Inside Story",
+	"title": "Final Castle (Inside Bowser) - Mario & Luigi: Bowser's Inside Story",
 	"wiki": "https://siivagunner.wiki/wiki/Final%20Castle%20(Inside%20Bowser)%20-%20Mario%20%26%20Luigi%20Bowser's%20Inside%20Story",
 	"joke": "Love Theme from Twin Peaks - Twin Peaks",
 	"artist": "Unknown Ripper"},
@@ -10771,7 +10773,7 @@ const db = {
 	"joke": "Red Kingdom - Tech N9ne",
 	"artist": "minindo"},
 "C76wkXOxJOo": {
-	"title": "Have a Nice Talk - Mario & Luigi Bowser's Inside Story",
+	"title": "Have a Nice Talk - Mario & Luigi: Bowser's Inside Story",
 	"wiki": "https://siivagunner.wiki/wiki/Have%20a%20Nice%20Talk%20(OST%20Version)%20-%20Mario%20%26%20Luigi%20Bowser's%20Inside%20Story",
 	"joke": "5 PM - Animal Crossing: City Folk",
 	"artist": "Edgi"},
@@ -11321,9 +11323,9 @@ const db = {
 	"joke": "I Smoke Weed - Chrome ft. Boogie Mane & Crunchy Black",
 	"artist": "eg_9371"},
 "4smwQSqtxc0": {
-	"title": "SHOWTIME! - Mario & Luigi Bowser's Inside Story",
+	"title": "SHOWTIME! - Mario & Luigi: Bowser's Inside Story",
 	"wiki": "https://siivagunner.wiki/wiki/SHOWTIME!%20-%20Mario%20%26%20Luigi%20Bowser's%20Inside%20Story",
-	"joke": "Decisive Battle - Shirō Sagisu from Neon Genesis Evangelion",
+	"joke": "Decisive Battle - Shirō Sagisu (Neon Genesis Evangelion)",
 	"artist": "Jiko Music"},
 "Ws2M5MwOzuE": {
 	"title": "Underwater - Super Mario Bros. 2 (JP)",
@@ -11351,7 +11353,7 @@ const db = {
 	"joke": "Christmas is Creepy - Fred Figglehorn",
 	"artist": "DonnieTheGuy"},
 "1eX4BLnfp7Q": {
-	"title": "Peach's Castle - Mario & Luigi Bowser's Inside Story",
+	"title": "Peach's Castle - Mario & Luigi: Bowser's Inside Story",
 	"wiki": "https://siivagunner.wiki/wiki/Peach's%20Castle%20-%20Mario%20%26%20Luigi%20Bowser's%20Inside%20Story",
 	"joke": "Comfort ye, comfort ye my people saith your God - Handel's Messiah",
 	"artist": "ItsGameBoy"},
@@ -11906,7 +11908,7 @@ const db = {
 	"joke": "Night of Nights - COOL&CREATE",
 	"artist": "Madinstance"},
 "eQAWzjZjVxY": {
-	"title": "Grasslands, All the Way - Mario & Luigi Bowser's Inside Story",
+	"title": "Grasslands, All the Way - Mario & Luigi: Bowser's Inside Story",
 	"wiki": "https://siivagunner.wiki/wiki/Grasslands%2C%20All%20the%20Way%20(Original%20Version)%20-%20Mario%20%26%20Luigi%20Bowser's%20Inside%20Story",
 	"joke": "Under the Sea - The Little Mermaid",
 	"artist": "Sarvéproductions"},
@@ -12596,7 +12598,7 @@ const db = {
 	"joke": "Meet the Flintstones - The Flintstones",
 	"artist": "Brawlcats"},
 "N8dhU4kEIqY": {
-	"title": "Tough Guy Alert! - Mario & Luigi Bowser's Inside Story",
+	"title": "Tough Guy Alert! - Mario & Luigi: Bowser's Inside Story",
 	"wiki": "https://siivagunner.wiki/wiki/Tough%20Guy%20Alert!%20(Alternate%20Version)%20-%20Mario%20%26%20Luigi%20Bowser's%20Inside%20Story",
 	"joke": "Never Let Up! - Mario & Luigi: Dream Team",
 	"artist": "Spottygamester"},
@@ -13287,7 +13289,7 @@ const db = {
 	"joke": "Doki Doki Literature Club! - Doki Doki Literature Club!",
 	"artist": "Edgi"},
 "Pi7wcFEbnzY": {
-	"title": "Item Get! (Attack Piece) - Mario & Luigi Bowser's Inside Story",
+	"title": "Item Get! (Attack Piece) - Mario & Luigi: Bowser's Inside Story",
 	"wiki": "https://siivagunner.wiki/wiki/Item%20Get!%20(Attack%20Piece)%20-%20Mario%20%26%20Luigi%20Bowser's%20Inside%20Story",
 	"joke": "Startup - Windows XP",
 	"artist": "64BTX"},
@@ -13329,7 +13331,7 @@ const db = {
 "S3a1JKmOerw": {
 	"title": "Poem Panic! (Ghost) - Doki Doki Literature Club!",
 	"wiki": "https://siivagunner.wiki/wiki/Poem%20Panic!%20(Ghost)%20-%20Doki%20Doki%20Literature%20Club!",
-	"joke": "Doki Doki Literature Club! - the same game",
+	"joke": "Welcome to the Internet - Bo Burnham",
 	"artist": "eg_9371"},
 "6P15w44HuMY": {
 	"title": "Ambience - IMSCARED",
@@ -13926,11 +13928,6 @@ const db = {
 	"wiki": "https://siivagunner.wiki/wiki/Kirby%20Dance%20(Alpha%20Mix)%20-%20Kirby's%20Adventure",
 	"joke": "Hot Cross Buns - Nursery Rhyme",
 	"artist": "xIncisions"},
-"HKseoqBqo_A": {
-	"title": "Hightail Falls Galaxy - Super Mario Galaxy 2",
-	"wiki": "https://siivagunner.wiki/wiki/Hightail%20Falls%20Galaxy%20(Alternate%20Mix)%20-%20Super%20Mario%20Galaxy%202",
-	"joke": "Piano (Athletic) - SMW Remade from Memory",
-	"artist": "SuperStarGuy"},
 "fv8N1N8MYcg": {
 	"title": "How to Play - Mario Party DS",
 	"wiki": "https://siivagunner.wiki/wiki/How%20to%20Play%20(Beta%20Version)%20-%20Mario%20Party%20DS",
@@ -15637,7 +15634,7 @@ const db = {
 	"joke": "Vitamin SUMMER! - Liella!",
 	"artist": "Ellie53"},
 "lrTnHCUdvLM": {
-	"title": "Waltz in the Lake - Mario & Luigi Bowser's Inside Story",
+	"title": "Waltz in the Lake - Mario & Luigi: Bowser's Inside Story",
 	"wiki": "https://siivagunner.wiki/wiki/Waltz%20in%20the%20Lake%20(OST%20Version)%20-%20Mario%20%26%20Luigi%20Bowser's%20Inside%20Story",
 	"joke": "Look Who's Inside Again - Bo Burnham",
 	"artist": "MJ"},
@@ -15902,7 +15899,7 @@ const db = {
 	"joke": "Payphone - Maroon 5 ft. Wiz Khalifa",
 	"artist": "BluLuigi7"},
 "DwEVV0dIyhE": {
-	"title": "The Grand Finale - Mario & Luigi Bowser's Inside Story",
+	"title": "The Grand Finale - Mario & Luigi: Bowser's Inside Story",
 	"wiki": "https://siivagunner.wiki/wiki/The%20Grand%20Finale%20(Alternative%20Version)%20-%20Mario%20%26%20Luigi%20Bowser's%20Inside%20Story",
 	"joke": "Partners - The game is afoot! - The Great Ace Attorney 2: Resolve",
 	"artist": "BigBadBlob"},
@@ -17507,7 +17504,7 @@ const db = {
 	"joke": "Kiss from a Rose - Seal",
 	"artist": "eg_9371"},
 "fqpOgA0QrRg": {
-	"title": "Minigame - Mario & Luigi Bowser's Inside Story",
+	"title": "Minigame - Mario & Luigi: Bowser's Inside Story",
 	"wiki": "https://siivagunner.wiki/wiki/Minigame%20(OST%20Version)%20-%20Mario%20%26%20Luigi%20Bowser's%20Inside%20Story",
 	"joke": "The Death That I Deservioli - Pizza Tower",
 	"artist": "BluLuigi7"},
@@ -19024,7 +19021,7 @@ const db = {
 "TjVSG04jvy4": {
 	"title": "Town Map \"March of the Trumpets\" - Touch Detective 2½",
 	"wiki": "https://siivagunner.wiki/wiki/Town%20Map%20%22March%20of%20the%20Trumpets%22%20-%20Touch%20Detective%202%C2%BD",
-	"joke": "I Love Beijing Tiananmen - Jin Yueling and Jin Guolin from Hong Kong 97",
+	"joke": "I Love Beijing Tiananmen (Hong Kong 97 Theme) - Jin Yueling and Jin Guolin",
 	"artist": "circunflexo"},
 "TXu1bh1cjyw": {
 	"title": "Magikarp's Splash - Pokémon Stadium",
@@ -19599,7 +19596,7 @@ const db = {
 "8Os49gYYG48": {
 	"title": "Ending Theme - Super Mario Bros. 2",
 	"wiki": "https://siivagunner.wiki/wiki/Ending%20Theme%20(Beta%20Mix)%20-%20Super%20Mario%20Bros.%202",
-	"joke": "Starjump - the same game",
+	"joke": "Reach for the Summit - Celeste",
 	"artist": "ThePowerPlayer"},
 "3eCQ1oWlpMQ": {
 	"title": "Miss! (OST Edition) - Kirby: Nightmare in Dream Land",
@@ -19612,7 +19609,7 @@ const db = {
 	"joke": "Hotel Breakfast - Bladee",
 	"artist": "OnBP"},
 "MeinNY9lRJI": {
-	"title": "Beachside Dream - Mario & Luigi Bowser's Inside Story",
+	"title": "Beachside Dream - Mario & Luigi: Bowser's Inside Story",
 	"wiki": "https://siivagunner.wiki/wiki/Beachside%20Dream%20(Extended%20Mix)%20-%20Mario%20%26%20Luigi%20Bowser's%20Inside%20Story",
 	"joke": "Scattered and Lost - Celeste",
 	"artist": "Brendan"},
@@ -20546,11 +20543,6 @@ const db = {
 	"wiki": "https://siivagunner.wiki/wiki/Moss%20Fanfare%20-%20Deltarune",
 	"joke": "Meet the Flintstones - The Flintstones",
 	"artist": "FrontierJustice6000"},
-"hzlp5W0RFcA": {
-	"title": "Seek - Among Us",
-	"wiki": "https://siivagunner.wiki/wiki/Seek%20-%20Among%20Us",
-	"joke": "Infini██er - Friday Night Funkin': vs. /v/",
-	"artist": "Credited as \"Climposter\""},
 "ezmTJQw5vJ0": {
 	"title": "Eterna Forest - Pokémon Diamond & Pearl",
 	"wiki": "https://siivagunner.wiki/wiki/Eterna%20Forest%20(Alpha%20Mix)%20-%20Pok%C3%A9mon%20Diamond%20%26%20Pearl",
@@ -20632,7 +20624,7 @@ const db = {
 	"joke": "Pure Furies ~ Whereabouts of the Heart - Touhou 15: Legacy of Lunatic Kingdom",
 	"artist": "Helpful Salad"},
 "Bqigss1VeRU": {
-	"title": "Grasslands, All the Way - Mario & Luigi Bowser's Inside Story",
+	"title": "Grasslands, All the Way - Mario & Luigi: Bowser's Inside Story",
 	"wiki": "https://siivagunner.wiki/wiki/Grasslands%2C%20All%20the%20Way%20(Alpha%20Mix)%20-%20Mario%20%26%20Luigi%20Bowser's%20Inside%20Story",
 	"joke": "On to Grasstown - Cave Story",
 	"artist": "Helpful Salad"},
@@ -20692,7 +20684,7 @@ const db = {
 	"joke": "Ven a Mi Casa Esta Navidad - Luis Aguile",
 	"artist": "BrahaMan"},
 "geNm2__EHQ8": {
-	"title": "The Giant - Mario & Luigi Bowser's Inside Story",
+	"title": "The Giant - Mario & Luigi: Bowser's Inside Story",
 	"wiki": "https://siivagunner.wiki/wiki/The%20Giant%20(JP%20Mix)%20-%20Mario%20%26%20Luigi%20Bowser's%20Inside%20Story",
 	"joke": "Foggy Boss Battle Theme - Princess Connect Re:Dive",
 	"artist": "64BTX"},
@@ -20979,7 +20971,7 @@ const db = {
 "1YNfwd4KxM0": {
 	"title": "Jenova Absolute - Final Fantasy VII",
 	"wiki": "https://siivagunner.wiki/wiki/Jenova%20Absolute%20-%20Final%20Fantasy%20VII",
-	"joke": "Decisive Battle - Shirō Sagisu from Neon Genesis Evangelion",
+	"joke": "Decisive Battle - Shirō Sagisu (Neon Genesis Evangelion)",
 	"artist": "adumb"},
 "q6V7xeUw0rU": {
 	"title": "J-E-N-O-V-A - Final Fantasy VII",
@@ -21612,7 +21604,7 @@ const db = {
 	"joke": "Gangnam Style - PSY",
 	"artist": "Retro Gaming"},
 "td_V-VlKu9w": {
-	"title": "Waltz in the Lake - Mario & Luigi Bowser's Inside Story",
+	"title": "Waltz in the Lake - Mario & Luigi: Bowser's Inside Story",
 	"wiki": "https://siivagunner.wiki/wiki/Waltz%20in%20the%20Lake%20-%20Mario%20%26%20Luigi%20Bowser's%20Inside%20Story",
 	"joke": "Waltz of the Flowers - Pyotr Ilyich Tchaikovsky",
 	"artist": "Brendan"},
@@ -21679,7 +21671,7 @@ const db = {
 "iD2kB1uFISc": {
 	"title": "Nuclear (Wild)",
 	"wiki": "https://siivagunner.wiki/wiki/Nuclear%20(Wild)",
-	"joke": "Nuclear - Mike Oldfield from Metal Gear Solid V: The Phantom Pain",
+	"joke": "Nuclear - Mike Oldfield (Metal Gear Solid V: The Phantom Pain)",
 	"artist": "POST ELVIS"},
 "meZ-RqAs8Wc": {
 	"title": "Slider - Super Mario 64",
@@ -22364,7 +22356,7 @@ const db = {
 "gCw7ZQpg9dE": {
 	"title": "Rain, Followed by a Harem - MOTHER 3",
 	"wiki": "https://siivagunner.wiki/wiki/Rain%2C%20Followed%20by%20a%20Harem%20(Beta%20Mix)%20-%20MOTHER%203",
-	"joke": "Round 1 Write - Quiplash and Quiplash XL from The Jackbox Party Pack 2",
+	"joke": "Round 1 Write - Quiplash - The Jackbox Party Pack",
 	"artist": "Myeauxyoozi"},
 "8NC_wdiVvqs": {
 	"title": "Ending 3 - Decap Attack",
@@ -22527,9 +22519,9 @@ const db = {
 	"joke": "Game Over (Don't Stop) - Friday Night Funkin'",
 	"artist": "eg_9371"},
 "5A7GVqcHRJ0": {
-	"title": "Slider (Haunted House) - Super Mario 64 DS",
+	"title": "Slider - Super Mario 64 DS",
 	"wiki": "https://siivagunner.wiki/wiki/Slider%20(Haunted%20House)%20-%20Super%20Mario%2064%20DS",
-	"joke": "Haunted House - the same game",
+	"joke": "Bootown - Ape Escape 3",
 	"artist": "Tina the Cyclops girl"},
 "2YUUlP84ohQ": {
 	"title": "Try Kind of Hard! (Variation) - MOTHER 3",
@@ -22872,7 +22864,7 @@ const db = {
 	"joke": "Vega's Theme - Street Fighter II: The World Warrior",
 	"artist": "Brendan"},
 "Ff5kd6zctLo": {
-	"title": "Grasslands, All the Way - Mario & Luigi Bowser's Inside Story",
+	"title": "Grasslands, All the Way - Mario & Luigi: Bowser's Inside Story",
 	"wiki": "https://siivagunner.wiki/wiki/Grasslands%2C%20All%20the%20Way%20(Alternate%20Version)%20-%20Mario%20%26%20Luigi%20Bowser's%20Inside%20Story",
 	"joke": "Colony 9 - Xenoblade Chronicles",
 	"artist": "Brendan"},
@@ -23162,9 +23154,9 @@ const db = {
 	"joke": "Meet the Flintstones - The Flintstones",
 	"artist": "RANDY02"},
 "18ZovNMjuFs": {
-	"title": "Fawful is There - Mario & Luigi Bowser's Inside Story",
+	"title": "Fawful is There - Mario & Luigi: Bowser's Inside Story",
 	"wiki": "https://siivagunner.wiki/wiki/Fawful%20is%20There%20(Alpha%20Mix)%20-%20Mario%20%26%20Luigi%20Bowser's%20Inside%20Story",
-	"joke": "Special - Stephanie D'Abruzzo from the musical Avenue Q",
+	"joke": "Special - Stephanie D'Abruzzo (Avenue Q)",
 	"artist": "Unknown Ripper"},
 "xB2PHv9lK30": {
 	"title": "The Bandit Camp - King's Quest V (NES)",
@@ -24312,7 +24304,7 @@ const db = {
 	"joke": "Calcium - Ecco2K",
 	"artist": "CactusTeam"},
 "IkemKfIKels": {
-	"title": "The Wind is Blowing at Cavi Cape (Inside Bowser) - Mario & Luigi Bowser's Inside Story",
+	"title": "The Wind is Blowing at Cavi Cape (Inside Bowser) - Mario & Luigi: Bowser's Inside Story",
 	"wiki": "https://siivagunner.wiki/wiki/The%20Wind%20is%20Blowing%20at%20Cavi%20Cape%20(Inside%20Bowser)%20-%20Mario%20%26%20Luigi%20Bowser's%20Inside%20Story",
 	"joke": "Listen to Your Heart - Roxette",
 	"artist": "ThePowerPlayer"},
@@ -24619,7 +24611,7 @@ const db = {
 "SGzpaL0VG5Y": {
 	"title": "Fairy's Fountain - The Legend of Zelda: Majora's Mask 3D",
 	"wiki": "https://siivagunner.wiki/wiki/Fairy's%20Fountain%20-%20The%20Legend%20of%20Zelda%3A%20Majora's%20Mask%203D",
-	"joke": "S.L.A.B. Freestyle - Chip tha Ripper",
+	"joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper",
 	"artist": "minindo"},
 "uZjvFc0Vtnk": {
 	"title": "Finding Shapes in the Clouds - OMORI",
@@ -25939,7 +25931,7 @@ const db = {
 "0IoZP-IIft4": {
 	"title": "Babs Seed - My Little Pony: Friendship Is Magic",
 	"wiki": "https://siivagunner.wiki/wiki/Babs%20Seed%20-%20My%20Little%20Pony%3A%20Friendship%20Is%20Magic",
-	"joke": "When Can I See You Again? - Owl City from Wreck-it Ralph",
+	"joke": "When Can I See You Again? - Owl City (Wreck-it Ralph)",
 	"artist": "vvsvlogs"},
 "krKVn3vK2J0": {
 	"title": "Monkey's Delivery Service - MOTHER 3",
@@ -26084,7 +26076,7 @@ const db = {
 "Rt3ftvHBOzE": {
 	"title": "DJ Music Man - Five Nights at Freddy's: Security Breach",
 	"wiki": "https://siivagunner.wiki/wiki/DJ%20Music%20Man%20(In-Game%20Version)%20-%20Five%20Nights%20at%20Freddy's%3A%20Security%20Breach",
-	"joke": "Roller Mobster - Carpenter Brut from Hotline Miami 2: Wrong Number",
+	"joke": "Roller Mobster - Carpenter Brut (Hotline Miami 2: Wrong Number)",
 	"artist": "eg_9371"},
 "zPl5LAo6i4E": {
 	"title": "Nagisa - Clannad",
@@ -26494,7 +26486,7 @@ const db = {
 "bDE2zcT5veo": {
 	"title": "Legacy Island - Plok",
 	"wiki": "https://siivagunner.wiki/wiki/Legacy%20Island%20-%20Plok",
-	"joke": "Scary Swings - MasterSwordRemix from Sr Pelo's Spooky Month",
+	"joke": "Scary Swings - MasterSwordRemix (Sr Pelo's Spooky Month)",
 	"artist": "PsychLantern"},
 "fdAZ-O1kW24": {
 	"title": "Prison Blues - The Henry Stickmin Collection",
@@ -26981,11 +26973,6 @@ const db = {
 	"wiki": "https://siivagunner.wiki/wiki/Hybrid%20song%202%3A20%20(Funky%20stars)%20(Alternative%20Mix)%20-%20Mitos.is%3A%20The%20Game",
 	"joke": "Chaoz Fantasy - ParagonX9",
 	"artist": "Golden_winged"},
-"dt2iU1AD9bc": {
-	"title": "Radio Jingle (Morning 6) - Animal Crossing: New Horizons",
-	"wiki": "https://siivagunner.wiki/wiki/Radio%20Jingle%20(Morning%206)%20-%20Animal%20Crossing%3A%20New%20Horizons",
-	"joke": "Life Is A Highway - Rascal Flatts from Cars",
-	"artist": "vvsvlogs"},
 "cX6fOdVnCcg": {
 	"title": "You Are the End - Furi",
 	"wiki": "https://siivagunner.wiki/wiki/You%20Are%20the%20End%20-%20Furi",
@@ -27734,7 +27721,7 @@ const db = {
 "VhFO7DUKs0k": {
 	"title": "Haunted Mansion - New Super Mario Bros",
 	"wiki": "https://siivagunner.wiki/wiki/Haunted%20Mansion%20-%20New%20Super%20Mario%20Bros.",
-	"joke": "Underground Theme - the same game",
+	"joke": "On Point - KSI",
 	"artist": "RHMan"},
 "9QteVBniV44": {
 	"title": "Forest (Super Mario Bros.) - Super Mario Maker 2",
@@ -28292,7 +28279,7 @@ const db = {
 	"joke": "Inkwell Isle One - Cuphead",
 	"artist": "beardfear"},
 "pGKZ237_LWI": {
-	"title": "File Select - Mario & Luigi Bowser's Inside Story",
+	"title": "File Select - Mario & Luigi: Bowser's Inside Story",
 	"wiki": "https://siivagunner.wiki/wiki/File%20Select%20(OST%20Version)%20-%20Mario%20%26%20Luigi%20Bowser's%20Inside%20Story",
 	"joke": "No Surprises - Radiohead",
 	"artist": "Brendan"},
@@ -28594,7 +28581,7 @@ const db = {
 "U4ostYlIM9Q": {
 	"title": "The Jolly Flying Man - EarthBound",
 	"wiki": "https://siivagunner.wiki/wiki/The%20Jolly%20Flying%20Man%20(Alpha%20Mix)%20-%20EarthBound",
-	"joke": "Flying Man - Louis Phillipe from the 1989 Mother soundtrack album",
+	"joke": "Flying Man - Louis Phillipe (1989 Mother soundtrack album)",
 	"artist": "R.L.99"},
 "CriB5iq2N0Q": {
 	"title": "Mambo de Battle - MOTHER 3",
@@ -28977,7 +28964,7 @@ const db = {
 	"joke": "Komm, süsser Tod - The End of Evangelion",
 	"artist": "Sarvéproductions"},
 "abaaGf5gMU8": {
-	"title": "Grasslands, All the Way - Mario & Luigi Bowser's Inside Story",
+	"title": "Grasslands, All the Way - Mario & Luigi: Bowser's Inside Story",
 	"wiki": "https://siivagunner.wiki/wiki/Grasslands%2C%20All%20the%20Way%20(Beta%20Mix)%20-%20Mario%20%26%20Luigi%20Bowser's%20Inside%20Story",
 	"joke": "Staff Roll - Super Mario 64",
 	"artist": "Emm Bee Sea"},
@@ -29719,7 +29706,7 @@ const db = {
 "2Qlp5zXpl1E": {
 	"title": "Big Time Rush (Theme Song) - Big Time Rush: Backstage Pass",
 	"wiki": "https://siivagunner.wiki/wiki/Big%20Time%20Rush%20(Theme%20Song)%20-%20Big%20Time%20Rush%3A%20Backstage%20Pass",
-	"joke": "My Past is Not Today - the My Little Pony: Equestria Girls – Rainbow Rocks short of the same name",
+	"joke": "My Past is Not Today - My Little Pony: Equestria Girls – Rainbow Rocks",
 	"artist": "overcast07"},
 "cZYaQtw1EAA": {
 	"title": "Resist and Disorder - Cyberpunk 2077",
@@ -30692,7 +30679,7 @@ const db = {
 	"joke": "I Want It That Way - Backstreet Boys",
 	"artist": "Brawlcats"},
 "lAadREwx9Fg": {
-	"title": "Tough Guy Alert! - Mario & Luigi Bowser's Inside Story",
+	"title": "Tough Guy Alert! - Mario & Luigi: Bowser's Inside Story",
 	"wiki": "https://siivagunner.wiki/wiki/Tough%20Guy%20Alert!%20(In-Game%20Version)%20-%20Mario%20%26%20Luigi%20Bowser's%20Inside%20Story",
 	"joke": "Attack of the Killer Queen - Deltarune",
 	"artist": "Mitchell"},
@@ -30797,7 +30784,7 @@ const db = {
 	"joke": "Space Cruise (Title) - FTL: Faster Than Light",
 	"artist": "eg_9371"},
 "0kZhUssirrU": {
-	"title": "The End - Mario & Luigi Bowser's Inside Story",
+	"title": "The End - Mario & Luigi: Bowser's Inside Story",
 	"wiki": "https://siivagunner.wiki/wiki/The%20End%20(OST%20Version)%20-%20Mario%20%26%20Luigi%20Bowser's%20Inside%20Story",
 	"joke": "Solstice - OneShot",
 	"artist": "Spottygamester"},
@@ -30897,7 +30884,7 @@ const db = {
 	"joke": "A Beautiful Song - NieR: Automata",
 	"artist": "pedipanol"},
 "xNdm0heoHVU": {
-	"title": "Slider (Hurry!) - Super Mario 64",
+	"title": "Slider - Super Mario 64",
 	"wiki": "https://siivagunner.wiki/wiki/Slider%20(Hurry!)%20-%20Super%20Mario%2064",
 	"joke": "Ram Jam - Wii Party",
 	"artist": "AdamCrossing"},
@@ -32199,7 +32186,7 @@ const db = {
 "wCqBO2xaIEA": {
 	"title": "No Deal - Deal or No Deal (DS)",
 	"wiki": "https://siivagunner.wiki/wiki/No%20Deal%20-%20Deal%20or%20No%20Deal%20(DS)",
-	"joke": "Game Over - Uwol: Quest for Money (also known as the game over theme from Felix the Cat)",
+	"joke": "Game Over - Uwol: Quest for Money",
 	"artist": "Brawlcats"},
 "DwfImP11vH0": {
 	"title": "WISH - Can't Wait For You - Rhythm Tengoku",
@@ -32487,7 +32474,7 @@ const db = {
 	"joke": "Everyday - Buddy Holly",
 	"artist": "beardfear"},
 "7iAnAfnVg0Q": {
-	"title": "Slider (Manual Build) - Super Mario 64",
+	"title": "Slider - Super Mario 64",
 	"wiki": "https://siivagunner.wiki/wiki/Slider%20(Manual%20Build)%20-%20Super%20Mario%2064",
 	"joke": "Bad Piggies Theme - Bad Piggies",
 	"artist": "Powerlated"},
@@ -32719,7 +32706,7 @@ const db = {
 "6sXt2tDP2ck": {
 	"title": "Wonderful World of Wool 6 - Yoshi's Woolly World",
 	"wiki": "https://siivagunner.wiki/wiki/Wonderful%20World%20of%20Wool%206%20(OST%20Version)%20-%20Yoshi's%20Woolly%20World",
-	"joke": "Friendship Through the Ages - the My Little Pony: Equestria Girls – Rainbow Rocks short of the same name",
+	"joke": "Friendship Through the Ages - My Little Pony: Equestria Girls – Rainbow Rocks",
 	"artist": "overcast07"},
 "arR58QT5XAU": {
 	"title": "Bonus Round 3 - Fido Dido",
@@ -32817,7 +32804,7 @@ const db = {
 	"joke": "Toxic Caves - Sonic Spinball",
 	"artist": "MidnightIsADog"},
 "-0EmCgQ4ipU": {
-	"title": "Battle Victory - Mario & Luigi Bowser's Inside Story",
+	"title": "Battle Victory - Mario & Luigi: Bowser's Inside Story",
 	"wiki": "https://siivagunner.wiki/wiki/Battle%20Victory%20-%20Mario%20%26%20Luigi%20Bowser's%20Inside%20Story",
 	"joke": "Victory Fanfare - Final Fantasy",
 	"artist": "SuperStarGuy"},
@@ -32949,7 +32936,7 @@ const db = {
 "67GNqjScr7I": {
 	"title": "You Really Got Me - Guitar Hero: Van Halen",
 	"wiki": "https://siivagunner.wiki/wiki/You%20Really%20Got%20Me%20-%20Guitar%20Hero%3A%20Van%20Halen",
-	"joke": "Sad Sad Kiddie - The Pillows from FLCL",
+	"joke": "Sad Sad Kiddie - The Pillows (FLCL)",
 	"artist": "Jiko Music"},
 "W4Brga8i87E": {
 	"title": "Crystal Caves (Barrel Course) - Donkey Kong 64",
@@ -33262,7 +33249,7 @@ const db = {
 	"joke": "Scatman's World - Scatman John",
 	"artist": "lonk"},
 "YA2sW-aqu8k": {
-	"title": "To a New Adventure! - Mario & Luigi Bowser's Inside Story",
+	"title": "To a New Adventure! - Mario & Luigi: Bowser's Inside Story",
 	"wiki": "https://siivagunner.wiki/wiki/To%20a%20New%20Adventure!%20(OST%20Version)%20-%20Mario%20%26%20Luigi%20Bowser's%20Inside%20Story",
 	"joke": "Lo-Fight - Friday Night Funkin': V.S. Whitty",
 	"artist": "RHMan"},
@@ -34109,7 +34096,7 @@ const db = {
 "tYegNl4EckI": {
 	"title": "Farewell - Pokémon Black & White",
 	"wiki": "https://siivagunner.wiki/wiki/Farewell%20(Alternate%20Beta%20Mix)%20-%20Pok%C3%A9mon%20Black%20%26%20White",
-	"joke": "κrOnё - Hiroyuki Sawano from Guilty Crown",
+	"joke": "κrOnё - Hiroyuki Sawano (Guilty Crown)",
 	"artist": "Emm Bee Sea"},
 "rps3ai5KBk8": {
 	"title": "BGM 03 - Maki Fes!",
@@ -34879,7 +34866,7 @@ const db = {
 "xgMMEG7sz1M": {
 	"title": "Aquarium Park - Act 1 - Sonic Colours (DS)",
 	"wiki": "https://siivagunner.wiki/wiki/Aquarium%20Park%20-%20Act%201%20(Unused%20Version)%20-%20Sonic%20Colours%20(DS)",
-	"joke": "Get The Shining Future! A Message from Grizzco Industries - the Splatoon 2 Salmon Run reveal trailer",
+	"joke": "Get The Shining Future! A Message from Grizzco Industries - Splatoon 2",
 	"artist": "beardfear"},
 "ryOH4qHvClE": {
 	"title": "Barren Factory - MOTHER 3",
@@ -35082,12 +35069,12 @@ const db = {
 	"joke": "Among Us Trap Remix - Leonz",
 	"artist": "TheLeis"},
 "2orCWyaHBpk": {
-	"title": "Final Castle - Mario & Luigi Bowser's Inside Story",
+	"title": "Final Castle - Mario & Luigi: Bowser's Inside Story",
 	"wiki": "https://siivagunner.wiki/wiki/Final%20Castle%20-%20Mario%20%26%20Luigi%20Bowser's%20Inside%20Story",
 	"joke": "Ganon's Message - The Legend of Zelda: A Link to the Past",
 	"artist": "Spottygamester"},
 "SOkkBcvi610": {
-	"title": "The Grand Finale - Mario & Luigi Bowser's Inside Story",
+	"title": "The Grand Finale - Mario & Luigi: Bowser's Inside Story",
 	"wiki": "https://siivagunner.wiki/wiki/The%20Grand%20Finale%20(PAL%20Version)%20-%20Mario%20%26%20Luigi%20Bowser's%20Inside%20Story",
 	"joke": "Unfinished Business - Xenoblade Chronicles",
 	"artist": "Helpful Salad"},
@@ -35224,7 +35211,7 @@ const db = {
 "xSvoujzgnlw": {
 	"title": "Bowser's Lava Lake Keep - Super Mario 3D World",
 	"wiki": "https://siivagunner.wiki/wiki/Bowser's%20Lava%20Lake%20Keep%20(JP%20Version)%20-%20Super%20Mario%203D%20World",
-	"joke": "Decisive Battle - Shirō Sagisu from Neon Genesis Evangelion",
+	"joke": "Decisive Battle - Shirō Sagisu (Neon Genesis Evangelion)",
 	"artist": "beardfear"},
 "eLY06l7rJW4": {
 	"title": "Course Clear - Super Mario Bros. 3",
@@ -35419,7 +35406,7 @@ const db = {
 "3CeV02TFs3o": {
 	"title": "Steam Gardens - Super Mario Odyssey",
 	"wiki": "https://siivagunner.wiki/wiki/Steam%20Gardens%20(EU%20Version)%20-%20Super%20Mario%20Odyssey",
-	"joke": "Crazy My Beat - Coda from the album JoJo's Bizarre Adventure: The anthology songs 2",
+	"joke": "Crazy My Beat - Coda (JoJo's Bizarre Adventure: The anthology songs 2)",
 	"artist": "Knay"},
 "WRmCV4pQ1UE": {
 	"title": "Snakey Chantey - Donkey Kong Country 2",
@@ -35862,7 +35849,7 @@ const db = {
 	"joke": "Grandma Got Run Over by a Reindeer - Elmo & Patsy",
 	"artist": "Emm Bee Sea"},
 "zRa1mMPkuKA": {
-	"title": "Slider (Big Penguin Race) - Super Mario 64 DS",
+	"title": "Slider - Super Mario 64 DS",
 	"wiki": "https://siivagunner.wiki/wiki/Slider%20(Big%20Penguin%20Race)%20-%20Super%20Mario%2064%20DS",
 	"joke": "Run Rudolph Run - Chuck Berry",
 	"artist": "ItsGameBoy"},
@@ -36969,7 +36956,7 @@ const db = {
 "HV_SMqnzPpU": {
 	"title": "Burn! Bobonga! - Chrono Trigger",
 	"wiki": "https://siivagunner.wiki/wiki/Burn!%20Bobonga!%20-%20Chrono%20Trigger",
-	"joke": "S.L.A.B. Freestyle - Chip tha Ripper",
+	"joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper",
 	"artist": "eg_9371"},
 "0VdQI8hpOV0": {
 	"title": "BGM 20 - Alpine Racer 3",
@@ -38139,7 +38126,7 @@ const db = {
 "0Iute05tb9Y": {
 	"title": "Dance in the Galaxy - Space Channel 5 VR: Kinda Funky News Flash!",
 	"wiki": "https://siivagunner.wiki/wiki/Dance%20in%20the%20Galaxy%20-%20Space%20Channel%205%20VR%3A%20Kinda%20Funky%20News%20Flash!",
-	"joke": "The Rick Dance - Rick and Morty with Ulala responding to every verse from the song",
+	"joke": "The Rick Dance - Rick and Morty",
 	"artist": "Grambam36"},
 "YrQ1chcpIoA": {
 	"title": "Lose Life - Kirby's Adventure",
@@ -38219,7 +38206,7 @@ const db = {
 "I-v1h9ibGrY": {
 	"title": "Wondering (A Prelude) - Pinball of the Dead",
 	"wiki": "https://siivagunner.wiki/wiki/Wondering%20(A%20Prelude)%20-%20Pinball%20of%20the%20Dead",
-	"joke": "U Guessed It - OG Maco. At several points in the song World's Loudest Orgasm is also sampled over the track",
+	"joke": "U Guessed It - OG Maco",
 	"artist": "Grambam36"},
 "hmAnKm0JVUM": {
 	"title": "Title Theme - Hello Kitty to McDonald de Asobo!",
@@ -38449,7 +38436,7 @@ const db = {
 "uUa4CR8s_XM": {
 	"title": "Pigstep - Minecraft",
 	"wiki": "https://siivagunner.wiki/wiki/Pigstep%20(OST%20Version)%20-%20Minecraft",
-	"joke": "Despicable Me - Pharrell Williams from Despicable Me",
+	"joke": "Despicable Me - Pharrell Williams",
 	"artist": "Sarvéproductions"},
 "5pLPp9bAwuA": {
 	"title": "Team Skull Appears! - Pokémon Sun & Moon",
@@ -38869,7 +38856,7 @@ const db = {
 "P0AfdjHAyG0": {
 	"title": "Introduction - Doom",
 	"wiki": "https://siivagunner.wiki/wiki/Introduction%20-%20Doom",
-	"joke": "Turf - El Huervo from Hotline Miami",
+	"joke": "Turf - El Huervo (Hotline Miami)",
 	"artist": "eg_9371"},
 "52cF4yOy1UA": {
 	"title": "Café - Animal Crossing: Wild World",
@@ -39394,7 +39381,7 @@ const db = {
 "gXaryW_2mzI": {
 	"title": "Into Sandy's City - Doom II",
 	"wiki": "https://siivagunner.wiki/wiki/Into%20Sandy's%20City%20-%20Doom%20II",
-	"joke": "In The Face of Evil - Magic Sword from Hotline Miami 2: Wrong Number",
+	"joke": "In The Face of Evil - Magic Sword (Hotline Miami 2: Wrong Number)",
 	"artist": "eg_9371"},
 "tx9qza62hYw": {
 	"title": "Emote: Nana Nana - Fortnite",
@@ -39569,7 +39556,7 @@ const db = {
 "5NA6cRKEWKs": {
 	"title": "Pressure Cooker - VVVVVV",
 	"wiki": "https://siivagunner.wiki/wiki/Pressure%20Cooker%20(Nintendo%20Switch%20Version)%20-%20VVVVVV",
-	"joke": "NARC - Mega Drive from Hotline Miami 2: Wrong Number",
+	"joke": "NARC - Mega Drive (Hotline Miami 2: Wrong Number)",
 	"artist": "eg_9371"},
 "xniOooYEMmA": {
 	"title": "Let's Begin - MOTHER 3",
@@ -39759,7 +39746,7 @@ const db = {
 "FTks_5KNwJs": {
 	"title": "The Demon's Dead - Doom II",
 	"wiki": "https://siivagunner.wiki/wiki/The%20Demon's%20Dead%20-%20Doom%20II",
-	"joke": "Electric Dreams - Perturbator from Hotline Miami",
+	"joke": "Electric Dreams - Perturbator (Hotline Miami)",
 	"artist": "eg_9371"},
 "Lnl7umewEnc": {
 	"title": "Yamanote Line: Takanawa Gateway Station Platform 2 - Densha de GO!!",
@@ -40782,7 +40769,7 @@ const db = {
 	"joke": "Winter Wrap Up - the My Little Pony: Friendship Is Magic episode of the same name",
 	"artist": "ChickenSuitGuy"},
 "ybMpc4BJ7sQ": {
-	"title": "Minigame - Mario & Luigi Bowser's Inside Story",
+	"title": "Minigame - Mario & Luigi: Bowser's Inside Story",
 	"wiki": "https://siivagunner.wiki/wiki/Minigame%20-%20Mario%20%26%20Luigi%20Bowser's%20Inside%20Story",
 	"joke": "Crank Dat Super Mario - Crank Squad",
 	"artist": "ChickenSuitGuy"},
@@ -41519,7 +41506,7 @@ const db = {
 "Cn6GVvsH01E": {
 	"title": "Battle! (Island Kahuna) - Pokémon Sun & Moon",
 	"wiki": "https://siivagunner.wiki/wiki/Battle!%20(Island%20Kahuna)%20-%20Pok%C3%A9mon%20Sun%20%26%20Moon",
-	"joke": "S.L.A.B. Freestyle - Chip tha Ripper",
+	"joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper",
 	"artist": "New Guy"},
 "6llIl2y0kVg": {
 	"title": "Laugh! Be Happy! - MOTHER 3",
@@ -41953,6 +41940,7 @@ const db = {
 	"artist": "pedipanol"},
 "equV9JnfZzk": {
 	"title": "A Mambo Moment - Maroon GO",
+	"exclude":"title",
 	"wiki": "https://siivagunner.wiki/wiki/A%20Mambo%20Moment%20-%20Maroon%20GO",
 	"joke": "Mambo No. 5 - Lou Bega",
 	"artist": "Cryptrik"},
@@ -42773,43 +42761,51 @@ const db = {
 	"artist": "KnightOfGames"},
 "cz8ZhV_cVfs": {
 	"title": "Dedede's Two-Dimensional Cannon - SiIvaGunner: King for a Day Tournament",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Dedede's%20Two-Dimensional%20Cannon%20-%20SiIvaGunner%3A%20King%20for%20a%20Day%20Tournament",
 	"joke": "Dedede's Tridimensional Cannon - Kirby Planet Robobot",
 	"artist": "cookiefonster"},
 "13ZiRBWHsP8": {
 	"title": "Five Million Fireflies - SiIvaGunner: King for a Day Tournament",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Five%20Million%20Fireflies%20-%20SiIvaGunner%3A%20King%20for%20a%20Day%20Tournament",
 	"joke": "Fireflies - Owl City",
 	"artist": "Moder112, mastered by Scribble1k"},
 "CPD0IWDB7wU": {
 	"title": "The Front Line (Metal Gear 2: Solid Snake) - SiIvaGunner: King for a Day Tournament",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/The%20Front%20Line%20(Metal%20Gear%202%3A%20Solid%20Snake)%20-%20SiIvaGunner%3A%20King%20for%20a%20Day%20Tournament",
 	"joke": "The Front Line - Metal Gear 2: Solid Snake",
 	"artist": "l4ureleye, wolfman1405"},
 "M0g7EFbCnNg": {
 	"title": "Launchpad Labyrinth - SiIvaGunner: King for a Day Tournament",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Launchpad%20Labyrinth%20-%20SiIvaGunner%3A%20King%20for%20a%20Day%20Tournament",
 	"joke": "Launchpad Labyrinth - Wario Land: Shake It!",
 	"artist": "WaluigiTime64"},
 "FR_TFG4AqIk": {
 	"title": "Awesome Plan - SiIvaGunner: King for a Day Tournament",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Awesome%20Plan%20-%20SiIvaGunner%3A%20King%20for%20a%20Day%20Tournament",
 	"joke": "Amazing Plan - Kevin MacLeod",
 	"artist": "BobTheTacocat"},
 "s6oA8-DIqXI": {
 	"title": "Tomorrow Hill - SiIvaGunner: King for a Day Tournament",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Tomorrow%20Hill%20-%20SiIvaGunner%3A%20King%20for%20a%20Day%20Tournament",
 	"joke": "Tomorrow Hill - WarioWare: Smooth Moves",
 	"artist": "WaluigiTime64"},
 "TeUPccJ_Wjw": {
 	"title": "Don't Slip! Orange Inkling Remix!! - SiIvaGunner: King for a Day Tournament",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Don't%20Slip!%20Orange%20Inkling%20Remix!!%20-%20SiIvaGunner%3A%20King%20for%20a%20Day%20Tournament",
 	"joke": "Don't Slip! (Wet Floor) - Splatoon 2",
 	"artist": "Hinchy"},
 "SgD3cHaktQI": {
 	"title": "Paralyzer - SiIvaGunner: King for a Day Tournament",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Paralyzer%20-%20SiIvaGunner%3A%20King%20for%20a%20Day%20Tournament",
-	"joke": "Paralyzer - Finger Eleven made entirely using samples from Daytona USA",
+	"joke": "Paralyzer - Finger Eleven",
 	"artist": "UUN4"},
 "FDn2anPhv0E": {
 	"title": "Oil Ocean Zone, Act 1 - Sonic Mania",
@@ -43316,11 +43312,6 @@ const db = {
 	"wiki": "https://siivagunner.wiki/wiki/Mystery%20Carnival%20-%20Pok%C3%A9mon%20Tekken",
 	"joke": "How Low - Ludacris",
 	"artist": "New Guy"},
-"0ngsNn07Ybs": {
-	"title": "Song That Might Play When You Fight Sans - Undertale",
-	"wiki": "https://siivagunner.wiki/wiki/Song%20That%20Might%20Play%20When%20You%20Fight%20Sans%20(Beta%20Mix)%20-%20Undertale",
-	"joke": "SKULL TRUMPET - Big Purp replaces the instruments from the game",
-	"artist": "Unknown Ripper"},
 "0u1Dupe9j4Q": {
 	"title": "Sky Tower - Pokémon Mystery Dungeon: Blue Rescue Team",
 	"wiki": "https://siivagunner.wiki/wiki/Sky%20Tower%20-%20Pok%C3%A9mon%20Mystery%20Dungeon%3A%20Blue%20Rescue%20Team",
@@ -43954,7 +43945,7 @@ const db = {
 "wYiek6TWBHQ": {
 	"title": "Route 228 (Night) - Pokémon Diamond & Pearl",
 	"wiki": "https://siivagunner.wiki/wiki/Route%20228%20(Night)%20(Beta%20Mix)%20-%20Pok%C3%A9mon%20Diamond%20%26%20Pearl",
-	"joke": "Stronger Than You - Estelle from Steven Universe",
+	"joke": "Stronger Than You - Estelle (Steven Universe)",
 	"artist": "SUPAHSTAR CLOD"},
 "48-j_2Xji7o": {
 	"title": "Hydrangea Isle - Wadanohara and the Great Blue Sea",
@@ -44049,7 +44040,7 @@ const db = {
 "TxaHVoknl4M": {
 	"title": "National Poll - Everybody Votes Channel",
 	"wiki": "https://siivagunner.wiki/wiki/National%20Poll%20-%20Everybody%20Votes%20Channel",
-	"joke": "Back Spin Sweeper - DJ TOTTO from beatmania IIDX 25 CANNON BALLERS",
+	"joke": "Back Spin Sweeper - DJ TOTTO (beatmania IIDX 25 CANNON BALLERS)",
 	"artist": "Unknown Ripper"},
 "iU0vvUeoyyQ": {
 	"title": "Purpose - Corporate Lifestyle Simulator",
@@ -44143,6 +44134,7 @@ const db = {
 	"artist": "Sarvéproductions"},
 "Ea9i5eSLvC8": {
 	"title": "Winter - Maroon GO",
+	"exclude":"title",
 	"wiki": "https://siivagunner.wiki/wiki/Winter%20-%20Maroon%20GO",
 	"joke": "Cold - Maroon 5 ft. Future",
 	"artist": "Chaze the Chat"},
@@ -44174,7 +44166,7 @@ const db = {
 "uE7isWXqwz0": {
 	"title": "K.K. Mambo (Aircheck) - Animal Crossing: Wild World",
 	"wiki": "https://siivagunner.wiki/wiki/K.K.%20Mambo%20(Aircheck)%20-%20Animal%20Crossing%3A%20Wild%20World",
-	"joke": "Grandma's Gonna Sue the Pants Off of Santa - the Grandma Got Run Over by a Reindeer television special",
+	"joke": "Grandma's Gonna Sue the Pants Off of Santa - Grandma Got Run Over by a Reindeer (TV special)",
 	"artist": "Sean-Patrick"},
 "omcDJs9Xwhw": {
 	"title": "Crash Dash - Crash Bandicoot 2: Cortex Strikes Back",
@@ -44324,7 +44316,7 @@ const db = {
 "9zGsgan8wNI": {
 	"title": "Battle! (Elite Four) - Pokémon Gold & Silver",
 	"wiki": "https://siivagunner.wiki/wiki/Battle!%20(Elite%20Four)%20-%20Pok%C3%A9mon%20Gold%20%26%20Silver",
-	"joke": "There is no actual theme for the Elite Four battles in Pokémon Gold & Silver. Intensity of The Kings - TOME in the instruments of the actual battle themes from Pokémon Gold & Silver",
+	"joke": "Intensity of The Kings - TOME",
 	"artist": "MtH"},
 "_6V3d6DXeig": {
 	"title": "vs. Globotron & Drillinator - Sonic Colours (DS)",
@@ -44419,7 +44411,7 @@ const db = {
 "ki8lx_QspSo": {
 	"title": "Doki Doki Literature Club! - Doki Doki Literature Club!",
 	"wiki": "https://siivagunner.wiki/wiki/Doki%20Doki%20Literature%20Club!%20(In-Game%20Version)%20-%20Doki%20Doki%20Literature%20Club!",
-	"joke": "S.L.A.B. Freestyle - Chip tha Ripper plays",
+	"joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper plays",
 	"artist": "NBGMusic"},
 "BtDiTIWe4f4": {
 	"title": "Clockwork - Castlevania III: Dracula's Curse",
@@ -44567,7 +44559,7 @@ const db = {
 	"joke": "Only Time - Enya",
 	"artist": "Unknown Ripper"},
 "ufv5z_b9rHY": {
-	"title": "Dr. Toadley - Mario & Luigi Bowser's Inside Story",
+	"title": "Dr. Toadley - Mario & Luigi: Bowser's Inside Story",
 	"wiki": "https://siivagunner.wiki/wiki/Dr.%20Toadley%20-%20Mario%20%26%20Luigi%20Bowser's%20Inside%20Story",
 	"joke": "Main Menu/Map - Hotel Mario",
 	"artist": "SMALF"},
@@ -44702,7 +44694,7 @@ const db = {
 	"joke": "Being for the Benefit of Mr. Kite! - The Beatles",
 	"artist": "Hinchy"},
 "07pYhMOc72k": {
-	"title": "Minigame 2 - Mario & Luigi Bowser's Inside Story",
+	"title": "Minigame 2 - Mario & Luigi: Bowser's Inside Story",
 	"wiki": "https://siivagunner.wiki/wiki/Minigame%202%20-%20Mario%20%26%20Luigi%20Bowser's%20Inside%20Story",
 	"joke": "Through the Fire and Flames - DragonForce",
 	"artist": "Okiwont"},
@@ -45164,7 +45156,7 @@ const db = {
 "fu0MbZ2NJQg": {
 	"title": "Dunny Boy Williamson Show - Jet Set Radio",
 	"wiki": "https://siivagunner.wiki/wiki/Dunny%20Boy%20Williamson%20Show%20-%20Jet%20Set%20Radio",
-	"joke": "Juku Nanka Ikanai - MIKI from Guitar Vader & Hideki Naganuma",
+	"joke": "Juku Nanka Ikanai - MIKI (Guitar Vader & Hideki Naganuma)",
 	"artist": "CrystalForce"},
 "Go9KW194UQM": {
 	"title": "Huge Battleship Erinyes - Espgaluda",
@@ -45694,7 +45686,7 @@ const db = {
 "x6KpqaMPb6E": {
 	"title": "Lon Lon Ranch - The Legend of Zelda: Ocarina of Time",
 	"wiki": "https://siivagunner.wiki/wiki/Lon%20Lon%20Ranch%20(EU%20Version)%20-%20The%20Legend%20of%20Zelda%3A%20Ocarina%20of%20Time",
-	"joke": "Some Day My Prince Will Come - Adriana Caselotti from the movie Snow White",
+	"joke": "Some Day My Prince Will Come - Adriana Caselotti, Snow White (1937)",
 	"artist": "BuraiPlayer"},
 "pGynuAjxlHY": {
 	"title": "Green Greens - Kirby Super Star Ultra",
@@ -45963,6 +45955,7 @@ const db = {
 	"artist": "Chaze the Chat"},
 "L6D8CrxFdxk": {
 	"title": "Headin' Down - Maroon GO",
+	"exclude":"title",
 	"wiki": "https://siivagunner.wiki/wiki/Headin'%20Down%20-%20Maroon%20GO",
 	"joke": "This Love - Maroon 5",
 	"artist": "toonlink"},
@@ -48544,7 +48537,7 @@ const db = {
 "GED3_5Xo8y0": {
 	"title": "Piano Lesson 3 - Final Fantasy V",
 	"wiki": "https://siivagunner.wiki/wiki/Piano%20Lesson%203%20-%20Final%20Fantasy%20V",
-	"joke": "The key we've lost - Hiroyuki Sawano from Xenoblade Chronicles X",
+	"joke": "The key we've lost - Hiroyuki Sawano (Xenoblade Chronicles X)",
 	"artist": "Unknown Ripper"},
 "ZVZPTR-l0OU": {
 	"title": "Brawlin' - LISA: The Painful",
@@ -49644,7 +49637,7 @@ const db = {
 "0PkD3DDKmhI": {
 	"title": "Bubblegloop Swamp (Interiors) - Banjo-Kazooie",
 	"wiki": "https://siivagunner.wiki/wiki/Bubblegloop%20Swamp%20(Interiors)%20-%20Banjo-Kazooie",
-	"joke": "S.L.A.B. Freestyle - Chip tha Ripper",
+	"joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper",
 	"artist": "Unknown Ripper"},
 "OSG8YyF4tyI": {
 	"title": "Treasure Chest Fanfare - Ys IV: Mask of the Sun",
@@ -50752,7 +50745,7 @@ const db = {
 	"joke": "Meet the Flintstones - The Flintstones",
 	"artist": "MtH"},
 "DXgLTHxku3M": {
-	"title": "Tutorial Time - Mario & Luigi Bowser's Inside Story",
+	"title": "Tutorial Time - Mario & Luigi: Bowser's Inside Story",
 	"wiki": "https://siivagunner.wiki/wiki/Tutorial%20Time%20-%20Mario%20%26%20Luigi%20Bowser's%20Inside%20Story",
 	"joke": "Meet the Flintstones - The Flintstones",
 	"artist": "ZVAARI"},
@@ -50842,9 +50835,9 @@ const db = {
 	"joke": "Swiggity Swooty (I'm Coming for That Booty) - YaBoyJdub",
 	"artist": "The Meme Machine"},
 "e1dPK4YRDPM": {
-	"title": "Gourmet Race (Unused Vocal Track) - Kirby Super Star Ultra",
+	"title": "Gourmet Race - Kirby Super Star Ultra",
 	"wiki": "https://siivagunner.wiki/wiki/Gourmet%20Race%20(Unused%20Vocal%20Track)%20-%20Kirby%20Super%20Star%20Ultra",
-	"joke": "S.L.A.B. Freestyle - Chip tha Ripper",
+	"joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper",
 	"artist": "The Meme Machine"},
 "y54JmKxi8wM": {
 	"title": "The Metropolis of Fourside - EarthBound",
@@ -53519,7 +53512,7 @@ const db = {
 "f_E9mBqVCMI": {
 	"title": "Gravity - Cave Story",
 	"wiki": "https://siivagunner.wiki/wiki/Gravity%20(Beta%20Mix)%20-%20Cave%20Story",
-	"joke": "All I Want - The Offspring from Crazy Taxi",
+	"joke": "All I Want - The Offspring",
 	"artist": "eg_9371"},
 "jVl0rOFk3K8": {
 	"title": "Remix 3 - Rhythm Heaven",
@@ -53672,7 +53665,7 @@ const db = {
 	"joke": "For the Damaged Coda - Blonde Redhead using Tomodachi Collection",
 	"artist": "RHMan"},
 "F6ClVISxCTo": {
-	"title": "Fawful is There - Mario & Luigi Bowser's Inside Story",
+	"title": "Fawful is There - Mario & Luigi: Bowser's Inside Story",
 	"wiki": "https://siivagunner.wiki/wiki/Fawful%20is%20There%20-%20Mario%20%26%20Luigi%20Bowser's%20Inside%20Story",
 	"joke": "Scheming Weasel - Kevin MacLeod",
 	"artist": "BriPM"},
@@ -54372,7 +54365,7 @@ const db = {
 	"joke": "The Hampsterdance Song - Hampton the Hamster",
 	"artist": "Alex Wumbo"},
 "78LdPbZyvAI": {
-	"title": "Slider (The Princess's Secret Slide) - Super Mario 64",
+	"title": "Slider - Super Mario 64",
 	"wiki": "https://siivagunner.wiki/wiki/Slider%20(The%20Princess's%20Secret%20Slide)%20-%20Super%20Mario%2064",
 	"joke": "One-Winged Angel - Final Fantasy VII",
 	"artist": "AdamCrossing"},
@@ -54622,7 +54615,7 @@ const db = {
 	"joke": "Beautiful Girls - Sean Kingston",
 	"artist": "AdamCrossing"},
 "-lxKraRjcNU": {
-	"title": "Bowser! - Mario & Luigi Bowser's Inside Story",
+	"title": "Bowser! - Mario & Luigi: Bowser's Inside Story",
 	"wiki": "https://siivagunner.wiki/wiki/Bowser!%20-%20Mario%20%26%20Luigi%20Bowser's%20Inside%20Story",
 	"joke": "Bad Apple!! - Touhou Project",
 	"artist": "Emm Bee Sea"},
@@ -55039,7 +55032,7 @@ const db = {
 "l-rx_swoRiU": {
 	"title": "Perel - Terranigma",
 	"wiki": "https://siivagunner.wiki/wiki/Perel%20-%20Terranigma",
-	"joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip tha Ripper",
+	"joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper",
 	"artist": "Matsu Muhō"},
 "b9bqnbncq8U": {
 	"title": "Maki Ya - Scott Pilgrim vs. The World: The Game",
@@ -55093,6 +55086,7 @@ const db = {
 	"artist": "axological"},
 "UIJ8XujJnEs": {
 	"title": "Rolex - NBA Live 18",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Rolex%20-%20NBA%20Live%2018",
 	"joke": "Mega Man - Jay Eazy",
 	"artist": "Jazziest"},
@@ -55544,7 +55538,7 @@ const db = {
 "DkNRkDEttss": {
 	"title": "Cinema 1 - Prince of Persia 2",
 	"wiki": "https://siivagunner.wiki/wiki/Cinema%201%20-%20Prince%20of%20Persia%202",
-	"joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip tha Ripper",
+	"joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper",
 	"artist": "MJ"},
 "1qBTTSSLg9k": {
 	"title": "Eastward - Eastward",
@@ -56884,7 +56878,7 @@ const db = {
 "06Iln-XIW_Y": {
 	"title": "I'll win tomorrow - Bombergirl",
 	"wiki": "https://siivagunner.wiki/wiki/I'll%20win%20tomorrow%20-%20Bombergirl",
-	"joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip tha Ripper",
+	"joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper",
 	"artist": "Unknown Ripper"},
 "Hc_tKZLdo1I": {
 	"title": "Above the Clouds - Super Mario Odyssey",
@@ -57024,7 +57018,7 @@ const db = {
 "lq9EQi1eroY": {
 	"title": "Kick it! (World Music 1) - NFL Tycoon",
 	"wiki": "https://siivagunner.wiki/wiki/Kick%20it!%20(World%20Music%201)%20-%20NFL%20Tycoon",
-	"joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip tha Ripper",
+	"joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper",
 	"artist": "Grambam36"},
 "bbP4-1crdoY": {
 	"title": "Bird Title Screen - Game & Wario",
@@ -57559,7 +57553,7 @@ const db = {
 "-AFQSdcgSnw": {
 	"title": "Safety - Cave Story",
 	"wiki": "https://siivagunner.wiki/wiki/Safety%20(Alpha%20Mix)%20-%20Cave%20Story",
-	"joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip tha Ripper",
+	"joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper",
 	"artist": "Lapi"},
 "ALvGxTkymi0": {
 	"title": "Crazy Backup Dancers - Touhou 16: Hidden Star in Four Seasons",
@@ -57659,7 +57653,7 @@ const db = {
 "LjhK4xxW3fQ": {
 	"title": "Kick the Eggman - Sonic Rush",
 	"wiki": "https://siivagunner.wiki/wiki/Kick%20the%20Eggman%20-%20Sonic%20Rush",
-	"joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip tha Ripper",
+	"joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper",
 	"artist": "RHMan"},
 "7SJNWO5tF18": {
 	"title": "Ollie Groove #1 - Ollie King",
@@ -57809,12 +57803,12 @@ const db = {
 "79JtWHFy4wI": {
 	"title": "Purple Coins - Super Mario Galaxy 2",
 	"wiki": "https://siivagunner.wiki/wiki/Purple%20Coins%20-%20Super%20Mario%20Galaxy%202",
-	"joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip tha Ripper",
+	"joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper",
 	"artist": "New Guy"},
 "AqXo-HVVT_E": {
 	"title": "A New Day - Sonic Rush",
 	"wiki": "https://siivagunner.wiki/wiki/A%20New%20Day%20(CD%20Version)%20-%20Sonic%20Rush",
-	"joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip tha Ripper",
+	"joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper",
 	"artist": "New Guy"},
 "M_NKW83p0WM": {
 	"title": "Groovitron: Electro Boost - Ratchet & Clank Future: A Crack in Time",
@@ -57859,12 +57853,12 @@ const db = {
 "fY_Mkf-I_Oc": {
 	"title": "Rio Grande - Toobin'",
 	"wiki": "https://siivagunner.wiki/wiki/Rio%20Grande%20-%20Toobin'",
-	"joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip tha Ripper",
+	"joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper",
 	"artist": "KnightOfGames"},
 "I8Jcyl8jGxY": {
 	"title": "Coraline's Clubhouse - Ultimate Angler / StreetPass Fishing",
 	"wiki": "https://siivagunner.wiki/wiki/Coraline's%20Clubhouse%20-%20Ultimate%20Angler%20/%20StreetPass%20Fishing",
-	"joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip tha Ripper",
+	"joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper",
 	"artist": "Marrow"},
 "9zmKXv1Sbu0": {
 	"title": "Humoresque of a Little Dog - EarthBound Beginnings/MOTHER",
@@ -59351,7 +59345,7 @@ const db = {
 		{"time": "1:39-1:51", "joke": "Bodies - Drowning Pool"},
 		{"time": "1:39-1:51", "joke": "Gentleman - PSY"},
 		{"time": "1:39-1:51", "joke": "Gangnam Style - PSY"},
-		{"time": "1:39-1:51", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "1:39-1:51", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "1:52-1:58", "joke": "Snow halation - μ's"},
 		{"time": "1:52-1:58", "joke": "Meet the Flintstones - Hoyt Curtin"}],
 	"artist": "Ellie53"},
@@ -59425,7 +59419,7 @@ const db = {
 		{"time": "0:01", "joke": "It's Everyday Bro - Jake Paul ft. Team 10"},
 		{"time": "0:04", "joke": "Watch Me (Whip/Nae Nae) - Silentó"},
 		{"time": "0:06", "joke": "Crank Dat Super Mario - Crank Squad"},
-		{"time": "0:08", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "0:08", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "0:10", "joke": "Producer tag - Perish Beats"},
 		{"time": "0:13", "joke": "yell - Pitbull"},
 		{"time": "0:15", "joke": "The Fall of Jake Paul - Logan Paul ft. Why Don't We"},
@@ -59746,7 +59740,7 @@ const db = {
 	"title": "Submission Plaza - Check Mii Out Channel",
 	"wiki": "https://siivagunner.wiki/wiki/Submission%20Plaza%20(Beta%20Mix)%20-%20Check%20Mii%20Out%20Channel",
 	"joke": [
-		{"time": "0:02", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "0:02", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "0:06", "joke": "Die Young - Kesha"},
 		{"time": "0:06", "joke": "Bangarang - Skrillex ft. Sirah"},
 		{"time": "0:26", "joke": "I Just Had Sex - The Lonely Island ft. Akon"},
@@ -60115,7 +60109,7 @@ const db = {
 		{"time": "0:28", "joke": "Megalovania - Toby Fox"},
 		{"time": "0:28", "joke": "Call Me Maybe - Carly Rae Jepsen"},
 		{"time": "0:44", "joke": "TiK ToK - Kesha"},
-		{"time": "0:44", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "0:44", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "0:49", "joke": "Drop It Like It's Hot - Snoop Dogg ft. Pharrell Williams"},
 		{"time": "1:02", "joke": "Feel Good Inc - Gorillaz"},
 		{"time": "1:02", "joke": "Skibidi Toilet - DaFuq!?Boom!"},
@@ -60602,10 +60596,10 @@ const db = {
 		{"time": "0:18", "joke": "The Lick"},
 		{"time": "0:42", "joke": "All That Glitters - LISA: The Lustful"},
 		{"time": "1:24", "joke": "Feel Good - Chip Tha Ripper"},
-		{"time": "1:24", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
-		{"time": "1:37", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "1:24", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
+		{"time": "1:37", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "1:59", "joke": "Positive Force - VVVVVV"},
-		{"time": "2:53", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"}],
+		{"time": "2:53", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"}],
 	"artist": "Dead Line"},
 "G-aTre6m_LY": {
 	"title": "Merlee's Mansion - Super Paper Mario",
@@ -61209,7 +61203,7 @@ const db = {
 	"joke": [
 		{"time": "0:00", "joke": "Gangnam Style - PSY"},
 		{"time": "0:09", "joke": "Yeah Right - Vince Staples ft. Kendrick Lamar"},
-		{"time": "0:30", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "0:30", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "0:30", "joke": "Ready? - Smash Announcer, Super Smash Bros. Brawl"},
 		{"time": "0:31", "joke": "Infinite - Sonic Forces"},
 		{"time": "0:36", "joke": "Call Me Maybe - Carly Rae Jepsen"},
@@ -61250,7 +61244,7 @@ const db = {
 		{"time": "3:43", "joke": "Gangnam Style - PSY"},
 		{"time": "3:47", "joke": "SexyBack - Justin Timberlake ft. Timbaland"},
 		{"time": "3:47", "joke": "Jack Black defines Octagon - Sesame Street"},
-		{"time": "3:49", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "3:49", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "4:04", "joke": "Yeah Right - Vince Staples ft. Kendrick Lamar"}],
 	"artist": "Half Pixel"},
 "JPpq6obHqFU": {
@@ -61283,7 +61277,7 @@ const db = {
 	"wiki": "https://siivagunner.wiki/wiki/Theme%20of%20PuyoPuyo%20-%20Puyo%20Puyo%20(Arcade)",
 	"joke": [
 		{"time": "0:22", "joke": "the new rick rolld - wtfradio1000"},
-		{"time": "0:54", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "0:54", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "0:54", "joke": "Puzzle Room - Kirby Planet Robobot"},
 		{"time": "0:55", "joke": "AirPod Shotty - FNMeka"},
 		{"time": "0:57", "joke": "Laughing Baby Bubbling Remix - Marcel Plomp"},
@@ -61342,7 +61336,7 @@ const db = {
 		{"time": "0:50", "joke": "Space Jam - Quad City DJ's"},
 		{"time": "0:57", "joke": "Dame Tu Cosita - El Chombo ft. Cutty Ranks"},
 		{"time": "1:00", "joke": "Takyon (Death Yon) - Death Grips"},
-		{"time": "1:03", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "1:03", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "1:08", "joke": "Whales - Hail Mary Mallon"},
 		{"time": "1:08", "joke": "Harlem Shake - Baauer"},
 		{"time": "1:11", "joke": "Reese's Puffs Rap - RV & Terrance"},
@@ -61517,7 +61511,7 @@ const db = {
 		{"time": "1:07", "joke": "So You Wanna Be Hip? (Suck Your Own Dick) - SkyCorp Home Video"},
 		{"time": "1:14", "joke": "I'm Not Yo Daddy, I'm Yo Grandpa - Biff Chitlins"},
 		{"time": "1:17", "joke": "Ugh - Friday Night Funkin'"},
-		{"time": "1:20", "joke": "Sperm - Friday Night Funkin' OST - MtH"},
+		{"time": "1:20", "joke": "Sperm - Friday Night Funkin'"},
 		{"time": "1:32", "joke": "Why Not - Ghostface Playa"}],
 	"artist": "Jp"},
 "sbHpuZrnXoI": {
@@ -61575,7 +61569,7 @@ const db = {
 		{"time": "0:07", "joke": "foreskin quarters - @ElOscyFeesh"},
 		{"time": "0:07", "joke": "The Nutshack - NUMP"},
 		{"time": "0:15, 1:20, 2:40", "joke": "World's Loudest Orgasm - Creampie Cathy"},
-		{"time": "0:24", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "0:24", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "0:30", "joke": "Yankin - Lady"},
 		{"time": "1:03", "joke": "U Guessed It - OG Maco"},
 		{"time": "1:04", "joke": "PPAP - Daimaou Kosaka"},
@@ -61770,7 +61764,7 @@ const db = {
 	"joke": [
 		{"time": "0:01", "joke": "Pop Champagne - Ron Browz and Jim Jones ft. Juelz Santana"},
 		{"time": "0:04", "joke": "Drowning - A Boogie Wit Da Hoodie ft. Kodak Black"},
-		{"time": "0:09", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "0:09", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "0:09", "joke": "Among Us Trap Remix - Leonz"},
 		{"time": "0:19", "joke": "The Lick"},
 		{"time": "0:21", "joke": "Takyon (Death Yon) - Death Grips"},
@@ -62326,7 +62320,7 @@ const db = {
 		{"time": "0:25", "joke": "The Nutshack theme - NUMP"},
 		{"time": "0:50", "joke": "Raft Ride - The Legend of Zelda: Link's Awakening"},
 		{"time": "1:31", "joke": "World's Loudest Orgasm - Creampie Cathy"},
-		{"time": "1:40", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "1:40", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "1:40", "joke": "Right Foot Creep - YoungBoy Never Broke Again"}],
 	"artist": "Nafun"},
 "-8VU3S9bpmc": {
@@ -62548,7 +62542,7 @@ const db = {
 		{"time": "0:57", "joke": "Raft Ride - The Legend of Zelda: Link's Awakening"},
 		{"time": "1:01", "joke": "Haunted House - 8-Bit Beast"},
 		{"time": "1:03", "joke": "Heal - OMORI"},
-		{"time": "1:05", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "1:05", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "1:08", "joke": "Neko Matsuri - Irodorimidori"},
 		{"time": "1:10", "joke": "Overworld Theme - Super Mario World"},
 		{"time": "1:30", "joke": "Green Greens - Kirby's Dream Land"},
@@ -62865,10 +62859,10 @@ const db = {
 		{"time": "0:41", "joke": "Space Jam - Quad City DJs"},
 		{"time": "0:41", "joke": "It's Everyday Bro - Jake Paul"},
 		{"time": "0:44", "joke": "Gangnam Style - PSY"},
-		{"time": "0:44", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "0:44", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "0:59", "joke": "Party Rock Anthem - LMFAO ft. Lauren Bennett and GoonRock"},
 		{"time": "1:11", "joke": "Se Piscar Já Era - SORRIZO RONALDO"},
-		{"time": "1:12", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "1:12", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "1:12", "joke": "Gangnam Style - PSY"},
 		{"time": "1:16", "joke": "Circus - Five Nights at Freddy's"},
 		{"time": "1:18", "joke": "GRAND DAD - Vinesauce Joel"},
@@ -62935,7 +62929,7 @@ const db = {
 	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Wishing%20upon%20the%20Milky%20Way",
 	"joke": [
-		{"time": "0:02", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "0:02", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "0:05", "joke": "Three stones with one bird! - Garten of Banban 3"},
 		{"time": "0:07", "joke": "Here we go! - My Little Pony: Friendship Is Magic"},
 		{"time": "0:08", "joke": "Extreme Makeover - The Steve Moustache Show"},
@@ -62963,7 +62957,7 @@ const db = {
 		{"time": "0:55", "joke": "Never Gonna Give You Up - Rick Astley"},
 		{"time": "0:55", "joke": "Sad Machine - Porter Robinson"},
 		{"time": "1:08", "joke": "The New Zelda Forest Temple Music - Matt MVS"},
-		{"time": "1:08", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "1:08", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "1:11", "joke": "Pirate Rap - One Piece 4Kids dub"},
 		{"time": "1:14", "joke": "Do You? - TroyBoi"},
 		{"time": "1:14", "joke": "Maroon 5 \"Memories\" Impersonation Parody Cover in 10+ VOICES - Wirah"},
@@ -63216,7 +63210,7 @@ const db = {
 	"wiki": "https://siivagunner.wiki/wiki/BASS%20BOMB%20-%20Goddess%20of%20Victory%3A%20Nikke",
 	"joke": [
 		{"time": "0:00, 0:23, 1:31", "joke": "The 90's Decision - MYUKKE."},
-		{"time": "0:03", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "0:03", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "0:16", "joke": "NULCRTL - Silentroom"},
 		{"time": "0:35, 1:20", "joke": "Konga Conga Kappa (King Conga) - Crypt of the NecroDancer"},
 		{"time": "0:46, 0:59, 1:29", "joke": "Chariot - USAO"},
@@ -63596,7 +63590,7 @@ const db = {
 		{"time": "0:00", "joke": "Meet the Flintstones - The Flintstones"},
 		{"time": "0:06", "joke": "Snow halation - Love Live!, the µ's"},
 		{"time": "0:11", "joke": "Haunted House - 8-Bit Beast"},
-		{"time": "0:11", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "0:11", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "0:18", "joke": "Chicken and Chips - Lego Pornstars"},
 		{"time": "0:18", "joke": "Yankin - Lady"},
 		{"time": "0:28", "joke": "Watch Me (Whip/Nae Nae) - Silento"},
@@ -63715,7 +63709,7 @@ const db = {
 		{"time": "0:20", "joke": "It's Everyday Bro - Jake Paul ft. Team 10"},
 		{"time": "0:23", "joke": "Yankin - Lady"},
 		{"time": "0:39", "joke": "Big Chungus - The Slopster"},
-		{"time": "0:39", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "0:39", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "0:39", "joke": "IGOR'S THEME - Tyler, the Creator"},
 		{"time": "0:52", "joke": "Bird Up! - The Eric Andre Show"},
 		{"time": "0:52", "joke": "Drum samples - Os Barões da Pisadinha"},
@@ -63811,7 +63805,7 @@ const db = {
 		{"time": "0:02", "joke": "Cissy Strut - The Meters"},
 		{"time": "0:07", "joke": "That That - PSY ft. SUGA"},
 		{"time": "0:28", "joke": "Bangarang - Skrillex ft. Sirah"},
-		{"time": "0:29", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "0:29", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "0:41", "joke": "Rap God - Eminem"},
 		{"time": "1:04", "joke": "Astronaut in the Ocean - Masked Wolf"},
 		{"time": "1:04", "joke": "Steam Gardens - Super Mario Odyssey"},
@@ -63946,7 +63940,7 @@ const db = {
 	"wiki": "https://siivagunner.wiki/wiki/Credits%20-%20BIT.TRIP%20Presents...%20Runner2%3A%20Future%20Legend%20of%20Rhythm%20Alien",
 	"joke": [
 		{"time": "0:00, 0:33", "joke": "Meet the Flintstones - Hoyt Curtin"},
-		{"time": "0:03", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "0:03", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "0:05", "joke": "Bonfire - Childish Gambino"},
 		{"time": "0:05", "joke": "All Star - Smash Mouth"},
 		{"time": "0:12", "joke": "Space Jam - Quad City DJ's"},
@@ -63986,7 +63980,7 @@ const db = {
 	"joke": [
 		{"time": "0:00", "joke": "GRAND DAD - Vinesauce Joel"},
 		{"time": "0:00", "joke": "Yankin - Lady"},
-		{"time": "0:00", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "0:00", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "0:01", "joke": "If voices were instruments and instruments were voices - CalebCity"},
 		{"time": "0:02", "joke": "Baka Mitai - Yakuza 5"},
 		{"time": "0:03", "joke": "damn daniel - Night Kido / FlightReacts"},
@@ -64135,7 +64129,7 @@ const db = {
 		{"time": "0:44", "joke": "Damn Daniel - Josholzz"},
 		{"time": "0:44", "joke": "Damn Daniel, ar ar ar ar ar ar ar - FlightReacts"},
 		{"time": "0:52", "joke": "Baka Mitai - Yakuza 5"},
-		{"time": "0:52", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"}],
+		{"time": "0:52", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"}],
 	"artist": "minindo"},
 "CMnbNrxfkPM": {
 	"title": "Mini-Game 1 - Pictionary",
@@ -64347,7 +64341,7 @@ const db = {
 		{"time": "0:14", "joke": "Gangnam Style - PSY"},
 		{"time": "0:15", "joke": "MTC - S3RL"},
 		{"time": "0:15", "joke": "Harlem Shake - Baauer"},
-		{"time": "0:15", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "0:15", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "0:19", "joke": "Opening theme - The Cleveland Show"},
 		{"time": "0:19", "joke": "pinkie just had sex!!!!!!!!!! - theburninice1"},
 		{"time": "0:22", "joke": "Christmas in July - HHGregg"},
@@ -64788,7 +64782,7 @@ const db = {
 		{"time": "0:25", "joke": "We Are Number One - LazyTown, Máni Svavarsson"},
 		{"time": "0:26", "joke": "The new rick rolld - wtfradio1000"},
 		{"time": "0:26", "joke": "Scatman's World - Scatman John"},
-		{"time": "0:28", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "0:28", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "0:29", "joke": "Fuck Bees - Happening.tv"},
 		{"time": "0:29", "joke": "Yankin - Lady"},
 		{"time": "0:30", "joke": "GO MY WAY!! - THE iDOLM@STER"},
@@ -65004,7 +64998,7 @@ const db = {
 		{"time": "11:52", "joke": "Hill Act 1 (Reversed) - Sonic.exe"},
 		{"time": "11:59", "joke": "Astronomia - Vicetone & Tony Igy"},
 		{"time": "12:06", "joke": "Dead on Arrival - Mori Calliope"},
-		{"time": "12:13", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "12:13", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "12:19", "joke": "Harlem Shake - Baauer"},
 		{"time": "12:26", "joke": "Monochrome - Friday Night Funkin' Lullaby"},
 		{"time": "12:33", "joke": "Moves Like Jagger - Maroon 5 ft. Christina Aguilera"},
@@ -65259,7 +65253,7 @@ const db = {
 	"joke": [
 		{"time": "0:06", "joke": "Turn Down for What - DJ Snake ft. Lil Jon"},
 		{"time": "0:12", "joke": "Chat Go Poggers - Carrot Bois"},
-		{"time": "0:27, 2:44", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "0:27, 2:44", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "0:37", "joke": "Reach for the Summit - Celeste"},
 		{"time": "0:44", "joke": "Deez Nuts [Trap Remix] - Dennibro"},
 		{"time": "0:57", "joke": "Famous - Kanye West"},
@@ -65489,7 +65483,7 @@ const db = {
 		{"time": "1:25", "joke": "Money Longer - Lil Uzi Vert"},
 		{"time": "1:31", "joke": "Rock My Forum - Xarlable"},
 		{"time": "1:32", "joke": "Bonfire - Childish Gambino"},
-		{"time": "1:39", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "1:39", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "1:50", "joke": "Crank That Weezy Wee - Lil Wayne"}],
 	"artist": "treydog1357"},
 "Ahc_9-XP-_U": {
@@ -65524,7 +65518,7 @@ const db = {
 		{"time": "0:55", "joke": "Take a Daytrip producer tag - Take a Daytrip"},
 		{"time": "0:55", "joke": "money machine - 100 gecs"},
 		{"time": "1:08", "joke": "Harlem Shake - Baauer"},
-		{"time": "1:13", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "1:13", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "1:13", "joke": "Music That Makes You Poop - Sounds You Need"},
 		{"time": "1:20", "joke": "Discord notification - Discord"},
 		{"time": "1:25", "joke": "Among Us Trap Remix - Leonz"},
@@ -65644,7 +65638,7 @@ const db = {
 		{"time": "0:24", "joke": "Childish Gambino vs Squidward Tentacles - Epic Rap Batles"},
 		{"time": "0:29", "joke": "Fanboy & Chum Chum Theme (whistle sound) - Fanboy & Chum Chum"},
 		{"time": "0:33", "joke": "roomscan - HispanicGirasol"},
-		{"time": "0:35", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "0:35", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "0:35", "joke": "Logic vs Creativity - Thomas Sanders"},
 		{"time": "0:40", "joke": "We Are Number One - LazyTown, Máni Svavarsson"},
 		{"time": "0:46", "joke": "Rock My Forum - Xarlable"},
@@ -65906,7 +65900,7 @@ const db = {
 	"joke": [
 		{"time": "0:00", "joke": "Teach Me How to Dougie - Cali Swag District"},
 		{"time": "0:22", "joke": "Puzzle Room - Kirby Planet Robobot"},
-		{"time": "0:30,1:16", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "0:30,1:16", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "0:30,1:16", "joke": "Space Jam - Quad City DJ's"},
 		{"time": "0:45", "joke": "Among Us Trap Remix - Leonz"},
 		{"time": "1:01", "joke": "We No Speak Americano - Yolanda Be Cool ft. DCUP"},
@@ -66075,7 +66069,7 @@ const db = {
 		{"time": "0:31", "joke": "Yankin - Lady"},
 		{"time": "0:43", "joke": "Baka Mitai - Yakuza 5"},
 		{"time": "1:15", "joke": "Crank That - Soulja Boy"},
-		{"time": "1:16", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "1:16", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "1:27", "joke": "Astronaut in the Ocean - Masked Wolf"},
 		{"time": "1:27", "joke": "Barack Obama vs Mitt Romney - Epic Rap Battles of History"},
 		{"time": "1:49", "joke": "Axel F - Crazy Frog"}],
@@ -66277,7 +66271,7 @@ const db = {
 		{"time": "0:35", "joke": "The Nutshack theme - NUMP"},
 		{"time": "0:38", "joke": "The Simpsons Main Title Theme - The Simpsons"},
 		{"time": "0:45", "joke": "Gangnam Style - PSY"},
-		{"time": "0:57", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"}],
+		{"time": "0:57", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"}],
 	"artist": "PsychLantern"},
 "otRLHktaAEw": {
 	"title": "Round 1 - Body Slam",
@@ -66469,7 +66463,7 @@ const db = {
 		{"time": "0:34", "joke": "Snow halation - μ's"},
 		{"time": "0:48", "joke": "The Nutshack theme - NUMP"},
 		{"time": "1:00", "joke": "Crank That - Soulja Boy"},
-		{"time": "1:01", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"}],
+		{"time": "1:01", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"}],
 	"artist": "Memesauce"},
 "h6ZGkFWt8ts": {
 	"title": "White Surf Style 6 - OMORI",
@@ -66764,7 +66758,7 @@ const db = {
 		{"time": "2:25", "joke": "Revenge - TryHardNinja ft. CaptainSparklez"},
 		{"time": "2:26", "joke": "Totino's - Tim & Eric"},
 		{"time": "2:35", "joke": "Grace & Glory - Jet Set Radio"},
-		{"time": "2:45", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "2:45", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "3:02", "joke": "Plastic Love - Mariya Takeuchi"},
 		{"time": "3:02", "joke": "Space Jam - Quad City DJs"}],
 	"artist": "Jiko Music and Kirbio ft. MtH"},
@@ -68308,7 +68302,7 @@ const db = {
 		{"time": "1:29", "joke": "Among Us in Real Life - Rebecca Zamolo"},
 		{"time": "1:32", "joke": "Megalovania - Homestuck"},
 		{"time": "1:36", "joke": "Reese's Puffs Rap - RV & Terrance"},
-		{"time": "1:43", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "1:43", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "1:45", "joke": "Yankin - Lady"},
 		{"time": "1:48", "joke": "foreskin quarters - @ElOscyFeesh"},
 		{"time": "1:49", "joke": "Circus - Five Nights at Freddy's"},
@@ -68838,7 +68832,7 @@ const db = {
 		{"time": "0:03", "joke": "Astronaut in the Ocean - Masked Wolf"},
 		{"time": "0:06", "joke": "Meet the Flintstones - Hoyt Curtin"},
 		{"time": "0:09", "joke": "Yankin - Lady"},
-		{"time": "0:42", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "0:42", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "0:45", "joke": "Family Guy Main Title - Family Guy"},
 		{"time": "0:48", "joke": "Snow halation - μ's"}],
 	"artist": "brubsby"},
@@ -68955,7 +68949,7 @@ const db = {
 		{"time": "0:00", "joke": "Gangnam Style - PSY"},
 		{"time": "0:26", "joke": "Space Jam - Quad City DJs"},
 		{"time": "0:50", "joke": "Always With Me - Spirited Away"},
-		{"time": "1:14", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "1:14", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "1:15", "joke": "Various HHGregg commercials - HHGregg"},
 		{"time": "1:37", "joke": "Dream Land - Super Smash Bros."},
 		{"time": "1:51", "joke": "Mask - Dream"},
@@ -69069,7 +69063,7 @@ const db = {
 	"joke": [
 		{"time": "0:05", "joke": "Yankin - Lady"},
 		{"time": "1:07", "joke": "S.I.M.P. (Squirrels In My Pants) - Phineas and Ferb"},
-		{"time": "1:22", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "1:22", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "1:27", "joke": "IMPOSTER - Damian"},
 		{"time": "1:44", "joke": "AirPod Shotty - FNMeka"},
 		{"time": "1:44", "joke": "Among Us Trap Remix - Leonz"}],
@@ -69568,7 +69562,7 @@ const db = {
 		{"time": "0:30", "joke": "GO MY WAY!! - THE iDOLM@STER"},
 		{"time": "0:40", "joke": "Snow halation - μ's"},
 		{"time": "0:48", "joke": "The Nutshack Intro - NUMP"},
-		{"time": "0:57", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"}],
+		{"time": "0:57", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"}],
 	"artist": "brubsby"},
 "X24CTRB_L2g": {
 	"title": "Pod (Main Theme) - LittleBigPlanet",
@@ -69600,7 +69594,7 @@ const db = {
 		{"time": "1:38", "joke": "Folgers jingle - Leslie Pearl"}],
 	"artist": "Unknown Ripper"},
 "gfM58ePBYTg": {
-	"title": "The Grand Finale - Mario & Luigi Bowser's Inside Story",
+	"title": "The Grand Finale - Mario & Luigi: Bowser's Inside Story",
 	"wiki": "https://siivagunner.wiki/wiki/The%20Grand%20Finale%20(Alternate%20Version)%20-%20Mario%20%26%20Luigi%20Bowser's%20Inside%20Story",
 	"joke": [
 		{"time": "0:06", "joke": "Pursuit ~ Cornered - Phoenix Wright: Ace Attorney"},
@@ -69776,14 +69770,14 @@ const db = {
 		{"time": "1:06", "joke": "Gangnam Style - PSY"},
 		{"time": "1:14", "joke": "Touch the Sky - Kanye West ft. Lupe Fiasco"},
 		{"time": "1:25", "joke": "Crank That - Soulja Boy"},
-		{"time": "1:28", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "1:28", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "1:35", "joke": "Replay - Iyaz"},
 		{"time": "1:45", "joke": "Gangnam Style - PSY"},
 		{"time": "1:58", "joke": "Bangarang - Skrillex ft. Sirah"},
 		{"time": "1:58", "joke": "Gangnam Style - PSY"},
 		{"time": "2:12", "joke": "Meet the Flintstones - Hoyt Curtin"},
 		{"time": "2:12", "joke": "Replay - Iyaz"},
-		{"time": "2:15", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "2:15", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "2:29", "joke": "Paralyzer - Finger Eleven"},
 		{"time": "2:44", "joke": "Replay - Iyaz"}],
 	"artist": "Half Pixel"},
@@ -69939,7 +69933,7 @@ const db = {
 		{"time": "0:00", "joke": "We Are Number One - LazyTown, Máni Svavarsson"},
 		{"time": "0:00", "joke": "Gangnam Style - PSY"},
 		{"time": "0:00", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Nate Dogg & Kurupt"},
-		{"time": "0:01", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "0:01", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "0:02", "joke": "Crank That - Soulja Boy"},
 		{"time": "0:02", "joke": "GRAND DAD - Vinesauce Joel"},
 		{"time": "0:03", "joke": "Megalovania - Undertale"},
@@ -70361,7 +70355,7 @@ const db = {
 		{"time": "0:40", "joke": "Meet the Flintstones - Hoyt Curtin"}],
 	"artist": "ricesnot"},
 "42KbiN7RpiU": {
-	"title": "File Select - Mario & Luigi Bowser's Inside Story",
+	"title": "File Select - Mario & Luigi: Bowser's Inside Story",
 	"wiki": "https://siivagunner.wiki/wiki/File%20Select%20-%20Mario%20%26%20Luigi%20Bowser's%20Inside%20Story",
 	"joke": [
 		{"time": "0:00", "joke": "King of the Ring - Sonic the Hedgehog (1996 Arcade Album)"},
@@ -70480,7 +70474,7 @@ const db = {
 		{"time": "0:16", "joke": "Chicken and Chips - Lego Pornstars"},
 		{"time": "0:25", "joke": "Crank That - Soulja Boy"},
 		{"time": "0:25", "joke": "dat boi!!!! - ZimoNItrome"},
-		{"time": "0:25", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "0:25", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "0:36", "joke": "Big Chungus - The Slopster"},
 		{"time": "0:36", "joke": "We Are Number One - LazyTown, Máni Svavarsson"},
 		{"time": "0:44", "joke": "Gangnam Style - PSY"},
@@ -70572,7 +70566,7 @@ const db = {
 		{"time": "0:00", "joke": "Space Jam - Quad City DJ's"},
 		{"time": "0:06", "joke": "Super Mario Rap Medley - MCBC"},
 		{"time": "0:06", "joke": "Crank Dat Super Mario - Crank Squad"},
-		{"time": "0:06", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "0:06", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "0:19", "joke": "Space Jam - Quad City DJ's"},
 		{"time": "0:19", "joke": "Asian Jake Paul - iDubbbzTV"},
 		{"time": "0:19", "joke": "Puzzle Room - Kirby Planet Robobot"},
@@ -70797,7 +70791,7 @@ const db = {
 		{"time": "0:36", "joke": "It's Everyday Bro - Jake Paul ft. Team 10"},
 		{"time": "0:37", "joke": "Title Theme & Ending - The Flintstones: The Rescue of Dino & Hoppy"},
 		{"time": "0:39", "joke": "Totino's - Tim and Eric"},
-		{"time": "0:50", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "0:50", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "0:53", "joke": "Dame Tu Cosita - El Chombo ft. Cutty Ranks"},
 		{"time": "0:55", "joke": "How Low - Ludacris ft. Shawnna"},
 		{"time": "0:59", "joke": "Down - Jay Sean ft. Lil Wayne"},
@@ -70926,7 +70920,7 @@ const db = {
 	"wiki": "https://siivagunner.wiki/wiki/Friends%20-%20Sonic%20Mania",
 	"joke": [
 		{"time": "0:00", "joke": "Meet the Flintstones - Hoyt Curtin"},
-		{"time": "0:24", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "0:24", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "0:26", "joke": "Totino's - Tim & Eric"},
 		{"time": "0:27", "joke": "Totino's - Tim & Eric"},
 		{"time": "0:40", "joke": "World's Loudest Orgasm - Creampie Cathy"},
@@ -70988,7 +70982,7 @@ const db = {
 		{"time": "0:30", "joke": "Space Jam - Quad City DJ's"},
 		{"time": "0:30", "joke": "Gangnam Style - PSY"},
 		{"time": "0:34", "joke": "Despacito - Luis Fonsi & Daddy Yankee"},
-		{"time": "0:35", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "0:35", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "0:35", "joke": "Big Chungus - CG5"},
 		{"time": "0:37", "joke": "Big Chungus - The Slopster"},
 		{"time": "0:38", "joke": "BIG CHUNGUS | Official Main Theme - Endigo"},
@@ -71074,7 +71068,7 @@ const db = {
 	"title": "Glitzville - Paper Mario: The Thousand-Year Door",
 	"wiki": "https://siivagunner.wiki/wiki/Glitzville%20(Beta%20Mix)%20-%20Paper%20Mario%3A%20The%20Thousand-Year%20Door",
 	"joke": [
-		{"time": "0:00", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "0:00", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "0:02", "joke": "Gadget Room - Club Penguin: Elite Penguin Force"},
 		{"time": "0:10", "joke": "Title Theme & Ending - The Flintstones: The Rescue of Dino & Hoppy"},
 		{"time": "0:10", "joke": "GRAND DAD - Vinesauce Joel"},
@@ -71197,7 +71191,7 @@ const db = {
 		{"time": "0:06", "joke": "Gangnam Style - PSY"},
 		{"time": "0:06", "joke": "Through the Fire and Flames - DragonForce"},
 		{"time": "0:18", "joke": "The one that goes... (Beep Boop Bop) - SpongeBob SquarePants"},
-		{"time": "0:19", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "0:19", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "0:20", "joke": "pizzaday.wmv - Rocco Botte"},
 		{"time": "0:28", "joke": "Crank That - Soulja Boy"},
 		{"time": "0:34", "joke": "Crank Dat Super Mario - Crank Squad"},
@@ -71230,7 +71224,7 @@ const db = {
 		{"time": "0:54", "joke": "GRAND DAD - Vinesauce Joel"}],
 	"artist": "Expensive Dispenser"},
 "RUmyl42c5q4": {
-	"title": "Short Break in Toad Town (Inside Bowser) - Mario & Luigi Bowser's Inside Story",
+	"title": "Short Break in Toad Town (Inside Bowser) - Mario & Luigi: Bowser's Inside Story",
 	"wiki": "https://siivagunner.wiki/wiki/Short%20Break%20in%20Toad%20Town%20(Inside%20Bowser)%20-%20Mario%20%26%20Luigi%20Bowser's%20Inside%20Story",
 	"joke": [
 		{"time": "0:12, 0:02", "joke": "Rock My Emotions - Kitsune^2"},
@@ -71399,7 +71393,7 @@ const db = {
 		{"time": "1:34", "joke": "Holy Diver - Dio"},
 		{"time": "2:04", "joke": "No One Knows - Queens of the Stone Age"},
 		{"time": "2:32", "joke": "All Star - Smash Mouth"},
-		{"time": "2:59", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "2:59", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "3:20", "joke": "Don't Stop Me Now - Queen"},
 		{"time": "3:48", "joke": "Back Pocket - Vulfpeck"},
 		{"time": "4:14", "joke": "voiceless - The SilvaGunner Christmas Comeback Crisis"}],
@@ -71911,7 +71905,7 @@ const db = {
 		{"time": "0:29", "joke": "The Nutshack theme - NUMP"},
 		{"time": "0:41", "joke": "Title Theme & Ending - The Flintstones: The Rescue of Dino & Hoppy"},
 		{"time": "0:54", "joke": "Five Nights at Freddy's 1 Song - The Living Tombstone"},
-		{"time": "1:18", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"}],
+		{"time": "1:18", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"}],
 	"artist": "IzzyKart57"},
 "InEmDhYpGBo": {
 	"title": "Wicked Pressure - Shark Attack",
@@ -72178,14 +72172,14 @@ const db = {
 		{"time": "0:12", "joke": "We Are Number One - LazyTown, Máni Svavarsson"},
 		{"time": "0:23", "joke": "Deez Nuts! [Trap Remix] - Dennibro"},
 		{"time": "0:33", "joke": "World's Loudest Orgasm - Creampie Cathy"},
-		{"time": "0:34", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "0:34", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "0:44", "joke": "Watch Me (Whip/Nae Nae) - Silentó"},
 		{"time": "0:52", "joke": "Scatman's World - Scatman John"},
 		{"time": "0:54", "joke": "PPAP - PIKO-TARO"},
 		{"time": "1:05", "joke": "Seinfeld Theme - Jonathan Wolff"},
 		{"time": "1:06", "joke": "We Are Number One - LazyTown, Máni Svavarsson"},
 		{"time": "1:17", "joke": "Deez Nuts! [Trap Remix] - Dennibro"},
-		{"time": "1:28", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "1:28", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "1:37", "joke": "PINGAS! - Adventures of Sonic the Hedgehog"},
 		{"time": "1:38", "joke": "Watch Me (Whip/Nae Nae) - Silentó"},
 		{"time": "1:45", "joke": "Scatman's World - Scatman John"},
@@ -72273,7 +72267,7 @@ const db = {
 		{"time": "1:16", "joke": "Because I'm Me - The Avalanches ft. Camp Lo"},
 		{"time": "1:17", "joke": "Hymn For The Weekend - Coldplay"},
 		{"time": "1:26", "joke": "Gangsta's Paradise - Coolio"},
-		{"time": "1:27", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "1:27", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "1:27", "joke": "We Are Number One - LazyTown, Máni Svavarsson"},
 		{"time": "1:39", "joke": "Gangnam Style - PSY"},
 		{"time": "1:46", "joke": "Blumenkranz - Kill la Kill"},
@@ -72284,7 +72278,7 @@ const db = {
 		{"time": "1:55", "joke": "Yankin - Lady"},
 		{"time": "1:55", "joke": "Space Jam - Quad City DJs"},
 		{"time": "2:13", "joke": "Mope - Bloodhound Gang"},
-		{"time": "2:15", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "2:15", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "2:24", "joke": "Tetris beatbox - Verbalase"},
 		{"time": "2:31", "joke": "Crank That - Soulja Boy"},
 		{"time": "2:34", "joke": "BIG CHUNGUS - Endigo"},
@@ -72330,7 +72324,7 @@ const db = {
 	"title": "Tentacular Summer (Trailer Theme) - Splatoon Island",
 	"wiki": "https://siivagunner.wiki/wiki/Tentacular%20Summer%20(Trailer%20Theme)%20-%20Splatoon%20Island",
 	"joke": [
-		{"time": "1:31, 0:00", "joke": "Slide - Calvin Harris ft. Frank Ocean,  Migos"},
+		{"time": "1:31, 0:00", "joke": "Slide - Calvin Harris ft. Frank Ocean, Migos"},
 		{"time": "0:16", "joke": "Summer - Calvin Harris"},
 		{"time": "0:18", "joke": "Feel So Close - Calvin Harris"},
 		{"time": "0:20", "joke": "BIG CHUNGUS | Official Main Theme - Endigo"},
@@ -72363,7 +72357,7 @@ const db = {
 		{"time": "0:09", "joke": "It's Everyday Bro - Jake Paul ft. Team 10"},
 		{"time": "0:33", "joke": "SICKO MODE - Travis Scott ft. Drake"},
 		{"time": "0:56", "joke": "ESSKEETIT - Lil Pump"},
-		{"time": "2:00", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"}],
+		{"time": "2:00", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"}],
 	"artist": "MLPFun"},
 "hYvUc28H0gA": {
 	"title": "Bedtime Puzzler - Kotoba no Puzzle: Mojipittan DS",
@@ -72613,7 +72607,7 @@ const db = {
 	"wiki": "https://siivagunner.wiki/wiki/Smog%20City%20(Stage%205)%20-%20Spark%20the%20Electric%20Jester",
 	"joke": [
 		{"time": "0:00", "joke": "I'm Not Yo Daddy, I'm Yo Grandpa - Biff Chitlins"},
-		{"time": "0:00", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "0:00", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "0:13", "joke": "Waluigi Pinball - Mario Kart DS"},
 		{"time": "0:26", "joke": "Gangnam Style - PSY"},
 		{"time": "0:27", "joke": "soldier game - μ's"},
@@ -72622,7 +72616,7 @@ const db = {
 		{"time": "1:08", "joke": "Puzzle Room - Kirby Planet Robobot"},
 		{"time": "1:21", "joke": "Fat - \"Weird Al\" Yankovic"},
 		{"time": "1:22", "joke": "I'm Not Yo Daddy, I'm Yo Grandpa - Biff Chitlins"},
-		{"time": "1:35", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "1:35", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "1:35", "joke": "Paralyzer - Finger Eleven"},
 		{"time": "1:49", "joke": "PPAP - Pikotaro"},
 		{"time": "1:49", "joke": "Revenge - TryHardNinja ft. CaptainSparklez"},
@@ -72630,7 +72624,7 @@ const db = {
 		{"time": "2:02", "joke": "Before my body is dry - Kill la Kill"},
 		{"time": "2:10", "joke": "It's Everyday Bro - Jake Paul ft. Team 10"},
 		{"time": "2:17", "joke": "I'm Not Yo Daddy, I'm Yo Grandpa - Biff Chitlins"},
-		{"time": "2:17", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"}],
+		{"time": "2:17", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"}],
 	"artist": "Jiko Music"},
 "dWk9nYpG08I": {
 	"title": "Circus - Five Nights at Freddy's",
@@ -72669,7 +72663,7 @@ const db = {
 	"wiki": "https://siivagunner.wiki/wiki/Stronger%20Than%20You%20-%20Steven%20Universe",
 	"joke": [
 		{"time": "0:10", "joke": "Bonfire - Childish Gambino"},
-		{"time": "1:09, 0:29", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "1:09, 0:29", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "1:54, 0:59", "joke": "Space Jam - Quad City DJ's"},
 		{"time": "1:00", "joke": "World's Loudest Orgasm - Creampie Cathy"},
 		{"time": "1:00", "joke": "Oh yeah, Mr. Krabs! - messinwithbigfoot"},
@@ -72818,7 +72812,7 @@ const db = {
 		{"time": "0:02", "joke": "We Are Number One - LazyTown, Máni Svavarsson"},
 		{"time": "0:15, 0:42", "joke": "Crank That - Soulja Boy"},
 		{"time": "0:18", "joke": "Megalovania - Undertale"},
-		{"time": "0:21, 0:44", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "0:21, 0:44", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "0:23, 0:45", "joke": "mm2wood - MIDIJam"}],
 	"artist": "SamanthaMK"},
 "FgIo41m2X5U": {
@@ -72924,7 +72918,7 @@ const db = {
 		{"time": "1:29", "joke": "Reese's Puffs Rap - RV & Terence"},
 		{"time": "1:33", "joke": "Minecraft with Gadget - Mike Matei"},
 		{"time": "1:34", "joke": "We Are Number One - LazyTown, Máni Svavarsson"},
-		{"time": "1:36", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "1:36", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "1:40", "joke": "Space Jam - Quad City DJ's"},
 		{"time": "1:40", "joke": "Meet the Flintstones - Hoyt Curtin"},
 		{"time": "1:48", "joke": "Bangarang - Skrillex ft. Sirah"},
@@ -72962,7 +72956,7 @@ const db = {
 	"wiki": "https://siivagunner.wiki/wiki/Simple%20and%20Clean%20(PLANITb%20Mix)%20-%20Kingdom%20Hearts%3A%20Chain%20of%20Memories%20II",
 	"joke": [
 		{"time": "0:00-2:30", "joke": "Targilin - Syrsa"},
-		{"time": "0:08", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "0:08", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "0:19", "joke": "Bonfire - Childish Gambino"},
 		{"time": "0:48", "joke": "X Gon' Give It To Ya - DMX"},
 		{"time": "1:07", "joke": "Yo Home to Bel-Air - DJ Jazzy Jeff & The Fresh Prince"},
@@ -73069,7 +73063,7 @@ const db = {
 		{"time": "2:11", "joke": "Dickey Ride - Southern Playas"},
 		{"time": "2:15", "joke": "Mario Pissing - Blaze the Movie Fan"},
 		{"time": "2:16", "joke": "Dinner Blaster - CraaazyCat13"},
-		{"time": "2:16", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "2:16", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "2:21", "joke": "In Class & Im Just Like ...FUCK! - MISFITMUDAA"},
 		{"time": "2:21", "joke": "Cold - Maroon 5"},
 		{"time": "2:21", "joke": "Gang-Plank Galleon - Donkey Kong Country"},
@@ -73101,13 +73095,13 @@ const db = {
 	"joke": [
 		{"time": "0:06", "joke": "All Star - Smash Mouth"},
 		{"time": "0:17", "joke": "Bonfire - Childish Gambino"},
-		{"time": "0:23", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "0:23", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "0:30", "joke": "Theme Song - The Loud House"},
 		{"time": "0:41", "joke": "One Week - Barenaked Ladies"},
 		{"time": "0:54", "joke": "All Star - Smash Mouth"},
 		{"time": "1:06", "joke": "Meet the Flintstones - Hoyt Curtin"},
 		{"time": "1:18", "joke": "All Star - Smash Mouth"},
-		{"time": "1:29", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "1:29", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "1:42", "joke": "Your Reality - Doki Doki Literature Club!"},
 		{"time": "1:53", "joke": "All Star - Smash Mouth"}],
 	"artist": "Lapi"},
@@ -73147,7 +73141,7 @@ const db = {
 		{"time": "1:31", "joke": "Inspector Gadget (Main Theme) - Shuki Levy"},
 		{"time": "2:24", "joke": "Minecraft with Gadget - Mike Matei"},
 		{"time": "2:25", "joke": "Inspector Gadget (Main Theme) - Shuki Levy"},
-		{"time": "2:39", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "2:39", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "2:45", "joke": "Bad Apple!! feat.nomico - Alstroemeria Records"},
 		{"time": "3:05", "joke": "The Nutshack - NUMP"},
 		{"time": "3:19", "joke": "Inspector Gadget (Main Theme) - Shuki Levy"},
@@ -73157,7 +73151,7 @@ const db = {
 		{"time": "5:05", "joke": "Minecraft with Gadget - Mike Matei"},
 		{"time": "5:07", "joke": "Inspector Gadget (Main Theme) - Shuki Levy"},
 		{"time": "5:19", "joke": "Differences™ - Big Purp"},
-		{"time": "5:28", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "5:28", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "5:50", "joke": "Minecraft with Gadget - Mike Matei"}],
 	"artist": "Scribble1k"},
 "ly_Sjti_BdA": {
@@ -73256,7 +73250,7 @@ const db = {
 		{"time": "0:39", "joke": "Before my body is dry - Kill la Kill"},
 		{"time": "0:59", "joke": "GO MY WAY!! - THE iDOLM@STER"},
 		{"time": "1:26", "joke": "irony - ClariS"},
-		{"time": "1:26", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "1:26", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "1:37", "joke": "Before my body is dry - Kill la Kill"},
 		{"time": "1:50", "joke": "Gangnam Style - PSY"},
 		{"time": "2:08", "joke": "irony - ClariS"},
@@ -73344,7 +73338,7 @@ const db = {
 	"wiki": "https://siivagunner.wiki/wiki/Dark%202%20-%20Scribblenauts",
 	"joke": [
 		{"time": "0:00", "joke": "The Nutshack Intro - NUMP"},
-		{"time": "0:00", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "0:00", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "0:05", "joke": "Chicken and Chips - Lego Pornstars"},
 		{"time": "0:09", "joke": "Totino's - Tim & Eric"},
 		{"time": "0:09", "joke": "Paralyzer - Finger Eleven"},
@@ -73459,7 +73453,7 @@ const db = {
 		{"time": "0:30", "joke": "Temporary Secretary - Paul McCartney"},
 		{"time": "0:30", "joke": "CrazyBus Theme - CrazyBus"},
 		{"time": "0:32", "joke": "Bonfire - Childish Gambino"},
-		{"time": "0:32", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "0:32", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "0:32", "joke": "Dame Tu Cosita - El Chombo ft. Cutty Ranks"},
 		{"time": "0:41", "joke": "Everybody do the flop - TomSka"},
 		{"time": "0:42", "joke": "SPIDEY N BADMAN CLAP THEM THIGHS - chamyriamr"},
@@ -73476,7 +73470,7 @@ const db = {
 	"title": "New Game - Just Shapes & Beats",
 	"wiki": "https://siivagunner.wiki/wiki/New%20Game%20-%20Just%20Shapes%20%26%20Beats",
 	"joke": [
-		{"time": "0:00", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "0:00", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "0:13", "joke": "Crank That - Soulja Boy"},
 		{"time": "0:32", "joke": "Gangnam Style - PSY"},
 		{"time": "0:39", "joke": "Bangarang - Skrillex ft. Sirah"},
@@ -73512,10 +73506,10 @@ const db = {
 		{"time": "1:39", "joke": "Gangnam Style - PSY"},
 		{"time": "1:53", "joke": "Haunted House - 8-Bit Beast"},
 		{"time": "2:00", "joke": "Meet the Flintstones - Hoyt Curtin"},
-		{"time": "2:01", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "2:01", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "2:15", "joke": "Space Jam - Quad City DJs"},
 		{"time": "2:15", "joke": "Crank That - Soulja Boy"},
-		{"time": "4:01", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "4:01", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "4:17", "joke": "POKEMON GO SONG!!! - Misha"}],
 	"artist": "Half Pixel"},
 "JTFGl1_aiM0": {
@@ -73535,7 +73529,7 @@ const db = {
 		{"time": "1:53", "joke": "Open Your Heart - Sonic Adventure, Hinchy"},
 		{"time": "2:24", "joke": "Live & Learn - Sonic Adventure 2, PinkieOats"},
 		{"time": "2:36", "joke": "Gangnam Style - PSY"},
-		{"time": "2:37", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "2:37", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "2:39", "joke": "Bonfire - Childish Gambino"},
 		{"time": "2:41", "joke": "DK Rap - Donkey Kong 64"},
 		{"time": "2:42", "joke": "Crank That - Soulja Boy"},
@@ -73577,7 +73571,7 @@ const db = {
 	"joke": [
 		{"time": "0:02", "joke": "The Simpsons Main Title Theme - The Simpsons"},
 		{"time": "0:04", "joke": "Meet the Flintstones - Hoyt Curtin"},
-		{"time": "0:32", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "0:32", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "0:40", "joke": "Megalovania - Undertale"},
 		{"time": "0:42", "joke": "The Noble Haltmann - Kirby Planet Robobot"},
 		{"time": "1:01", "joke": "Pursuit ~ Cornered - Phoenix Wright: Ace Attorney"},
@@ -73646,7 +73640,7 @@ const db = {
 		{"time": "0:08", "joke": "Crank That - Soulja Boy"},
 		{"time": "0:25", "joke": "Meet the Flintstones - Hoyt Curtin"},
 		{"time": "0:47", "joke": "1812 Overture - Pyotr Ilyich Tchaikovsky"},
-		{"time": "1:01", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "1:01", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "1:10", "joke": "Piano Sonata No. 11, III. Alla turca (\"Turkish March\") - Wolfgang Amadeus Mozart"},
 		{"time": "1:20", "joke": "Meet the Flintstones - Hoyt Curtin"},
 		{"time": "1:24", "joke": "Space Jam - Quad City DJ's"},
@@ -73655,7 +73649,7 @@ const db = {
 		{"time": "1:33", "joke": "Megalovania - Undertale"},
 		{"time": "1:35", "joke": "trap drums - Undertale"},
 		{"time": "1:37", "joke": "Bringin' da Noise - NSYNC"},
-		{"time": "1:45", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "1:45", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "1:53", "joke": "All Star - Smash Mouth"},
 		{"time": "1:53", "joke": "1812 Overture - Pyotr Ilyich Tchaikovsky"},
 		{"time": "2:01", "joke": "All Star - Smash Mouth"},
@@ -73683,7 +73677,7 @@ const db = {
 		{"time": "1:04", "joke": "How Low - Ludacris ft. Shawnna"},
 		{"time": "1:15", "joke": "WOMBO COMBO - HomeMadeWaffles"},
 		{"time": "1:26", "joke": "Your Reality - Doki Doki Literature Club!"},
-		{"time": "1:34", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "1:34", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "2:08", "joke": "Beautiful Girls - Sean Kingston"},
 		{"time": "2:27", "joke": "Crank That - Soulja Boy"},
 		{"time": "2:33", "joke": "Gangnam Style - PSY"},
@@ -74055,7 +74049,7 @@ const db = {
 		{"time": "0:07", "joke": "Space Jam - Quad City DJ's"},
 		{"time": "0:16", "joke": "Ponyboy - SOPHIE"},
 		{"time": "0:21", "joke": "Space Jam - Quad City DJ's"},
-		{"time": "0:25", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "0:25", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "0:45", "joke": "Here Comes Pacman - Bloodhound Gang"},
 		{"time": "0:53", "joke": "Axel F - Crazy Frog"},
 		{"time": "0:59", "joke": "Deez Nuts - WelvenDaGreat"},
@@ -74287,7 +74281,7 @@ const db = {
 		{"time": "1:02", "joke": "Meet the Flintstones - Hoyt Curtin"},
 		{"time": "1:04", "joke": "Cool Transition - =3"},
 		{"time": "1:09", "joke": "Title Theme - Mick & Mack Global Gladiators"},
-		{"time": "1:17", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "1:17", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "1:21, 1:29", "joke": "WTF BOOM - The Steve Moustache Show, Mega64"},
 		{"time": "1:25", "joke": "FIGHTING KING - SiIvaGunner: King for a Day Tournament"},
 		{"time": "1:27", "joke": "The Nutshack theme - NUMP"}],
@@ -74587,7 +74581,7 @@ const db = {
 		{"time": "0:55", "joke": "Megalovania - Undertale"},
 		{"time": "1:01", "joke": "Totino's - Tim & Eric"},
 		{"time": "1:14", "joke": "Wii Shop Channel - Nintendo Wii"},
-		{"time": "1:26", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "1:26", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "1:31", "joke": "mm2wood - midishrine"},
 		{"time": "1:38", "joke": "Route 228 - Pokémon Diamond & Pearl"}],
 	"artist": "KnightOfGames"},
@@ -74736,7 +74730,7 @@ const db = {
 		{"time": "0:00-0:26, 0:38-1:12, 1:16-1:27, 1:38-1:50, 2:48-3:14, 3:56-4:03", "joke": "Inspector Gadget (Main Theme) - Shuki Levy"},
 		{"time": "0:27-0:49", "joke": "Angry Video Game Nerd Theme - Cinemassacre"},
 		{"time": "0:37-0:49", "joke": "The Review Must Go On (Nostalgia Critic Theme) - Michael \"Skitch\" Schiciano"},
-		{"time": "1:12-1:15", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "1:12-1:15", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "0:51-1:11, 1:17-1:48", "joke": "Boss - Minecraft"},
 		{"time": "1:15-1:38", "joke": "Gadget Room - Club Penguin: Elite Penguin Force"},
 		{"time": "1:27-1:37, 1:51-2:00", "joke": "In the Hall of the Mountain King - Edvard Grieg"},
@@ -74759,7 +74753,7 @@ const db = {
 	"wiki": "https://siivagunner.wiki/wiki/Poison%20vs.%20Word%20Up%20-%20DJ%20Hero",
 	"joke": [
 		{"time": "0:04", "joke": "Family Guy Main Title - Family Guy"},
-		{"time": "0:08", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "0:08", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "0:14", "joke": "Mope - Bloodhound Gang"},
 		{"time": "0:32", "joke": "Meet the Flintstones - Hoyt Curtin"},
 		{"time": "0:48", "joke": "Snow halation - μ's"},
@@ -74894,7 +74888,7 @@ const db = {
 		{"time": "0:29", "joke": "Shake That - Eminem ft. Nate Dogg"},
 		{"time": "0:35", "joke": "Gangnam Style - PSY"},
 		{"time": "0:36", "joke": "Megalovania - Undertale"},
-		{"time": "0:36", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "0:36", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "0:36", "joke": "Space Jam - Quad City DJ’s"},
 		{"time": "0:46", "joke": "Bonfire - Childish Gambino"},
 		{"time": "0:46", "joke": "I'm a Mod (Igloo Music) - Club Penguin"},
@@ -74909,7 +74903,7 @@ const db = {
 	"wiki": "https://siivagunner.wiki/wiki/Face%20Raiders%20Music%20-%20Final%20Stage%20Boss%201",
 	"joke": [
 		{"time": "0:00, 0:52", "joke": "World's Loudest Orgasm - Creampie Cathy"},
-		{"time": "0:17", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "0:17", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "0:38", "joke": "Bonfire - Childish Gambino"},
 		{"time": "0:51", "joke": "DK Rap - Donkey Kong 64"}],
 	"artist": "Grambam36"},
@@ -74949,7 +74943,7 @@ const db = {
 	"wiki": "https://siivagunner.wiki/wiki/Uwa!!%20So%20Temperate%E2%99%AB%20(Alternative%20Mix)%20-%20Undertale",
 	"joke": [
 		{"time": "1:08, 0:00", "joke": "Meet the Flintstones - Hoyt Curtin"},
-		{"time": "0:25", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "0:25", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "0:26", "joke": "Crank That - Soulja Boy"},
 		{"time": "0:41", "joke": "Snow halation - μ's"}],
 	"artist": "p0tato_5alad"},
@@ -74957,7 +74951,7 @@ const db = {
 	"title": "Inner Struggle - Kirby Planet Robobot",
 	"wiki": "https://siivagunner.wiki/wiki/Inner%20Struggle%20-%20Kirby%20Planet%20Robobot",
 	"joke": [
-		{"time": "0:21, 0:00", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "0:21, 0:00", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "0:21, 0:06", "joke": "Crank That - Soulja Boy"},
 		{"time": "0:21, 0:08", "joke": "The one that goes... (Beep Boop Bop) - Mr. Krabs, SpongeBob SquarePants"},
 		{"time": "0:21, 0:15", "joke": "Gangnam Style - PSY"},
@@ -75151,7 +75145,7 @@ const db = {
 		{"time": "2:24", "joke": "Ashley's Song - WarioWare: Touched!"},
 		{"time": "2:29", "joke": "mm2wood - Mega Man 2 / midishrine"},
 		{"time": "2:39", "joke": "GO MY WAY!! - THE iDOLM@STER"},
-		{"time": "2:41", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "2:41", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "2:45", "joke": "POKEMON GO SONG!!! - Misha"},
 		{"time": "2:53", "joke": "Gangnam Style - PSY"},
 		{"time": "3:05", "joke": "Puzzle Room - Kirby Planet Robobot"},
@@ -75235,7 +75229,7 @@ const db = {
 		{"time": "1:12, 0:06", "joke": "Havana - Camila Cabello ft. Young Thug"},
 		{"time": "0:30", "joke": "This Is What You Came For - Calvin Harris ft. Rihanna"},
 		{"time": "1:38", "joke": "Smooth - Santana ft. Rob Thomas"},
-		{"time": "1:40", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"}],
+		{"time": "1:40", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"}],
 	"artist": "andres"},
 "iMDxElrnYI0": {
 	"title": "Main Menu - WarioWare D.I.Y",
@@ -75355,7 +75349,7 @@ const db = {
 		{"time": "1:08", "joke": "e (Euler's Number) - Numberphile"},
 		{"time": "1:09", "joke": "Sugar - Maroon 5"},
 		{"time": "1:09", "joke": "Smooth - Santana ft. Rob Thomas"},
-		{"time": "1:21", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "1:21", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "1:34", "joke": "Crank That - Soulja Boy"},
 		{"time": "1:37", "joke": "Meet the Flintstones - Hoyt Curtin"},
 		{"time": "1:37", "joke": "All Star - Smash Mouth"},
@@ -75480,7 +75474,7 @@ const db = {
 		{"time": "5:01", "joke": "All Star - Smash Mouth"},
 		{"time": "5:16", "joke": "Haunted House - 8-Bit Beast"},
 		{"time": "5:31", "joke": "Crank That - Soulja Boy"},
-		{"time": "5:32", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "5:32", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "6:55", "joke": "e (Euler's Number) - Numberphile"},
 		{"time": "8:01", "joke": "Bangarang - Skrillex ft. Sirah"},
 		{"time": "9:13", "joke": "Snow Halation - µ's"},
@@ -76053,7 +76047,7 @@ const db = {
 	"wiki": "https://siivagunner.wiki/wiki/SONG%206%20-%20EXTREME%20PAINTBRAWL",
 	"joke": [
 		{"time": "0:01", "joke": "Takyon (Death Yon) - Death Grips"},
-		{"time": "0:31, 0:01", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "0:31, 0:01", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "0:04", "joke": "The Crackhead Bop - The Bop King"},
 		{"time": "0:31, 0:04", "joke": "Overdriven guitar instrument - EarthBound"},
 		{"time": "0:47, 0:04", "joke": "George Lopez YTPMV - EYTPS"},
@@ -76226,7 +76220,7 @@ const db = {
 		{"time": "1:41", "joke": "Bassline Junkie - Dizzee Rascal"},
 		{"time": "1:50", "joke": "Snow halation - Love Live!, the µ's"},
 		{"time": "1:52", "joke": "Animals - Maroon 5"},
-		{"time": "1:52", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "1:52", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "2:02", "joke": "Gangnam Style - PSY"},
 		{"time": "2:11", "joke": "Crank That - Soulja Boy"}],
 	"artist": "SUPAHSTAR CLOD"},
@@ -76474,7 +76468,7 @@ const db = {
 		{"time": "1:43", "joke": "Deez Nuts - WelvenDaGreat"},
 		{"time": "1:44", "joke": "Gangnam Style - PSY"},
 		{"time": "1:45", "joke": "GRAND DAD - Vinesauce Joel"},
-		{"time": "1:47", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "1:47", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "1:48", "joke": "World's Loudest Orgasm - Creampie Cathy"},
 		{"time": "1:49", "joke": "PPAP - PIKOTARO"}],
 	"artist": "Reach"},
@@ -77102,7 +77096,7 @@ const db = {
 		{"time": "0:32", "joke": "Technologic - Daft Punk"},
 		{"time": "0:32", "joke": "Space Jam - Quad City DJs"},
 		{"time": "0:40", "joke": "Gas Pedal - Sage The Gemini ft. IamSu"},
-		{"time": "0:40", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "0:40", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "0:50", "joke": "Krusty Krab Training Video - SpongeBob SquarePants"},
 		{"time": "1:04", "joke": "Bonfire - Childish Gambino"},
 		{"time": "1:04", "joke": "Sweatpants - Childish Gambino ft. Problem"},
@@ -77880,7 +77874,7 @@ const db = {
 		{"time": "0:17", "joke": "Bangarang - Skrillex"},
 		{"time": "0:20", "joke": "Meet the Flintstones - Hoyt Curtin"},
 		{"time": "1:02", "joke": "Title Theme & Ending - The Flintstones: The Rescue of Dino & Hoppy"},
-		{"time": "1:02", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "1:02", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "1:02", "joke": "PPAP - PIKO-TARO"},
 		{"time": "1:10", "joke": "Ultimate - Denzel Curry"},
 		{"time": "1:26", "joke": "2.B.A. Master - Russell Velazquez"}],
@@ -78363,7 +78357,7 @@ const db = {
 		{"time": "0:34-0:47", "joke": "Money (That's What I Want) - Barrett Strong"}],
 	"artist": "Douk Nouk Kem"},
 "BORri4lLYyY": {
-	"title": "The Grand Finale - Mario & Luigi Bowser's Inside Story",
+	"title": "The Grand Finale - Mario & Luigi: Bowser's Inside Story",
 	"wiki": "https://siivagunner.wiki/wiki/The%20Grand%20Finale%20(Beta%20Mix)%20-%20Mario%20%26%20Luigi%20Bowser's%20Inside%20Story",
 	"joke": [
 		{"time": "1:32, 0:09, 0:27", "joke": "Snow halation - µ's"},
@@ -78482,7 +78476,7 @@ const db = {
 		{"time": "1:32", "joke": "Sans voice sample - Undertale"},
 		{"time": "1:32", "joke": "GRAND DAD - Vinesauce Joel"},
 		{"time": "1:33", "joke": "Gangnam Style - PSY"},
-		{"time": "1:34", "joke": "Nico Nico Nii! - Nico Yazawa from Love Live! School Idol Project"},
+		{"time": "1:34", "joke": "Nico Nico Nii! - Nico Yazawa (Love Live! School Idol Project)"},
 		{"time": "1:34", "joke": "Space Jam - Quad City DJs"},
 		{"time": "1:36", "joke": "Instrument Swap/Arrangement - A Capella"},
 		{"time": "1:41", "joke": "Instrument Swap/Arrangement - Ocarina"},
@@ -78764,12 +78758,12 @@ const db = {
 	"title": "VS. The Wicked Company - Kirby Planet Robobot",
 	"wiki": "https://siivagunner.wiki/wiki/VS.%20The%20Wicked%20Company%20(Alternate%20Mix)%20-%20Kirby%20Planet%20Robobot",
 	"joke": [
-		{"time": "0:00", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "0:00", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "0:09", "joke": "Gangnam Style - PSY"},
 		{"time": "0:28", "joke": "Gentleman - PSY"},
 		{"time": "0:54", "joke": "Crank That - Soulja Boy"},
 		{"time": "1:44", "joke": "Beep! Bop! - Mr. Krabs"},
-		{"time": "1:50", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "1:50", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "2:32", "joke": "The Next Episode - Dr. Dre featuring Snoop Dogg"},
 		{"time": "2:38", "joke": "Drop It Like It's Hot - Snoop Dogg feat. Pharrell Williams"},
 		{"time": "3:23", "joke": "Gangnam Style - PSY"}],
@@ -78833,7 +78827,7 @@ const db = {
 		{"time": "0:00", "joke": "Crank That - Soulja Boy"},
 		{"time": "0:03", "joke": "Family Guy Main Title - Family Guy"},
 		{"time": "0:03", "joke": "SPAGHETTI - Hotel Mario"},
-		{"time": "0:03", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "0:03", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "0:05", "joke": "Meet the Flintstones - Hoyt Curtin"},
 		{"time": "0:05", "joke": "Tunak Tunak Tun - Daler Mehndi"},
 		{"time": "0:08", "joke": "Ravioli, ravioli, give me the formuoli - SpongeBob SquarePants"},
@@ -78844,7 +78838,7 @@ const db = {
 		{"time": "0:17", "joke": "CG Rap - Donkey Kong 64, Hinchy"},
 		{"time": "0:20", "joke": "Waters Of Nazareth - Justice"},
 		{"time": "0:21", "joke": "Crank That - Soulja Boy"},
-		{"time": "0:27", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "0:27", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "0:28", "joke": "Gangnam Style - PSY"},
 		{"time": "0:34", "joke": "Space Jam - Quad City DJ's"},
 		{"time": "0:38", "joke": "Could you play that song again? - SpongeBob SquarePants"},
@@ -78921,7 +78915,7 @@ const db = {
 		{"time": "1:49, 0:19", "joke": "El Sonidito - Hechizeros Band"},
 		{"time": "0:21", "joke": "Bodies - Drowning Pool"},
 		{"time": "1:07, 0:30", "joke": "Howie scream - Howie Long"},
-		{"time": "0:31", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "0:31", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "0:41", "joke": "Drop It Like It's Hot - Snoop Dogg ft. Pharrell Williams"},
 		{"time": "0:42", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Nate Dogg, & Kurupt"},
 		{"time": "1:52, 0:50", "joke": "Crank That - Soulja Boy"},
@@ -78940,7 +78934,7 @@ const db = {
 		{"time": "0:09", "joke": "The Nutshack theme - NUMP"},
 		{"time": "0:17, 0:09", "joke": "Gangnam Style - PSY"},
 		{"time": "0:17", "joke": "Space Jam - Quad City DJ's, Space Jam"},
-		{"time": "0:22", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "0:22", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "0:26", "joke": "The one that goes... (Beep Boop Bop) - Mr. Krabs, SpongeBob SquarePants"},
 		{"time": "0:35", "joke": "Drop It Like It's Hot - Snoop Dogg ft. Pharrell Williams"},
 		{"time": "0:35", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, Nate Dogg"},
@@ -78968,7 +78962,7 @@ const db = {
 	"title": "Stone Tower Temple - The Legend of Zelda: Majora's Mask",
 	"wiki": "https://siivagunner.wiki/wiki/Stone%20Tower%20Temple%20(Beta%20Mix)%20-%20The%20Legend%20of%20Zelda%3A%20Majora's%20Mask",
 	"joke": [
-		{"time": "0:02", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "0:02", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "0:09", "joke": "World's Loudest Orgasm - Creampie Cathy"},
 		{"time": "0:24", "joke": "We Are Number One - LazyTown, Máni Svavarsson"},
 		{"time": "0:53", "joke": "GO MY WAY!! - THE iDOLM@STER"},
@@ -78985,7 +78979,7 @@ const db = {
 		{"time": "0:34", "joke": "Rapper's Delight - Sugarhill Gang"},
 		{"time": "0:40", "joke": "The Nutshack theme - NUMP"},
 		{"time": "0:59", "joke": "Spooky Scary Skeletons - Andrew Gold"},
-		{"time": "1:04", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"}],
+		{"time": "1:04", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"}],
 	"artist": "Marrow"},
 "u_QLayD2IdQ": {
 	"title": "GHOST TRICK - Ghost Trick: Phantom Detective",
@@ -79131,7 +79125,7 @@ const db = {
 		{"time": "1:42", "joke": "U Guessed it - OG Maco"},
 		{"time": "1:43", "joke": "Body Rock - WarioWare D.I.Y."},
 		{"time": "1:43", "joke": "U Guessed It - OG Maco"},
-		{"time": "1:43", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "1:43", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "1:43", "joke": "Take On Me - a-ha"},
 		{"time": "2:02", "joke": "Snow halation - μ's"},
 		{"time": "2:02", "joke": "Gangnam Style - PSY"},
@@ -79254,7 +79248,7 @@ const db = {
 		{"time": "0:45", "joke": "His Theme - Undertale"}],
 	"artist": "emeraldschemer"},
 "tW0SRAHohW0": {
-	"title": "The Grand Finale - Mario & Luigi Bowser's Inside Story",
+	"title": "The Grand Finale - Mario & Luigi: Bowser's Inside Story",
 	"wiki": "https://siivagunner.wiki/wiki/The%20Grand%20Finale%20(Final%20Mix)%20-%20Mario%20%26%20Luigi%20Bowser's%20Inside%20Story",
 	"joke": [
 		{"time": "1:35, 1:08", "joke": "Snow halation - μ's"},
@@ -79408,7 +79402,7 @@ const db = {
 		{"time": "1:52", "joke": "Crank That - Soulja Boy"},
 		{"time": "2:00", "joke": "U Guessed It - OG Maco"},
 		{"time": "2:26", "joke": "Plastic Pop - Thomas Danko"},
-		{"time": "2:57", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "2:57", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "3:13", "joke": "Megalovania - Undertale"},
 		{"time": "3:29", "joke": "World's Loudest Orgasm - Creampie Cathy"},
 		{"time": "3:30", "joke": "Meet the Flintstones - Hoyt Curtin"}],
@@ -79532,7 +79526,7 @@ const db = {
 	"joke": [
 		{"time": "0:06", "joke": "Meet the Flintstones - Hoyt Curtin"},
 		{"time": "0:17", "joke": "Crank That - Soulja Boy"},
-		{"time": "0:34", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "0:34", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "0:46-1:00", "joke": "World's Loudest Orgasm - Creampie Cathy"},
 		{"time": "1:05", "joke": "POKEMON GO SONG!!! - Mishovy šilenosti"},
 		{"time": "1:21", "joke": "Title Theme & Ending - The Flintstones: The Rescue of Dino & Hoppy"},
@@ -79631,7 +79625,7 @@ const db = {
 		{"time": "0:03", "joke": "GRAND DAD - Vinesauce Joel"},
 		{"time": "0:08", "joke": "Who's been drawing dicks? - Vinesauce Joel"},
 		{"time": "0:12", "joke": "Gangnam Style - PSY"},
-		{"time": "0:16", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "0:16", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "0:16", "joke": "World's Loudest Orgasm - Creampie Cathy"},
 		{"time": "0:18", "joke": "Crank That - Soulja Boy"},
 		{"time": "0:22", "joke": "Commercial - Old Spice"},
@@ -79692,7 +79686,7 @@ const db = {
 		{"time": "1:38", "joke": "Snow halation - μ's"},
 		{"time": "2:40", "joke": "Gangnam Style - PSY"},
 		{"time": "2:44", "joke": "Megalovania - Undertale"},
-		{"time": "3:14", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "3:14", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "3:14", "joke": "The Nutshack theme - NUMP"},
 		{"time": "3:30", "joke": "Boulevard of Broken Dreams - Green Day"},
 		{"time": "3:30", "joke": "Crank That - Soulja Boy"},
@@ -79807,7 +79801,7 @@ const db = {
 			{"time": "0:00", "joke": "Howie scream - Howie Long"},
 		{"time": "0:00", "joke": "Voice of Lavos - Chrono Trigger"},
 		{"time": "0:06-1:13", "joke": "Instrument Swap/Arrangement - Chrono Trigger"},
-		{"time": "0:11", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "0:11", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "0:16", "joke": "Meet the Flintstones - Hoyt Curtin"},
 		{"time": "0:29", "joke": "The Simpsons Main Title Theme - Danny Elfman"},
 		{"time": "0:35", "joke": "The Nutshack theme - NUMP"},
@@ -80017,12 +80011,12 @@ const db = {
 		{"time": "3:21", "joke": "Baker Street - Gerald Rafferty"},
 		{"time": "3:37", "joke": "POKEMON GO SONG!!! - Misha / Mishovy šílenosti"},
 		{"time": "4:03", "joke": "GRAND DAD - Vinesauce Joel"},
-		{"time": "4:24", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "4:24", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "4:43, 5:30", "joke": "World's Loudest Orgasm - Creampie Cathy"},
 		{"time": "5:43, 5:19", "joke": "Run Away - SunStroke Project & Olia Tira"}],
 	"artist": "Unknown Ripper"},
 "RZekgdNc624": {
-	"title": "Grasslands, All the Way - Mario & Luigi Bowser's Inside Story",
+	"title": "Grasslands, All the Way - Mario & Luigi: Bowser's Inside Story",
 	"wiki": "https://siivagunner.wiki/wiki/Grasslands%2C%20All%20the%20Way%20-%20Mario%20%26%20Luigi%20Bowser's%20Inside%20Story",
 	"joke": [
 		{"time": "0:33, 0:04", "joke": "POKEMON GO SONG!!! - Misha"},
@@ -80086,10 +80080,9 @@ const db = {
 	"wiki": "https://siivagunner.wiki/wiki/Chattering%20World%20-%20MOTHER%204",
 	"joke": [
 		{"time": "0:06", "joke": "Bangarang - Skrillex ft. Sirah"},
-		{"time": "0:07", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "0:07", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "0:10", "joke": "All Star - Smash Mouth"},
 		{"time": "0:27", "joke": "Crank That - Soulja Boy"},
-		{"time": "0:28", "joke": "Well excuuuuuuuse me - Link from The Legend of Zelda - The Animated Series"},
 		{"time": "0:38", "joke": "Take my mug! - charlieissocoollike"},
 		{"time": "0:40", "joke": "Yo Home to Bel-Air - DJ Jazzy Jeff & The Fresh Prince"}],
 	"artist": "Barney Rubble"},
@@ -80298,7 +80291,7 @@ const db = {
 	"wiki": "https://siivagunner.wiki/wiki/Long%20Tall%20Eyelash%20-%20LSD%3A%20Dream%20Emulator",
 	"joke": [
 		{"time": "0:10", "joke": "Main Theme - Quake"},
-		{"time": "0:22", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "0:22", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "0:43", "joke": "The Nutshack theme - NUMP"},
 		{"time": "0:54, 0:48", "joke": "Crank That - Soulja Boy"},
 		{"time": "1:38", "joke": "SEGA Chant - Sega Games Co., Ltd."},
@@ -80343,7 +80336,7 @@ const db = {
 		{"time": "0:16", "joke": "GRAND DAD - Vinesauce Joel"},
 		{"time": "0:30", "joke": "Snow halation - µ's"},
 		{"time": "0:47", "joke": "The Nutshack theme - The Nutshack, NUMP"},
-		{"time": "1:07", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "1:07", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "1:36", "joke": "Rainbow Tylenol - Kitsune^2"},
 		{"time": "1:45", "joke": "World's Loudest Orgasm - Creampie Cathy"}],
 	"artist": "Eziam One"},
@@ -80399,7 +80392,7 @@ const db = {
 	"wiki": "https://siivagunner.wiki/wiki/Special%20Course%20-%20Yoshi's%20Woolly%20World",
 	"joke": [
 		{"time": "0:03", "joke": "Space Jam - Quad City DJ's"},
-		{"time": "0:14", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "0:14", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "0:28", "joke": "Title Theme & Ending - 7 GRAND DAD"},
 		{"time": "0:28", "joke": "The Simpsons Main Title Theme - Danny Elfman"},
 		{"time": "1:33, 0:39", "joke": "Gangnam Style - PSY"},
@@ -80588,7 +80581,7 @@ const db = {
 		{"time": "1:12", "joke": "Meet the Flintstones - Hoyt Curtin"},
 		{"time": "1:24", "joke": "World's Loudest Orgasm - Creampie Cathy"},
 		{"time": "1:25", "joke": "Culture Shock - Death Grips"},
-		{"time": "1:38", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "1:38", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "1:50", "joke": "Mōsō Express - Monogatari"},
 		{"time": "2:00", "joke": "Best Cry Ever - Rocky Lockridge"},
 		{"time": "2:00", "joke": "Take it boy! - House of Detention"},
@@ -80665,7 +80658,7 @@ const db = {
 		{"time": "1:47, 0:23", "joke": "Gangnam Style - PSY"},
 		{"time": "0:38", "joke": "Snow halation - µ's"},
 		{"time": "0:52", "joke": "Drop It Like It's Hot - Snoop Dogg ft. Pharrell Williams"},
-		{"time": "1:06", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "1:06", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "1:33", "joke": "The Nutshack theme song - The Nutshack, NUMP"},
 		{"time": "2:09", "joke": "Meet the Flintstones - Hoyt Curtin"},
 		{"time": "2:16", "joke": "The Simpsons Main Title Theme - The Simpsons, Danny Elfman"},
@@ -80764,7 +80757,7 @@ const db = {
 		{"time": "0:36", "joke": "Let It Go - Frozen"},
 		{"time": "0:54", "joke": "When You Wish Upon a Star - Pinocchio"},
 		{"time": "1:00", "joke": "A Whole New World - Aladdin"},
-		{"time": "1:06", "joke": "You've  Got a Friend in Me - Toy Story"},
+		{"time": "1:06", "joke": "You've Got a Friend in Me - Toy Story"},
 		{"time": "1:12", "joke": "Mickey Mouse March - The Mickey Mouse Club"}],
 	"artist": "Akfamilyhome"},
 "Ai1j-z0TghQ": {
@@ -80781,7 +80774,7 @@ const db = {
 		{"time": "0:29-0:38", "joke": "Family Guy Main Title - Family Guy"},
 		{"time": "0:38-0:51", "joke": "Crank That - Soulja Boy"},
 		{"time": "0:40-0:51", "joke": "The Simpsons Main Title Theme - The Simpsons"},
-		{"time": "0:51-1:14", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "0:51-1:14", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": " 1:03-1:05", "joke": "World's Loudest Orgasm - Creampie Cathy"},
 		{"time": "1:03-1:14", "joke": "GO MY WAY!! - THE iDOLM@STER"},
 		{"time": "1:14-1:26", "joke": "Megalovania - Undertale"},
@@ -81425,7 +81418,7 @@ const db = {
 		{"time": "0:44", "joke": "Five Nights at Freddy's 1 Song - The Living Tombstone"},
 		{"time": "0:49", "joke": "Gangnam Style - PSY"},
 		{"time": "1:04", "joke": "GRAND DAD - Vinesauce Joel"},
-		{"time": "1:05", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "1:05", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "1:10", "joke": "Yo Home to Bel-Air - DJ Jazzy Jeff & The Fresh Prince"},
 		{"time": "1:19", "joke": "Payphone - Maroon 5"},
 		{"time": "1:21", "joke": "Megalovania - Undertale"},
@@ -81478,7 +81471,7 @@ const db = {
 		{"time": "1:10", "joke": "Crank That - Soulja Boy"},
 		{"time": "1:26", "joke": "h3h3Productions Theme Song - MajorLeagueWobs"},
 		{"time": "1:56", "joke": "El Sonidito - Hechizeros Band"},
-		{"time": "2:12", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "2:12", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "2:17", "joke": "Meet the Flintstones - Hoyt Curtin"},
 		{"time": "2:28", "joke": "Я очень рад, ведь я, наконец, возвращаюсь домой - Eduard Khil"},
 		{"time": "2:55", "joke": "Fuck Bees - Happening.tv"},
@@ -81742,7 +81735,7 @@ const db = {
 		{"time": "0:58", "joke": "Meet the Flintstones - Hoyt Curtin"}],
 	"artist": "LuNiney"},
 "my82UjjENcE": {
-	"title": "The Grand Finale - Mario & Luigi Bowser's Inside Story",
+	"title": "The Grand Finale - Mario & Luigi: Bowser's Inside Story",
 	"wiki": "https://siivagunner.wiki/wiki/The%20Grand%20Finale%20-%20Mario%20%26%20Luigi%20Bowser's%20Inside%20Story",
 	"joke": [
 		{"time": "1:30", "joke": "GRAND DAD - Vinesauce Joel"},
@@ -81775,7 +81768,7 @@ const db = {
 		{"time": "2:38", "joke": "Hollaback Girl - Gwen Stefani"},
 		{"time": "2:41", "joke": "Never Gonna Give You Up - Rick Astley"},
 		{"time": "2:49", "joke": "Down With The Sickness - Disturbed"},
-		{"time": "2:56", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "2:56", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "3:26", "joke": "Levels - Avicii"},
 		{"time": "3:56", "joke": "Bonfire - Childish Gambino"},
 		{"time": "3:56", "joke": "Baby Got Back - Sir Mix-A-Lot"},
@@ -81828,7 +81821,7 @@ const db = {
 		{"time": "3:32", "joke": "Remember the Name - Fort Minor"},
 		{"time": "3:40", "joke": "Steppin' on the Beach - SpongeBob SquarePants"},
 		{"time": "3:44", "joke": "San Andreas Theme Song - Grand Theft Auto: San Andreas"},
-		{"time": "3:49", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "3:49", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "3:52", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt and Nate Dogg"},
 		{"time": "4:01", "joke": "Gangnam Style - PSY"},
 		{"time": "4:08", "joke": "Yo Home to Bel-Air - DJ Jazzy Jeff & The Fresh Prince"},
@@ -83030,14 +83023,14 @@ const db = {
 	"joke": [
 		{"time": "0:00 - 0:23", "joke": "Kyun! Vampire Girl - THE iDOLM@STER 2"},
 		{"time": "0:20 - 0:46", "joke": "Crank That - Soulja Boy"},
-		{"time": "0:23 - 0:46", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "0:23 - 0:46", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "0:46 - 1:10", "joke": "Kyun! Vampire Girl - THE iDOLM@STER 2"},
 		{"time": "1:10 - 1:21", "joke": "Space Jam - Quad City Dj's"},
 		{"time": "1:10 - 1:32", "joke": "Totino's - Tim & Eric"},
 		{"time": "1:21 - 1:56", "joke": "Meet The Flintstones - Hoyt Curtin"},
 		{"time": "1:34 - 1:55", "joke": "Space Jam - Quad City Dj's"},
 		{"time": "1:45 - 1:55", "joke": "Totino's - Tim & Eric"},
-		{"time": "1:56 - 2:18", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "1:56 - 2:18", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "2:08 - 2:19", "joke": "U Guessed It - OG Maco"},
 		{"time": "2:19 - 2:55", "joke": "Smooth - Santana and Rob Thomas"},
 		{"time": "2:31 - 3:05", "joke": "Meet The Flintstones - Hoyt Curtin"},
@@ -83535,7 +83528,7 @@ const db = {
 		{"time": "1:57", "joke": "Get Back - Ludacris"},
 		{"time": "3:33", "joke": "Sins of the Father - Metal Gear Solid V: The Phantom Pain"},
 		{"time": "4:05", "joke": "One More Night - Maroon 5"},
-		{"time": "4:40", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"}],
+		{"time": "4:40", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"}],
 	"artist": "TeeOS"},
 "0p3qhHQq3ew": {
 	"title": "Back o Beyond - Grand Theft Auto: San Andreas",
@@ -83635,7 +83628,7 @@ const db = {
 		{"time": "0:51", "joke": "Uptown Funk - Mark Ronson ft. Bruno Mars"},
 		{"time": "0:51", "joke": "Look At Me Now - Chris Brown ft. Lil Wayne, Busta Rhymes"},
 		{"time": "1:08", "joke": "The Nutshack theme - NUMP"},
-		{"time": "1:16", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "1:16", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		 {"time": "1:16", "joke": "World's Loudest Orgasm - Creampie Cathy"},
 		{"time": "1:26", "joke": "Unknown from M.E. - Sonic Adventure"},
 		{"time": "1:26", "joke": "Haunted House - 8-Bit Beast"},
@@ -84012,7 +84005,7 @@ const db = {
 		{"time": "1:54", "joke": "GRAND DAD - Vinesauce Joel"}],
 	"artist": "beat_shobon"},
 "0f0TE4X6NcI": {
-	"title": "Traveling About on a Journey of Memories - Mario & Luigi Bowser's Inside Story",
+	"title": "Traveling About on a Journey of Memories - Mario & Luigi: Bowser's Inside Story",
 	"wiki": "https://siivagunner.wiki/wiki/Traveling%20About%20on%20a%20Journey%20of%20Memories%20-%20Mario%20%26%20Luigi%20Bowser's%20Inside%20Story",
 	"joke": [
 		{"time": "3:27, 0:10", "joke": "Meet the Flintstones - The Flintstones"},
@@ -84358,7 +84351,7 @@ const db = {
 		{"time": "8:45", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, Nate Dogg"},
 		{"time": "8:57", "joke": "Uptown Funk - Mark Ronson ft. Bruno Mars"},
 		{"time": "11:15", "joke": "Takyon (Death Yon) - Death Grips"},
-		{"time": "11:46", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "11:46", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "12:00", "joke": "Last Train Home - Pat Metheny"},
 		{"time": "13:29", "joke": "Stylo - Gorillaz"},
 		{"time": "13:52", "joke": "Crank That - Soulja Boy"},
@@ -84389,7 +84382,7 @@ const db = {
 		{"time": "8:40", "joke": "STAND PROUD - Jin Hashimoto"},
 		{"time": "8:58", "joke": "Uptown Funk - Mark Ronson ft. Bruno Mars"},
 		{"time": "11:15", "joke": "Takyon (Death Yon) - Death Grips"},
-		{"time": "11:46", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "11:46", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "13:14", "joke": "ジョジョ その血の記憶～END OF THE WORLD～ - JO☆STARS"},
 		{"time": "13:29", "joke": "Stylo - Gorillaz"},
 		{"time": "13:52", "joke": "Crank That - Soulja Boy"},
@@ -84474,7 +84467,7 @@ const db = {
 		{"time": "0:28 - 0:37", "joke": "Crank That - Soulja Boy"},
 		{"time": "0:38 - 0:42", "joke": "Blue (Da Ba Dee) - Eiffel 65"},
 		{"time": "0:40 - 0:46", "joke": "Title Theme & Ending - 7 GRAND DAD"},
-		{"time": "0:41 - 0:46", "joke": "S.L.A.B. Freestyle - Chip Tha Ripper"},
+		{"time": "0:41 - 0:46", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "0:46 - 0:51", "joke": "Gangnam Style - PSY"},
 		{"time": "0:52 - 0:57", "joke": "Space Jam - Quad City DJs"},
 		{"time": "0:57 - 1:02", "joke": "Snow halation - Love Live!, the µ's"},

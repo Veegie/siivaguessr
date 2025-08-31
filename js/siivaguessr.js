@@ -29,7 +29,9 @@ const show = function (val) {
 
 const songSet = new Set();
 for (const hash in db) {
-    songSet.add(db[hash].title);
+    if (!db[hash].exclude || db[hash].exclude !== 'title') {
+        songSet.add(db[hash].title);
+    }
     if (Array.isArray(db[hash].joke)) {
         for (const entry of db[hash].joke) {
             songSet.add(entry.joke);
