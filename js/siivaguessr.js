@@ -950,16 +950,34 @@ seekBar.addEventListener('mouseup', function () {
     }
 });
 
+document.getElementById('lightModeSwitch').addEventListener('change', function() {
+    if (this.checked) {
+        document.documentElement.classList.remove('dark');
+        document.documentElement.classList.add('light');
+        localStorage.setItem('lightMode', true);
+    } else {
+        document.documentElement.classList.remove('light');
+        document.documentElement.classList.add('dark');
+        localStorage.removeItem('lightMode');
+    }
+});
+
+if (localStorage.getItem('lightMode') !== null) {
+    document.getElementById('lightModeSwitch').checked = true;
+    document.documentElement.classList.remove('dark');
+    document.documentElement.classList.add('light');
+}
+
 document.getElementById('dailySickoSwitch').addEventListener('change', function () {
-    localStorage.setItem('dailySicko', this.checked);
-})
+    if (this.checked) {
+        localStorage.setItem('dailySicko', this.checked);
+    } else {
+        localStorage.removeItem('dailySicko');
+    }
+});
 
 if (localStorage.getItem('dailySicko') !== null) {
-    if (localStorage.getItem('dailySicko') === 'false') {
-        document.getElementById('dailySickoSwitch').checked = false;
-    } else {
-        document.getElementById('dailySickoSwitch').checked = true;
-    }
+    document.getElementById('dailySickoSwitch').checked = true;
 }
 
 document.getElementById('giveUpBtn').addEventListener('click', function () {

@@ -33,6 +33,13 @@ body {
   font-weight: 400;
   font-style: normal;
   text-align: center;
+  transition: background-color 2s, color 2s;
+}
+
+#heavySwitch {
+  position: absolute;
+  right: 10px;
+  top: 10px;
 }
 
 :root.dark body {
@@ -49,6 +56,10 @@ body {
 
 div[hidden] {
   display: none !important;
+}
+
+svg {
+  transition: fill 2s;
 }
 
 :root.dark svg {
@@ -242,6 +253,7 @@ button {
   margin: 8px;
   font-size: 3rem;
   border-radius: 20px;
+  transition: color 2s;
 }
 
 :root.dark .text-btn {
@@ -799,11 +811,11 @@ input[type="range"]:focus::-moz-range-thumb {
   border-radius: 20px;
 }
 
-input:checked + .slider {
+input:checked + .slider.switch {
   background-color: #28a41c;
 }
 
-input:focus + .slider {
+input:focus + .slider.switch {
   box-shadow: 0 0 1px #145a0e;
 }
 
