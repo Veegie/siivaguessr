@@ -62,7 +62,7 @@ const dailies = {
     "20250924": { "hash": "", "mode": QuestionMode.NORMAL },
     "20250925": { "hash": "", "mode": QuestionMode.NORMAL },
     "20250926": { "hash": "", "mode": QuestionMode.NORMAL },
-    "20250927": { "hash": "", "mode": QuestionMode.NORMAL },
+    "20250927": { "hash": "NplJ1ciVpD4", "mode": QuestionMode.NORMAL },
     "20250928": { "hash": "", "mode": QuestionMode.NORMAL }, // Sunday
     "20250929": { "hash": "BO6pUT2-vDA", "mode": QuestionMode.NORMAL },
     "20250930": { "hash": "", "mode": QuestionMode.NORMAL },
@@ -73,10 +73,10 @@ const dailies = {
     "20251005": { "hash": "", "mode": QuestionMode.NORMAL }, // Sunday
     "20251006": { "hash": "", "mode": QuestionMode.NORMAL },
     "20251007": { "hash": "", "mode": QuestionMode.NORMAL },
-    "20251008": { "hash": "", "mode": QuestionMode.NORMAL },
+    "20251008": { "hash": "KU4fK0OSUGk", "mode": QuestionMode.NORMAL },
     "20251009": { "hash": "", "mode": QuestionMode.NORMAL },
     "20251010": { "hash": "", "mode": QuestionMode.NORMAL },
-    "20251011": { "hash": "", "mode": QuestionMode.NORMAL },
+    "20251011": { "hash": "gJD0eKQtWNE", "mode": QuestionMode.NORMAL },
     "20251012": { "hash": "", "mode": QuestionMode.NORMAL }, // Sunday
     "20251013": { "hash": "", "mode": QuestionMode.NORMAL },
     "20251014": { "hash": "", "mode": QuestionMode.NORMAL },
@@ -111,7 +111,7 @@ const dailies = {
     "20251112": { "hash": "EUTt2AGtyjI", "mode": QuestionMode.NORMAL },
     "20251113": { "hash": "", "mode": QuestionMode.NORMAL },
     "20251114": { "hash": "", "mode": QuestionMode.NORMAL },
-    "20251115": { "hash": "", "mode": QuestionMode.NORMAL },
+    "20251115": { "hash": "HEZV4tVqHuQ", "mode": QuestionMode.NORMAL },
     "20251116": { "hash": "", "mode": QuestionMode.NORMAL }, // Sunday
     "20251117": { "hash": "", "mode": QuestionMode.NORMAL },
     "20251118": { "hash": "", "mode": QuestionMode.NORMAL },
@@ -139,18 +139,18 @@ const dailies = {
     "20251210": { "hash": "", "mode": QuestionMode.NORMAL },
     "20251211": { "hash": "", "mode": QuestionMode.NORMAL },
     "20251212": { "hash": "", "mode": QuestionMode.NORMAL },
-    "20251213": { "hash": "", "mode": QuestionMode.NORMAL },
+    "20251213": { "hash": "tWWajOv_Big", "mode": QuestionMode.NORMAL },
     "20251214": { "hash": "", "mode": QuestionMode.NORMAL }, // Sunday
     "20251215": { "hash": "", "mode": QuestionMode.NORMAL },
     "20251216": { "hash": "", "mode": QuestionMode.NORMAL },
     "20251217": { "hash": "", "mode": QuestionMode.NORMAL },
     "20251218": { "hash": "", "mode": QuestionMode.NORMAL },
     "20251219": { "hash": "", "mode": QuestionMode.NORMAL },
-    "20251220": { "hash": "t2ChkicS2is", "mode": QuestionMode.NORMAL },
+    "20251220": { "hash": "CdLI5pW0ZyM", "mode": QuestionMode.NORMAL },
     "20251221": { "hash": "", "mode": QuestionMode.NORMAL }, // Sunday
     "20251222": { "hash": "0UWUXh5cPFk", "mode": QuestionMode.NORMAL },
     "20251223": { "hash": "s-Vky_eAJIw", "mode": QuestionMode.NORMAL },
-    "20251224": { "hash": "", "mode": QuestionMode.NORMAL },
+    "20251224": { "hash": "t2ChkicS2is", "mode": QuestionMode.NORMAL },
     "20251225": { "hash": "", "mode": QuestionMode.NORMAL },
     "20251226": { "hash": "", "mode": QuestionMode.NORMAL },
     "20251227": { "hash": "", "mode": QuestionMode.NORMAL },
@@ -181,7 +181,7 @@ const dailies = {
     "20260121": { "hash": "", "mode": QuestionMode.NORMAL },
     "20260122": { "hash": "", "mode": QuestionMode.NORMAL },
     "20260123": { "hash": "", "mode": QuestionMode.NORMAL },
-    "20260124": { "hash": "", "mode": QuestionMode.NORMAL },
+    "20260124": { "hash": "csnZPX5H-y8", "mode": QuestionMode.NORMAL },
     "20260125": { "hash": "", "mode": QuestionMode.NORMAL }, // Sunday
     "20260126": { "hash": "", "mode": QuestionMode.NORMAL },
     "20260127": { "hash": "", "mode": QuestionMode.NORMAL },
@@ -195,7 +195,7 @@ const dailies = {
     "20260204": { "hash": "", "mode": QuestionMode.NORMAL },
     "20260205": { "hash": "", "mode": QuestionMode.NORMAL },
     "20260206": { "hash": "", "mode": QuestionMode.NORMAL },
-    "20260207": { "hash": "", "mode": QuestionMode.NORMAL },
+    "20260207": { "hash": "Q8qz4eol1pU", "mode": QuestionMode.NORMAL },
     "20260208": { "hash": "", "mode": QuestionMode.NORMAL }, // Sunday
     "20260209": { "hash": "", "mode": QuestionMode.NORMAL },
     "20260210": { "hash": "", "mode": QuestionMode.NORMAL },
@@ -216,7 +216,7 @@ const dailies = {
     "20260225": { "hash": "", "mode": QuestionMode.NORMAL },
     "20260226": { "hash": "", "mode": QuestionMode.NORMAL },
     "20260227": { "hash": "", "mode": QuestionMode.NORMAL },
-    "20260228": { "hash": "", "mode": QuestionMode.NORMAL },
+    "20260228": { "hash": "5wTj9IzjZxw", "mode": QuestionMode.NORMAL },
     "20260301": { "hash": "", "mode": QuestionMode.NORMAL }, // Sunday
     "20260302": { "hash": "", "mode": QuestionMode.NORMAL },
     "20260303": { "hash": "", "mode": QuestionMode.NORMAL },
@@ -332,7 +332,7 @@ const dailies = {
     "20260621": { "hash": "", "mode": QuestionMode.NORMAL }, // Sunday
     "20260622": { "hash": "", "mode": QuestionMode.NORMAL },
     "20260623": { "hash": "", "mode": QuestionMode.NORMAL },
-    "20260624": { "hash": "", "mode": QuestionMode.NORMAL },
+    "20260624": { "hash": "xMd8ZB72Ruw", "mode": QuestionMode.NORMAL },
     "20260625": { "hash": "", "mode": QuestionMode.NORMAL },
     "20260626": { "hash": "", "mode": QuestionMode.NORMAL },
     "20260627": { "hash": "", "mode": QuestionMode.NORMAL },
