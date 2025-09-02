@@ -25206,6 +25206,7 @@ const db = {
 	"artist": "xIncisions"},
 "Z7NQPv10rAk": {
 	"title": "A Gentle Breeze at Cavi Cape DX (Inside Bowser) - Mario & Luigi: Bowser's Inside Story + Bowser Jr.'",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/A%20Gentle%20Breeze%20at%20Cavi%20Cape%20DX%20(Inside%20Bowser)%20-%20Mario%20%26%20Luigi%3A%20Bowser's%20Inside%20Story%20%2B%20Bowser%20Jr.'",
 	"joke": "Ladykiller - Maroon 5",
 	"artist": "Memmy"},
@@ -25379,11 +25380,6 @@ const db = {
 	"wiki": "https://siivagunner.wiki/wiki/YIAY%20Theme%20-%20Be%20Funny%20Now!",
 	"joke": "Viva la Vida - Coldplay",
 	"artist": "Mitchell"},
-"0Jd0wqXsXbw": {
-	"title": "Launch Base Zone (Act 1) (Sonic 3 & Knuckles) - Sonic Origins",
-	"wiki": "https://siivagunner.wiki/wiki/Launch%20Base%20Zone%20(Act%201)%20(Sonic%203%20%26%20Knuckles)%20-%20Sonic%20Origins",
-	"joke": "Splash Hill Zone (Act 1) - that title",
-	"artist": "mBluett"},
 "UoWXk-6pbsk": {
 	"title": "Reach Out to the Truth -First Battle- - Persona 4",
 	"wiki": "https://siivagunner.wiki/wiki/Reach%20Out%20to%20the%20Truth%20-First%20Battle-%20(OST%20Version)%20-%20Persona%204",
@@ -25651,7 +25647,7 @@ const db = {
 	"joke": "Wood Man Stage - Mega Man 2",
 	"artist": "Myeauxyoozi"},
 "y-kH6Qkbrmc": {
-	"title": "Good Job. You've Made It To the Bottom of the Mind Control Facility. Well Done. - The Stanley Parabl",
+	"title": "Good Job. You've Made It To the Bottom of the Mind Control Facility. Well Done. - The Stanley Parable",
 	"wiki": "https://siivagunner.wiki/wiki/Good%20Job.%20You've%20Made%20It%20To%20the%20Bottom%20of%20the%20Mind%20Control%20Facility.%20Well%20Done.%20-%20The%20Stanley%20Parabl",
 	"joke": "Cabinet Man - Lemon Demon",
 	"artist": "Heboyi"},
@@ -25702,6 +25698,7 @@ const db = {
 	"artist": "eg_9371"},
 "EfpnnsxLLW8": {
 	"title": "Unused Track 7 (Welcome to the Salon Variation 2) - Ghost Trick: Phantom Detective",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Unused%20Track%207%20(Welcome%20to%20the%20Salon%20Variation%202)%20-%20Ghost%20Trick%3A%20Phantom%20Detective",
 	"joke": "The Coastlands - Octopath Traveler",
 	"artist": "Emm Bee Sea"},
@@ -27795,6 +27792,7 @@ const db = {
 	"artist": "Retro Gaming"},
 "j-SepxDW9RE": {
 	"title": "Jungle Level Jazz Style (for 3DS / Wii U) - Super Smash Bros. Ultimate",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Jungle%20Level%20Jazz%20Style%20(for%203DS%20/%20Wii%20U)%20-%20Super%20Smash%20Bros.%20UItimate",
 	"joke": "Saga Jihen - Zombie Land Saga",
 	"artist": "Sarvéproductions"},
