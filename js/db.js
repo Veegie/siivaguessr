@@ -64224,8 +64224,7 @@ const db = {
 		{"time": "2:27", "joke": "Paralyzer - Finger Eleven"},
 		{"time": "2:35", "joke": "Jack Black defines Octagon - Jack Black, Sesame Street"},
 		{"time": "2:38", "joke": "m.A.A.d city - Kendrick Lamar ft. MC Eiht"},
-		{"time": "2:47", "joke": "Nerf This! - ChelHellbunny"},
-		{"time": "2:49", "joke": "Oh No! Our Table! It's Broken! - America's Funniest Home Videos"}],
+		{"time": "2:47", "joke": "Nerf This! - ChelHellbunny"}],
 	"artist": "Krizis"},
 "3Or7vrxM7yo": {
 	"title": "Rolling Girl - Hatsune Miku: Project DIVA Future Tone",
@@ -66939,7 +66938,7 @@ const db = {
 		{"time": "9:16", "joke": "Opening Theme - The Jetsons"},
 		{"time": "9:26", "joke": "Hard Times - The Jetzons"},
 		{"time": "9:35", "joke": "IceCap Zone (Act 1) - Sonic the Hedgehog 3 & Knuckles"},
-		{"time": "9:45", "joke": "Eine kleine Nachtmusik (I. Allegro) - Wolfgang Amadeus Mozart"},
+		{"time": "9:45", "joke": "Eine kleine Nachtmusik (Serenade No. 13) (I. Allegro) - Wolfgang Amadeus Mozart"},
 		{"time": "9:55", "joke": "Carnival Stage - Marvel vs. Capcom 2: New Age of Heroes"},
 		{"time": "10:04", "joke": "In Heaven (Lady in the Radiator Song) - Peter Ivers"},
 		{"time": "10:14", "joke": "Gato's Song - Chrono Trigger"},
