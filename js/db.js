@@ -28074,7 +28074,7 @@ const db = {
 "MZEYSnMkNBs": {
 	"title": "Respite - OMORI",
 	"wiki": "https://siivagunner.wiki/wiki/Respite%20-%20OMORI",
-	"joke": "Moonlight Sonata (1st Movement) - Ludwig van Beethoven",
+	"joke": "Piano Sonata No. 14 (Moonlight Sonata) - Ludwig van Beethoven",
 	"artist": "eg_9371"},
 "1f3rv0HXFVQ": {
 	"title": "Ocean - Terraria",
@@ -43347,11 +43347,6 @@ const db = {
 	"wiki": "https://siivagunner.wiki/wiki/Drawcia%20Sorceress%20-%20Kirby%3A%20Canvas%20Curse",
 	"joke": "Bad Apple!! feat.nomico - Alstroemeria Records",
 	"artist": "Lenox"},
-"LOrsHnBa8jI": {
-	"title": "BGM #03 - Simple DS Series Vol. 1 - The Mahjong",
-	"wiki": "https://siivagunner.wiki/wiki/BGM%2003%20-%20Simple%20DS%20Series%20Vol.%201%20-%20The%20Mahjong",
-	"joke": "Whiny Moanin' Nostalgia Critic - the Nostalgia Critic review on Turbo: A Power Rangers Movie",
-	"artist": "SubName"},
 "BR-WhWHJqfA": {
 	"title": "Dreamy Darkness - Kirby: Canvas Curse",
 	"wiki": "https://siivagunner.wiki/wiki/Dreamy%20Darkness%20-%20Kirby%3A%20Canvas%20Curse",
@@ -50691,7 +50686,7 @@ const db = {
 "4qXsBW9wYqM": {
 	"title": "Theme Song - Plumbers Don't Wear Ties",
 	"wiki": "https://siivagunner.wiki/wiki/Theme%20Song%20-%20Plumbers%20Don't%20Wear%20Ties",
-	"joke": "Do Your Best - Geethanjali Kids - Rhymes and Stories",
+	"joke": "Do Your Best - Geethanjali Kids",
 	"artist": "Unknown Ripper"},
 "FIOFsUHOsak": {
 	"title": "WANDA WANDA - Katamari Damacy",
@@ -67257,7 +67252,7 @@ const db = {
 		{"time": "1:01:16", "joke": "Dance With Peeress!! - Twinkle☆Crusaders"},
 		{"time": "1:01:26", "joke": "Gonna Fly Now (Theme of Rocky) - Rocky"},
 		{"time": "1:01:35", "joke": "Can You Feel The Sunshine? - Sonic R"},
-		{"time": "1:01:45", "joke": "Do Your Best - Geethanjali Kids - Rhymes and Stories"},
+		{"time": "1:01:45", "joke": "Do Your Best - Geethanjali Kids"},
 		{"time": "1:01:55", "joke": "Battle 1 - Final Fantasy IV"},
 		{"time": "1:02:04", "joke": "Vs. Metal Sonic - Sonic the Hedgehog 4: Episode II"},
 		{"time": "1:02:14", "joke": "What I'm Made Of - Sonic Heroes"},
@@ -69990,10 +69985,10 @@ const db = {
 	"title": "Dungeon Freakshow - Pizza Tower",
 	"wiki": "https://siivagunner.wiki/wiki/Dungeon%20Freakshow%20-%20Pizza%20Tower",
 	"joke": [
-		{"time": "0:32", "joke": "Moonlight Sonata (3rd Movement) - Ludwig von Beethoven"},
+		{"time": "0:32", "joke": "Piano Sonata No. 14 (Moonlight Sonata) - Ludwig van Beethoven"},
 		{"time": "0:48", "joke": "Inspector Gadget - Shuki Levy"},
 		{"time": "1:05", "joke": "Megalovania - Undertale"},
-		{"time": "1:20", "joke": "Moonlight Sonata (3rd Movement) - Ludwig von Beethoven"},
+		{"time": "1:20", "joke": "Piano Sonata No. 14 (Moonlight Sonata) - Ludwig van Beethoven"},
 		{"time": "1:35", "joke": "Dr. Robotnik's theme - Adventures of Sonic the Hedgehog"},
 		{"time": "1:53", "joke": "Megalovania - Undertale"},
 		{"time": "2:17", "joke": "Meet the Flintstones - Hoyt Curtin"},
@@ -76699,24 +76694,7 @@ const db = {
 		{"time": "1:39", "joke": "It's Showtime - Undertale"},
 		{"time": "1:53", "joke": "Megalovania - Undertale"}],
 	"artist": "Torfstack"},
-"iUYHh0UwUnU": {
-	"title": "DLC Trailer Music - Hatsune Miku: Project DIVA X",
-	"wiki": "https://siivagunner.wiki/wiki/DLC%20Trailer%20Music%20-%20Hatsune%20Miku%3A%20Project%20DIVA%20X",
-	"joke": [
-		{"time": "0:18, 1:02 - 1:03", "joke": "Я российский новый пират - Aleksandr Pistoletov"},
-		{"time": "0:21", "joke": "Vodka - Stolichnaya Russian Vodka"},
-		{"time": " 0:26 - 0:32, 1:03 - 1:42, 1:10", "joke": "Beloved Tomboyish Girl - Touhou 6: the Embodiment of Scarlet Devil - SiIvaGunner, turdl3"},
-		{"time": "0:47 - 0:52", "joke": "Наш самолёт - Aleksandr Pistoletov"},
-		{"time": "1:03 - 1:10", "joke": "Gladiator - Aleksandr Pistoletov"},
-		{"time": " 1:12 - 1:14, 1:22 - 1:42, 1:28", "joke": "Aleksandr Pistoletov's face (mostly on Hatsune Miku's face) - Aleksandr Pistoletov"},
-		{"time": "1:28", "joke": "Half body shot of Aleksandr Pistoletov, while he's being naked - Aleksandr Pistoletov"},
-		{"time": "1:29", "joke": "Cropped meme of Aleksandr Pistoletov - VK"},
-		{"time": "1:30", "joke": "Мастер Йода - Aleksandr Pistoletov"},
-		{"time": "1:31", "joke": "Русская революция - Aleksandr Pistoletov"},
-		{"time": "1:33", "joke": "Я каратист - Aleksandr Pistoletov"},
-		{"time": "1:34", "joke": "АЛЕКСАНДР ПИСТОЛЕТОВ БРОСАЕТ ВЫЗОВ СТАСУ БАРЕЦКОМУ - EventVloggerS"},
-		{"time": "1:35", "joke": "Я новый пират - Aleksandr Pistoletov"}],
-	"artist": "Metalik"},
+
 "CPRb1f1UW84": {
 	"title": "L86 - Kirby Planet Robobot",
 	"wiki": "https://siivagunner.wiki/wiki/L86%20-%20Kirby%20Planet%20Robobot",
@@ -79179,7 +79157,7 @@ const db = {
 		{"time": "2:03", "joke": "U Guessed It - OG Maco"},
 		{"time": "3:21", "joke": "POKEMON GO SONG!!! - Misha"},
 		{"time": "3:52", "joke": "Snow halation - μ’s"},
-		{"time": "5:18", "joke": "GRAND DAD - Vinesauce Joel (after a long pause) - Vinesauce Joel"},
+		{"time": "5:18", "joke": "GRAND DAD - Vinesauce Joel"},
 		{"time": "5:22", "joke": "The Nutshack theme - NUMP"},
 		{"time": "5:38", "joke": "World's Loudest Orgasm - Creampie Cathy"}],
 	"artist": "wheel able"},
@@ -79362,7 +79340,7 @@ const db = {
 		{"time": "2:34", "joke": "The Noble Haltmann - Kirby Planet Robobot"},
 		{"time": "2:43", "joke": "Ren'ai Circulation - Bakemonogatari"},
 		{"time": "3:09", "joke": "All Star - Smash Mouth"},
-		{"time": "3:18 - 3:21", "joke": "Good Manners Songs For Children - Do Your Best - Geethanjali Kids - Rhymes and Stories"}],
+		{"time": "3:18 - 3:21", "joke": "Do Your Best - Geethanjali Kids"}],
 	"artist": "Akfamilyhome"},
 "BrMgiSAUfHg": {
 	"title": "Ringworm - LittleBigPlanet 2: Move Pack",
@@ -79642,8 +79620,7 @@ const db = {
 		{"time": "0:13", "joke": "Puzzle Room - Kirby Planet Robobot"},
 		{"time": "0:53", "joke": "Continue? - Felix the Cat"},
 		{"time": "1:05", "joke": "U Guessed It - OG Maco"},
-		{"time": "1:21", "joke": "Meet the Flintstones - The Flintstones, Hoyt Curtin"},
-		{"time": "1:26", "joke": "Joel's reaction to the Felix the Cat Russian bootleg video game - Vinesauce Joel"}],
+		{"time": "1:21", "joke": "Meet the Flintstones - The Flintstones, Hoyt Curtin"}],
 	"artist": "Dead Line"},
 "pQR49_TYysk": {
 	"title": "Beast Ganon Battle - The Legend of Zelda: Twilight Princess",
@@ -81519,7 +81496,6 @@ const db = {
 		{"time": "0:26", "joke": "Overworld Theme - New Super Mario Bros. U"},
 		{"time": "1:00", "joke": "Player Select - Super Mario Bros. 2"},
 		{"time": "1:09", "joke": "Snow halation - µ's"},
-		{"time": "1:25", "joke": "Anime was a mistake. This Has Been A Public Service Announcement from Mario. WA-HOO! - Hayao Miyazaki fake quote"},
 		{"time": "1:34", "joke": "Cagayake! GIRLS - K-ON!"}],
 	"artist": "Unknown Ripper"},
 "EJdwVc-LDVc": {
@@ -84265,7 +84241,6 @@ const db = {
 	"title": "Fax Factory - LSD: Dream Emulator",
 	"wiki": "https://siivagunner.wiki/wiki/Fax%20Factory%20-%20LSD%3A%20Dream%20Emulator",
 	"joke": [
-		{"time": "0:00", "joke": "making big room out of the sound of a dick hitting a toilet seat - bong iguana"},
 		{"time": "0:01", "joke": "Gangnam Style - PSY"},
 		{"time": "0:02", "joke": "Guillotine - Death Grips"},
 		{"time": "0:03", "joke": "Chop Suey - System Of A Down"},
