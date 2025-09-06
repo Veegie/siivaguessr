@@ -47,7 +47,7 @@ const dailies = {
     "20250909": { "hash": "vjoZro-sbpE", "mode": QuestionMode.NORMAL },
     "20250910": { "hash": "", "mode": QuestionMode.NORMAL },
     "20250911": { "hash": "", "mode": QuestionMode.NORMAL },
-    "20250912": { "hash": "", "mode": QuestionMode.NORMAL },
+    "20250912": { "hash": "gdeH-d9ykUU", "mode": QuestionMode.NORMAL },
     "20250913": { "hash": "", "mode": QuestionMode.NORMAL },
     "20250914": { "hash": "", "mode": QuestionMode.NORMAL }, // Sunday
     "20250915": { "hash": "", "mode": QuestionMode.NORMAL },
@@ -68,7 +68,7 @@ const dailies = {
     "20250930": { "hash": "", "mode": QuestionMode.NORMAL },
     "20251001": { "hash": "", "mode": QuestionMode.NORMAL },
     "20251002": { "hash": "", "mode": QuestionMode.NORMAL },
-    "20251003": { "hash": "", "mode": QuestionMode.NORMAL },
+    "20251003": { "hash": "3WHgMzJrHfU", "mode": QuestionMode.REVERSE },
     "20251004": { "hash": "", "mode": QuestionMode.NORMAL },
     "20251005": { "hash": "", "mode": QuestionMode.NORMAL }, // Sunday
     "20251006": { "hash": "", "mode": QuestionMode.NORMAL },
