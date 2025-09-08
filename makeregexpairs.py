@@ -14,6 +14,6 @@ with open(input_file, "r", encoding="utf-8") as inFile, open(output_file, "w", e
             target_name = None
             replace_names.clear()
         elif not target_name:
-            target_name = line.strip()
+            target_name = "\"" + line.strip() + "\""
         else:
-            replace_names.append(re.escape(line.strip()))
+            replace_names.append("\"" + re.escape(line.strip()) + "\"")

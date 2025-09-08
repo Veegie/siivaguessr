@@ -1,6 +1,7 @@
 import re
 from cdifflib import CSequenceMatcher
 import difflib
+from collections import Counter
 
 difflib.SequenceMatcher = CSequenceMatcher
 
@@ -8,33 +9,51 @@ difflib.SequenceMatcher = CSequenceMatcher
 input_file = "songListInput.txt"
 output_file = "similar_grouped_and_long_titles.txt"
 
+# Normalize the title
+def normalize(title):
+    title = title.lower().strip()
+    title = re.sub(r'\band\b', '&', title)
+    title = re.sub(r'\s+', ' ', title)
+    return title
+
+# Check if one multiset is almost contained in another
+def almost_contained(counts1, counts2):
+    """Return True if counts1 is contained in counts2 with <= tolerance extra chars."""
+    diff = 0
+    for char, freq in counts1.items():
+        diff += abs(max(0, freq - counts2.get(char, 0)))
+        if diff > 0:
+            return False
+    return True
+
 # Read the file
 with open(input_file, "r", encoding="utf-8") as f:
     lines = [line.strip() for line in f if line.strip()]
+
+# Prepare normalized entries
+entries = [(normalize(line), line) for line in lines]
 
 # Group similar titles (>= 90% similarity)
 visited = set()
 groups = []
 
-for i, line1 in enumerate(lines):
+for i, (norm1, line1) in enumerate(entries):
     if i in visited:
         continue
     print(str(i) + '\n')
+    counts1 = Counter(norm1)
     group = [line1]
     visited.add(i)
-    for j in range(i + 1, len(lines)):
+    for j in range(i + 1, len(entries)):
         if j in visited:
             continue
-        line2 = lines[j]
-        similarity = CSequenceMatcher(None, line1, line2).ratio()
-        if similarity >= 0.90:
+        norm2, line2 = entries[j]
+        counts2 = Counter(norm2)
+        if (almost_contained(counts1, counts2) or almost_contained(counts2, counts1)) and CSequenceMatcher(None, norm1, norm2).ratio() >= 0.80:
             group.append(line2)
             visited.add(j)
     if len(group) > 1:
         groups.append(group)
-
-# Find all long titles
-long_lines = [line for line in lines if len(line.split(":")[0].strip()) > 60]
 
 # Write to the output file
 with open(output_file, "w", encoding="utf-8") as f:
@@ -42,8 +61,5 @@ with open(output_file, "w", encoding="utf-8") as f:
         for line in group:
             f.write(line + "\n")
         f.write("\n")
-    f.write("\n--- LONG LINES ---\n\n")
-    for line in long_lines:
-        f.write(line + "\n")
 
 print(f"Output saved to: {output_file}")
