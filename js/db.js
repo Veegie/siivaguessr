@@ -232,7 +232,7 @@ const db = {
 	"joke": "Corridors of Time - Chrono Trigger",
 	"artist": "Emm Bee Sea"},
 "8oGPW12zTbk": {
-	"title": "Precipice (JP Release) - Minecraft",
+	"title": "Precipice - Minecraft",
 	"wiki": "https://siivagunner.wiki/wiki/Precipice%20(JP%20Release)%20-%20Minecraft",
 	"joke": "kamone - KizunaAI",
 	"artist": "Sarvéproductions"},
@@ -422,7 +422,7 @@ const db = {
 	"joke": "Surfin' U.S.A. - The Beach Boys",
 	"artist": "Gene"},
 "N7HYP7xRXDE": {
-	"title": "Super Mario Bros. Music - Underwater",
+	"title": "Underwater - Super Mario Bros.",
 	"wiki": "https://siivagunner.wiki/wiki/Super%20Mario%20Bros.%20Music%20-%20Underwater%20(Unused%20Version)",
 	"joke": "Green-Eyed Jealousy - Touhou 11: Subterranean Animism",
 	"artist": "berg8793"},
@@ -770,6 +770,7 @@ const db = {
 	"artist": "minindo"},
 "u2l2ev--_-Y": {
 	"title": "Round and Round - LazyTown: The Video Game",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Round%20and%20Round%20(Beta%20Mix)%20-%20LazyTown%3A%20The%20Video%20Game",
 	"joke": "Dancing in the Moonlight - Boffalongo",
 	"artist": "YourBirthCertificate"},
@@ -820,6 +821,7 @@ const db = {
 	"artist": "Ellie53"},
 "obDFXFGCiGI": {
 	"title": "Taste The Feeling - Just Dance 2016",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Taste%20The%20Feeling%20-%20Just%20Dance%202016",
 	"joke": "The Mine Song - LazyTown",
 	"artist": "ItsGameBoy"},
@@ -840,6 +842,7 @@ const db = {
 	"artist": "TimTom"},
 "2VPClhfzDfQ": {
 	"title": "Recipe for Energy - LazyTown: The Video Game",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Recipe%20for%20Energy%20-%20LazyTown%3A%20The%20Video%20Game",
 	"joke": "Cupid Shuffle - Cupid",
 	"artist": "Jazziest"},
@@ -881,6 +884,7 @@ const db = {
 	"artist": "eg_9371"},
 "aJre28wSPU4": {
 	"title": "Semi-Charmed Life - Rock Band 3",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Semi-Charmed%20Life%20(In-Game%20Version)%20-%20Rock%20Band%203",
 	"joke": "Sweatshirt - Jacob Sartorius",
 	"artist": "Vincent Mashups"},
@@ -1045,12 +1049,13 @@ const db = {
 	"joke": "Good Stuff - LazyTown",
 	"artist": "Nakaky"},
 "HTQhrbnhdJ0": {
-	"title": "Flower Garden - Yoshi's Island",
+	"title": "Flower Garden - Super Mario World 2: Yoshi's Island",
 	"wiki": "https://siivagunner.wiki/wiki/Flower%20Garden%20(Alpha%20Mix)%20-%20Yoshi's%20Island",
 	"joke": "Bing Bang - LazyTown",
 	"artist": "lonk"},
 "Oq3FWOwI-FA": {
 	"title": "I'm a Prince - LazyTown: The Video Game",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/I'm%20a%20Prince%20-%20LazyTown%3A%20The%20Video%20Game",
 	"joke": "360 - Charli XCX",
 	"artist": "berg8793"},
@@ -1075,7 +1080,7 @@ const db = {
 	"joke": "The Mine Song - LazyTown",
 	"artist": "Grambam36, Ashley"},
 "G-CoN3qFwg4": {
-	"title": "Athletic Theme - Yoshi's Island",
+	"title": "Athletic Theme - Super Mario World 2: Yoshi's Island",
 	"wiki": "https://siivagunner.wiki/wiki/Athletic%20Theme%20(OST%20Version)%20-%20Yoshi's%20Island",
 	"joke": "The Mine Song - LazyTown",
 	"artist": "inanamateCD"},
@@ -1359,11 +1364,6 @@ const db = {
 	"wiki": "https://siivagunner.wiki/wiki/Cyber%20Space%202-4%3A%20Hype%20Street%20-%20Sonic%20Frontiers",
 	"joke": "Thick of It - KSI ft. Trippie Redd",
 	"artist": "Jiko Music"},
-"LtTQDJGRQ2g": {
-	"title": "For He's A Jolly Good Fellow - Portal 2",
-	"wiki": "https://siivagunner.wiki/wiki/For%20He's%20A%20Jolly%20Good%20Fellow%20-%20Portal%202",
-	"joke": "Thick of It - KSI ft. Trippie Redd",
-	"artist": "Memesauce"},
 "dUgoDtNnKC0": {
 	"title": "Walk in the Afternoon (World Map) - Kirby: Squeak Squad",
 	"wiki": "https://siivagunner.wiki/wiki/Walk%20in%20the%20Afternoon%20(World%20Map)%20(PAL%20Version)%20-%20Kirby%3A%20Squeak%20Squad",
@@ -1491,7 +1491,7 @@ const db = {
 	"joke": "Comfortably Numb - Pink Floyd",
 	"artist": "eg_9371"},
 "0fBzX_ZkRAY": {
-	"title": "Queen (Alternate Route) - Deltarune",
+	"title": "Queen - Deltarune",
 	"wiki": "https://siivagunner.wiki/wiki/Queen%20(Alternate%20Route)%20-%20Deltarune",
 	"joke": "Golden Brown - The Stranglers",
 	"artist": "Myeauxyoozi"},
@@ -1772,6 +1772,7 @@ const db = {
 	"artist": "UUN4"},
 "VdIwF7WOrrM": {
 	"title": "Interstate Love Song - Rock Band",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Interstate%20Love%20Song%20-%20Rock%20Band",
 	"joke": "Stuck Inside - Black Gryph0n ft. The Living Tombstone & Kevin Foster",
 	"artist": "inanamate"},
@@ -1821,7 +1822,7 @@ const db = {
 	"joke": "verZion - silo7",
 	"artist": "Memmy"},
 "th3FHnyeQGU": {
-	"title": "Gravity (Internal Percussion) - Cave Story",
+	"title": "Gravity - Cave Story",
 	"wiki": "https://siivagunner.wiki/wiki/Gravity%20(Internal%20Percussion)%20(Beta%20Edition)%20-%20Cave%20Story",
 	"joke": "Rapuhanska - Arachno",
 	"artist": "Memmy"},
@@ -2412,7 +2413,7 @@ const db = {
 	"joke": "13 - Tally Hall",
 	"artist": "Retro Gaming"},
 "RhxcAPldh_0": {
-	"title": "Strains of Insanity - Chrono Trigger",
+	"title": "Strains of Insanity / Confusing Melody - Chrono Trigger",
 	"wiki": "https://siivagunner.wiki/wiki/Strains%20of%20Insanity%20-%20Chrono%20Trigger",
 	"joke": "Natsu no Owari (Summer's End) - Whisper of the Heart",
 	"artist": "Emm Bee Sea"},
@@ -2467,7 +2468,7 @@ const db = {
 	"joke": "1-Up - Super Mario Bros.",
 	"artist": "Xanderrock98"},
 "HPMvcuGNwWM": {
-	"title": "Rock That Body - The Black Eyed Peas Experience",
+	"title": "Rock That Body - Black Eyed Peas",
 	"wiki": "https://siivagunner.wiki/wiki/Rock%20That%20Body%20-%20The%20Black%20Eyed%20Peas%20Experience",
 	"joke": "THE BADDEST - Joey Valence & Brae",
 	"artist": "Vincent Mashups"},
@@ -2533,6 +2534,7 @@ const db = {
 	"artist": "duuzu"},
 "NVzSN87Z-1k": {
 	"title": "Not Like Us - Not Like Us: The Game",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Not%20Like%20Us%20(In-Game%20Version)%20-%20Not%20Like%20Us%3A%20The%20Game",
 	"joke": "I'm a Gummy Bear (The Gummy Bear Song) - Gummibär",
 	"artist": "TimTom"},
@@ -2604,7 +2606,7 @@ const db = {
 "l2Xpi4Xc8_0": {
 	"title": "Candy's Theme - Donkey Kong: Jungle Climber",
 	"wiki": "https://siivagunner.wiki/wiki/Candy's%20Theme%20(Beta%20Mix)%20-%20Donkey%20Kong%3A%20Jungle%20Climber",
-	"joke": "Stardust Speedway Bad Future (JP/PAL) - Sonic CD",
+	"joke": "Stardust Speedway Bad Future (JPN/PAL) - Sonic CD",
 	"artist": "tsco"},
 "javwe8jK4VI": {
 	"title": "Edit Mode - Picross DS",
@@ -2777,7 +2779,7 @@ const db = {
 	"joke": "Drowning - A Boogie Wit da Hoodie ft. Kodak Black",
 	"artist": "Sarvéproductions"},
 "fzK9VXo9q6s": {
-	"title": "ANOTHER HIM (SURVEY_PROGRAM Demo) - Deltarune",
+	"title": "ANOTHER HIM - Deltarune",
 	"wiki": "https://siivagunner.wiki/wiki/ANOTHER%20HIM%20(SURVEY%20PROGRAM%20Demo)%20-%20Deltarune",
 	"joke": "I'll be here for a while - Milk outside a bag of milk outside a bag of milk",
 	"artist": "BluLuigi7"},
@@ -3167,7 +3169,7 @@ const db = {
 	"joke": "Brown Smile - Smiling Friends",
 	"artist": "SamanthaMK"},
 "ilmzIXB4LKk": {
-	"title": "Super Mario Bros. Music - Ending",
+	"title": "Ending - Super Mario Bros.",
 	"wiki": "https://siivagunner.wiki/wiki/Super%20Mario%20Bros.%20Music%20-%20Ending%20(Beta%20Version)",
 	"joke": "Party Party Party - Aqua Teen Hunger Force Colon Movie Film for Theaters",
 	"artist": "BluLuigi7"},
@@ -3454,7 +3456,7 @@ const db = {
 "7A6O9igYOf4": {
 	"title": "Accelerondo - MOTHER 3",
 	"wiki": "https://siivagunner.wiki/wiki/Accelerondo%20(Alpha%20Mix)%20-%20MOTHER%203",
-	"joke": "Aleph‐0 - LeaF",
+	"joke": "Aleph-0 - LeaF",
 	"artist": "Tina the Cyclops girl"},
 "I2NRv5WGUes": {
 	"title": "Y0UR FUN3RAL (Lolzhax Mode) - Ultra Custom Night",
@@ -3623,6 +3625,7 @@ const db = {
 	"artist": "BluLuigi7"},
 "xV0utogLdwU": {
 	"title": "Beauty and a Beat - Just Dance 4",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Beauty%20and%20a%20Beat%20-%20Just%20Dance%204",
 	"joke": "Young Again - Don Diablo & Sandro Cavazza",
 	"artist": "ItsGameBoy"},
@@ -3723,6 +3726,7 @@ const db = {
 	"artist": "Sarvéproductions"},
 "rbmGGUjA4q4": {
 	"title": "Candy - Just Dance 2014",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Candy%20-%20Just%20Dance%202014",
 	"joke": "Ren'ai Circulation - Bakemonogatari",
 	"artist": "ItsGameBoy"},
@@ -3843,6 +3847,7 @@ const db = {
 	"artist": "Myeauxyoozi"},
 "o0KvV4Rm8wE": {
 	"title": "We Can Fly - Just Dance Wii 2",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/We%20Can%20Fly%20-%20Just%20Dance%20Wii%202",
 	"joke": "drop pop candy - Giga-P ft. Reol",
 	"artist": "vvsvlogs"},
@@ -4124,6 +4129,7 @@ const db = {
 	"artist": "Emm Bee Sea"},
 "6Gqzt1_gBgo": {
 	"title": "Island in the Sun - Rock Band 3",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Island%20in%20the%20Sun%20-%20Rock%20Band%203",
 	"joke": "Moxie - Friendly Bunny Mochi",
 	"artist": "SamanthaMK"},
@@ -4224,7 +4230,7 @@ const db = {
 	"joke": "Bouncy Wario - Wario Land II",
 	"artist": "SamanthaMK"},
 "pALlBZv-Uhs": {
-	"title": "Story Music Box - Yoshi's Island",
+	"title": "Story Music Box - Super Mario World 2: Yoshi's Island",
 	"wiki": "https://siivagunner.wiki/wiki/Story%20Music%20Box%20(OST%20Version)%20-%20Yoshi's%20Island",
 	"joke": "Luma - Super Mario Galaxy",
 	"artist": "xIncisions"},
@@ -4290,6 +4296,7 @@ const db = {
 	"artist": "Myeauxyoozi"},
 "IOGn78ngt04": {
 	"title": "Spectronizer - Just Dance 3",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Spectronizer%20-%20Just%20Dance%203",
 	"joke": "Old money bitch - underscores",
 	"artist": "Vincent Mashups"},
@@ -5551,6 +5558,7 @@ const db = {
 	"artist": "BluLuigi7"},
 "bdC8k6v9kfM": {
 	"title": "No Tears Left to Cry - Just Dance 2019",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/No%20Tears%20Left%20to%20Cry%20-%20Just%20Dance%202019",
 	"joke": "City of Color - Splatoon",
 	"artist": "Nernant"},
@@ -5915,7 +5923,7 @@ const db = {
 	"joke": "Countdown Clock - Countdown",
 	"artist": "xIncisions"},
 "pSuUPHOaWlk": {
-	"title": "Until Next Time (Instrumental) - Deltarune",
+	"title": "Until Next Time - Deltarune",
 	"wiki": "https://siivagunner.wiki/wiki/Until%20Next%20Time%20(Instrumental)%20-%20Deltarune",
 	"joke": "Fallen Angel - Mitsunori Ikeda ft. Aimee B (Panty & Stocking with Garterbelt)",
 	"artist": "eg_9371"},
@@ -6822,7 +6830,7 @@ const db = {
 	"joke": "Rainbow Connection - The Muppet Movie",
 	"artist": "Retro Gaming"},
 "Z9S65wAyprQ": {
-	"title": "Underground Theme - Yoshi's Island",
+	"title": "Underground Theme - Super Mario World 2: Yoshi's Island",
 	"wiki": "https://siivagunner.wiki/wiki/Underground%20Theme%20(Beta%20Mix)%20-%20Yoshi's%20Island",
 	"joke": "Feel It All Around - Washed Out",
 	"artist": "mullar"},
@@ -6997,7 +7005,7 @@ const db = {
 	"joke": "Stupid (Can't run from the urge) - underscores",
 	"artist": "MtH"},
 "Zp9oQ8cQOT0": {
-	"title": "Kamek's Theme - Yoshi's Island",
+	"title": "Kamek's Theme - Super Mario World 2: Yoshi's Island",
 	"wiki": "https://siivagunner.wiki/wiki/Kamek's%20Theme%20(Alternative%20Mix)%20-%20Yoshi's%20Island",
 	"joke": "Sneaky Snitch - Kevin MacLeod",
 	"artist": "RHMan"},
@@ -7149,6 +7157,7 @@ const db = {
 	"artist": "Ellie53"},
 "r06L6T3D6Fw": {
 	"title": "Lovers Again - Just Dance Wii 2",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Lovers%20Again%20-%20Just%20Dance%20Wii%202",
 	"joke": "Stuck Inside - Black Gryph0n ft. The Living Tombstone & Kevin Foster",
 	"artist": "Kenji Furutani"},
@@ -7394,6 +7403,7 @@ const db = {
 	"artist": "Jp"},
 "UCxPzbfcLYA": {
 	"title": "Uptown Funk - Rock Band 4",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Uptown%20Funk%20-%20Rock%20Band%204",
 	"joke": "Let Me Go Back to My Home - Donkey Kong Country",
 	"artist": "BigBadBlob"},
@@ -7444,6 +7454,7 @@ const db = {
 	"artist": "Midnight"},
 "ahgnH52JPdk": {
 	"title": "Feel Good Inc. - Rock Band 2",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Feel%20Good%20Inc.%20-%20Rock%20Band%202",
 	"joke": "S.O Magic - Soul'd Out",
 	"artist": "Kenji Furutani"},
@@ -8501,7 +8512,7 @@ const db = {
 	"joke": "Showtime (Original Mix) - Homestuck",
 	"artist": "literallyn01imp0rtant"},
 "AZF9rIeH_do": {
-	"title": "Flower Garden - Yoshi's Island",
+	"title": "Flower Garden - Super Mario World 2: Yoshi's Island",
 	"wiki": "https://siivagunner.wiki/wiki/Flower%20Garden%20(PAL%20Mix)%20-%20Yoshi's%20Island",
 	"joke": "A Hard Day's Night - The Beatles",
 	"artist": "Ellie53"},
@@ -9097,7 +9108,7 @@ const db = {
 	"joke": "TRENDSETTER - Glorb",
 	"artist": "KnightOfGames"},
 "FszmKSuKbKw": {
-	"title": "Vs. Lancer (Alternate Route) - Deltarune",
+	"title": "Vs. Lancer - Deltarune",
 	"wiki": "https://siivagunner.wiki/wiki/Vs.%20Lancer%20(Alternate%20Route)%20-%20Deltarune",
 	"joke": "Grass Skirt Chase - SpongeBob SquarePants",
 	"artist": "Unknown Ripper"},
@@ -9153,6 +9164,7 @@ const db = {
 	"artist": "lonk"},
 "n777DLsHZMY": {
 	"title": "Gruntilda's Lair (Underwater) - Banjo-Kazooie",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Gruntilda's%20Lair%20(Underwater)%20-%20Banjo-Kazooie",
 	"joke": "Tomfoolery - SpongeBob SquarePants",
 	"artist": "cookiefonster"},
@@ -9598,7 +9610,7 @@ const db = {
 	"joke": "SICKO MODE - Travis Scott ft. Drake",
 	"artist": "MLM3"},
 "jfCwIbq0sSM": {
-	"title": "Living Waterway (Internal Percussion) - Cave Story",
+	"title": "Living Waterway - Cave Story",
 	"wiki": "https://siivagunner.wiki/wiki/Living%20Waterway%20(Internal%20Percussion)%20-%20Cave%20Story",
 	"joke": "Eye in the Sky - The Alan Parsons Project",
 	"artist": "eg_9371"},
@@ -9733,7 +9745,7 @@ const db = {
 	"joke": "Even Angels Feel Joy - NEEDY STREAMER OVERLOAD",
 	"artist": "BluLuigi7"},
 "lKfgQ0Acsnk": {
-	"title": "Athletic Theme - Yoshi's Island",
+	"title": "Athletic Theme - Super Mario World 2: Yoshi's Island",
 	"wiki": "https://siivagunner.wiki/wiki/Athletic%20Theme%20(Alpha%20Mix)%20-%20Yoshi's%20Island",
 	"joke": "We're Doing a Sequel - Muppets Most Wanted",
 	"artist": "SamanthaMK"},
@@ -9778,7 +9790,7 @@ const db = {
 	"joke": "The Weatherman - The Residents",
 	"artist": "Emotional Snail"},
 "3g-u7cspbjM": {
-	"title": "Declination (Instrumental) - Hohokum",
+	"title": "Declination - Hohokum",
 	"wiki": "https://siivagunner.wiki/wiki/Declination%20(Instrumental)%20-%20Hohokum",
 	"joke": "Teen Pregnancy - Blank Banshee",
 	"artist": "Neofall"},
@@ -10098,7 +10110,7 @@ const db = {
 	"joke": "Catastrophe - Final Fantasy VI",
 	"artist": "eg_9371"},
 "AWMhI9oEkt0": {
-	"title": "Ground Theme - Super Mario Bros. 35",
+	"title": "Ground Theme - Super Mario Bros.",
 	"wiki": "https://siivagunner.wiki/wiki/Ground%20Theme%20(In-Game%20Version)%20-%20Super%20Mario%20Bros.%2035",
 	"joke": "State Anthem of the Soviet Union - Alexander Alexandrov",
 	"artist": "treydog1357"},
@@ -10519,6 +10531,7 @@ const db = {
 	"artist": "Vincent Mashups"},
 "iSNwuxRWvbk": {
 	"title": "Last Christmas - Just Dance 2017",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Last%20Christmas%20-%20Just%20Dance%202017",
 	"joke": "Baby - Justin Bieber ft. Ludacris",
 	"artist": "Ellie53"},
@@ -10584,6 +10597,7 @@ const db = {
 	"artist": "Vincent Mashups"},
 "G4l9nNT0o4M": {
 	"title": "What Makes You Beautiful - Just Dance 4",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/What%20Makes%20You%20Beautiful%20(Beta%20Mix)%20-%20Just%20Dance%204",
 	"joke": "Baby - Justin Bieber ft. Ludacris",
 	"artist": "Myeauxyoozi"},
@@ -11474,7 +11488,7 @@ const db = {
 "zoBdT4D8Lpg": {
 	"title": "Dojo & Puffle Training - Club Penguin: Elite Penguin Force",
 	"wiki": "https://siivagunner.wiki/wiki/Dojo%20%26%20Puffle%20Training%20(Beta%20Mix)%20-%20Club%20Penguin%3A%20Elite%20Penguin%20Force",
-	"joke": "Rasputin - Boney M..",
+	"joke": "Rasputin - Boney M.",
 	"artist": "Birdator"},
 "lX6a1tQ7S7s": {
 	"title": "Spooks of Halloween Town - Kingdom Hearts",
@@ -12008,6 +12022,7 @@ const db = {
 	"artist": "Tina the Cyclops girl"},
 "d1rgtpxkCFM": {
 	"title": "Despacito - Mario's Mystery Meat",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Despacito%20(Alpha%20Version)%20-%20Mario's%20Mystery%20Meat",
 	"joke": "Dat Boi (O Shit Waddup!) - Dj CUTMAN",
 	"artist": "BluLuigi7"},
@@ -12078,6 +12093,7 @@ const db = {
 	"artist": "vz24"},
 "qzZ1YEZzx_A": {
 	"title": "Applause - Rock Band 4",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Applause%20-%20Rock%20Band%204",
 	"joke": "Guilty Night, Guilty Kiss! - Guilty Kiss",
 	"artist": "berg8793"},
@@ -12708,7 +12724,8 @@ const db = {
 	"joke": "Hot Cross Buns - Nursery rhyme",
 	"artist": "Memesauce"},
 "KWStS4XcOX0": {
-	"title": "Chemical Plant Zone (Sonic the Hedgehog 2) - Sonic Origins",
+	"title": "Chemical Plant Zone - Sonic the Hedgehog 2",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Chemical%20Plant%20Zone%20(Sonic%20the%20Hedgehog%202)%20-%20Sonic%20Origins",
 	"joke": "Cyber Space 4-6: Fog Funk - Sonic Frontiers",
 	"artist": "Edgi"},
@@ -13010,7 +13027,7 @@ const db = {
 "n1jBNiHaSh0": {
 	"title": "God Save the King - Trombone Champ",
 	"wiki": "https://siivagunner.wiki/wiki/God%20Save%20the%20King%20-%20Trombone%20Champ",
-	"joke": "UNDERTALE THE MUSICAL - LHUGUENY",
+	"joke": "UNDERTALE THE MUSICAL (Story of Undertale) - LHUGUENY",
 	"artist": "overcast07"},
 "SmvtZfmQ9Pc": {
 	"title": "Ending Theme - Corpse Party",
@@ -13160,6 +13177,7 @@ const db = {
 	"artist": "Ellie53"},
 "du9NXi1LA0Q": {
 	"title": "Star (Super Mario Bros.) - Super Mario Maker 2",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Star%20(Super%20Mario%20Bros.)%20(Alpha%20Mix)%20-%20Super%20Mario%20Maker%202",
 	"joke": "Baby You're a Haunted House - Gerard Way",
 	"artist": "Gonovo"},
@@ -13369,7 +13387,7 @@ const db = {
 	"joke": "Ding-Dong! The Witch Is Dead - The Wizard of Oz",
 	"artist": "eg_9371"},
 "IGnZcBt1ais": {
-	"title": "The Garten of BanBan Song - Find The LankyBox Morphs!",
+	"title": "The Garten of BanBan Song - LankyBox",
 	"wiki": "https://siivagunner.wiki/wiki/The%20Garten%20of%20BanBan%20Song%20-%20Find%20The%20LankyBox%20Morphs!",
 	"joke": "stupid horse - 100 gecs",
 	"artist": "Just_aPerson"},
@@ -13710,7 +13728,7 @@ const db = {
 	"joke": "Homeworld Waltz - Steven Universe",
 	"artist": "Retro Gaming"},
 "zgsWoQOgXTM": {
-	"title": "Merry-Go-Round (SpaceWorld '95 Beta) - Super Mario 64",
+	"title": "Merry-Go-Round - Super Mario 64",
 	"wiki": "https://siivagunner.wiki/wiki/Merry-Go-Round%20(SpaceWorld%20'95%20Beta)%20-%20Super%20Mario%2064",
 	"joke": "Purple Tyrant - Homestuck",
 	"artist": "Retro Gaming"},
@@ -13815,7 +13833,7 @@ const db = {
 	"joke": "Let Me Drive My Van (into Your Heart) - Steven Universe",
 	"artist": "Retro Gaming"},
 "by1BJqgUrEU": {
-	"title": "My Time (Instrumental) (Remastered 2023) - OMORI",
+	"title": "My Time - OMORI",
 	"wiki": "https://siivagunner.wiki/wiki/My%20Time%20(Instrumental)%20(Remastered%202023)%20-%20OMORI",
 	"joke": "Snowman - EarthBound",
 	"artist": "Retro Gaming"},
@@ -13850,7 +13868,7 @@ const db = {
 	"joke": "Shut Up and Dance - WALK THE MOON",
 	"artist": "ItsGameBoy"},
 "srZkaoPAvcQ": {
-	"title": "Underwater (Limited Release) - Super Mario Bros. 35",
+	"title": "Underwater - Super Mario Bros.",
 	"wiki": "https://siivagunner.wiki/wiki/Underwater%20(Limited%20Release)%20-%20Super%20Mario%20Bros.%2035",
 	"joke": "Hot Cross Buns - Nursery rhyme",
 	"artist": "Myeauxyoozi"},
@@ -14043,7 +14061,7 @@ const db = {
 "aai3FJT97sw": {
 	"title": "Level Completed (Planet Yokus) - Jimmy Neutron: Boy Genius",
 	"wiki": "https://siivagunner.wiki/wiki/Level%20Completed%20(Planet%20Yokus)%20-%20Jimmy%20Neutron%3A%20Boy%20Genius",
-	"joke": "Rasputin - Boney M..",
+	"joke": "Rasputin - Boney M.",
 	"artist": "Myeauxyoozi"},
 "Fq7PevrbjmE": {
 	"title": "World Map - The Flintstones: The Rescue of Dino & Hoppy",
@@ -14336,7 +14354,7 @@ const db = {
 	"joke": "Clocks - Coldplay",
 	"artist": "berg8793"},
 "Ff-dyljSm6k": {
-	"title": "Overworld Theme (Fuzzy) - Yoshi's Island",
+	"title": "Overworld Theme (Fuzzy) - Super Mario World 2: Yoshi's Island",
 	"wiki": "https://siivagunner.wiki/wiki/Overworld%20Theme%20(Fuzzy)%20-%20Yoshi's%20Island",
 	"joke": "Because I Got High - Afroman",
 	"artist": "eg_9371"},
@@ -14386,7 +14404,7 @@ const db = {
 	"joke": "Sky - Playboi Carti",
 	"artist": "Vincent Mashups"},
 "NtyZeWV78HY": {
-	"title": "It's Finally Over - Advanced Wars",
+	"title": "It's Finally Over - Advance Wars",
 	"wiki": "https://siivagunner.wiki/wiki/It's%20Finally%20Over%20-%20Advanced%20Wars",
 	"joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin",
 	"artist": "MJ"},
@@ -14416,7 +14434,7 @@ const db = {
 	"joke": "Bluey Theme Song! - Bluey",
 	"artist": "Jack Sheldon"},
 "Yb-ZaKL02v8": {
-	"title": "Deal Gone Wrong (Alternate Route) - Deltarune",
+	"title": "Deal Gone Wrong - Deltarune",
 	"wiki": "https://siivagunner.wiki/wiki/Deal%20Gone%20Wrong%20(Alternate%20Route)%20-%20Deltarune",
 	"joke": "Twisted Justice - Eastward",
 	"artist": "PsychLantern"},
@@ -14577,6 +14595,7 @@ const db = {
 	"artist": "Vincent Mashups"},
 "P1-N8Tm1g3s": {
 	"title": "Story of My Life - Rock Band 4",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Story%20of%20My%20Life%20-%20Rock%20Band%204",
 	"joke": "Rolling in the Deep - Adele",
 	"artist": "berg8793"},
@@ -14746,7 +14765,7 @@ const db = {
 	"joke": "Because - The Beatles",
 	"artist": "YourBirthCertificate, Madinstance"},
 "AVo9P7jmymA": {
-	"title": "Friday Theme (Update 2.3) - 3008",
+	"title": "Friday Theme - 3008",
 	"wiki": "https://siivagunner.wiki/wiki/Friday%20Theme%20(Update%202.3)%20-%203008",
 	"joke": "Africa - Toto",
 	"artist": "KryptoDigital"},
@@ -15481,7 +15500,7 @@ const db = {
 	"joke": "Raft Ride - The Legend of Zelda: Link's Awakening",
 	"artist": "lollo"},
 "utz3v31xo-s": {
-	"title": "Super Mario Bros. Music - Castle",
+	"title": "Castle - Super Mario Bros.",
 	"wiki": "https://siivagunner.wiki/wiki/Super%20Mario%20Bros.%20Music%20-%20Castle%20(Beta%20Mix)",
 	"joke": "Through the Fire and Flames - DragonForce",
 	"artist": "Ellie53"},
@@ -15728,7 +15747,7 @@ const db = {
 "GnQjYt0WEFc": {
 	"title": "Dance 2 - Kirby 64: The Crystal Shards",
 	"wiki": "https://siivagunner.wiki/wiki/Dance%202%20-%20Kirby%2064%3A%20The%20Crystal%20Shards",
-	"joke": "Bibbidi-Bobbidi-Boo - Cinderella (1950) (1950)",
+	"joke": "Bibbidi-Bobbidi-Boo - Cinderella (1950)",
 	"artist": "berg8793"},
 "c9EPyLFp1p0": {
 	"title": "World 5 Map - Super Mario Bros. 3 (Super Mario All-Stars)",
@@ -16126,7 +16145,7 @@ const db = {
 	"joke": "My Brother Woody - The Free Design",
 	"artist": "yhenestik"},
 "KrPFOMC_lWY": {
-	"title": "The Time (Dirty Bit) - The Black Eyed Peas Experience",
+	"title": "The Time (Dirty Bit) - Black Eyed Peas",
 	"wiki": "https://siivagunner.wiki/wiki/The%20Time%20(Dirty%20Bit)%20-%20The%20Black%20Eyed%20Peas%20Experience",
 	"joke": "Barbie Girl - Aqua",
 	"artist": "Vincent Mashups"},
@@ -16211,7 +16230,7 @@ const db = {
 	"joke": "Game Over - Falling in Reverse",
 	"artist": "Heboyi"},
 "mxCmV0CG9j0": {
-	"title": "Bird is Float - Mountain (Devolution v36) - Baba Is You",
+	"title": "Bird is Float - Mountain - Baba Is You",
 	"wiki": "https://siivagunner.wiki/wiki/Bird%20is%20Float%20-%20Mountain%20(Devolution%20v36)%20-%20Baba%20Is%20You",
 	"joke": "Starjump - Celeste",
 	"artist": "Unknown Ripper"},
@@ -16866,7 +16885,8 @@ const db = {
 	"joke": "Katz's Creepy Castle - Cartoon Network: Block Party",
 	"artist": "rinaten"},
 "GLWIu-dZanE": {
-	"title": "breakball in the past..",
+	"title": "breakball in the past...",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Breakball%20in%20the%20past...",
 	"joke": "Time Breaker - BreakBall: Time Travel",
 	"artist": "ludosmo"},
@@ -16921,7 +16941,7 @@ const db = {
 	"joke": "P-R-O-G-R-A-M - Kirby Planet Robobot",
 	"artist": "MJ"},
 "AwCUS9tgMbA": {
-	"title": "Sensei's Theme (Power) - Advanced Wars 1+2: Re-Boot Camp",
+	"title": "Sensei's Theme (Power) - Advance Wars 1+2: Re-Boot Camp",
 	"wiki": "https://siivagunner.wiki/wiki/Sensei's%20Theme%20(Power)%20-%20Advanced%20Wars%201%2B2%3A%20Re-Boot%20Camp",
 	"joke": "Lone Digger - Caravan Palace",
 	"artist": "Lugitaro"},
@@ -16961,7 +16981,7 @@ const db = {
 	"joke": "Moxie - Friendly Bunny Mochi",
 	"artist": "athenamite"},
 "lpjYooyv500": {
-	"title": "Palmtree Panic Past (v1.05) - Sonic CD",
+	"title": "Palmtree Panic Past - Sonic CD",
 	"wiki": "https://siivagunner.wiki/wiki/Palmtree%20Panic%20Past%20(v1.05)%20-%20Sonic%20CD",
 	"joke": "Koopa Beach - Super Mario Kart",
 	"artist": "lonk"},
@@ -17131,7 +17151,7 @@ const db = {
 	"joke": "Bikini Bottom - SpongeBob SquarePants: Battle for Bikini Bottom",
 	"artist": "Emm Bee Sea"},
 "1-qqyAc5XPo": {
-	"title": "Stardust Speedway Bad Future (JP/PAL) - Sonic CD",
+	"title": "Stardust Speedway Bad Future (JPN/PAL) - Sonic CD",
 	"wiki": "https://siivagunner.wiki/wiki/Stardust%20Speedway%20Bad%20Future%20(JPN/PAL)%20(OST%20Version)%20-%20Sonic%20CD",
 	"joke": "Hot Property - Jamiroquai",
 	"artist": "eg_9371"},
@@ -17186,7 +17206,7 @@ const db = {
 	"joke": "Goodbye to a World - Porter Robinson",
 	"artist": "berg8793"},
 "47PGLwiEu4w": {
-	"title": "Bonus Game - Yoshi's Island",
+	"title": "Bonus Game - Super Mario World 2: Yoshi's Island",
 	"wiki": "https://siivagunner.wiki/wiki/Bonus%20Game%20(Beta%20Mix)%20-%20Yoshi's%20Island",
 	"joke": "Bonus Game Music - Mappy",
 	"artist": "mullar"},
@@ -17466,7 +17486,7 @@ const db = {
 	"joke": "Saidai Seichi Carnival - Lucky Star",
 	"artist": "Nozobot"},
 "K_oMHSxdhJY": {
-	"title": "Inside Clanker (NTSC Edition) - Banjo-Kazooie",
+	"title": "Inside Clanker - Banjo-Kazooie",
 	"wiki": "https://siivagunner.wiki/wiki/Inside%20Clanker%20(NTSC%20Edition)%20-%20Banjo-Kazooie",
 	"joke": "Hangin Out - Microsoft 3D Movie Maker",
 	"artist": "Memesauce"},
@@ -17496,7 +17516,7 @@ const db = {
 	"joke": "DIRTY! - JPEGMAFIA",
 	"artist": "Expensive Dispenser"},
 "LLlMULkZ70k": {
-	"title": "Turbo Talon Trot (Rare Replay) - Banjo-Kazooie",
+	"title": "Turbo Talon Trot - Banjo-Kazooie",
 	"wiki": "https://siivagunner.wiki/wiki/Turbo%20Talon%20Trot%20(Rare%20Replay)%20-%20Banjo-Kazooie",
 	"joke": "Salgo Pa' la Calle - Daddy Yankee ft. Randy Nota Loca",
 	"artist": "vz24"},
@@ -17621,7 +17641,7 @@ const db = {
 	"joke": "Pajama Time! - South Park",
 	"artist": "Jiko Music"},
 "jg2t1xxZcmk": {
-	"title": "Powers Combined (Chapter 1 & 2 DEMO) - Deltarune",
+	"title": "Powers Combined - Deltarune",
 	"wiki": "https://siivagunner.wiki/wiki/Powers%20Combined%20(Chapter%201%20%26%202%20DEMO)%20-%20Deltarune",
 	"joke": "Let's Fighting Love - South Park",
 	"artist": "Ethan"},
@@ -18584,7 +18604,7 @@ const db = {
 	"joke": "Let Go - deadmau5",
 	"artist": "berg8793"},
 "OhC3UnBge0M": {
-	"title": "Room Before Boss - Yoshi's Island",
+	"title": "Room Before Boss - Super Mario World 2: Yoshi's Island",
 	"wiki": "https://siivagunner.wiki/wiki/Room%20Before%20Boss%20(Alpha%20Mix)%20-%20Yoshi's%20Island",
 	"joke": "The Smell of a Scary Beast - Kirby and the Forgotten Land",
 	"artist": "mullar"},
@@ -18594,7 +18614,7 @@ const db = {
 	"joke": "Baby Blue - Badfinger",
 	"artist": "AubyLover29"},
 "HIxR6xsqp8c": {
-	"title": "Where Is The Love? - The Black Eyed Peas Experience",
+	"title": "Where Is The Love? - Black Eyed Peas",
 	"wiki": "https://siivagunner.wiki/wiki/Where%20Is%20The%20Love%3F%20-%20The%20Black%20Eyed%20Peas%20Experience",
 	"joke": "Fat Cat Mat - Badanamu",
 	"artist": "berg8793"},
@@ -18829,7 +18849,7 @@ const db = {
 	"joke": "soldier game - Love Live!",
 	"artist": "cookiefonster"},
 "PteCI0qVflA": {
-	"title": "Black Hole - Advanced Wars 2: Black Hole Rising",
+	"title": "Black Hole - Advance Wars 2: Black Hole Rising",
 	"wiki": "https://siivagunner.wiki/wiki/Black%20Hole%20-%20Advanced%20Wars%202%3A%20Black%20Hole%20Rising",
 	"joke": "Spin Ye Bottle (Minigame) - Shovel Knight",
 	"artist": "Lugitaro"},
@@ -19231,6 +19251,7 @@ const db = {
 	"artist": "CactusTeam"},
 "MZbGQMTXgQU": {
 	"title": "Safe and Sound - Just Dance 2014",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Safe%20and%20Sound%20-%20Just%20Dance%202014",
 	"joke": "A CYBER'S WORLD? - Deltarune",
 	"artist": "eg_9371"},
@@ -19496,7 +19517,7 @@ const db = {
 	"joke": "Luigi Theme - Mario Strikers Charged",
 	"artist": "Emm Bee Sea"},
 "BEotqTIhF-o": {
-	"title": "Ending (Super Luigi Bros.) - NES Remix 2",
+	"title": "Ending - Super Mario Bros",
 	"wiki": "https://siivagunner.wiki/wiki/Ending%20(Super%20Luigi%20Bros.)%20-%20NES%20Remix%202",
 	"joke": "The Dayman - It's Always Sunny In Philadelphia",
 	"artist": "Jiko Music"},
@@ -19966,7 +19987,7 @@ const db = {
 	"joke": "Crumbling Dreams - Five Nights at Freddy's: Sister Location",
 	"artist": "601billionlazer"},
 "uJg-ewF_cys": {
-	"title": "Story Music Box - Yoshi's Island",
+	"title": "Story Music Box - Super Mario World 2: Yoshi's Island",
 	"wiki": "https://siivagunner.wiki/wiki/Story%20Music%20Box%20(Alpha%20Mix)%20-%20Yoshi's%20Island",
 	"joke": "Music Box - Five Nights at Freddy's",
 	"artist": "xIncisions"},
@@ -20168,7 +20189,7 @@ const db = {
 "9M4NSTVeJOk": {
 	"title": "Lynne ~ A Targeted Redhead - Ghost Trick: Phantom Detective",
 	"wiki": "https://siivagunner.wiki/wiki/Lynne%20~%20A%20Targeted%20Redhead%20(Beta%20Mix)%20-%20Ghost%20Trick%3A%20Phantom%20Detective",
-	"joke": "Invading Japan! - The Battle Cats before looping",
+	"joke": "Another Life - Kano",
 	"artist": "athenamite"},
 "CyDO9X2hDsk": {
 	"title": "Followers - Melatonin",
@@ -20712,7 +20733,7 @@ const db = {
 	"joke": "Promises to Keep - Trans-Siberian Orchestra",
 	"artist": "Emm Bee Sea"},
 "CcYrVTWF4eE": {
-	"title": "Game Over - Shin Megami Tensei If..",
+	"title": "Game Over - Shin Megami Tensei If...",
 	"wiki": "https://siivagunner.wiki/wiki/Game%20Over%20-%20Shin%20Megami%20Tensei%20If...",
 	"joke": "Fallen Down - Undertale",
 	"artist": "Eva Twin"},
@@ -20817,7 +20838,7 @@ const db = {
 	"joke": "The Shape Stalks - Halloween",
 	"artist": "MJ"},
 "imImksDBWn0": {
-	"title": "Super Mario Bros. Music - Ground Theme",
+	"title": "Ground Theme - Super Mario Bros.",
 	"wiki": "https://siivagunner.wiki/wiki/Super%20Mario%20Bros.%20Music%20-%20Ground%20Theme%20(In-Game%20Version)",
 	"joke": "I'm Gonna Kill Santa Claus - Danny Gonzalez",
 	"artist": "TACO BELL"},
@@ -21189,32 +21210,32 @@ const db = {
 "nPxmDiRfs5Q": {
 	"title": "Frosted Peak - Bugsnax",
 	"wiki": "https://siivagunner.wiki/wiki/Frosted%20Peak%20-%20Bugsnax",
-	"joke": "Meet Me Halfway - The Black Eyed Peas",
+	"joke": "Meet Me Halfway - Black Eyed Peas",
 	"artist": "Vincent Mashups"},
 "PtIXgu3O3OE": {
 	"title": "Emote: Controller Crew - Fortnite",
 	"wiki": "https://siivagunner.wiki/wiki/Emote%3A%20Controller%20Crew%20(OST%20Version)%20-%20Fortnite",
-	"joke": "DOUBLE D'Z - The Black Eyed Peas & J. Rey Soul",
+	"joke": "DOUBLE D'Z - Black Eyed Peas & J. Rey Soul",
 	"artist": "Vincent Mashups"},
 "AFSHVHXZsRY": {
 	"title": "Oh My God. - OMORI",
 	"wiki": "https://siivagunner.wiki/wiki/Oh%20My%20God.%20(Alternate%20Version)%20-%20OMORI",
-	"joke": "Imma Be - The Black Eyed Peas",
+	"joke": "Imma Be - Black Eyed Peas",
 	"artist": "Jazziest"},
 "jH9Mvf0gOIg": {
 	"title": "Joke's End - Mario & Luigi: Superstar Saga",
 	"wiki": "https://siivagunner.wiki/wiki/Joke's%20End%20-%20Mario%20%26%20Luigi%3A%20Superstar%20Saga",
-	"joke": "Imma Be - The Black Eyed Peas",
+	"joke": "Imma Be - Black Eyed Peas",
 	"artist": "Nightmemmy Moon"},
 "plSBqAzCjEQ": {
 	"title": "Hidden Island - Sonic Rush Adventure",
 	"wiki": "https://siivagunner.wiki/wiki/Hidden%20Island%20(Alpha%20Mix)%20-%20Sonic%20Rush%20Adventure",
-	"joke": "Pump It - The Black Eyed Peas",
+	"joke": "Pump It - Black Eyed Peas",
 	"artist": "Vincent Mashups"},
 "k0MY6MDrkgY": {
 	"title": "I Really Want to Stay at Your House - Cyberpunk 2077",
 	"wiki": "https://siivagunner.wiki/wiki/I%20Really%20Want%20to%20Stay%20at%20Your%20House%20-%20Cyberpunk%202077",
-	"joke": "Meet Me Halfway - The Black Eyed Peas",
+	"joke": "Meet Me Halfway - Black Eyed Peas",
 	"artist": "duuzu"},
 "6mLKAUwkaHA": {
 	"title": "Cyber Space 2-3: Nostalgic Sweep - Sonic Frontiers",
@@ -21234,17 +21255,17 @@ const db = {
 "xhN37UfcJdY": {
 	"title": "Aishiteru Banzai! - Love Live! School idol festival",
 	"wiki": "https://siivagunner.wiki/wiki/Aishiteru%20Banzai!%20(UMI%20Mix)%20-%20Love%20Live!%20School%20idol%20festival",
-	"joke": "Where Is the Love? - The Black Eyed Peas",
+	"joke": "Where Is the Love? - Black Eyed Peas",
 	"artist": "berg8793"},
 "nUVNXLmCR3k": {
 	"title": "Dumb - Clannad",
 	"wiki": "https://siivagunner.wiki/wiki/Dumb%20(Alpha%20Mix)%20-%20Clannad",
-	"joke": "RITMO (Bad Boys For Life) - The Black Eyed Peas & J Balvin",
+	"joke": "RITMO (Bad Boys For Life) - Black Eyed Peas & J Balvin",
 	"artist": "Vincent Mashups"},
 "FYjEgl-DUHs": {
 	"title": "Combatant - River City Girls",
 	"wiki": "https://siivagunner.wiki/wiki/Combatant%20-%20River%20City%20Girls",
-	"joke": "Rock That Body - The Black Eyed Peas",
+	"joke": "Rock That Body - Black Eyed Peas",
 	"artist": "Vincent Mashups"},
 "E2daukGKrpQ": {
 	"title": "Bossa Nova - Rhythm Heaven Fever",
@@ -21258,16 +21279,17 @@ const db = {
 	"artist": "Vincent Mashups"},
 "Inpf7veChmM": {
 	"title": "GIRL LIKE ME - Just Dance 2022",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/GIRL%20LIKE%20ME%20-%20Just%20Dance%202022",
 	"joke": "Cereal Killa - Blue Wednesday",
 	"artist": "Vincent Mashups"},
 "3USJhEWHHkg": {
 	"title": "Numbers - Big Brain Academy: Brain vs. Brain",
 	"wiki": "https://siivagunner.wiki/wiki/Numbers%20-%20Big%20Brain%20Academy%3A%20Brain%20vs.%20Brain",
-	"joke": "Where Is the Love? - The Black Eyed Peas",
+	"joke": "Where Is the Love? - Black Eyed Peas",
 	"artist": "Vincent Mashups"},
 "Wnqq4ElIa4A": {
-	"title": "Meet Me Halfway - The Black Eyed Peas Experience",
+	"title": "Meet Me Halfway - Black Eyed Peas",
 	"wiki": "https://siivagunner.wiki/wiki/Meet%20Me%20Halfway%20-%20The%20Black%20Eyed%20Peas%20Experience",
 	"joke": "Big Time Rush - Big Time Rush",
 	"artist": "Vincent Mashups"},
@@ -21279,7 +21301,7 @@ const db = {
 "4tdualCrgAE": {
 	"title": "Emote: Groove Jam - Fortnite",
 	"wiki": "https://siivagunner.wiki/wiki/Emote%3A%20Groove%20Jam%20(In-Game%20Version)%20-%20Fortnite",
-	"joke": "My Humps - The Black Eyed Peas",
+	"joke": "My Humps - Black Eyed Peas",
 	"artist": "Vincent Mashups"},
 "usmlawMjckM": {
 	"title": "NSR Approach ~ 1010 - No Straight Roads",
@@ -21289,7 +21311,7 @@ const db = {
 "Fs2jVByHIrI": {
 	"title": "Enter Eve - No Straight Roads",
 	"wiki": "https://siivagunner.wiki/wiki/Enter%20Eve%20-%20No%20Straight%20Roads",
-	"joke": "Imma Be - The Black Eyed Peas",
+	"joke": "Imma Be - Black Eyed Peas",
 	"artist": "Vincent Mashups"},
 "7tmgm1VtT0w": {
 	"title": "Mad Twience - My Little Pony: Equestria Girls",
@@ -21304,7 +21326,7 @@ const db = {
 "9cBgCmFtJNI": {
 	"title": "Dragaux Stadium 1 - Ring Fit Adventure",
 	"wiki": "https://siivagunner.wiki/wiki/Dragaux%20Stadium%201%20-%20Ring%20Fit%20Adventure",
-	"joke": "Rock That Body - The Black Eyed Peas",
+	"joke": "Rock That Body - Black Eyed Peas",
 	"artist": "Vincent Mashups"},
 "N7V-9tkt1ts": {
 	"title": "Emote: Work It - Fortnite",
@@ -21312,7 +21334,7 @@ const db = {
 	"joke": "Boom Boom Pow - Black Eyed Peas",
 	"artist": "Jazziest"},
 "Byusd6Y-sWM": {
-	"title": "Let's Get It Started - The Black Eyed Peas Experience",
+	"title": "Let's Get It Started - Black Eyed Peas",
 	"wiki": "https://siivagunner.wiki/wiki/Let's%20Get%20It%20Started%20-%20The%20Black%20Eyed%20Peas%20Experience",
 	"joke": "Nobody Like U - Turning Red",
 	"artist": "Vincent Mashups"},
@@ -21984,7 +22006,7 @@ const db = {
 "8Msrl2vuo88": {
 	"title": "Main Theme - Thomas the Tank Engine & Friends",
 	"wiki": "https://siivagunner.wiki/wiki/Main%20Theme%20(NTSC%20Version)%20-%20Thomas%20the%20Tank%20Engine%20%26%20Friends",
-	"joke": "The The Bare Necessities - The Jungle Book",
+	"joke": "The Bare Necessities - The Jungle Book",
 	"artist": "overcast07"},
 "zUz1siJZODM": {
 	"title": "Feel the Same - Grand Theft Auto V",
@@ -22934,7 +22956,7 @@ const db = {
 "2I7Elecj2qg": {
 	"title": "The Woodland (Oleander's Stage) - Them's Fightin' Herds",
 	"wiki": "https://siivagunner.wiki/wiki/The%20Woodland%20(Oleander's%20Stage)%20-%20Them's%20Fightin'%20Herds",
-	"joke": "Rock That Body - The Black Eyed Peas",
+	"joke": "Rock That Body - Black Eyed Peas",
 	"artist": "Joshua Rocha"},
 "M6VgJjt9y8c": {
 	"title": "SK Act 1 Boss - Sonic the Hedgehog 3 & Knuckles",
@@ -24749,7 +24771,7 @@ const db = {
 	"joke": "Dead Voxel - Minecraft",
 	"artist": "eg_9371"},
 "Zpu3zVWQLrU": {
-	"title": "Gestation (Internal Percussion) - Cave Story",
+	"title": "Gestation - Cave Story",
 	"wiki": "https://siivagunner.wiki/wiki/Gestation%20(Internal%20Percussion)%20-%20Cave%20Story",
 	"joke": "Ki - Minecraft",
 	"artist": "Emm Bee Sea"},
@@ -24934,7 +24956,7 @@ const db = {
 	"joke": "Aquatic Ambience - Donkey Kong Country",
 	"artist": "Myeauxyoozi"},
 "ivLQjmGClzg": {
-	"title": "Honey B's Hive (Rare Replay) - Banjo-Tooie",
+	"title": "Honey B's Hive - Banjo-Tooie",
 	"wiki": "https://siivagunner.wiki/wiki/Honey%20B's%20Hive%20(Rare%20Replay)%20-%20Banjo-Tooie",
 	"joke": "Dapper Don - SpongeBob SquarePants",
 	"artist": "Blookerstein"},
@@ -25255,7 +25277,7 @@ const db = {
 	"joke": "HINOTORI - Takanashi Kiara",
 	"artist": "Sarvéproductions"},
 "6MODHgxJlQI": {
-	"title": "Overworld Theme - Yoshi's Island",
+	"title": "Overworld Theme - Super Mario World 2: Yoshi's Island",
 	"wiki": "https://siivagunner.wiki/wiki/Overworld%20Theme%20(Alpha%20Mix)%20-%20Yoshi's%20Island",
 	"joke": "Papagenu (He's My Sassafrass) - Tenacious D",
 	"artist": "mullar"},
@@ -25315,7 +25337,7 @@ const db = {
 	"joke": "Out Here - Pendulum",
 	"artist": "RCXcrafter"},
 "BSpvkK3rrvI": {
-	"title": "Underwater (Super Mario Bros.) - Super Mario Maker",
+	"title": "Underwater - Super Mario Bros.",
 	"wiki": "https://siivagunner.wiki/wiki/Underwater%20(Super%20Mario%20Bros.)%20-%20Super%20Mario%20Maker",
 	"joke": "Harlequin - Homestuck",
 	"artist": "literallyn01imp0rtant"},
@@ -25565,7 +25587,7 @@ const db = {
 	"joke": "Lucy in the Sky with Diamonds - The Beatles",
 	"artist": "Helpful Salad"},
 "8Sy6nzU6U80": {
-	"title": "Green Hill Zone (Sonic the Hedgehog) - Sonic Origins",
+	"title": "Green Hill Zone - Sonic the Hedgehog",
 	"wiki": "https://siivagunner.wiki/wiki/Green%20Hill%20Zone%20(Sonic%20the%20Hedgehog)%20-%20Sonic%20Origins",
 	"joke": "Marry Me? - DREAMS COME TRUE",
 	"artist": "Sonicheroesfan1"},
@@ -25590,7 +25612,7 @@ const db = {
 	"joke": "Sky Garden - Mario Kart: Super Circuit",
 	"artist": "lollo"},
 "GFeRCa6mkk8": {
-	"title": "Course World (Ver. 2) - Super Mario Maker 2",
+	"title": "Course World - Super Mario Maker 2",
 	"wiki": "https://siivagunner.wiki/wiki/Course%20World%20(Ver.%202)%20(NTSC%20Version)%20-%20Super%20Mario%20Maker%202",
 	"joke": "P.I.M.P. - 50 Cent",
 	"artist": "Credited to \"Pomni Paizuri\""},
@@ -25681,7 +25703,7 @@ const db = {
 	"joke": "Juicy - Doja Cat",
 	"artist": "Credited to \"Deku Cat\""},
 "MQWlSJoGwY8": {
-	"title": "Bubblaine (Underwater) - Super Mario Odyssey",
+	"title": "Bubblaine - Super Mario Odyssey",
 	"wiki": "https://siivagunner.wiki/wiki/Bubblaine%20(Underwater)%20(Beta%20Mix)%20-%20Super%20Mario%20Odyssey",
 	"joke": "ocean view - easy life",
 	"artist": "Vincent Mashups"},
@@ -25829,7 +25851,7 @@ const db = {
 "8S13Yad95Wk": {
 	"title": "Kodama Island - Zettai Onkan OtodaMaster",
 	"wiki": "https://siivagunner.wiki/wiki/Kodama%20Island%20-%20Zettai%20Onkan%20OtodaMaster",
-	"joke": "Route 24 / 25 (Cerulean City to Bill's) - Pokemon Red & Blue",
+	"joke": "To Bill's Origin: Leaving Cerulean City (Route 24 / 25) - Pokemon Red & Blue",
 	"artist": "Unknown Ripper"},
 "40Z4DLmygH8": {
 	"title": "Round Start (Find Mii) - Wii Play",
@@ -25887,7 +25909,7 @@ const db = {
 	"joke": "Muv-Luv - Muv-Luv",
 	"artist": "Avolience"},
 "sG3FeP5w4WI": {
-	"title": "Flying Battery Zone, Act 2 - Sonic Mania Plus",
+	"title": "Flying Battery Zone, Act 2 - Sonic Mania",
 	"wiki": "https://siivagunner.wiki/wiki/Flying%20Battery%20Zone%20Act%202%20(Encore%20Mode)%20-%20Sonic%20Mania%20Plus",
 	"joke": "MrBeast's Outro Song - Whobilly",
 	"artist": "Retro Gaming"},
@@ -26240,7 +26262,7 @@ const db = {
 "8Y_CLKyC_DU": {
 	"title": "Piranha Plant's Lullaby - Super Mario 64",
 	"wiki": "https://siivagunner.wiki/wiki/Piranha%20Plant's%20Lullaby%20(Extended%20Version)%20-%20Super%20Mario%2064DD",
-	"joke": "Living (Apollo's Theme) - the webseries Diminish",
+	"joke": "Living (Apollo's Theme) - Diminish",
 	"artist": "Moder112"},
 "DgdP3lxkjJU": {
 	"title": "I Am Octavio (Phase 2) - Splatoon",
@@ -26273,7 +26295,7 @@ const db = {
 	"joke": "Beneath the Mask - Persona 5",
 	"artist": "RJMY"},
 "sWRTQ4zhxwc": {
-	"title": "Castle & Fortress - Yoshi's Island",
+	"title": "Castle & Fortress - Super Mario World 2: Yoshi's Island",
 	"wiki": "https://siivagunner.wiki/wiki/Castle%20%26%20Fortress%20(OST%20Version)%20-%20Yoshi's%20Island",
 	"joke": "What's in the Bathtub? - Bassetfilms",
 	"artist": "Garth Breadman"},
@@ -26443,7 +26465,7 @@ const db = {
 	"joke": "Friend Zone - Your Favorite Martian",
 	"artist": "CactusTeam"},
 "_NEspiQhino": {
-	"title": "P-Switch (Super Mario Bros. 3) - Super Mario Maker 2",
+	"title": "P-Switch - Super Mario Bros. 3",
 	"wiki": "https://siivagunner.wiki/wiki/P-Switch%20(Super%20Mario%20Bros.%203)%20(Beta%20Mix)%20-%20Super%20Mario%20Maker%202",
 	"joke": "Dance Mr. Funnybones - The Henry Stickmin Collection",
 	"artist": "lollo"},
@@ -26999,7 +27021,7 @@ const db = {
 	"joke": "Zombie - Cave Story",
 	"artist": "eg_9371"},
 "ZIcHPtiIPd8": {
-	"title": "Underground Theme - Yoshi's Island",
+	"title": "Underground Theme - Super Mario World 2: Yoshi's Island",
 	"wiki": "https://siivagunner.wiki/wiki/Underground%20Theme%20(NTSC%20Version)%20-%20Yoshi's%20Island",
 	"joke": "Deadlines And Commitments - The Killers",
 	"artist": "Unknown Ripper"},
@@ -27280,7 +27302,7 @@ const db = {
 	"joke": "Bad Apple!! feat.nomico - Alstroemeria Records",
 	"artist": "TheBeastlyPichu"},
 "A04K5UVBPB0": {
-	"title": "Flower Garden - Yoshi's Island",
+	"title": "Flower Garden - Super Mario World 2: Yoshi's Island",
 	"wiki": "https://siivagunner.wiki/wiki/Flower%20Garden%20(PAL%20Version)%20-%20Yoshi's%20Island",
 	"joke": "Free as a Bird - The Beatles",
 	"artist": "lonk"},
@@ -27680,12 +27702,12 @@ const db = {
 	"joke": "2020 - Logan Paul",
 	"artist": "eg_9371"},
 "iGB4qybG2jM": {
-	"title": "Course World (Ver. 2) - Super Mario Maker 2",
+	"title": "Course World - Super Mario Maker 2",
 	"wiki": "https://siivagunner.wiki/wiki/Course%20World%20(Ver.%202)%20-%20Super%20Mario%20Maker%202",
 	"joke": "Outta My Hair - Logan Paul",
 	"artist": "Grambam36"},
 "UOSmFLoBLRg": {
-	"title": "Boulevard of Broken Dreams - Rock Band",
+	"title": "Boulevard of Broken Dreams - Green Day",
 	"wiki": "https://siivagunner.wiki/wiki/Boulevard%20of%20Broken%20Dreams%20-%20Rock%20Band",
 	"joke": "HERO - Logan Paul featuring Zircon",
 	"artist": "beardfear"},
@@ -27986,7 +28008,7 @@ const db = {
 	"joke": "Secret of the Forest - Chrono Trigger",
 	"artist": "eg_9371"},
 "zHep2hoY_xw": {
-	"title": "School (Chapter 1 & 2 DEMO) - Deltarune",
+	"title": "School - Deltarune",
 	"wiki": "https://siivagunner.wiki/wiki/School%20(Chapter%201%20%26%202%20DEMO)%20-%20Deltarune",
 	"joke": "I Love You, Social Distancing - South Park",
 	"artist": "Retro Gaming"},
@@ -28156,7 +28178,7 @@ const db = {
 	"joke": "Countdown Clock - Countdown",
 	"artist": "Avolience"},
 "lrnZ9wmFbCw": {
-	"title": "A CYBER'S WORLD? (Chapter 1 & 2 DEMO) - Deltarune",
+	"title": "A CYBER'S WORLD? - Deltarune",
 	"wiki": "https://siivagunner.wiki/wiki/A%20CYBER'S%20WORLD%3F%20(Chapter%201%20%26%202%20DEMO)%20-%20Deltarune",
 	"joke": "I Forgive You - Kelly Clarkson",
 	"artist": "Retro Gaming"},
@@ -28196,7 +28218,7 @@ const db = {
 	"joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin",
 	"artist": "ChristopherLry"},
 "YyUKqBq8xHE": {
-	"title": "Bubblaine (Underwater) - Super Mario Odyssey",
+	"title": "Bubblaine - Super Mario Odyssey",
 	"wiki": "https://siivagunner.wiki/wiki/Bubblaine%20(Underwater)%20-%20Super%20Mario%20Odyssey",
 	"joke": "Here We Go... Again - The Weeknd",
 	"artist": "vvsvlogs"},
@@ -28346,7 +28368,7 @@ const db = {
 	"joke": "Save the Last Dance for Me - The Drifters",
 	"artist": "beardfear"},
 "RItyYglxDO4": {
-	"title": "Man (SURVEY_PROGRAM Demo) - Deltarune",
+	"title": "Man - Deltarune",
 	"wiki": "https://siivagunner.wiki/wiki/Man%20(SURVEY%20PROGRAM%20Demo)%20-%20Deltarune",
 	"joke": "Implicit Demand For Proof - Twenty One Pilots",
 	"artist": "C-Man"},
@@ -28368,7 +28390,7 @@ const db = {
 "5Hi8MXuzdzc": {
 	"title": "Wrong Number Song - Undertale",
 	"wiki": "https://siivagunner.wiki/wiki/Wrong%20Number%20Song%20(PAL%20Version)%20-%20Undertale",
-	"joke": "Ob‐La‐Di, Ob‐La‐Da - The Beatles",
+	"joke": "Ob-La-Di, Ob-La-Da - The Beatles",
 	"artist": "Myeauxyoozi"},
 "f9_mHGV1hIs": {
 	"title": "Load Game - Stardew Valley",
@@ -28746,7 +28768,7 @@ const db = {
 	"joke": "Hopelessly Devoted To You - Grease",
 	"artist": "Myeauxyoozi"},
 "Yh-sA5byfJo": {
-	"title": "Super Mario Bros. Music - Underwater",
+	"title": "Underwater - Super Mario Bros.",
 	"wiki": "https://siivagunner.wiki/wiki/Super%20Mario%20Bros.%20Music%20-%20Underwater%20(In-Game%20Version)",
 	"joke": "Look At Me I'm Sandra Dee - Grease",
 	"artist": "Myeauxyoozi"},
@@ -29509,7 +29531,7 @@ const db = {
 "QDs8zNkJi4o": {
 	"title": "Under the Ice - Mario Pinball Land",
 	"wiki": "https://siivagunner.wiki/wiki/Under%20the%20Ice%20(CD%20Version)%20-%20Mario%20Pinball%20Land",
-	"joke": "Tidal Tempest (JP/PAL) - Sonic CD",
+	"joke": "Tidal Tempest (JPN/PAL) - Sonic CD",
 	"artist": "C-Man"},
 "r80I2jVMVnc": {
 	"title": "Quiet Victory - Robotrek",
@@ -29763,7 +29785,7 @@ const db = {
 	"joke": "Overworld - Final Fantasy IV",
 	"artist": "Jomarori"},
 "j9q0Hk0_sls": {
-	"title": "Chaos King (Chapter 1 & 2 DEMO) - Deltarune",
+	"title": "Chaos King - Deltarune",
 	"wiki": "https://siivagunner.wiki/wiki/Chaos%20King%20(Chapter%201%20%26%202%20DEMO)%20-%20Deltarune",
 	"joke": "Poker Face - South Park",
 	"artist": "Retro Gaming"},
@@ -30014,6 +30036,7 @@ const db = {
 	"artist": "Emm Bee Sea"},
 "JYIPEpswJaI": {
 	"title": "Ghost in the Keys - Just Dance 2017",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Ghost%20in%20the%20Keys%20-%20Just%20Dance%202017",
 	"joke": "Clint Eastwood - Gorillaz",
 	"artist": "Joshua Rocha"},
@@ -30298,7 +30321,7 @@ const db = {
 	"joke": "Hokus Pokus - Insane Clown Posse",
 	"artist": "eg_9371"},
 "enN_Rly7taI": {
-	"title": "Cemetery (Internal Percussion) - Cave Story",
+	"title": "Cemetery - Cave Story",
 	"wiki": "https://siivagunner.wiki/wiki/Cemetery%20(Internal%20Percussion)%20-%20Cave%20Story",
 	"joke": "Bad Apple!! feat.nomico - Alstroemeria Records",
 	"artist": "eg_9371"},
@@ -30420,7 +30443,7 @@ const db = {
 "eHz9db0fJoc": {
 	"title": "Emote: Shake It Up - Fortnite",
 	"wiki": "https://siivagunner.wiki/wiki/Emote%3A%20Shake%20It%20Up%20-%20Fortnite",
-	"joke": "Ghostbusters - Ray Parker Jr..",
+	"joke": "Ghostbusters - Ray Parker Jr.",
 	"artist": "Crawvian"},
 "Omj2tlfsVj8": {
 	"title": "Get Meowta Here! (Furightful Lab Theme) - Catlateral Damage",
@@ -30980,7 +31003,7 @@ const db = {
 "kGi-3CkfMlo": {
 	"title": "BM - Cyberpunk 2077",
 	"wiki": "https://siivagunner.wiki/wiki/BM%20-%20Cyberpunk%202077",
-	"joke": "Imma Be - The Black Eyed Peas",
+	"joke": "Imma Be - Black Eyed Peas",
 	"artist": "duuzu"},
 "QhxiLr-BkII": {
 	"title": "Keep on the Beat (Round 2) - Fantasy Zone",
@@ -31735,7 +31758,7 @@ const db = {
 	"joke": "Brane Scan - Half-Life 2",
 	"artist": "eg_9371"},
 "rGITOAjbABc": {
-	"title": "Super Mario Bros. Music - Underwater",
+	"title": "Underwater - Super Mario Bros.",
 	"wiki": "https://siivagunner.wiki/wiki/Super%20Mario%20Bros.%20Music%20-%20Underwater%20(NTSC%20Version)",
 	"joke": "Still Alive - Portal",
 	"artist": "Brendan"},
@@ -32046,7 +32069,7 @@ const db = {
 	"joke": "Rainbow Route - Kirby & The Amazing Mirror",
 	"artist": "Brendan"},
 "5JhqD8wKFVk": {
-	"title": "Treasured Times (Instrumental) - NieR: Automata",
+	"title": "Treasured Times - NieR: Automata",
 	"wiki": "https://siivagunner.wiki/wiki/Treasured%20Times%20(Instrumental)%20-%20NieR%3A%20Automata",
 	"joke": "VIOLET - Ninomae Ina'nis",
 	"artist": "Sarvéproductions"},
@@ -32091,7 +32114,7 @@ const db = {
 	"joke": "Mecha Green Hill Act 2 - Sonic Hysteria",
 	"artist": "IzzyKart57"},
 "k-TbX7BCnGg": {
-	"title": "Route 24 / 25 (Cerulean City to Bill's) - Pokemon Red & Blue",
+	"title": "To Bill's Origin: Leaving Cerulean City (Route 24 / 25) - Pokemon Red & Blue",
 	"wiki": "https://siivagunner.wiki/wiki/To%20Bill's%20Origin%3A%20Leaving%20Cerulean%20City%20-%20Pok%C3%A9mon%20Red%20%26%20Blue",
 	"joke": "Field of Hopes and Dreams - Deltarune",
 	"artist": "eg_9371"},
@@ -32597,7 +32620,7 @@ const db = {
 	"joke": "Boom Boom Pow - Black Eyed Peas",
 	"artist": "Joshua Rocha"},
 "NzIfIamrHHA": {
-	"title": "Story Music Box - Yoshi's Island",
+	"title": "Story Music Box - Super Mario World 2: Yoshi's Island",
 	"wiki": "https://siivagunner.wiki/wiki/Story%20Music%20Box%20(In-Game%20Version)%20-%20Yoshi's%20Island",
 	"joke": "Theme 1 - 28 Weeks Later",
 	"artist": "Unknown Ripper"},
@@ -33272,7 +33295,7 @@ const db = {
 	"joke": "Satin Panties - Friday Night Funkin'",
 	"artist": "eg_9371"},
 "-7nH9SERNl8": {
-	"title": "Super Mario Bros. Music - Underwater",
+	"title": "Underwater - Super Mario Bros.",
 	"wiki": "https://siivagunner.wiki/wiki/Super%20Mario%20Bros.%20Music%20-%20Underwater%20(JP%20Version)",
 	"joke": "Tanukichi no Bouken - MAKOOTO",
 	"artist": "Sarvéproductions"},
@@ -34448,7 +34471,7 @@ const db = {
 	"joke": "Luigi's Ballad - Starbomb",
 	"artist": "eg_9371"},
 "WvYEin0ndwo": {
-	"title": "Ground Theme (Super Luigi Bros.) - NES Remix 2",
+	"title": "Ground Theme - Super Mario Bros.",
 	"wiki": "https://siivagunner.wiki/wiki/Ground%20Theme%20(Super%20Luigi%20Bros.)%20-%20NES%20Remix%202",
 	"joke": "Buenos Tardes Amigo - Ween",
 	"artist": "beardfear"},
@@ -34938,7 +34961,7 @@ const db = {
 	"joke": "Go Agane - Constera",
 	"artist": "eg_9371"},
 "G2bucrnUJyg": {
-	"title": "Your Best Nightmare (Demo) - Undertale",
+	"title": "Your Best Nightmare - Undertale",
 	"wiki": "https://siivagunner.wiki/wiki/Your%20Best%20Nightmare%20(Demo)%20-%20Undertale",
 	"joke": "Spookeez - Friday Night Funkin'",
 	"artist": "DDA"},
@@ -35223,7 +35246,7 @@ const db = {
 	"joke": "Lose Control - Missy Elliott ft. Ciara & Fatman Scoop",
 	"artist": "Expensive Dispenser"},
 "eisMZ6ZZ9DQ": {
-	"title": "Super Mario Bros. Music - Course Clear Fanfare",
+	"title": "Course Clear Fanfare - Super Mario Bros.",
 	"wiki": "https://siivagunner.wiki/wiki/Super%20Mario%20Bros.%20Music%20-%20Course%20Clear%20Fanfare%20(Unused%20Version)",
 	"joke": "World Clear! - Super Mario 3D Land",
 	"artist": "beardfear"},
@@ -35643,7 +35666,7 @@ const db = {
 	"joke": "Christmas is Creepy - Fred Figglehorn",
 	"artist": "ChickenSuitGuy"},
 "lnzxrsp7-nI": {
-	"title": "Super Mario Bros. Music - Invincible",
+	"title": "Invincible - Super Mario Bros.",
 	"wiki": "https://siivagunner.wiki/wiki/Super%20Mario%20Bros.%20Music%20-%20Invincible%20(NTSC%20Version)",
 	"joke": "Smooth Sherbet - Super Monkey Ball: Banana Blitz",
 	"artist": "qw2"},
@@ -36003,9 +36026,9 @@ const db = {
 	"joke": "Russian Dancing Men - MrWeebl",
 	"artist": "MLPFun"},
 "gfslVTHHKrU": {
-	"title": "Gravity (Internal Percussion) - Cave Story",
+	"title": "Gravity - Cave Story",
 	"wiki": "https://siivagunner.wiki/wiki/Gravity%20(Internal%20Percussion)%20-%20Cave%20Story",
-	"joke": "Rasputin - Boney M..",
+	"joke": "Rasputin - Boney M.",
 	"artist": "eg_9371"},
 "dq5L301aX1g": {
 	"title": "Take Em' Out Tanya! - Command & Conquer: Red Alert 3",
@@ -36040,7 +36063,7 @@ const db = {
 "-Wq5r7DIuCg": {
 	"title": "Hustle for Pride - MOTHER 3",
 	"wiki": "https://siivagunner.wiki/wiki/Hustle%20for%20Pride%20(Alpha%20Mix)%20-%20MOTHER%203",
-	"joke": "Rasputin - Boney M..",
+	"joke": "Rasputin - Boney M.",
 	"artist": "BobTheTacocat"},
 "P8sHEjlvVq4": {
 	"title": "Type B - Tetris",
@@ -36070,7 +36093,7 @@ const db = {
 "CDHPqkkOwJU": {
 	"title": "Macho Grubba Battle - Paper Mario: The Thousand-Year Door",
 	"wiki": "https://siivagunner.wiki/wiki/Macho%20Grubba%20Battle%20-%20Paper%20Mario%3A%20The%20Thousand-Year%20Door",
-	"joke": "The The Concept of Love - Jet Set Radio Future",
+	"joke": "The Concept of Love - Jet Set Radio Future",
 	"artist": "Emotional Snail"},
 "1eGB6nhm6Sg": {
 	"title": "Blizzard Man Stage - Mega Man 6",
@@ -36229,11 +36252,12 @@ const db = {
 	"artist": "beardfear"},
 "ODrJ2SAyDxg": {
 	"title": "Star (Super Mario Bros.) - Super Mario Maker 2",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Star%20(Super%20Mario%20Bros.)%20-%20Super%20Mario%20Maker%202",
 	"joke": "Invincible - Yume Kōjō: Doki Doki Panic",
 	"artist": "Unknown Ripper"},
 "kM47Z2d1xcc": {
-	"title": "Athletic Theme - Yoshi's Island",
+	"title": "Athletic Theme - Super Mario World 2: Yoshi's Island",
 	"wiki": "https://siivagunner.wiki/wiki/Athletic%20Theme%20(Beta%20Mix)%20-%20Yoshi's%20Island",
 	"joke": "Super Bell Hill - Super Mario 3D World",
 	"artist": "beardfear"},
@@ -36510,7 +36534,7 @@ const db = {
 "w8ZEcV9x3Z8": {
 	"title": "Pokemon Tower - Pokemon Red & Blue",
 	"wiki": "https://siivagunner.wiki/wiki/Pok%C3%A9mon%20Tower%20-%20Pok%C3%A9mon%20Red%20%26%20Blue",
-	"joke": "Ghostbusters - Ray Parker Jr..",
+	"joke": "Ghostbusters - Ray Parker Jr.",
 	"artist": "eg_9371"},
 "RrQPgOqbNwE": {
 	"title": "Work Zone (Level 2) - Petscop",
@@ -36707,11 +36731,6 @@ const db = {
 	"wiki": "https://siivagunner.wiki/wiki/Remix%209%20-%20Rhythm%20Heaven%20Fever",
 	"joke": "Funky Dealer - Jet Set Radio Future",
 	"artist": "Expensive Dispenser"},
-"0rtkLOgV9_s": {
-	"title": "Level Complete - New Super Mario Bros.",
-	"wiki": "https://siivagunner.wiki/wiki/Level%20Complete%20(In-Game%20Version)%20-%20New%20Super%20Mario%20Bros.",
-	"joke": "Oh yeah! - the end of this EXPOL commercial",
-	"artist": "Retro Gaming"},
 "0_qeIVFdwlA": {
 	"title": "Pokemon Center - Pokemon Red & Blue",
 	"wiki": "https://siivagunner.wiki/wiki/Pok%C3%A9mon%20Center%20-%20Pok%C3%A9mon%20Red%20%26%20Blue",
@@ -36765,7 +36784,7 @@ const db = {
 "LG-0gHBshFc": {
 	"title": "Act 2 Boss - Sonic the Hedgehog 3 & Knuckles",
 	"wiki": "https://siivagunner.wiki/wiki/Act%202%20Boss%20(OST%20Version)%20-%20Sonic%20the%20Hedgehog%203%20%26%20Knuckles",
-	"joke": "Rasputin - Boney M..",
+	"joke": "Rasputin - Boney M.",
 	"artist": "eg_9371"},
 "-OST5rlvv_s": {
 	"title": "Stickerbush Symphony - Donkey Kong Country 2",
@@ -36818,7 +36837,7 @@ const db = {
 	"joke": "The Nutshack Theme - NUMP",
 	"artist": "ChickenSuitGuy"},
 "hIDAGSAYh4s": {
-	"title": "Sky (Super Mario World) (Hurry Up!) - Super Mario Maker 2",
+	"title": "Sky (Super Mario World) - Super Mario Maker 2",
 	"wiki": "https://siivagunner.wiki/wiki/Sky%20(Super%20Mario%20World)%20(Hurry%20Up!)%20-%20Super%20Mario%20Maker%202",
 	"joke": "Replay - Iyaz",
 	"artist": "eg_9371"},
@@ -36945,7 +36964,7 @@ const db = {
 "0VdQI8hpOV0": {
 	"title": "BGM 20 - Alpine Racer 3",
 	"wiki": "https://siivagunner.wiki/wiki/BGM%2020%20-%20Alpine%20Racer%203",
-	"joke": "Wacky Workbench Bad Future (JP/PAL) - Sonic CD",
+	"joke": "Wacky Workbench Bad Future (JPN/PAL) - Sonic CD",
 	"artist": "fusoxide"},
 "MLb0NLTo6fE": {
 	"title": "Koopa's Road - Super Mario 64",
@@ -37138,7 +37157,7 @@ const db = {
 	"joke": "Underground - Super Mario Bros.",
 	"artist": "PS999"},
 "9rNIgZEbkU4": {
-	"title": "Super Mario Bros. Music - Invincible",
+	"title": "Invincible - Super Mario Bros.",
 	"wiki": "https://siivagunner.wiki/wiki/Super%20Mario%20Bros.%20Music%20-%20Invincible%20(Unused%20Version)",
 	"joke": "Despacito - Luis Fonsi ft. Daddy Yankee",
 	"artist": "Cosmic199X"},
@@ -37169,6 +37188,7 @@ const db = {
 	"artist": "Jiko Music"},
 "SS3aoydY2o0": {
 	"title": "What Makes You Beautiful - Just Dance 4",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/What%20Makes%20You%20Beautiful%20-%20Just%20Dance%204",
 	"joke": "Chop Away at My Heart - Milo Murphy's Law",
 	"artist": "Sam"},
@@ -37433,11 +37453,6 @@ const db = {
 	"wiki": "https://siivagunner.wiki/wiki/Swear%20to%20My%20Bones%20-%20Persona%205",
 	"joke": "Dat Boi - VANTAGE //",
 	"artist": "NutellaFrenchToast"},
-"xUI3oMeH2FA": {
-	"title": "Black Mojipittan Enters - Kotoba no Puzzle: Mojipittan",
-	"wiki": "https://siivagunner.wiki/wiki/Black%20Mojipittan%20Enters%20-%20Kotoba%20no%20Puzzle%3A%20Mojipittan",
-	"joke": "dat boi!!!! - ZimoNitrome are remixed into the music",
-	"artist": "fusoxide"},
 "sXBgxY-99G0": {
 	"title": "Pulse - Cave Story",
 	"wiki": "https://siivagunner.wiki/wiki/Pulse%20(Unused%20Version)%20-%20Cave%20Story",
@@ -37699,7 +37714,7 @@ const db = {
 	"joke": "Gangnam Style - PSY",
 	"artist": "ChickenSuitGuy"},
 "u1DYD_Lh8ac": {
-	"title": "The The Concept of Love - Jet Set Radio Future",
+	"title": "The Concept of Love - Jet Set Radio Future",
 	"wiki": "https://siivagunner.wiki/wiki/The%20Concept%20of%20Love%20(PAL%20Version)%20-%20Jet%20Set%20Radio%20Future",
 	"joke": "Napal Baji - PSY",
 	"artist": "Expensive Dispenser"},
@@ -37976,7 +37991,7 @@ const db = {
 "lSIxdBk3358": {
 	"title": "Rare Hero - Ridge Racer",
 	"wiki": "https://siivagunner.wiki/wiki/Rare%20Hero%20(Sanodigy%20Mix)%20-%20Ridge%20Racer",
-	"joke": "The The Concept of Love - Jet Set Radio Future",
+	"joke": "The Concept of Love - Jet Set Radio Future",
 	"artist": "Lavalamp"},
 "0WFHvCznZ3Q": {
 	"title": "David Goes To Victory Lane - Daytona USA",
@@ -37986,7 +38001,7 @@ const db = {
 "beoafHPHk54": {
 	"title": "Rare Hero - Ridge Racer",
 	"wiki": "https://siivagunner.wiki/wiki/Rare%20Hero%20(Sanodigy%20Mix)%20-%20Ridge%20Racer",
-	"joke": "The The Concept of Love - Jet Set Radio Future",
+	"joke": "The Concept of Love - Jet Set Radio Future",
 	"artist": "Lavalamp"},
 "B8hfNt9PMqI": {
 	"title": "Boss - Super Fantasy Zone",
@@ -38141,7 +38156,7 @@ const db = {
 "JkJuZasHev0": {
 	"title": "The Last Zone - Sonic Rush",
 	"wiki": "https://siivagunner.wiki/wiki/The%20Last%20Zone%20-%20Sonic%20Rush",
-	"joke": "Most of Paralyzer - Finger Eleven",
+	"joke": "Paralyzer - Finger Eleven",
 	"artist": "eg_9371"},
 "VlrF9_tPqV4": {
 	"title": "Boss Theme (Woe is the World) - Comix Zone",
@@ -38164,7 +38179,7 @@ const db = {
 	"joke": "Sadeness - Part i - Enigma",
 	"artist": "eg_9371"},
 "Zfgm0KFHT8w": {
-	"title": "Paternal Horn : Spicy Ver. - NiGHTS into dreams..",
+	"title": "Paternal Horn : Spicy Ver. - NiGHTS into dreams...",
 	"wiki": "https://siivagunner.wiki/wiki/Paternal%20Horn%20%3A%20Spicy%20Ver.%20-%20NiGHTS%20into%20dreams...",
 	"joke": "Fireflies - Owl City",
 	"artist": "cookiefonster"},
@@ -38194,7 +38209,7 @@ const db = {
 	"joke": "Doki Doki Literature Club! - Doki Doki Literature Club!",
 	"artist": "Grambam36"},
 "mKKRMst0URY": {
-	"title": "Jack Frost's Chime : Spicy Ver. - Christmas NiGHTS into dreams..",
+	"title": "Jack Frost's Chime : Spicy Ver. - Christmas NiGHTS into dreams...",
 	"wiki": "https://siivagunner.wiki/wiki/Jack%20Frost's%20Chime%20%3A%20Spicy%20Ver.%20-%20Christmas%20NiGHTS%20into%20dreams...",
 	"joke": "Yankin - Lady",
 	"artist": "l4ureleye"},
@@ -38759,7 +38774,7 @@ const db = {
 	"joke": "Waltz of the Meatball Man - Little Runmo",
 	"artist": "Retro Gaming"},
 "9TJ2IcgTE04": {
-	"title": "Prologue (Phase 5 Sunny) - Animal Crossing: New Horizons",
+	"title": "Prologue - Animal Crossing: New Horizons",
 	"wiki": "https://siivagunner.wiki/wiki/Prologue%20(Phase%205%20Sunny)%20-%20Animal%20Crossing%3A%20New%20Horizons",
 	"joke": "Say You Won't Let Go - James Arthur",
 	"artist": "Sarvéproductions"},
@@ -39018,7 +39033,7 @@ const db = {
 "oOPRvpkzN0c": {
 	"title": "Airship - Super Mario Bros. 3 (Super Mario All-Stars)",
 	"wiki": "https://siivagunner.wiki/wiki/Super%20Mario%20All%20Stars%20SMB3%20Airship",
-	"joke": "Most of God's Call - LISA: The Painful",
+	"joke": "God's Call - LISA: The Painful",
 	"artist": "eg_9371"},
 "xVmCEiWmAOI": {
 	"title": "Emerald Hill Zone (2 player) - Sonic the Hedgehog 2",
@@ -39307,7 +39322,7 @@ const db = {
 	"joke": "Tiny Little Adiantum - ShibayanRecords",
 	"artist": "Unknown Ripper"},
 "iJDcTHE5OTU": {
-	"title": "Super Mario Bros. Music - Course Clear Fanfare",
+	"title": "Course Clear Fanfare - Super Mario Bros.",
 	"wiki": "https://siivagunner.wiki/wiki/Super%20Mario%20Bros.%20Music%20-%20Course%20Clear%20Fanfare%20(Beta%20Mix)",
 	"joke": "Intro Theme - International Superstar Soccer 64/Mundial Ronaldinho Soccer 64",
 	"artist": "SamanthaMK"},
@@ -39609,7 +39624,7 @@ const db = {
 "g1PUZm83-g8": {
 	"title": "The Schemer (Tinker Knight Battle) - Shovel Knight",
 	"wiki": "https://siivagunner.wiki/wiki/The%20Schemer%20(Tinker%20Knight%20Battle)%20(PAL%20Version)%20-%20Shovel%20Knight",
-	"joke": "Rasputin - Boney M..",
+	"joke": "Rasputin - Boney M.",
 	"artist": "Unknown Ripper"},
 "uNiHqJYsD1s": {
 	"title": "Versus Menu Screen - New Super Mario Bros.",
@@ -39639,7 +39654,7 @@ const db = {
 "zVKfh_ppkdw": {
 	"title": "Scrap Brain Zone - Sonic the Hedgehog (Game Gear/Master System)",
 	"wiki": "https://siivagunner.wiki/wiki/Scrap%20Brain%20Zone%20-%20Sonic%20the%20Hedgehog%20(Game%20Gear/Master%20System)",
-	"joke": "Most of Resurrections - Celeste",
+	"joke": "Resurrections - Celeste",
 	"artist": "Mitchell"},
 "b0qaF5WpZ2I": {
 	"title": "Intro Stage - Kirby & The Amazing Mirror",
@@ -39699,7 +39714,7 @@ const db = {
 "fNWbZVyFYI4": {
 	"title": "Mare Carelia - Snailiad",
 	"wiki": "https://siivagunner.wiki/wiki/Mare%20Carelia%20(Beta%20Mix)%20-%20Snailiad",
-	"joke": "Most of Die Young - Ke$ha",
+	"joke": "Die Young - Ke$ha",
 	"artist": "UUN4"},
 "TntOIX5DvRg": {
 	"title": "Battle! (Wild Pokemon) - Pokemon Red & Blue",
@@ -39769,7 +39784,7 @@ const db = {
 "0P4beegQvfY": {
 	"title": "Life Will Change (Short Ver.) - Persona 5: Dancing Star Night",
 	"wiki": "https://siivagunner.wiki/wiki/Life%20Will%20Change%20(Short%20Ver.)%20-%20Persona%205%3A%20Dancing%20Star%20Night",
-	"joke": "The The Booty Scooty - Teen Titans Go!",
+	"joke": "The Booty Scooty - Teen Titans Go!",
 	"artist": "Jp"},
 "Vdlf868cI-w": {
 	"title": "Entering the House - FAITH",
@@ -40214,7 +40229,7 @@ const db = {
 "-N_HZ3wSD0c": {
 	"title": "Teardrop-Shaped Stones - Little Town Hero",
 	"wiki": "https://siivagunner.wiki/wiki/Teardrop-Shaped%20Stones%20-%20Little%20Town%20Hero",
-	"joke": "Most of Scatman's World - Scatman John",
+	"joke": "Scatman's World - Scatman John",
 	"artist": "Sarvéproductions"},
 "G2FpORJj8Ks": {
 	"title": "Because You're The Number One - Thunder Force IV",
@@ -40302,7 +40317,7 @@ const db = {
 	"joke": "S'Winter - Phineas and Ferb",
 	"artist": "Ethan"},
 "GAwoeXwg6t8": {
-	"title": "Underwater (Super Mario Bros.) - Super Mario Maker 2",
+	"title": "Underwater - Super Mario Bros.",
 	"wiki": "https://siivagunner.wiki/wiki/Underwater%20(Super%20Mario%20Bros.)%20(Ver.%202.0%20Update)%20-%20Super%20Mario%20Maker%202",
 	"joke": "Skating - Vince Guaraldi Trio",
 	"artist": "Ethan"},
@@ -40338,6 +40353,7 @@ const db = {
 	"artist": "Anonite"},
 "E2e1l8aUm44": {
 	"title": "Star (Super Mario Bros. 3) - Super Mario Maker 2",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Star%20(Super%20Mario%20Bros.%203)%20-%20Super%20Mario%20Maker%202",
 	"joke": "Friday - Rebecca Black",
 	"artist": "ChickenSuitGuy"},
@@ -40418,6 +40434,7 @@ const db = {
 	"artist": "RHMan"},
 "4epGMiwKKwk": {
 	"title": "Boss Music (Super Mario Bros.) - Super Mario Maker 2",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Boss%20Music%20(Super%20Mario%20Bros.)%20(OST%20Version)%20-%20Super%20Mario%20Maker%202",
 	"joke": "Stronger Monsters - Undertale",
 	"artist": "Unknown Ripper"},
@@ -40469,7 +40486,7 @@ const db = {
 "tuGrDeHoa-U": {
 	"title": "Halloween World - Baby Felix Halloween",
 	"wiki": "https://siivagunner.wiki/wiki/Halloween%20World%20(Alpha%20Mix)%20-%20Baby%20Felix%20Halloween",
-	"joke": "Most of It Burns! Burns! Burns! - Loco Loco",
+	"joke": "It Burns! Burns! Burns! - Loco Loco",
 	"artist": "UUN4"},
 "dAuWG15rYoM": {
 	"title": "Master Bedroom (Explore 1) - Petscop",
@@ -40815,7 +40832,7 @@ const db = {
 "_oOYi56ByMQ": {
 	"title": "Puyo 7 Dialogue - Strange Days - Puyo Puyo 7",
 	"wiki": "https://siivagunner.wiki/wiki/Puyo%207%20Dialogue%20-%20Strange%20Days%20(Beta%20Mix)%20-%20Puyo%20Puyo%207",
-	"joke": "Most of Inferno - Promare",
+	"joke": "Inferno - Promare",
 	"artist": "Jiko Music"},
 "2Cf195nPbn4": {
 	"title": "Revenge of the King Ending - Kirby Super Star Ultra",
@@ -41521,7 +41538,7 @@ const db = {
 "_-Vi0ZWIEMY": {
 	"title": "Klungo's Theme - Banjo-Tooie",
 	"wiki": "https://siivagunner.wiki/wiki/Klungo's%20Theme%20-%20Banjo-Tooie",
-	"joke": "Most of Pledge of Demon - Yakuza 0",
+	"joke": "Pledge of Demon - Yakuza 0",
 	"artist": "Smoky"},
 "k5i_KRTQPe0": {
 	"title": "Snide's HQ - Donkey Kong 64",
@@ -41862,7 +41879,7 @@ const db = {
 "fAsjK4XQvB8": {
 	"title": "Mach Rider Music - Main Theme 1",
 	"wiki": "https://siivagunner.wiki/wiki/Mach%20Rider%20Music%20-%20Main%20Theme%201",
-	"joke": "Boss Battle - Cory in the House for the Nintendo DS",
+	"joke": "Boss Battle - Cory in the House",
 	"artist": "The Duane"},
 "mIZB4FOZfgM": {
 	"title": "Forest Stage - Kirby Air Ride",
@@ -42137,7 +42154,7 @@ const db = {
 	"joke": "Bowser Battle - Super Mario Bros. (Super Mario All-Stars)",
 	"artist": "The Duane"},
 "q3Ax60pHA3Q": {
-	"title": "Fortress Boss (Hurry Up!) - Super Mario Bros. 3",
+	"title": "Fortress Boss - Super Mario Bros. 3",
 	"wiki": "https://siivagunner.wiki/wiki/Fortress%20Boss%20(Hurry%20Up!)%20-%20Super%20Mario%20Bros.%203",
 	"joke": "Rude Buster - Deltarune",
 	"artist": "MtH"},
@@ -42224,7 +42241,7 @@ const db = {
 "NQyOPskWyVk": {
 	"title": "Meta Knight Defeated - Kirby Super Star",
 	"wiki": "https://siivagunner.wiki/wiki/Meta%20Knight%20Defeated%20(Alpha%20Mix)%20-%20Kirby%20Super%20Star",
-	"joke": "Most of Hallelujah - Leonard Cohen",
+	"joke": "Hallelujah - Leonard Cohen",
 	"artist": "Sarvéproductions"},
 "Klh_-JcQQ9E": {
 	"title": "Fort City - Espgaluda",
@@ -42354,7 +42371,7 @@ const db = {
 "MP6gpd7dzPU": {
 	"title": "Wave Man Stage - Mega Man 5",
 	"wiki": "https://siivagunner.wiki/wiki/Wave%20Man%20Stage%20(Alternate%20Mix)%20-%20Mega%20Man%205",
-	"joke": "Neptune's Stage - Mega Man V for the Game Boy",
+	"joke": "Neptune's Stage - Mega Man V (Game Boy)",
 	"artist": "SoundSync5000"},
 "KclACQ72khI": {
 	"title": "Underground Theme - Super Mario Run",
@@ -42469,7 +42486,7 @@ const db = {
 "hM-bDgX_vlc": {
 	"title": "Everyone Fight! Puyo Puyo Until Morning - Puyo Puyo 7",
 	"wiki": "https://siivagunner.wiki/wiki/Everyone%20Fight!%20Puyo%20Puyo%20Until%20Morning%20-%20Puyo%20Puyo%207",
-	"joke": "Most of Ultra Heaven - Super Monkey Ball: Banana Blitz",
+	"joke": "Ultra Heaven - Super Monkey Ball: Banana Blitz",
 	"artist": "Scribblenaut19"},
 "jpaA_87d1x0": {
 	"title": "Faster Than All - Mario Party",
@@ -42489,7 +42506,7 @@ const db = {
 "dzJjOD2zins": {
 	"title": "Amastrida Abyssus - Snailiad",
 	"wiki": "https://siivagunner.wiki/wiki/Amastrida%20Abyssus%20-%20Snailiad",
-	"joke": "Most of Live & Learn - Sonic Adventure 2",
+	"joke": "Live & Learn - Sonic Adventure 2",
 	"artist": "cookiefonster"},
 "7tA2Thv1T2o": {
 	"title": "Aqua Star - Kirby 64: The Crystal Shards",
@@ -42497,7 +42514,7 @@ const db = {
 	"joke": "Redial - Bomberman Hero",
 	"artist": "cookiefonster"},
 "Amcypg3aR4E": {
-	"title": "Secret of the Forest (Alpha v0.571024) - Chrono Trigger",
+	"title": "Secret of the Forest - Chrono Trigger",
 	"wiki": "https://siivagunner.wiki/wiki/Secret%20of%20the%20Forest%20(Alpha%20v0.571024)%20-%20Chrono%20Trigger",
 	"joke": "Gate of Steiner - Steins;Gate",
 	"artist": "MtH"},
@@ -42552,7 +42569,7 @@ const db = {
 	"joke": "Monkeys Spinning Monkeys - Kevin MacLeod",
 	"artist": "Sarvéproductions"},
 "jbR0-1N-6h0": {
-	"title": "Bonus Area (Hurry Up!) - New Super Mario Bros.",
+	"title": "Bonus Area - New Super Mario Bros.",
 	"wiki": "https://siivagunner.wiki/wiki/Bonus%20Area%20(Hurry%20Up!)%20-%20New%20Super%20Mario%20Bros.",
 	"joke": "Pixel Peeker Polka - Kevin MacLeod",
 	"artist": "RHMan"},
@@ -42652,7 +42669,7 @@ const db = {
 	"joke": "Tsuitachi no Hajimari - Birdy the Mighty: Decode",
 	"artist": "livvy94"},
 "q5-a2jynoEw": {
-	"title": "Super Mario Bros. Music - 1-Up",
+	"title": "1-Up - Super Mario Bros.",
 	"wiki": "https://siivagunner.wiki/wiki/Super%20Mario%20Bros.%20Music%20-%201-Up%20(NTSC%20Version)",
 	"joke": "Differences - Big Purp",
 	"artist": "UUN4"},
@@ -42717,7 +42734,7 @@ const db = {
 	"joke": "A Little Fall of Rain - Les Misérables",
 	"artist": "trivial171"},
 "T1AiEbKzZ4c": {
-	"title": "Stardust Speedway Bad Future (JP/PAL) - Sonic CD",
+	"title": "Stardust Speedway Bad Future (JPN/PAL) - Sonic CD",
 	"wiki": "https://siivagunner.wiki/wiki/Stardust%20Speedway%20Bad%20Future%20(JPN/PAL)%20(2011)%20-%20Sonic%20CD",
 	"joke": "Be Mine - Ofenbach",
 	"artist": "andres"},
@@ -43143,7 +43160,7 @@ const db = {
 "xCllo7VWY34": {
 	"title": "Chaotic Courtyard - Yoshi Commits Tax Fraud",
 	"wiki": "https://siivagunner.wiki/wiki/Chaotic%20Courtyard%20-%20Yoshi%20Commits%20Tax%20Fraud",
-	"joke": "Collision Chaos Bad Future (JP/PAL) - Sonic CD",
+	"joke": "Collision Chaos Bad Future (JPN/PAL) - Sonic CD",
 	"artist": "Kirbio"},
 "Ny3ahfGpSlM": {
 	"title": "Hello! Welcome! - Sailor Moon: Another Story",
@@ -43558,7 +43575,6 @@ const db = {
 	"artist": "_rats"},
 "KouMf7nmB4k": {
 	"title": "Casino Night Zone (2 player) - Sonic the Hedgehog 2",
-	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Casino%20Night%20Zone%20(2%20player)%20(Simon%20Wai%20Prototype)%20-%20Sonic%20the%20Hedgehog%202",
 	"joke": "Time of The Season - The Zombies",
 	"artist": "KnightOfGames"},
@@ -43663,7 +43679,7 @@ const db = {
 	"joke": "Homecoming - Kanye West ft. Chris Martin",
 	"artist": "Smoky"},
 "2Y7hmX82ZdA": {
-	"title": "Invincible (Hurry Up!) - Super Mario Bros. 3",
+	"title": "Invincible - Super Mario Bros. 3",
 	"wiki": "https://siivagunner.wiki/wiki/Invincible%20(Hurry%20Up!)%20-%20Super%20Mario%20Bros.%203",
 	"joke": "Running in the 90's (Initial D) - Max Coveri",
 	"artist": "UUN4"},
@@ -44459,7 +44475,7 @@ const db = {
 	"joke": "Honeycomb Highway - Sonic Lost World",
 	"artist": "Solid STRGG"},
 "w3498O0ajnU": {
-	"title": "Flower Garden - Yoshi's Island",
+	"title": "Flower Garden - Super Mario World 2: Yoshi's Island",
 	"wiki": "https://siivagunner.wiki/wiki/Flower%20Garden%20(OST%20Version)%20-%20Yoshi's%20Island",
 	"joke": "Doki Doki Literature Club! - Doki Doki Literature Club!",
 	"artist": "Xarlable"},
@@ -44514,7 +44530,7 @@ const db = {
 	"joke": "Grape Garden - Kirby's Adventure",
 	"artist": "SMALF"},
 "HuRWMHeDsKw": {
-	"title": "Main Theme (Instrumental) - Barkley, Shut Up and Jam: Gaiden",
+	"title": "Main Theme - Barkley, Shut Up and Jam: Gaiden",
 	"wiki": "https://siivagunner.wiki/wiki/Main%20Theme%20(Instrumental)%20-%20Barkley%2C%20Shut%20Up%20and%20Jam%3A%20Gaiden",
 	"joke": "Rock My Emotions - Kitsune^2",
 	"artist": "Scribblenaut19, Xarlable"},
@@ -44892,7 +44908,7 @@ const db = {
 "timI8k627EA": {
 	"title": "Introduction (The Street of Rage) - Streets of Rage",
 	"wiki": "https://siivagunner.wiki/wiki/Introduction%20(The%20Street%20of%20Rage)%20-%20Streets%20of%20Rage",
-	"joke": "Stardust Speedway Bad Future (JP/PAL) - Sonic CD",
+	"joke": "Stardust Speedway Bad Future (JPN/PAL) - Sonic CD",
 	"artist": "apegod"},
 "Ayfm7OnhEbA": {
 	"title": "Stage Boss - Super Mario 64",
@@ -45000,7 +45016,7 @@ const db = {
 	"joke": "Everywhere You Look - Jesse Frederick (Full House theme song)",
 	"artist": "toonlink, MonoGiraffe"},
 "8AQD-b7rHoY": {
-	"title": "Room Before Boss - Yoshi's Island",
+	"title": "Room Before Boss - Super Mario World 2: Yoshi's Island",
 	"wiki": "https://siivagunner.wiki/wiki/Room%20Before%20Boss%20(Beta%20Mix)%20-%20Yoshi's%20Island",
 	"joke": "Piano Sonata No. 8 (Sonata Pathetique) - Ludwig van Beethoven",
 	"artist": "Sykhro"},
@@ -45010,7 +45026,7 @@ const db = {
 	"joke": "Titanium - David Guetta ft. Sia",
 	"artist": "Dead Line"},
 "SKNM81jVsFs": {
-	"title": "Room Before Boss - Yoshi's Island",
+	"title": "Room Before Boss - Super Mario World 2: Yoshi's Island",
 	"wiki": "https://siivagunner.wiki/wiki/Room%20Before%20Boss%20-%20Yoshi's%20Island",
 	"joke": "The Nutshack Theme - NUMP",
 	"artist": "Sean-Patrick"},
@@ -45072,7 +45088,7 @@ const db = {
 "eIC2uERr4AE": {
 	"title": "Beuna's Password Show - Pokemon Crystal",
 	"wiki": "https://siivagunner.wiki/wiki/Beuna's%20Password%20Show%20-%20Pok%C3%A9mon%20Crystal",
-	"joke": "Stardust Speedway Bad Future (JP/PAL) - Sonic CD",
+	"joke": "Stardust Speedway Bad Future (JPN/PAL) - Sonic CD",
 	"artist": "Can of Nothing"},
 "ROq8nNH41Ew": {
 	"title": "START:DASH!! - Love Live! School idol festival",
@@ -45270,7 +45286,7 @@ const db = {
 	"joke": "Lady Madonna - The Beatles",
 	"artist": "Sean-Patrick"},
 "mNVzzq3shLs": {
-	"title": "Andy's Anthem - Advanced Wars",
+	"title": "Andy's Anthem - Advance Wars",
 	"wiki": "https://siivagunner.wiki/wiki/Andy's%20Anthem%20-%20Advanced%20Wars",
 	"joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin",
 	"artist": "Douk Nouk Kem"},
@@ -45307,7 +45323,7 @@ const db = {
 "wz9bzE9125o": {
 	"title": "The Star of the Underground - Underveil",
 	"wiki": "https://siivagunner.wiki/wiki/The%20Star%20of%20the%20Underground%20-%20Underveil",
-	"joke": "My Humps - The Black Eyed Peas",
+	"joke": "My Humps - Black Eyed Peas",
 	"artist": "Mowtendoo"},
 "plsLCeyjoVE": {
 	"title": "Duel Zone - Super Smash Bros.",
@@ -45502,7 +45518,7 @@ const db = {
 "0D1ftVxR2yw": {
 	"title": "Route 111 - Pokemon Ruby & Sapphire",
 	"wiki": "https://siivagunner.wiki/wiki/Route%20111%20(Alternate%20Mix)%20-%20Pok%C3%A9mon%20Ruby%20%26%20Sapphire",
-	"joke": "Rasputin - Boney M..",
+	"joke": "Rasputin - Boney M.",
 	"artist": "Dirty Spaceman"},
 "gXomjnEL0VM": {
 	"title": "Main Theme - Pepsiman",
@@ -45530,7 +45546,7 @@ const db = {
 	"joke": "Ending - Dr. Mario",
 	"artist": "TheLeis"},
 "gEKhrfHBUsQ": {
-	"title": "Super Mario Bros. Music - Invincible",
+	"title": "Invincible - Super Mario Bros.",
 	"wiki": "https://siivagunner.wiki/wiki/Super%20Mario%20Bros.%20Music%20-%20Invincible%20(OST%20Version)",
 	"joke": "Invincible - Muse",
 	"artist": "Dirty Spaceman"},
@@ -45680,7 +45696,7 @@ const db = {
 	"joke": "Soup on a Stick - The Brak Show",
 	"artist": "Jasper"},
 "D-QCe3QbM1U": {
-	"title": "Big Boss - Yoshi's Island",
+	"title": "Big Boss - Super Mario World 2: Yoshi's Island",
 	"wiki": "https://siivagunner.wiki/wiki/Big%20Boss%20-%20Yoshi's%20Island",
 	"joke": "SUPER-REFLEX - Yousuke Yasui",
 	"artist": "Legendary Super Mario"},
@@ -45790,7 +45806,7 @@ const db = {
 	"joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin",
 	"artist": "trivial171 and Matsu Muhō"},
 "4h7n0-hanS4": {
-	"title": "Collision Chaos Good Future (JP/PAL) - Sonic CD",
+	"title": "Collision Chaos Good Future (JPN/PAL) - Sonic CD",
 	"wiki": "https://siivagunner.wiki/wiki/Collision%20Chaos%20Good%20Future%20(JPN/PAL)%20-%20Sonic%20CD",
 	"joke": "A Different Feeling - The Avalanches",
 	"artist": "CrystalForce"},
@@ -45900,7 +45916,7 @@ const db = {
 	"joke": "Woman - Maroon 5",
 	"artist": "livvy94"},
 "zBRj8HC2YmA": {
-	"title": "SILVER LINING (Remastered) - ESCHATOS",
+	"title": "SILVER LINING - ESCHATOS",
 	"wiki": "https://siivagunner.wiki/wiki/SILVER%20LINING%20(Remastered)%20-%20ESCHATOS",
 	"joke": "Animals - Maroon 5",
 	"artist": "Half Pixel"},
@@ -46357,7 +46373,7 @@ const db = {
 	"joke": "Menu 1 - Super Smash Bros. Melee",
 	"artist": "Unknown Ripper"},
 "k1yWrGX68D8": {
-	"title": "Kamek's Theme - Yoshi's Island",
+	"title": "Kamek's Theme - Super Mario World 2: Yoshi's Island",
 	"wiki": "https://siivagunner.wiki/wiki/Kamek's%20Theme%20-%20Yoshi's%20Island",
 	"joke": "sans. - Undertale",
 	"artist": "Unknown Ripper"},
@@ -46444,7 +46460,7 @@ const db = {
 "MlwrnrVmSr4": {
 	"title": "Iceberg Map - Kirby's Dream Land 3",
 	"wiki": "https://siivagunner.wiki/wiki/Iceberg%20Map%20-%20Kirby's%20Dream%20Land%203",
-	"joke": "Collision Chaos (JP/PAL) - Sonic CD",
+	"joke": "Collision Chaos (JPN/PAL) - Sonic CD",
 	"artist": "Sonicheroesfan1"},
 "uafDxi4cYXg": {
 	"title": "Kokiri Forest - The Legend of Zelda: Ocarina of Time",
@@ -46457,7 +46473,7 @@ const db = {
 	"joke": "Y.M.C.A. - Village People",
 	"artist": "toonlink"},
 "lfZOqqRkb1o": {
-	"title": "Super Mario Bros. Music - Ground Theme",
+	"title": "Ground Theme - Super Mario Bros.",
 	"wiki": "https://siivagunner.wiki/wiki/Super%20Mario%20Bros.%20Music%20-%20Ground%20Theme%20(Alternate%20OST%20Version)",
 	"joke": "Feliz Navidad - Jose Feliciano",
 	"artist": "Grantham"},
@@ -46720,7 +46736,7 @@ const db = {
 "HV2_wOfYQxA": {
 	"title": "K.K. Metal (Aircheck) - Animal Crossing: Wild World",
 	"wiki": "https://siivagunner.wiki/wiki/K.K.%20Metal%20(Aircheck)%20-%20Animal%20Crossing%3A%20Wild%20World",
-	"joke": "Ghostbusters - Ray Parker Jr..",
+	"joke": "Ghostbusters - Ray Parker Jr.",
 	"artist": "toonlink"},
 "-HNgXwBTLhM": {
 	"title": "Buy Somethin' Will Ya! - EarthBound",
@@ -46788,7 +46804,7 @@ const db = {
 	"joke": "Miracles - Insane Clown Posse",
 	"artist": "Smoky"},
 "A0fPEiRXxk0": {
-	"title": "The Owl's Flight - Advanced Wars: Days of Ruin",
+	"title": "The Owl's Flight - Advance Wars: Days of Ruin",
 	"wiki": "https://siivagunner.wiki/wiki/The%20Owl's%20Flight%20-%20Advanced%20Wars%3A%20Days%20of%20Ruin",
 	"joke": "Spooky Scary Skeletons - Andrew Gold",
 	"artist": "Matsu Muhō"},
@@ -46838,7 +46854,7 @@ const db = {
 	"joke": "Chicken Huntin' - Insane Clown Posse",
 	"artist": "Smoky"},
 "YNO97FDImwI": {
-	"title": "Flower Garden - Yoshi's Island",
+	"title": "Flower Garden - Super Mario World 2: Yoshi's Island",
 	"wiki": "https://siivagunner.wiki/wiki/Flower%20Garden%20(Gamma%20Mix)%20-%20Yoshi's%20Island",
 	"joke": "Vampire Killer - Castlevania",
 	"artist": "Xarlable"},
@@ -47108,7 +47124,7 @@ const db = {
 	"joke": "Let There Be Light - Justice",
 	"artist": "CrystalForce"},
 "8ORBUBxng6k": {
-	"title": "Bonus Game - Yoshi's Island",
+	"title": "Bonus Game - Super Mario World 2: Yoshi's Island",
 	"wiki": "https://siivagunner.wiki/wiki/Bonus%20Game%20-%20Yoshi's%20Island",
 	"joke": "We Are the Champions - Queen",
 	"artist": "JJokerDude"},
@@ -47295,7 +47311,7 @@ const db = {
 "HEpQanvtJr8": {
 	"title": "Ice Land - Super Mario Bros. 3",
 	"wiki": "https://siivagunner.wiki/wiki/Ice%20Land%20-%20Super%20Mario%20Bros.%203",
-	"joke": "The The Drought - Pokemon Ruby & Sapphire",
+	"joke": "The Drought - Pokemon Ruby & Sapphire",
 	"artist": "The Duane"},
 "Kj_QsKDq1Mc": {
 	"title": "Quackerjack's Bridge - Darkwing Duck",
@@ -47439,8 +47455,9 @@ const db = {
 	"artist": "PKBowsy"},
 "Kmm7N-lBt68": {
 	"title": "Ocarina of Time - The Legend of Zelda: Ocarina of Time",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Ocarina%20of%20Time%20-%20The%20Legend%20of%20Zelda%3A%20Ocarina%20of%20Time",
-	"joke": "Eight Melodies - the EarthBound series",
+	"joke": "Eight Melodies - Earthbound Beginnings/MOTHER",
 	"artist": "toonlink"},
 "F62OhgVy6rg": {
 	"title": "The Floating Kingdom of Dalaam - EarthBound",
@@ -47473,17 +47490,17 @@ const db = {
 	"joke": "Face To Face - Daft Punk",
 	"artist": "CrystalForce"},
 "fjhgvC3BOqU": {
-	"title": "Super Mario Bros. Music - Underwater",
+	"title": "Underwater - Super Mario Bros.",
 	"wiki": "https://siivagunner.wiki/wiki/Super%20Mario%20Bros.%20Music%20-%20Underwater%20(OST%20Version)",
 	"joke": "Nocturnes, Op. 9, No. 2 - Frédéric Chopin",
 	"artist": "trivial171"},
 "kU2m1O13DOM": {
 	"title": "Waluigi Pinball - Mario Kart DS",
 	"wiki": "https://siivagunner.wiki/wiki/Waluigi%20Pinball%20(JPN%20Version)%20-%20Mario%20Kart%20DS",
-	"joke": "Stardust Speedway Bad Future (JP/PAL) - Sonic CD",
+	"joke": "Stardust Speedway Bad Future (JPN/PAL) - Sonic CD",
 	"artist": "Blue Fairy"},
 "LxKSsuPkFMY": {
-	"title": "Super Mario Bros. Music - Underground",
+	"title": "Underground - Super Mario Bros.",
 	"wiki": "https://siivagunner.wiki/wiki/Super%20Mario%20Bros.%20Music%20-%20Underground%20(Alternate%20Mix)",
 	"joke": "Underground Theme (Super Mario Bros.) (Edit) - Super Mario Maker",
 	"artist": "Can of Nothing"},
@@ -47493,7 +47510,7 @@ const db = {
 	"joke": "The Vagrant of Love - Bravely Default",
 	"artist": "Cronos ZX"},
 "ROYPZ5KtPbI": {
-	"title": "Super Mario Bros. Music - Underwater",
+	"title": "Underwater - Super Mario Bros.",
 	"wiki": "https://siivagunner.wiki/wiki/Super%20Mario%20Bros.%20Music%20-%20Underwater%20(Beta%20Mix)",
 	"joke": "Battle! (Cheren/Bianca) - Pokemon Black & White",
 	"artist": "Blue Fairy"},
@@ -47658,7 +47675,7 @@ const db = {
 	"joke": "Viridian City - the Pokemon anime",
 	"artist": "JJokerDude"},
 "Sfh7k2GEz5U": {
-	"title": "Story Music Box - Yoshi's Island",
+	"title": "Story Music Box - Super Mario World 2: Yoshi's Island",
 	"wiki": "https://siivagunner.wiki/wiki/Story%20Music%20Box%20(Alternate%20Mix)%20-%20Yoshi's%20Island",
 	"joke": "Seeing Dreams Through the Window of the Stars - Super Mario RPG",
 	"artist": "JJokerDude"},
@@ -47903,7 +47920,7 @@ const db = {
 	"joke": "Crank That - Soulja Boy",
 	"artist": "sykhro"},
 "Jawsn8u42GI": {
-	"title": "Story Music Box - Yoshi's Island",
+	"title": "Story Music Box - Super Mario World 2: Yoshi's Island",
 	"wiki": "https://siivagunner.wiki/wiki/Story%20Music%20Box%20(Beta%20Mix)%20-%20Yoshi's%20Island",
 	"joke": "I, 0 Your Fellow - Mega Man Zero 3",
 	"artist": "Cronos ZX"},
@@ -48128,7 +48145,7 @@ const db = {
 	"joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin",
 	"artist": "BlindedVanguard573"},
 "IoXSg7HXZQ0": {
-	"title": "Super Mario Bros. Music - Underground",
+	"title": "Underground - Super Mario Bros.",
 	"wiki": "https://siivagunner.wiki/wiki/Super%20Mario%20Bros.%20Music%20-%20Underground%20(Beta%20Mix)",
 	"joke": "Cooking by the Book - LazyTown",
 	"artist": "FMFlameNinja"},
@@ -48243,12 +48260,12 @@ const db = {
 	"joke": "Figure Fighter VS - Rhythm Heaven Megamix",
 	"artist": "Matsu Muhō"},
 "5VC-E-e6bLc": {
-	"title": "Super Mario Bros. Music - 1-Up",
+	"title": "1-Up - Super Mario Bros.",
 	"wiki": "https://siivagunner.wiki/wiki/Super%20Mario%20Bros.%20Music%20-%201-Up",
 	"joke": "1-Up - Sonic the Hedgehog",
 	"artist": "Can of Nothing"},
 "uOg2uYnr67I": {
-	"title": "Super Mario Bros. Music - Castle",
+	"title": "Castle - Super Mario Bros.",
 	"wiki": "https://siivagunner.wiki/wiki/Super%20Mario%20Bros.%20Music%20-%20Castle",
 	"joke": "Soldiers of Kakariko Village - The Legend of Zelda: A Link to the Past",
 	"artist": "Unknown Ripper"},
@@ -48773,7 +48790,7 @@ const db = {
 	"joke": "Spooky Scary Skeletons - Andrew Gold",
 	"artist": "Mr Lange"},
 "1XGljQ4N14Y": {
-	"title": "Yoshi Island - Yoshi's Island",
+	"title": "Yoshi's Island (Title Screen) - Super Mario World 2: Yoshi's Island",
 	"wiki": "https://siivagunner.wiki/wiki/Yoshi%20Island%20-%20Yoshi's%20Island",
 	"joke": "The Yoshi Clan - Yoshi's New Island",
 	"artist": "Mr Lange"},
@@ -48815,7 +48832,7 @@ const db = {
 "YAebHbYzKSI": {
 	"title": "Dual Scream - Luigi's Mansion: Dark Moon",
 	"wiki": "https://siivagunner.wiki/wiki/Dual%20Scream%20-%20Luigi's%20Mansion%3A%20Dark%20Moon",
-	"joke": "Ghostbusters - Ray Parker Jr..",
+	"joke": "Ghostbusters - Ray Parker Jr.",
 	"artist": "megamanlego"},
 "dNnj6m8Q5d8": {
 	"title": "Warp Island - Super Mario Bros. 3",
@@ -48853,7 +48870,7 @@ const db = {
 	"joke": "Boulevard of Broken Dreams - Green Day",
 	"artist": "Smoky"},
 "Ev4CsVw6uY0": {
-	"title": "Super Mario Bros. Music - Invincible",
+	"title": "Invincible - Super Mario Bros.",
 	"wiki": "https://siivagunner.wiki/wiki/Super%20Mario%20Bros.%20Music%20-%20Invincible%20(Beta%20Mix)",
 	"joke": "Highway Star - Deep Purple",
 	"artist": "QTQTQ"},
@@ -49020,7 +49037,7 @@ const db = {
 "qzF-Vn0vuzc": {
 	"title": "Grape Garden - Kirby's Adventure",
 	"wiki": "https://siivagunner.wiki/wiki/Grape%20Garden%20-%20Kirby's%20Adventure",
-	"joke": "Eight Melodies - the MOTHER series",
+	"joke": "Eight Melodies - Earthbound Beginnings/MOTHER",
 	"artist": "Solid STRGG"},
 "AydrNRfxj-o": {
 	"title": "Knock You Down! - Live A Live",
@@ -49133,7 +49150,7 @@ const db = {
 	"joke": "Onett - EarthBound",
 	"artist": "The Duane"},
 "BkXjjh5fTsI": {
-	"title": "Super Mario Bros. Music - Course Clear Fanfare",
+	"title": "Course Clear Fanfare - Super Mario Bros.",
 	"wiki": "https://siivagunner.wiki/wiki/Super%20Mario%20Bros.%20Music%20-%20Course%20Clear%20Fanfare",
 	"joke": "Roundabout - Yes",
 	"artist": "Unknown Ripper"},
@@ -49378,7 +49395,7 @@ const db = {
 	"joke": "The Water Buffalo Song - VeggieTales",
 	"artist": "LuNiney"},
 "KrAOcflMCj8": {
-	"title": "Running in the 90's (Initial D) - Max Coveri Arcade Stage Ver.2",
+	"title": "Running in the 90's (Initial D) - Max Coveri",
 	"wiki": "https://siivagunner.wiki/wiki/Running%20In%20The%2090's%20-%20Initial%20D%20Arcade%20Stage%20Ver.2",
 	"joke": "Let's Go Away - Daytona USA",
 	"artist": "Unknown Ripper"},
@@ -49395,7 +49412,7 @@ const db = {
 "EF5jmEI6FMc": {
 	"title": "Title Theme - Mickey's Speedway USA",
 	"wiki": "https://siivagunner.wiki/wiki/Title%20Theme%20-%20Mickey's%20Speedway%20USA",
-	"joke": "The The Bare Necessities - The Jungle Book",
+	"joke": "The Bare Necessities - The Jungle Book",
 	"artist": "Jass"},
 "m4lZE5UNEYQ": {
 	"title": "Title Theme - Dr. Mario",
@@ -49618,7 +49635,7 @@ const db = {
 	"joke": "X - Ao No Exorcist",
 	"artist": "dante"},
 "RiUyO5_ryjo": {
-	"title": "Super Mario Bros. Music - Ground Theme",
+	"title": "Ground Theme - Super Mario Bros.",
 	"wiki": "https://siivagunner.wiki/wiki/Super%20Mario%20Bros.%20Music%20-%20Ground%20Theme%20(OST%20Version)",
 	"joke": "Winnie the Pooh - Winnie the Pooh and the Honey Tree",
 	"artist": "LuNiney"},
@@ -49798,7 +49815,7 @@ const db = {
 	"joke": "Windy Hill - Zone 1 - Sonic Lost World",
 	"artist": "dante"},
 "bT87fN5FzwM": {
-	"title": "Map Theme (Part 1) - Yoshi's Island",
+	"title": "Map Theme (Part 1) - Super Mario World 2: Yoshi's Island",
 	"wiki": "https://siivagunner.wiki/wiki/Map%20Theme%20(Part%201)%20-%20Yoshi's%20Island",
 	"joke": "Anywhere Is - Enya",
 	"artist": "Unknown Ripper"},
@@ -49848,7 +49865,7 @@ const db = {
 	"joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin",
 	"artist": "Chaze the Chat"},
 "lgvun5iEg_o": {
-	"title": "Stardust Speedway Bad Future (JP/PAL) - Sonic CD",
+	"title": "Stardust Speedway Bad Future (JPN/PAL) - Sonic CD",
 	"wiki": "https://siivagunner.wiki/wiki/Stardust%20Speedway%20Bad%20Future%20(JPN/PAL)%20-%20Sonic%20CD",
 	"joke": "Parity - Katawa Shoujo",
 	"artist": "FMFlameNinja"},
@@ -49888,7 +49905,7 @@ const db = {
 	"joke": "Idioteque - Radiohead",
 	"artist": "Xarlable"},
 "0fizylrAtIQ": {
-	"title": "Super Mario Bros. Music - Underwater (Hurry Up!)",
+	"title": "Underwater - Super Mario Bros.",
 	"wiki": "https://siivagunner.wiki/wiki/Super%20Mario%20Bros.%20Music%20-%20Underwater%20(Hurry%20Up!)",
 	"joke": "Above Ground - Super Mario Bros. 3",
 	"artist": "Xarlable"},
@@ -49955,7 +49972,7 @@ const db = {
 "dkcVwljdQIA": {
 	"title": "Boss Fight 1 - Kid Icarus Uprising",
 	"wiki": "https://siivagunner.wiki/wiki/Boss%20Fight%201%20-%20Kid%20Icarus%20Uprising",
-	"joke": "Pump It - The Black Eyed Peas",
+	"joke": "Pump It - Black Eyed Peas",
 	"artist": "MtH"},
 "9g9ggibgq98": {
 	"title": "Vector - Command & Conquer: Red Alert",
@@ -50013,7 +50030,7 @@ const db = {
 	"joke": "A New Day - Sonic Rush",
 	"artist": "Unknown Ripper"},
 "FvlLMAMAUnU": {
-	"title": "The The Concept of Love - Jet Set Radio Future",
+	"title": "The Concept of Love - Jet Set Radio Future",
 	"wiki": "https://siivagunner.wiki/wiki/The%20Concept%20of%20Love%20-%20Jet%20Set%20Radio%20Future",
 	"joke": "Short Circuit - Daft Punk",
 	"artist": "Nib Roc"},
@@ -50489,6 +50506,7 @@ const db = {
 	"artist": "NBGMusic"},
 "bWpCIUZP_00": {
 	"title": "Clair de lune - The Evil Within",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Clair%20de%20lune%20-%20The%20Evil%20Within",
 	"joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin",
 	"artist": "NBGMusic"},
@@ -50853,7 +50871,7 @@ const db = {
 	"joke": "The Real Slim Shady - Eminem",
 	"artist": "Unknown Ripper"},
 "525ZlL_HR3A": {
-	"title": "Unknown From M.E. (Instrumental) - Sonic Adventure 2",
+	"title": "Unknown From M.E. - Sonic Adventure 2",
 	"wiki": "https://siivagunner.wiki/wiki/Unknown%20From%20M.E.%20(Instrumental)%20-%20Sonic%20Adventure%202",
 	"joke": "Starring Wario - Dance Dance Revolution Mario Mix",
 	"artist": "Mannheimer"},
@@ -50893,7 +50911,7 @@ const db = {
 	"joke": "Blunt After Blunt - Danny Brown",
 	"artist": "labi"},
 "Sp5HY2FOH5A": {
-	"title": "Underground Theme - Yoshi's Island",
+	"title": "Underground Theme - Super Mario World 2: Yoshi's Island",
 	"wiki": "https://siivagunner.wiki/wiki/Underground%20Theme%20-%20Yoshi's%20Island",
 	"joke": "Smoke The Weed - Snoop Lion ft. Collie Buddz",
 	"artist": "Nib Roc"},
@@ -51288,7 +51306,7 @@ const db = {
 	"joke": "Yume☆ONCE AGAIN - Kotori Minami",
 	"artist": "Emm Bee Sea"},
 "79bdLs4McxE": {
-	"title": "Super Mario Bros. Music - Castle",
+	"title": "Castle - Super Mario Bros.",
 	"wiki": "https://siivagunner.wiki/wiki/Super%20Mario%20Bros.%20Music%20-%20Castle%20(OST%20Version)",
 	"joke": "Emote: Orange Justice - Fortnite",
 	"artist": "Myeauxyoozi"},
@@ -51709,6 +51727,7 @@ const db = {
 	"artist": "mullar"},
 "j2iulA1QoUQ": {
 	"title": "Pause - Just Dance 4",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Pause%20-%20Just%20Dance%204",
 	"joke": "IceCap Zone (Act 1) - Sonic the Hedgehog 3 & Knuckles",
 	"artist": "minindo"},
@@ -51833,9 +51852,9 @@ const db = {
 	"joke": "Fine Day (Player Select) - Mamorukun Curse!",
 	"artist": "cookiefonster"},
 "3vPri73EVR8": {
-	"title": "The Theme from Quarth - Block Hole",
+	"title": "Theme from Quarth - Block Hole",
 	"wiki": "https://siivagunner.wiki/wiki/The%20Theme%20from%20Quarth%20-%20Block%20Hole",
-	"joke": "Ghostbusters - Ray Parker Jr..",
+	"joke": "Ghostbusters - Ray Parker Jr.",
 	"artist": "DonnieTheGuy"},
 "TlrXpIfmC0s": {
 	"title": "Rigit Obstacles (World 5-1 & 5-3) - Mario Forever",
@@ -52043,7 +52062,7 @@ const db = {
 	"joke": "Thug Tears - JPEGMAFIA",
 	"artist": "Expensive Dispenser"},
 "nij5lUj7lFk": {
-	"title": "P-Switch (New Super Mario Bros. U) - Super Mario Maker 2",
+	"title": "P-Switch - New Super Mario Bros.",
 	"wiki": "https://siivagunner.wiki/wiki/P-Switch%20(New%20Super%20Mario%20Bros.%20U)%20-%20Super%20Mario%20Maker%202",
 	"joke": "Lose Control - Missy Elliott ft. Ciara & Fatman Scoop",
 	"artist": "Expensive Dispenser"},
@@ -52070,7 +52089,7 @@ const db = {
 "8f5uyVCMkMI": {
 	"title": "Opus 13 - Castlevania: Rondo of Blood",
 	"wiki": "https://siivagunner.wiki/wiki/Opus%2013%20-%20Castlevania%3A%20Rondo%20of%20Blood",
-	"joke": "Body Rock - WarioWare D.I.Y..",
+	"joke": "Body Rock - WarioWare D.I.Y.",
 	"artist": "turdl3"},
 "ClEOJs7F0zY": {
 	"title": "Meta Crystal - Super Smash Bros.",
@@ -52666,7 +52685,7 @@ const db = {
 "ynIt01nYkFQ": {
 	"title": "Inside Your Walls - Five Nights at Freddy's: Sister Location",
 	"wiki": "https://siivagunner.wiki/wiki/Inside%20Your%20Walls%20-%20Five%20Nights%20at%20Freddy's%3A%20Sister%20Location",
-	"joke": "Weird Bars part 13 - Ryze Hendricks TV is pitch-shifted",
+	"joke": "Weird Bars part 13 - Ryze Hendricks TV",
 	"artist": "treydog1357"},
 "vzcBoofNHCc": {
 	"title": "Travelers (Brittle Hollow) - Outer Wilds",
@@ -52826,7 +52845,7 @@ const db = {
 "8LCehWBc254": {
 	"title": "Mr. Vile's Game - Banjo-Kazooie",
 	"wiki": "https://siivagunner.wiki/wiki/Mr.%20Vile's%20Game%20-%20Banjo-Kazooie",
-	"joke": "The The Bare Necessities - The Jungle Book",
+	"joke": "The Bare Necessities - The Jungle Book",
 	"artist": "beardfear"},
 "MGdGcnTXM6w": {
 	"title": "Submission Plaza - Check Mii Out Channel",
@@ -52989,7 +53008,7 @@ const db = {
 	"joke": "All I Want for Christmas Is You - Mariah Carey",
 	"artist": "M🎃mmy"},
 "WOHApmFTt60": {
-	"title": "Snow (Super Mario Bros.) (Hurry Up!) - Super Mario Maker 2",
+	"title": "Snow (Super Mario Bros.) - Super Mario Maker 2",
 	"wiki": "https://siivagunner.wiki/wiki/Snow%20(Super%20Mario%20Bros.)%20(Hurry%20Up!)%20(Beta%20Mix)%20-%20Super%20Mario%20Maker%202",
 	"joke": "Turn Down for What - DJ Snake & Lil Jon",
 	"artist": "Jazziest"},
@@ -53334,7 +53353,7 @@ const db = {
 	"joke": "Sad Machine - Porter Robinson",
 	"artist": "eg_9371"},
 "XvZXPSCtGZs": {
-	"title": "Super Koopa Bros. (Hurry Up!) - Paper Mario: The Thousand-Year Door",
+	"title": "Super Koopa Bros. - Paper Mario: The Thousand-Year Door",
 	"wiki": "https://siivagunner.wiki/wiki/Super%20Koopa%20Bros.%20(Hurry%20Up!)%20-%20Paper%20Mario%3A%20The%20Thousand-Year%20Door",
 	"joke": "Your Team Won - Team Fortress 2",
 	"artist": "Grambam36"},
@@ -53371,7 +53390,7 @@ const db = {
 "thHfjIRcwJg": {
 	"title": "Emote: B.R.U.T.A.L. Dab - Fortnite",
 	"wiki": "https://siivagunner.wiki/wiki/Emote%3A%20B.R.U.T.A.L.%20Dab%20-%20Fortnite",
-	"joke": "Laughing Baby Bubbling Remix - Marcel Plomp is pitch-shifted",
+	"joke": "Laughing Baby Bubbling Remix - Marcel Plomp",
 	"artist": "Cosmic199X"},
 "_RcQK-vCnMc": {
 	"title": "Bob-Omb Battlefield - Super Mario 64",
@@ -53651,7 +53670,7 @@ const db = {
 "9q57GwOUC_o": {
 	"title": "Stone Talus Battle - The Legend of Zelda: Breath of the Wild",
 	"wiki": "https://siivagunner.wiki/wiki/Stone%20Talus%20Battle%20-%20The%20Legend%20of%20Zelda%3A%20Breath%20of%20the%20Wild",
-	"joke": "No Matter What - Boyzone are pitch-shifted",
+	"joke": "No Matter What - Boyzone",
 	"artist": "ricesnot"},
 "tblU4POy5Co": {
 	"title": "Duff Brewery - The Simpsons Hit & Run",
@@ -53876,7 +53895,7 @@ const db = {
 "a-G5mcOIM00": {
 	"title": "Dance - Mean Girls (DS)",
 	"wiki": "https://siivagunner.wiki/wiki/Dance%20(Unused%20Version)%20-%20Mean%20Girls%20(DS)",
-	"joke": "It's Everyday Bro - Jake Paul ft. Team 10 ft. Team 10",
+	"joke": "It's Everyday Bro - Jake Paul ft. Team 10",
 	"artist": "Person who is Cappy"},
 "YRXRt2uliAI": {
 	"title": "Raft Ride - The Legend of Zelda: Link's Awakening",
@@ -53916,7 +53935,7 @@ const db = {
 "CJWIPStst4I": {
 	"title": "Underground - A Nightmare on Elm Street (NES)",
 	"wiki": "https://siivagunner.wiki/wiki/Underground%20-%20A%20Nightmare%20on%20Elm%20Street%20(NES)",
-	"joke": "Another Medium - UNDERTALE",
+	"joke": "Another Medium - Undertale",
 	"artist": "SharkMctone"},
 "nPYHLAiLTKM": {
 	"title": "Character Select - Baby Felix Halloween",
@@ -54072,7 +54091,7 @@ const db = {
 "Xryte7rY5cY": {
 	"title": "Raft Ride - The Legend of Zelda: Link's Awakening",
 	"wiki": "https://siivagunner.wiki/wiki/Raft%20Ride%20(dmzel)%20-%20The%20Legend%20of%20Zelda%3A%20Link's%20Awakening",
-	"joke": "Bonetrousle - UNDERTALE",
+	"joke": "Bonetrousle - Undertale",
 	"artist": "DonnieTheGuy"},
 "pYeZ0fAgxbo": {
 	"title": "Overworld Adventure - The Legend of Zelda: Spirit Tracks",
@@ -54092,7 +54111,7 @@ const db = {
 "f4dz4IhKMqM": {
 	"title": "Bob-Omb Squad - Super Mario 64 DS",
 	"wiki": "https://siivagunner.wiki/wiki/Bob-Omb%20Squad%20(Original%20Version)%20-%20Super%20Mario%2064%20DS",
-	"joke": "Bonetrousle - UNDERTALE",
+	"joke": "Bonetrousle - Undertale",
 	"artist": "Ellie53"},
 "k4Q86Pek8is": {
 	"title": "Captain Editor - Spore Galactic Adventures",
@@ -54442,7 +54461,7 @@ const db = {
 "CPQTW17KB9U": {
 	"title": "DJMM - Five Nights at Freddy's: Help Wanted 2",
 	"wiki": "https://siivagunner.wiki/wiki/DJMM%20-%20Five%20Nights%20at%20Freddy's%3A%20Help%20Wanted%202",
-	"joke": "Another Medium - UNDERTALE",
+	"joke": "Another Medium - Undertale",
 	"artist": "Unknown Ripper"},
 "6DRfzsQdTUo": {
 	"title": "Raft Ride - The Legend of Zelda: Link's Awakening",
@@ -54467,7 +54486,7 @@ const db = {
 "duoGum_USNY": {
 	"title": "Seal Chamber - Cave Story",
 	"wiki": "https://siivagunner.wiki/wiki/Seal%20Chamber%20(OST%20Version)%20-%20Cave%20Story",
-	"joke": "Another Medium - UNDERTALE",
+	"joke": "Another Medium - Undertale",
 	"artist": "Emm Bee Sea"},
 "VrBrSbulVFU": {
 	"title": "Almost There! - Azumanga Donjara Daioh",
@@ -54645,7 +54664,7 @@ const db = {
 "VgNv5YeI0V8": {
 	"title": "Don't Be Silly - Game Boy Camera",
 	"wiki": "https://siivagunner.wiki/wiki/Don't%20Be%20Silly%20-%20Game%20Boy%20Camera",
-	"joke": "Your Best Nightmare - UNDERTALE",
+	"joke": "Your Best Nightmare - Undertale",
 	"artist": "Arados"},
 "hib5uni44mU": {
 	"title": "Boss - Flying Hamster",
@@ -54678,7 +54697,7 @@ const db = {
 	"joke": "Drowning - A Boogie Wit da Hoodie ft. Kodak Black",
 	"artist": "Person who is Cappy"},
 "PXZRpBFsvzo": {
-	"title": "P-Switch (Super Mario Bros. 3) - Super Mario Maker 2",
+	"title": "P-Switch - Super Mario Bros. 3",
 	"wiki": "https://siivagunner.wiki/wiki/P-Switch%20(Super%20Mario%20Bros.%203)%20(Extended%20Version)%20-%20Super%20Mario%20Maker%202",
 	"joke": "One-Winged Angel - Final Fantasy VII",
 	"artist": "nerdonho"},
@@ -54708,7 +54727,7 @@ const db = {
 	"joke": "Raft Ride - The Legend of Zelda: Link's Awakening",
 	"artist": "nerdonho"},
 "pu8sa5OhPTo": {
-	"title": "Don't Be Afraid (Remastered) - Final Fantasy VIII",
+	"title": "Don't Be Afraid - Final Fantasy VIII",
 	"wiki": "https://siivagunner.wiki/wiki/Don't%20Be%20Afraid%20(Remastered)%20-%20Final%20Fantasy%20VIII",
 	"joke": "Mega Man - Jay Eazy",
 	"artist": "Unknown Ripper"},
@@ -55055,7 +55074,7 @@ const db = {
 	"joke": "Lucid Dreamer - Touhou 16.5: Violet Detector",
 	"artist": "Heboyi"},
 "Q1wsDTdw8a4": {
-	"title": "Frappe Snowland (Demo) - Mario Kart 64",
+	"title": "Frappe Snowland - Mario Kart 64",
 	"wiki": "https://siivagunner.wiki/wiki/Frappe%20Snowland%20(Demo)%20-%20Mario%20Kart%2064",
 	"joke": "Subways of Your Mind (the Most Mysterious Song on the Internet) - FEX",
 	"artist": "alan"},
@@ -55174,11 +55193,6 @@ const db = {
 	"wiki": "https://siivagunner.wiki/wiki/Millennium%20Anthem%20(2000%20New%20Years%20Eve)%20(OST%20Version)%20-%20Hypnospace%20Outlaw",
 	"joke": "Shelter - Porter Robinson & Madeon",
 	"artist": "Memesauce"},
-"WeHMG7Jvotk": {
-	"title": "Super Mario 3D All-Stars Music SM64 Game Start",
-	"wiki": "https://siivagunner.wiki/wiki/Super%20Mario%203D%20All-Stars%20Music%20SM64%20Game%20Start",
-	"joke": "Plastic Love - Mariya Takeuchi",
-	"artist": "Emm Bee Sea"},
 "SrdHMqVpWmw": {
 	"title": "Raft Ride - The Legend of Zelda: Link's Awakening",
 	"wiki": "https://siivagunner.wiki/wiki/Raft%20Ride%20(Night)%20-%20The%20Legend%20of%20Zelda%3A%20Link's%20Awakening",
@@ -55302,7 +55316,7 @@ const db = {
 "-rFpYpeGqUY": {
 	"title": "Character Select for Street Fighter III - Street Fighter V: Arcade Edition",
 	"wiki": "https://siivagunner.wiki/wiki/Character%20Select%20for%20Street%20Fighter%20III%20-%20Street%20Fighter%20V%3A%20Arcade%20Edition",
-	"joke": "It's Everyday Bro - Jake Paul ft. Team 10 ft. Team 10",
+	"joke": "It's Everyday Bro - Jake Paul ft. Team 10",
 	"artist": "circunflexo"},
 "UsRU-Tr7pCo": {
 	"title": "Ballad of the Lonely Robot - Stray",
@@ -55330,7 +55344,7 @@ const db = {
 	"joke": "Five Nights at Freddy's 1 Song - The Living Tombstone",
 	"artist": "overcast07"},
 "rHlg0ZAIPUA": {
-	"title": "Baleful Foe - UNDERTALE: Halloween Hack",
+	"title": "Baleful Foe - Undertale: Halloween Hack",
 	"wiki": "https://siivagunner.wiki/wiki/Baleful%20Foe%20-%20UNDERTALE%3A%20Halloween%20Hack",
 	"joke": "Dame Tu Cosita - El Chombo ft. Cutty Ranks",
 	"artist": "xinos"},
@@ -55517,7 +55531,7 @@ const db = {
 "IpEPgfgI9Rs": {
 	"title": "Building - Survive the Disasters! Classic",
 	"wiki": "https://siivagunner.wiki/wiki/Building%20(Beta%20Mix)%20-%20Survive%20the%20Disasters!%20Classic",
-	"joke": "No More Nuzzles - UNDERTALE: Halloween Hack",
+	"joke": "No More Nuzzles - Undertale: Halloween Hack",
 	"artist": "Aquacycle"},
 "k1lZWQZ3aVw": {
 	"title": "Echoes (Stinger) - Super Bomb Survival",
@@ -55647,7 +55661,7 @@ const db = {
 "ADaPVgOBLEQ": {
 	"title": "Lake - Pokemon Diamond & Pearl",
 	"wiki": "https://siivagunner.wiki/wiki/Lake%20(JP%20Version)%20-%20Pok%C3%A9mon%20Diamond%20%26%20Pearl",
-	"joke": "It's Everyday Bro - Jake Paul ft. Team 10 ft. Team 10",
+	"joke": "It's Everyday Bro - Jake Paul ft. Team 10",
 	"artist": "ChickenSuitGuy"},
 "ZRbwXl2FRLY": {
 	"title": "Full Check - The Munchables",
@@ -55692,7 +55706,7 @@ const db = {
 "UtF3wTlOKww": {
 	"title": "World 6 Map - Super Mario Bros. 3 (Super Mario All-Stars)",
 	"wiki": "https://siivagunner.wiki/wiki/Super%20Mario%20All%20Stars%20SMB3%20World%206%20Map%20(Alpha%20Mix)",
-	"joke": "Another Medium - UNDERTALE",
+	"joke": "Another Medium - Undertale",
 	"artist": "MJ"},
 "fLSy-uZ1O0s": {
 	"title": "Bejeweled 2 Theme - Bejeweled 2",
@@ -55795,7 +55809,7 @@ const db = {
 	"joke": "In the Hall of the Mountain King - Edvard Grieg",
 	"artist": "berg8793"},
 "4QZ-967O78k": {
-	"title": "Adder's Theme (Power) - Advanced Wars 1+2: Re-Boot Camp",
+	"title": "Adder's Theme (Power) - Advance Wars 1+2: Re-Boot Camp",
 	"wiki": "https://siivagunner.wiki/wiki/Adder's%20Theme%20(Power)%20-%20Advanced%20Wars%201%2B2%3A%20Re-Boot%20Camp",
 	"joke": "Bangarang - Skrillex",
 	"artist": "Lugitaro"},
@@ -55812,7 +55826,7 @@ const db = {
 "9lg9kGhxqgw": {
 	"title": "Explorer - Digital Devil Story: Megami Tensei II",
 	"wiki": "https://siivagunner.wiki/wiki/Explorer%20(Alpha%20Mix)%20-%20Digital%20Devil%20Story%3A%20Megami%20Tensei%20II",
-	"joke": "No More Nuzzles - UNDERTALE: Halloween Hack",
+	"joke": "No More Nuzzles - Undertale: Halloween Hack",
 	"artist": "Ellie53"},
 "30dfXX4ImIM": {
 	"title": "xz - Viking Quest 3",
@@ -55847,7 +55861,7 @@ const db = {
 "W-WjqdPNPys": {
 	"title": "Yamanote Line: Osaki Station Platform 2 - Densha de GO!!",
 	"wiki": "https://siivagunner.wiki/wiki/Yamanote%20Line%3A%20Osaki%20Station%20Platform%202%20-%20Densha%20de%20GO!!",
-	"joke": "Another Medium - UNDERTALE",
+	"joke": "Another Medium - Undertale",
 	"artist": "Retro Gaming"},
 "mCCZKGMwHwc": {
 	"title": "In the Clouds - Super Bonk",
@@ -55860,7 +55874,7 @@ const db = {
 	"joke": "STAY - The Kid LAROI & Justin Bieber",
 	"artist": "Emm Bee Sea"},
 "L2y8td6oaw0": {
-	"title": "Overworld Theme - Yoshi's Island",
+	"title": "Overworld Theme - Super Mario World 2: Yoshi's Island",
 	"wiki": "https://siivagunner.wiki/wiki/Overworld%20Theme%20(In-Game%20Version)%20-%20Yoshi's%20Island",
 	"joke": "Never Gonna Give You Up - Rick Astley",
 	"artist": "DonnieTheGuy"},
@@ -55932,7 +55946,7 @@ const db = {
 "r410YBTHj0w": {
 	"title": "Password Screen - Adventures of Lolo 2",
 	"wiki": "https://siivagunner.wiki/wiki/Password%20Screen%20-%20Adventures%20of%20Lolo%202",
-	"joke": "Another Medium - UNDERTALE",
+	"joke": "Another Medium - Undertale",
 	"artist": "MJ"},
 "VgWULRv64gw": {
 	"title": "Awawawawa! - Super Mario Galaxy 2",
@@ -55997,7 +56011,7 @@ const db = {
 "1LfD5UDSchs": {
 	"title": "Cemetery - Cave Story",
 	"wiki": "https://siivagunner.wiki/wiki/Cemetery%20(Steam%20Version)%20-%20Cave%20Story",
-	"joke": "Another Medium - UNDERTALE",
+	"joke": "Another Medium - Undertale",
 	"artist": "MJ"},
 "yGAs_ZkPQXE": {
 	"title": "Piercing the Sky - VVVVVV",
@@ -56052,7 +56066,7 @@ const db = {
 "I1gDm25GX3Y": {
 	"title": "Dark Skies - Pokemon X & Y",
 	"wiki": "https://siivagunner.wiki/wiki/Dark%20Skies%20-%20Pok%C3%A9mon%20X%20%26%20Y",
-	"joke": "Another Medium - UNDERTALE",
+	"joke": "Another Medium - Undertale",
 	"artist": "Tori"},
 "0xRo5stz38o": {
 	"title": "Castle Vein - ULTRAKILL",
@@ -56117,7 +56131,7 @@ const db = {
 "iYOiBmcmNP0": {
 	"title": "Rigit Obstacles (World 5-1 & 5-3) - Mario Forever",
 	"wiki": "https://siivagunner.wiki/wiki/Rigit%20Obstacles%20(World%205-1%20%26%205-3)%20(In-Game%20Version)%20-%20Mario%20Forever",
-	"joke": "Another Medium - UNDERTALE",
+	"joke": "Another Medium - Undertale",
 	"artist": "Elsix64"},
 "dOconhJBAxc": {
 	"title": "Oasis Area - Kirby's Return to Dream Land",
@@ -56142,7 +56156,7 @@ const db = {
 "UPr8zvOofhE": {
 	"title": "Freddy!! - A Nightmare on Elm Street (NES)",
 	"wiki": "https://siivagunner.wiki/wiki/Freddy!!%20-%20A%20Nightmare%20on%20Elm%20Street%20(NES)",
-	"joke": "No More Nuzzles - UNDERTALE: Halloween Hack",
+	"joke": "No More Nuzzles - Undertale: Halloween Hack",
 	"artist": "MJ"},
 "_yVus_udrIM": {
 	"title": "Sort or 'Splode - New Super Mario Bros.",
@@ -56329,16 +56343,6 @@ const db = {
 	"wiki": "https://siivagunner.wiki/wiki/Blue%20Sky%20Athletics%20-%20Super%20Mario%20Galaxy",
 	"joke": "Watch Me (Whip/Nae Nae) - Silento",
 	"artist": "Retro Gaming"},
-"Zp1pPdlKXro": {
-	"title": "Sound Stone ~ Giant Step (Complete) - EarthBound",
-	"wiki": "https://siivagunner.wiki/wiki/Sound%20Stone%20~%20Giant%20Step%20(Complete)%20-%20EarthBound",
-	"joke": "Giant Steps - John Coltrane",
-	"artist": "ThisGreenDingo"},
-"VYEtcafU_YI": {
-	"title": "Sound Stone ~ Giant Step - EarthBound",
-	"wiki": "https://siivagunner.wiki/wiki/Sound%20Stone%20~%20Giant%20Step%20-%20EarthBound",
-	"joke": "Giant Steps - John Coltrane",
-	"artist": "ThisGreenDingo"},
 "ZBU8aEb0gm4": {
 	"title": "Pixel Fighter - Friendsim 2",
 	"wiki": "https://siivagunner.wiki/wiki/Pixel%20Fighter%20-%20Friendsim%202",
@@ -56532,7 +56536,7 @@ const db = {
 "Jf6737R02V0": {
 	"title": "Music: Chewer's Choice - Fortnite",
 	"wiki": "https://siivagunner.wiki/wiki/Music%3A%20Chewer's%20Choice%20-%20Fortnite",
-	"joke": "It's Everyday Bro - Jake Paul ft. Team 10 ft. Team 10",
+	"joke": "It's Everyday Bro - Jake Paul ft. Team 10",
 	"artist": "Expensive Dispenser"},
 "f0WzUxlcbMA": {
 	"title": "Spin Ye Bottle (Minigame) - Shovel Knight",
@@ -56547,7 +56551,7 @@ const db = {
 "SApA-rGUBPk": {
 	"title": "Ad Hoc Architecture - Spore",
 	"wiki": "https://siivagunner.wiki/wiki/Ad%20Hoc%20Architecture%20-%20Spore",
-	"joke": "Another Medium - UNDERTALE",
+	"joke": "Another Medium - Undertale",
 	"artist": "Madinstance"},
 "7nWtM6NVPZk": {
 	"title": "Come Play Again, Ok (Thank You BGM) - Sexy Parodius",
@@ -56761,6 +56765,7 @@ const db = {
 	"artist": "The Green PSY"},
 "OZW_SwzLVd8": {
 	"title": "Hard Rock Hallelujah - Rock Band 3",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Hard%20Rock%20Hallelujah%20-%20Rock%20Band%203",
 	"joke": "Gangnam Style - PSY",
 	"artist": "beardfear"},
@@ -56810,7 +56815,7 @@ const db = {
 	"joke": "Harlem Shake - Baauer",
 	"artist": "Crippled Vampire"},
 "aQdpdeZrGMY": {
-	"title": "Super Mario Land (Hurry Up!) - Super Mario Maker 2",
+	"title": "Super Mario Land - Super Mario Maker 2",
 	"wiki": "https://siivagunner.wiki/wiki/Super%20Mario%20Land%20(Hurry%20Up!)%20-%20Super%20Mario%20Maker%202",
 	"joke": "Goomba Got Back - Gaijin Goombah",
 	"artist": "The Green Spy"},
@@ -56822,7 +56827,7 @@ const db = {
 "GKclpRZCnWI": {
 	"title": "Ao’s Theme - Zettai Onkan OtodaMaster",
 	"wiki": "https://siivagunner.wiki/wiki/Ao%E2%80%99s%20Theme%20-%20Zettai%20Onkan%20OtodaMaster",
-	"joke": "No More Nuzzles - UNDERTALE: Halloween Hack",
+	"joke": "No More Nuzzles - Undertale: Halloween Hack",
 	"artist": "ChickenSuitGuy"},
 "peaYlESD0Qo": {
 	"title": "Buddha Rave - Yume 2kki",
@@ -56938,7 +56943,7 @@ const db = {
 "cx572652YPM": {
 	"title": "WELCOME TO THE CITY (Alternate Route) - Deltarune",
 	"wiki": "https://siivagunner.wiki/wiki/WELCOME%20TO%20THE%20CITY%20(Alternate%20Route)%20(Original%20Version)%20-%20Deltarune",
-	"joke": "Another Medium - UNDERTALE",
+	"joke": "Another Medium - Undertale",
 	"artist": "C-Man"},
 "lq9EQi1eroY": {
 	"title": "Kick it! (World Music 1) - NFL Tycoon",
@@ -56958,7 +56963,7 @@ const db = {
 "22Pl4c1yD3w": {
 	"title": "Beach - Plok",
 	"wiki": "https://siivagunner.wiki/wiki/Beach%20(NTSC%20Version)%20-%20Plok",
-	"joke": "Another Medium - UNDERTALE",
+	"joke": "Another Medium - Undertale",
 	"artist": "Madinstance"},
 "sEwQc2HxSns": {
 	"title": "Stage Select - Mega Man 2",
@@ -57128,7 +57133,7 @@ const db = {
 "o5ieYrGXXlM": {
 	"title": "Elevator - Toontown Online",
 	"wiki": "https://siivagunner.wiki/wiki/Elevator%20(Beta%20Mix)%20-%20Toontown%20Online",
-	"joke": "Dogsong - UNDERTALE",
+	"joke": "Dogsong - Undertale",
 	"artist": "Unknown Ripper"},
 "8viGZQYZSmw": {
 	"title": "Underground - Castlevania",
@@ -57503,7 +57508,7 @@ const db = {
 	"joke": "Let's Do This (Home Depot ad campaign) - Home Depot",
 	"artist": "Unknown Ripper"},
 "67PgpRSNB0o": {
-	"title": "Jenka 2 - Cave Story 3D",
+	"title": "Jenka 2 - Cave Story",
 	"wiki": "https://siivagunner.wiki/wiki/Jenka%202%20(OST%20Version)%20-%20Cave%20Story%203D",
 	"joke": "Crab Rave - Noisestorm",
 	"artist": "eg_9371"},
@@ -57524,7 +57529,7 @@ const db = {
 	"joke": "Replay - Iyaz",
 	"artist": "eg_9371"},
 "R3KpE_nN32I": {
-	"title": "Invincible - Super Mario Bros. 35",
+	"title": "Invincible - Super Mario Bros.",
 	"wiki": "https://siivagunner.wiki/wiki/Invincible%20-%20Super%20Mario%20Bros.%2035",
 	"joke": "Let's Do This (Home Depot ad campaign) - Home Depot",
 	"artist": "Jiko Music"},
@@ -57729,7 +57734,7 @@ const db = {
 	"joke": "Harlem Shake - Baauer",
 	"artist": "l4ureleye"},
 "79JtWHFy4wI": {
-	"title": "Purple Coins - Super Mario Galaxy 2",
+	"title": "Purple Coins - Super Mario Galaxy",
 	"wiki": "https://siivagunner.wiki/wiki/Purple%20Coins%20-%20Super%20Mario%20Galaxy%202",
 	"joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper",
 	"artist": "New Guy"},
@@ -57751,7 +57756,7 @@ const db = {
 "CS-xMKDisko": {
 	"title": "Syrup's Gadgets - Wario Land II",
 	"wiki": "https://siivagunner.wiki/wiki/Syrup's%20Gadgets%20-%20Wario%20Land%20II",
-	"joke": "Title Theme - The Simpsons",
+	"joke": "The Simpsons Main Title Theme - The Simpsons",
 	"artist": "The Duane"},
 "9Awn7zl01D4": {
 	"title": "His Theme - Undertale",
@@ -58016,7 +58021,7 @@ const db = {
 "WTtA33u7yw0": {
 	"title": "Bowser's Theme - Super Mario 64",
 	"wiki": "https://siivagunner.wiki/wiki/Bowser's%20Theme%20-%20Super%20Mario%2064",
-	"joke": "Title Theme - The Simpsons",
+	"joke": "The Simpsons Main Title Theme - The Simpsons",
 	"artist": "ZVAARI"},
 "RzKvItA8bkw": {
 	"title": "Fawful, Cackletta - Mario & Luigi: Superstar Saga",
@@ -58054,7 +58059,7 @@ const db = {
 	"joke": "Something About Us - Daft Punk",
 	"artist": "CrystalForce"},
 "lAw00GvDKIs": {
-	"title": "Steam Gardens (Album Version) - Super Smash Bros. Ultimate",
+	"title": "Steam Gardens - Super Smash Bros. Ultimate",
 	"wiki": "https://siivagunner.wiki/wiki/Steam%20Gardens%20(Album%20Version)%20-%20Super%20Smash%20Bros.%20UItimate ",
 	"joke": "Beat It - Michael Jackson",
 	"artist": "Sarvéproductions"},
@@ -58074,10 +58079,15 @@ const db = {
 	"joke": "Witch Doctor - David Seville",
 	"artist": "Psycosis"},
 "2joknwVfcPw": {
-	"title": "Fortress Boss (Hurry Up!) - Super Mario World",
+	"title": "Fortress Boss - Super Mario World",
 	"wiki": "https://siivagunner.wiki/wiki/Fortress%20Boss%20(Hurry%20Up!)%20-%20Super%20Mario%20World ",
 	"joke": "Caravan - Juan Tizol and Duke Ellington",
 	"artist": "Zoom"},
+"u5CUnY7MpzU": {
+	"title": "Ruder Buster - Deltarune",
+	"wiki": "https://siivagunner.wiki/wiki/Ruder_Buster_(JP_Version)_-_Deltarune",
+	"joke": "Young Girl A - siinamota",
+	"artist": "Unknown Ripper"},
 "HWbpgYiQN80": {
 	"title": "Katamari on the Rocks - Katamari Damacy REROLL",
 	"wiki": "https://siivagunner.wiki/wiki/Katamari%20on%20the%20Rocks%20-%20Katamari%20Damacy%20REROLL",
@@ -58118,7 +58128,7 @@ const db = {
 		{"time": "2:10", "joke": "Puppy Monkey Baby - Mountain Dew"},
 		{"time": "2:13", "joke": "Google Screaming Ad - Google"},
 		{"time": "2:15", "joke": "Epic - We Are Leo"},
-		{"time": "2:15", "joke": "No More Nuzzles - UNDERTALE: Halloween Hack"},
+		{"time": "2:15", "joke": "No More Nuzzles - Undertale: Halloween Hack"},
 		{"time": "2:19", "joke": "I'm a Gummy Bear (The Gummy Bear Song) - Gummibär"},
 		{"time": "2:25", "joke": "Bumble Bee - Bambee"},
 		{"time": "2:34", "joke": "BIG SHOT - Deltarune"},
@@ -58128,7 +58138,7 @@ const db = {
 		{"time": "2:40", "joke": "David S. Pumpkins - Saturday Night Live"},
 		{"time": "2:52", "joke": "Stuck Inside - Black Gryph0n, Baasik, The Living Tombstone, Kevin Foster"},
 		{"time": "2:53", "joke": "Cbat - Hudson Mohawke"},
-		{"time": "2:53", "joke": "Suneo's Bragging Theme - Doraemon (1979) (1979)"},
+		{"time": "2:53", "joke": "Suneo's Bragging Theme - Doraemon (1979)"},
 		{"time": "3:04", "joke": "Boykisser - Studi01"},
 		{"time": "3:04", "joke": "Cotton-Eyed Joe - Rednex"},
 		{"time": "3:04", "joke": "The Amazing Digital Circus Theme - The Amazing Digital Circus"},
@@ -58155,7 +58165,7 @@ const db = {
 		{"time": "4:21", "joke": "Guy Screaming UNDERTALE - minindo"},
 		{"time": "4:22", "joke": "ANTONYMPH - Vylet Pony"},
 		{"time": "4:22", "joke": "squid game jersey mix🦑🦑🦑 - OJC-O.J.C"},
-		{"time": "4:22", "joke": "It's Everyday Bro - Jake Paul ft. Team 10 ft. Team 10"},
+		{"time": "4:22", "joke": "It's Everyday Bro - Jake Paul ft. Team 10"},
 		{"time": "4:34", "joke": "The Lick"},
 		{"time": "4:38", "joke": "The Protegent Rap - Unistal Systems Pvt Ltd"},
 		{"time": "4:38", "joke": "Crab Rave - Noisestorm"},
@@ -58384,7 +58394,6 @@ const db = {
 	"title": "Ruby Illusions - Final Boss - Sonic Mania",
 	"wiki": "https://siivagunner.wiki/wiki/Ruby%20Illusions%20-%20Final%20Boss%20(OST%20Version)%20-%20Sonic%20Mania%20Plus",
 	"joke": [
-		{"time": "0:00", "joke": "Old MacDonald Had a Farm - Fisher-Price Perfect Fit"},
 		{"time": "0:07", "joke": "Only in Ohio - CG5"},
 		{"time": "0:07", "joke": "Versus Mode - Sonic Eraser"},
 		{"time": "0:21", "joke": "INDUSTRY BABY - Lil Nas X and Jack Harlow"},
@@ -58783,7 +58792,7 @@ const db = {
 		{"time": "0:25", "joke": "Space Jam - Quad City DJ's"},
 		{"time": "0:38", "joke": "FE!N - Travis Scott ft. Playboi Carti"},
 		{"time": "0:51", "joke": "Turn My Swag On - Soulja Boy"},
-		{"time": "0:51", "joke": "Nyanyanyanyanyanyanya! (Nyan Cat) - daniwellP & Momomomo, Momomomo"},
+		{"time": "0:51", "joke": "Nyanyanyanyanyanyanya! (Nyan Cat) - daniwellP & Momomomo"},
 		{"time": "0:51", "joke": "VIRAL SONG - Tobuscus"},
 		{"time": "1:16", "joke": "Subscribe jingle - Tobuscus"}],
 	"artist": "Heboyi"},
@@ -58944,7 +58953,7 @@ const db = {
 		{"time": "0:41", "joke": "Double Life - Pharrell Williams, Despicable Me 4"},
 		{"time": "0:56", "joke": "Jennifer's Body - Ken Carson"},
 		{"time": "1:03", "joke": "Hotel Room Service - Pitbull"},
-		{"time": "1:18", "joke": "It's Everyday Bro - Jake Paul ft. Team 10 ft. Team 10"}],
+		{"time": "1:18", "joke": "It's Everyday Bro - Jake Paul ft. Team 10"}],
 	"artist": "ChristopherLry"},
 "CI9Jb3so7rY": {
 	"title": "video game lobby - nico's nextbots",
@@ -59042,7 +59051,7 @@ const db = {
 	"title": "Underground Corruption - Terraria",
 	"wiki": "https://siivagunner.wiki/wiki/Underground%20Corruption%20(Stadia%20Version)%20-%20Terraria",
 	"joke": [
-		{"time": "0:00", "joke": "Intro jingle - Tobuscus Adventures"},
+		{"time": "0:00", "joke": "Intro jingle - Tobuscus"},
 		{"time": "0:03", "joke": "Music That Makes You Poop - Musical Magician"},
 		{"time": "0:09", "joke": "CHRISTMAS - Tobuscus Adventures"},
 		{"time": "0:16", "joke": "Eh Eh Eh / EHHHHHHH EH EH EH - @sp3_clan_sg"},
@@ -59099,7 +59108,7 @@ const db = {
 		{"time": "0:32", "joke": "Robot Rock - Daft Punk"},
 		{"time": "0:35", "joke": "Emotion - Daft Punk"},
 		{"time": "0:50", "joke": "On/Off - Daft Punk"},
-		{"time": "1:03", "joke": "The The Brainwasher - Daft Punk"},
+		{"time": "1:03", "joke": "The Brainwasher - Daft Punk"},
 		{"time": "1:05", "joke": "The Prime Time of Your Life - Daft Punk"},
 		{"time": "1:27", "joke": "Television Rules the Nation - Daft Punk"},
 		{"time": "1:39", "joke": "Human After All - Daft Punk"},
@@ -59339,7 +59348,7 @@ const db = {
 		{"time": "0:01", "joke": "Gangnam Style - PSY"},
 		{"time": "0:01", "joke": "Astronaut in the Ocean - Masked Wolf"},
 		{"time": "0:01", "joke": "Circus - Five Nights at Freddy's"},
-		{"time": "0:01", "joke": "It's Everyday Bro - Jake Paul ft. Team 10 ft. Team 10"},
+		{"time": "0:01", "joke": "It's Everyday Bro - Jake Paul ft. Team 10"},
 		{"time": "0:04", "joke": "Watch Me (Whip/Nae Nae) - Silento"},
 		{"time": "0:06", "joke": "Crank Dat Super Mario - Crank Squad"},
 		{"time": "0:08", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
@@ -59480,7 +59489,7 @@ const db = {
 		{"time": "3:12", "joke": "POKEMON GO SONG!!! - Mishovy silenosti (Misha)"},
 		{"time": "3:12", "joke": "Shocking Party - A-RISE"},
 		{"time": "3:28", "joke": "Desce do Cavalo - Os Barões da Pisadinha"},
-		{"time": "3:28", "joke": "Suneo's Bragging Theme - Doraemon (1979) (1979)"},
+		{"time": "3:28", "joke": "Suneo's Bragging Theme - Doraemon (1979)"},
 		{"time": "3:43", "joke": "Never Back Down - Nick Eh 30"},
 		{"time": "3:58", "joke": "Cure for Me - AURORA"},
 		{"time": "4:16", "joke": "Beat It - Michael Jackson"},
@@ -59532,8 +59541,6 @@ const db = {
 	"title": "Cabinet Madeline - Celeste Strawberry Jam",
 	"wiki": "https://siivagunner.wiki/wiki/Cabinet%20Madeline%20(Pumber%20Edition)%20-%20Celeste%20Strawberry%20Jam",
 	"joke": [
-		{"time": "0:04", "joke": "DIE - Link: The Faces of Evil"},
-		{"time": "0:05", "joke": "What? - JonTron, \"Anti Drug Games\""},
 		{"time": "0:08", "joke": "e (Euler's Number) - Numberphile"},
 		{"time": "0:10", "joke": "C'Mon n' Ride It (The Train) - Quad City DJ's"},
 		{"time": "0:14", "joke": "We Are Number One - Máni Svavarsson (LazyTown)"},
@@ -59556,7 +59563,7 @@ const db = {
 		{"time": "2:08", "joke": "Axel F (Beverly Hills Cop / Crazy Frog) - Harold Faltermeyer"},
 		{"time": "2:30", "joke": "Puzzle Room - Kirby Planet Robobot"},
 		{"time": "2:30", "joke": "Bassline Junkie - Dizzee Rascal"},
-		{"time": "2:42", "joke": "No More Nuzzles - UNDERTALE: Halloween Hack"},
+		{"time": "2:42", "joke": "No More Nuzzles - Undertale: Halloween Hack"},
 		{"time": "2:42", "joke": "BRODYQUEST - Lemon Demon"},
 		{"time": "2:53", "joke": "Genjitsu Mysterium - Aqours"},
 		{"time": "2:53", "joke": "Where The Guns At - Nuclear Throne"},
@@ -59568,7 +59575,6 @@ const db = {
 		{"time": "4:01", "joke": "Tipsy - J-Kwon"},
 		{"time": "4:01", "joke": "Teach Me How to Dougie - Cali Swag District"},
 		{"time": "4:23", "joke": "Cotton-Eyed Joe - Rednex"},
-		{"time": "4:33", "joke": "What? - JonTron, \"Anti Drug Games\""},
 		{"time": "4:34", "joke": "HELP ME! - Kevin Hart: Let Me Explain"},
 		{"time": "4:35", "joke": "Roblox Chicken Nugget / Gegagedigedagedago - @razioff, @wenonugget"},
 		{"time": "4:45", "joke": "Dat Boi (O Shit Waddup!) - DJ Cutman"},
@@ -59578,9 +59584,9 @@ const db = {
 		{"time": "5:20", "joke": "Five Nights at Freddy's 1 Song - The Living Tombstone"},
 		{"time": "5:31", "joke": "Rubber Band - Jackal Queenston"},
 		{"time": "5:31", "joke": "Stuck Inside - Black Gryph0n ft. The Living Tombstone & Kevin Foster"},
-		{"time": "5:31", "joke": "Suneo's Bragging Theme - Doraemon (1979) (1979)"},
+		{"time": "5:31", "joke": "Suneo's Bragging Theme - Doraemon (1979)"},
 		{"time": "5:53", "joke": "Space Jam - Quad City DJ's"},
-		{"time": "5:56", "joke": "It's Everyday Bro - Jake Paul ft. Team 10 ft. Team 10"},
+		{"time": "5:56", "joke": "It's Everyday Bro - Jake Paul ft. Team 10"},
 		{"time": "6:00", "joke": "ANTONYMPH - Vylet Pony"},
 		{"time": "6:03", "joke": "Axel F (Beverly Hills Cop / Crazy Frog) - Harold Faltermeyer"},
 		{"time": "6:05", "joke": "Lucid Dreams - Juice WRLD"},
@@ -59603,6 +59609,7 @@ const db = {
 	"artist": "Unknown Ripper"},
 "NyMvuKClRiw": {
 	"title": "Beware the Forest's Mushrooms - Smash Remix",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Beware%20the%20Forest's%20Mushrooms%20-%20Smash%20Remix",
 	"joke": [
 		{"time": "0:00", "joke": "Inspector Gadget Theme - Shuki Levy"},
@@ -59627,7 +59634,7 @@ const db = {
 		{"time": "2:53", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg, Kurupt, and Nate Dogg"},
 		{"time": "2:57", "joke": "Bad Apple!! - Touhou 4: Lotus Land Story"},
 		{"time": "3:01", "joke": "We Are Number One - Máni Svavarsson (LazyTown)"},
-		{"time": "3:01", "joke": "It's Everyday Bro - Jake Paul ft. Team 10 ft. Team 10"},
+		{"time": "3:01", "joke": "It's Everyday Bro - Jake Paul ft. Team 10"},
 		{"time": "3:09", "joke": "Live & Learn - Sonic Adventure 2"},
 		{"time": "3:09", "joke": "Stuck Inside - Black Gryph0n ft. The Living Tombstone & Kevin Foster"},
 		{"time": "3:12", "joke": "Surfin' Bird - Family Guy"},
@@ -59647,7 +59654,7 @@ const db = {
 		{"time": "0:04", "joke": "Producer tag - Perish Beats"},
 		{"time": "0:08", "joke": "Baby - Justin Bieber ft. Ludacris"},
 		{"time": "0:08", "joke": "Pluh - BeatPluggz"},
-		{"time": "0:17", "joke": "Discord notification - Discord"},
+		{"time": "0:17", "joke": "Notification - Discord"},
 		{"time": "0:25", "joke": "Critical Stop - Windows XP"},
 		{"time": "0:26", "joke": "Hollaback Girl - Gwen Stefani"},
 		{"time": "0:43", "joke": "MARIO BROTHERS MOVIE - Maerwynn"},
@@ -59669,7 +59676,7 @@ const db = {
 		{"time": "0:38", "joke": "Computers - Rowdy Rebel ft. Bobby Shmurda"},
 		{"time": "0:42", "joke": "Gangnam Style - PSY"},
 		{"time": "0:47", "joke": "the new rick rolld - wtfradio1000"},
-		{"time": "0:49", "joke": "Hard in da Paint - Waka Flocka Flame Flame"},
+		{"time": "0:49", "joke": "Hard in da Paint - Waka Flocka Flame"},
 		{"time": "1:02", "joke": "loud - clipping."},
 		{"time": "1:10", "joke": "Bustin' At 'Em - Waka Flocka Flame"},
 		{"time": "1:11", "joke": "Dame Tu Cosita - El Chombo ft. Cutty Ranks"},
@@ -59729,7 +59736,7 @@ const db = {
 		{"time": "0:12", "joke": "Theme Song - Stranger Things"},
 		{"time": "0:22", "joke": "Astronaut in the Ocean - Masked Wolf"},
 		{"time": "0:34", "joke": "Can You Feel [spc700] - Torchkas"},
-		{"time": "0:45", "joke": "It's Everyday Bro - Jake Paul ft. Team 10 ft. Team 10"},
+		{"time": "0:45", "joke": "It's Everyday Bro - Jake Paul ft. Team 10"},
 		{"time": "0:56", "joke": "Low - Flo Rida ft. T-Pain"},
 		{"time": "1:17", "joke": "One-Winged Angel - Final Fantasy VII"},
 		{"time": "1:29", "joke": "Main Theme - Breaking Bad"},
@@ -59827,7 +59834,7 @@ const db = {
 		{"time": "0:29", "joke": "BIG CHUNGUS | Official Main Theme - Endigo"},
 		{"time": "0:30", "joke": "Ice on the Road - Quinn Wolf"},
 		{"time": "0:33", "joke": "Aaah! sample - Roland M-DC1"},
-		{"time": "0:35", "joke": "Ballerina Ghost - Chuck E. Cheese"},
+		{"time": "0:35", "joke": "Ballerina Ghost - Happy Halloween Chuck E. Cheese"},
 		{"time": "0:38", "joke": "Rock My Forum - Xarlable"},
 		{"time": "0:40", "joke": "Pause Screen - Wario World"},
 		{"time": "0:42", "joke": "Axel F (Beverly Hills Cop / Crazy Frog) - Harold Faltermeyer"},
@@ -59857,7 +59864,6 @@ const db = {
 		{"time": "0:44", "joke": "wordle rap - ch3rryb0y"},
 		{"time": "0:47", "joke": "Baby - Justin Bieber ft. Ludacris"},
 		{"time": "0:50", "joke": "Harlem Shake - Baauer"},
-		{"time": "0:53", "joke": "REMOVE__ME"},
 		{"time": "0:53", "joke": "Never Gonna Give You Up - Rick Astley"},
 		{"time": "0:59", "joke": "Cbat - Hudson Mohawke"},
 		{"time": "1:02", "joke": "I'm a Gummy Bear (The Gummy Bear Song) - Gummibär"},
@@ -59885,7 +59891,7 @@ const db = {
 		{"time": "0:25", "joke": "Aaah! sample - Roland M-DC1"},
 		{"time": "0:34", "joke": "Jingle - Bunnings Warehouse"},
 		{"time": "0:35", "joke": "Main Theme - The Amazing Digital Circus"},
-		{"time": "0:35", "joke": "Physical - Olivia Newton-John-John"},
+		{"time": "0:35", "joke": "Physical - Olivia Newton-John"},
 		{"time": "0:36", "joke": "Shooting Stars - Bag Raiders"},
 		{"time": "0:39", "joke": "Beds Are Burning - Midnight Oil"},
 		{"time": "0:49", "joke": "Raft Ride - The Legend of Zelda: Link's Awakening"},
@@ -59964,7 +59970,6 @@ const db = {
 		{"time": "0:30", "joke": "gedagedago - 2KE and 0to8"},
 		{"time": "0:56", "joke": "Sexy and I Know It - LMFAO"},
 		{"time": "0:56", "joke": "Dubidubidu - Christell"},
-		{"time": "1:12", "joke": "What? - JonTron"},
 		{"time": "1:12", "joke": "Help me, HELP ME! - Kevin Hart: Let Me Explain"}],
 	"artist": "DonnieTheGuy"},
 "YaZy-F2u1tg": {
@@ -59972,7 +59977,6 @@ const db = {
 	"wiki": "https://siivagunner.wiki/wiki/Never%20Let%20Up!%20(Alpha%20Mix)%20-%20Mario%20%26%20Luigi%3A%20Dream%20Team%20Music",
 	"joke": [
 		{"time": "0:01, 0:29", "joke": "Cotton-Eyed Joe - Rednex"},
-		{"time": "0:13", "joke": "What? - JonTron"},
 		{"time": "0:14, 0:17", "joke": "Help me, HELP ME! - Kevin Hart: Let Me Explain"},
 		{"time": "0:17", "joke": "Roblox Chicken Nugget / Gegagedigedagedago - @razioff, @wenonugget"},
 		{"time": "0:36", "joke": "digital circus if it was made by vivziepop - @MegaChanRevival"},
@@ -59991,7 +59995,6 @@ const db = {
 		{"time": "0:54", "joke": "Dubidubidu - Christell"},
 		{"time": "1:00", "joke": "I Show The Meat - DaddySpeed"},
 		{"time": "1:04", "joke": "Thunder Cloud appearing sound - DaddySpeed"},
-		{"time": "1:05", "joke": "What? - JonTron: Anti Drug Games"},
 		{"time": "1:05", "joke": "Help me! - Kevin Hart: Let Me Explain"},
 		{"time": "1:06", "joke": "Roblox Chicken Nugget / Gegagedigedagedago - @razioff, @wenonugget"},
 		{"time": "1:30", "joke": "Barack Obama vs Mitt Romney - Epic Rap Battles of History"},
@@ -60006,7 +60009,6 @@ const db = {
 		{"time": "0:01, 0:26", "joke": "Skibidi Biden - The Late Show with Stephen Colbert"},
 		{"time": "0:04", "joke": "Cotton-Eyed Joe - Rednex"},
 		{"time": "0:11", "joke": "Roblox Chicken Nugget / Gegagedigedagedago - @razioff, @wenonugget"},
-		{"time": "0:23", "joke": "What? - JonTron"},
 		{"time": "0:24", "joke": "Help me, HELP ME! - Kevin Hart: Let Me Explain"}],
 	"artist": "venula"},
 "vv4RofJ70_k": {
@@ -60119,7 +60121,7 @@ const db = {
 		{"time": "0:26", "joke": "Flat Beat music video - Mr. Oizo"}],
 	"artist": "Heboyi"},
 "fLaq8gxvJl0": {
-	"title": "Greenish Illusion - Remix - The Munchables",
+	"title": "Greenish Illusion - The Munchables",
 	"wiki": "https://siivagunner.wiki/wiki/Greenish%20Illusion%20-%20Remix%20(Alpha%20Mix)%20-%20The%20Munchables",
 	"joke": [
 		{"time": "0:00", "joke": "New Face - PSY"},
@@ -60136,7 +60138,7 @@ const db = {
 		{"time": "0:09, 0:36, 1:13, 1:25, 1:52, 2:29, 3:52", "joke": "Toxic - Britney Spears"},
 		{"time": "0:34, 1:37, 2:43", "joke": "Smooth - Santana ft. Rob Thomas"},
 		{"time": "0:47, 1:23, 1:45, 3:22", "joke": "ANTONYMPH - Vylet Pony"},
-		{"time": "1:04", "joke": "Discord notification - Discord"},
+		{"time": "1:04", "joke": "Notification - Discord"},
 		{"time": "1:04, 1:17, 2:05, 3:41", "joke": "Emergency Meeting - Among Us"},
 		{"time": "1:04, 2:05, 2:20, 3:01, 3:41", "joke": "6 AM - Five Nights at Freddy's"},
 		{"time": "2:37, 2:50, 2:57", "joke": "Circles - Post Malone"},
@@ -60245,7 +60247,7 @@ const db = {
 		{"time": "0:09", "joke": "Look What You Made Me Do - Taylor Swift"},
 		{"time": "0:28", "joke": "Cursed Buzz Lightyear Sings A Song - Aaron Fraser-Nash"},
 		{"time": "0:47", "joke": "Ice on the Road - Quinn Wolf"},
-		{"time": "0:53", "joke": "bite the dust - The rip loops over once at 1:24, and again at 2:39 before fading out"}],
+		{"time": "0:53", "joke": "bite the dust - Quinn Wolf"}],
 	"artist": "ChristopherLry"},
 "ero4nvmEPPw": {
 	"title": "Bamboo Forest of the Full Moon - Touhou 14: Double Dealing Character",
@@ -60341,7 +60343,7 @@ const db = {
 		{"time": "0:09", "joke": "Producer tag - Mario Judah"},
 		{"time": "0:11", "joke": "Alert - Metal Gear Solid"},
 		{"time": "0:17", "joke": "DJ! - Yamaha keyboards"},
-		{"time": "0:21", "joke": "Discord notification - Discord"},
+		{"time": "0:21", "joke": "Notification - Discord"},
 		{"time": "0:27", "joke": "Producer tag - Take a Daytrip"},
 		{"time": "0:29", "joke": "1 2 Buckle My Shoe, 3 4 Buckle Some More, 5 6 Nike Kicks - edmondx"},
 		{"time": "0:31", "joke": "MiA KHALiFA - iLOVEFRiDAY"},
@@ -60460,9 +60462,9 @@ const db = {
 	"title": "Rush of a Punch - Garten of Banban 7",
 	"wiki": "https://siivagunner.wiki/wiki/Rush%20of%20a%20Punch%20-%20Garten%20of%20Banban%207",
 	"joke": [
-		{"time": "0:00", "joke": "Suneo's Bragging Theme - Doraemon (1979) (1979)"},
+		{"time": "0:00", "joke": "Suneo's Bragging Theme - Doraemon (1979)"},
 		{"time": "0:01", "joke": "SUPER GAY PUTIN - Squallido Anal Smithee"},
-		{"time": "0:01", "joke": "It's Everyday Bro - Jake Paul ft. Team 10 ft. Team 10"},
+		{"time": "0:01", "joke": "It's Everyday Bro - Jake Paul ft. Team 10"},
 		{"time": "0:02", "joke": "Fred [YTP] - FlyingKitty"},
 		{"time": "0:04", "joke": "Baby - Justin Bieber ft. Ludacris"},
 		{"time": "0:18", "joke": "Crank Dat Super Mario - Crank Squad"},
@@ -60597,7 +60599,7 @@ const db = {
 		{"time": "2:03", "joke": "F.U.N. Song - SpongeBob SquarePants"},
 		{"time": "2:05", "joke": "Barbie Girl - Aqua"},
 		{"time": "2:10", "joke": "A-Punk - Vampire Weekend"},
-		{"time": "2:10","joke": "Where’s Gary? - SpongeBob SquarePants"},
+		{"time": "2:10", "joke": "Where’s Gary? - SpongeBob SquarePants"},
 		{"time": "2:13", "joke": "Shelter - Porter Robinson & Madeon"},
 		{"time": "2:21", "joke": "Damn Daniel, ar ar ar ar ar ar ar - FlightReacts"},
 		{"time": "2:22", "joke": "Just a Kid - The SpongeBob SquarePants Movie, Wilco"},
@@ -60697,7 +60699,7 @@ const db = {
 		{"time": "1:03", "joke": "Space Jam - Quad City DJ's"},
 		{"time": "1:03", "joke": "Scary Monsters and Nice Sprites - Skrillex"},
 		{"time": "1:16", "joke": "All Star - Smash Mouth"},
-		{"time": "1:16", "joke": "No More Nuzzles - UNDERTALE: Halloween Hack"},
+		{"time": "1:16", "joke": "No More Nuzzles - Undertale: Halloween Hack"},
 		{"time": "1:20", "joke": "THAT'S RIGHT, GET NOSCOPED! - austinscooter88"},
 		{"time": "1:27", "joke": "Family Ties - Baby Keem & Kendrick Lamar"},
 		{"time": "1:27", "joke": "HOW 2 DRAW SANIC HEGEHOG - 0nyxheart"},
@@ -60996,13 +60998,12 @@ const db = {
 		{"time": "0:00", "joke": "e (Euler's Number) - Numberphile"},
 		{"time": "0:05", "joke": "GRAND DAD - Vinesauce Joel"},
 		{"time": "0:08", "joke": "The Seven - Seinfeld"},
-		{"time": "0:12", "joke": "MARIO 64: CHAOS 1.2 / 1.3 | ALL 120 STARS | HIGHLIGHTS - SimpleFlips"},
 		{"time": "0:12", "joke": "Man's Not Hot - Big Shaq"},
-		{"time": "0:18", "joke": "It's Everyday Bro - Jake Paul ft. Team 10 ft. Team 10"},
+		{"time": "0:18", "joke": "It's Everyday Bro - Jake Paul ft. Team 10"},
 		{"time": "0:23", "joke": "Shake That - Eminem ft. Nate Dogg"},
 		{"time": "0:24", "joke": "IGOR'S THEME - Tyler, the Creator"},
 		{"time": "0:33", "joke": "21 Guns - Green Day"},
-		{"time": "0:34", "joke": "Tipsy - J-Kwon & clipping."},
+		{"time": "0:34", "joke": "Tipsy - J-Kwon"},
 		{"time": "0:34", "joke": "Errrbody In The Club Gettin Tipsy - Nyanners"},
 		{"time": "0:37", "joke": "Bodies - Drowning Pool"},
 		{"time": "0:38", "joke": "Rollin' (Air Raid Vehicle) - Limp Bizkit"},
@@ -61083,7 +61084,7 @@ const db = {
 	"title": "Stage 5 - Bay•Route",
 	"wiki": "https://siivagunner.wiki/wiki/Stage%205%20-%20Bay%E2%80%A2Route",
 	"joke": [
-		{"time": "0:00", "joke": "It's Everyday Bro - Jake Paul ft. Team 10 ft. Team 10"},
+		{"time": "0:00", "joke": "It's Everyday Bro - Jake Paul ft. Team 10"},
 		{"time": "0:12", "joke": "We Are Number One - Máni Svavarsson (LazyTown)"},
 		{"time": "0:25", "joke": "fortress jukebox - Quinn Wolf"},
 		{"time": "0:39", "joke": "How You Like That - BLACKPINK"},
@@ -61238,7 +61239,6 @@ const db = {
 	"wiki": "https://siivagunner.wiki/wiki/FReeStyLE%20-%20Honkai%3A%20Star%20Rail",
 	"joke": [
 		{"time": "0:00", "joke": "U Got That - Halogen"},
-		{"time": "0:04", "joke": "Game Theory: Five Nights at Freddy's SCARIEST Monster is You! - The Game Theorists"},
 		{"time": "0:30", "joke": "Bonfire - Childish Gambino"},
 		{"time": "0:37", "joke": "OTAHEN Anthem - Riamu Yumemi"},
 		{"time": "0:37", "joke": "World's Loudest Orgasm - Creampie Cathy"},
@@ -61290,7 +61290,7 @@ const db = {
 		{"time": "0:09", "joke": "MARIO BROTHERS MOVIE - Maerwynn"},
 		{"time": "0:10", "joke": "Bad Romance - Lady Gaga"},
 		{"time": "0:10", "joke": "Centuries - Fall Out Boy"},
-		{"time": "0:13", "joke": "UNDERTALE THE MUSICAL - LHUGUENY"},
+		{"time": "0:13", "joke": "UNDERTALE THE MUSICAL (Story of Undertale) - LHUGUENY"},
 		{"time": "0:14", "joke": "Goomba Got Back - Gaijin Goombah and The Living Tombstone"},
 		{"time": "0:18", "joke": "The Protegent Rap - Protegent"},
 		{"time": "0:20", "joke": "Bucephalus Bouncing Ball - Aphex Twin"},
@@ -61539,10 +61539,10 @@ const db = {
 		{"time": "0:26", "joke": "Squid Game vs. MrBeast - Rap Battle! - ft. Cam Steady & Mike Choe - Freshy Kanal"},
 		{"time": "0:27", "joke": "Bloody Mary - Lady Gaga"},
 		{"time": "0:28", "joke": "California Gurls - Katy Perry ft. Snoop Dogg"},
-		{"time": "0:28", "joke": "No More Nuzzles - UNDERTALE: Halloween Hack"},
+		{"time": "0:28", "joke": "No More Nuzzles - Undertale: Halloween Hack"},
 		{"time": "0:29", "joke": "Whine Up - Kat DeLuna ft. Elephant Man"},
 		{"time": "0:30", "joke": "TiK ToK - Ke$ha"},
-		{"time": "0:30", "joke": "UNDERTALE THE MUSICAL - LHUGUENY"},
+		{"time": "0:30", "joke": "UNDERTALE THE MUSICAL (Story of Undertale) - LHUGUENY"},
 		{"time": "0:32", "joke": "GRAND DAD - Vinesauce Joel"},
 		{"time": "0:32", "joke": "Danger Aplenty on the Journey - Super Mario RPG (Switch)"},
 		{"time": "0:32", "joke": "BARVE BOY KUNG FU POKECHU - Vinesauce Vinny"},
@@ -61563,7 +61563,6 @@ const db = {
 		{"time": "0:47", "joke": "Ambatukam - DreamyBull"},
 		{"time": "0:48", "joke": "Drake - Good morning USA - Zakk James"},
 		{"time": "0:49", "joke": "Maroon 5 \"Memories\" Impersonation Parody Cover in 10+ VOICES - Wirah"},
-		{"time": "0:50", "joke": "Holy Fuck, I'm Coming... Lois... - BeefFishstick"},
 		{"time": "0:51", "joke": "The Spectre - Alan Walker"},
 		{"time": "0:52", "joke": "Mo Bamba - Sheck Wes"},
 		{"time": "0:52", "joke": "U Got That - Halogen"},
@@ -61687,7 +61686,7 @@ const db = {
 		{"time": "0:24", "joke": "Howie scream - Howie Long"},
 		{"time": "0:25", "joke": "100 Sunny - OMORI"},
 		{"time": "0:26", "joke": "Fairy Tale Path - Yume 2kki"},
-		{"time": "0:27", "joke": "The Love Plug - efukt.com.com"},
+		{"time": "0:27", "joke": "The Love Plug - efukt.com"},
 		{"time": "0:28", "joke": "Where The Guns At - Nuclear Throne"},
 		{"time": "0:28", "joke": "Bonfire - Childish Gambino"},
 		{"time": "0:28", "joke": "Whine Up - Kat DeLuna ft. Elephant Man"},
@@ -61697,7 +61696,7 @@ const db = {
 		{"time": "0:31", "joke": "Megalovania - Undertale"},
 		{"time": "0:31", "joke": "Twerk - Lady"},
 		{"time": "0:34", "joke": "dog dancing to we no speak americano - LegoMaster121000"},
-		{"time": "0:36", "joke": "No More Nuzzles - UNDERTALE: Halloween Hack"},
+		{"time": "0:36", "joke": "No More Nuzzles - Undertale: Halloween Hack"},
 		{"time": "0:36", "joke": "NOW'S YOUR CHANCE TO BE A - Deltarune"},
 		{"time": "0:38", "joke": "Hot Cross Buns - Nursery rhyme"},
 		{"time": "0:38", "joke": "We Will Rock You - Queen"},
@@ -61910,7 +61909,7 @@ const db = {
 		{"time": "47:49", "joke": "voiceless - The SiIvaGunner Christmas Comeback Crisis"},
 		{"time": "48:17", "joke": "Uncontrollable - Xenoblade Chronicles X"},
 		{"time": "48:46", "joke": "Bad Romance - Lady Gaga"},
-		{"time": "49:17", "joke": "No More Nuzzles - UNDERTALE: Halloween Hack"},
+		{"time": "49:17", "joke": "No More Nuzzles - Undertale: Halloween Hack"},
 		{"time": "49:57", "joke": "Gas Gas Gas - Manuel"},
 		{"time": "50:37", "joke": "Main Theme - Gravity Falls"},
 		{"time": "51:13", "joke": "Lucid Dreams - Juice WRLD"},
@@ -62123,7 +62122,6 @@ const db = {
 		{"time": "1:00", "joke": "Lucid Dreamer - Touhou 16.5: Violet Detector"},
 		{"time": "1:07", "joke": "Pirate Island - Baby Felix Halloween"},
 		{"time": "1:07", "joke": "Abuse - NERMAL NERMAL NERMALLIN (Vs. Nermal)"},
-		{"time": "1:17", "joke": "cat instrument - Mario Paint"},
 		{"time": "1:21", "joke": "This cat just j 😹😹 - Salad Elektra"},
 		{"time": "1:21", "joke": "Nyanyanyanyanyanyanya! (Nyan Cat) - daniwellP & Momomomo"},
 		{"time": "1:27", "joke": "Music: I'm A Cat - Paws & Claws, Fortnite"},
@@ -62138,8 +62136,7 @@ const db = {
 		{"time": "2:20", "joke": "Phonics Song - Gracie's Corner"},
 		{"time": "2:24", "joke": "Nyan Nyan - Macross Frontier"},
 		{"time": "2:30", "joke": "Neko Matsuri - Irodorimidori"},
-		{"time": "3:19", "joke": "Catch Me Outside How 'Bout That (Jersey Club Remix) - Dennibro"},
-		{"time": "3:29", "joke": "cat meow - REMOVE__ME"}],
+		{"time": "3:19", "joke": "Catch Me Outside How 'Bout That (Jersey Club Remix) - Dennibro"}],
 	"artist": "MtH"},
 "EQwy0kCL45Q": {
 	"title": "Falloween - Fall Guys",
@@ -62366,7 +62363,7 @@ const db = {
 		{"time": "0:39", "joke": "Sweet Soul Brother - Jet Set Radio"},
 		{"time": "0:40", "joke": "Sneakman - Jet Set Radio"},
 		{"time": "0:42", "joke": "Ill Victory Beat - Jet Set Radio Future"},
-		{"time": "0:49", "joke": "The The Concept of Love - Jet Set Radio Future"},
+		{"time": "0:49", "joke": "The Concept of Love - Jet Set Radio Future"},
 		{"time": "1:18", "joke": "Fly Like a Butterfly - Jet Set Radio Future"},
 		{"time": "2:06", "joke": "Funk to the Top - Ollie King"},
 		{"time": "2:10", "joke": "Let It Go - Ollie King"},
@@ -62619,7 +62616,7 @@ const db = {
 		{"time": "0:13", "joke": "Se Piscar Já Era - SORRIZO RONALDO"},
 		{"time": "0:14", "joke": "World's Loudest Orgasm - Creampie Cathy"},
 		{"time": "0:14", "joke": "Drum samples - Os Barões da Pisadinha"},
-		{"time": "0:20", "joke": "[COVER] Nyan's not hot! - Nyanners"},
+		{"time": "0:20", "joke": "Nyan's not hot! - Nyanners"},
 		{"time": "0:20", "joke": "Greedy Greedy - Kuromi"},
 		{"time": "0:20", "joke": "Rock My Emotions - Kitsune^2"},
 		{"time": "0:23", "joke": "Jack Black defines Octagon - Sesame Street"},
@@ -62637,7 +62634,7 @@ const db = {
 		{"time": "0:44", "joke": "Harder, Better, Faster, Stronger - Daft Punk"},
 		{"time": "0:45", "joke": "Harlem Shake - Baauer"},
 		{"time": "0:46", "joke": "Takyon (Death Yon) - Death Grips"},
-		{"time": "0:46", "joke": "Stardust Speedway Bad Future (JP/PAL) - Sonic CD"},
+		{"time": "0:46", "joke": "Stardust Speedway Bad Future (JPN/PAL) - Sonic CD"},
 		{"time": "0:52", "joke": "Spooky Scary Skeletons - Andrew Gold"},
 		{"time": "0:54", "joke": "Let's Do This (Home Depot ad campaign) - Home Depot"},
 		{"time": "0:55", "joke": "Astronaut in the Ocean - Masked Wolf"},
@@ -62905,7 +62902,7 @@ const db = {
 		{"time": "2:36", "joke": "Electric Zoo (Radio song, \"Krab Borg\") - SpongeBob SquarePants"},
 		{"time": "2:46", "joke": "Speed Drive - Charli XCX"},
 		{"time": "2:47", "joke": "Dare to Be Stupid - \"Weird Al\" Yankovic"},
-		{"time": "2:55", "joke": "It's Everyday Bro - Jake Paul ft. Team 10 ft. Team 10"},
+		{"time": "2:55", "joke": "It's Everyday Bro - Jake Paul ft. Team 10"},
 		{"time": "2:56", "joke": "Se Piscar Já Era - SORRIZO RONALDO"},
 		{"time": "2:58", "joke": "m.A.A.d city - Kendrick Lamar ft. MC Eiht"},
 		{"time": "3:07", "joke": "Harlem Shake - Baauer"},
@@ -62936,7 +62933,7 @@ const db = {
 		{"time": "1:39, 3:08, 4:47", "joke": "Something About Us - Daft Punk"},
 		{"time": "2:10, 3:40", "joke": "Aerodynamic - Daft Punk"},
 		{"time": "3:09", "joke": "Harder, Better, Faster, Stronger - Daft Punk"},
-		{"time": "3:29", "joke": "The The Brainwasher - Daft Punk"},
+		{"time": "3:29", "joke": "The Brainwasher - Daft Punk"},
 		{"time": "4:47", "joke": "One More Time - Daft Punk"}],
 	"artist": "duuzu"},
 "LPbSv5Uvecg": {
@@ -62948,7 +62945,7 @@ const db = {
 		{"time": "0:40", "joke": "Just Wanna Rock - Lil Uzi Vert"},
 		{"time": "0:40", "joke": "My Name Is - Eminem"},
 		{"time": "0:41", "joke": "What You Know - Two Door Cinema Club"},
-		{"time": "0:53", "joke": "Body Rock - WarioWare D.I.Y.."},
+		{"time": "0:53", "joke": "Body Rock - WarioWare D.I.Y."},
 		{"time": "1:07", "joke": "MONEY - Lisa"},
 		{"time": "1:33", "joke": "We Don't Believe What's On TV - twenty one pilots"},
 		{"time": "1:33", "joke": "Day N' Nite (Kid Cudi) vs. Boom Boom Pow (Black Eyed Peas) - DJ Hero"},
@@ -62961,7 +62958,7 @@ const db = {
 		{"time": "3:31", "joke": "Rock It On - Jet Set Radio"},
 		{"time": "3:33", "joke": "NITROUS - Joji"},
 		{"time": "3:44", "joke": "I THINK - Tyler, the Creator"},
-		{"time": "3:48", "joke": "Body Rock - WarioWare D.I.Y.."},
+		{"time": "3:48", "joke": "Body Rock - WarioWare D.I.Y."},
 		{"time": "3:57, 4:11", "joke": "I THINK - Tyler, the Creator"}],
 	"artist": "Vincent Mashups"},
 "0PMCU8YzcZg": {
@@ -63069,8 +63066,8 @@ const db = {
 	"wiki": "https://siivagunner.wiki/wiki/The%20Teensie%20Highway%20-%20Rayman%203%3A%20Hoodlum%20Havoc",
 	"joke": [
 		{"time": "0:23", "joke": "Funky Drummer - James Brown"},
-		{"time": "1:55", "joke": "Stardust Speedway (JP/PAL) - Sonic CD"},
-		{"time": "2:27", "joke": "Stardust Speedway Bad Future (JP/PAL) - Sonic CD"},
+		{"time": "1:55", "joke": "Stardust Speedway (JPN/PAL) - Sonic CD"},
+		{"time": "2:27", "joke": "Stardust Speedway Bad Future (JPN/PAL) - Sonic CD"},
 		{"time": "2:50", "joke": "That's Enough - Jet Set Radio"},
 		{"time": "3:08", "joke": "...Disco Jam - Rayman 3: Hoodlum Havoc"},
 		{"time": "3:08", "joke": "Turn Up The Bass - Tyree Cooper"},
@@ -63210,7 +63207,7 @@ const db = {
 		{"time": "0:19", "joke": "Among Us Trap Remix - Leonz"},
 		{"time": "0:19", "joke": "STOP POSTING ABOUT AMONG US! - biggayrapper"},
 		{"time": "0:46", "joke": "Crewmate Victory - Among Us"},
-		{"time": "0:58", "joke": "Discord notification - Discord"},
+		{"time": "0:58", "joke": "Notification - Discord"},
 		{"time": "1:03", "joke": "Among Us - Sembari +"},
 		{"time": "1:07", "joke": "Among Us Trap Beat #2 - Leonz"},
 		{"time": "1:08", "joke": "Among Us but You're Stuck With the Worst Task - H*ck No"},
@@ -63275,7 +63272,7 @@ const db = {
 		{"time": "1:11", "joke": "Clutterfunk - Waterflame"},
 		{"time": "1:37", "joke": "Money Longer - Lil Uzi Vert"},
 		{"time": "1:44", "joke": "Brass - Dirty Rush & Gregor Es"},
-		{"time": "1:44", "joke": "1NF3S+@+!0N - Theme of Crabulon - Terraria: Calamity Mod - SiIvaGunner"},
+		{"time": "1:44", "joke": "1NF3S+@+!0N - Theme of Crabulon - Terraria: Calamity Mod"},
 		{"time": "1:50", "joke": "Series of Tubes Music Video - superfunky59"},
 		{"time": "1:56", "joke": "Kyoto - Skrillex ft. Sirah"},
 		{"time": "1:56", "joke": "Metal Beat - Metal Masters"},
@@ -63601,7 +63598,7 @@ const db = {
 		{"time": "0:00", "joke": "Crank That - Soulja Boy"},
 		{"time": "0:00", "joke": "Gangnam Style - PSY"},
 		{"time": "0:11", "joke": "dat boi!!!! - ZimoNitrome"},
-		{"time": "0:20", "joke": "It's Everyday Bro - Jake Paul ft. Team 10 ft. Team 10"},
+		{"time": "0:20", "joke": "It's Everyday Bro - Jake Paul ft. Team 10"},
 		{"time": "0:23", "joke": "Yankin - Lady"},
 		{"time": "0:39", "joke": "Big Chungus - The Slopster"},
 		{"time": "0:39", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
@@ -63618,7 +63615,7 @@ const db = {
 	"wiki": "https://siivagunner.wiki/wiki/Invasion%20at%20the%20House%20of%20Horrors%20-%20Kirby%20and%20the%20Forgotten%20Land",
 	"joke": [
 		{"time": "0:02, 1:20", "joke": "BIG CHUNGUS | Official Main Theme - Endigo"},
-		{"time": "0:05", "joke": "Ghostbusters - Ray Parker Jr.."},
+		{"time": "0:05", "joke": "Ghostbusters - Ray Parker Jr."},
 		{"time": "0:18", "joke": "Big Chungus - CG5"},
 		{"time": "0:51", "joke": "Plastic Love - Mariya Takeuchi"},
 		{"time": "1:14", "joke": "YO MAMA SO STUPID! Xbox Live - Yo Mama"}],
@@ -63733,7 +63730,6 @@ const db = {
 		{"time": "0:25", "joke": "Guillotine - Death Grips"},
 		{"time": "0:28", "joke": "Eminem - Joeyy"},
 		{"time": "0:38", "joke": "Crank That - Soulja Boy"},
-		{"time": "0:44", "joke": "Spaghetti - Hotel Mario"},
 		{"time": "0:44", "joke": "Family Guy Main Title - Family Guy"},
 		{"time": "0:50", "joke": "WTF BOOM - The Steve Moustache Show, Mega64"}],
 	"artist": "Aps17"},
@@ -63751,7 +63747,7 @@ const db = {
 		{"time": "1:16", "joke": "BIG CHUNGUS | Official Main Theme - Endigo"},
 		{"time": "1:20", "joke": "The Lick"},
 		{"time": "1:22", "joke": "Megalovania - Toby Fox"},
-		{"time": "1:24", "joke": "No More Nuzzles - UNDERTALE: Halloween Hack"},
+		{"time": "1:24", "joke": "No More Nuzzles - Undertale: Halloween Hack"},
 		{"time": "1:26", "joke": "The Nutshack Theme - NUMP"},
 		{"time": "2:09", "joke": "Puzzle Room - Kirby Planet Robobot"},
 		{"time": "2:14", "joke": "Wood Man Stage - Mega Man 2"},
@@ -64056,8 +64052,8 @@ const db = {
 		{"time": "0:28", "joke": "Thrift Shop - Macklemore & Ryan Lewis ft. Wanz"},
 		{"time": "0:28", "joke": "The Red Ape Family theme - The Red Ape Family"},
 		{"time": "0:36", "joke": "Lagtrain - inabakumori ft. Kaai Yuki"},
-		{"time": "0:39", "joke": "Will Smith after slapping Chris Rock - 94th Academy Awards"},
-		{"time": "0:43", "joke": "Baka Mitai - Yakuza 5, UNDERTALE: Halloween Hack"},
+		{"time": "0:43", "joke": "Baka Mitai - Yakuza 5"},
+		{"time": "0:43", "joke": "No More Nuzzles - UNDERTALE: Halloween Hack"},
 		{"time": "0:43", "joke": "Cheryl - Yung Gravy"},
 		{"time": "0:43", "joke": "Shake - IShowSpeed"},
 		{"time": "0:47", "joke": "Drill! - Sonic Colors"},
@@ -64076,7 +64072,7 @@ const db = {
 	"wiki": "https://siivagunner.wiki/wiki/The%20Forest%20-%20Pikuniku",
 	"joke": [
 		{"time": "0:00", "joke": "The Box - Roddy Ricch"},
-		{"time": "0:23", "joke": "It's Everyday Bro - Jake Paul ft. Team 10 ft. Team 10"},
+		{"time": "0:23", "joke": "It's Everyday Bro - Jake Paul ft. Team 10"},
 		{"time": "0:25", "joke": "Big Chungus - The Slopster"},
 		{"time": "1:08", "joke": "Crank Dat Super Mario - Crank Squad"},
 		{"time": "1:34", "joke": "Barack Obama vs Mitt Romney - Epic Rap Battles of History"},
@@ -64099,7 +64095,7 @@ const db = {
 		{"time": "0:56", "joke": "Funky Dealer - Jet Set Radio Future"},
 		{"time": "0:59", "joke": "Harder, Better, Faster, Stronger - Daft Punk"},
 		{"time": "1:00", "joke": "Gangnam Style - PSY"},
-		{"time": "1:08", "joke": "Stardust Speedway Bad Future (JP/PAL) - Sonic CD"},
+		{"time": "1:08", "joke": "Stardust Speedway Bad Future (JPN/PAL) - Sonic CD"},
 		{"time": "1:19", "joke": "Daddy - PSY"},
 		{"time": "1:19", "joke": "Crank That - Soulja Boy"},
 		{"time": "1:29", "joke": "We Are Number One - Máni Svavarsson (LazyTown)"},
@@ -64115,10 +64111,10 @@ const db = {
 		{"time": "2:15", "joke": "Live & Learn - Sonic Adventure 2"},
 		{"time": "2:18", "joke": "Gangnam Style - PSY"},
 		{"time": "2:20", "joke": "The Fox (What Does the Fox Say?) - Ylvis"},
-		{"time": "2:24", "joke": "The The Concept of Love - Jet Set Radio Future"},
+		{"time": "2:24", "joke": "The Concept of Love - Jet Set Radio Future"},
 		{"time": "2:27", "joke": "Paralyzer - Finger Eleven"},
 		{"time": "2:35", "joke": "Jack Black defines Octagon - Jack Black, Sesame Street"},
-		{"time": "2:38", "joke": "m.A.A.d city - Kendrick Lamar ft. MC Eiht ft. MC Eiht"},
+		{"time": "2:38", "joke": "m.A.A.d city - Kendrick Lamar ft. MC Eiht"},
 		{"time": "2:47", "joke": "Nerf This! - ChelHellbunny"}],
 	"artist": "Krizis"},
 "3Or7vrxM7yo": {
@@ -64422,7 +64418,7 @@ const db = {
 		{"time": "1:20", "joke": "Party Rock Anthem - LMFAO ft. Lauren Bennett & GoonRock"},
 		{"time": "1:40", "joke": "Crank That - Soulja Boy"},
 		{"time": "1:43", "joke": "Watch Me (Whip/Nae Nae) - Silento"},
-		{"time": "2:17", "joke": "No More Nuzzles - UNDERTALE: Halloween Hack"}],
+		{"time": "2:17", "joke": "No More Nuzzles - Undertale: Halloween Hack"}],
 	"artist": "Retro Gaming"},
 "GB8j8HcxJF4": {
 	"title": "Paranoid - Rock n' Roll Racing",
@@ -64537,10 +64533,8 @@ const db = {
 		{"time": "0:50", "joke": "Mo Bamba - Sheck Wes"},
 		{"time": "0:50", "joke": "Knockerboys - Mark Knight"},
 		{"time": "0:57", "joke": "Underworld Map - Doraemon: Gigazombie no Gyakushuu"},
-		{"time": "1:03", "joke": "AUGHHHH - unknown"},
 		{"time": "1:05", "joke": "Drake - Good morning USA - Zakk James"},
 		{"time": "1:08", "joke": "Maroon 5 \"Memories\" Impersonation Parody Cover in 10+ VOICES - Wirah"},
-		{"time": "1:09", "joke": "Holy Fuck, I'm Coming... Lois... - BeefFishstick"},
 		{"time": "1:11", "joke": "Bad Blood - Taylor Swift"},
 		{"time": "1:13", "joke": "Boss - Plok"},
 		{"time": "1:13", "joke": "ASSASSIN'S WEED RAP!!! - Ghetto Smosh"},
@@ -64558,7 +64552,7 @@ const db = {
 		{"time": "1:32", "joke": "Yankin - Lady"},
 		{"time": "1:32", "joke": "Lalala - Y2K and bbno$"},
 		{"time": "1:39", "joke": "Drowning - A Boogie Wit Da Hoodie"},
-		{"time": "1:39", "joke": "Ghostbusters - Ray Parker Jr.."},
+		{"time": "1:39", "joke": "Ghostbusters - Ray Parker Jr."},
 		{"time": "1:39", "joke": "Big Time Rush - Big Time Rush"},
 		{"time": "1:39", "joke": "GabeN - Gabe Newell"},
 		{"time": "1:40", "joke": "Baka Mitai - Yakuza 5"},
@@ -64706,7 +64700,7 @@ const db = {
 		{"time": "0:53", "joke": "David S. Pumpkins - Saturday Night Live"},
 		{"time": "0:54", "joke": "Haunted House - 8-Bit Beast"},
 		{"time": "0:54", "joke": "I Just Had Sex - The Lonely Island ft. Akon"},
-		{"time": "0:54", "joke": "It's Everyday Bro - Jake Paul ft. Team 10 ft. Team 10"},
+		{"time": "0:54", "joke": "It's Everyday Bro - Jake Paul ft. Team 10"},
 		{"time": "0:55", "joke": "U Guessed It - OG Maco"},
 		{"time": "0:55", "joke": "mm2wood.mid (Wood Man MIDI) - Mingo Games Ltd."},
 		{"time": "0:56", "joke": "The one that goes... (Beep Boop Bop) - Mr. Krabs, SpongeBob SquarePants"},
@@ -64942,7 +64936,7 @@ const db = {
 		{"time": "19:50", "joke": "Teen Girl Squad theme - Strong Bad"},
 		{"time": "19:57", "joke": "The8Bits theme - The8Bits"},
 		{"time": "20:17", "joke": "Cantina Band - Star Wars Episode IV: A New Hope"},
-		{"time": "20:25", "joke": "It's Everyday Bro - Jake Paul ft. Team 10 ft. Team 10"},
+		{"time": "20:25", "joke": "It's Everyday Bro - Jake Paul ft. Team 10"},
 		{"time": "20:31", "joke": "Dr. Robotnik's Theme - Adventures of Sonic the Hedgehog"},
 		{"time": "20:38", "joke": "Type A - Tetris"},
 		{"time": "20:53", "joke": "Smooth Criminal - Michael Jackson"},
@@ -64976,7 +64970,7 @@ const db = {
 		{"time": "25:24", "joke": "DJ Got Us Fallin' in Love - Usher ft. Pitbull"},
 		{"time": "25:31", "joke": "Rock My Emotions - Kitsune^2"},
 		{"time": "25:38", "joke": "Doggy god's street - Inugami Korone"},
-		{"time": "25:52", "joke": "No More Nuzzles - UNDERTALE: Halloween Hack"},
+		{"time": "25:52", "joke": "No More Nuzzles - Undertale: Halloween Hack"},
 		{"time": "26:00", "joke": "California Gurls - Katy Perry ft. Snoop Dogg"},
 		{"time": "26:06", "joke": "Blitz - Technoblade"},
 		{"time": "26:13", "joke": "David S. Pumpkins - Saturday Night Live"},
@@ -65003,7 +64997,7 @@ const db = {
 		{"time": "29:52", "joke": "In the Hall of the Mountain King - Edvard Grieg"},
 		{"time": "29:59", "joke": "Travelling the Galaxy - Run 3"},
 		{"time": "30:12", "joke": "Glitter Gulch Mine - Banjo-Tooie"},
-		{"time": "30:19", "joke": "Body Rock - WarioWare D.I.Y.."},
+		{"time": "30:19", "joke": "Body Rock - WarioWare D.I.Y."},
 		{"time": "30:33", "joke": "Ninjago Overture - Jay Vincent and Michael Kramer"},
 		{"time": "30:47", "joke": "Soap Disco - Kara's Flowers"},
 		{"time": "30:53", "joke": "A Baby Legend - The Baby is 2"},
@@ -65292,7 +65286,7 @@ const db = {
 		{"time": "0:49", "joke": "The Nutshack Theme - NUMP"},
 		{"time": "0:55", "joke": "Handlebars - Flobots"},
 		{"time": "1:00", "joke": "California Gurls - Katy Perry ft. Snoop Dogg"},
-		{"time": "1:04", "joke": "No More Nuzzles - UNDERTALE: Halloween Hack"},
+		{"time": "1:04", "joke": "No More Nuzzles - Undertale: Halloween Hack"},
 		{"time": "1:07", "joke": "INDUSTRY BABY - Lil Nas X and Jack Harlow"},
 		{"time": "1:13", "joke": "INDUSTRY MISER - Robomi"},
 		{"time": "1:20", "joke": "Before my body is dry - Kill la Kill"},
@@ -65313,8 +65307,8 @@ const db = {
 	"title": "The Winner! - Super Bomberman 5",
 	"wiki": "https://siivagunner.wiki/wiki/The%20Winner!%20-%20Super%20Bomberman%205",
 	"joke": [
-		{"time": "0:13", "joke": "Supercalifragilisticexpialidocious - Mary Poppins (1964) (1964)"},
-		{"time": "0:38", "joke": "Me Ol' Bam-Boo - Chitty Chitty Bang Bang (1968) (1968)"},
+		{"time": "0:13", "joke": "Supercalifragilisticexpialidocious - Mary Poppins (1964)"},
+		{"time": "0:38", "joke": "Me Ol' Bam-Boo - Chitty Chitty Bang Bang (1968)"},
 		{"time": "0:46", "joke": "You Always Hurt the One You Love - Spike Jones and His City Slickers"},
 		{"time": "0:49", "joke": "dog dancing to we no speak americano - LegoMaster121000"},
 		{"time": "1:29", "joke": "Polka ending riff - \"Weird Al\" Yankovic"}],
@@ -65326,7 +65320,6 @@ const db = {
 		{"time": "0:00", "joke": "Fanboy & Chum Chum Theme - Fanboy & Chum Chum"},
 		{"time": "0:07", "joke": "Computers - Rowdy Rebel ft. Bobby Shmurda"},
 		{"time": "0:14", "joke": "Steppin' on the Beach - SpongeBob SquarePants"},
-		{"time": "0:30", "joke": "Sneed's Feed and Seed - The Simpsons"},
 		{"time": "0:35", "joke": "Come - Heroes of Newerth"},
 		{"time": "0:38", "joke": "Barack Obama vs Mitt Romney - Epic Rap Battles of History"}],
 	"artist": "The Green Spy"},
@@ -65360,7 +65353,7 @@ const db = {
 	"wiki": "https://siivagunner.wiki/wiki/Assemble!%20Cat%20Army%20-%20The%20Battle%20Cats",
 	"joke": [
 		{"time": "0:00", "joke": "Crank That - Soulja Boy"},
-		{"time": "0:20", "joke": "It's Everyday Bro - Jake Paul ft. Team 10 ft. Team 10"},
+		{"time": "0:20", "joke": "It's Everyday Bro - Jake Paul ft. Team 10"},
 		{"time": "0:41", "joke": "PPAP - PIKOTARO"},
 		{"time": "0:42", "joke": "Dame Tu Cosita - El Chombo ft. Cutty Ranks"},
 		{"time": "0:49", "joke": "Takyon (Death Yon) - Death Grips"},
@@ -65407,7 +65400,7 @@ const db = {
 		{"time": "1:08", "joke": "Harlem Shake - Baauer"},
 		{"time": "1:13", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "1:13", "joke": "Music That Makes You Poop - Sounds You Need"},
-		{"time": "1:20", "joke": "Discord notification - Discord"},
+		{"time": "1:20", "joke": "Notification - Discord"},
 		{"time": "1:25", "joke": "Among Us Trap Remix - Leonz"},
 		{"time": "1:30", "joke": "Human Music - Rick and Morty"},
 		{"time": "1:33", "joke": "Space Jam - Quad City DJ's"},
@@ -65664,7 +65657,7 @@ const db = {
 		{"time": "0:04", "joke": "PSA from Chairman of the FCC Ajit Pai - Daily Caller"},
 		{"time": "0:20", "joke": "Harlem Shake Remix - Azealia Banks"},
 		{"time": "0:30", "joke": "The Freaking FCC - Family Guy"},
-		{"time": "1:00", "joke": "SPEEN - Vinesauce Vinny"},
+		{"time": "1:00", "joke": "SPEEN - Vinny Vinesauce"},
 		{"time": "1:02", "joke": "Reese's Puffs Rap - RV & Terrance"},
 		{"time": "1:06", "joke": "Nerf This! - Overwatch"},
 		{"time": "1:12", "joke": "Reese's Puffs Rap - RV & Terrance"},
@@ -66326,7 +66319,7 @@ const db = {
 		{"time": "10:38", "joke": "Unbreakable Determination - Ninja Gaiden"},
 		{"time": "11:15", "joke": "Wily Fortress 2 - Mega Man 3"},
 		{"time": "11:50", "joke": "Big Blue - F-Zero"},
-		{"time": "12:23", "joke": "Minor Circuit - Punch-Out!!"},
+		{"time": "12:23", "joke": "Fight Theme - Punch-Out!!"},
 		{"time": "12:59", "joke": "The War Against Giygas - EarthBound"},
 		{"time": "13:10", "joke": "Battle Against The Masked Man - MOTHER 3"},
 		{"time": "13:26", "joke": "Boss - Plok"},
@@ -66489,7 +66482,7 @@ const db = {
 		{"time": "3:06", "joke": "Heathens - Twenty One Pilots"},
 		{"time": "3:06", "joke": "Christmas in July - HHGregg"},
 		{"time": "3:06", "joke": "Gentleman - PSY"},
-		{"time": "3:06", "joke": "It's Everyday Bro - Jake Paul ft. Team 10 ft. Team 10"},
+		{"time": "3:06", "joke": "It's Everyday Bro - Jake Paul ft. Team 10"},
 		{"time": "3:19", "joke": "Creepers - ElegantAshes"},
 		{"time": "3:19", "joke": "Bangarang - Skrillex ft. Sirah"},
 		{"time": "3:32", "joke": "Big Chungus - The Slopster"},
@@ -66772,7 +66765,7 @@ const db = {
 	"title": "Stage Select - Mega Man 3",
 	"wiki": "https://siivagunner.wiki/wiki/Stage%20Select%20(Full%20Version)%20-%20Mega%20Man%203",
 	"joke": [
-		{"time": "0:19", "joke": "Snow halation (Chorus) - μ's"},
+		{"time": "0:19", "joke": "Snow halation - Love Live!, µ's"},
 		{"time": "0:29", "joke": "Wood Man Stage - Mega Man 2"},
 		{"time": "0:38", "joke": "Opening - Mega Man 3"},
 		{"time": "0:47", "joke": "We Are Number One - Máni Svavarsson (LazyTown)"},
@@ -66969,7 +66962,7 @@ const db = {
 		{"time": "32:19", "joke": "Character Select - Marvel vs. Capcom: Clash of Super Heroes"},
 		{"time": "32:29", "joke": "Stickerbush Symphony - Donkey Kong Country 2: Diddy's Kong Quest"},
 		{"time": "32:38", "joke": "Ecuador - Sash!"},
-		{"time": "32:47", "joke": "It's Everyday Bro - Jake Paul ft. Team 10 ft. Team 10"},
+		{"time": "32:47", "joke": "It's Everyday Bro - Jake Paul ft. Team 10"},
 		{"time": "32:57", "joke": "Discussion Theme - GameXplain"},
 		{"time": "33:07", "joke": "Factory Inspection - Kirby 64: The Crystal Shards"},
 		{"time": "33:16", "joke": "Driftveil City - Pokemon Black & White"},
@@ -67212,7 +67205,7 @@ const db = {
 		{"time": "1:11:40", "joke": "CHIPSTER DASH - No More Heroes"},
 		{"time": "1:11:50", "joke": "Dissonance - MOTHER: Cognitive Dissonance"},
 		{"time": "1:12:00", "joke": "Mount Vesuvius - DuckTales Remastered"},
-		{"time": "1:12:10", "joke": "Ready To Die - Andrew W.K.."},
+		{"time": "1:12:10", "joke": "Ready To Die - Andrew W.K."},
 		{"time": "1:12:19", "joke": "Big Enough - Kirin J Callinan ft. Alex Cameron, Molly Lewis, Jimmy Barnes"},
 		{"time": "1:12:29", "joke": "Winter Wrap Up - My Little Pony: Friendship Is Magic"},
 		{"time": "1:12:47", "joke": "Theme of Solid Snake - Metal Gear 2: Solid Snake"},
@@ -67279,7 +67272,7 @@ const db = {
 		{"time": "1:22:42", "joke": "Pitch-Black Intrusion - Castlevania: Dawn of Sorrow"},
 		{"time": "1:22:52", "joke": "September - Earth, Wind & Fire"},
 		{"time": "1:23:02", "joke": "Cool Edge - Sonic Unleashed"},
-		{"time": "1:23:12", "joke": "Body Rock - WarioWare D.I.Y.."},
+		{"time": "1:23:12", "joke": "Body Rock - WarioWare D.I.Y."},
 		{"time": "1:23:21", "joke": "In da Club - 50 Cent"},
 		{"time": "1:23:30", "joke": "Tico-Tico no Fubá - Zequinha de Abreu"},
 		{"time": "1:23:40", "joke": "Actors Anteroom - Melty Blood Actress Again"},
@@ -67621,7 +67614,7 @@ const db = {
 		{"time": "2:17:16", "joke": "Differences - Big Purp"},
 		{"time": "2:17:26", "joke": "Untrust Us - Crystal Castles"},
 		{"time": "2:17:35", "joke": "Shiver Star - Kirby 64: The Crystal Shards"},
-		{"time": "2:17:45", "joke": "Wonderwall / Wndrwll - Oasis / Neil Cicierega"},
+		{"time": "2:17:45", "joke": "Wonderwall - Oasis"},
 		{"time": "2:17:55", "joke": "Startup Jingle - Nintendo GameCube"},
 		{"time": "2:18:05", "joke": "Smooth Criminal - Michael Jackson"},
 		{"time": "2:18:14", "joke": "Heavy Lobster - Kirby Super Star Ultra"},
@@ -67727,7 +67720,7 @@ const db = {
 		{"time": "2:34:52", "joke": "Oh Susanna - Folk song"},
 		{"time": "2:35:02", "joke": "Susanna - The Art Company"},
 		{"time": "2:35:12", "joke": "Tea for Two - Vincent Youmans"},
-		{"time": "2:35:21", "joke": "The The Concept of Love - Jet Set Radio Future"},
+		{"time": "2:35:21", "joke": "The Concept of Love - Jet Set Radio Future"},
 		{"time": "2:35:31", "joke": "Main Theme - The Legend of Zelda"},
 		{"time": "2:35:40", "joke": "Opening Theme - The Sifl and Olly Show"},
 		{"time": "2:35:50", "joke": "Title Theme & Overworld - Hydlide"},
@@ -67852,7 +67845,7 @@ const db = {
 		{"time": "2:55:11", "joke": "Who's That Boy - Carlito"},
 		{"time": "2:55:21", "joke": "The First Noel - Christmas carol"},
 		{"time": "2:55:31", "joke": "Brinstar - Metroid"},
-		{"time": "2:55:40", "joke": "Pressing Pursuit ~ Cornered - Apollo Justice: Ace Attorney"},
+		{"time": "2:55:40", "joke": "Pursuit ~ Overtaken - Apollo Justice: Ace Attorney"},
 		{"time": "2:55:50", "joke": "Arle's Theme - Puyo Puyo Sun"},
 		{"time": "2:56:00", "joke": "La Cambo Me Fai Mau - Nicolas Saboly"},
 		{"time": "2:56:10", "joke": "Dr. Mad Stage 1 - Rokko-Chan"},
@@ -68075,7 +68068,7 @@ const db = {
 		{"time": "3:31:39", "joke": "Level 1 - KYM-tan Shoots Things"},
 		{"time": "3:31:49", "joke": "The Hounds - The Protomen"},
 		{"time": "3:31:59", "joke": "Space Jam - Quad City DJ's"},
-		{"time": "3:32:09", "joke": "Snow halation (Verse) - μ's"},
+		{"time": "3:32:09", "joke": "Snow halation - μ's"},
 		{"time": "3:32:18", "joke": "Hate not the Wind, Spring Blossoms ~ Eternal Wind - Touhou: Book of Star Mythology"},
 		{"time": "3:32:27", "joke": "Main Theme - ALF"},
 		{"time": "3:32:37", "joke": "Title Theme - Mega Man II (Game Boy)"},
@@ -68161,7 +68154,7 @@ const db = {
 		{"time": "0:39", "joke": "YO-KAI Disco (Hell's Entrance World) - Mamorukun Curse!"}],
 	"artist": "Sonicheroesfan1"},
 "XskUN8MT2FA": {
-	"title": "BIG SHOT (Alternate Route) - Deltarune",
+	"title": "BIG SHOT - Deltarune",
 	"wiki": "https://siivagunner.wiki/wiki/BIG%20SHOT%20(Alternate%20Route)%20-%20Deltarune",
 	"joke": [
 		{"time": "0:12", "joke": "Ugh - Friday Night Funkin'"},
@@ -68306,7 +68299,7 @@ const db = {
 		{"time": "5:51", "joke": "Flyday Chinatown - Yasuha"},
 		{"time": "6:01", "joke": "Lovefool - The Cardigans"},
 		{"time": "6:06", "joke": "Ballin' - Mustard ft. Roddy Ricch"},
-		{"time": "6:11", "joke": "Body Rock - WarioWare D.I.Y.."},
+		{"time": "6:11", "joke": "Body Rock - WarioWare D.I.Y."},
 		{"time": "6:20", "joke": "The Lick"},
 		{"time": "6:22", "joke": "Rebirth the Edge - Sengoku Rance"},
 		{"time": "6:30", "joke": "Stayin’ Alive - Bee Gees"},
@@ -68323,7 +68316,7 @@ const db = {
 		{"time": "7:47", "joke": "Route 228 Jazz Arrangement - insaneintherain"},
 		{"time": "8:46", "joke": "Hopes and Dreams - Undertale"},
 		{"time": "8:46", "joke": "Big Chungus - CG5"},
-		{"time": "8:56", "joke": "POKEMON GO SONG!!! (2020 Edition) - Misha"}],
+		{"time": "8:56", "joke": "POKEMON GO SONG!!! - Mishovy silenosti (Misha)"}],
 	"artist": "Kirbio, Jiko Music, Sonicheroesfan1, Nape Mango, Sean-Patrick, toonlink & MtH"},
 "j7uZZ2nQRbY": {
 	"title": "Curse of the Fallen Angel Medley - Curse of the Fallen Angel",
@@ -68535,7 +68528,7 @@ const db = {
 	"wiki": "https://siivagunner.wiki/wiki/Circus%20(Version%20Airlines)%20-%20Five%20Nights%20at%20Freddy's",
 	"joke": [
 		{"time": "0:13", "joke": "Vs. Susie - Deltarune"},
-		{"time": "0:29", "joke": "Ghostbusters - Ray Parker Jr.."},
+		{"time": "0:29", "joke": "Ghostbusters - Ray Parker Jr."},
 		{"time": "0:51", "joke": "Spookeez - Friday Night Funkin'"},
 		{"time": "1:11", "joke": "GHOST - nelward"},
 		{"time": "1:12", "joke": "Sunshine of Your Love - Cream"},
@@ -68550,7 +68543,7 @@ const db = {
 		{"time": "3:57", "joke": "Haunted House - 8-Bit Beast"}],
 	"artist": "Myeauxyoozi"},
 "L_Tfxjg_oeY": {
-	"title": "Buckle Your Pants (Instrumental) - Battleblock Theater",
+	"title": "Buckle Your Pants - Battleblock Theater",
 	"wiki": "https://siivagunner.wiki/wiki/Buckle%20Your%20Pants%20(Instrumental)%20-%20Battleblock%20Theater",
 	"joke": [
 		{"time": "0:08", "joke": "Let's Do This (Home Depot ad campaign) - Home Depot"},
@@ -68661,7 +68654,7 @@ const db = {
 	"wiki": "https://siivagunner.wiki/wiki/Pancake%20is%20Love%20-%20Muse%20Dash",
 	"joke": [
 		{"time": "0:04", "joke": "Hey Mickey - Toni Basil"},
-		{"time": "0:17", "joke": "The Time (Dirty Bit) - The Black Eyed Peas"},
+		{"time": "0:17", "joke": "The Time (Dirty Bit) - Black Eyed Peas"},
 		{"time": "0:26", "joke": "Die Young - Ke$ha"},
 		{"time": "0:40", "joke": "Bird Up! - The Eric Andre Show"},
 		{"time": "1:04", "joke": "Katamari on the Rocks - Katamari Damacy"},
@@ -68729,6 +68722,7 @@ const db = {
 	"artist": "ChickenSuitGuy"},
 "76ucOIKEIHk": {
 	"title": "Main Theme - Pong",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Main%20Theme%20(Extended%20Mix)%20-%20Pong",
 	"joke": [
 		{"time": "0:18", "joke": "Space Jam - Quad City DJ's"},
@@ -68740,7 +68734,6 @@ const db = {
 		{"time": "0:57", "joke": "Watch Me (Whip/Nae Nae) - Silento"},
 		{"time": "1:45", "joke": "Dad Battle - Friday Night Funkin'"},
 		{"time": "1:55", "joke": "GO MY WAY!! - THE iDOLM@STER"},
-		{"time": "2:17", "joke": "Main Theme - VRChat - SiIvaGunner"},
 		{"time": "2:33", "joke": "Spongebob style - DoubleSwee"},
 		{"time": "2:34", "joke": "Target Practice - Wii Funkin' (Vs Matt)"}],
 	"artist": "brubsby"},
@@ -69045,7 +69038,7 @@ const db = {
 	"wiki": "https://siivagunner.wiki/wiki/Player%20Select%20-%20Wild%20West%20C.O.W.-Boys%20of%20Moo%20Mesa",
 	"joke": [
 		{"time": "0:00", "joke": "Glitter Gulch Mine - Banjo-Tooie"},
-		{"time": "0:32", "joke": "The The Bare Necessities - The Jungle Book"},
+		{"time": "0:32", "joke": "The Bare Necessities - The Jungle Book"},
 		{"time": "0:47", "joke": "Yahoos and Triangles - King of the Hill"},
 		{"time": "1:03", "joke": "Witch Doctor - David Seville"},
 		{"time": "1:19", "joke": "Yakety Sax - James Q. \"Spider\" Rich and Boots Randolph"}],
@@ -69255,7 +69248,7 @@ const db = {
 	"title": "M.I.L.F. - Friday Night Funkin'",
 	"wiki": "https://siivagunner.wiki/wiki/M.I.L.F%20(In-Game%20Version)%20-%20Friday%20Night%20Funkin'",
 	"joke": [
-		{"time": "0:04", "joke": "Rasputin - Boney M.."},
+		{"time": "0:04", "joke": "Rasputin - Boney M."},
 		{"time": "0:14", "joke": "Athletic Theme - Super Mario World"},
 		{"time": "0:20", "joke": "Witch Doctor - David Seville"},
 		{"time": "0:25", "joke": "Never Gonna Give You Up - Rick Astley"},
@@ -69364,7 +69357,7 @@ const db = {
 		{"time": "0:07", "joke": "Wild Wild West - Will Smith"},
 		{"time": "0:35", "joke": "Pinball Number Count - Sesame Street"},
 		{"time": "0:39", "joke": "Life Alert - Life Alert commercial"},
-		{"time": "0:41", "joke": "Ghostbusters - Ray Parker Jr.."},
+		{"time": "0:41", "joke": "Ghostbusters - Ray Parker Jr."},
 		{"time": "0:43", "joke": "Pizza Nova - Pizza Nova commercial"},
 		{"time": "0:45", "joke": "Dickman, baby! - The Nutshack"},
 		{"time": "0:48", "joke": "Freddie Freaker - L.A. Toys"},
@@ -69633,7 +69626,7 @@ const db = {
 	"title": "Main Theme - Among Us",
 	"wiki": "https://siivagunner.wiki/wiki/Main%20Theme%20-%20Among%20Us",
 	"joke": [
-		{"time": "0:10", "joke": "It's Everyday Bro - Jake Paul ft. Team 10 ft. Team 10"},
+		{"time": "0:10", "joke": "It's Everyday Bro - Jake Paul ft. Team 10"},
 		{"time": "0:32", "joke": "Mo Bamba - Sheck Wes"},
 		{"time": "0:53", "joke": "Watch Me (Whip/Nae Nae) - Silento"},
 		{"time": "1:15", "joke": "Gadget Room - Club Penguin: Elite Penguin Force"},
@@ -69894,12 +69887,11 @@ const db = {
 	"wiki": "https://siivagunner.wiki/wiki/Emote%3A%20Controller%20Crew%20-%20Fortnite",
 	"joke": [
 		{"time": "0:01", "joke": "Google Robot - The Eric Andre Show"},
-		{"time": "0:03", "joke": "It's Everyday Bro - Jake Paul ft. Team 10 ft. Team 10"},
+		{"time": "0:03", "joke": "It's Everyday Bro - Jake Paul ft. Team 10"},
 		{"time": "0:24", "joke": "Crank That - Soulja Boy"},
 		{"time": "0:33", "joke": "Dat Boi (O Shit Waddup!) - Dj CUTMAN"},
 		{"time": "0:43", "joke": "Deez Nuts! [Trap Remix] - Dennibro"},
-		{"time": "0:43", "joke": "FUUUUCK! - Ninja"},
-		{"time": "1:04", "joke": "Freestyle Rap - Ninja"},
+		{"time": "1:04", "joke": "NINJA FREESTYLE RAP - Ninja"},
 		{"time": "1:13", "joke": "Turn Down for What - DJ Snake & Lil Jon"},
 		{"time": "1:19", "joke": "Controller Player - Mongraal"},
 		{"time": "1:24", "joke": "Déjala - Duende, Flex"}],
@@ -70035,7 +70027,7 @@ const db = {
 		{"time": "2:23", "joke": "See You Again - Wiz Khalifa ft. Charlie Puth"},
 		{"time": "2:35", "joke": "Unknown from M.E. - Sonic Adventure 2"},
 		{"time": "2:41", "joke": "Galway Girl - Ed Sheeran"},
-		{"time": "2:41", "joke": "All The Things She Said - t.A.T.u.."},
+		{"time": "2:41", "joke": "All The Things She Said - t.A.T.u."},
 		{"time": "4:22", "joke": "Nuclear - Mike Oldfield"},
 		{"time": "4:28", "joke": "Take Me Home, Country Roads - John Denver"}],
 	"artist": "Smoky"},
@@ -70103,7 +70095,7 @@ const db = {
 	"title": "Level 1 - Virtual Boy Wario Land",
 	"wiki": "https://siivagunner.wiki/wiki/Level%201%20(Beta%20Mix)%20-%20Virtual%20Boy%20Wario%20Land",
 	"joke": [
-		{"time": "0:05", "joke": "Rasputin - Boney M.."},
+		{"time": "0:05", "joke": "Rasputin - Boney M."},
 		{"time": "0:15", "joke": "Puzzle Room - Kirby Planet Robobot"},
 		{"time": "0:26", "joke": "Korobeiniki - Tetris"},
 		{"time": "0:36", "joke": "SUPER GAY PUTIN - Squallido Anal Smithee"}],
@@ -70320,7 +70312,7 @@ const db = {
 	"joke": [
 		{"time": "0:00", "joke": "mm2wood.mid (Wood Man MIDI) - Mingo Games Ltd., MIDIJam"},
 		{"time": "0:01", "joke": "Bumblicious - Barney Bumble"},
-		{"time": "0:09", "joke": "It's Everyday Bro - Jake Paul ft. Team 10 ft. Team 10"},
+		{"time": "0:09", "joke": "It's Everyday Bro - Jake Paul ft. Team 10"},
 		{"time": "0:17", "joke": "We Are Number One - Máni Svavarsson (LazyTown)"},
 		{"time": "0:28", "joke": "Pause Screen - Wario World"},
 		{"time": "0:33", "joke": "Play a Mini-Game! - Mario Party"},
@@ -70669,7 +70661,7 @@ const db = {
 		{"time": "0:32", "joke": "Fireflies - Owl City"},
 		{"time": "0:32", "joke": "September - Earth, Wind & Fire"},
 		{"time": "0:35", "joke": "We Are Number One - Máni Svavarsson (LazyTown)"},
-		{"time": "0:36", "joke": "It's Everyday Bro - Jake Paul ft. Team 10 ft. Team 10"},
+		{"time": "0:36", "joke": "It's Everyday Bro - Jake Paul ft. Team 10"},
 		{"time": "0:37", "joke": "Title Theme & Ending - The Flintstones: The Rescue of Dino & Hoppy"},
 		{"time": "0:39", "joke": "Totino's - Tim and Eric"},
 		{"time": "0:50", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
@@ -70678,7 +70670,7 @@ const db = {
 		{"time": "0:59", "joke": "Down - Jay Sean ft. Lil Wayne"},
 		{"time": "1:02", "joke": "Touch Fluffy Tail - Ken Ashcorp"},
 		{"time": "1:02", "joke": "Christmas in July - HHGregg"},
-		{"time": "1:10", "joke": "SPEEN - Vinesauce Vinny"},
+		{"time": "1:10", "joke": "SPEEN - Vinny Vinesauce"},
 		{"time": "1:12", "joke": "Rubber Band - Jackal Queenston"},
 		{"time": "1:16", "joke": "Giant Enemy Spider - Jerma985"},
 		{"time": "1:23", "joke": "Dad's Dirty Socks - Tim & Eric"},
@@ -70691,10 +70683,9 @@ const db = {
 		{"time": "1:40", "joke": "A-Punk - Vampire Weekend"},
 		{"time": "1:44", "joke": "Check Yes Juliet - We The Kings"},
 		{"time": "1:48", "joke": "Totino's - Tim and Eric"},
-		{"time": "1:52", "joke": "It's Everyday Bro - Jake Paul ft. Team 10 ft. Team 10"},
-		{"time": "1:53", "joke": "The Chicken Wing Song - Unknown artist"},
+		{"time": "1:52", "joke": "It's Everyday Bro - Jake Paul ft. Team 10"},
 		{"time": "1:59", "joke": "Another Chuck E. Day | Chuck E. Cheese Songs - Chuck E. Cheese"},
-		{"time": "2:07", "joke": "It's Everyday Bro - Jake Paul ft. Team 10 ft. Team 10"},
+		{"time": "2:07", "joke": "It's Everyday Bro - Jake Paul ft. Team 10"},
 		{"time": "2:07", "joke": "Crank That - Soulja Boy"},
 		{"time": "2:09", "joke": "FUNNY BUDOTS 2020 - Youji Vlogs"},
 		{"time": "2:10", "joke": "Space Jam - Quad City DJ's"},
@@ -70869,7 +70860,7 @@ const db = {
 		{"time": "0:38", "joke": "BIG CHUNGUS | Official Main Theme - Endigo"},
 		{"time": "0:38", "joke": "Say Goodbye to the Holiday - My Little Pony: Friendship Is Magic"},
 		{"time": "0:39", "joke": "Whoa! - OneyNG, Crash Bandicoot"},
-		{"time": "0:39", "joke": "The Love Plug - efukt.com.com"},
+		{"time": "0:39", "joke": "The Love Plug - efukt.com"},
 		{"time": "0:40", "joke": "Hammer - Donkey Kong"},
 		{"time": "0:40", "joke": "Game Dude Theme Song - Alan Wong-Moon"},
 		{"time": "0:41", "joke": "Chicken and Chips - LEGO Pornstars"},
@@ -70895,7 +70886,7 @@ const db = {
 		{"time": "1:03", "joke": "Barack Obama vs Mitt Romney - Epic Rap Battles of History"},
 		{"time": "1:06", "joke": "FUNNY BUDOTS 2020 - Youji Vlogs"},
 		{"time": "1:09", "joke": "It Burns! Burns! Burns! - Loco Loco"},
-		{"time": "1:10", "joke": "It's Everyday Bro - Jake Paul ft. Team 10 ft. Team 10"},
+		{"time": "1:10", "joke": "It's Everyday Bro - Jake Paul ft. Team 10"},
 		{"time": "1:15", "joke": "Nerf This! - ChelHellbunny"},
 		{"time": "1:16", "joke": "Crawling - Linkin Park"},
 		{"time": "1:16", "joke": "Totino's - Tim and Eric"},
@@ -70916,7 +70907,7 @@ const db = {
 		{"time": "1:37", "joke": "GO MY WAY!! - THE iDOLM@STER"},
 		{"time": "1:39", "joke": "Gas Gas Gas - Manuel"},
 		{"time": "1:41", "joke": "Howie scream - Howie Long"},
-		{"time": "1:41", "joke": "The Love Plug - efukt.com.com"},
+		{"time": "1:41", "joke": "The Love Plug - efukt.com"},
 		{"time": "1:43", "joke": "dog dancing to we no speak americano - LegoMaster121000"},
 		{"time": "1:45", "joke": "Eyewitness opening theme - Eyewitness"}],
 	"artist": "Grambam36, Ashley"},
@@ -71284,7 +71275,7 @@ const db = {
 	"joke": [
 		{"time": "0:00", "joke": "Genesis - Justice"},
 		{"time": "0:07", "joke": "Pray!! Pray!! Play!! (Opening Theme 2) - Ristar: The Shooting Star"},
-		{"time": "0:15", "joke": "The The Concept of Love - Jet Set Radio Future"},
+		{"time": "0:15", "joke": "The Concept of Love - Jet Set Radio Future"},
 		{"time": "0:18", "joke": "I Love Love You - Jet Set Radio Future"},
 		{"time": "0:24", "joke": "Tonight, Tonight, Tonight - Genesis"},
 		{"time": "0:57", "joke": "Go Straight - Streets of Rage 2"},
@@ -71301,7 +71292,7 @@ const db = {
 		{"time": "0:17", "joke": "El Sonidito - Hechizeros Band"},
 		{"time": "0:31", "joke": "Back 2 Back - Sonic Rush"},
 		{"time": "0:36", "joke": "Everybody Jump Around - Jet Set Radio"},
-		{"time": "0:57", "joke": "The The Concept of Love - Jet Set Radio Future"},
+		{"time": "0:57", "joke": "The Concept of Love - Jet Set Radio Future"},
 		{"time": "1:16", "joke": "Cheeki Breeki Hardbass Anthem - apartje."},
 		{"time": "1:35", "joke": "Rock It On - Jet Set Radio"}],
 	"artist": "KryptoDigital"},
@@ -71429,7 +71420,7 @@ const db = {
 		{"time": "3:10, 0:16, 2:45", "joke": "Gold Digger - Kanye West ft. Jamie Foxx"},
 		{"time": "3:07, 0:35, 1:19", "joke": "You Get What You Give - New Radicals"},
 		{"time": "1:51", "joke": "Beautiful Day - U2"},
-		{"time": "3:01, 2:37", "joke": "The The Concept of Love - Jet Set Radio Future"}],
+		{"time": "3:01, 2:37", "joke": "The Concept of Love - Jet Set Radio Future"}],
 	"artist": "duuzu"},
 "8S6cFSbHoRY": {
 	"title": "Round 4-2 - On Parade - Ristar: The Shooting Star",
@@ -71486,7 +71477,6 @@ const db = {
 		{"time": "4:12", "joke": "BIG CHUNGUS | Official Main Theme - Endigo"},
 		{"time": "4:33", "joke": "SHUT UP! - Smosh"},
 		{"time": "4:34", "joke": "Ponyboy - SOPHIE"},
-		{"time": "4:36", "joke": "Mmm! - Link: The Faces of Evil"},
 		{"time": "4:37", "joke": "The Bet (Edited) - MovieEdits w/ SpongyPantsEditor"},
 		{"time": "4:48", "joke": "Banana Song (I'm A Banana) - Onision"},
 		{"time": "4:56", "joke": "I'm a Martian - The Looney Tunes Show"},
@@ -71517,7 +71507,7 @@ const db = {
 		{"time": "5:27", "joke": "fReAkY 4 Life - Dorian Electra"}],
 	"artist": "duuzu"},
 "PBqNe0B_YaE": {
-	"title": "The The Concept of Love - Jet Set Radio Future",
+	"title": "The Concept of Love - Jet Set Radio Future",
 	"wiki": "https://siivagunner.wiki/wiki/The%20Concept%20of%20Love%20(Short%20Version)%20-%20Jet%20Set%20Radio%20Future",
 	"joke": [
 		{"time": "2:33, 0:04, 1:14", "joke": "Doin' Your Mom - FAttY SPiNS"},
@@ -71618,7 +71608,7 @@ const db = {
 		{"time": "3:26", "joke": "Fever - Dr. Mario"},
 		{"time": "3:32", "joke": "BIG CHUNGUS | Official Main Theme - Endigo"},
 		{"time": "3:38", "joke": "Big Chungus - CG5"},
-		{"time": "3:45", "joke": "The The Bare Necessities - The Jungle Book"},
+		{"time": "3:45", "joke": "The Bare Necessities - The Jungle Book"},
 		{"time": "3:52", "joke": "Sunshine, Rainbow, White Pony - Wowkie Zhang"},
 		{"time": "3:58", "joke": "Fanboy & Chum Chum Theme - Fanboy & Chum Chum"},
 		{"time": "4:04", "joke": "The Noble Haltmann - Kirby Planet Robobot"}],
@@ -71830,7 +71820,7 @@ const db = {
 	"title": "Reach for the Moon, Immortal Smoke - Touhou 8: Imperishable Night",
 	"wiki": "https://siivagunner.wiki/wiki/Reach%20for%20the%20Moon%2C%20Immortal%20Smoke%20-%20Touhou%208%3A%20Imperishable%20Night",
 	"joke": [
-		{"time": "0:05", "joke": "It's Everyday Bro - Jake Paul ft. Team 10 ft. Team 10"},
+		{"time": "0:05", "joke": "It's Everyday Bro - Jake Paul ft. Team 10"},
 		{"time": "1:37", "joke": "The Fall of Jake Paul - Logan Paul"},
 		{"time": "2:26", "joke": "Soy Peor - Bad Bunny"},
 		{"time": "2:30", "joke": "Thos Moser - Gupi & Fraxiom"}],
@@ -71875,7 +71865,7 @@ const db = {
 		{"time": "1:31", "joke": "In the Hall of the Mountain King - Edvard Grieg"},
 		{"time": "1:34", "joke": "Time to Air - 青龍"},
 		{"time": "1:40", "joke": "Reach for the Moon, Immortal Smoke - Touhou 8: Imperishable Night"},
-		{"time": "1:42", "joke": "Bumblicious - I Got Five On It Too Too"},
+		{"time": "1:42", "joke": "Bumblicious - I Got Five On It Too"},
 		{"time": "2:00", "joke": "Puzzle Room - Kirby Planet Robobot"},
 		{"time": "2:11", "joke": "Spider Dance - Undertale"},
 		{"time": "2:17", "joke": "Night of Nights - beatMARIO"}],
@@ -71932,7 +71922,7 @@ const db = {
 		{"time": "10:46", "joke": "POKEMON GO SONG!!! - Mishovy silenosti (Misha)"},
 		{"time": "11:04", "joke": "Shooting Stars - Bag Raiders"},
 		{"time": "11:15", "joke": "His Highness' Theme - MOTHER 3"},
-		{"time": "11:42", "joke": "It's Everyday Bro - Jake Paul ft. Team 10 ft. Team 10"},
+		{"time": "11:42", "joke": "It's Everyday Bro - Jake Paul ft. Team 10"},
 		{"time": "12:00", "joke": "Me Ol' Bam-Boo - Chitty Chitty Bang Bang (1968)"},
 		{"time": "12:10", "joke": "Kyun! Vampire Girl - THE iDOLM@STER 2"},
 		{"time": "12:28", "joke": "Ballad of the Wind Fish - The Legend of Zelda: Majora's Mask"},
@@ -71996,7 +71986,7 @@ const db = {
 		{"time": "0:49", "joke": "Snow halation - Love Live!, µ's, the µ's"},
 		{"time": "1:03", "joke": "Shop - Undertale"},
 		{"time": "1:18", "joke": "The Rick Dance - Rick and Morty"},
-		{"time": "1:29", "joke": "It's Everyday Bro - Jake Paul ft. Team 10 ft. Team 10"},
+		{"time": "1:29", "joke": "It's Everyday Bro - Jake Paul ft. Team 10"},
 		{"time": "1:33", "joke": "Never Gonna Give You Up - Rick Astley"},
 		{"time": "2:18", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin"}],
 	"artist": "ChickenSuitGuy, Grambam36"},
@@ -72030,7 +72020,7 @@ const db = {
 		{"time": "0:35", "joke": "Main Menu / Map - Hotel Mario"},
 		{"time": "0:58", "joke": "Green Greens - Kirby's Dream Land"},
 		{"time": "1:11", "joke": "Overworld Theme - Super Mario World"},
-		{"time": "1:22", "joke": "The The Bare Necessities - The Jungle Book"},
+		{"time": "1:22", "joke": "The Bare Necessities - The Jungle Book"},
 		{"time": "1:33", "joke": "Beautiful Girls - Sean Kingston"},
 		{"time": "1:46", "joke": "Coffee Break Music - Pac-Man"},
 		{"time": "1:58", "joke": "Gonna Paint Our Wagon - The Simpsons"},
@@ -72167,14 +72157,14 @@ const db = {
 		{"time": "3:02", "joke": "Absolute Territory - Ken Ashcorp"},
 		{"time": "3:02", "joke": "Gangnam Style - PSY"},
 		{"time": "3:07", "joke": "Harlem Shake - Baauer"},
-		{"time": "3:19", "joke": "It's Everyday Bro - Jake Paul ft. Team 10 ft. Team 10"},
+		{"time": "3:19", "joke": "It's Everyday Bro - Jake Paul ft. Team 10"},
 		{"time": "3:30", "joke": "Die Young - Ke$ha"},
 		{"time": "3:31", "joke": "Take On Me - a-ha"},
 		{"time": "3:35", "joke": "Revenge - TryHardNinja ft. CaptainSparklez"},
 		{"time": "3:41", "joke": "Barack Obama vs Mitt Romney - Epic Rap Battles of History"},
 		{"time": "3:41", "joke": "Inward Singing - Tenacious D"},
 		{"time": "3:41", "joke": "Like a Boss - The Lonely Island"},
-		{"time": "3:41", "joke": "The Love Plug - efukt.com.com"},
+		{"time": "3:41", "joke": "The Love Plug - efukt.com"},
 		{"time": "3:45", "joke": "I Am Gay - Holland Boys"},
 		{"time": "3:45", "joke": "Gay - iDubbbz"},
 		{"time": "3:48", "joke": "Takyon (Death Yon) - Death Grips"},
@@ -72229,7 +72219,7 @@ const db = {
 	"wiki": "https://siivagunner.wiki/wiki/Snowpeak%20Ruins%20-%20The%20Legend%20of%20Zelda%3A%20Twilight%20Princess",
 	"joke": [
 		{"time": "0:04", "joke": "Money Longer - Lil Uzi Vert"},
-		{"time": "0:09", "joke": "It's Everyday Bro - Jake Paul ft. Team 10 ft. Team 10"},
+		{"time": "0:09", "joke": "It's Everyday Bro - Jake Paul ft. Team 10"},
 		{"time": "0:33", "joke": "SICKO MODE - Travis Scott ft. Drake"},
 		{"time": "0:56", "joke": "ESSKEETIT - Lil Pump"},
 		{"time": "2:00", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"}],
@@ -72496,7 +72486,7 @@ const db = {
 		{"time": "1:49", "joke": "Revenge - TryHardNinja ft. CaptainSparklez"},
 		{"time": "1:50", "joke": "Gangnam Style - PSY"},
 		{"time": "2:02", "joke": "Before my body is dry - Kill la Kill"},
-		{"time": "2:10", "joke": "It's Everyday Bro - Jake Paul ft. Team 10 ft. Team 10"},
+		{"time": "2:10", "joke": "It's Everyday Bro - Jake Paul ft. Team 10"},
 		{"time": "2:17", "joke": "I'm Not Yo Daddy, I'm Yo Grandpa - Biff Chitlins (GEICO ad)"},
 		{"time": "2:17", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"}],
 	"artist": "Jiko Music"},
@@ -72627,7 +72617,7 @@ const db = {
 	"title": "Dreamy Somnom Labyrinth - Mario & Luigi: Dream Team Music",
 	"wiki": "https://siivagunner.wiki/wiki/Dreamy%20Somnom%20Labyrinth%20-%20Mario%20%26%20Luigi%3A%20Dream%20Team%20Music",
 	"joke": [
-		{"time": "0:00", "joke": "It's Everyday Bro - Jake Paul ft. Team 10 ft. Team 10"},
+		{"time": "0:00", "joke": "It's Everyday Bro - Jake Paul ft. Team 10"},
 		{"time": "0:18", "joke": "Inspector Gadget Theme - Shuki Levy"},
 		{"time": "0:27", "joke": "In the Hall of the Mountain King - Edvard Grieg"},
 		{"time": "0:36", "joke": "Beware the Forest's Mushrooms - Super Mario RPG"},
@@ -72664,7 +72654,7 @@ const db = {
 		{"time": "0:37", "joke": "We Are Number One - Máni Svavarsson (LazyTown)"},
 		{"time": "0:39", "joke": "Smooth - Santana ft. Rob Thomas"},
 		{"time": "0:42", "joke": "Snow halation - Love Live!, µ's"},
-		{"time": "0:44", "joke": "It's Everyday Bro - Jake Paul ft. Team 10 ft. Team 10"},
+		{"time": "0:44", "joke": "It's Everyday Bro - Jake Paul ft. Team 10"},
 		{"time": "0:45", "joke": "The Nutshack - NUMP"}],
 	"artist": "KnightOfGames"},
 "DOPLYDxLuyQ": {
@@ -72674,7 +72664,7 @@ const db = {
 		{"time": "0:00", "joke": "I Hate Bernie Sanders [feat demopot] - SKIball"},
 		{"time": "0:13", "joke": "MTC - S3RL"},
 		{"time": "0:24", "joke": "Meet the Spy - Team Fortress 2"},
-		{"time": "0:24", "joke": "It's Everyday Bro - Jake Paul ft. Team 10 ft. Team 10"},
+		{"time": "0:24", "joke": "It's Everyday Bro - Jake Paul ft. Team 10"},
 		{"time": "0:24", "joke": "Soy Peor - Bad Bunny"},
 		{"time": "0:32", "joke": "Interweb - Poppy"},
 		{"time": "0:39", "joke": "I Hate Bernie Sanders [feat demopot] - SKIball"}],
@@ -72910,7 +72900,6 @@ const db = {
 		{"time": "0:59", "joke": "Jack Black defines Octagon - Sesame Street"},
 		{"time": "0:59", "joke": "Kitchen Gun - The Peter Serafinowicz Show"},
 		{"time": "1:04", "joke": "Cat Planet - Raocow"},
-		{"time": "1:07", "joke": "REMIX CONTEST! YTP! [READ INFO!] - manwith10toes3"},
 		{"time": "1:09", "joke": "When Did Your Heart Go Missing? - Rooney"},
 		{"time": "1:09", "joke": "Dirty Vibe - Skrillex"},
 		{"time": "1:18", "joke": "Flamingo - Kero Kero Bonito"},
@@ -72928,7 +72917,6 @@ const db = {
 		{"time": "1:36", "joke": "Ruuu! - Japanese McDonald's commercial"},
 		{"time": "1:37", "joke": "Grandma's Kisses Dub - greenday12688"},
 		{"time": "1:37", "joke": "mm2wood.mid (Wood Man MIDI) - Mingo Games Ltd."},
-		{"time": "1:38", "joke": "this Vocaroo - unknown"},
 		{"time": "1:47", "joke": "No Love - Death Grips"},
 		{"time": "1:49", "joke": "Black Skinhead - Kanye West"},
 		{"time": "2:00", "joke": "Haunted House - 8-Bit Beast"},
@@ -73150,7 +73138,7 @@ const db = {
 		{"time": "0:18, 0:07", "joke": "The Noble Haltmann - Kirby Planet Robobot"},
 		{"time": "1:02, 0:24, 0:40, 0:46", "joke": "Snow halation - Love Live!, µ's"},
 		{"time": "1:06, 0:27", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin"},
-		{"time": "1:11, 0:33", "joke": "It's Everyday Bro - Jake Paul ft. Team 10 ft. Team 10"},
+		{"time": "1:11, 0:33", "joke": "It's Everyday Bro - Jake Paul ft. Team 10"},
 		{"time": "0:51", "joke": "Gas Gas Gas - Manuel"}],
 	"artist": "The Duane"},
 "rusuJ5RmIpU": {
@@ -73219,7 +73207,7 @@ const db = {
 		{"time": "0:09", "joke": "Paralyzer - Finger Eleven"},
 		{"time": "0:20", "joke": "Bumblicious - I Got Five On It Too"},
 		{"time": "0:29", "joke": "Smooth - Santana ft. Rob Thomas"},
-		{"time": "0:40", "joke": "It's Everyday Bro - Jake Paul ft. Team 10 ft. Team 10"},
+		{"time": "0:40", "joke": "It's Everyday Bro - Jake Paul ft. Team 10"},
 		{"time": "0:45", "joke": "Crab Rave - Noisestorm"},
 		{"time": "0:55", "joke": "Snow halation - Love Live!, µ's"},
 		{"time": "1:05", "joke": "Inspector Gadget Theme - Shuki Levy"},
@@ -73353,7 +73341,7 @@ const db = {
 		{"time": "0:53", "joke": "Russian Privjet - Basshunter"},
 		{"time": "0:55", "joke": "Snow halation - Love Live!, µ's"},
 		{"time": "0:55", "joke": "Wonderwall - Oasis"},
-		{"time": "0:56", "joke": "It's Everyday Bro - Jake Paul ft. Team 10 ft. Team 10"},
+		{"time": "0:56", "joke": "It's Everyday Bro - Jake Paul ft. Team 10"},
 		{"time": "0:57", "joke": "All Star - Smash Mouth"},
 		{"time": "0:57", "joke": "We Are Number One - Máni Svavarsson (LazyTown)"},
 		{"time": "0:58", "joke": "Bonfire - Childish Gambino"},
@@ -73401,7 +73389,7 @@ const db = {
 		{"time": "1:41", "joke": "This Love - Maroon 5"},
 		{"time": "1:47", "joke": "The Nutshack Theme - NUMP"},
 		{"time": "1:49", "joke": "World's Loudest Orgasm - Creampie Cathy"},
-		{"time": "1:53", "joke": "Open Your Heart - Sonic Adventure, Hinchy"},
+		{"time": "1:53", "joke": "Open Your Heart - Sonic Adventure"},
 		{"time": "2:24", "joke": "Live & Learn - Sonic Adventure 2, PinkieOats"},
 		{"time": "2:36", "joke": "Gangnam Style - PSY"},
 		{"time": "2:37", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
@@ -73492,7 +73480,7 @@ const db = {
 		{"time": "1:21", "joke": "Brain Power - NOMA"}],
 	"artist": "Mitchell"},
 "RfB7rj6ekfs": {
-	"title": "Artificial Intelligence Bomb",
+	"title": "Artificial Intelligence Bomb - Naruto",
 	"wiki": "https://siivagunner.wiki/wiki/Artificial%20Intelligence%20Bomb",
 	"joke": [
 		{"time": "0:06, 0:16, 0:19, 0:28", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin"},
@@ -73662,7 +73650,7 @@ const db = {
 		{"time": "0:43", "joke": "Taken by the Tides - For Perilous Paradise, Act 2 - Sonic Before the Sequel"},
 		{"time": "1:12", "joke": "Calamari Inkantation - Splatoon"},
 		{"time": "1:19", "joke": "Axel F (Beverly Hills Cop / Crazy Frog) - Harold Faltermeyer"},
-		{"time": "1:25", "joke": "Body Rock - WarioWare D.I.Y.."},
+		{"time": "1:25", "joke": "Body Rock - WarioWare D.I.Y."},
 		{"time": "1:40", "joke": "Smooth - Santana ft. Rob Thomas"},
 		{"time": "1:48", "joke": "Inspector Gadget Theme - Shuki Levy"},
 		{"time": "1:55", "joke": "Space Jam - Quad City DJ's"},
@@ -73799,7 +73787,7 @@ const db = {
 	"joke": [
 		{"time": "0:32", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin"},
 		{"time": "0:48", "joke": "The Noble Haltmann - Kirby Planet Robobot"},
-		{"time": "0:55", "joke": "PPAP - Hoyt Curtin"},
+		{"time": "0:55", "joke": "PPAP (Pen-Pineapple-Apple-Pen) - Daimaou Kosaka / PIKOTARO"},
 		{"time": "1:05", "joke": "Find Da Wae - CG5"},
 		{"time": "1:16", "joke": "It's Everyday Bro - Jake Paul ft. Team 10"},
 		{"time": "1:20", "joke": "Crab Rave - Noisestorm"},
@@ -73816,7 +73804,7 @@ const db = {
 		{"time": "0:29", "joke": "i Shyne - Carnage & Lil Pump"},
 		{"time": "0:58", "joke": "Breakdance Beach - Hail Mary Mallon"},
 		{"time": "1:26", "joke": "Idioteque - Radiohead"},
-		{"time": "1:27", "joke": "Hard in da Paint - Waka Flocka Flame Flame"},
+		{"time": "1:27", "joke": "Hard in da Paint - Waka Flocka Flame"},
 		{"time": "1:54", "joke": "Hollaback Girl - Gwen Stefani"}],
 	"artist": "OnBP"},
 "3zExIA9aOdw": {
@@ -73830,7 +73818,7 @@ const db = {
 		{"time": "0:39", "joke": "Bad Apple!! feat.nomico - Alstroemeria Records"},
 		{"time": "0:42", "joke": "Bad Apple!! - Touhou 4: Lotus Land Story"},
 		{"time": "0:46", "joke": "In the Hall of the Mountain King - Edvard Grieg"},
-		{"time": "1:21", "joke": "Metallic Madness (JP/PAL) - Sonic CD"},
+		{"time": "1:21", "joke": "Metallic Madness (JPN/PAL) - Sonic CD"},
 		{"time": "1:25", "joke": "Prime Time (Studiopolis Zone Act 2) - Sonic Mania"}],
 	"artist": "pedipanol"},
 "JwijFjaQBKM": {
@@ -73877,7 +73865,7 @@ const db = {
 		{"time": "0:25", "joke": "Move Bitch - Ludacris"},
 		{"time": "1:22, 0:26", "joke": "All Star - Smash Mouth"},
 		{"time": "0:33", "joke": "Hey, Soul Sister - Train"},
-		{"time": "0:51", "joke": "My Humps - The Black Eyed Peas"},
+		{"time": "0:51", "joke": "My Humps - Black Eyed Peas"},
 		{"time": "0:56", "joke": "Get The Party Started - P!nk"},
 		{"time": "1:04", "joke": "Ice Cream Paint Job - Dorrough"},
 		{"time": "1:07", "joke": "Bangarang - Skrillex ft. Sirah"},
@@ -73916,7 +73904,7 @@ const db = {
 		{"time": "0:52", "joke": "GO MY WAY!! - THE iDOLM@STER"}],
 	"artist": "Sarvéproductions"},
 "GA4dwngiR40": {
-	"title": "Boss!! (US) (Prototype 510) - Sonic CD",
+	"title": "Boss!! (US) - Sonic CD",
 	"wiki": "https://siivagunner.wiki/wiki/Boss!!%20(US)%20(Prototype%20510)%20-%20Sonic%20CD",
 	"joke": [
 		{"time": "0:04", "joke": "Axel F (Beverly Hills Cop / Crazy Frog) - Harold Faltermeyer"},
@@ -73957,7 +73945,7 @@ const db = {
 	"wiki": "https://siivagunner.wiki/wiki/Egg%20Reverie%20-%20Egg%20Reverie%20Zone%20-%20Sonic%20Mania%20Plus",
 	"joke": [
 		{"time": "0:00", "joke": "Body Movin' - Beastie Boys"},
-		{"time": "0:11", "joke": "My Humps - The Black Eyed Peas"},
+		{"time": "0:11", "joke": "My Humps - Black Eyed Peas"},
 		{"time": "0:22", "joke": "My Neck, My Back (Lick It) - Khia"},
 		{"time": "0:26", "joke": "One More Time - Daft Punk"},
 		{"time": "0:27", "joke": "Harder, Better, Faster, Stronger - Daft Punk"},
@@ -74131,7 +74119,6 @@ const db = {
 		{"time": " 0:13 - 0:22,0:43, 1:09 - 1:42, 1:44 - 1:49", "joke": "I Am Very Glad, as I'm Finally Returning Back Home (\"Trololo\") - Eduard Khil"},
 		{"time": "0:24", "joke": "Peanut Butter Jelly Time - Buckwheat Boyz"},
 		{"time": "0:29 - 0:30", "joke": "Dragostea Din Tei - O-Zone"},
-		{"time": "0:32 - 0:33", "joke": "THIS IS SPARTA - 300"},
 		{"time": "0:35", "joke": "Bananaphone - Raffi and Michael Creber"},
 		{"time": "0:38", "joke": "Paralyzer - Finger Eleven"},
 		{"time": "0:40 - 0:42", "joke": "The Hampsterdance Song - Hampton the Hamster"},
@@ -74148,7 +74135,7 @@ const db = {
 		{"time": "0:29", "joke": "Startup - Nintendo GameCube"},
 		{"time": "0:29", "joke": "Metal Beat - Metal Masters"},
 		{"time": "0:45", "joke": "Main Theme - Buck Bumble"},
-		{"time": "0:46", "joke": "Bumblicious - I Got Five On It Too Too"},
+		{"time": "0:46", "joke": "Bumblicious - I Got Five On It Too"},
 		{"time": "0:49", "joke": "Metallic Mario - Super Mario 64"},
 		{"time": "0:52", "joke": "Big Beat Mario - Triple_sSs"},
 		{"time": "0:55", "joke": "Bird is the Word - Family Guy"},
@@ -74203,7 +74190,7 @@ const db = {
 		{"time": "0:18", "joke": "I'll Be Your Everything - Youngstown"},
 		{"time": "0:38", "joke": "Main Theme - Luigi's Mansion"},
 		{"time": "0:43", "joke": "Close Your Eyes - G-Senjou no Maou"},
-		{"time": "0:43", "joke": "It's Everyday Bro - Jake Paul ft. Team 10 ft. Team 10"}],
+		{"time": "0:43", "joke": "It's Everyday Bro - Jake Paul ft. Team 10"}],
 	"artist": "Jiko Music"},
 "CbEidUzKn28": {
 	"title": "Disturbances ~ The End of the Raging Waves - Etrian Odyssey III: The Drowned City",
@@ -74451,7 +74438,7 @@ const db = {
 		{"time": "0:12", "joke": "Bad Boys - Inner Circle"},
 		{"time": "0:25", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin"},
 		{"time": "0:37", "joke": "Snow halation - Love Live!, µ's"},
-		{"time": "0:49", "joke": "It's Everyday Bro - Jake Paul ft. Team 10 ft. Team 10"},
+		{"time": "0:49", "joke": "It's Everyday Bro - Jake Paul ft. Team 10"},
 		{"time": "0:55", "joke": "Megalovania - Undertale"},
 		{"time": "1:01", "joke": "Totino's - Tim and Eric"},
 		{"time": "1:14", "joke": "Wii Shop Channel - Nintendo Wii"},
@@ -74463,7 +74450,7 @@ const db = {
 	"title": "Snowfall I (Yuki I) - G-Senjou no Maou",
 	"wiki": "https://siivagunner.wiki/wiki/Snowfall%20I%20(Yuki%20I)%20-%20G-Senjou%20no%20Maou",
 	"joke": [
-		{"time": "0:05", "joke": "It's Everyday Bro - Jake Paul ft. Team 10 ft. Team 10"},
+		{"time": "0:05", "joke": "It's Everyday Bro - Jake Paul ft. Team 10"},
 		{"time": "0:12", "joke": "Won(*3*)Chu KissMe! - Sakura Trick"},
 		{"time": "0:20", "joke": "VS. Star Dream - Kirby Planet Robobot"},
 		{"time": "0:27", "joke": "Inspector Gadget Theme - Shuki Levy"},
@@ -74492,8 +74479,7 @@ const db = {
 	"title": "Don't Think Twice - Kingdom Hearts III",
 	"wiki": "https://siivagunner.wiki/wiki/Don't%20Think%20Twice%20(E3%202018%20Version)%20-%20Kingdom%20Hearts%20III",
 	"joke": [
-		{"time": "0:21", "joke": "Dragonborn - The Elder Scrolls V: Skyrim"},
-		{"time": "0:44", "joke": "Dovahkiin - The Elder Scrolls V: Skyrim"},
+		{"time": "0:21, 0:44", "joke": "Dragonborn - The Elder Scrolls V: Skyrim"},
 		{"time": "1:53", "joke": "Take Me Home, Country Roads - John Denver"},
 		{"time": "2:15", "joke": "Lifelight - Super Smash Bros. Ultimate"},
 		{"time": "3:00", "joke": "Simple and Clean - Kingdom Hearts"},
@@ -74531,7 +74517,7 @@ const db = {
 	"joke": [
 		{"time": "0:10", "joke": "Inspector Gadget Theme - Shuki Levy"},
 		{"time": "0:15, 0:42, 0:48", "joke": "Bad Apple!! feat.nomico - Alstroemeria Records"},
-		{"time": "0:21, 0:53", "joke": "It's Everyday Bro - Jake Paul ft. Team 10 ft. Team 10"},
+		{"time": "0:21, 0:53", "joke": "It's Everyday Bro - Jake Paul ft. Team 10"},
 		{"time": "0:26, 0:37, 0:58, 1:09", "joke": "The Lick"}],
 	"artist": "KnightOfGames"},
 "N7ytysq9zNQ": {
@@ -74972,7 +74958,7 @@ const db = {
 		{"time": "2:26", "joke": "Close Your Eyes - G-Senjou no Maou"},
 		{"time": "4:53", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin"},
 		{"time": "5:03", "joke": "Smooth - Santana ft. Rob Thomas"},
-		{"time": "5:14", "joke": "It's Everyday Bro - Jake Paul ft. Team 10 ft. Team 10"},
+		{"time": "5:14", "joke": "It's Everyday Bro - Jake Paul ft. Team 10"},
 		{"time": "5:19", "joke": "Inspector Gadget Theme - Shuki Levy"},
 		{"time": "5:24", "joke": "We Are Number One - Máni Svavarsson (LazyTown)"},
 		{"time": "5:34", "joke": "Steam Gardens - Super Mario Odyssey"},
@@ -74996,10 +74982,9 @@ const db = {
 		{"time": "0:51, 0:12", "joke": "Chocobo Theme - Final Fantasy series"},
 		{"time": "0:25", "joke": "One Week - Barenaked Ladies"},
 		{"time": "0:31", "joke": "All Star - Smash Mouth"},
-		{"time": "0:38", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin, Hoyt Curtin"},
+		{"time": "0:38", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin"},
 		{"time": "0:44", "joke": "Stage Theme 1 - Spelunker"},
-		{"time": "1:03", "joke": "Invincible - Super Mario Bros."},
-		{"time": "1:14", "joke": "Reprise of the music beginning at 0:12"}],
+		{"time": "1:03", "joke": "Invincible - Super Mario Bros."}],
 	"artist": "SoundSync5000"},
 "0Uvh9c_dKvo": {
 	"title": "Doki Doki (Bonus Track) - Doki Doki Literature Club!",
@@ -75014,7 +74999,6 @@ const db = {
 		{"time": "0:48", "joke": "Inspector Gadget Theme - Shuki Levy"},
 		{"time": "3:16, 1:02, 1:54", "joke": "Your Reality - Doki Doki Literature Club!"},
 		{"time": "1:07", "joke": "Dreams of Love and Literature - Doki Doki Literature Club!"},
-		{"time": "1:22", "joke": "Megalovania - Undertale - SiIvaGunner, Chaze the Chat"},
 		{"time": "2:03", "joke": "The Noble Haltmann - Kirby Planet Robobot"},
 		{"time": "2:22", "joke": "Megalovania - Toby Fox"},
 		{"time": "2:24", "joke": "Ashley's Song - WarioWare: Touched!"},
@@ -75117,7 +75101,7 @@ const db = {
 		{"time": "0:16", "joke": "A Cruel Angel's Thesis - Neon Genesis Evangelion"},
 		{"time": "0:22", "joke": "Megalovania - Undertale"},
 		{"time": "0:23", "joke": "In My Life - The Beatles"},
-		{"time": "0:30", "joke": "Metallic Madness (JP/PAL) - Sonic CD"},
+		{"time": "0:30", "joke": "Metallic Madness (JPN/PAL) - Sonic CD"},
 		{"time": "0:32", "joke": "We Are Number One - Máni Svavarsson"},
 		{"time": "0:38", "joke": "Put Your Head on my Shoulder - Paul Anka"},
 		{"time": "0:40", "joke": "Doki Doki Literature Club! - Doki Doki Literature Club!"},
@@ -75130,7 +75114,7 @@ const db = {
 	"joke": [
 		{"time": "0:10, 0:00", "joke": "Calamari Inkantation - Splatoon"},
 		{"time": "0:20", "joke": "Megalovania - Toby Fox"},
-		{"time": "0:40", "joke": "Stardust Speedway Bad Future (JP/PAL) - Sonic CD"},
+		{"time": "0:40", "joke": "Stardust Speedway Bad Future (JPN/PAL) - Sonic CD"},
 		{"time": "0:58", "joke": "Snow halation - Love Live!, µ's"},
 		{"time": "1:07", "joke": "Watashitachi wa Mirai no Hana - Umi Sonoda"},
 		{"time": "1:28", "joke": "King Dedede's Theme - Kirby Super Star"},
@@ -75142,7 +75126,7 @@ const db = {
 	"joke": [
 		{"time": "0:51, 0:05", "joke": "The Nutshack Theme - NUMP"},
 		{"time": "0:15 - 0:20", "joke": "Temporary Secretary - Paul McCartney"},
-		{"time": "0:26", "joke": "It's Everyday Bro - Jake Paul ft. Team 10 ft. Team 10"}],
+		{"time": "0:26", "joke": "It's Everyday Bro - Jake Paul ft. Team 10"}],
 	"artist": "Grambam36"},
 "ZKeGsSPh3gE": {
 	"title": "Bart the Baby (Race) - Virtual Bart",
@@ -75206,7 +75190,7 @@ const db = {
 		{"time": "0:00", "joke": "Smooth - Santana ft. Rob Thomas"},
 		{"time": "0:25", "joke": "Bangarang - Skrillex ft. Sirah"},
 		{"time": "0:26", "joke": "We Are Number One - Máni Svavarsson (LazyTown)"},
-		{"time": "0:28", "joke": "They don't stop coming / All Star - Namare / Smash Mouth"},
+		{"time": "0:28", "joke": "All Star - Smash Mouth"},
 		{"time": "0:34", "joke": "Gangnam Style - PSY"},
 		{"time": "0:38", "joke": "Minecraft with Gadget - Mike Matei"},
 		{"time": "0:47", "joke": "Jack Black defines Octagon - Sesame Street"},
@@ -75406,7 +75390,7 @@ const db = {
 	"wiki": "https://siivagunner.wiki/wiki/Emerald%20Ocean%20-%20Sonic%20Drift%202",
 	"joke": [
 		{"time": "0:01", "joke": "Overworld Theme - Super Mario World"},
-		{"time": "0:08", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin, Hoyt Curtin"},
+		{"time": "0:08", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin"},
 		{"time": "0:14", "joke": "All Star - Smash Mouth"},
 		{"time": "0:27", "joke": "Totino's - Tim and Eric"},
 		{"time": "0:40", "joke": "Jungle Zone - Sonic the Hedgehog (Game Gear/Master System)"},
@@ -75429,7 +75413,7 @@ const db = {
 		{"time": "0:13", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin"},
 		{"time": "1:09,1:22", "joke": "Snow halation - Love Live!, µ's, the µ's"},
 		{"time": "1:36,3:00", "joke": "Doki Doki Literature Club! - Doki Doki Literature Club!"},
-		{"time": "1:49", "joke": "Totino's - Totino's"},
+		{"time": "1:49", "joke": "Totino's Pizza Rolls! - Totino's Pizza Rolls Commercials"},
 		{"time": "2:30", "joke": "Yoshi's Story - Yoshi's Story"},
 		{"time": "3:00", "joke": "Doki Doki Literature Club! - Doki Doki Literature Club!"},
 		{"time": "3:00", "joke": "The Noble Haltmann - Kirby Planet Robobot"},
@@ -75542,7 +75526,7 @@ const db = {
 		{"time": "0:01", "joke": "Crank That - Soulja Boy"},
 		{"time": "0:24, 3:40", "joke": "Doubt - Blue Stahli"},
 		{"time": "0:45, 3:38, 3:49, 4:01", "joke": "Party Train - Redfoo"},
-		{"time": "1:16, 3:45, 3:55", "joke": "Body Rock - WarioWare D.I.Y.."},
+		{"time": "1:16, 3:45, 3:55", "joke": "Body Rock - WarioWare D.I.Y."},
 		{"time": "1:16", "joke": "Magic Words - Daniel Seven ft. Sennzai"},
 		{"time": "1:57, 3:56", "joke": "Jump Up - Darren Styles, Recon, and Whizzkid"},
 		{"time": "2:18", "joke": "His Theme - Undertale"},
@@ -75700,9 +75684,9 @@ const db = {
 	"title": "Mini-Game 1 - Pictionary",
 	"wiki": "https://siivagunner.wiki/wiki/Mini-Game%201%20(Beta%20Mix)%20-%20Pictionary",
 	"joke": [
-		{"time": "0:17 - 0:30", "joke": "Stardust Speedway (JP/PAL) - Sonic CD"},
+		{"time": "0:17 - 0:30", "joke": "Stardust Speedway (JPN/PAL) - Sonic CD"},
 		{"time": "0:34 - 0:42", "joke": "Megalovania - Toby Fox"},
-		{"time": "0:42 - 0:58", "joke": "Stardust Speedway (JP/PAL) - Sonic CD"},
+		{"time": "0:42 - 0:58", "joke": "Stardust Speedway (JPN/PAL) - Sonic CD"},
 		{"time": "0:58 - 1:16", "joke": "Bad Apple!! feat.nomico - Alstroemeria Records"},
 		{"time": "1:16 - 1:25", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin"}],
 	"artist": "andres"},
@@ -75935,7 +75919,7 @@ const db = {
 		{"time": "0:57", "joke": "Computers - Rowdy Rebel ft. Bobby Shmurda"},
 		{"time": "0:58", "joke": "Gabe the Dog - deathtrips / gravycp"},
 		{"time": "1:01", "joke": "SPIDEY N BADMAN CLAP THEM THIGHS - chamyriamr"},
-		{"time": "1:01", "joke": "DK Rap - Donkey Kong 64 - SiIvaGunner"}],
+		{"time": "1:01", "joke": "DK Rap - Donkey Kong 64"}],
 	"artist": "XARLABLE"},
 "cOhU60Okpmk": {
 	"title": "Just Monsters, Yo (Edodes Woods) - Terrain of Magical Expertise",
@@ -75950,7 +75934,6 @@ const db = {
 		{"time": "1:10 - 1:11", "joke": "The Lick"},
 		{"time": "1:19", "joke": "Gangnam Style - PSY"},
 		{"time": "1:30", "joke": "The Nutshack Theme - NUMP"},
-		{"time": "1:32", "joke": "reprise of the music beginning at 0:03 - NUMP"},
 		{"time": "3:01", "joke": "Fight Against Monsters - Super Mario RPG"},
 		{"time": "3:02", "joke": "World's Loudest Orgasm - Creampie Cathy"}],
 	"artist": "MtH"},
@@ -76072,7 +76055,7 @@ const db = {
 		{"time": "0:26", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg"},
 		{"time": "0:31", "joke": "Drop It Like It's Hot - Snoop Dogg ft. Pharrell Williams Williams"},
 		{"time": "0:37", "joke": "Gentleman - PSY"},
-		{"time": "0:38", "joke": "Hard in da Paint - Waka Flocka Flame Flame"},
+		{"time": "0:38", "joke": "Hard in da Paint - Waka Flocka Flame"},
 		{"time": "0:38", "joke": "GRAND DAD - Vinesauce Joel"},
 		{"time": "0:44", "joke": "Whales - Hail Mary Mallon"},
 		{"time": "0:45", "joke": "All Star - Smash Mouth"},
@@ -76219,8 +76202,8 @@ const db = {
 		{"time": "0:06", "joke": "Tequila - The Champs"},
 		{"time": "1:32, 0:17, 1:09", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin"},
 		{"time": "1:06, 0:23", "joke": "Puzzle Room - Kirby Planet Robobot"},
-		{"time": "0:29", "joke": "Snow halation - Love Live!, µ's, µ's"},
-		{"time": "1:26, 0:40, 1:03", "joke": "Totino's - Tim and Eric, Sonic 25th Anniversary stream"},
+		{"time": "0:29", "joke": "Snow halation - Love Live!, µ's"},
+		{"time": "1:26, 0:40, 1:03", "joke": "Totino's - Tim and Eric"},
 		{"time": "0:43", "joke": "PPAP - Daimaou Kosaka"},
 		{"time": "0:46", "joke": "POKEMON GO SONG!!! - Mishovy silenosti (Misha) / Mishovy šílenosti"},
 		{"time": "0:49", "joke": "Axel F (Beverly Hills Cop / Crazy Frog) - Harold Faltermeyer / Crazy Frog"},
@@ -76275,7 +76258,7 @@ const db = {
 		{"time": "0:44, 0:02", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin"},
 		{"time": "0:23", "joke": "voiceless - The SiIvaGunner Christmas Comeback Crisis"},
 		{"time": "0:33", "joke": "Inspector Gadget Theme - Shuki Levy"},
-		{"time": "0:42", "joke": "Snow halation - Love Live!, µ's, µ's"},
+		{"time": "0:42", "joke": "Snow halation - Love Live!, µ's"},
 		{"time": "0:56", "joke": "Haunted House - 8-Bit Beast"},
 		{"time": "2:00", "joke": "The Lick"}],
 	"artist": "trivial171"},
@@ -76353,7 +76336,7 @@ const db = {
 		{"time": "0:23-0:24", "joke": "We Are Number One - Máni Svavarsson (LazyTown)"},
 		{"time": "0:33-0:43", "joke": "Beloved Tomboyish Girl - Touhou 6: the Embodiment of Scarlet Devil"},
 		{"time": "0:43-0:44", "joke": "The Nutshack Theme - NUMP"},
-		{"time": "0:58-0:59", "joke": "Main Menu / Map - Hotel Mario The rip loops over at 1:00"}],
+		{"time": "0:58-0:59", "joke": "Main Menu / Map - Hotel Mario"}],
 	"artist": "LuNiney"},
 "_l_zuw9rpDA": {
 	"title": "Stage 1 - Wolverine",
@@ -76403,7 +76386,7 @@ const db = {
 	"joke": [
 		{"time": "0:49, 0:14, 0:28", "joke": "Shelter - Porter Robinson & Madeon"},
 		{"time": "0:21", "joke": "Pump Up The Jam - Technotronic"},
-		{"time": "0:56, 0:28", "joke": "Ghostbusters - Ray Parker Jr.."},
+		{"time": "0:56, 0:28", "joke": "Ghostbusters - Ray Parker Jr."},
 		{"time": "0:35", "joke": "Totino's - Tim and Eric"}],
 	"artist": "Chaze the Chat"},
 "erG1fYuQ2vs": {
@@ -76448,7 +76431,7 @@ const db = {
 	"joke": [
 		{"time": "3:21, 0:12", "joke": "Back in the U.S.S.R. - The Beatles"},
 		{"time": "3:52, 1:02", "joke": "Moskau - Dschinghis Khan"},
-		{"time": "1:35", "joke": "All The Things She Said - t.A.T.u.."},
+		{"time": "1:35", "joke": "All The Things She Said - t.A.T.u."},
 		{"time": "2:48", "joke": "Gladiator - Aleksandr Pistoletov"},
 		{"time": "4:02, 3:57", "joke": "We Are Number One - Máni Svavarsson (LazyTown)"}],
 	"artist": "Smoky"},
@@ -76620,7 +76603,7 @@ const db = {
 		{"time": "1:41", "joke": "We Are Number One - Máni Svavarsson (LazyTown)"}],
 	"artist": "Reach"},
 "3mt5b25sobE": {
-	"title": "Lava Reef Zone Act 2 (Demo) - Sonic Mania",
+	"title": "Lava Reef Zone Act 2 - Sonic Mania",
 	"wiki": "https://siivagunner.wiki/wiki/Lava%20Reef%20Zone%20Act%202%20(Demo)%20-%20Sonic%20Mania",
 	"joke": [
 		{"time": "0:00", "joke": "The Nutshack Theme - NUMP"},
@@ -76744,7 +76727,7 @@ const db = {
 		{"time": "2:40", "joke": "Megalovania - Undertale"},
 		{"time": "2:40", "joke": "Drop That Low - Tujamo"},
 		{"time": "2:55", "joke": "Bonfire - Childish Gambino"},
-		{"time": "3:33", "joke": "The The Concept of Love - Jet Set Radio Future"},
+		{"time": "3:33", "joke": "The Concept of Love - Jet Set Radio Future"},
 		{"time": "3:46", "joke": "Despacito - Luis Fonsi ft. Daddy Yankee"},
 		{"time": "4:01", "joke": "Hahaha! The critical error was you! - Lethal League"},
 		{"time": "4:19", "joke": "Crank That - Soulja Boy"},
@@ -76812,7 +76795,7 @@ const db = {
 	"wiki": "https://siivagunner.wiki/wiki/Dictionary%20-%20Personal%20Trainer%3A%20Cooking",
 	"joke": [
 		{"time": "0:00", "joke": "The Noble Haltmann - Kirby Planet Robobot"},
-		{"time": "0:31", "joke": "Inspector Gadget Inspector Gadget Theme - Shuki Levy"},
+		{"time": "0:31", "joke": "Inspector Gadget Theme - Shuki Levy"},
 		{"time": "0:35", "joke": "The Lick"},
 		{"time": "0:39", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin"},
 		{"time": "1:19", "joke": "Snow halation - Love Live!, µ's, the µ's"}],
@@ -76885,7 +76868,7 @@ const db = {
 	"title": "Wave of Darkness - Kingdom Hearts 0.2 Birth by Sleep -A fragmentary passage-",
 	"wiki": "https://siivagunner.wiki/wiki/Wave%20of%20Darkness%20-%20Kingdom%20Hearts%200.2%20Birth%20by%20Sleep%20-A%20fragmentary%20passage-",
 	"joke": [
-		{"time": "0:00-5:48", "joke": "Instrument Swap/Arrangement - mm2wood"},
+		{"time": "0:00-5:48", "joke": "mm2wood.mid (Wood Man MIDI) - Mingo Games Ltd."},
 		{"time": "3:13, 2:58", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin"},
 		{"time": "3:03", "joke": "Smooth - Santana ft. Rob Thomas"},
 		{"time": "3:08", "joke": "The Noble Haltmann - Kirby Planet Robobot"},
@@ -76984,7 +76967,7 @@ const db = {
 		{"time": "1:04", "joke": "Megalovania - Undertale"},
 		{"time": "1:09", "joke": "Science Blaster (Game Theory Theme) - SpellingPhailer"},
 		{"time": "1:14", "joke": "Haunted House - 8-Bit Beast"},
-		{"time": "1:20", "joke": "Inspector Gadget Theme - Shuki Levy,"},
+		{"time": "1:20", "joke": "Inspector Gadget Theme - Shuki Levy"},
 		{"time": "1:30", "joke": "Axel F (Beverly Hills Cop / Crazy Frog) - Harold Faltermeyer"}],
 	"artist": "SoundSync5000"},
 "GYoPh_1Pe6c": {
@@ -77051,7 +77034,7 @@ const db = {
 		{"time": "1:33", "joke": "GO MY WAY!! - THE iDOLM@STER"},
 		{"time": "1:40", "joke": "We Are Number One - Máni Svavarsson (LazyTown)"},
 		{"time": "1:52", "joke": "All Star - Smash Mouth"},
-		{"time": "2:03", "joke": "The The Bare Necessities - The Jungle Book"},
+		{"time": "2:03", "joke": "The Bare Necessities - The Jungle Book"},
 		{"time": "2:10", "joke": "Night Walk - Rhythm Tengoku"}],
 	"artist": "Akfamilyhome"},
 "QM55RcYvU2o": {
@@ -77446,7 +77429,6 @@ const db = {
 	"title": "Bowser's Castle - Mario Kart DS",
 	"wiki": "https://siivagunner.wiki/wiki/Bowser's%20Castle%20-%20Mario%20Kart%20DS",
 	"joke": [
-		{"time": "0:01", "joke": "Gruntilda laughing - Banjo-Kazooie"},
 		{"time": "0:03", "joke": "The Nutshack Theme - NUMP"},
 		{"time": "0:11", "joke": "The Legend of the Skull Heart - Skullgirls"},
 		{"time": "0:28", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin"},
@@ -77816,15 +77798,14 @@ const db = {
 	"wiki": "https://siivagunner.wiki/wiki/Flyin'%20To%20Your%20Heart%20-%20Gitaroo%20Man",
 	"joke": [
 		{"time": "0:22", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin"},
-		{"time": "0:28", "joke": "POKEMON GO SONG!!! (guitar) - Misha"},
+		{"time": "0:28", "joke": "POKEMON GO SONG!!! - Mishovy silenosti (Misha)"},
 		{"time": "0:53", "joke": "Wood Man - Mega Man 2"},
 		{"time": "1:31", "joke": "The Noble Haltmann - Kirby Planet Robobot"},
 		{"time": "1:49", "joke": "Kyun! Vampire Girl - THE iDOLM@STER 2"},
 		{"time": "2:08", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin"},
 		{"time": "2:27", "joke": "Megalovania - Undertale"},
 		{"time": "2:46", "joke": "Snow halation - Love Live!, µ's"},
-		{"time": "3:07", "joke": "Gangnam Style - PSY"},
-		{"time": "3:45", "joke": "Meet the Flintstones (in ops) - Hoyt Curtin"}],
+		{"time": "3:07", "joke": "Gangnam Style - PSY"}],
 	"artist": "Kirbio"},
 "U1C0xNdnbC0": {
 	"title": "jazz room - Duck Game",
@@ -78097,7 +78078,7 @@ const db = {
 		{"time": "1:10", "joke": "POKEMON GO SONG!!! - Mishovy silenosti (Misha)"},
 		{"time": "1:18", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin"},
 		{"time": "1:31", "joke": "Snow halation - Love Live!, µ's, the µ's"},
-		{"time": "1:46", "joke": "Stardust Speedway Bad Future (JP/PAL) - Sonic CD"},
+		{"time": "1:46", "joke": "Stardust Speedway Bad Future (JPN/PAL) - Sonic CD"},
 		{"time": "2:03", "joke": "POKEMON GO SONG!!! - Mishovy silenosti (Misha)"},
 		{"time": "2:27", "joke": "X Vs Zero - Mega Man X5"}],
 	"artist": "Unknown Ripper"},
@@ -78117,7 +78098,7 @@ const db = {
 	"title": "Bear It - Crash Bandicoot 2: Cortex Strikes Back",
 	"wiki": "https://siivagunner.wiki/wiki/Bear%20It%20-%20Crash%20Bandicoot%202%3A%20Cortex%20Strikes%20Back",
 	"joke": [
-		{"time": "0:06", "joke": "Snow halation - Love Live!, µ's, µ's"},
+		{"time": "0:06", "joke": "Snow halation - Love Live!, µ's"},
 		{"time": "0:21", "joke": "The Noble Haltmann - Kirby Planet Robobot"},
 		{"time": "0:30", "joke": "Blizzard Bluff - Crash Team Racing"},
 		{"time": "0:36", "joke": "The Noble Haltmann - Kirby Planet Robobot"},
@@ -78181,7 +78162,7 @@ const db = {
 		{"time": "0:40", "joke": "Ripple Field 2 - Kirby's Dream Land 3"},
 		{"time": "0:45", "joke": "Longest Night - Night in the Woods"},
 		{"time": "0:49", "joke": "His Theme - Undertale"},
-		{"time": "0:58", "joke": "Last Goodbye - At 1:07, the track loops. It fades out at 2:22"}],
+		{"time": "0:58", "joke": "Last Goodbye - Undertale"}],
 	"artist": "BarryBM"},
 "jKQpL1qOyZY": {
 	"title": "Title Theme - The Legend of Zelda: Ocarina of Time",
@@ -78377,7 +78358,7 @@ const db = {
 	"joke": [
 		{"time": "0:00", "joke": "Careless Whisper - George Michael"},
 		{"time": "0:25", "joke": "The Noble Haltmann - Kirby Planet Robobot"},
-		{"time": "0:51", "joke": "Snow halation - Love Live!, µ's, µ's"},
+		{"time": "0:51", "joke": "Snow halation - Love Live!, µ's"},
 		{"time": "1:30", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin"},
 		{"time": "1:55", "joke": "The Turnabout Sisters' Ballad - Phoenix Wright: Ace Attorney"},
 		{"time": "2:21", "joke": "Mr. Lonely - Bobby Vinton"},
@@ -78398,7 +78379,7 @@ const db = {
 	"title": "Flipper Flop - Rhythm Heaven Fever",
 	"wiki": "https://siivagunner.wiki/wiki/Flipper%20Flop%20(Beta%20Mix)%20-%20Rhythm%20Heaven%20Fever",
 	"joke": [
-		{"time": "0:00", "joke": "Last Christmas - Cascada, Wham!"},
+		{"time": "0:00", "joke": "Last Christmas - Cascada"},
 		{"time": "0:44", "joke": "Snow halation - Love Live!, µ's, the µ's"},
 		{"time": "1:14", "joke": "GO MY WAY!! - THE iDOLM@STER"},
 		{"time": "1:44", "joke": "POKEMON GO SONG!!! - Mishovy silenosti (Misha)"},
@@ -78554,7 +78535,7 @@ const db = {
 	"joke": [
 		{"time": "0:13", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin"},
 		{"time": "1:14, 0:32", "joke": "Snow halation - Love Live!, µ's"},
-		{"time": "0:42", "joke": "The Nutshack Theme - NUMP, NUMP"},
+		{"time": "0:42", "joke": "The Nutshack Theme - NUMP"},
 		{"time": "0:52", "joke": "GO MY WAY!! - THE iDOLM@STER"},
 		{"time": "1:02", "joke": "We Are Number One - Máni Svavarsson (LazyTown)"},
 		{"time": "1:12", "joke": "Haunted House - 8-Bit Beast"}],
@@ -78647,7 +78628,6 @@ const db = {
 		{"time": "0:33", "joke": "Tunak Tunak Tun - Daler Mehndi"},
 		{"time": "0:38", "joke": "Crank That - Soulja Boy"},
 		{"time": "0:38", "joke": "Guillotine - Death Grips"},
-		{"time": "0:43", "joke": "Spaghetti - Hotel Mario"},
 		{"time": "0:44", "joke": "Family Guy Main Title - Family Guy"}],
 	"artist": "Zoom"},
 "LKROINp1mr8": {
@@ -78682,7 +78662,6 @@ const db = {
 	"joke": [
 		{"time": "0:00", "joke": "Crank That - Soulja Boy"},
 		{"time": "0:03", "joke": "Family Guy Main Title - Family Guy"},
-		{"time": "0:03", "joke": "SPAGHETTI - Hotel Mario"},
 		{"time": "0:03", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "0:05", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin"},
 		{"time": "0:05", "joke": "Tunak Tunak Tun - Daler Mehndi"},
@@ -78765,8 +78744,8 @@ const db = {
 	"title": "Mad Jack Battle - Donkey Kong 64",
 	"wiki": "https://siivagunner.wiki/wiki/Mad%20Jack%20Battle%20-%20Donkey%20Kong%2064",
 	"joke": [
-		{"time": "0:00", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin, Hoyt Curtin"},
-		{"time": "1:49, 0:10", "joke": "The Nutshack Theme - NUMP, NUMP"},
+		{"time": "0:00", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin"},
+		{"time": "1:49, 0:10", "joke": "The Nutshack Theme - NUMP"},
 		{"time": "1:49, 0:19", "joke": "El Sonidito - Hechizeros Band"},
 		{"time": "0:21", "joke": "Bodies - Drowning Pool"},
 		{"time": "1:07, 0:30", "joke": "Howie scream - Howie Long"},
@@ -78891,7 +78870,7 @@ const db = {
 	"wiki": "https://siivagunner.wiki/wiki/Title%20-%20Sonic.exe",
 	"joke": [
 		{"time": "0:17", "joke": "Scooby-Doo, Where Are You! - David Mook, Ben Raleigh"},
-		{"time": "0:46", "joke": "Ghostbusters - Ray Parker Jr.."},
+		{"time": "0:46", "joke": "Ghostbusters - Ray Parker Jr."},
 		{"time": "1:15", "joke": "Opening theme - Goosebumps"},
 		{"time": "1:44", "joke": "Closing theme - Are You Afraid of the Dark?"},
 		{"time": "2:13", "joke": "Theme song - Tales from the Crypt"},
@@ -78978,7 +78957,7 @@ const db = {
 		{"time": "1:24", "joke": "Amen Break - Gregory Coleman"},
 		{"time": "1:31", "joke": "World's Loudest Orgasm - Creampie Cathy"},
 		{"time": "1:42", "joke": "U Guessed It - OG Maco"},
-		{"time": "1:43", "joke": "Body Rock - WarioWare D.I.Y.."},
+		{"time": "1:43", "joke": "Body Rock - WarioWare D.I.Y."},
 		{"time": "1:43", "joke": "U Guessed It - OG Maco"},
 		{"time": "1:43", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "1:43", "joke": "Take On Me - a-ha"},
@@ -79245,7 +79224,7 @@ const db = {
 	"wiki": "https://siivagunner.wiki/wiki/Salvator%20-%20Dance%20Doom",
 	"joke": [
 		{"time": "0:00", "joke": "The Nutshack Theme - NUMP"},
-		{"time": "0:14", "joke": "I'm a Mod (Igloo Music) - Club Penguin - Childish Gambino / SiIvaGunner"},
+		{"time": "0:14", "joke": "Bonfire - Childish Gambino"},
 		{"time": "0:33", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin"},
 		{"time": "0:33", "joke": "Space Jam - Quad City DJ's"},
 		{"time": "0:48", "joke": "DK Rap - Donkey Kong 64"},
@@ -79325,7 +79304,7 @@ const db = {
 		{"time": "1:50", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg"},
 		{"time": "2:06", "joke": "September - Earth, Wind & Fire"},
 		{"time": "2:06", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin"},
-		{"time": "2:15", "joke": "Snow halation - Love Live!, µ's, µ's"},
+		{"time": "2:15", "joke": "Snow halation - Love Live!, µ's"},
 		{"time": "2:22", "joke": "One-Winged Angel - Final Fantasy VII"},
 		{"time": "2:43", "joke": "Under Pressure - Queen, David Bowie"},
 		{"time": "2:46", "joke": "Windowlicker - Aphex Twin"},
@@ -79508,7 +79487,7 @@ const db = {
 		{"time": "0:13", "joke": "Puzzle Room - Kirby Planet Robobot"},
 		{"time": "0:53", "joke": "Continue? - Felix the Cat"},
 		{"time": "1:05", "joke": "U Guessed It - OG Maco"},
-		{"time": "1:21", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin, Hoyt Curtin"}],
+		{"time": "1:21", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin"}],
 	"artist": "Dead Line"},
 "pQR49_TYysk": {
 	"title": "Beast Ganon Battle - The Legend of Zelda: Twilight Princess",
@@ -79582,7 +79561,7 @@ const db = {
 		{"time": "0:39", "joke": "Nico Nico Nii! - Love Live!"},
 		{"time": "0:41", "joke": "Unknown from M.E. - Sonic Adventure"},
 		{"time": "0:45", "joke": "Crank That - Soulja Boy"},
-		{"time": "0:47", "joke": "Ghostbusters - Ray Parker Jr.."},
+		{"time": "0:47", "joke": "Ghostbusters - Ray Parker Jr."},
 		{"time": "0:49", "joke": "The Nutshack Theme - NUMP"},
 		{"time": "0:51", "joke": "Virgin logo - Mick & Mack Global Gladiators"}],
 	"artist": "Truongasm"},
@@ -79837,7 +79816,7 @@ const db = {
 		{"time": "0:00", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin"},
 		{"time": "0:30", "joke": "POKEMON GO SONG!!! - Mishovy silenosti (Misha)"},
 		{"time": "0:37", "joke": "Levels - Avicii"},
-		{"time": "0:58", "joke": "The Nutshack Theme - NUMP, NUMP"}],
+		{"time": "0:58", "joke": "The Nutshack Theme - NUMP"}],
 	"artist": "Le Ruse Bird"},
 "JHqpxXT_rDw": {
 	"title": "Title Screen - Decap Attack",
@@ -79856,7 +79835,7 @@ const db = {
 	"joke": [
 		{"time": "6:26, 0:41, 1:27", "joke": "Snow halation - Love Live!, µ's"},
 		{"time": "6:54, 1:02, 1:16, 4:07", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin"},
-		{"time": "7:49, 1:33, 2:04", "joke": "The Nutshack Theme - NUMP, NUMP"},
+		{"time": "7:49, 1:33, 2:04", "joke": "The Nutshack Theme - NUMP"},
 		{"time": "6:02, 1:46, 3:17", "joke": "Megalovania - Toby Fox"},
 		{"time": "2:08", "joke": "The Simpsons Main Title Theme - The Simpsons, Danny Elfman"},
 		{"time": "2:18", "joke": "Family Guy Main Title - Family Guy, Walter Murphy"},
@@ -79885,9 +79864,9 @@ const db = {
 	"wiki": "https://siivagunner.wiki/wiki/Kirby%20Collecting%20(Beta%20Mix)%20-%20Kirby%20Mass%20Attack",
 	"joke": [
 		{"time": "0:31, 0:03", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin"},
-		{"time": "0:37, 0:10", "joke": "Snow halation - Love Live!, µ's, µ's"},
+		{"time": "0:37, 0:10", "joke": "Snow halation - Love Live!, µ's"},
 		{"time": "0:44, 0:17", "joke": "Night Walk - Rhythm Tengoku"},
-		{"time": "0:51, 0:24", "joke": "The Nutshack Theme - NUMP, NUMP"},
+		{"time": "0:51, 0:24", "joke": "The Nutshack Theme - NUMP"},
 		{"time": "0:58", "joke": "Howie scream - Howie Long"}],
 	"artist": "Akfamilyhome"},
 "1NAG0iytjg0": {
@@ -79973,39 +79952,39 @@ const db = {
 	"title": "Professional Problem - LSD: Dream Emulator",
 	"wiki": "https://siivagunner.wiki/wiki/Professional%20Problem%20-%20LSD%3A%20Dream%20Emulator",
 	"joke": [
-		{"time": "0:00", "joke": "Ghostbusters - Ray Parker Jr.."},
+		{"time": "0:00", "joke": "Ghostbusters - Ray Parker Jr."},
 		{"time": "0:02", "joke": "Bandz A Make Her Dance - Juicy J, Lil Wayne, 2 Chainz"},
 		{"time": "0:02", "joke": "Zant Battle - The Legend of Zelda: Twilight Princess"},
 		{"time": "0:14", "joke": "Russkij Pusskij - Carlito"},
-		{"time": "0:21", "joke": "Ghostbusters - Ray Parker Jr.."},
+		{"time": "0:21", "joke": "Ghostbusters - Ray Parker Jr."},
 		{"time": "0:27", "joke": "My Boo - Ghost Town DJ's"},
-		{"time": "0:34", "joke": "Ghostbusters - Ray Parker Jr.."},
+		{"time": "0:34", "joke": "Ghostbusters - Ray Parker Jr."},
 		{"time": "0:46", "joke": "POKEMON GO SONG!!! - Mishovy silenosti (Misha)"},
-		{"time": "0:50", "joke": "Ghostbusters - Ray Parker Jr.."},
+		{"time": "0:50", "joke": "Ghostbusters - Ray Parker Jr."},
 		{"time": "0:53", "joke": "GRAND DAD - Vinesauce Joel"},
-		{"time": "0:56", "joke": "Ghostbusters - Ray Parker Jr.."},
+		{"time": "0:56", "joke": "Ghostbusters - Ray Parker Jr."},
 		{"time": "0:59", "joke": "The Nutshack Theme - NUMP"},
 		{"time": "1:12", "joke": "Sweet Soul Brother - Jet Set Radio"},
 		{"time": "1:29", "joke": "Hotline Bling - Drake"},
 		{"time": "1:56", "joke": "Feel Good Inc. - Gorillaz ft. De La Soul"},
 		{"time": "2:03", "joke": "Zant Battle - The Legend of Zelda: Twilight Princess"},
 		{"time": "2:08", "joke": "Crank That - Soulja Boy"},
-		{"time": "2:11", "joke": "Ghostbusters - Ray Parker Jr.."},
+		{"time": "2:11", "joke": "Ghostbusters - Ray Parker Jr."},
 		{"time": "2:48", "joke": "Kiss Me Thru the Phone - Soulja Boy ft. Sammie"},
 		{"time": "3:00", "joke": "Crank That - Soulja Boy"},
 		{"time": "3:01", "joke": "Slob On My Knob - Three 6 Mafia"},
 		{"time": "3:01", "joke": "Zant Battle - The Legend of Zelda: Twilight Princess"},
 		{"time": "3:06", "joke": "Shake That Ass Bitch - Booty Bass"},
 		{"time": "3:14", "joke": "Macklemore ACLU Card Advertisement - ACLU"},
-		{"time": "3:14", "joke": "Ghostbusters - Ray Parker Jr.."},
+		{"time": "3:14", "joke": "Ghostbusters - Ray Parker Jr."},
 		{"time": "3:20", "joke": "Snow halation - Love Live!, µ's"},
 		{"time": "3:28", "joke": "GO MY WAY!! - THE iDOLM@STER"},
 		{"time": "3:33", "joke": "Funny Little Man - Aphex Twin"},
-		{"time": "3:33", "joke": "Ghostbusters - Ray Parker Jr.."},
+		{"time": "3:33", "joke": "Ghostbusters - Ray Parker Jr."},
 		{"time": "3:46", "joke": "World's Loudest Orgasm - Creampie Cathy"},
-		{"time": "3:52", "joke": "Ghostbusters - Ray Parker Jr.."},
+		{"time": "3:52", "joke": "Ghostbusters - Ray Parker Jr."},
 		{"time": "3:52", "joke": "Funny Little Man - Aphex Twin"},
-		{"time": "4:18", "joke": "Ghostbusters - Ray Parker Jr.."},
+		{"time": "4:18", "joke": "Ghostbusters - Ray Parker Jr."},
 		{"time": "4:30", "joke": "GRAND DAD - Vinesauce Joel"},
 		{"time": "4:37", "joke": "Snow halation - Love Live!, µ's"},
 		{"time": "4:43", "joke": "Ghostbusters - Ray Parker Jr."}],
@@ -80148,7 +80127,7 @@ const db = {
 		{"time": "0:54, 0:48", "joke": "Crank That - Soulja Boy"},
 		{"time": "1:38", "joke": "SEGA Chant - Sega Games Co., Ltd."},
 		{"time": "1:48", "joke": "Crank That - Soulja Boy"},
-		{"time": "4:35", "joke": "Ghostbusters - Ray Parker Jr.."},
+		{"time": "4:35", "joke": "Ghostbusters - Ray Parker Jr."},
 		{"time": "4:54", "joke": "Crank That - Soulja Boy"}],
 	"artist": "MaxTrax"},
 "-g80cd2JQjM": {
@@ -80178,7 +80157,7 @@ const db = {
 		{"time": "2:23", "joke": "Crank That - Soulja Boy"},
 		{"time": "2:28", "joke": "World's Loudest Orgasm - Creampie Cathy"},
 		{"time": "2:29", "joke": "Megalovania - Undertale"},
-		{"time": "3:06", "joke": "The Nutshack Theme - NUMP, NUMP"}],
+		{"time": "3:06", "joke": "The Nutshack Theme - NUMP"}],
 	"artist": "megamanlego"},
 "rFuW9_T8iqg": {
 	"title": "Hypnosis - Gran Turismo 4",
@@ -80187,7 +80166,7 @@ const db = {
 		{"time": "0:11", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin"},
 		{"time": "0:16", "joke": "GRAND DAD - Vinesauce Joel"},
 		{"time": "0:30", "joke": "Snow halation - Love Live!, µ's"},
-		{"time": "0:47", "joke": "The Nutshack Theme - NUMP, NUMP"},
+		{"time": "0:47", "joke": "The Nutshack Theme - NUMP"},
 		{"time": "1:07", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "1:36", "joke": "Rainbow Tylenol - Kitsune^2"},
 		{"time": "1:45", "joke": "World's Loudest Orgasm - Creampie Cathy"}],
@@ -80269,7 +80248,6 @@ const db = {
 		{"time": "0:53", "joke": "Snow halation - Love Live!, µ's, the µ's"},
 		{"time": "1:11", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin"},
 		{"time": "1:29", "joke": "GO MY WAY!! - THE iDOLM@STER"},
-		{"time": "1:53, 1:36", "joke": "Eight Melodies - EarthBound Beginnings/MOTHER"},
 		{"time": "2:05", "joke": "GO MY WAY!! - THE iDOLM@STER"},
 		{"time": "2:23", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin"},
 		{"time": "2:39", "joke": "Hotline Bling - Drake"},
@@ -80405,7 +80383,7 @@ const db = {
 		{"time": "0:57, 0:28", "joke": "Night Walk - Rhythm Tengoku"},
 		{"time": "1:04, 0:35", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin"},
 		{"time": "1:11", "joke": "Snow halation - Love Live!, µ's, the µ's"},
-		{"time": "1:47, 1:40", "joke": "The Nutshack Theme - NUMP, NUMP"}],
+		{"time": "1:47, 1:40", "joke": "The Nutshack Theme - NUMP"}],
 	"artist": "Akfamilyhome"},
 "yzGdvNgXVmY": {
 	"title": "Let's Try - Super Mario RPG",
@@ -80605,7 +80583,7 @@ const db = {
 	"title": "Record ~ The Chimps - WarioWare D.I.Y",
 	"wiki": "https://siivagunner.wiki/wiki/Record%20~%20The%20Chimps%20-%20WarioWare%20D.I.Y.",
 	"joke": [
-		{"time": "0:12", "joke": "The The Bare Necessities - The Jungle Book"},
+		{"time": "0:12", "joke": "The Bare Necessities - The Jungle Book"},
 		{"time": "0:36", "joke": "Let It Go - Frozen"},
 		{"time": "0:54", "joke": "When You Wish Upon a Star - Pinocchio"},
 		{"time": "1:00", "joke": "A Whole New World - Aladdin"},
@@ -80632,7 +80610,7 @@ const db = {
 		{"time": "1:14-1:26", "joke": "Megalovania - Undertale"},
 		{"time": "1:14-1:31", "joke": "DK Rap - Donkey Kong 64"},
 		{"time": "1:25-1:37", "joke": "Onett - EarthBound"},
-		{"time": "1:31-1:37", "joke": "DK Rap - Donkey Kong 64 - SiIvaGunner"},
+		{"time": "1:31-1:37", "joke": "DK Rap - Donkey Kong 64"},
 		{"time": "1:37-1:48", "joke": "Gangnam Style - PSY"},
 		{"time": "1:48-1:59", "joke": "Fuck Bees - happening.tv"},
 		{"time": "1:59-2:01", "joke": "John Cena phone scam - Z Morning Zoo"},
@@ -80671,7 +80649,6 @@ const db = {
 		{"time": "2:38, 0:00", "joke": "Snow halation - Love Live!, µ's"},
 		{"time": "2:50, 0:34, 2:15", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin"},
 		{"time": "3:02, 0:46", "joke": "Family Guy Main Title - Family Guy"},
-		{"time": "0:58", "joke": "Reprise of the melody beginning at 0:22 - Family Guy"},
 		{"time": "1:33", "joke": "GO MY WAY!! - THE iDOLM@STER"},
 		{"time": "1:40", "joke": "His Theme - Undertale"},
 		{"time": "1:52", "joke": "All Star - Smash Mouth"},
@@ -80702,6 +80679,7 @@ const db = {
 	"artist": "experimental minotaur"},
 "dC23kiLmt40": {
 	"title": "Game Over - 3D Pinball: Space Cadet",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Game%20Over%20-%203D%20Pinball%3A%20Space%20Cadet",
 	"joke": [
 		{"time": "0:00", "joke": "The Simpsons Main Title Theme - The Simpsons"},
@@ -80717,14 +80695,14 @@ const db = {
 		{"time": "0:57", "joke": "Howie scream - Howie Long"},
 		{"time": "1:11", "joke": "World's Loudest Orgasm - Creampie Cathy"},
 		{"time": "1:41, 1:19", "joke": "GO MY WAY!! - THE iDOLM@STER"},
-		{"time": "1:32, 1:24", "joke": "Snow halation - Love Live!, µ's, µ's"},
+		{"time": "1:32, 1:24", "joke": "Snow halation - Love Live!, µ's"},
 		{"time": "3:15, 2:16, 2:25, 2:31, 2:39, 2:46", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin"},
 		{"time": "3:41, 2:19, 2:27, 2:33, 2:41, 3:11, 3:26", "joke": "GRAND DAD - Vinesauce Joel"},
 		{"time": "2:42", "joke": "September - Earth, Wind & Fire"},
 		{"time": "3:23, 2:53", "joke": "The Simpsons Main Title Theme - The Simpsons"},
-		{"time": "3:01", "joke": "Snow halation - Love Live!, µ's, µ's"},
+		{"time": "3:01", "joke": "Snow halation - Love Live!, µ's"},
 		{"time": "3:08", "joke": "GO MY WAY!! - THE iDOLM@STER"},
-		{"time": "3:30", "joke": "Snow halation - Love Live!, µ's, µ's"},
+		{"time": "3:30", "joke": "Snow halation - Love Live!, µ's"},
 		{"time": "3:38", "joke": "GO MY WAY!! - THE iDOLM@STER"}],
 	"artist": "beat_shobon"},
 "8U3dFB49gbU": {
@@ -80803,7 +80781,7 @@ const db = {
 		{"time": "15:12", "joke": "Stairway to Heaven - Led Zeppelin"},
 		{"time": "15:34", "joke": "Fallen Angels - Nemesis / iCE, REM"},
 		{"time": "15:56", "joke": "Popit Academy, Term 1 - LittleBigPlanet 3"},
-		{"time": "16:15", "joke": "Old MacDonald Had a Farm - Children's song"},
+		{"time": "16:15", "joke": "Old MacDonald Had a Farm - Nursery rhyme"},
 		{"time": "16:35", "joke": "The Moon Theme - DuckTales"},
 		{"time": "16:55", "joke": "Garden Theme - LittleBigPlanet"},
 		{"time": "17:15", "joke": "Greenhorn Forest - Wario World"},
@@ -80953,7 +80931,7 @@ const db = {
 		{"time": "1:14", "joke": "Family Guy Main Title - Family Guy"}],
 	"artist": "Blazephlozard"},
 "3LwrzFBK2IQ": {
-	"title": "Athletic Theme - Yoshi's Island",
+	"title": "Athletic Theme - Super Mario World 2: Yoshi's Island",
 	"wiki": "https://siivagunner.wiki/wiki/Athletic%20Theme%20-%20Yoshi's%20Island",
 	"joke": [
 		{"time": "0:32", "joke": "Athletic Theme - Super Mario World"},
@@ -81000,7 +80978,7 @@ const db = {
 	"title": "YKYrococ (World 6 Levels) - Mario Forever",
 	"wiki": "https://siivagunner.wiki/wiki/YKYrococ%20(World%206%20Levels)%20-%20Mario%20Forever",
 	"joke": [
-		{"time": "0:11", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin, Hoyt Curtin"},
+		{"time": "0:11", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin"},
 		{"time": "0:42", "joke": "His Theme - Undertale"},
 		{"time": "1:11", "joke": "Gaster's Theme - Undertale"},
 		{"time": "1:28", "joke": "Ghost Fight - Undertale"},
@@ -81027,7 +81005,7 @@ const db = {
 		{"time": "0:04", "joke": "Everybody Needs A 303 - Fatboy Slim"},
 		{"time": "0:07", "joke": "Uptown Funk - Mark Ronson ft. Bruno Mars"},
 		{"time": "1:38", "joke": "Baby Baby!! - UmJammer Lammy"},
-		{"time": "3:07", "joke": "GRAND DAD?! - GRAND DAD - Vinesauce Joel"},
+		{"time": "3:07", "joke": "GRAND DAD - Vinesauce Joel"},
 		{"time": "3:11", "joke": "History of Grand Dad - ytp4life"},
 		{"time": "4:12", "joke": "Feeder - Technikore, JTS, Al Storm & Weaver"},
 		{"time": "4:35", "joke": "Bonkers - Dizzee Rascal"},
@@ -81213,8 +81191,7 @@ const db = {
 		{"time": "0:31", "joke": "Beloved Tomboyish Girl - Touhou 6: the Embodiment of Scarlet Devil"},
 		{"time": "0:40", "joke": "Geothermal - Cave Story"},
 		{"time": "0:47", "joke": "Popcorn - Gershon Kingsley"},
-		{"time": "0:56", "joke": "Bonetrousle - Undertale - Gershon Kingsley"},
-		{"time": "1:08", "joke": "repeat of 1:04 - 1:07 - Undertale - Gershon Kingsley"},
+		{"time": "0:56", "joke": "Bonetrousle - Undertale"},
 		{"time": "1:11", "joke": "Roundabout - Yes"},
 		{"time": "1:20", "joke": "Song That Might Play When You Fight Sans - Undertale"}],
 	"artist": "LuNiney"},
@@ -81472,7 +81449,7 @@ const db = {
 	"wiki": "https://siivagunner.wiki/wiki/One%20Minute%20To%20Win%20It!%20-%20Disney%20Infinity",
 	"joke": [
 		{"time": "0:00", "joke": "Bangarang - Skrillex"},
-		{"time": "0:00", "joke": "Ghostbusters - Ray Parker Jr.."},
+		{"time": "0:00", "joke": "Ghostbusters - Ray Parker Jr."},
 		{"time": "0:05, 0:23, 0:50, 1:05", "joke": "Gangnam Style - PSY"},
 		{"time": "0:05", "joke": "Uptown Funk - Mark Ronson ft. Bruno Mars"},
 		{"time": "0:09", "joke": "Bonfire - Childish Gambino"},
@@ -81499,7 +81476,6 @@ const db = {
 	"title": "Chaos Angel (Act 1) - Sonic Advance 3",
 	"wiki": "https://siivagunner.wiki/wiki/Chaos%20Angel%20(Act%201)%20-%20Sonic%20Advance%203",
 	"joke": [
-		{"time": "0:05", "joke": "OH DIOS MIO - Vinesauce Joel"},
 		{"time": "0:06, 0:25, 0:37 - 0:42, 0:48 - 0:54, 1:20", "joke": "World's Loudest Orgasm - Creampie Cathy"},
 		{"time": "0:15", "joke": "Duel of the Fates - John Williams"},
 		{"time": "0:19 - 0:23, 0:31 - 0:36", "joke": "Axel F (Beverly Hills Cop / Crazy Frog) - Harold Faltermeyer"},
@@ -81687,8 +81663,8 @@ const db = {
 		{"time": "0:13", "joke": "Pretty Boy Swag - Soulja Boy"},
 		{"time": "0:25", "joke": "Gabe the Dog - deathtrips / gravycp"},
 		{"time": "0:40", "joke": "GRAND DAD - Vinesauce Joel"},
-		{"time": "0:49", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin,"},
-		{"time": "1:16", "joke": "Hard in da Paint - Waka Flocka Flame Flame"},
+		{"time": "0:49", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin"},
+		{"time": "1:16", "joke": "Hard in da Paint - Waka Flocka Flame"},
 		{"time": "1:25", "joke": "Steppin' on the Beach - SpongeBob SquarePants"},
 		{"time": "1:28", "joke": "Doin' Your Mom - FAttY SPiNS"},
 		{"time": "1:28", "joke": "Dogsong - Undertale"},
@@ -81764,7 +81740,7 @@ const db = {
 	"joke": [
 		{"time": "0:12", "joke": "the new rick rolld - wtfradio1000"},
 		{"time": "0:14", "joke": "Crank That - Soulja Boy"},
-		{"time": "0:16", "joke": "Suneo's Bragging Theme - Doraemon (1979) (1979)"},
+		{"time": "0:16", "joke": "Suneo's Bragging Theme - Doraemon (1979)"},
 		{"time": "0:18", "joke": "Bopeebo - Friday Night Funkin'"},
 		{"time": "0:20", "joke": "Under Pressure - Queen, David Bowie"},
 		{"time": "0:22", "joke": "Green Greens - Kirby Triple Deluxe"},
@@ -81902,7 +81878,7 @@ const db = {
 		{"time": "4:48", "joke": "Don't Laugh - Winx"},
 		{"time": "4:50", "joke": "Colorblind - Panda Eyes"},
 		{"time": "4:52", "joke": "I Show The Meat - DaddySpeed"},
-		{"time": "4:54", "joke": "Ghostbusters - Ray Parker Jr.."},
+		{"time": "4:54", "joke": "Ghostbusters - Ray Parker Jr."},
 		{"time": "4:56", "joke": "Funkytown - Lipps Inc."},
 		{"time": "4:58", "joke": "Whistle - Joel Merry"},
 		{"time": "5:00", "joke": "Secret Course: Sky & Sea - Super Mario Sunshine"},
@@ -81912,11 +81888,10 @@ const db = {
 		{"time": "5:08", "joke": "Bling-Bang-Bang-Born - Creepy Nuts, Mashle: Magic and Muscles"},
 		{"time": "5:10", "joke": "Dynamite - Taio Cruz"},
 		{"time": "5:12", "joke": "drankdrankdrank - Nettspend"},
-		{"time": "5:14", "joke": "Pull Up Fo Fo Da Fo Fo - Unknown"},
 		{"time": "5:16", "joke": "King Kunta - Kendrick Lamar"},
 		{"time": "5:18", "joke": "THEY NOT LIKE US PHONK BRAZILIAN - ChillPanic"},
 		{"time": "5:20", "joke": "Bad Romance - Lady Gaga"},
-		{"time": "5:22", "joke": "UNDERTALE THE MUSICAL - LHUGUENY"},
+		{"time": "5:22", "joke": "UNDERTALE THE MUSICAL (Story of Undertale) - LHUGUENY"},
 		{"time": "5:24", "joke": "Down with the Sickness - Disturbed"},
 		{"time": "5:26", "joke": "Space Jam - Quad City DJ's"},
 		{"time": "5:28", "joke": "Rolex - Ayo & Teo"},
@@ -81940,7 +81915,7 @@ const db = {
 		{"time": "6:06", "joke": "Girls Like You - Maroon 5, Cardi B"},
 		{"time": "6:08", "joke": "What Is Love - Haddaway"},
 		{"time": "6:10", "joke": "Don't Stop Believing - Journey"},
-		{"time": "6:12", "joke": "No More Nuzzles - UNDERTALE: Halloween Hack"},
+		{"time": "6:12", "joke": "No More Nuzzles - Undertale: Halloween Hack"},
 		{"time": "6:14", "joke": "Imposter Imperceptible - NerdOut!"},
 		{"time": "6:16", "joke": "Subways Of Your Mind - FEX"},
 		{"time": "6:18", "joke": "Smooth - Santana ft. Rob Thomas"},
@@ -82069,6 +82044,7 @@ const db = {
 	"artist": "Madinstance"},
 "yFFk3RVbAY8": {
 	"title": "Old MacDonald Had a Farm - Fisher-Price Perfect Fit",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Old%20MacDonald%20Had%20a%20Farm%20-%20Fisher-Price%20Perfect%20Fit",
 	"joke": "INDUSTRY BABY - Lil Nas X and Jack Harlow",
 	"artist": "Heboyi"},
@@ -82087,7 +82063,7 @@ const db = {
 		{"time": "1:59", "joke": "Can You Really Call This A Hotel, I Didn't Receive A Mint On My Pillow Or Anything - Undertale"},
 		{"time": "2:15", "joke": "Here We Are - Undertale"},
 		{"time": "2:44", "joke": "Bergentrückung - Undertale"},
-		{"time": "3:10", "joke": "Hopes and Dreams"}],
+		{"time": "3:10", "joke": "Hopes and Dreams - Undertale"}],
 	"artist": "Blookerstein, Madinstance, minindo"},
 "1xAdnl3apUo": {
 	"title": "Estir - Harpsichord + Continuo - Sucker for Love: First Date",
@@ -82156,7 +82132,7 @@ const db = {
 		{"time": "5:01", "joke": "World's Loudest Orgasm - Creampie Cathy"}],
 	"artist": "ludosmo"},
 "NplJ1ciVpD4": {
-	"title": "Castle & Fortress (King Bowser's Castle) - Yoshi's Island",
+	"title": "Castle & Fortress (King Bowser's Castle) - Super Mario World 2: Yoshi's Island",
 	"wiki": "https://siivagunner.wiki/wiki/Castle%20%26%20Fortress%20(King%20Bowser's%20Castle)%20-%20Yoshi's%20Island",
 	"joke": [
 		{"time": "0:00-12:54", "joke": "Piano Sonata No. 14 (Moonlight Sonata) - Ludwig van Beethoven"},
@@ -82470,7 +82446,7 @@ const db = {
 		{"time": "1:01", "joke": "DK Rap - Donkey Kong 64"},
 		{"time": "1:16", "joke": "The Bear Cha-Cha-Cha - Bear in the Big Blue House"},
 		{"time": "1:31", "joke": "Pico - Friday Night Funkin'"},
-		{"time": "1:45", "joke": "That's What I Like - Bruno Mars, rf9weu8hjf789234hf9"},
+		{"time": "1:45", "joke": "That's What I Like - Bruno Mars"},
 		{"time": "2:00", "joke": "Instrument Swap/Arrangement - Orchestral"},
 		{"time": "2:15", "joke": "Koopa's Road - Super Mario 64"},
 		{"time": "2:43", "joke": "Let Mom Sleep - Jet Set Radio, Chase Beck"},
@@ -82487,7 +82463,7 @@ const db = {
 		{"time": "5:23", "joke": "Spicy Calamari Inkantation - Splatoon 2"},
 		{"time": "5:38", "joke": "Flowers of Antimony (The Explodatorium) - Shovel Knight"},
 		{"time": "5:53", "joke": "mm2wood.mid (Wood Man MIDI) - Mingo Games Ltd., Mingo Games"},
-		{"time": "6:07", "joke": "Body Rock - WarioWare D.I.Y.."},
+		{"time": "6:07", "joke": "Body Rock - WarioWare D.I.Y."},
 		{"time": "6:22", "joke": "World Map - Link: The Faces of Evil"},
 		{"time": "6:36", "joke": "Instrument Swap/Arrangement - A Capella"},
 		{"time": "6:51", "joke": "Tanukichi no Bouken - MAKOOTO"},
@@ -82517,7 +82493,7 @@ const db = {
 		{"time": "6:28, 4:46", "joke": "You Were Wrong. Go Back. - NEVER/ALWAYS - OMORI"},
 		{"time": "7:35, 5:52", "joke": "The Elegance of the Mysterious and Distant - OMORI"},
 		{"time": "8:11", "joke": "Your Catastrophes - Procession - OMORI"},
-		{"time": "8:16", "joke": "World's End Valentine - Procession - OMORI"},
+		{"time": "8:16", "joke": "World's End Valentine - OMORI"},
 		{"time": "11:29", "joke": "OMORI - OMORI"},
 		{"time": "11:47", "joke": "OMORI - ALTER - OMORI"},
 		{"time": "11:55, 14:27", "joke": "Forest Frenzy - ALTER - OMORI"},
@@ -82677,7 +82653,7 @@ const db = {
 		{"time": "1:30", "joke": "Angel Island Zone (Act 1) - Sonic the Hedgehog 3 & Knuckles"},
 		{"time": "1:43", "joke": "Emerald Hill Zone - Sonic the Hedgehog 2"},
 		{"time": "1:56", "joke": "Green Hill Zone - Sonic the Hedgehog"},
-		{"time": "2:21", "joke": "Palmtree Panic (JP/PAL) - Sonic CD"},
+		{"time": "2:21", "joke": "Palmtree Panic (JPN/PAL) - Sonic CD"},
 		{"time": "2:47", "joke": "Green Hill Zone - Sonic the Hedgehog (Game Gear/Master System)"},
 		{"time": "3:15", "joke": "Sunset Hill (Act 1) - Sonic Advance 3"},
 		{"time": "3:41", "joke": "Green Hill Zone - Sonic the Hedgehog"}],
@@ -83006,7 +82982,7 @@ const db = {
 	"joke": [
 		{"time": "0:06", "joke": "N. Sanity Beach - Crash Bandicoot"},
 		{"time": "0:09", "joke": "Smoke On the Water - Deep Purple"},
-		{"time": "0:12", "joke": "Stardust Speedway Bad Future (JP/PAL) - Sonic CD"},
+		{"time": "0:12", "joke": "Stardust Speedway Bad Future (JPN/PAL) - Sonic CD"},
 		{"time": "0:19", "joke": "BIG CHUNGUS | Official Main Theme - Endigo"},
 		{"time": "0:25", "joke": "Gas Gas Gas - Manuel"},
 		{"time": "0:28", "joke": "The Lick"},
@@ -83204,7 +83180,7 @@ const db = {
 		{"time": "0:29", "joke": "Snow halation - Love Live!, µ's"},
 		{"time": "0:43", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin"},
 		{"time": "1:12", "joke": "Title Screen (Discovery) - Sonic Mania"},
-		{"time": "1:16", "joke": "Stardust Speedway Bad Future (JP/PAL) - Sonic CD"},
+		{"time": "1:16", "joke": "Stardust Speedway Bad Future (JPN/PAL) - Sonic CD"},
 		{"time": "1:23", "joke": "Green Hill Zone - Sonic the Hedgehog"},
 		{"time": "1:26", "joke": "The Lick"},
 		{"time": "1:32", "joke": "Chemical Plant Zone - Sonic the Hedgehog 2"},
@@ -83263,7 +83239,7 @@ const db = {
 		{"time": "0:12", "joke": "I'll Be Your Everything - Youngstown"},
 		{"time": "0:23", "joke": "The Angry Video Game Nerd theme - The Angry Video Game Nerd"},
 		{"time": "0:33", "joke": "Bad Apple!! feat.nomico - Alstroemeria Records"},
-		{"time": "0:54", "joke": "It's Everyday Bro - Jake Paul ft. Team 10 ft. Team 10"},
+		{"time": "0:54", "joke": "It's Everyday Bro - Jake Paul ft. Team 10"},
 		{"time": "0:59", "joke": "Inspector Gadget Theme - Shuki Levy"},
 		{"time": "1:05", "joke": "Close Your Eyes - G-Senjou no Maou"},
 		{"time": "1:15", "joke": "Hate not the Wind, Spring Blossoms ~ Eternal Wind - Touhou: Book of Star Mythology"}],
@@ -83407,7 +83383,7 @@ const db = {
 		{"time": "1:06", "joke": "U.N. Owen Was Her? - Touhou 6: the Embodiment of Scarlet Devil"},
 		{"time": "1:12", "joke": "Megalovania - Toby Fox"},
 		{"time": "1:18", "joke": "Bad Apple!! feat.nomico - Alstroemeria Records"},
-		{"time": "1:24", "joke": "Ghostbusters - Ray Parker Jr.."}],
+		{"time": "1:24", "joke": "Ghostbusters - Ray Parker Jr."}],
 	"artist": "Lenox"},
 "IwBVndUhku4": {
 	"title": "Freeway - Duke Nukem 3D",
@@ -83517,7 +83493,7 @@ const db = {
 		{"time": "0:37 - 1:07", "joke": "The Nutshack - NUMP"},
 		{"time": "0:52 - 1:07", "joke": "Inspector Gadget Theme - Shuki Levy"},
 		{"time": "1:08 - 1:22", "joke": "U Guessed It - OG Maco"},
-		{"time": "1:22 - 1:30", "joke": "Body Rock - WarioWare D.I.Y.."},
+		{"time": "1:22 - 1:30", "joke": "Body Rock - WarioWare D.I.Y."},
 		{"time": "1:30 - 1:45", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin"}],
 	"artist": "Dirty Spaceman"},
 "vxJ1foKi300": {
@@ -83585,7 +83561,7 @@ const db = {
 		{"time": "0:19", "joke": "Megalovania - Undertale"},
 		{"time": "0:21", "joke": "Kazoo - Warren Herbert Frost"},
 		{"time": "0:22", "joke": "Howie Scream - Howie Long"},
-		{"time": "0:24", "joke": "The Love Plug - efukt.com.com"},
+		{"time": "0:24", "joke": "The Love Plug - efukt.com"},
 		{"time": "0:25", "joke": "Unknown from M.E. - Sonic Adventure"},
 		{"time": "0:25", "joke": "World's Loudest Orgasm - Creampie Cathy"}],
 	"artist": "JoeBro"},
@@ -83599,7 +83575,7 @@ const db = {
 		{"time": "0:10, 4:50", "joke": "3005 - Childish Gambino"},
 		{"time": "0:18", "joke": "This Love - Maroon 5"},
 		{"time": "1:12", "joke": "Makes Me Wonder - Maroon 5"},
-		{"time": "4:33", "joke": "She Will Be Loved"}],
+		{"time": "4:33", "joke": "She Will Be Loved - Maroon 5"}],
 	"artist": "Cryptrik"},
 "DA6kykaoz3U": {
 	"title": "Ordeal! (Electric) - Team Kirby Clash Deluxe",
@@ -83729,7 +83705,7 @@ const db = {
 		{"time": "5:08", "joke": "Stickerbush Symphony - Donkey Kong Country 2: Diddy's Kong Quest"},
 		{"time": "5:52", "joke": "Lively Spring Festival - 知らない者"},
 		{"time": "6:18", "joke": "Chocobo Theme - Final Fantasy series"},
-		{"time": "6:48", "joke": "Pump It - The Black Eyed Peas (original by Dick Dale)"},
+		{"time": "6:48", "joke": "Pump It - Black Eyed Peas"},
 		{"time": "7:47", "joke": "Death by Glamour - Undertale"},
 		{"time": "8:36", "joke": "Storming Path - Korean Kinnikuman Nisei OP"},
 		{"time": "9:44", "joke": "Love B.B.B. - Beatmania IIDX 19 Lincle"}],
@@ -83968,7 +83944,7 @@ const db = {
 		{"time": "13:36", "joke": "Raise your flag - Mobile Suit Gundam: Iron-Blooded Orphans"},
 		{"time": "13:44", "joke": "Stairway to Heaven - Led Zeppelin"},
 		{"time": "13:53", "joke": "GONG - 3rd Super Robot Wars Alpha"},
-		{"time": "14:01", "joke": "Circuit - Punch-Out!!"},
+		{"time": "14:01", "joke": "Fight Theme - Punch-Out!!"},
 		{"time": "14:14", "joke": "Smooth Criminal - Michael Jackson"},
 		{"time": "14:22", "joke": "Axel F (Beverly Hills Cop / Crazy Frog) - Harold Faltermeyer"},
 		{"time": "14:30", "joke": "Yatta! - Green Leaves"},
@@ -84261,7 +84237,7 @@ const db = {
 		{"time": "1:18", "joke": "POKEMON GO SONG!!! - Mishovy silenosti (Misha)"},
 		{"time": "1:25", "joke": "Ievan Polkka - Loituma"},
 		{"time": "1:31", "joke": "A Cruel Angel's Thesis - Neon Genesis Evangelion"},
-		{"time": "1:36", "joke": "Body Rock - WarioWare D.I.Y.."},
+		{"time": "1:36", "joke": "Body Rock - WarioWare D.I.Y."},
 		{"time": "1:42", "joke": "Take On Me - a-ha"},
 		{"time": "1:48", "joke": "Kirby Dance - Kirby's Dream Land"},
 		{"time": "1:55", "joke": "h3h3Productions Theme Song - MajorLeagueWobs / Holder"},
@@ -84390,7 +84366,7 @@ const db = {
 		{"time": "1:11", "joke": "Howie Scream - Howie Long"},
 		{"time": "1:12", "joke": "The Nutshack Theme - NUMP"},
 		{"time": "2:36", "joke": "GRAND DAD - Vinesauce Joel"},
-		{"time": "2:48", "joke": "Ghostbusters - Ray Parker Jr.."},
+		{"time": "2:48", "joke": "Ghostbusters - Ray Parker Jr."},
 		{"time": "3:48", "joke": "The Nutshack Theme - NUMP"}],
 	"artist": "MaxTrax"}
 };
