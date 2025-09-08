@@ -4139,7 +4139,7 @@ const db = {
 	"joke": "Island in the Sun - Weezer",
 	"artist": "SamanthaMK"},
 "ZopCQ7kaKTE": {
-	"title": "Super Mario 3D All-Stars Music SM64 Merry-Go-Round",
+	"title": "Merry-Go-Round - Super Mario 64",
 	"wiki": "https://siivagunner.wiki/wiki/Super%20Mario%203D%20All-Stars%20Music%20SM64%20Merry-Go-Round%20(Alternate%20Version)",
 	"joke": "Minuet / Type A (Version 1.0) - Tetris",
 	"artist": "berg8793"},
@@ -8004,12 +8004,12 @@ const db = {
 	"joke": "Mr. Sunfish - YonKaGor",
 	"artist": "MSL925 the fox"},
 "548ZRnPZtMg": {
-	"title": "Super Mario 3D All-Stars Music SM64 Slider",
+	"title": "Slider - Super Mario 64",
 	"wiki": "https://siivagunner.wiki/wiki/Super%20Mario%203D%20All-Stars%20Music%20SM64%20Slider%20(Deluxe%20Version)",
 	"joke": "Interdimensional Traveler - Kirby's Dream Collection",
 	"artist": "Christopher Moon"},
 "3wT9xBfTNc8": {
-	"title": "Super Mario 3D All-Stars Music SM64 Slider",
+	"title": "Slider - Super Mario 64",
 	"wiki": "https://siivagunner.wiki/wiki/Super%20Mario%203D%20All-Stars%20Music%20SM64%20Slider%20(Deluxe%20Mix)",
 	"joke": "New Challenge Stages - Kirby's Dream Collection",
 	"artist": "Christopher Moon"},
@@ -10884,7 +10884,7 @@ const db = {
 "LPWOF5OiKdE": {
 	"title": "Victory of Puyo Puyo - Super Puyo Puyo",
 	"wiki": "https://siivagunner.wiki/wiki/Victory%20of%20Puyo%20Puyo%20-%20Super%20Puyo%20Puyo",
-	"joke": "Overture - the musical Legally Blonde",
+	"joke": "Overture - Legally Blonde",
 	"artist": "Unknown Ripper"},
 "7YuGgm3z1L4": {
 	"title": "11PM - Animal Crossing: Wild World",
@@ -15725,7 +15725,7 @@ const db = {
 	"joke": "Some Nights - fun.",
 	"artist": "ProcedurallyGeneratedName"},
 "uMLJSzhNn-Y": {
-	"title": "Super Mario 3D All-Stars Music SM64 Slider",
+	"title": "Slider - Super Mario 64",
 	"wiki": "https://siivagunner.wiki/wiki/Super%20Mario%203D%20All-Stars%20Music%20SM64%20Slider%20(Alternative%20Version)",
 	"joke": "Folkin' Around - Panic! At the Disco",
 	"artist": "Emm Bee Sea"},
@@ -16770,7 +16770,7 @@ const db = {
 	"joke": "Sloprano - Conker's Bad Fur Day",
 	"artist": "KnightOfGames"},
 "3eYyC5VdftU": {
-	"title": "Super Mario 3D All-Stars Music SM64 Koopa's Road",
+	"title": "Koopa's Road - Super Mario 64",
 	"wiki": "https://siivagunner.wiki/wiki/Super%20Mario%203D%20All-Stars%20Music%20SM64%20Koopa's%20Road",
 	"joke": "Bob-Omb Battlefield - Super Mario 64",
 	"artist": "mullar"},
@@ -19411,7 +19411,7 @@ const db = {
 	"joke": "74 - Itoki Hana and Toby Fox",
 	"artist": "eg_9371"},
 "nRJ6BrdHguA": {
-	"title": "Super Mario 3D All-Stars Music SM64 Merry-Go-Round",
+	"title": "Merry-Go-Round - Super Mario 64",
 	"wiki": "https://siivagunner.wiki/wiki/Super%20Mario%203D%20All-Stars%20Music%20SM64%20Merry-Go-Round%20(Beta%20Mix)",
 	"joke": "Kass' Theme - The Legend of Zelda: Breath of the Wild",
 	"artist": "xIncisions"},
@@ -22264,7 +22264,7 @@ const db = {
 	"joke": "Sneaky Adventure - Kevin MacLeod",
 	"artist": "circunflexo"},
 "Q6h1DzulUqQ": {
-	"title": "Super Mario 3D All-Stars Music SMS Welcome to Isle Delfino",
+	"title": "Welcome to Isle Delfino - Super Mario Sunshine",
 	"wiki": "https://siivagunner.wiki/wiki/Super%20Mario%203D%20All-Stars%20Music%20SMS%20Welcome%20to%20Isle%20Delfino%20(OST%20Version)",
 	"joke": "Heard 'Em Say - Kanye West ft. Adam Levine",
 	"artist": "Brawlcats"},
@@ -24109,7 +24109,7 @@ const db = {
 	"joke": "Rise - hololive English -Council-",
 	"artist": "Sarvéproductions"},
 "2ol-hfO9IHI": {
-	"title": "Super Mario 3D All-Stars Music SMS Welcome to Isle Delfino",
+	"title": "Welcome to Isle Delfino - Super Mario Sunshine",
 	"wiki": "https://siivagunner.wiki/wiki/Super%20Mario%203D%20All-Stars%20Music%20SMS%20Welcome%20to%20Isle%20Delfino",
 	"joke": "Blueberry Faygo - Lil Mosey",
 	"artist": "Credited to \"Lil Mario\""},
@@ -30861,7 +30861,7 @@ const db = {
 	"joke": "Black Road Nostalgia - Wynncraft",
 	"artist": "JerryStuff (Ro)"},
 "aI_B8GYj4LY": {
-	"title": "Super Mario 3D All-Stars Music SM64 File Select",
+	"title": "File Select - Super Mario 64",
 	"wiki": "https://siivagunner.wiki/wiki/Super%20Mario%203D%20All-Stars%20Music%20SM64%20File%20Select",
 	"joke": "Worldend - Umineko no Naku Koro ni",
 	"artist": "Avolience"},
@@ -36657,7 +36657,7 @@ const db = {
 	"joke": "Puppet (Mary's Theme) - Ib",
 	"artist": "Krizis"},
 "rkqRTGTVT50": {
-	"title": "Super Mario 3D All-Stars Music SM64 Merry-Go-Round",
+	"title": "Merry-Go-Round - Super Mario 64",
 	"wiki": "https://siivagunner.wiki/wiki/Super%20Mario%203D%20All-Stars%20Music%20SM64%20Merry-Go-Round",
 	"joke": "Sis Puella Magica! - Puella Magi Madoka Magica",
 	"artist": "Maggie"},
@@ -39489,7 +39489,7 @@ const db = {
 "Gc7VTdZnkEg": {
 	"title": "Options - Sonic the Hedgehog 2",
 	"wiki": "https://siivagunner.wiki/wiki/Options%20-%20Sonic%20the%20Hedgehog%202",
-	"joke": "They Call Me Sonic - the 1996 album Sonic the Hedgehog",
+	"joke": "They Call Me Sonic - Sonic the Hedgehog (1996 Arcade Album)",
 	"artist": "IzzyKart57"},
 "LSp7hF-Q444": {
 	"title": "King's Room - Super Mario Bros. 3",
@@ -41213,7 +41213,7 @@ const db = {
 "JncjZDJkuzc": {
 	"title": "Special Stage - Sonic Advance 3",
 	"wiki": "https://siivagunner.wiki/wiki/Special%20Stage%20-%20Sonic%20Advance%203",
-	"joke": "Food, Glorious Food - the musical Oliver!",
+	"joke": "Food, Glorious Food - Oliver!",
 	"artist": "Sonicheroesfan1"},
 "yVY3x0EmgFc": {
 	"title": "Ooze - Action 52",
@@ -45683,7 +45683,7 @@ const db = {
 "noxMX6VoMmE": {
 	"title": "Snowdin Town - Undertale",
 	"wiki": "https://siivagunner.wiki/wiki/Snowdin%20Town%20(Console%20Mix)%20-%20Undertale",
-	"joke": "Seasons of Love - the musical Rent",
+	"joke": "Seasons of Love - Rent",
 	"artist": "Eva Twin (previously Vari)"},
 "U7GihiKSaM0": {
 	"title": "G-U-I-L-D - La-Mulana",
@@ -50651,7 +50651,7 @@ const db = {
 	"joke": "I'm Gonna Be (500 Miles) - The Proclaimers",
 	"artist": "Unknown Ripper"},
 "jGDkZS_xr6U": {
-	"title": "Battle! - Pokemon Black & White 2",
+	"title": "Battle! (Champion - Hoenn Version) - Pokemon Black & White 2",
 	"wiki": "https://siivagunner.wiki/wiki/Battle!%20(Champion%20-%20Hoenn%20Version)%20(Beta%20Mix)%20-%20Pok%C3%A9mon%20Black%20%26%20White%202",
 	"joke": "Vs. Champion Steven - Pokemon Ruby & Sapphire",
 	"artist": "Unknown Ripper"},
@@ -58039,7 +58039,7 @@ const db = {
 	"joke": "INDUSTRY BABY - Lil Nas X and Jack Harlow",
 	"artist": "BigBadBlob"},
 "rkqHZgxUt_E": {
-	"title": "Going Somewhere (Mario Party 2) - Mario Party Superstars",
+	"title": "Going Somewhere - Mario Party 2",
 	"wiki": "https://siivagunner.wiki/wiki/Going%20Somewhere%20(Mario%20Party%202)%20-%20Mario%20Party%20Superstars ",
 	"joke": "AA EE OO - Jerma985",
 	"artist": "Sponge Lord"},
@@ -61314,7 +61314,6 @@ const db = {
 		{"time": "0:58", "joke": "Windows - DJ Titon"},
 		{"time": "1:02", "joke": "Faz o sample de Guitarra - DJ Marquinho"},
 		{"time": "1:08", "joke": "Mega Man - Jay Eazy"},
-		{"time": "1:08", "joke": "Mega Man Dropping Jan 7th ‼️ - Jay Eazy"},
 		{"time": "1:09", "joke": "Yes Ma’am - Jay Eazy"},
 		{"time": "1:12", "joke": "I'm Over Here Stroking My Dick I Got Lotion On My Dick Right Now - Stunna Boy Get 'Em"},
 		{"time": "1:18", "joke": "A Ghost's Pumpkin Soup ...for Pumpkin Hill - Sonic Adventure 2"},
@@ -62769,7 +62768,6 @@ const db = {
 		{"time": "1:40", "joke": "Night One - Tate's Journey - The Living Tombstone, Bambee"},
 		{"time": "1:40", "joke": "Five Nights at Freddy's 1 Song - The Living Tombstone"},
 		{"time": "1:43", "joke": "Yankin - Lady"},
-		{"time": "1:47", "joke": "jumpscare - Five Nights at Freddy's"},
 		{"time": "1:47", "joke": "Night One - Tate's Journey - The Living Tombstone, Bambee"},
 		{"time": "1:51", "joke": "Yankin - Lady"},
 		{"time": "1:55", "joke": "Night One - Tate's Journey - The Living Tombstone, Bambee"},
@@ -62871,7 +62869,6 @@ const db = {
 		{"time": "1:52", "joke": "Circus - Five Nights at Freddy's"},
 		{"time": "1:52", "joke": "Five Nights at Freddy's 1 Song - The Living Tombstone"},
 		{"time": "1:52", "joke": "Space Jam - Quad City DJ's"},
-		{"time": "1:57", "joke": "scream - Five Nights at Freddy's"},
 		{"time": "1:57", "joke": "ANTONYMPH - Vylet Pony"},
 		{"time": "2:03", "joke": "We Are Number One - Máni Svavarsson (LazyTown)"},
 		{"time": "2:06", "joke": "Sunshine, Rainbow, White Pony - Wowkie Zhang"},
@@ -69571,7 +69568,8 @@ const db = {
 	"joke": [
 		{"time": "0:00", "joke": "Crank That - Soulja Boy"},
 		{"time": "0:17", "joke": "dat boi!!!! - ZimoNitrome"},
-		{"time": "0:34", "joke": "Frog's Theme ft. Dat Boi (o shit waddup!) - Dj CUTMAN"}],
+		{"time": "0:34", "joke": "Frog's Theme - Chrono Trigger"},
+		{"time": "0:34", "joke": "Dat Boi (O Shit Waddup!) - Dj CUTMAN"}],
 	"artist": "ChristopherLry"},
 "chOexqNn5MU": {
 	"title": "Unused Menu Theme - Mario Kart DS",
@@ -77670,7 +77668,7 @@ const db = {
 		{"time": "1:00", "joke": "Space Jam - Quad City DJ's"}],
 	"artist": "Zoom"},
 "bWZ56lMsP1U": {
-	"title": "Battle! - Pokemon Black & White",
+	"title": "Battle! (Legendary Pokemon) - Pokemon Black & White",
 	"wiki": "https://siivagunner.wiki/wiki/Battle!%20(Legendary%20Pok%C3%A9mon)%20(OST%20Version)%20-%20Pok%C3%A9mon%20Black%20%26%20White",
 	"joke": [
 		{"time": "0:13", "joke": "Crank That - Soulja Boy"},
@@ -82338,7 +82336,7 @@ const db = {
 		{"time": "2:14 - 20:15", "joke": "Dancing Mad - Final Fantasy VI"}],
 	"artist": "Madinstance"},
 "xo3gSK7U-1s": {
-	"title": "Super Mario 3D All-Stars Music SM64 Piranha Plant's Lullaby",
+	"title": "Piranha Plant's Lullaby - Super Mario 64",
 	"wiki": "https://siivagunner.wiki/wiki/Super%20Mario%203D%20All-Stars%20Music%20SM64%20Piranha%20Plant's%20Lullaby",
 	"joke": [
 		{"time": "0:00-2:11", "joke": "Ransom - Lil Tecca"},
