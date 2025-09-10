@@ -3070,6 +3070,7 @@ const db = {
 	"artist": "Grambam36"},
 "IpOzW4H3FBQ": {
 	"title": "Sunshine Isles - Super Mario 64 (Build 3313)",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Sunshine%20Isles%20-%20Super%20Mario%2064%20(Build%203313)",
 	"joke": "Stereo Love - Edward Maya and Vika Jigulina",
 	"artist": "RHMan"},
@@ -3722,7 +3723,7 @@ const db = {
 "wM6zi5hIOO0": {
 	"title": "Main Theme - Mario Kart: Double Dash!!",
 	"wiki": "https://siivagunner.wiki/wiki/Main%20Theme%20(EN%20Version)%20-%20Mario%20Kart%3A%20Double%20Dash!!",
-	"joke": "ChikuTaku - Watson Amelia",
+	"joke": "ChikuTaku - Amelia Watson",
 	"artist": "Sarvéproductions"},
 "rbmGGUjA4q4": {
 	"title": "Candy - Just Dance 2014",
@@ -7705,7 +7706,7 @@ const db = {
 	"joke": "Blinding Lights - The Weeknd",
 	"artist": "BluLuigi7"},
 "rmHyz2BzGGI": {
-	"title": "Metallic Madness Zone Act 1 - Sonic Mania Plus",
+	"title": "Metallic Madness Zone Act 1 - Sonic Mania",
 	"wiki": "https://siivagunner.wiki/wiki/Metallic%20Madness%20Zone%20Act%201%20(OST%20Version)%20-%20Sonic%20Mania%20Plus",
 	"joke": "Mope - Bloodhound Gang",
 	"artist": "Alex Wumbo"},
@@ -9977,7 +9978,7 @@ const db = {
 	"joke": "Boss Battle - Kirby's Adventure",
 	"artist": "minindo"},
 "CarMzjFA8rM": {
-	"title": "Rogues Gallery - Mirage Saloon Zone, Act 2 - Sonic Mania Plus",
+	"title": "Rogues Gallery - Mirage Saloon Zone, Act 2 - Sonic Mania",
 	"wiki": "https://siivagunner.wiki/wiki/Rogues%20Gallery%20-%20Mirage%20Saloon%20Zone%20Act%202%20(Mania%20Mode)%20-%20Sonic%20Mania%20Plus",
 	"joke": "3M's Mean, Median and Mode - Mister C",
 	"artist": "Barney Rubble"},
@@ -11333,7 +11334,7 @@ const db = {
 	"joke": "Mele Kalikimaka - Robert Alex Anderson",
 	"artist": "Bruh de la Boi"},
 "Wh3_H9tP3OY": {
-	"title": "Crafty - Dr. Seuss: How the Grinch Stole Christmas!",
+	"title": "Crafty - Dr. Seuss' How the Grinch Stole Christmas!",
 	"wiki": "https://siivagunner.wiki/wiki/Crafty%20(Beta%20Mix)%20-%20Dr.%20Seuss%3A%20How%20the%20Grinch%20Stole%20Christmas!",
 	"joke": "Moxie - Friendly Bunny Mochi",
 	"artist": "athenamite"},
@@ -14413,7 +14414,7 @@ const db = {
 "ItQdP-0ag8U": {
 	"title": "Munchy Monk Circus - Rhythm Heaven",
 	"wiki": "https://siivagunner.wiki/wiki/Munchy%20Monk%20Circus%20(In-Game%20Version)%20-%20Rhythm%20Heaven",
-	"joke": "ChikuTaku - Watson Amelia",
+	"joke": "ChikuTaku - Amelia Watson",
 	"artist": "Sarvéproductions"},
 "vvGmZNFprCs": {
 	"title": "Vim Factory - Mario & Luigi: Partners in Time",
@@ -18141,7 +18142,7 @@ const db = {
 	"joke": "Big Time Rush - Big Time Rush",
 	"artist": "berg8793"},
 "F38BkP5cot0": {
-	"title": "Amelia Watson BGM (SaltyHotcakes' LoFi Remix) - Smol Ame",
+	"title": "Amelia Watson BGM - Smol Ame",
 	"wiki": "https://siivagunner.wiki/wiki/Amelia%20Watson%20BGM%20(SaltyHotcakes'%20LoFi%20Remix)%20-%20Smol%20Ame",
 	"joke": "Us and Them - Pink Floyd",
 	"artist": "eg_9371"},
@@ -35712,7 +35713,7 @@ const db = {
 "yoPzSRJxKFU": {
 	"title": "Marvin Grossberg ~ Age, Regret, Retribution - Phoenix Wright: Ace Attorney",
 	"wiki": "https://siivagunner.wiki/wiki/Marvin%20Grossberg%20~%20Age%2C%20Regret%2C%20Retribution%20(Beta%20Mix)%20-%20Phoenix%20Wright%3A%20Ace%20Attorney",
-	"joke": "You're a Mean One, Mr. Grinch - How the Grinch Stole Christmas",
+	"joke": "You're a Mean One, Mr. Grinch - Dr. Seuss' How the Grinch Stole Christmas!",
 	"artist": "cookiefonster"},
 "xSOSU30T6nE": {
 	"title": "Frosty Fruits - Donkey Kong Country: Tropical Freeze",
@@ -59087,7 +59088,7 @@ const db = {
 "vzTUeDASQcY": {
 	"title": "Eclipse - Lethal Company",
 	"wiki": "https://siivagunner.wiki/wiki/Eclipse%20-%20Lethal%20Company",
-	"joke": "Dancing Mad (Movement 4) - Final Fantasy VI (Final Fantasy III)",
+	"joke": "Dancing Mad (Movement 4) - Final Fantasy VI",
 	"artist": "QoDaX"},
 "d74rLoUyKA8": {
 	"title": "Ray of Hope - Corpse Party: Blood Covered",
@@ -66589,7 +66590,7 @@ const db = {
 		{"time": "26:30", "joke": "Character Select - Super Smash Bros."}],
 	"artist": "Blookerstein & The Leaked Smash 6 Roster"},
 "Zl31ixmMn9s": {
-	"title": "Blossom Haze - Press Garden Zone Act 2 - Sonic Mania Plus",
+	"title": "Blossom Haze - Press Garden Zone Act 2 - Sonic Mania",
 	"wiki": "https://siivagunner.wiki/wiki/Blossom%20Haze%20-%20Press%20Garden%20Zone%20Act%202%20(Unused)%20-%20Sonic%20Mania%20Plus",
 	"joke": [
 		{"time": "0:09", "joke": "Replay - Iyaz"},
@@ -67681,7 +67682,7 @@ const db = {
 		{"time": "2:32:19", "joke": "Dearly Beloved - Kingdom Hearts"},
 		{"time": "2:32:28", "joke": "Arid Canyon Zone, Act 1 - Sonic Robo Blast 2"},
 		{"time": "2:32:38", "joke": "Graduation - Kero Kero Bonito"},
-		{"time": "2:32:47", "joke": "Welcome Christmas - How the Grinch Stole Christmas"},
+		{"time": "2:32:47", "joke": "Welcome Christmas - Dr. Seuss' How the Grinch Stole Christmas!"},
 		{"time": "2:32:57", "joke": "Stage Select - Mega Man 8"},
 		{"time": "2:33:07", "joke": "Phantom - Justice"},
 		{"time": "2:33:16", "joke": "Phantom Pt II - Justice"},
@@ -70816,7 +70817,7 @@ const db = {
 		{"time": "0:03", "joke": "Crank That - Soulja Boy"},
 		{"time": "0:06", "joke": "We Are Number One - Máni Svavarsson (LazyTown)"},
 		{"time": "0:08", "joke": "All Star - Smash Mouth"},
-		{"time": "0:11", "joke": "Nico Nico Nii! - Love Live! School idol project"},
+		{"time": "0:11", "joke": "Nico Nico Nii! - Love Live! School Idol Project"},
 		{"time": "0:13", "joke": "Christmas in July - HHGregg"},
 		{"time": "0:16", "joke": "Rock My Forum - Xarlable"},
 		{"time": "0:16", "joke": "I'm Not Yo Daddy, I'm Yo Grandpa - Biff Chitlins (GEICO ad)"},
@@ -72480,7 +72481,7 @@ const db = {
 		{"time": "3:24", "joke": "The Noble Haltmann - Kirby Planet Robobot"}],
 	"artist": "Jiko Music"},
 "fTglbd0Z-g0": {
-	"title": "Creepy - Dr. Seuss: How the Grinch Stole Christmas!",
+	"title": "Creepy - Dr. Seuss' How the Grinch Stole Christmas!",
 	"wiki": "https://siivagunner.wiki/wiki/Creepy%20-%20Dr.%20Seuss%3A%20How%20the%20Grinch%20Stole%20Christmas!",
 	"joke": [
 		{"time": "0:00", "joke": "Inspector Gadget Theme - Shuki Levy"},
@@ -73387,7 +73388,7 @@ const db = {
 		{"time": "3:25", "joke": "Planet Wisp - Sonic Colors"}],
 	"artist": "MtH"},
 "rl7B3TuoiHA": {
-	"title": "Lights, Camera, Action! - Studiopolis Zone Act 1 - Sonic Mania Plus",
+	"title": "Lights, Camera, Action! - Studiopolis Zone Act 1 - Sonic Mania",
 	"wiki": "https://siivagunner.wiki/wiki/Lights%2C%20Camera%2C%20Action!%20-%20Studiopolis%20Zone%20Act%201%20(Frontrunning)%20-%20Sonic%20Mania%20Plus",
 	"joke": [
 		{"time": "0:00", "joke": "Uptown Funk - Mark Ronson ft. Bruno Mars"},
@@ -73586,7 +73587,7 @@ const db = {
 	"title": "11PM (Snow) - Animal Crossing: City Folk",
 	"wiki": "https://siivagunner.wiki/wiki/11%20PM%20(Snow)%20-%20Animal%20Crossing%3A%20City%20Folk",
 	"joke": [
-		{"time": "0:04-4:29", "joke": "You're a Mean One, Mr. Grinch - How the Grinch Stole Christmas"},
+		{"time": "0:04-4:29", "joke": "You're a Mean One, Mr. Grinch - Dr. Seuss' How the Grinch Stole Christmas!"},
 		{"time": "0:28", "joke": "Freezeezy Peak - Banjo-Kazooie"},
 		{"time": "0:52", "joke": "Beware the Forest's Mushrooms - Super Mario RPG"},
 		{"time": "1:31", "joke": "Race Theme 01 - Mach Rider"},
