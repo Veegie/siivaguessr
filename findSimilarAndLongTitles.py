@@ -18,10 +18,10 @@ def normalize(title):
 
 # Check if one multiset is almost contained in another
 def almost_contained(counts1, counts2):
-    """Return True if counts1 is contained in counts2 with <= tolerance extra chars."""
+    """Return True if counts1 is contained in counts2."""
     diff = 0
-    for char, freq in counts1.items():
-        diff += abs(max(0, freq - counts2.get(char, 0)))
+    for word, freq in counts1.items():
+        diff += abs(max(0, freq - counts2.get(word, 0)))
         if diff > 0:
             return False
     return True
@@ -41,15 +41,15 @@ for i, (norm1, line1) in enumerate(entries):
     if i in visited:
         continue
     print(str(i) + '\n')
-    counts1 = Counter(norm1)
+    counts1 = Counter(norm1.split(' '))
     group = [line1]
     visited.add(i)
     for j in range(i + 1, len(entries)):
         if j in visited:
             continue
         norm2, line2 = entries[j]
-        counts2 = Counter(norm2)
-        if (almost_contained(counts1, counts2) or almost_contained(counts2, counts1)) and CSequenceMatcher(None, norm1, norm2).ratio() >= 0.80:
+        counts2 = Counter(norm2.split(' '))
+        if (almost_contained(counts1, counts2) or almost_contained(counts2, counts1)):
             group.append(line2)
             visited.add(j)
     if len(group) > 1:
