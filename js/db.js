@@ -2128,7 +2128,7 @@ const db = {
 	"joke": "Necrofantasia - Touhou 7: Perfect Cherry Blossom",
 	"artist": "Turbo Invader"},
 "UWyHqvfAdw4": {
-	"title": "Wii System Transfer - Nintendo Wii Music",
+	"title": "Wii System Transfer - Nintendo Wii",
 	"wiki": "https://siivagunner.wiki/wiki/Wii%20System%20Transfer%20(Beta%20Mix)%20-%20Nintendo%20Wii%20Music",
 	"joke": "Air Man ga Taosenai (Can't Beat Air Man) - Team.Nekokan",
 	"artist": "SamanthaMK"},
@@ -18202,7 +18202,7 @@ const db = {
 	"joke": "Beton - C418",
 	"artist": "Izzyience"},
 "F07KUzDuMhY": {
-	"title": "Local Forecast (Morning) - Nintendo Wii Music",
+	"title": "Forecast Channel - Local Forecast (Morning) - Nintendo Wii",
 	"wiki": "https://siivagunner.wiki/wiki/Local%20Forecast%20(Morning)%20-%20Nintendo%20Wii%20Music",
 	"joke": "Work Life Imbalance - C418",
 	"artist": "Izzyience"},
@@ -37429,7 +37429,7 @@ const db = {
 	"joke": "Twilight - Electric Light Orchestra",
 	"artist": "ricesnot"},
 "GYe1U4AGRi8": {
-	"title": "Forecast Channel - Current Weather (Day) - Nintendo Wii Music",
+	"title": "Forecast Channel - Current Weather (Day) - Nintendo Wii",
 	"wiki": "https://siivagunner.wiki/wiki/Forecast%20Channel%20-%20Current%20Weather%20(Day)%20-%20Nintendo%20Wii%20Music",
 	"joke": "Lullaby Until the End (Fossil Falls Music Box Version) - Super Mario Odyssey",
 	"artist": "Sarvéproductions"},
@@ -38815,6 +38815,7 @@ const db = {
 	"artist": "Spicy236"},
 "KRKLSAp8rh8": {
 	"title": "Menu (Super Smash Bros. Brawl) - Super Smash Bros. Ultimate",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Menu%20(Super%20Smash%20Bros.%20Brawl)%20-%20Super%20Smash%20Bros.%20UItimate",
 	"joke": "Crunk Ain't Dead - Duke Deuce",
 	"artist": "Expensive Dispenser"},
@@ -57379,7 +57380,7 @@ const db = {
 	"joke": "Let's Do This (Home Depot ad campaign) - Home Depot",
 	"artist": "eg_9371"},
 "hXaxEyUaMdM": {
-	"title": "Local Forecast (Night) - Nintendo Wii Music",
+	"title": "Forecast Channel - Local Forecast (Night) - Nintendo Wii",
 	"wiki": "https://siivagunner.wiki/wiki/Local%20Forecast%20(Night)%20(OST%20Version)%20-%20Nintendo%20Wii%20Music",
 	"joke": "Gadget Room - Club Penguin: Elite Penguin Force",
 	"artist": "itsRavey"},
@@ -71601,7 +71602,7 @@ const db = {
 		{"time": "1:15", "joke": "death sounds - Mibibli's Quest"}],
 	"artist": "l4ureleye"},
 "CB9lCpVSxM0": {
-	"title": "Wii System Transfer - Nintendo Wii Music",
+	"title": "Wii System Transfer - Nintendo Wii",
 	"wiki": "https://siivagunner.wiki/wiki/Wii%20System%20Transfer%20-%20Nintendo%20Wii%20Music",
 	"joke": [
 		{"time": "0:28-0:42", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin"},
@@ -82348,7 +82349,7 @@ const db = {
 		{"time": "6:39", "joke": "Barrier - Undertale"}],
 	"artist": "Madinstance, Sarvéproductions"},
 "OYQNFdKCxjQ": {
-	"title": "Main Menu - Nintendo Wii Music",
+	"title": "Main Menu - Nintendo Wii",
 	"wiki": "https://siivagunner.wiki/wiki/Main%20Menu%20-%20Nintendo%20Wii%20Music",
 	"joke": [
 		{"time": "0:00-3:06", "joke": "Cat - Minecraft"},
