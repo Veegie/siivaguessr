@@ -10199,7 +10199,7 @@ const db = {
 	"joke": "Hotel Room Service - Pitbull",
 	"artist": "Vincent Mashups"},
 "Xhg1poHYMUI": {
-	"title": "Sunrise & Onett - EarthBound",
+	"title": "Onett - EarthBound",
 	"wiki": "https://siivagunner.wiki/wiki/Sunrise%20%26%20Onett%20(Alpha%20Mix)%20-%20EarthBound",
 	"joke": "JUMPIN - Pitbull and Lil Jon",
 	"artist": "Jp"},
@@ -47428,7 +47428,7 @@ const db = {
 	"joke": "Tabuu - Super Smash Bros. Brawl",
 	"artist": "Meme Machine MKII"},
 "2mdduOsyZiU": {
-	"title": "Sunrise & Onett - EarthBound",
+	"title": "Onett - EarthBound",
 	"wiki": "https://siivagunner.wiki/wiki/Sunrise%20%26%20Onett%20(Extended%20Mix)%20-%20EarthBound",
 	"joke": "Outset Island - The Legend of Zelda: The Wind Waker",
 	"artist": "JJokerDude"},
@@ -50450,7 +50450,7 @@ const db = {
 	"joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin",
 	"artist": "Marcy Nabors"},
 "pAHy5dC6I24": {
-	"title": "Sunrise & Onett - EarthBound",
+	"title": "Onett - EarthBound",
 	"wiki": "https://siivagunner.wiki/wiki/Sunrise%20%26%20Onett%20(Alternate%20Mix)%20-%20EarthBound",
 	"joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin",
 	"artist": "Big Purp"},
