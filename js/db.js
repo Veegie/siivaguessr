@@ -60802,7 +60802,6 @@ const db = {
 		{"time": "1:02", "joke": "Oh Baby, a Triple! - LustruM"},
 		{"time": "1:06", "joke": "Damn, Son! Where'd You Find This? - AllTrapMusic / Shadoe Haze"},
 		{"time": "1:08", "joke": "The Rap Battle (PARODY) - Supa Hot Fire (MrDeshawnRaw)"},
-		{"time": "1:11", "joke": "Air Horn Remix of advertised track - air horn"},
 		{"time": "1:22", "joke": "Bangarang - Skrillex ft. Sirah"}],
 	"artist": "COCONABE"},
 "1HgPTj2eeSo": {
@@ -61143,7 +61142,7 @@ const db = {
 		{"time": "0:30", "joke": "California Gurls - Katy Perry ft. Snoop Dogg"},
 		{"time": "0:40", "joke": "Give It to Me - Timbaland ft. Nelly Furtado and Justin Timberlake"},
 		{"time": "0:43", "joke": "Everybody Wants to Rule the World - Tears for Fears"},
-		{"time": "1:01", "joke": "Jersey club remix of the track - Jersey club"},
+		{"time": "1:01", "joke": "Instrument Swap/Arrangement - Jersey Club"},
 		{"time": "1:11", "joke": "NYR2_128_JHN_4BAR_Syrup.wav - Monster Rap Acapellas"},
 		{"time": "1:20", "joke": "Right Foot Creep - YoungBoy Never Broke Again"},
 		{"time": "1:39", "joke": "Lucid Dreamer - Touhou 16.5: Violet Detector"},
@@ -65516,7 +65515,7 @@ const db = {
 	"wiki": "https://siivagunner.wiki/wiki/C-R-O-W-N-E-D%20-%20Kirby's%20Return%20to%20Dream%20Land",
 	"joke": [
 		{"time": "0:11", "joke": "Reese's Puffs Rap - RV & Terrance"},
-		{"time": "0:11", "joke": "S.L.A.B. Freestyle - Chip the Ripper"},
+		{"time": "0:11", "joke": "S.L.A.B. Freestyle - Chip tha Ripper"},
 		{"time": "0:15", "joke": "Scatman's World - Scatman John"},
 		{"time": "0:41", "joke": "Rainbow Tylenol - Kitsune^2"},
 		{"time": "0:41", "joke": "dog dancing to we no speak americano - LegoMaster121000"},
@@ -77767,9 +77766,7 @@ const db = {
 		{"time": "0:10", "joke": "The Moon - DuckTales"},
 		{"time": "0:10, 0:21, 0:51", "joke": "GRAND DAD - Vinesauce Joel"},
 		{"time": "0:36, 0:47", "joke": "Title Theme - Duck Hunt"},
-		{"time": "1:02", "joke": "Menu 1 - Super Smash Bros. Melee"},
-		{"time": "1:12", "joke": "The track loops. - Super Smash Bros. Melee"},
-		{"time": "1:43", "joke": "Duck noises - Duck Game"}],
+		{"time": "1:02", "joke": "Menu 1 - Super Smash Bros. Melee"}],
 	"artist": "Ahmaykmewsik"},
 "1WjzjqCtT3c": {
 	"title": "Vela-Nova - Sonic Rush",
@@ -81094,7 +81091,6 @@ const db = {
 		 {"time": "2:20, 0:28, 1:33 - 1:47", "joke": "Ghosts With Guitars - For Moon Mansion Act 2 - Sonic After the Sequel"},
 		{"time": "0:43 - 1:00", "joke": "Death by Glamour - Undertale"},
 		{"time": "1:16", "joke": "Snow halation - Love Live!, µ's"},
-		{"time": "2:00", "joke": "The track briefly pauses - µ's"},
 		{"time": "2:02", "joke": "Gangnam Style - PSY"}],
 	"artist": "MtH"},
 "A9eDbsJU7H0": {
