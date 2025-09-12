@@ -21759,7 +21759,10 @@ const db = {
 "uw4O6Z3YGfA": {
 	"title": "Stickerbush Symphony (Stickerbrush Symphony, Bramble Scramble) - Donkey Kong Country 2: Diddy's Kong Quest",
 	"wiki": "https://siivagunner.wiki/wiki/Stickerbush%20Symphony%20(Alternate%20Version)%20-%20Donkey%20Kong%20Country%202",
-	"joke": "moment - Vierre Cloud",
+	"joke": [
+		{"time": "0:00-2:31", "joke": "moment - Vierre Cloud"},
+		{"time": "0:23-2:31", "joke": "A New Kind of Love - Frou Frou"}
+	],
 	"artist": "CactusTeam"},
 "w0aTJW-4FLQ": {
 	"title": "Windows Down - Big Time Rush",
@@ -65525,7 +65528,6 @@ const db = {
 		{"time": "1:07", "joke": "Space Jam - Quad City DJ's"},
 		{"time": "1:11", "joke": "Intro Title / Minigame Theme - Barbie Horse Adventures: Blue Ribbon Race"},
 		{"time": "1:24", "joke": "Mope (Here Comes Pacman) - Bloodhound Gang"},
-		{"time": "1:34", "joke": "CrazyBus (Sega Genesis) - Angry Video Game Nerd"},
 		{"time": "1:37", "joke": "Baby Got Book - Dan Smith"},
 		{"time": "1:37", "joke": "ryukenden / Shuric Scan 1.99crk - SofT MANiAC"},
 		{"time": "1:50", "joke": "Goomba Got Back - Gaijin Goombah and The Living Tombstone"},
@@ -67027,7 +67029,7 @@ const db = {
 		{"time": "49:45", "joke": "Town Theme - Wild Arms"},
 		{"time": "49:54", "joke": "Boss Theme - Wild Guns"},
 		{"time": "50:04", "joke": "Pause Screen - Wario World"},
-		{"time": "50:14", "joke": "Loss, represented in audio form - Ctrl+Alt+Del"},
+		{"time": "50:14", "joke": "Loss - Ctrl+Alt+Del"},
 		{"time": "50:24", "joke": "Come On! - Mario & Luigi: Superstar Saga"},
 		{"time": "50:33", "joke": "Mahou wo Kakete! - THE iDOLM@STER"},
 		{"time": "50:44", "joke": "In-Game Music - Metro-Cross"},
@@ -67604,7 +67606,7 @@ const db = {
 		{"time": "2:22:23", "joke": "Via con me - Paolo Conte"},
 		{"time": "2:22:34", "joke": "Joy Oh It's Christmas Time - Duck The Halls: A Mickey Mouse Christmas Special"},
 		{"time": "2:22:43", "joke": "Unbreakable Determination - Ninja Gaiden"},
-		{"time": "2:22:52", "joke": "CrazyBus Theme - CrazyBus"},
+		{"time": "2:22:52", "joke": "Title Screen - CrazyBus"},
 		{"time": "2:23:02", "joke": "Axel F (Beverly Hills Cop / Crazy Frog) - Harold Faltermeyer"},
 		{"time": "2:23:11", "joke": "Gimme! Gimme! Gimme! (A Man After Midnight) - ABBA"},
 		{"time": "2:23:21", "joke": "Hung Up - Madonna"},
@@ -73270,7 +73272,7 @@ const db = {
 		{"time": "0:19", "joke": "Watch Me (Whip/Nae Nae) - Silento"},
 		{"time": "0:19", "joke": "Jingle Bells - James Lord Pierpont"},
 		{"time": "0:30", "joke": "Temporary Secretary - Paul McCartney"},
-		{"time": "0:30", "joke": "CrazyBus Theme - CrazyBus"},
+		{"time": "0:30", "joke": "Title Screen - CrazyBus"},
 		{"time": "0:32", "joke": "Bonfire - Childish Gambino"},
 		{"time": "0:32", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "0:32", "joke": "Dame Tu Cosita - El Chombo ft. Cutty Ranks"},
@@ -74375,10 +74377,10 @@ const db = {
 	"joke": [
 		{"time": "0:11", "joke": "ryukenden / Shuric Scan 1.99crk - SofT MANiAC"},
 		{"time": "0:50", "joke": "Temporary Secretary - Paul McCartney"},
-		{"time": "0:56", "joke": "The one that goes... (Beep Boop Bop) - Mr. Krabs, SpongeBob SquarePants"},
+		{"time": "0:56-1:11", "joke": "The one that goes... (Beep Boop Bop) - Mr. Krabs, SpongeBob SquarePants"},
 		{"time": "0:57", "joke": "Temporary Secretary - Paul McCartney"},
 		{"time": "1:12", "joke": "ryukenden / Shuric Scan 1.99crk - SofT MANiAC"},
-		{"time": "1:25", "joke": "CrazyBus Theme - CrazyBus"},
+		{"time": "1:25", "joke": "Title Screen - CrazyBus"},
 		{"time": "1:39", "joke": "The Bad Touch - Bloodhound Gang"},
 		{"time": "1:45", "joke": "Loss - Ctrl+Alt+Del"},
 		{"time": "1:47", "joke": "1, 2 Oatmeal - Kenshin Dendou (けんしん)/mariofan888/KAZAN"}],
@@ -83268,14 +83270,6 @@ const db = {
 		{"time": "4:05", "joke": "One More Night - Maroon 5"},
 		{"time": "4:40", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"}],
 	"artist": "TeeOS"},
-"0p3qhHQq3ew": {
-	"title": "Back o Beyond - Grand Theft Auto: San Andreas",
-	"wiki": "https://siivagunner.wiki/wiki/Back%20o%20Beyond%20-%20Grand%20Theft%20Auto%3A%20San%20Andreas",
-	"joke": [
-		{"time": "0:00", "joke": "The X-Files Theme - Mark Snow"},
-		{"time": "3:10", "joke": "Clubbed to Death (Kurayamino Variation) - Rob Dougan"},
-		{"time": "6:44", "joke": "Lux Aeterna - Clint Mansell"}],
-	"artist": "ivan"},
 "2S-XBA3M1ec": {
 	"title": "Stage XYZ - Shoot Shoot Nitori the Golden",
 	"wiki": "https://siivagunner.wiki/wiki/Stage%20XYZ%20-%20Shoot%20Shoot%20Nitori%20the%20Golden",
