@@ -1,8 +1,10 @@
 TODO
 
-- Investigate/handle video load failures
-- Track streak in localstorage?
+- Track streak in localstorage
 - Graphics
-- Database
 - Dailies & daily numbering
 - Visuals
+- Aliases
+- Timer for regular Q's
+- Force Normal Question mode for exclude:title entries (custom quiz & daily)
+- for sicko mode, reveal video when source track is guessed

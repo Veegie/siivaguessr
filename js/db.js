@@ -1815,7 +1815,7 @@ const db = {
 "vpfilVLni9c": {
 	"title": "Unbreakable Determination - Ninja Gaiden",
 	"wiki": "https://siivagunner.wiki/wiki/Unbreakable%20Determination%20-%20Ninja%20Gaiden%20Trilogy",
-	"joke": "ryukenden / Shuric Scan 1.99crk - SofT MANiAC",
+	"joke": "Overdrive (ryukenden, Battling Precariously, Shuric Scan 1.99crk) - Ninja Gaiden II: The Dark Sword of Chaos",
 	"artist": "ChickenSuitGuy"},
 "E3aBr-MAXBw": {
 	"title": "Corridors of Time - Chrono Trigger",
@@ -1875,7 +1875,7 @@ const db = {
 "MaJdNArbZOU": {
 	"title": "Shy Guy Falls - Mario Kart 8",
 	"wiki": "https://siivagunner.wiki/wiki/Shy%20Guy%20Falls%20-%20Mario%20Kart%208",
-	"joke": "ryukenden / Shuric Scan 1.99crk - SofT MANiAC",
+	"joke": "Overdrive (ryukenden, Battling Precariously, Shuric Scan 1.99crk) - Ninja Gaiden II: The Dark Sword of Chaos",
 	"artist": "Memmy"},
 "nwbGEZYGeqw": {
 	"title": "Party in the Clouds (In-Game Ver.) - Adventure Time: Hey Ice King! Why'd You Steal Our Garbage?!!",
@@ -3593,7 +3593,7 @@ const db = {
 "ic7j5cprDiQ": {
 	"title": "Another It - Mario 4: Kosmicheskaya Odisseya",
 	"wiki": "https://siivagunner.wiki/wiki/Another%20It%20-%20Mario%204%3A%20Kosmicheskaya%20Odisseya",
-	"joke": "ryukenden / Shuric Scan 1.99crk - SofT MANiAC",
+	"joke": "Overdrive (ryukenden, Battling Precariously, Shuric Scan 1.99crk) - Ninja Gaiden II: The Dark Sword of Chaos",
 	"artist": "DavidPCM"},
 "TRjb68O9mAY": {
 	"title": "DK West Encounter 1 - No Straight Roads",
@@ -5601,6 +5601,7 @@ const db = {
 	"artist": "Myeauxyoozi"},
 "RZCVBaAJyrs": {
 	"title": "Ocean Palace - Chrono Trigger",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Ocean%20Palace%20-%20Chrono%20Trigger",
 	"joke": "Sea of Voices - Porter Robinson",
 	"artist": "Emm Bee Sea"},
@@ -6952,7 +6953,7 @@ const db = {
 	"joke": "SPARKS - Takanashi Kiara",
 	"artist": "Ellie53"},
 "KpvuHDlyZig": {
-	"title": "Summers Plaza - I Miss You - EarthBound 2012",
+	"title": "Summers Plaza - I Miss You: EarthBound 2012",
 	"wiki": "https://siivagunner.wiki/wiki/Summers%20Plaza%20-%20I%20Miss%20You%20-%20EarthBound%202012",
 	"joke": "Castaways - The Backyardigans",
 	"artist": "ChickenSuitGuy"},
@@ -9351,7 +9352,7 @@ const db = {
 "LcNu-AMT-Ns": {
 	"title": "Last Episode! - Undertale",
 	"wiki": "https://siivagunner.wiki/wiki/Last%20Episode!%20(OST%20Mix)%20-%20Undertale",
-	"joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg, Kurupt, and Nate Dogg",
+	"joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg",
 	"artist": "Myeauxyoozi"},
 "e8sfTYnwwrs": {
 	"title": "But the Earth Refused to Die - Undertale",
@@ -9361,7 +9362,7 @@ const db = {
 "owP2wCh-4Tc": {
 	"title": "Brobot L-Type Battle - Super Paper Mario",
 	"wiki": "https://siivagunner.wiki/wiki/Brobot%20L-Type%20Battle%20(OST%20Version)%20-%20Super%20Paper%20Mario",
-	"joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg, Kurupt, and Nate Dogg",
+	"joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg",
 	"artist": "xXx_RH_M420N_xXx"},
 "QaTkfpvldeE": {
 	"title": "Reminiscence ~ Steel Samurai's Ballad - Phoenix Wright: Ace Attorney - Justice for All",
@@ -9376,7 +9377,7 @@ const db = {
 "nFCiMfnyk3g": {
 	"title": "All-Star Rest Area - Smash Remix",
 	"wiki": "https://siivagunner.wiki/wiki/All-Star%20Rest%20Area%20-%20Smash%20Remix",
-	"joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg, Kurupt, and Nate Dogg",
+	"joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg",
 	"artist": "BigBadBlob"},
 "bpGdCXrZ2z8": {
 	"title": "Stand Up Strong - MOTHER 3",
@@ -10444,7 +10445,7 @@ const db = {
 	"joke": "Baby - Justin Bieber ft. Ludacris",
 	"artist": "Myeauxyoozi"},
 "RH4jWSD8DWo": {
-	"title": "Careless Whisper - SingStar",
+	"title": "Careless Whisper - George Michael",
 	"wiki": "https://siivagunner.wiki/wiki/Careless%20Whisper%20-%20SingStar",
 	"joke": "Yummy - Justin Bieber",
 	"artist": "Albert Softie"},
@@ -10489,7 +10490,7 @@ const db = {
 	"joke": "Baby - Justin Bieber ft. Ludacris",
 	"artist": "berg8793"},
 "Zg7P7tV9WNk": {
-	"title": "Beautiful Girls - SingStar Hottest Hits",
+	"title": "Beautiful Girls - Sean Kingston",
 	"wiki": "https://siivagunner.wiki/wiki/Beautiful%20Girls%20(Radio%20Edit)%20-%20SingStar%20Hottest%20Hits",
 	"joke": "Baby - Justin Bieber ft. Ludacris",
 	"artist": "Myeauxyoozi"},
@@ -11482,7 +11483,7 @@ const db = {
 "0jCtNNBYfhc": {
 	"title": "Snow Land - Mario Kart: Super Circuit",
 	"wiki": "https://siivagunner.wiki/wiki/Snow%20Land%20(Beta%20Mix)%20-%20Mario%20Kart%3A%20Super%20Circuit",
-	"joke": "Megalo Strike Back - I Miss You - EarthBound 2012",
+	"joke": "Megalo Strike Back - I Miss You: EarthBound 2012",
 	"artist": "Sponge Lord"},
 "3zYRiDvNqKI": {
 	"title": "Sherbet Land / Frappe Snowland - Mario Kart 64",
@@ -12058,7 +12059,7 @@ const db = {
 "xFUv4n2ZW7c": {
 	"title": "Space - her tears were my light",
 	"wiki": "https://siivagunner.wiki/wiki/Space%20(Mobile%20Version)%20-%20her%20tears%20were%20my%20light",
-	"joke": "Ballad of the Wind Fish (Marin's Version) - The Legend of Zelda: Link's Awakening",
+	"joke": "Ballad of the Wind Fish - The Legend of Zelda: Link's Awakening",
 	"artist": "BigBadBlob"},
 "OmTEhPIk_p4": {
 	"title": "Track 3 - Maya the Bee and Her Friends",
@@ -15382,7 +15383,7 @@ const db = {
 "s5PikDjqQ2c": {
 	"title": "Main Menu - Kirby & The Amazing Mirror",
 	"wiki": "https://siivagunner.wiki/wiki/Main%20Menu%20-%20Kirby%20%26%20The%20Amazing%20Mirror",
-	"joke": "ryukenden / Shuric Scan 1.99crk - SofT MANiAC",
+	"joke": "Overdrive (ryukenden, Battling Precariously, Shuric Scan 1.99crk) - Ninja Gaiden II: The Dark Sword of Chaos",
 	"artist": "MJ"},
 "Ulgyhr7HNMI": {
 	"title": "Happy - Mizuiro Blood",
@@ -15767,7 +15768,7 @@ const db = {
 "D49mKRueiT8": {
 	"title": "Shining Star - Kirby's Dream Land",
 	"wiki": "https://siivagunner.wiki/wiki/Shining%20Star%20-%20Kirby's%20Dream%20Land",
-	"joke": "ryukenden / Shuric Scan 1.99crk - SofT MANiAC",
+	"joke": "Overdrive (ryukenden, Battling Precariously, Shuric Scan 1.99crk) - Ninja Gaiden II: The Dark Sword of Chaos",
 	"artist": "MJ"},
 "h55JASTPqSI": {
 	"title": "Miss - Ikki",
@@ -16392,7 +16393,7 @@ const db = {
 "jiDXE0v39-4": {
 	"title": "Raft Ride - The Legend of Zelda: Link's Awakening",
 	"wiki": "https://siivagunner.wiki/wiki/Raft%20Ride%20(PC%20Port)%20-%20The%20Legend%20of%20Zelda%3A%20Link's%20Awakening",
-	"joke": "ryukenden / Shuric Scan 1.99crk - SofT MANiAC",
+	"joke": "Overdrive (ryukenden, Battling Precariously, Shuric Scan 1.99crk) - Ninja Gaiden II: The Dark Sword of Chaos",
 	"artist": "The Guy"},
 "T3Q45VMGvxw": {
 	"title": "Nameless Love Song - Love Live! School idol festival 2 MIRACLE LIVE!",
@@ -23452,7 +23453,7 @@ const db = {
 "5_5tna6qyxw": {
 	"title": "Bourree - Fortnite",
 	"wiki": "https://siivagunner.wiki/wiki/Bourree%20-%20Fortnite",
-	"joke": "Megalo Strike Back - I Miss You - EarthBound 2012",
+	"joke": "Megalo Strike Back - I Miss You: EarthBound 2012",
 	"artist": "Emotional Snail"},
 "HELFURi0N0A": {
 	"title": "Emote: Get Funky - Fortnite",
@@ -24057,7 +24058,7 @@ const db = {
 "vjebwB1Yud4": {
 	"title": "Text - Yolanda",
 	"wiki": "https://siivagunner.wiki/wiki/Text%20-%20Yolanda",
-	"joke": "ryukenden / Shuric Scan 1.99crk - SofT MANiAC",
+	"joke": "Overdrive (ryukenden, Battling Precariously, Shuric Scan 1.99crk) - Ninja Gaiden II: The Dark Sword of Chaos",
 	"artist": "Nutshinou"},
 "olBKf6mYMHs": {
 	"title": "Another Holiday - OMORI",
@@ -25830,7 +25831,7 @@ const db = {
 	"joke": "Poker Face - Lady Gaga",
 	"artist": "Brendan"},
 "cMFiMPJL_Vs": {
-	"title": "Main Theme - Wii Shop Channel",
+	"title": "Wii Shop Channel theme - Kazumi Totaka",
 	"wiki": "https://siivagunner.wiki/wiki/Main%20Theme%20(Alpha%20Mix)%20-%20Wii%20Shop%20Channel",
 	"joke": "Acidjazzed evening - Tempest",
 	"artist": "Spottygamester"},
@@ -26758,7 +26759,7 @@ const db = {
 "rUrrti-sv7c": {
 	"title": "Bongo Blast - Donkey Kong 64",
 	"wiki": "https://siivagunner.wiki/wiki/Bongo%20Blast%20-%20Donkey%20Kong%2064",
-	"joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg, Kurupt, and Nate Dogg",
+	"joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg",
 	"artist": "berg8793"},
 "1lF8PdR7tl8": {
 	"title": "5AM - Animal Crossing: New Horizons",
@@ -26977,8 +26978,7 @@ const db = {
 	"joke": "Through the Fire and Flames - DragonForce",
 	"artist": "xIncisions"},
 "2xpHHhLTgCI": {
-	"title": "Hybrid song 2:20 (Funky stars) - Mitos.is: The Game",
-	"exclude": "title",
+	"title": "Hybrid song 2:20 (Funky stars) - Quazar of Sanxion",
 	"wiki": "https://siivagunner.wiki/wiki/Hybrid%20song%202%3A20%20(Funky%20stars)%20(Alternative%20Mix)%20-%20Mitos.is%3A%20The%20Game",
 	"joke": "Chaoz Fantasy - ParagonX9",
 	"artist": "Golden_winged"},
@@ -27574,7 +27574,7 @@ const db = {
 	"joke": "Rockslide Rumble - Crash Twinsanity",
 	"artist": "MidnightIsADog"},
 "goxsG3q4sUI": {
-	"title": "Hybrid song 2:20 (Funky stars) - Mitos.is: The Game",
+	"title": "Hybrid song 2:20 (Funky stars) - Quazar of Sanxion",
 	"wiki": "https://siivagunner.wiki/wiki/Hybrid%20song%202%3A20%20(Funky%20stars)%20(In-Game%20Version)%20-%20Mitos.is%3A%20The%20Game",
 	"joke": "Noisy Pillars (tune 2) - Jeroen Tel",
 	"artist": "Nutshinou"},
@@ -28385,7 +28385,7 @@ const db = {
 	"joke": "POWER - Kanye West",
 	"artist": "vvsvlogs"},
 "qotzWoEdND0": {
-	"title": "Hybrid song 2:20 (Funky stars) - Mitos.is: The Game",
+	"title": "Hybrid song 2:20 (Funky stars) - Quazar of Sanxion",
 	"wiki": "https://siivagunner.wiki/wiki/Hybrid%20song%202%3A20%20(Funky%20stars)%20(Alpha%20Mix)%20-%20Mitos.is%3A%20The%20Game",
 	"joke": "credits song for my death - vivivivivi",
 	"artist": "Golden_winged"},
@@ -28864,6 +28864,11 @@ const db = {
 	"wiki": "https://siivagunner.wiki/wiki/Menu%20-%20Tamagotchi%20(Game%20Boy)",
 	"joke": "Forest Interlude - Donkey Kong Country 2: Diddy's Kong Quest",
 	"artist": "ThePowerPlayer"},
+"OmcPHuQj8mw": {
+	"title": "Forest Interlude - Donkey Kong Country 2: Diddy's Kong Quest",
+	"wiki": "https://siivagunner.wiki/wiki/Forest%20Interlude%20(JP%20Version)%20-%20Donkey%20Kong%20Country%202",
+	"joke": "Sad Machine - Porter Robinson",
+	"artist": "Unknown Ripper"},
 "8OkKAze9QKQ": {
 	"title": "World's End Valentine - OMORI",
 	"wiki": "https://siivagunner.wiki/wiki/World's%20End%20Valentine%20-%20OMORI",
@@ -30750,7 +30755,7 @@ const db = {
 "0vQ8MpAzoZU": {
 	"title": "Level 7 - Tetris (Apple IIGS)",
 	"wiki": "https://siivagunner.wiki/wiki/Level%207%20-%20Tetris%20(Apple%20IIGS)",
-	"joke": "Megalo Strike Back - I Miss You - EarthBound 2012",
+	"joke": "Megalo Strike Back - I Miss You: EarthBound 2012",
 	"artist": "athenamite"},
 "Jf1VWwMfguQ": {
 	"title": "Underwater - Super Mario Bros.",
@@ -31198,7 +31203,7 @@ const db = {
 	"joke": "Light from the Sky - Mr. Death",
 	"artist": "Memmy"},
 "FcYZSz0zDeA": {
-	"title": "Hybrid song 2:20 (Funky stars) - Mitos.is: The Game",
+	"title": "Hybrid song 2:20 (Funky stars) - Quazar of Sanxion",
 	"wiki": "https://siivagunner.wiki/wiki/Hybrid%20song%202%3A20%20(Funky%20stars)%20-%20Mitos.is%3A%20The%20Game",
 	"joke": "Despacito - Luis Fonsi ft. Daddy Yankee",
 	"artist": "Retro Gaming"},
@@ -31972,6 +31977,7 @@ const db = {
 	"artist": "eg_9371"},
 "zUNvdg3vRIg": {
 	"title": "Aquatic Stars, They Shimmer So Bright",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Aquatic%20Stars%2C%20They%20Shimmer%20So%20Bright",
 	"joke": "Aqua Star - Kirby 64: The Crystal Shards",
 	"artist": "IzzyKart57"},
@@ -36309,7 +36315,7 @@ const db = {
 	"joke": "Enter Sandman - Metallica",
 	"artist": "Expensive Dispenser"},
 "0SVGHVUuvO0": {
-	"title": "Main Theme - Wii Shop Channel",
+	"title": "Wii Shop Channel theme - Kazumi Totaka",
 	"wiki": "https://siivagunner.wiki/wiki/Main%20Theme%20(NTSC-J%20Version)%20-%20Wii%20Shop%20Channel",
 	"joke": "Rollerdisco Rumble - Vince Kaichan",
 	"artist": "sykhro"},
@@ -36378,6 +36384,11 @@ const db = {
 	"wiki": "https://siivagunner.wiki/wiki/Potion%203%20-%20Decap%20Attack",
 	"joke": "Title Sequence (Opening Cinematic) - Super Smash Bros. for Wii U and 3DS",
 	"artist": "TheLeis"},
+"6vQ71voOb-Q": {
+	"title": "Radio: Lucky Channel/Game Corner - Pokémon Gold & Silver",
+	"wiki": "https://siivagunner.wiki/wiki/Radio%3A%20Lucky%20Channel/Game%20Corner%20-%20Pok%C3%A9mon%20Gold%20%26%20Silver",
+	"joke": "Get Lucky - Daft Punk ft. Pharrell Williams & Nile Rodgers",
+	"artist": "LR4"},
 "wvx75Gjrylk": {
 	"title": "Gloomy Memories - Castlevania: Dawn of Sorrow",
 	"wiki": "https://siivagunner.wiki/wiki/Gloomy%20Memories%20-%20Castlevania%3A%20Dawn%20of%20Sorrow",
@@ -39311,7 +39322,7 @@ const db = {
 "JxfYmS37TMI": {
 	"title": "Try Kind of Hard! (Variation) - MOTHER 3",
 	"wiki": "https://siivagunner.wiki/wiki/Try%20Kind%20of%20Hard!%20(Variation)%20(Beta%20Mix)%20-%20MOTHER%203",
-	"joke": "Megalo Strike Back - I Miss You - EarthBound 2012",
+	"joke": "Megalo Strike Back - I Miss You: EarthBound 2012",
 	"artist": "Gonovo"},
 "MCeUzIBEciw": {
 	"title": "Oil Ocean Zone - Sonic the Hedgehog 2",
@@ -40651,7 +40662,7 @@ const db = {
 	"joke": "Hobart Drive - Jerry Galeries",
 	"artist": "Emotional Snail"},
 "KsRtzvb7OIg": {
-	"title": "Main Theme - Wii Shop Channel",
+	"title": "Wii Shop Channel theme - Kazumi Totaka",
 	"wiki": "https://siivagunner.wiki/wiki/Main%20Theme%20(PAL-M%20Version)%20-%20Wii%20Shop%20Channel",
 	"joke": "Surfboard - Antônio Carlos Jobim",
 	"artist": "LuNiney"},
@@ -40917,7 +40928,7 @@ const db = {
 	"joke": "ECHIDNA - HuΣeR",
 	"artist": "Unknown Ripper"},
 "ORQIXex4Sjs": {
-	"title": "Main Theme - Wii Shop Channel",
+	"title": "Wii Shop Channel theme - Kazumi Totaka",
 	"wiki": "https://siivagunner.wiki/wiki/Main%20Theme%20(Unused%20Version)%20-%20Wii%20Shop%20Channel",
 	"joke": "Shop - The Legend of Zelda: Ocarina of Time",
 	"artist": "beardfear"},
@@ -42478,12 +42489,12 @@ const db = {
 "PyvQrsH4qRs": {
 	"title": "Caught Portrait Ghost (Overview) - Luigi's Mansion",
 	"wiki": "https://siivagunner.wiki/wiki/Caught%20Portrait%20Ghost%20(Overview)%20-%20Luigi's%20Mansion",
-	"joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg, Kurupt, and Nate Dogg",
+	"joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg",
 	"artist": "Jp"},
 "CG9g_lXnWrE": {
 	"title": "Turn It Up! - Code of Princess",
 	"wiki": "https://siivagunner.wiki/wiki/Turn%20It%20Up!%20-%20Code%20of%20Princess",
-	"joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg, Kurupt, and Nate Dogg",
+	"joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg",
 	"artist": "Jp"},
 "hM-bDgX_vlc": {
 	"title": "Everyone Fight! Puyo Puyo Until Morning - Puyo Puyo 7",
@@ -43351,7 +43362,7 @@ const db = {
 	"joke": "Mini-Game 1 - Pictionary (NES)",
 	"artist": "SoundSync5000"},
 "30V71pQjZD4": {
-	"title": "Beautiful Girls - SingStar Hottest Hits",
+	"title": "Beautiful Girls - Sean Kingston",
 	"wiki": "https://siivagunner.wiki/wiki/Beautiful%20Girls%20(Demo%20Version)%20-%20SingStar%20Hottest%20Hits",
 	"joke": "Rock My Emotions - Kitsune^2",
 	"artist": "KnightOfGames, M95, and NativeOrange[note 1]"},
@@ -44132,7 +44143,7 @@ const db = {
 	"joke": "Spiralis Silere - Snailiad",
 	"artist": "Mitchell"},
 "H5UiYR9HIHc": {
-	"title": "H3H3's Theme - PewDiePie's Tuber Simulator",
+	"title": "h3h3Productions Theme Song - MajorLeagueWobs / Holder",
 	"wiki": "https://siivagunner.wiki/wiki/H3H3's%20Theme%20-%20PewDiePie's%20Tuber%20Simulator",
 	"joke": "My Boo - Ghost Town DJ's",
 	"artist": "NutellaFrenchToast and toonlink"},
@@ -44264,7 +44275,7 @@ const db = {
 "Aob5MgDSpoY": {
 	"title": "Battle! (Colress) - Pokemon Black & White 2",
 	"wiki": "https://siivagunner.wiki/wiki/Battle!%20(Colress)%20(Gamma%20Mix)%20-%20Pok%C3%A9mon%20Black%20%26%20White%202",
-	"joke": "Megalo Strike Back - I Miss You - EarthBound 2012",
+	"joke": "Megalo Strike Back - I Miss You: EarthBound 2012",
 	"artist": "Xarlable"},
 "HWlG2VSHxtE": {
 	"title": "Single-Player Menu - Mario Kart DS",
@@ -44983,7 +44994,7 @@ const db = {
 	"joke": "Bad Romance - Lady Gaga",
 	"artist": "Lakitwo"},
 "21JG5mVYoJM": {
-	"title": "Main Theme - Wii Shop Channel",
+	"title": "Wii Shop Channel theme - Kazumi Totaka",
 	"wiki": "https://siivagunner.wiki/wiki/Main%20Theme%20(OST%20Version)%20-%20Wii%20Shop%20Channel",
 	"joke": "Rude - MAGIC!",
 	"artist": "MonoGiraffe"},
@@ -51785,7 +51796,7 @@ const db = {
 	"joke": "Into You - Ariana Grande",
 	"artist": "Emm Bee Sea"},
 "7zQIhiYjmD4": {
-	"title": "Take On Me - SingStar",
+	"title": "Take On Me - a-ha",
 	"wiki": "https://siivagunner.wiki/wiki/Take%20On%20Me%20-%20SingStar",
 	"joke": "Yogurt Yard - Kirby's Adventure",
 	"artist": "eg_9371"},
@@ -52106,6 +52117,7 @@ const db = {
 	"artist": "Unknown Ripper"},
 "ePcdduRcJPY": {
 	"title": "Beta 3 (Original Treasure Trove Cove) - Banjo-Kazooie",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Beta%203%20(Original%20Treasure%20Trove%20Cove)%20-%20Banjo-Kazooie",
 	"joke": "Mango! - Super Fantasy Zone",
 	"artist": "RHMan"},
@@ -52122,7 +52134,7 @@ const db = {
 "CSnZBYg34cI": {
 	"title": "Ballad of the Wind Fish - The Legend of Zelda: Majora's Mask",
 	"wiki": "https://siivagunner.wiki/wiki/Ballad%20of%20the%20Wind%20Fish%20-%20The%20Legend%20of%20Zelda%3A%20Majora's%20Mask",
-	"joke": "Ballad of the Wind Fish (Marin's Version) - The Legend of Zelda: Link's Awakening",
+	"joke": "Ballad of the Wind Fish - The Legend of Zelda: Link's Awakening",
 	"artist": "Unknown Ripper"},
 "8_jBmSgqMFI": {
 	"title": "Metal Wario - Super Mario 64 DS",
@@ -52160,7 +52172,7 @@ const db = {
 	"joke": "Game Over - Super Mario World",
 	"artist": "toonlink"},
 "c4mNtqLAz_s": {
-	"title": "Main Theme - Wii Shop Channel",
+	"title": "Wii Shop Channel theme - Kazumi Totaka",
 	"wiki": "https://siivagunner.wiki/wiki/Main%20Theme%20(2017%20Update)%20-%20Wii%20Shop%20Channel",
 	"joke": "Watch Me (Whip/Nae Nae) - Silento",
 	"artist": "toonlink"},
@@ -52307,7 +52319,7 @@ const db = {
 "ooNVGnSwLec": {
 	"title": "Cake Race - Bad Piggies",
 	"wiki": "https://siivagunner.wiki/wiki/Cake%20Race%20(OST%20Version)%20-%20Bad%20Piggies",
-	"joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg, Kurupt, and Nate Dogg",
+	"joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg",
 	"artist": "Sponge Lord"},
 "ptxuysCO5us": {
 	"title": "Knitty-Knotty Windmill Hill - Yoshi's Woolly World",
@@ -52867,6 +52879,7 @@ const db = {
 	"artist": "cookiefonster"},
 "jvuIu1NpzeU": {
 	"title": "Unreeeal Superhero (3lation Remix) - The Henry Stickmin Collection",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Unreeeal%20Superhero%20(3lation%20Remix)%20-%20The%20Henry%20Stickmin%20Collection",
 	"joke": "Brain Power - NOMA",
 	"artist": "Albert Softie"},
@@ -52926,7 +52939,7 @@ const db = {
 	"joke": "Dollar in the Woods - DJ Keemstar",
 	"artist": "minindo"},
 "iqs1hGQnLRM": {
-	"title": "Hybrid song 2:20 (Funky stars) - Mitos.is: The Game",
+	"title": "Hybrid song 2:20 (Funky stars) - Quazar of Sanxion",
 	"wiki": "https://siivagunner.wiki/wiki/Hybrid%20song%202%3A20%20(Funky%20stars)%20(Alpha%20Version)%20-%20Mitos.is%3A%20The%20Game",
 	"joke": "Big Chungus - The Slopster",
 	"artist": "I hate big chungus"},
@@ -53631,12 +53644,12 @@ const db = {
 	"joke": "Ievan Polkka - Loituma",
 	"artist": "Lenox"},
 "2U8VnomVgO0": {
-	"title": "Main Theme - Wii Shop Channel",
+	"title": "Wii Shop Channel theme - Kazumi Totaka",
 	"wiki": "https://siivagunner.wiki/wiki/Main%20Theme%20(Night)%20-%20Wii%20Shop%20Channel",
 	"joke": "In Other Words (Fly Me to the Moon) - Bart Howard",
 	"artist": "Sean-Patrick"},
 "yWFSTvxdxV4": {
-	"title": "Main Theme - Wii Shop Channel",
+	"title": "Wii Shop Channel theme - Kazumi Totaka",
 	"wiki": "https://siivagunner.wiki/wiki/Main%20Theme%20(EU%20Version)%20-%20Wii%20Shop%20Channel",
 	"joke": "Temporary Secretary - Paul McCartney",
 	"artist": "Eva Twin (previously Vari)"},
@@ -53653,7 +53666,7 @@ const db = {
 "tblU4POy5Co": {
 	"title": "Duff Brewery - The Simpsons Hit & Run",
 	"wiki": "https://siivagunner.wiki/wiki/Duff%20Brewery%20-%20The%20Simpsons%20Hit%20%26%20Run",
-	"joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg, Kurupt, and Nate Dogg",
+	"joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg",
 	"artist": "NBGMusic"},
 "aSsGNJsmYfs": {
 	"title": "Strong One (Masked Man) - MOTHER 3",
@@ -55149,7 +55162,7 @@ const db = {
 "oZI4sdQxTQ8": {
 	"title": "Caribbean - Pole's Big Adventure",
 	"wiki": "https://siivagunner.wiki/wiki/Caribbean%20-%20Pole's%20Big%20Adventure",
-	"joke": "Main Theme - Wii Shop Channel",
+	"joke": "Wii Shop Channel theme - Kazumi Totaka",
 	"artist": "DonnieTheGuy"},
 "lF9GLxzbeZU": {
 	"title": "Crimson Hallway - Super Mario 64 (Build 3313)",
@@ -56030,7 +56043,7 @@ const db = {
 "K4uuH3Ci28c": {
 	"title": "Luigi Mansion - Mario Hoops 3-on-3",
 	"wiki": "https://siivagunner.wiki/wiki/Luigi%20Mansion%20-%20Mario%20Hoops%203-on-3",
-	"joke": "Main Theme - Wii Shop Channel",
+	"joke": "Wii Shop Channel theme - Kazumi Totaka",
 	"artist": "BluLuigi7"},
 "zrQvBSD6GbY": {
 	"title": "Wind Of Fjords - Super Doomspire / Minomus",
@@ -56295,7 +56308,7 @@ const db = {
 "6XR4sXgMNYQ": {
 	"title": "Gift Shop - HuniePop 2: Double Date",
 	"wiki": "https://siivagunner.wiki/wiki/Gift%20Shop%20-%20HuniePop%202%3A%20Double%20Date",
-	"joke": "Main Theme - Wii Shop Channel",
+	"joke": "Wii Shop Channel theme - Kazumi Totaka",
 	"artist": "2tothepower/two^"},
 "z1JsIAW7VKQ": {
 	"title": "Majestic 12 Labs - Deus Ex",
@@ -57690,7 +57703,7 @@ const db = {
 "SqlPJcUbxu4": {
 	"title": "Hotel Yado - MOTHER 3",
 	"wiki": "https://siivagunner.wiki/wiki/Hotel%20Yado%20(Beta%20Mix)%20-%20MOTHER%203",
-	"joke": "Main Theme - Wii Shop Channel",
+	"joke": "Wii Shop Channel theme - Kazumi Totaka",
 	"artist": "NutellaFrenchToast"},
 "m5K6n79Kbhk": {
 	"title": "Laugh! Be Happy! - MOTHER 3",
@@ -57805,7 +57818,7 @@ const db = {
 "GIatTTUwctQ": {
 	"title": "Rock Bottom - SpongeBob SquarePants: Legend of the Lost Spatula",
 	"wiki": "https://siivagunner.wiki/wiki/Rock%20Bottom%20-%20SpongeBob%20SquarePants%3A%20Legend%20of%20the%20Lost%20Spatula",
-	"joke": "Megalo Strike Back - I Miss You - EarthBound 2012",
+	"joke": "Megalo Strike Back - I Miss You: EarthBound 2012",
 	"artist": "UUN4"},
 "7ed7OHrb7AM": {
 	"title": "It's Showtime! - Undertale",
@@ -59523,7 +59536,7 @@ const db = {
 		{"time": "0:10", "joke": "C'Mon n' Ride It (The Train) - Quad City DJ's"},
 		{"time": "0:14", "joke": "We Are Number One - Máni Svavarsson, LazyTown"},
 		{"time": "0:26", "joke": "Low - Flo Rida ft. T-Pain"},
-		{"time": "0:38", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg, Kurupt, and Nate Dogg"},
+		{"time": "0:38", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg"},
 		{"time": "0:43", "joke": "THAT'S RIGHT, GET NOSCOPED! - austinscooter88"},
 		{"time": "0:44", "joke": "Oh Baby, a Triple! - LustruM"},
 		{"time": "0:48", "joke": "Damn, Son! Where'd You Find This? - AllTrapMusic / Shadoe Haze"},
@@ -59609,7 +59622,7 @@ const db = {
 		{"time": "2:30", "joke": "Gangnam Style - PSY"},
 		{"time": "2:38", "joke": "Low - Flo Rida ft. T-Pain"},
 		{"time": "2:53", "joke": "Megalovania - Toby Fox"},
-		{"time": "2:53", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg, Kurupt, and Nate Dogg"},
+		{"time": "2:53", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg"},
 		{"time": "2:57", "joke": "Bad Apple!! - Touhou 4: Lotus Land Story"},
 		{"time": "3:01", "joke": "We Are Number One - Máni Svavarsson, LazyTown"},
 		{"time": "3:01", "joke": "It's Everyday Bro - Jake Paul ft. Team 10"},
@@ -60544,7 +60557,7 @@ const db = {
 		{"time": "0:12", "joke": "Roblox Chicken Nugget / Gegagedigedagedago - @razioff, @wenonugget"},
 		{"time": "0:17", "joke": "Drop It Like It's Hot - Snoop Dogg ft. Pharrell Williams"},
 		{"time": "0:18", "joke": "Steppin' on the Beach - SpongeBob SquarePants"},
-		{"time": "0:18", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg, Kurupt, and Nate Dogg"},
+		{"time": "0:18", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg"},
 		{"time": "0:18", "joke": "Your Affection - Persona 4"},
 		{"time": "0:34", "joke": "Zzz - Nichijou"},
 		{"time": "0:34", "joke": "All Star - Smash Mouth"},
@@ -60653,7 +60666,7 @@ const db = {
 		{"time": "0:30", "joke": "Drop It Like It's Hot - Snoop Dogg ft. Pharrell Williams"},
 		{"time": "0:31", "joke": "Take Ü There - Jack Ü ft. Kiesza"},
 		{"time": "0:34", "joke": "Funny DJ - Gummibär"},
-		{"time": "0:38", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg, Kurupt, and Nate Dogg"},
+		{"time": "0:38", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg"},
 		{"time": "0:40", "joke": "Yup! Yup! Yup! - Hasunosora Girls' High School Idol Club"},
 		{"time": "0:41", "joke": "Bramble Blast - Super Smash Bros. Brawl"},
 		{"time": "0:41", "joke": "Boyfriend - Big Time Rush"},
@@ -60672,7 +60685,7 @@ const db = {
 		{"time": "1:20", "joke": "THAT'S RIGHT, GET NOSCOPED! - austinscooter88"},
 		{"time": "1:27", "joke": "Family Ties - Baby Keem & Kendrick Lamar"},
 		{"time": "1:27", "joke": "HOW 2 DRAW SANIC HEGEHOG - 0nyxheart"},
-		{"time": "1:27", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg, Kurupt, and Nate Dogg"},
+		{"time": "1:27", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg"},
 		{"time": "1:27", "joke": "Countdown Clock - Countdown"},
 		{"time": "1:39", "joke": "Kyō no gohan wa karēda zo~ - Wataten!: An Angel Flew Down to Me"},
 		{"time": "1:39", "joke": "100 Sunny - OMORI"},
@@ -60696,7 +60709,7 @@ const db = {
 	"title": "Big Blue House & Bubbles - Bear in the Big Blue House (GBC)",
 	"wiki": "https://siivagunner.wiki/wiki/Big%20Blue%20House%20%26%20Bubbles%20(OST%20Version)%20-%20Bear%20in%20the%20Big%20Blue%20House%20(GBC)",
 	"joke": [
-		{"time": "0:00", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg, Kurupt, and Nate Dogg"},
+		{"time": "0:00", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg"},
 		{"time": "0:19", "joke": "All Star - Smash Mouth"},
 		{"time": "0:20", "joke": "Scary Monsters and Nice Sprites - Skrillex"},
 		{"time": "0:22", "joke": "The X-Files Theme - Mark Snow"},
@@ -60715,7 +60728,7 @@ const db = {
 		{"time": "0:12", "joke": "WOMBO COMBO!!!! - Lumpycpu"},
 		{"time": "0:15", "joke": "Oh Baby, a Triple! - LustruM"},
 		{"time": "0:23", "joke": "Sandstorm - Darude"},
-		{"time": "0:29", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg, Kurupt, and Nate Dogg"},
+		{"time": "0:29", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg"},
 		{"time": "0:49", "joke": "Scary Monsters and Nice Sprites - Skrillex"},
 		{"time": "1:04", "joke": "All Star - Smash Mouth"},
 		{"time": "1:09", "joke": "Hello - OMFG"},
@@ -60732,7 +60745,7 @@ const db = {
 		{"time": "0:06, 0:00", "joke": "The Rap Battle (PARODY) - Supa Hot Fire (MrDeshawnRaw)"},
 		{"time": "0:05", "joke": "Hitmarker - Call of Duty"},
 		{"time": "0:16", "joke": "Oh Baby, a Triple! - LustruM"},
-		{"time": "0:18", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg, Kurupt, and Nate Dogg"},
+		{"time": "0:18", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg"},
 		{"time": "0:20", "joke": "Sandstorm - Darude"},
 		{"time": "0:24", "joke": "Damn, Son! Where'd You Find This? - AllTrapMusic / Shadoe Haze"},
 		{"time": "0:27", "joke": "WOMBO COMBO!!!! - Lumpycpu"},
@@ -60745,7 +60758,7 @@ const db = {
 	"title": "Cold Spaghetti - Pizza Tower",
 	"wiki": "https://siivagunner.wiki/wiki/Cold%20Spaghetti%20-%20Pizza%20Tower",
 	"joke": [
-		{"time": "0:00, 0:55, 2:40", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg, Kurupt, and Nate Dogg"},
+		{"time": "0:00, 0:55, 2:40", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg"},
 		{"time": "0:18, 0:37, 2:03", "joke": "Scary Monsters and Nice Sprites - Skrillex"},
 		{"time": "0:27, 2:12", "joke": "Run Away - SunStroke Project & Olia Tira"},
 		{"time": "1:05, 2:21", "joke": "Holdin' On (Skrillex & Nero Remix) - I SEE MONSTAS"},
@@ -60757,7 +60770,7 @@ const db = {
 	"joke": [
 		{"time": "0:00", "joke": "Quickscope - Call of Duty"},
 		{"time": "0:00", "joke": "Oh Baby, a Triple! - LustruM"},
-		{"time": "0:03", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg, Kurupt, and Nate Dogg"},
+		{"time": "0:03", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg"},
 		{"time": "0:05", "joke": "Eddy Wally's \"Wow\" - djvensterke2"},
 		{"time": "0:07", "joke": "Mom, Get the Camera! - C8 Swap"},
 		{"time": "0:13", "joke": "Kid Screaming At Black Ops PART 2 - austinscooter88"},
@@ -60777,7 +60790,7 @@ const db = {
 	"title": "Cold Spaghetti - Pizza Tower",
 	"wiki": "https://siivagunner.wiki/wiki/Cold%20Spaghetti%20-%20Pizza%20Tower",
 	"joke": [
-		{"time": "0:00, 0:55, 2:40", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg, Kurupt, and Nate Dogg"},
+		{"time": "0:00, 0:55, 2:40", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg"},
 		{"time": "0:18, 0:37, 2:03", "joke": "Scary Monsters and Nice Sprites - Skrillex"},
 		{"time": "0:27, 2:12", "joke": "Run Away - SunStroke Project & Olia Tira"},
 		{"time": "1:05, 2:21", "joke": "Holdin' On (Skrillex & Nero Remix) - I SEE MONSTAS"},
@@ -60787,7 +60800,7 @@ const db = {
 	"title": "Dark Side - GAME OF THE YEAR: 420BLAZEIT vs. xxXilluminatiXxx [wow/10 #rekt edition]",
 	"wiki": "https://siivagunner.wiki/wiki/Dark%20Side%20-%20GAME%20OF%20THE%20YEAR%3A%20420BLAZEIT%20vs.%20xxXilluminatiXxx%20(wow/10%20rekt%20edition)",
 	"joke": [
-		{"time": "0:23", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg, Kurupt, and Nate Dogg"},
+		{"time": "0:23", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg"},
 		{"time": "1:22", "joke": "Hitmarker - Call of Duty"},
 		{"time": "1:39", "joke": "Oh Baby, a Triple! - LustruM"},
 		{"time": "2:27", "joke": "Eddy Wally's \"Wow\" - djvensterke2"},
@@ -60799,7 +60812,7 @@ const db = {
 	"wiki": "https://siivagunner.wiki/wiki/Crossfire%20-%20Blue%20Archive",
 	"joke": [
 		{"time": "0:00, 1:22, 1:44", "joke": "Holdin' On (Skrillex & Nero Remix) - I SEE MONSTAS"},
-		{"time": "0:27", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg, Kurupt, and Nate Dogg"},
+		{"time": "0:27", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg"},
 		{"time": "0:48", "joke": "WOMBO COMBO!!!! - Lumpycpu"},
 		{"time": "1:00", "joke": "Eddy Wally's \"Wow\" - djvensterke2"},
 		{"time": "1:02", "joke": "Oh Baby, a Triple! - LustruM"},
@@ -60816,7 +60829,7 @@ const db = {
 		{"time": "0:18", "joke": "Pump - Valentino Khan"},
 		{"time": "0:21", "joke": "Last Resort - Papa Roach"},
 		{"time": "0:59", "joke": "INDUSTRY BABY - Lil Nas X and Jack Harlow"},
-		{"time": "0:59", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg, Kurupt, and Nate Dogg"},
+		{"time": "0:59", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg"},
 		{"time": "1:19", "joke": "Freaks - Timmy Trumpet & Savage"},
 		{"time": "1:39", "joke": "In the End - Linkin Park"},
 		{"time": "1:39", "joke": "Turn Down for What - DJ Snake & Lil Jon"}],
@@ -61713,7 +61726,7 @@ const db = {
 		{"time": "1:47", "joke": "Mo Bamba - Sheck Wes"},
 		{"time": "1:48", "joke": "Haunted House - 8-Bit Beast"},
 		{"time": "1:48", "joke": "Dreamscape - 009 Sound System"},
-		{"time": "1:49", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg, Kurupt, and Nate Dogg"},
+		{"time": "1:49", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg"},
 		{"time": "1:50", "joke": "Greedy Greedy - Kuromi"},
 		{"time": "1:50", "joke": "Marisa Stole the Precious Thing - IOSYS"},
 		{"time": "1:51", "joke": "Whales - Hail Mary Mallon"},
@@ -61779,7 +61792,7 @@ const db = {
 		{"time": "12:48", "joke": "Slider - Super Mario 64"},
 		{"time": "13:16", "joke": "Spiral Mountain - Banjo-Kazooie"},
 		{"time": "13:43", "joke": "Hotline Bling - Drake"},
-		{"time": "14:12", "joke": "Main Theme - Wii Shop Channel"},
+		{"time": "14:12", "joke": "Wii Shop Channel theme - Kazumi Totaka"},
 		{"time": "14:40", "joke": "Lost Woods - The Legend of Zelda: Ocarina of Time"},
 		{"time": "15:11", "joke": "Milk Bar - The Legend of Zelda: Majora's Mask"},
 		{"time": "15:38", "joke": "Ya Tareshy - Eida Al-Menhali"},
@@ -62289,7 +62302,7 @@ const db = {
 		{"time": "2:19, 2:41", "joke": "SICKO MODE - Travis Scott ft. Drake, Swae Lee, and Big Hawk"},
 		{"time": "2:33", "joke": "Rich Flex - Drake and 21 Savage"},
 		{"time": "2:50", "joke": "Hotline Bling - Drake"},
-		{"time": "2:50", "joke": "Main Theme - Wii Shop Channel"}],
+		{"time": "2:50", "joke": "Wii Shop Channel theme - Kazumi Totaka"}],
 	"artist": "DonnieTheGuy"},
 "yVmP4kiA8-I": {
 	"title": "Main Theme - Skibidi War: Toilets Attack",
@@ -62399,7 +62412,7 @@ const db = {
 	"joke": [
 		{"time": "0:00 - 2:30", "joke": "Paper Planes - M.I.A."},
 		{"time": "0:05 - 1:30", "joke": "Balloon - Windows XP"},
-		{"time": "0:10", "joke": "Main Theme - Wii Shop Channel"},
+		{"time": "0:10", "joke": "Wii Shop Channel theme - Kazumi Totaka"},
 		{"time": "0:50", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin"},
 		{"time": "0:57", "joke": "Raft Ride - The Legend of Zelda: Link's Awakening"},
 		{"time": "1:01", "joke": "Haunted House - 8-Bit Beast"},
@@ -62704,7 +62717,7 @@ const db = {
 		{"time": "0:12", "joke": "FOUR HOURS!! - Angry Joe"},
 		{"time": "0:14", "joke": "Harlem Shake - Baauer"},
 		{"time": "0:26", "joke": "U Guessed It - OG Maco"},
-		{"time": "0:27", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg, Kurupt, and Nate Dogg"},
+		{"time": "0:27", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg"},
 		{"time": "0:29", "joke": "Se Piscar Já Era - DJ CR DA CDA, SORRIZO RONALDO"},
 		{"time": "0:29", "joke": "Drum samples - Os Barões da Pisadinha"},
 		{"time": "0:31", "joke": "Crank That - Soulja Boy"},
@@ -63376,7 +63389,7 @@ const db = {
 		{"time": "0:25", "joke": "Steppin' on the Beach - SpongeBob SquarePants"},
 		{"time": "0:25", "joke": "Cheesasaurus Rex - Kraft"},
 		{"time": "0:26", "joke": "Doin' Your Mom - FAttY SPiNS"},
-		{"time": "0:26", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg, Kurupt, and Nate Dogg"},
+		{"time": "0:26", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg"},
 		{"time": "0:27", "joke": "Jason against the children of the hydra's teeth - Jason and the Argonauts (1963)"},
 		{"time": "0:28", "joke": "Krabby Patty Fanfare (\"Krusty Krab Training Video\") - SpongeBob SquarePants"},
 		{"time": "0:30", "joke": "AA EE OO - Jerma985"},
@@ -64630,7 +64643,7 @@ const db = {
 		{"time": "0:29", "joke": "Fuck Bees - happening.tv / Huey Lewis and the News"},
 		{"time": "0:29", "joke": "Yankin - Lady"},
 		{"time": "0:30", "joke": "GO MY WAY!! - THE iDOLM@STER"},
-		{"time": "0:31", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg, Kurupt, and Nate Dogg"},
+		{"time": "0:31", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg"},
 		{"time": "0:32", "joke": "Stanky Legg - GS Boyz"},
 		{"time": "0:32", "joke": "Shake That - Eminem ft. Nate Dogg"},
 		{"time": "0:32", "joke": "Confusion - New Order"},
@@ -64725,7 +64738,7 @@ const db = {
 		{"time": "2:38", "joke": "Metal Beat - Metal Masters"},
 		{"time": "2:39", "joke": "Party Rock Anthem - LMFAO ft. Lauren Bennett & GoonRock"},
 		{"time": "2:41", "joke": "We No Speak Americano - Yolanda Be Cool ft. DCUP"},
-		{"time": "2:42", "joke": "Megalo Strike Back - I Miss You - EarthBound 2012"},
+		{"time": "2:42", "joke": "Megalo Strike Back - I Miss You: EarthBound 2012"},
 		{"time": "2:43", "joke": "Konga Conga Kappa (King Conga) - Crypt of the NecroDancer"},
 		{"time": "2:43", "joke": "It's Everyday Bro - Jake Paul ft. Team 10"},
 		{"time": "2:46", "joke": "Deez Nuts! [Trap Remix] - Dennibro"},
@@ -64833,7 +64846,7 @@ const db = {
 		{"time": "10:37", "joke": "I'm Not Yo Daddy, I'm Yo Grandpa - Biff Chitlins (GEICO ad)"},
 		{"time": "10:43", "joke": "Interstellar Retribution - Rock Candy"},
 		{"time": "10:50", "joke": "Jenka 2 - Cave Story"},
-		{"time": "10:57", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg, Kurupt, and Nate Dogg"},
+		{"time": "10:57", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg"},
 		{"time": "11:04", "joke": "Stage Select - Mega Man 3"},
 		{"time": "11:11", "joke": "Get Ready for This - 2 Unlimited"},
 		{"time": "11:18", "joke": "Stadium Rave A (Jellyfish Jam) - SpongeBob SquarePants"},
@@ -64956,7 +64969,7 @@ const db = {
 		{"time": "28:43", "joke": "Mukidashi de Mukiatte - Morning Musume '16"},
 		{"time": "28:56", "joke": "Maiden's Capriccio ~ Dream Battle - Touhou 8: Imperishable Night"},
 		{"time": "29:18", "joke": "Underworld Map - Doraemon: Gigazombie no Gyakushuu"},
-		{"time": "29:31", "joke": "ryukenden / Shuric Scan 1.99crk - SofT MANiAC"},
+		{"time": "29:31", "joke": "Overdrive (ryukenden, Battling Precariously, Shuric Scan 1.99crk) - Ninja Gaiden II: The Dark Sword of Chaos"},
 		{"time": "29:52", "joke": "In the Hall of the Mountain King - Edvard Grieg"},
 		{"time": "29:59", "joke": "Travelling the Galaxy - Run 3"},
 		{"time": "30:12", "joke": "Glitter Gulch Mine - Banjo-Tooie"},
@@ -65447,7 +65460,7 @@ const db = {
 		{"time": "0:11", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin"},
 		{"time": "0:22", "joke": "Once Upon a Time - Undertale"},
 		{"time": "0:33", "joke": "Overworld Theme - Super Mario Land"},
-		{"time": "0:56", "joke": "Main Theme - Wii Shop Channel"},
+		{"time": "0:56", "joke": "Wii Shop Channel theme - Kazumi Totaka"},
 		{"time": "1:05", "joke": "Hotline Bling - Drake"}],
 	"artist": "Mitchell"},
 "Dsvx4gP9WFI": {
@@ -65529,7 +65542,7 @@ const db = {
 		{"time": "1:11", "joke": "Intro Title / Minigame Theme - Barbie Horse Adventures: Blue Ribbon Race"},
 		{"time": "1:24", "joke": "Mope (Here Comes Pacman) - Bloodhound Gang"},
 		{"time": "1:37", "joke": "Baby Got Book - Dan Smith"},
-		{"time": "1:37", "joke": "ryukenden / Shuric Scan 1.99crk - SofT MANiAC"},
+		{"time": "1:37", "joke": "Overdrive (ryukenden, Battling Precariously, Shuric Scan 1.99crk) - Ninja Gaiden II: The Dark Sword of Chaos"},
 		{"time": "1:50", "joke": "Goomba Got Back - Gaijin Goombah and The Living Tombstone"},
 		{"time": "1:50", "joke": "Megalovania - Undertale"},
 		{"time": "2:03", "joke": "All Star - Smash Mouth"},
@@ -65683,10 +65696,10 @@ const db = {
 	"joke": [
 		{"time": "1:53, 0:26", "joke": "Metal Beat - Metal Masters"},
 		{"time": "0:36", "joke": "Zeta Force - Zabutom"},
-		{"time": "0:46", "joke": "ryukenden / Shuric Scan 1.99crk - SofT MANiAC"},
+		{"time": "0:46", "joke": "Overdrive (ryukenden, Battling Precariously, Shuric Scan 1.99crk) - Ninja Gaiden II: The Dark Sword of Chaos"},
 		{"time": "0:56", "joke": "Avast Your Ass - Kitsune^2"},
 		{"time": "1:05", "joke": "Rock My Emotions - Kitsune^2"},
-		{"time": "1:14", "joke": "Funky stars (hybrid song) - Quazar"},
+		{"time": "1:14", "joke": "Hybrid song 2:20 (Funky stars) - Quazar of Sanxion"},
 		{"time": "1:24", "joke": "Night of Nights - beatMARIO / COOL&CREATE"},
 		{"time": "1:34", "joke": "Acidjazzed evening - Tempest"}],
 	"artist": "Blookerstein"},
@@ -65935,7 +65948,7 @@ const db = {
 		{"time": "2:15", "joke": "Money (That's What I Want) - Barrett Strong"},
 		{"time": "2:24", "joke": "Megalovania - Undertale"},
 		{"time": "2:32", "joke": "Enter Sandman - Metallica"},
-		{"time": "2:40", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg, Kurupt, and Nate Dogg"}],
+		{"time": "2:40", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg"}],
 	"artist": "NBGMusic"},
 "J8f5aW5UXdU": {
 	"title": "Xenoblade Chronicles Medley - Super Smash Bros. Ultimate",
@@ -66287,7 +66300,7 @@ const db = {
 		{"time": "14:04", "joke": "Baby Bowser - Super Mario World 2: Yoshi's Island"},
 		{"time": "14:35", "joke": "Last Battle - Cave Story"},
 		{"time": "15:09", "joke": "Natural Killer Cyborg - MOTHER 3"},
-		{"time": "15:41", "joke": "Megalo Strike Back - I Miss You - EarthBound 2012"},
+		{"time": "15:41", "joke": "Megalo Strike Back - I Miss You: EarthBound 2012"},
 		{"time": "16:07", "joke": "The Id - EarthBound Halloween Hack"},
 		{"time": "16:43", "joke": "Smiles and Tears - EarthBound"},
 		{"time": "17:24", "joke": "Francis Battle - Super Paper Mario"},
@@ -66711,7 +66724,7 @@ const db = {
 		{"time": "1:58", "joke": "Fireflies - Owl City"},
 		{"time": "2:14", "joke": "Overworld Theme - Super Mario World"},
 		{"time": "2:28", "joke": "Bonfire - Childish Gambino"},
-		{"time": "2:30", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg, Kurupt, and Nate Dogg"},
+		{"time": "2:30", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg"},
 		{"time": "2:32", "joke": "The Real Slim Shady - Eminem"},
 		{"time": "2:33", "joke": "GRAND DAD - Vinesauce Joel"},
 		{"time": "2:36", "joke": "Science Blaster (Game Theory Theme) - SpellingPhailer"},
@@ -67173,7 +67186,7 @@ const db = {
 		{"time": "1:12:57", "joke": "Linebarrel - Linebarrels of Iron"},
 		{"time": "1:13:07", "joke": "Blazing - Gundam Reconguista in G"},
 		{"time": "1:13:17", "joke": "Mind Mapping - Ryu☆"},
-		{"time": "1:13:26", "joke": "Main Theme - Wii Shop Channel"},
+		{"time": "1:13:26", "joke": "Wii Shop Channel theme - Kazumi Totaka"},
 		{"time": "1:13:35", "joke": "Hotline Bling - Drake"},
 		{"time": "1:13:45", "joke": "World is Mine - ryo"},
 		{"time": "1:13:55", "joke": "Clash on the Big Bridge - Final Fantasy V"},
@@ -67533,7 +67546,7 @@ const db = {
 		{"time": "2:11:02", "joke": "Gerudo Valley - The Legend of Zelda: Ocarina of Time"},
 		{"time": "2:11:12", "joke": "Sing, Sing, Sing (With a Swing) - Louis Prima"},
 		{"time": "2:11:21", "joke": "The Gypsy Bard - Friendship is Witchcraft"},
-		{"time": "2:11:31", "joke": "Megalo Strike Back - I Miss You - EarthBound 2012"},
+		{"time": "2:11:31", "joke": "Megalo Strike Back - I Miss You: EarthBound 2012"},
 		{"time": "2:11:40", "joke": "Bonetrousle - Undertale"},
 		{"time": "2:11:50", "joke": "Unfounded Revenge - MOTHER 3"},
 		{"time": "2:12:00", "joke": "Veridis Quo - Daft Punk"},
@@ -67720,7 +67733,7 @@ const db = {
 		{"time": "2:41:16", "joke": "Icy Cavern - Kirby's Return to Dream Land"},
 		{"time": "2:41:26", "joke": "Nocturnes, Op. 9, No. 2 - Frédéric Chopin"},
 		{"time": "2:41:35", "joke": "When the Saints Go Marching In - Louis Armstrong"},
-		{"time": "2:41:45", "joke": "ryukenden / Shuric Scan 1.99crk - SofT MANiAC"},
+		{"time": "2:41:45", "joke": "Overdrive (ryukenden, Battling Precariously, Shuric Scan 1.99crk) - Ninja Gaiden II: The Dark Sword of Chaos"},
 		{"time": "2:41:55", "joke": "Concrete Man Stage - Mega Man 9"},
 		{"time": "2:42:04", "joke": "Geki! Teikoku Kagekidan - Sakura Wars"},
 		{"time": "2:42:14", "joke": "Those Who Fight - Final Fantasy VII"},
@@ -67781,7 +67794,7 @@ const db = {
 		{"time": "2:51:02", "joke": "Stronger Than You - Estelle (Steven Universe)"},
 		{"time": "2:51:11", "joke": "Paradisus-Paradoxum - MYTH & ROID"},
 		{"time": "2:51:21", "joke": "Pasko Na Naman Muli (It's Christmas Time Again) - Filipino Christmas carol"},
-		{"time": "2:51:31", "joke": "Funky stars (hybrid song) - Quazar"},
+		{"time": "2:51:31", "joke": "Hybrid song 2:20 (Funky stars) - Quazar of Sanxion"},
 		{"time": "2:51:41", "joke": "BRODYQUEST - Neil Cicierega"},
 		{"time": "2:51:50", "joke": "Answer - G-Senjou no Maou"},
 		{"time": "2:52:00", "joke": "Glacier Cocktail - Rayman Origins"},
@@ -68110,7 +68123,7 @@ const db = {
 	"title": "Sunset Park - Sonic the Hedgehog Triple Trouble",
 	"wiki": "https://siivagunner.wiki/wiki/Sunset%20Park%20(Act%203)%20(Beta%20Mix)%20-%20Sonic%20the%20Hedgehog%20Triple%20Trouble",
 	"joke": [
-		{"time": "0:13", "joke": "ryukenden / Shuric Scan 1.99crk - SofT MANiAC"},
+		{"time": "0:13", "joke": "Overdrive (ryukenden, Battling Precariously, Shuric Scan 1.99crk) - Ninja Gaiden II: The Dark Sword of Chaos"},
 		{"time": "0:26", "joke": "Rock My Emotions - Kitsune^2"},
 		{"time": "0:39", "joke": "YO-KAI Disco (Hell's Entrance World) - Mamorukun Curse!"}],
 	"artist": "Sonicheroesfan1"},
@@ -68123,7 +68136,7 @@ const db = {
 		{"time": "0:27", "joke": "Dame Tu Cosita - El Chombo ft. Cutty Ranks"},
 		{"time": "0:27", "joke": "Think (About It) - Lyn Collins"},
 		{"time": "0:32", "joke": "Damn, Son! Where'd You Find This? - AllTrapMusic / Shadoe Haze"},
-		{"time": "0:34", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg, Kurupt, and Nate Dogg"},
+		{"time": "0:34", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg"},
 		{"time": "0:34", "joke": "Yankin - Lady"},
 		{"time": "0:40", "joke": "I Love It - Kanye West and Lil Pump ft. Adele Givens"},
 		{"time": "0:41", "joke": "Big Chungus - CG5"},
@@ -69290,7 +69303,7 @@ const db = {
 	"wiki": "https://siivagunner.wiki/wiki/Thwomp%20Caverns%20(Beta%20Mix)%20-%20Mario%20%26%20Luigi%3A%20Partners%20in%20Time",
 	"joke": [
 		{"time": "0:34", "joke": "Type A (Korobeiniki) - Tetris"},
-		{"time": "0:55", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg, Kurupt, and Nate Dogg"},
+		{"time": "0:55", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg"},
 		{"time": "1:05", "joke": "Puzzle Room - Kirby Planet Robobot"}],
 	"artist": "Spottygamester"},
 "dUN7hkgwwFk": {
@@ -69768,7 +69781,7 @@ const db = {
 	"joke": [
 		{"time": "0:00", "joke": "We Are Number One - Máni Svavarsson, LazyTown"},
 		{"time": "0:00", "joke": "Gangnam Style - PSY"},
-		{"time": "0:00", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg, Kurupt, and Nate Dogg"},
+		{"time": "0:00", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg"},
 		{"time": "0:01", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "0:02", "joke": "Crank That - Soulja Boy"},
 		{"time": "0:02", "joke": "GRAND DAD - Vinesauce Joel"},
@@ -70489,7 +70502,7 @@ const db = {
 		{"time": "1:59", "joke": "Sunshine, Rainbow, White Pony - Wowkie Zhang"},
 		{"time": "2:09", "joke": "GO MY WAY!! - THE iDOLM@STER"},
 		{"time": "2:23", "joke": "Jump Up, Super Star! - Super Mario Odyssey"},
-		{"time": "2:34", "joke": "Main Theme - Wii Shop Channel"},
+		{"time": "2:34", "joke": "Wii Shop Channel theme - Kazumi Totaka"},
 		{"time": "2:36", "joke": "Snow halation - Love Live!, µ's"},
 		{"time": "2:39", "joke": "irony - ClariS"}],
 	"artist": "Mochi"},
@@ -71747,7 +71760,7 @@ const db = {
 	"wiki": "https://siivagunner.wiki/wiki/Area%207/12%20(Beta%20Mix)%20-%20Santa%20Claus%20Saves%20the%20Earth",
 	"joke": [
 		{"time": "0:00", "joke": "Opening theme - Eyewitness"},
-		{"time": "0:15", "joke": "Megalo Strike Back - I Miss You - EarthBound 2012"},
+		{"time": "0:15", "joke": "Megalo Strike Back - I Miss You: EarthBound 2012"},
 		{"time": "0:19", "joke": "Fanboy & Chum Chum Theme - Fanboy & Chum Chum"},
 		{"time": "0:20", "joke": "Laughing Baby Bubbling Remix - Marcel Plomp"},
 		{"time": "0:23", "joke": "Metal Beat - Metal Masters"},
@@ -73840,7 +73853,7 @@ const db = {
 		{"time": "1:52", "joke": "Shake That Ass Bitch - Booty Bass"},
 		{"time": "1:57", "joke": "*barking noises* - Gabe the Dog"},
 		{"time": "2:00", "joke": "FOUR HOURS!! - Angry Joe"},
-		{"time": "2:01", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg, Kurupt, and Nate Dogg"}],
+		{"time": "2:01", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg"}],
 	"artist": "James \"CaptainComedy\" Avestruz"},
 "9yw2Ayks1KQ": {
 	"title": "MapleStory 2 OST #2 - MapleStory 2",
@@ -73921,7 +73934,7 @@ const db = {
 	"joke": [
 		{"time": "0:00", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin"},
 		{"time": "0:26", "joke": "The Noble Haltmann - Kirby Planet Robobot"},
-		{"time": "0:41", "joke": "Main Theme - Wii Shop Channel"}],
+		{"time": "0:41", "joke": "Wii Shop Channel theme - Kazumi Totaka"}],
 	"artist": "Sarvéproductions"},
 "NcRVp45iq5w": {
 	"title": "Plastic Mind - Touhou 5: Mystic Square",
@@ -73939,7 +73952,7 @@ const db = {
 		{"time": "0:01", "joke": "Dogsong - Undertale"},
 		{"time": "0:37", "joke": "Wet - Snoop Dogg"},
 		{"time": "0:38", "joke": "Missile ~ A Courageous Little Animal - Ghost Trick: Phantom Detective"},
-		{"time": "1:03-2:12", "joke": "instruments and K.K. Slider - Animal Crossing"},
+		{"time": "1:03-2:12", "joke": "Instrument Swap/Arrangement - K.K. Slider"},
 		{"time": "1:22-1:33", "joke": "Town Hall - Animal Crossing: New Leaf"},
 		{"time": "1:33-2:12", "joke": "Run, My Dog, Run! - MOTHER 3"},
 		{"time": "2:11", "joke": "All Masters' Rap - PaRappa the Rapper"},
@@ -74375,11 +74388,11 @@ const db = {
 	"title": "Flat Zone (Melee) - Super Smash Bros. Brawl",
 	"wiki": "https://siivagunner.wiki/wiki/Flat%20Zone%20(Melee)%20-%20Super%20Smash%20Bros.%20Brawl",
 	"joke": [
-		{"time": "0:11", "joke": "ryukenden / Shuric Scan 1.99crk - SofT MANiAC"},
+		{"time": "0:11", "joke": "Overdrive (ryukenden, Battling Precariously, Shuric Scan 1.99crk) - Ninja Gaiden II: The Dark Sword of Chaos"},
 		{"time": "0:50", "joke": "Temporary Secretary - Paul McCartney"},
 		{"time": "0:56-1:11", "joke": "The one that goes... (Beep Boop Bop) - Mr. Krabs, SpongeBob SquarePants"},
 		{"time": "0:57", "joke": "Temporary Secretary - Paul McCartney"},
-		{"time": "1:12", "joke": "ryukenden / Shuric Scan 1.99crk - SofT MANiAC"},
+		{"time": "1:12", "joke": "Overdrive (ryukenden, Battling Precariously, Shuric Scan 1.99crk) - Ninja Gaiden II: The Dark Sword of Chaos"},
 		{"time": "1:25", "joke": "Title Screen - CrazyBus"},
 		{"time": "1:39", "joke": "The Bad Touch - Bloodhound Gang"},
 		{"time": "1:45", "joke": "Loss - Ctrl+Alt+Del"},
@@ -74396,7 +74409,7 @@ const db = {
 		{"time": "0:49", "joke": "It's Everyday Bro - Jake Paul ft. Team 10"},
 		{"time": "0:55", "joke": "Megalovania - Undertale"},
 		{"time": "1:01", "joke": "Totino's - Tim and Eric"},
-		{"time": "1:14", "joke": "Main Theme - Wii Shop Channel"},
+		{"time": "1:14", "joke": "Wii Shop Channel theme - Kazumi Totaka"},
 		{"time": "1:26", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "1:31", "joke": "mm2wood.mid (Wood Man MIDI) - Mingo Games Ltd."},
 		{"time": "1:38", "joke": "Route 228 - Pokemon Diamond & Pearl"}],
@@ -74674,7 +74687,7 @@ const db = {
 	"title": "Paper Planes - Far Cry 3",
 	"wiki": "https://siivagunner.wiki/wiki/Paper%20Planes%20-%20Far%20Cry%203",
 	"joke": [
-		{"time": "0:05", "joke": "Main Theme - Wii Shop Channel"},
+		{"time": "0:05", "joke": "Wii Shop Channel theme - Kazumi Totaka"},
 		{"time": "0:33", "joke": "Tem Shop - Undertale"},
 		{"time": "0:56", "joke": "Title Theme & Ending - 7 GRAND DAD"},
 		{"time": "1:19", "joke": "Overworld Theme - Super Mario World"},
@@ -75232,7 +75245,7 @@ const db = {
 		{"time": "1:25-1:40", "joke": "Totino's - Tim and Eric"},
 		{"time": "1:44", "joke": "Axel F (Beverly Hills Cop / Crazy Frog) - Harold Faltermeyer"},
 		{"time": "1:58", "joke": "YOLO! - Chadtronic"},
-		{"time": "1:59", "joke": "ryukenden / Shuric Scan 1.99crk - SofT MANiAC"}],
+		{"time": "1:59", "joke": "Overdrive (ryukenden, Battling Precariously, Shuric Scan 1.99crk) - Ninja Gaiden II: The Dark Sword of Chaos"}],
 	"artist": "Grambam36 and ChickenSuitGuy"},
 "munh5m-tQJI": {
 	"title": "Meet Zelda Again - The Legend of Zelda: Ocarina of Time",
@@ -75300,7 +75313,7 @@ const db = {
 	"title": "Nintendo 3DS eShop Music - Main Theme (January 2015)",
 	"wiki": "https://siivagunner.wiki/wiki/Nintendo%203DS%20eShop%20Music%20-%20Main%20Theme%20(January%202015)",
 	"joke": [
-		{"time": "0:15", "joke": "Main Theme - Wii Shop Channel"},
+		{"time": "0:15", "joke": "Wii Shop Channel theme - Kazumi Totaka"},
 		{"time": "2:03, 0:31, 1:17", "joke": "GO MY WAY!! - THE iDOLM@STER"},
 		{"time": "2:33, 0:46, 1:32, 1:48, 2:18", "joke": "The Noble Haltmann - Kirby Planet Robobot"},
 		{"time": "2:33, 1:01, 1:16, 2:03", "joke": "Totino's - Tim and Eric"},
@@ -75599,7 +75612,7 @@ const db = {
 		{"time": "0:25", "joke": "The snippet - Johannes Krupp"},
 		{"time": "0:38", "joke": "Louder & Prouder (Picco Elektro Remix) - Brooklyn Bounce vs. Sample Rippers"},
 		{"time": "0:51", "joke": "bloomin' feeling - Ryu☆"},
-		{"time": "0:51", "joke": "ryukenden / Shuric Scan 1.99crk - SofT MANiAC"},
+		{"time": "0:51", "joke": "Overdrive (ryukenden, Battling Precariously, Shuric Scan 1.99crk) - Ninja Gaiden II: The Dark Sword of Chaos"},
 		{"time": "1:02", "joke": "pizzaday.wmv - Rocco Botte"},
 		{"time": "1:03", "joke": "World's Loudest Orgasm - Creampie Cathy"},
 		{"time": "1:03", "joke": "Rock My Emotions - Kitsune^2"},
@@ -75993,7 +76006,7 @@ const db = {
 		{"time": "0:46, 0:15, 0:41", "joke": "Song That Might Play When You Fight Sans - Undertale"},
 		{"time": "0:38", "joke": "mm2wood.mid (Wood Man MIDI) - Mingo Games Ltd."},
 		{"time": "0:43", "joke": "Kyun! Vampire Girl - THE iDOLM@STER 2"},
-		{"time": "0:56", "joke": "Megalo Strike Back - I Miss You - EarthBound 2012"},
+		{"time": "0:56", "joke": "Megalo Strike Back - I Miss You: EarthBound 2012"},
 		{"time": "1:07", "joke": "Bonetrousle - Undertale"}],
 	"artist": "Sean-Patrick"},
 "Q2QgUYUzTbc": {
@@ -76006,7 +76019,7 @@ const db = {
 		{"time": "0:25", "joke": "OH YEAH MISTER KRABS! - messinwithbigfoot"},
 		{"time": "0:26", "joke": "Forever - Drake ft. Kanye West, Lil Wayne & Eminem"},
 		{"time": "0:26", "joke": "X Gon' Give It To Ya - DMX"},
-		{"time": "0:26", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg, Kurupt, and Nate Dogg"},
+		{"time": "0:26", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg"},
 		{"time": "0:31", "joke": "Drop It Like It's Hot - Snoop Dogg ft. Pharrell Williams"},
 		{"time": "0:37", "joke": "Gentleman - PSY"},
 		{"time": "0:38", "joke": "Hard in da Paint - Waka Flocka Flame ft. C-Murder"},
@@ -76348,7 +76361,7 @@ const db = {
 	"wiki": "https://siivagunner.wiki/wiki/Title%20Theme%20-%20Tetris%202%20(NES)",
 	"joke": [
 		{"time": "0:04", "joke": "Hotline Bling - Drake"},
-		{"time": "0:28", "joke": "Main Theme - Wii Shop Channel"},
+		{"time": "0:28", "joke": "Wii Shop Channel theme - Kazumi Totaka"},
 		{"time": "0:42", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin"},
 		{"time": "0:44", "joke": "The Nutshack Theme - NUMP"}],
 	"artist": "TheLeis"},
@@ -77607,7 +77620,7 @@ const db = {
 		{"time": "2:16, 4:20", "joke": "Shop - Undertale"},
 		{"time": "2:40", "joke": "Humoresque of a Little Dog - EarthBound Beginnings/MOTHER"},
 		{"time": "3:33", "joke": "Shop - Final Fantasy"},
-		{"time": "3:54", "joke": "Main Theme - Wii Shop Channel"},
+		{"time": "3:54", "joke": "Wii Shop Channel theme - Kazumi Totaka"},
 		{"time": "3:57", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin"},
 		{"time": "4:47", "joke": "Snow halation - Love Live!, µ's"},
 		{"time": "4:49", "joke": "Thrift Shop - Macklemore & Ryan Lewis ft. Wanz"}],
@@ -77966,7 +77979,7 @@ const db = {
 		{"time": "0:00, 0:07", "joke": "The Pink Panther Theme - Henry Mancini"},
 		{"time": "0:05", "joke": "The Nutshack Theme - NUMP"},
 		{"time": "0:11", "joke": "Hammer Bros. Theme - Super Mario Bros. 3"},
-		{"time": "0:19", "joke": "Main Theme - Wii Shop Channel"}],
+		{"time": "0:19", "joke": "Wii Shop Channel theme - Kazumi Totaka"}],
 	"artist": "toonlink"},
 "Fswr-UyJe_Q": {
 	"title": "Record ~ GB Mario - WarioWare D.I.Y.",
@@ -78076,7 +78089,7 @@ const db = {
 		{"time": "1:15", "joke": "Howie scream - Howie Long"},
 		{"time": "1:39", "joke": "The Nutshack Theme - NUMP"},
 		{"time": "1:45", "joke": "Drop It Like It's Hot - Snoop Dogg ft. Pharrell Williams"},
-		{"time": "1:45", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg, Kurupt, and Nate Dogg"},
+		{"time": "1:45", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg"},
 		{"time": "1:57", "joke": "FOUR HOURS!! - Angry Joe"},
 		{"time": "1:59", "joke": "Hard in da Paint - Waka Flocka Flame ft. C-Murder"},
 		{"time": "1:59", "joke": "El Sonidito - Hechizeros Band"},
@@ -78089,7 +78102,7 @@ const db = {
 		{"time": "3:13", "joke": "Tunak Tunak Tun - Daler Mehndi"},
 		{"time": "3:24", "joke": "OH YEAH MISTER KRABS! - messinwithbigfoot"},
 		{"time": "3:32", "joke": "The Noble Haltmann - Kirby Planet Robobot"},
-		{"time": "3:32", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg, Kurupt, and Nate Dogg"},
+		{"time": "3:32", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg"},
 		{"time": "3:32", "joke": "FitnessGram PACER Test - FitnessGram"},
 		{"time": "3:58", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin"}],
 	"artist": "Zoom"},
@@ -78205,7 +78218,7 @@ const db = {
 		{"time": "4:03", "joke": "GO MY WAY!! - THE iDOLM@STER"},
 		{"time": "4:18", "joke": "Puzzle Room - Kirby Planet Robobot"},
 		{"time": "4:25-4:31", "joke": "Chirp Valley Rumble - Angry Birds 2"},
-		{"time": "4:54", "joke": "Main Theme - Wii Shop Channel"},
+		{"time": "4:54", "joke": "Wii Shop Channel theme - Kazumi Totaka"},
 		{"time": "5:08-5:21", "joke": "The Moon - DuckTales"},
 		{"time": "5:51-6:03", "joke": "The Time Is Now - John Cena & Tha Trademarc"}],
 	"artist": "Unknown Ripper"},
@@ -78246,7 +78259,7 @@ const db = {
 		{"time": "0:38", "joke": "Kitchen Gun - The Peter Serafinowicz Show"},
 		{"time": "0:38", "joke": "Dirty Vibe - Skrillex ft. Diplo, G-Dragon & CL"},
 		{"time": "0:48", "joke": "Lose Yourself - Eminem"},
-		{"time": "0:48", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg, Kurupt, and Nate Dogg"},
+		{"time": "0:48", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg"},
 		{"time": "0:50", "joke": "m.A.A.d city - Kendrick Lamar ft. MC Eiht"},
 		{"time": "0:53", "joke": "Fuck Bees - happening.tv / Huey Lewis and the News"},
 		{"time": "0:56", "joke": "Who's been drawing dicks? - Vinesauce Joel"},
@@ -78296,7 +78309,7 @@ const db = {
 		{"time": "3:09", "joke": "Long Tall Eyelash - Osamu Sato"},
 		{"time": "3:10", "joke": "SexyBack - Justin Timberlake ft. Timbaland"},
 		{"time": "3:10", "joke": "Who's been drawing dicks? - Vinesauce Joel"},
-		{"time": "3:11", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg, Kurupt, and Nate Dogg"},
+		{"time": "3:11", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg"},
 		{"time": "3:11", "joke": "U Guessed It - OG Maco"},
 		{"time": "3:12", "joke": "Drop It Like It's Hot - Snoop Dogg ft. Pharrell Williams"},
 		{"time": "3:13", "joke": "Green de la Bean - Facebook"},
@@ -78551,7 +78564,7 @@ const db = {
 		{"time": "0:54", "joke": "Crank That - Soulja Boy"},
 		{"time": "1:44", "joke": "The one that goes... (Beep Boop Bop) - Mr. Krabs, SpongeBob SquarePants"},
 		{"time": "1:50", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
-		{"time": "2:32", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg, Kurupt, and Nate Dogg"},
+		{"time": "2:32", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg"},
 		{"time": "2:38", "joke": "Drop It Like It's Hot - Snoop Dogg ft. Pharrell Williams"},
 		{"time": "3:23", "joke": "Gangnam Style - PSY"}],
 	"artist": "Zoom"},
@@ -78629,7 +78642,7 @@ const db = {
 		{"time": "0:40", "joke": "Gentleman - PSY"},
 		{"time": "0:50", "joke": "World's Loudest Orgasm - Creampie Cathy"},
 			{"time": "0:51", "joke": "Howie scream - Howie Long"},
-		{"time": "1:03", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg, Kurupt, and Nate Dogg"},
+		{"time": "1:03", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg"},
 		{"time": "1:03", "joke": "Drop It Like It's Hot - Snoop Dogg ft. Pharrell Williams"}],
 	"artist": "Zoom"},
 "gtI7Akf0roo": {
@@ -78701,7 +78714,7 @@ const db = {
 		{"time": "1:07, 0:30", "joke": "Howie scream - Howie Long"},
 		{"time": "0:31", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "0:41", "joke": "Drop It Like It's Hot - Snoop Dogg ft. Pharrell Williams"},
-		{"time": "0:42", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg, Kurupt, and Nate Dogg"},
+		{"time": "0:42", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg"},
 		{"time": "1:52, 0:50", "joke": "Crank That - Soulja Boy"},
 		{"time": "1:04", "joke": "World's Loudest Orgasm - Creampie Cathy"},
 			{"time": "1:06", "joke": "Take On Me - a-ha"},
@@ -78721,7 +78734,7 @@ const db = {
 		{"time": "0:22", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
 		{"time": "0:26", "joke": "The one that goes... (Beep Boop Bop) - Mr. Krabs, SpongeBob SquarePants"},
 		{"time": "0:35", "joke": "Drop It Like It's Hot - Snoop Dogg ft. Pharrell Williams"},
-		{"time": "0:35", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg, Kurupt, and Nate Dogg"},
+		{"time": "0:35", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg"},
 		{"time": "0:41", "joke": "Crank That - Soulja Boy"},
 		{"time": "0:43", "joke": "El Sonidito - Hechizeros Band"},
 		{"time": "1:02", "joke": "Bodies - Drowning Pool"},
@@ -79249,7 +79262,7 @@ const db = {
 		{"time": "1:09", "joke": "Gossip Folks - Missy Elliott ft. Ludacris"},
 		{"time": "1:22", "joke": "Drop It Like It's Hot - Snoop Dogg ft. Pharrell Williams"},
 		{"time": "1:24", "joke": "Nuthin' but a 'G' Thang - Dr. Dre ft. Snoop Dogg"},
-		{"time": "1:50", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg, Kurupt, and Nate Dogg"},
+		{"time": "1:50", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg"},
 		{"time": "2:06", "joke": "September - Earth, Wind & Fire"},
 		{"time": "2:06", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin"},
 		{"time": "2:15", "joke": "Snow halation - Love Live!, µ's"},
@@ -79492,7 +79505,7 @@ const db = {
 	"wiki": "https://siivagunner.wiki/wiki/Title%20Theme%20-%20Mick%20%26%20Mack%20Global%20Gladiators",
 	"joke": [
 		{"time": "0:03", "joke": "READY!! - THE iDOLM@STER"},
-		{"time": "0:05", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg, Kurupt, and Nate Dogg"},
+		{"time": "0:05", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg"},
 		{"time": "0:07", "joke": "Gangnam Style - PSY"},
 		{"time": "0:08", "joke": "Fuck Bees - happening.tv / Huey Lewis and the News"},
 		{"time": "0:10", "joke": "Song 2 - Blur"},
@@ -80011,7 +80024,7 @@ const db = {
 		{"time": "1:28", "joke": "Who's been drawing dicks? - Vinesauce Joel"},
 		{"time": "1:29", "joke": "Cinema - Skrillex"},
 		{"time": "1:30", "joke": "The Nutshack Theme - NUMP"},
-		{"time": "1:32", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg, Kurupt, and Nate Dogg"},
+		{"time": "1:32", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg"},
 		{"time": "1:33", "joke": "Nico Nico Nii! - Nico Yazawa (Love Live! School Idol Project)"},
 		{"time": "1:34", "joke": "Jack Black defines Octagon - Sesame Street"},
 		{"time": "1:34", "joke": "Crank That - Soulja Boy"},
@@ -80449,7 +80462,7 @@ const db = {
 		{"time": "0:26", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin"},
 		{"time": "0:39 - 0:45", "joke": "Megalovania - Undertale"},
 		{"time": "0:52", "joke": "Snow halation - Love Live!, µ's"},
-		{"time": "2:11", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg, Kurupt, and Nate Dogg"}],
+		{"time": "2:11", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg"}],
 	"artist": "LuNiney"},
 "xFT6OHORRCc": {
 	"title": "Here Come The Squeaks! - Kirby: Squeak Squad",
@@ -80687,10 +80700,10 @@ const db = {
 		{"time": "3:19", "joke": "Endless Mine - Sonic the Hedgehog 3 & Knuckles"},
 		{"time": "3:29", "joke": "Your Best Friend - Undertale"},
 		{"time": "3:38", "joke": "Hotline Bling - Drake"},
-		{"time": "4:00", "joke": "Main Theme - Wii Shop Channel"},
+		{"time": "4:00", "joke": "Wii Shop Channel theme - Kazumi Totaka"},
 		{"time": "4:20", "joke": "Votre toast, je peux vous le rendre (Toreador Song / March) - Georges Bizet (Carmen)"},
 		{"time": "4:30", "joke": "Five Nights at Freddy's 1 Song - The Living Tombstone"},
-		{"time": "4:50", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg, Kurupt, and Nate Dogg"},
+		{"time": "4:50", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg"},
 		{"time": "5:10", "joke": "Turn Down for What - DJ Snake & Lil Jon"},
 		{"time": "5:31", "joke": "Streamline - Newton"},
 		{"time": "5:51", "joke": "Heartache - Undertale"},
@@ -81185,7 +81198,7 @@ const db = {
 	"joke": [
 		{"time": "0:17", "joke": "El Sonidito - Hechizeros Band"},
 		{"time": "0:18, 3:17", "joke": "Title Theme & Ending - The Flintstones: The Rescue of Dino & Hoppy"},
-		{"time": "0:38", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg, Kurupt, and Nate Dogg"},
+		{"time": "0:38", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg"},
 		{"time": "0:44", "joke": "Five Nights at Freddy's 1 Song - The Living Tombstone"},
 		{"time": "0:49", "joke": "Gangnam Style - PSY"},
 		{"time": "1:04", "joke": "GRAND DAD - Vinesauce Joel"},
@@ -81334,7 +81347,7 @@ const db = {
 		{"time": "0:21", "joke": "Goldenrod City - Pokemon Gold & Silver"},
 		{"time": "0:24", "joke": "U Can't Touch This - MC Hammer"},
 		{"time": "0:35", "joke": "The Final Countdown - Europe"},
-		{"time": "0:55", "joke": "Main Theme - Wii Shop Channel"},
+		{"time": "0:55", "joke": "Wii Shop Channel theme - Kazumi Totaka"},
 		{"time": "0:55", "joke": "Hotline Bling - Drake"},
 		{"time": "1:16", "joke": "Crank That - Soulja Boy"},
 		{"time": "1:17", "joke": "Battleship Halberd (On Deck) - Kirby Super Star Ultra"},
@@ -81591,11 +81604,11 @@ const db = {
 		{"time": "3:40", "joke": "Steppin' on the Beach - SpongeBob SquarePants"},
 		{"time": "3:44", "joke": "San Andreas Theme Song - Grand Theft Auto: San Andreas"},
 		{"time": "3:49", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
-		{"time": "3:52", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg, Kurupt, and Nate Dogg"},
+		{"time": "3:52", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg"},
 		{"time": "4:01", "joke": "Gangnam Style - PSY"},
 		{"time": "4:08", "joke": "Yo Home to Bel-Air (Fresh Prince of Bel-Air Theme) - DJ Jazzy Jeff & the Fresh Prince"},
 		{"time": "4:16", "joke": "Respect Your Elders - Chillindude829"},
-		{"time": "4:18", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg, Kurupt, and Nate Dogg"}],
+		{"time": "4:18", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg"}],
 	"artist": "turdl3"},
 "Ov6e0RskT9A": {
 	"title": "Katamari on the Rocks - Katamari Damacy",
@@ -81862,7 +81875,7 @@ const db = {
 		{"time": "6:14", "joke": "Imposter Imperceptible - NerdOut!"},
 		{"time": "6:16", "joke": "Subways of Your Mind (the Most Mysterious Song on the Internet) - FEX"},
 		{"time": "6:18", "joke": "Smooth - Santana ft. Rob Thomas"},
-		{"time": "6:20", "joke": "Main Theme - Wii Shop Channel"},
+		{"time": "6:20", "joke": "Wii Shop Channel theme - Kazumi Totaka"},
 		{"time": "6:22", "joke": "Hotline Bling - Drake"},
 		{"time": "6:24", "joke": "Hot Milk - Snail's House"},
 		{"time": "6:26", "joke": "drop pop candy - Giga-P ft. Reol"},
@@ -82098,7 +82111,7 @@ const db = {
 	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/Shop%20Fusion%20Collab",
 	"joke": [
-		{"time": "0:00", "joke": "Main Theme - Wii Shop Channel"},
+		{"time": "0:00", "joke": "Wii Shop Channel theme - Kazumi Totaka"},
 		{"time": "0:00", "joke": "Beedle's Shop - The Legend of Zelda: The Wind Waker"},
 		{"time": "0:35", "joke": "Poke Mart - Pokemon Diamond & Pearl"},
 		{"time": "0:58", "joke": "TONY'S SHOP - Persona 2: Innocent Sin"},
@@ -82161,7 +82174,7 @@ const db = {
 	"wiki": "https://siivagunner.wiki/wiki/MYSTERY%20COLLABORATION%3F%3F%20(Beta%20Mix)%20SiIvaFes",
 	"joke": [
 		{"time": "0:00-1:39", "joke": "Bad to the Bone - George Thorogood and the Destroyers"},
-		{"time": "0:00", "joke": "Main Theme - Wii Shop Channel"},
+		{"time": "0:00", "joke": "Wii Shop Channel theme - Kazumi Totaka"},
 		{"time": "0:05", "joke": "Slider - Super Mario 64"},
 		{"time": "0:11", "joke": "Puzzle Room - Kirby Planet Robobot"},
 		{"time": "0:19", "joke": "Let's Do This (Home Depot ad campaign) - Home Depot"},
@@ -82331,7 +82344,7 @@ const db = {
 		{"time": "0:00-3:06", "joke": "Cat - Minecraft"},
 		{"time": "0:30", "joke": "Mii Channel - Nintendo Wii"},
 		{"time": "0:56", "joke": "Photo Channel - Nintendo Wii"},
-		{"time": "1:13", "joke": "Main Theme - Wii Shop Channel"},
+		{"time": "1:13", "joke": "Wii Shop Channel theme - Kazumi Totaka"},
 		{"time": "1:29", "joke": "Forecast Channel - Nintendo Wii"},
 		{"time": "1:46", "joke": "News Channel - Nintendo Wii"},
 		{"time": "2:11", "joke": "Check Mii Out Channel - Nintendo Wii"}],
@@ -82410,9 +82423,9 @@ const db = {
 		{"time": "6:22", "joke": "World Map - Link: The Faces of Evil"},
 		{"time": "6:36", "joke": "Instrument Swap/Arrangement - A Capella"},
 		{"time": "6:51", "joke": "Tanukichi no Bouken (Usada Pekora BGM) - MAKOOTO"},
-		{"time": "7:05", "joke": "Funky stars (hybrid song) - Quazar"},
+		{"time": "7:05", "joke": "Hybrid song 2:20 (Funky stars) - Quazar of Sanxion"},
 		{"time": "7:20", "joke": "Boss - Plok"},
-		{"time": "7:35", "joke": "K.K. Slider cover - Animal Crossing"},
+		{"time": "7:35", "joke": "Instrument Swap/Arrangement - K.K. Slider"},
 		{"time": "7:49", "joke": "Remix 8 ~ I Love You - Rhythm Heaven Fever"},
 		{"time": "8:04", "joke": "Mask - Dream"},
 		{"time": "8:19", "joke": "Space Boyfriend's Tape - I Want Nothing More - OMORI"},
@@ -82611,7 +82624,7 @@ const db = {
 		{"time": "1:11", "joke": "Lynne ~ A Targeted Redhead - Ghost Trick: Phantom Detective"},
 		{"time": "1:28", "joke": "Mii Channel - Nintendo Wii"},
 		{"time": "1:47", "joke": "Play a Mini-Game! - Mario Party"},
-		{"time": "2:04", "joke": "K.K. Slider cover - Animal Crossing"},
+		{"time": "2:04", "joke": "Instrument Swap/Arrangement - K.K. Slider"},
 		{"time": "2:22", "joke": "Grasslands, All the Way - Mario & Luigi: Bowser's Inside Story"},
 		{"time": "2:40", "joke": "Happy Town? - MOTHER 3"},
 		{"time": "2:57", "joke": "Secret Course - Super Mario Sunshine"},
@@ -82621,7 +82634,7 @@ const db = {
 		{"time": "4:08", "joke": "Click Clock Wood (Spring) - Banjo-Kazooie"},
 		{"time": "4:26", "joke": "Ending - Mega Man X3"},
 		{"time": "4:44", "joke": "Gadget Room (Gary's Theme) - Club Penguin: Elite Penguin Force"},
-		{"time": "5:02", "joke": "Main Theme - Wii Shop Channel"},
+		{"time": "5:02", "joke": "Wii Shop Channel theme - Kazumi Totaka"},
 		{"time": "5:20", "joke": "End Credits - New Super Mario Bros."}],
 	"artist": "Emm Bee Sea (audio),Brawlcats (visuals)"},
 "XD08Dg4JxFM": {
@@ -82765,7 +82778,7 @@ const db = {
 		{"time": "0:35", "joke": "Mesh Mosh - Super Monkey Ball: Touch & Roll"},
 		{"time": "0:57", "joke": "Crank That - Soulja Boy"},
 		{"time": "1:03", "joke": "dat boi!!!! - ZimoNitrome"},
-		{"time": "1:11", "joke": "Main Theme - Wii Shop Channel"},
+		{"time": "1:11", "joke": "Wii Shop Channel theme - Kazumi Totaka"},
 		{"time": "1:25", "joke": "Creative Exercise - Mario Paint"}],
 	"artist": "Nernant"},
 "Fo5_7D2Hfco": {
@@ -82813,7 +82826,7 @@ const db = {
 		{"time": "3:49", "joke": "Rhythm Parade - Wii Fit Plus"},
 		{"time": "4:03", "joke": "Main Theme - Scribblenauts"},
 		{"time": "4:15", "joke": "Aporia (Boss Battle) - Gimmick!"},
-		{"time": "4:38", "joke": "Main Theme - Wii Shop Channel"},
+		{"time": "4:38", "joke": "Wii Shop Channel theme - Kazumi Totaka"},
 		{"time": "4:50", "joke": "All My Loving - The Beatles"},
 		{"time": "4:50", "joke": "Twist and Shout - The Beatles"},
 		{"time": "5:10", "joke": "Instrument Swap/Arrangement - Mario Paint"},
@@ -82889,7 +82902,7 @@ const db = {
 		{"time": "4:44", "joke": "Treasure Trove Cove - Banjo-Kazooie"},
 		{"time": "4:59", "joke": "End Credits - New Super Mario Bros."},
 		{"time": "5:15", "joke": "Gangnam Style - PSY"},
-		{"time": "5:30", "joke": "Main Theme - Wii Shop Channel"},
+		{"time": "5:30", "joke": "Wii Shop Channel theme - Kazumi Totaka"},
 		{"time": "5:45", "joke": "Options - WWF SmackDown! 2: Know Your Role"},
 		{"time": "6:08", "joke": "Accumula Town - Pokemon Black & White"},
 		{"time": "6:24", "joke": "Megalovania - Undertale"},
@@ -83487,7 +83500,7 @@ const db = {
 		{"time": "0:13", "joke": "Bird Up! - The Eric Andre Show"},
 		{"time": "0:14", "joke": "Smooth - Santana ft. Rob Thomas"},
 		{"time": "0:15", "joke": "Crawling - Linkin Park"},
-		{"time": "0:16", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg, Kurupt, and Nate Dogg"},
+		{"time": "0:16", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg"},
 		{"time": "0:17", "joke": "FOUR HOURS!! - Angry Joe"},
 		{"time": "0:18", "joke": "GO MY WAY!! - THE iDOLM@STER"},
 		{"time": "0:18", "joke": "All Star - Smash Mouth"},
@@ -83721,7 +83734,7 @@ const db = {
 		{"time": "0:15", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin"},
 		{"time": "0:39", "joke": "GRAND DAD - Vinesauce Joel"},
 		{"time": "0:50", "joke": "U Guessed It - OG Maco"},
-		{"time": "0:55", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg, Kurupt, and Nate Dogg"},
+		{"time": "0:55", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg"},
 		{"time": "0:59", "joke": "POKEMON GO SONG!!! - Mishovy silenosti (Misha)"},
 		{"time": "1:01", "joke": "World's Loudest Orgasm - Creampie Cathy"},
 		{"time": "1:04", "joke": "The Nutshack Theme - NUMP"},
@@ -83897,7 +83910,7 @@ const db = {
 	"title": "Oriental Grill - LSD: Dream Emulator",
 	"wiki": "https://siivagunner.wiki/wiki/Oriental%20Grill%20-%20LSD%3A%20Dream%20Emulator",
 	"joke": [
-		{"time": "0:00", "joke": "Main Theme - Wii Shop Channel"},
+		{"time": "0:00", "joke": "Wii Shop Channel theme - Kazumi Totaka"},
 		{"time": "0:00", "joke": "I Wanna Rock - Luke"},
 		{"time": "0:08", "joke": "Black Sheep - Injury Reserve"},
 		{"time": "0:14", "joke": "Club Sound - David Kane"},
@@ -83945,7 +83958,7 @@ const db = {
 		{"time": "3:35", "joke": "The Nutshack Theme - NUMP"},
 		{"time": "3:36", "joke": "THAT'S RIGHT, GET NOSCOPED! - austinscooter88"},
 		{"time": "3:37", "joke": "GabeN - Valve"},
-		{"time": "3:39", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg, Kurupt, and Nate Dogg"},
+		{"time": "3:39", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg"},
 		{"time": "3:41", "joke": "GRAND DAD - Vinesauce Joel"}],
 	"artist": "reason"},
 "ZHCoXLqmnq8": {
@@ -84077,7 +84090,7 @@ const db = {
 		{"time": "7:17", "joke": "X Gon' Give It To Ya - DMX"},
 		{"time": "7:35", "joke": "Feel Good Inc. - Gorillaz ft. De La Soul"},
 		{"time": "8:35", "joke": "Walk Like an Egyptian - The Bangles"},
-		{"time": "8:45", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg, Kurupt, and Nate Dogg"},
+		{"time": "8:45", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg"},
 		{"time": "8:57", "joke": "Uptown Funk - Mark Ronson ft. Bruno Mars"},
 		{"time": "11:15", "joke": "Takyon (Death Yon) - Death Grips"},
 		{"time": "11:46", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"},
@@ -84107,7 +84120,7 @@ const db = {
 		{"time": "5:30", "joke": "Swimming Pools (Drank) - Kendrick Lamar"},
 		{"time": "7:45", "joke": "X Gon' Give It To Ya - DMX"},
 		{"time": "8:04", "joke": "Feel Good Inc. - Gorillaz ft. De La Soul"},
-		{"time": "8:39", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg, Kurupt, and Nate Dogg"},
+		{"time": "8:39", "joke": "The Next Episode - Dr. Dre ft. Snoop Dogg, Kurupt, and Nate Dogg"},
 		{"time": "8:40", "joke": "STAND PROUD - Jin Hashimoto"},
 		{"time": "8:58", "joke": "Uptown Funk - Mark Ronson ft. Bruno Mars"},
 		{"time": "11:15", "joke": "Takyon (Death Yon) - Death Grips"},
@@ -84255,7 +84268,7 @@ const db = {
 		{"time": "10:11", "joke": "Gourmet Race - Kirby Super Star"},
 		{"time": "10:24", "joke": "Main Theme - Super Smash Bros. Brawl"},
 		{"time": "10:38", "joke": "Lower Brinstar - Super Metroid"},
-		{"time": "10:52", "joke": "Main Theme - Wii Shop Channel"},
+		{"time": "10:52", "joke": "Wii Shop Channel theme - Kazumi Totaka"},
 		{"time": "11:05", "joke": "Gangnam Style - PSY"},
 		{"time": "11:19", "joke": "Chill Penguin Stage - Mega Man X"},
 		{"time": "11:31", "joke": "Smiles and Tears - EarthBound"},
