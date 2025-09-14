@@ -63558,7 +63558,7 @@
             "artist": "minindo"
         },
         "hVmpVZ3d2bY": {
-            "title": "Revenge of Meta Knight: Ending - Kirby and the Rainbow Curse",
+            "title": "Revenge of Meta Knight Ending - Kirby Super Star",
             "wiki": "https://siivagunner.wiki/wiki/Revenge%20of%20Meta%20Knight%3A%20Ending%20-%20Kirby%20and%20the%20Rainbow%20Curse",
             "joke": "Mo Bamba - Sheck Wes",
             "artist": "minindo"
