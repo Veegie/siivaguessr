@@ -11125,7 +11125,7 @@
         "gGh3CG0uoGg": {
             "title": "Panic in Ballville (Boss) - OFF",
             "wiki": "https://siivagunner.wiki/wiki/Panic%20in%20Ballville%20(Boss)%20-%20OFF",
-            "joke": "J-E-N-O-V-A - Final Fantasy VII",
+            "joke": "J-E-N-O-V-A (JENOVA) - Final Fantasy VII",
             "artist": "eg_9371"
         },
         "lGJTsuNCTco": {
@@ -25219,7 +25219,7 @@
             "artist": "adumb"
         },
         "q6V7xeUw0rU": {
-            "title": "J-E-N-O-V-A - Final Fantasy VII",
+            "title": "J-E-N-O-V-A (JENOVA) - Final Fantasy VII",
             "wiki": "https://siivagunner.wiki/wiki/J-E-N-O-V-A%20(NTSC%20Version)%20-%20Final%20Fantasy%20VII",
             "joke": "Two Birds - Regina Spektor",
             "artist": "Tina the Cyclops girl"
@@ -29840,7 +29840,7 @@
             "artist": "PsychLantern"
         },
         "gcB7mb3JP0A": {
-            "title": "J-E-N-O-V-A - Final Fantasy VII",
+            "title": "J-E-N-O-V-A (JENOVA) - Final Fantasy VII",
             "wiki": "https://siivagunner.wiki/wiki/J-E-N-O-V-A%20(Alpha%20Mix)%20-%20Final%20Fantasy%20VII",
             "joke": "Moog City - Minecraft",
             "artist": "Madinstance"
@@ -36818,7 +36818,7 @@
         "6CP5ko0y7sw": {
             "title": "Fight Theme - Punch-Out!!",
             "wiki": "https://siivagunner.wiki/wiki/Fight%20Theme%20-%20Punch-Out",
-            "joke": "J-E-N-O-V-A - Final Fantasy VII",
+            "joke": "J-E-N-O-V-A (JENOVA) - Final Fantasy VII",
             "artist": "eg_9371"
         },
         "YaQL0wxDJns": {
@@ -38665,7 +38665,7 @@
         "hp8DDB8NEyk": {
             "title": "Weapons Factory - Super Mario RPG",
             "wiki": "https://siivagunner.wiki/wiki/Weapons%20Factory%20(Beta%20Mix)%20-%20Super%20Mario%20RPG",
-            "joke": "J-E-N-O-V-A - Final Fantasy VII",
+            "joke": "J-E-N-O-V-A (JENOVA) - Final Fantasy VII",
             "artist": "Madinstance"
         },
         "wCqBO2xaIEA": {
@@ -40769,7 +40769,7 @@
             "artist": "Unknown Ripper"
         },
         "w_Ck2CEFGCI": {
-            "title": "Boss Battle - Ura Zelda",
+            "title": "Boss Battle - The Legend of Zelda: Ocarina of Time",
             "wiki": "https://siivagunner.wiki/wiki/Boss%20Battle%20(Beta%20Mix)%20-%20Ura%20Zelda",
             "joke": "The Beast II - Neon Genesis Evangelion",
             "artist": "Unknown Ripper"
@@ -43194,7 +43194,7 @@
             "artist": "eg_9371"
         },
         "hRVBzmwdL48": {
-            "title": "JENOVA - Super Smash Bros. Ultimate",
+            "title": "J-E-N-O-V-A (JENOVA) - Final Fantasy VII",
             "wiki": "https://siivagunner.wiki/wiki/JENOVA%20-%20Super%20Smash%20Bros.%20UItimate",
             "joke": "E-GIRLS ARE RUINING MY LIFE! - Corpse Husband ft. Savage Ga$p",
             "artist": "Expensive Dispenser"
@@ -56035,7 +56035,7 @@
             "artist": "Trofflesby"
         },
         "nP2DofH9d2k": {
-            "title": "J-E-N-O-V-A - Final Fantasy VII",
+            "title": "J-E-N-O-V-A (JENOVA) - Final Fantasy VII",
             "wiki": "https://siivagunner.wiki/wiki/J-E-N-O-V-A%20-%20Final%20Fantasy%20VII",
             "joke": "Instrument Swap/Arrangement - Kazoo",
             "artist": "Fivda"
@@ -62435,7 +62435,7 @@
             "artist": "ChristopherLry"
         },
         "_judOVfYC7w": {
-            "title": "J-E-N-O-V-A - Final Fantasy VII",
+            "title": "J-E-N-O-V-A (JENOVA) - Final Fantasy VII",
             "wiki": "https://siivagunner.wiki/wiki/J-E-N-O-V-A%20(In-Game%20Version)%20-%20Final%20Fantasy%20VII",
             "joke": "Flowers of Antimony (The Explodatorium) - Shovel Knight",
             "artist": "eg_9371"
@@ -63373,7 +63373,7 @@
             "artist": "PixelSword"
         },
         "VvhWSdOuO98": {
-            "title": "Fire Temple - Ura Zelda",
+            "title": "Fire Temple - The Legend of Zelda: Ocarina of Time",
             "wiki": "https://siivagunner.wiki/wiki/Fire%20Temple%20(Unused)%20-%20Ura%20Zelda",
             "joke": "The New Zelda Forest Temple Music - Matt MVS",
             "artist": "MLPFun"
@@ -78373,7 +78373,7 @@
                 { "time": "8:09", "joke": "Chaos King - Deltarune" },
                 { "time": "8:34", "joke": "Boss - Sonic the Hedgehog" },
                 { "time": "8:55", "joke": "Heart of Fire - Castlevania" },
-                { "time": "9:29", "joke": "J-E-N-O-V-A - Final Fantasy VII" },
+                { "time": "9:29", "joke": "J-E-N-O-V-A (JENOVA) - Final Fantasy VII" },
                 { "time": "10:38", "joke": "Unbreakable Determination - Ninja Gaiden" },
                 { "time": "11:15", "joke": "Wily Fortress 2 - Mega Man 3" },
                 { "time": "11:50", "joke": "Big Blue - F-Zero" },
@@ -83089,7 +83089,7 @@
             "artist": "MtH"
         },
         "6jcengZ7OKA": {
-            "title": "Title Theme - Ura Zelda",
+            "title": "Title Theme - The Legend of Zelda: Ocarina of Time",
             "exclude": "title",
             "wiki": "https://siivagunner.wiki/wiki/Title%20Theme%20-%20Ura%20Zelda",
             "joke": [
