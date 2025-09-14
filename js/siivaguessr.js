@@ -1494,21 +1494,6 @@ const show = function (val) {
     }
 };
 
-const songSet = new Set();
-for (const hash in db) {
-    if (!db[hash].exclude || db[hash].exclude !== 'title') {
-        songSet.add(db[hash].title);
-    }
-    if (Array.isArray(db[hash].joke)) {
-        for (const entry of db[hash].joke) {
-            songSet.add(entry.joke);
-        }
-    } else {
-        songSet.add(db[hash].joke);
-    }
-}
-const songs = Array.from(songSet).sort();
-
 /**
  * Converts a JS date to a consistent string format, for looking up dailies.
  * @param {Date} date date to convert
@@ -1601,6 +1586,122 @@ const simpleCircleCipher = function (str) {
     return res;
 };
 
+const aliases = [
+    ["Can You Feel (Abstract Map, SMW Central VLDC 9) - Torchkas",
+        "Abstract Map - Mario's Mystery Meat"],
+
+    ["Title Theme & Ending - The Flintstones: The Rescue of Dino & Hoppy",
+        "Title Theme & Ending - 7 GRAND DAD"],
+
+    ["Game Over - Uwol: Quest for Money",
+        "Game Over - Felix the Cat"],
+
+    ["The Prelude - Final Fantasy (Series)",
+        "The Prelude - Final Fantasy",
+        "The Prelude - Final Fantasy X",
+        "The Prelude - Final Fantasy II",
+        "The Prelude - Final Fantasy VII",
+        "The Prelude - Final Fantasy VI",
+        "The Prelude - Final Fantasy V",
+        "Conversation With Culex - Super Mario RPG"],
+
+    ["Kirby Dance - Kirby (Series)",
+        "Kirby Dance - Kirby's Adventure",
+        "Kirby Dance - Kirby Super Star",
+        "Kirby Dance - Kirby: Squeak Squad",
+        "Kirby Dance - Kirby & The Amazing Mirror",
+        "Kirby Dance - Kirby: Nightmare in Dream Land",
+        "Kirby Dance - Kirby 64: The Crystal Shards",
+        "Kirby Dance - Kirby: Canvas Curse",
+        "Kirby Dance - Kirby's Dream Land"],
+
+    ["Victory Fanfare - Final Fantasy (Series)",
+        "Victory Fanfare - Final Fantasy",
+        "Victory Fanfare - Final Fantasy VII",
+        "Victory Fanfare - Final Fantasy X",
+        "Victory - Final Fantasy III"],
+
+    ["Invincible (Star) - Super Mario (Series)",
+        "Invincible - Super Mario Bros.",
+        "Invincible - Super Mario Bros. 3",
+        "Invincible - Super Mario Bros. 2",
+        "Invincible - Super Mario Bros. 2 (Super Mario All-Stars)",
+        "Starman - Super Smash Bros.",
+        "Invincibility/Starman - New Super Mario Bros."],
+
+    ["Route 209 - Pokemon Diamond & Pearl",
+        "Route 209 (Day) - Pokemon Diamond & Pearl",
+        "Route 209 (Night) - Pokemon Diamond & Pearl"],
+
+    ["Bad Apple!! - Touhou 4: Lotus Land Story",
+        "Bad Apple!! feat.nomico - Alstroemeria Records"],
+
+    ["Proto Man Whistle - Mega Man (Series)",
+        "Proto Man's Whistle - Mega Man 9",
+        "Proto Man's Whistle - Mega Man 3",
+        "Proto Man's Whistle - Mega Man 7"],
+
+    ["Misirlou - Dick Dale",
+        "Pump It - The Black Eyed Peas"],
+
+    ["Mysterious Flying Object - MOTHER 3",
+        "Suspicious Flying Object - MOTHER 3"],
+
+    ["Strong One - MOTHER 3",
+        "Strong One (Masked Man) - MOTHER 3"],
+
+    ["Chaos Emerald Jingle - Sonic the Hedgehog (Series)",
+        "Chaos Emerald Jingle - Sonic the Hedgehog",
+        "Chaos Emerald - Sonic the Hedgehog 2"],
+
+    ["Invincible - Kirby's Dream Land 3",
+        "Invincible Lollipop - Kirby's Dream Land"],
+
+    ["Zelda's Theme - The Legend of Zelda: Majora's Mask",
+        "Zelda's Lullaby - The Legend of Zelda: Ocarina of Time"],
+
+    ["Vampire Killer - Castlevania",
+        "Deja Vu (Vampire Killer) - Castlevania III: Dracula's Curse"],
+
+    ["Main Theme - Barkley, Shut Up and Jam: Gaiden",
+        "Hybrid song 2:20 (Funky stars) - Quazar of Sanxion"]
+];
+const aliasMap = new Map();
+const aliasedAnswers = new Map();
+
+const songSet = new Set();
+for (const hash in db) {
+    if (db[hash].exclude !== 'title') {
+        songSet.add(db[hash].title);
+    }
+    if (Array.isArray(db[hash].joke)) {
+        for (const entry of db[hash].joke) {
+            songSet.add(entry.joke);
+        }
+    } else {
+        songSet.add(db[hash].joke);
+    }
+}
+for (let i = 0; i < aliases.length; i++) {
+    const aliasSet = aliases[i];
+    const aliasHash = simpleHash('alias_set_' + i);
+    for (const alias of aliasSet) {
+        aliasMap.set(alias, aliasHash);
+        songSet.add(alias);
+    }
+}
+const songs = Array.from(songSet).sort();
+
+const hashAnswer = function (answerString, loading = false) {
+    if (aliasMap.has(answerString)) {
+        if (loading) {
+            aliasedAnswers.set(aliasMap.get(answerString), answerString);
+        }
+        return aliasMap.get(answerString);
+    }
+    return simpleHash(answerString);
+}
+
 /**
  * Converts a timestamp string into the number of seconds it represents.
  *
@@ -1636,14 +1737,14 @@ const showView = function (id) {
 
 const beforeUnloadHandler = (event) => { event.preventDefault(); };
 
-const fDate = new Date('2025-09-14T00:00:00');
-fDate.setMinutes(fDate.getMinutes() - fDate.getTimezoneOffset())
-const nDate = new Date();
-nDate.setMinutes(nDate.getMinutes() - nDate.getTimezoneOffset())
-const dailyNumber = 1 + Math.floor((nDate - fDate) / 86400000);
+const firstDate = new Date('2025-09-14T00:00:00');
+firstDate.setMinutes(firstDate.getMinutes() - firstDate.getTimezoneOffset())
+const nowDate = new Date();
+nowDate.setMinutes(nowDate.getMinutes() - nowDate.getTimezoneOffset())
+const dailyNumber = 1 + Math.floor((nowDate - firstDate) / 86400000);
 
 const SAVED_QUIZZES_KEY = 'savedQuizzes';
-const daily = dailies[simpleCircleCipher(dateToString(new Date())).split('').reverse().join('')];
+const daily = dailies[simpleCircleCipher(dateToString(nowDate)).split('').reverse().join('')];
 const backNavViews = ['customQuizView', 'createCustomQuizView', 'helpView', 'quizIntroView', 'quizEndView'];
 const backBtn = document.getElementById('backBtn');
 const vidPlayer = document.getElementById('vidPlayer');
@@ -1672,6 +1773,7 @@ let guesses = new Set();
 let activeQuiz = [];
 let activeQuizQuestionIndex = -1;
 let hasUnsavedChanges = false;
+let isDaily = false;
 
 /**
  * Loads a question and cues the corresponding video. When the video is cued,
@@ -1691,10 +1793,11 @@ const loadQuestion = function (videoHash, mode) {
         quizQuestionNumberElem.innerText = `Question ${activeQuizQuestionIndex + 1} of ${activeQuiz.length}`;
         show(quizQuestionNumberElem);
     }
-    const sourceTrackHash = simpleHash(activeQuestion.title);
+    aliasedAnswers.clear();
     highlightRanges.clear();
     answerSet.clear();
     guesses.clear();
+    const sourceTrackHash = hashAnswer(activeQuestion.title, true);
     const sourceTrackAnswerElem = document.getElementById('stAns');
     sourceTrackAnswerElem.innerText = '____________';
     sourceTrackAnswerElem.className = 'free-text-answer ' + sourceTrackHash;
@@ -1722,7 +1825,7 @@ const loadQuestion = function (videoHash, mode) {
         show('multiJokeDisplay');
     } else {
         if (mode !== QuestionMode.REVERSE) {
-            const jokeAnswerHash = simpleHash(activeQuestion.joke);
+            const jokeAnswerHash = hashAnswer(activeQuestion.joke, true);
             answerSet.add(jokeAnswerHash);
             jokeAnwserElem.className = 'free-text-answer ' + jokeAnswerHash;
         } else {
@@ -1743,6 +1846,10 @@ const loadQuestion = function (videoHash, mode) {
     activeQuestionTotalAnswers = answerSet.size;
     document.getElementById('wikiLink').href = '/';
     ytPlayer.cueVideoById(videoHash);
+    if (isDaily && parseInt(localStorage.getItem('lDaily')) === dailyNumber) {
+        updateText(statusMsgElem, 'Come back tomorrow for a new question!');
+        endQuestion(false, true);
+    }
 };
 
 /**
@@ -1769,7 +1876,7 @@ const populateMultiJokeTable = function (jokesArray, isReverseMode = false) {
             curQuestionMultijokeEntries.push({ 'time': time.trim(), 'joke': joke.joke });
         }
         if (!isReverseMode) {
-            answerSet.add(simpleHash(joke.joke));
+            answerSet.add(hashAnswer(joke.joke, true));
         }
     }
     curQuestionMultijokeEntries = curQuestionMultijokeEntries.sort((a, b) => timestampToSeconds(a.time) - timestampToSeconds(b.time));
@@ -1802,7 +1909,7 @@ const populateMultiJokeTable = function (jokesArray, isReverseMode = false) {
         if (isReverseMode) {
             entryElem.children[1].innerText = jokeEntry.joke;
         } else {
-            entryElem.children[1].classList.add(simpleHash(jokeEntry.joke));
+            entryElem.children[1].classList.add(hashAnswer(jokeEntry.joke, true));
         }
         multiJokeContainer.appendChild(entryElem);
     }
@@ -1820,6 +1927,7 @@ const populateMultiJokeTable = function (jokesArray, isReverseMode = false) {
 document.getElementById('dailyBtn').addEventListener('click', function () {
     this.blur();
     const sickoMode = document.getElementById('dailySickoSwitch').checked;
+    isDaily = true;
     loadQuestion(simpleCircleCipher(daily.hash), sickoMode ? QuestionMode.SICKO : daily.mode);
 });
 document.getElementById('customQuizBtn').addEventListener('click', function () {
@@ -1838,6 +1946,7 @@ backBtn.addEventListener('click', function () {
             ytPlayer.pauseVideo();
         }
         showView('startView');
+        isDaily = false;
     }
 });
 
@@ -1847,10 +1956,13 @@ backBtn.addEventListener('click', function () {
  * @param {string} guess the title being guessed
  */
 const submitGuess = function (guess) {
+    if (!songSet.has(guess)) {
+        return;
+    }
     hide(autofillOptionsElem);
     clearActiveAutofillOption();
     guessInput.value = '';
-    const hash = simpleHash(guess);
+    const hash = hashAnswer(guess);
     if (guesses.has(hash)) {
         updateText(statusMsgElem, 'Already guessed!', 2000);
         return;
@@ -1858,9 +1970,17 @@ const submitGuess = function (guess) {
     guesses.add(hash);
     if (answerSet.has(hash)) {
         answerSet.delete(hash);
+        let replaceText = guess;
+        if (aliasedAnswers.has(hash)) {
+            updateText(statusMsgElem, "Close enough!", 2000);
+            replaceText = aliasedAnswers.get(hash);
+        }
         document.querySelectorAll('.' + hash).forEach((e) => {
+            if (e.id === 'stAns') {
+                show(vidPlayer);
+            }
             e.classList.add('correct');
-            e.innerText = guess;
+            e.innerText = replaceText;
             setTimeout(() => {
                 e.classList.add('fade');
                 e.classList.remove('correct');
@@ -1894,8 +2014,9 @@ const submitGuess = function (guess) {
 /**
  * Ends the current question. If the player has three strikes or gave up, missed answers will be revealed.
  * @param {boolean} gaveUp player gave up
+ * @param {boolean} reloadingDaily if the player is reloading an already-finished daily question
  */
-const endQuestion = function (gaveUp = false) {
+const endQuestion = function (gaveUp = false, reloadingDaily = false) {
     hide(guessInput);
     hide('giveUpContainer');
     const lost = gaveUp || strikes === 3;
@@ -1908,7 +2029,7 @@ const endQuestion = function (gaveUp = false) {
         multiCorrect.innerText = `You got ${percentCorrect}%${(percentCorrect > 50 ? '!' : '')}`;
         updateText(statusMsgElem, `(${gotCount} out of ${activeQuestionTotalAnswers})`);
         if (!matchMedia('(prefers-reduced-motion: reduce)').matches) {
-            if (percentCorrect > 70) {
+            if (percentCorrect > 60) {
                 confettea.burst({ origin: { x: 0.3, y: 0.3 } });
             }
             if (percentCorrect > 85) {
@@ -1922,11 +2043,13 @@ const endQuestion = function (gaveUp = false) {
                 }, 2000);
             }
         }
-        show(multiCorrect);
+        if (!reloadingDaily) {
+            show(multiCorrect);
+        }
     } else {
         if (lost) {
             updateText(statusMsgElem, 'Better luck next time.');
-        } else {
+        } else if (!reloadingDaily) {
             updateText(statusMsgElem, 'You got it!');
             if (!matchMedia('(prefers-reduced-motion: reduce)').matches) {
                 confettea.burst();
@@ -1938,30 +2061,36 @@ const endQuestion = function (gaveUp = false) {
     }
 
     // Reveal any missed answers
-    if (lost) {
-        const tHash = simpleHash(activeQuestion.title);
+    if (lost || reloadingDaily) {
+        const tHash = hashAnswer(activeQuestion.title);
         if (answerSet.has(tHash)) {
             document.querySelectorAll('.' + tHash).forEach((e) => {
-                e.classList.add('missed');
+                if (!reloadingDaily) {
+                    e.classList.add('missed');
+                }
                 e.innerText = activeQuestion.title;
             });
         }
         if (isMultiJoke) {
             for (const entry of activeQuestion.joke) {
-                const jHash = simpleHash(entry.joke);
+                const jHash = hashAnswer(entry.joke);
                 if (answerSet.has(jHash)) {
                     document.querySelectorAll('.' + jHash).forEach((e) => {
-                        e.classList.add('missed');
+                        if (!reloadingDaily) {
+                            e.classList.add('missed');
+                        }
                         e.innerText = entry.joke;
                     });
                     answerSet.delete(jHash);
                 }
             }
         } else {
-            const jHash = simpleHash(activeQuestion.joke);
+            const jHash = hashAnswer(activeQuestion.joke);
             if (answerSet.has(jHash)) {
                 document.querySelectorAll('.' + jHash).forEach((e) => {
-                    e.classList.add('missed');
+                    if (!reloadingDaily) {
+                        e.classList.add('missed');
+                    }
                     e.innerText = activeQuestion.joke;
                 });
             }
@@ -1975,13 +2104,25 @@ const endQuestion = function (gaveUp = false) {
     document.getElementById('wikiLink').href = activeQuestion.wiki;
     show([vidPlayer, 'ripCredits']);
 
-    if (activeQuizQuestionIndex === -1) {
+    if (isDaily) {
         const shareBtn = document.getElementById('shareResultsBtn');
         shareBtn.dataset.shareData =
             `SiIvaGuessr #${dailyNumber}${shareBtn.dataset.sickoMode === 'true' ? ' (Sicko Mode)' : ''} ${gotCount}/${activeQuestionTotalAnswers}
 ${getStrikeString()}
 https://siivaguessr.meme`;
         show([backBtn, 'shareResultsContainer']);
+        const w_streak_key = 'winStreak';
+        const l_daily_key = 'lDaily';
+        if (lost) {
+            localStorage.removeItem(w_streak_key);
+        } else if (!localStorage.getItem(w_streak_key)
+            || !localStorage.getItem(l_daily_key)
+            || parseInt(localStorage.getItem(l_daily_key)) !== dailyNumber + 1) {
+            localStorage.setItem(w_streak_key, '1');
+        } else {
+            localStorage.setItem(w_streak_key, parseInt(localStorage.getItem(w_streak_key)) + 1);
+        }
+        localStorage.setItem(l_daily_key, dailyNumber);
     } else {
         activeQuizQuestionIndex++;
         if (activeQuizQuestionIndex === activeQuiz.length) {
