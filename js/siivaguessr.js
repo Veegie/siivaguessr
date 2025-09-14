@@ -15266,7 +15266,7 @@
             "artist": "ChickenSuitGuy"
         },
         "rk-SZZyRw5I": {
-            "title": "Lost Woods (Unfinished Release) - Ura Zelda",
+            "title": "Lost Woods - The Legend of Zelda: Ocarina of Time",
             "wiki": "https://siivagunner.wiki/wiki/Lost%20Woods%20(Unfinished%20Release)%20-%20Ura%20Zelda",
             "joke": "Hot Cross Buns - Nursery rhyme",
             "artist": "Memesauce"
@@ -55545,7 +55545,7 @@
             "artist": "Unknown Ripper"
         },
         "4A8qxBiU-Og": {
-            "title": "Revenge of Meta Knight Ending - Kirby Super Star Ultra",
+            "title": "Revenge of Meta Knight Ending - Kirby Super Star",
             "wiki": "https://siivagunner.wiki/wiki/Revenge%20of%20Meta%20Knight%20Ending%20(Alternate%20Version)%20-%20Kirby%20Super%20Star%20Ultra",
             "joke": "House of the Rising Sun - The Animals",
             "artist": "Blue Fairy"
@@ -92924,7 +92924,7 @@
             "artist": "Unknown Ripper"
         },
         "GOIOj0UtPjE": {
-            "title": "Revenge of Meta Knight Ending - Kirby Super Star Ultra",
+            "title": "Revenge of Meta Knight Ending - Kirby Super Star",
             "wiki": "https://siivagunner.wiki/wiki/Revenge%20of%20Meta%20Knight%20Ending%20-%20Kirby%20Super%20Star%20Ultra",
             "joke": [
                 { "time": "0:06", "joke": "House of the Rising Sun - The Animals" },
