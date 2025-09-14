@@ -15495,7 +15495,7 @@ const db = {
 	"joke": "In Other Words (Fly Me to the Moon) - Bart Howard",
 	"artist": "eg_9371"},
 "2ZdNdjSHMnc": {
-	"title": "Flat Zone 2 - Super Smash Bros. Ultimate",
+	"title": "Flat Zone 2 - Super Smash Bros. Brawl",
 	"wiki": "https://siivagunner.wiki/wiki/Flat%20Zone%202%20(Alpha%20Mix)%20-%20Super%20Smash%20Bros.%20UItimate",
 	"joke": "Happy - Pharrell Williams",
 	"artist": "DonnieTheGuy"},
@@ -17232,7 +17232,7 @@ const db = {
 	"joke": "Bonus Game Music - Mappy",
 	"artist": "mullar"},
 "vKYxtTz-Tu4": {
-	"title": "Flat Zone - Super Smash Bros. Ultimate",
+	"title": "Flat Zone - Super Smash Bros. Melee",
 	"wiki": "https://siivagunner.wiki/wiki/Flat%20Zone%20(Beta%20Mix)%20-%20Super%20Smash%20Bros.%20UItimate",
 	"joke": "Monkey Banana - Gadi Dahan and Omri Mordehai",
 	"artist": "Arados"},
@@ -34715,7 +34715,7 @@ const db = {
 	"joke": "It Burns! Burns! Burns! - Loco Loco",
 	"artist": "eg_9371"},
 "i-GZB5w6fAs": {
-	"title": "Flat Zone - Super Smash Bros. Ultimate",
+	"title": "Flat Zone - Super Smash Bros. Melee",
 	"wiki": "https://siivagunner.wiki/wiki/Flat%20Zone%20-%20Super%20Smash%20Bros.%20UItimate",
 	"joke": "Hot Property - Jamiroquai",
 	"artist": "The Duane"},
@@ -36778,7 +36778,7 @@ const db = {
 	"joke": "Thrice Cream Man Montage - Chowder",
 	"artist": "l4ureleye"},
 "RUpm2Lw2nFA": {
-	"title": "Flat Zone 2 - Super Smash Bros. Ultimate",
+	"title": "Flat Zone 2 - Super Smash Bros. Brawl",
 	"wiki": "https://siivagunner.wiki/wiki/Flat%20Zone%202%20-%20Super%20Smash%20Bros.%20UItimate",
 	"joke": "The Power Song - Regular Show",
 	"artist": "Sam"},
@@ -38884,11 +38884,6 @@ const db = {
 	"wiki": "https://siivagunner.wiki/wiki/K.K.%20Country%20(Aircheck)%20-%20Animal%20Crossing%3A%20Wild%20World",
 	"joke": "Choco Mountain - Mario Kart 64",
 	"artist": "Nernant"},
-"WVWHdRApBas": {
-	"title": "Snacker Attack - Banjo-Kazooie",
-	"wiki": "https://siivagunner.wiki/wiki/Snacker%20Attack%20-%20Banjo-Kazooie",
-	"joke": "Ni**a Ni**a Ni**a - Gangsta Rap: The Glockumentary",
-	"artist": "Spicy236"},
 "KRKLSAp8rh8": {
 	"title": "Menu (Super Smash Bros. Brawl) - Super Smash Bros. Ultimate",
 	"exclude": "title",
@@ -47952,7 +47947,7 @@ const db = {
 	"joke": "Shit - Future",
 	"artist": "toonlink"},
 "DvMdfDJRmco": {
-	"title": "Flat Zone - Super Smash Bros. 3DS",
+	"title": "Flat Zone - Super Smash Bros. Melee",
 	"wiki": "https://siivagunner.wiki/wiki/Flat%20Zone%20-%20Super%20Smash%20Bros.%203DS",
 	"joke": "JAnoPAN - Kabaneri of the Iron Fortress",
 	"artist": "Stella ♥ and MtH"},
@@ -49297,7 +49292,7 @@ const db = {
 	"joke": "No Hookahs - Steve G. Lover ft. Childish Gambino",
 	"artist": "Unknown Ripper"},
 "qMadi8zr8uY": {
-	"title": "Flat Zone - Super Smash Bros. 3DS",
+	"title": "Flat Zone - Super Smash Bros. Melee",
 	"wiki": "https://siivagunner.wiki/wiki/Flat%20Zone%20(Alternate%20Mix)%20-%20Super%20Smash%20Bros.%203DS",
 	"joke": "My Boo - Ghost Town DJ's",
 	"artist": "toonlink"},
@@ -56340,7 +56335,7 @@ const db = {
 	"joke": "Harlem Shake - Baauer",
 	"artist": "Cj"},
 "1S8SHuR1574": {
-	"title": "Flat Zone - Super Smash Bros. Ultimate",
+	"title": "Flat Zone - Super Smash Bros. Melee",
 	"wiki": "https://siivagunner.wiki/wiki/Flat%20Zone%20(In-Game%20Version)%20-%20Super%20Smash%20Bros.%20UItimate",
 	"joke": "Let's Do This (Home Depot ad campaign) - Home Depot",
 	"artist": "eg_9371"},
@@ -72751,7 +72746,7 @@ const db = {
 		{"time": "2:09", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin"}],
 	"artist": "Unknown Ripper"},
 "m7LqSiTppjE": {
-	"title": "Meta Knight's Theme - Kirby Super Star Ultra",
+	"title": "Meta Knight's Theme - Kirby Super Star",
 	"wiki": "https://siivagunner.wiki/wiki/Meta%20Knight's%20Theme%20-%20Kirby%20Super%20Star%20Ultra",
 	"joke": [
 		{"time": "0:11", "joke": "Crab Rave - Noisestorm"},
@@ -73432,7 +73427,7 @@ const db = {
 	"joke": [
 		{"time": "0:00", "joke": "Uptown Funk - Mark Ronson ft. Bruno Mars"},
 		{"time": "0:00", "joke": "Bangarang - Skrillex ft. Sirah"},
-		{"time": "0:03", "joke": "Sins of the Father - Donna Burke"},
+		{"time": "0:03", "joke": "Sins of the Father - Donna Burke (Metal Gear Solid V: The Phantom Pain)"},
 		{"time": "0:08", "joke": "Boulevard of Broken Dreams - Green Day"},
 		{"time": "0:15", "joke": "Walkin' on the Sun - Smash Mouth"},
 		{"time": "0:23", "joke": "I Don't Fuck With You - Big Sean ft. E-40"},
@@ -73868,7 +73863,7 @@ const db = {
 		{"time": "1:18, 0:01, 0:12, 1:00", "joke": "Gangnam Style - PSY"},
 		{"time": "0:01", "joke": "Hollaback Girl - Gwen Stefani"},
 		{"time": "0:03", "joke": "POWER - Kanye West"},
-		{"time": "1:16, 0:06, 1:07", "joke": "Sins of The Father - Metal Gear Solid V"},
+		{"time": "1:16, 0:06, 1:07", "joke": "Sins of the Father - Donna Burke (Metal Gear Solid V: The Phantom Pain)"},
 		{"time": "0:07", "joke": "Crank That - Soulja Boy"},
 		{"time": "0:07", "joke": "Starships - Nicki Minaj"},
 		{"time": "0:10", "joke": "Gentleman - PSY"},
@@ -74429,7 +74424,7 @@ const db = {
 		{"time": "1:49", "joke": "Christmas in July - HHGregg"}],
 	"artist": "Jiko Music"},
 "UxjEa6gDtaY": {
-	"title": "Flat Zone (Melee) - Super Smash Bros. Brawl",
+	"title": "Flat Zone - Super Smash Bros. Melee",
 	"wiki": "https://siivagunner.wiki/wiki/Flat%20Zone%20(Melee)%20-%20Super%20Smash%20Bros.%20Brawl",
 	"joke": [
 		{"time": "0:11", "joke": "Overdrive (ryukenden, Battling Precariously, Shuric Scan 1.99crk) - Ninja Gaiden II: The Dark Sword of Chaos"},
@@ -74440,7 +74435,7 @@ const db = {
 		{"time": "1:25", "joke": "Title Screen - CrazyBus"},
 		{"time": "1:39", "joke": "The Bad Touch - Bloodhound Gang"},
 		{"time": "1:45", "joke": "Loss - Ctrl+Alt+Del"},
-		{"time": "1:47", "joke": "1, 2 Oatmeal - Kenshin Dendou (けんしん)/mariofan888/KAZAN"}],
+		{"time": "1:48", "joke": "1, 2 Oatmeal - Kenshin Dendou (けんしん)/mariofan888/KAZAN"}],
 	"artist": "andres"},
 "f_UqS4kewHs": {
 	"title": "H - Sonic's Schoolhouse",
@@ -76721,7 +76716,7 @@ const db = {
 		{"time": "1:24", "joke": "Crank That - Soulja Boy"},
 		{"time": "1:24", "joke": "Fireflies - Owl City"},
 		{"time": "1:24", "joke": "Reese's Puffs Rap - RV & Terrance"},
-		{"time": "1:38", "joke": "Sins of the Father - Metal Gear Solid V: The Phantom Pain"},
+		{"time": "1:38", "joke": "Sins of the Father - Donna Burke (Metal Gear Solid V: The Phantom Pain)"},
 		{"time": "1:39", "joke": "Stronger Than You (Sans Parody) - djsmell"},
 		{"time": "1:42", "joke": "Who's been drawing dicks? - Vinesauce Joel"},
 		{"time": "1:54", "joke": "Energy Drink - Virtual Riot"},
@@ -76731,7 +76726,7 @@ const db = {
 		{"time": "2:09", "joke": "Danny Phantom Theme - Danny Phantom"},
 		{"time": "2:09", "joke": "Brain Power - NOMA"},
 		{"time": "2:15", "joke": "Breakdance Beach - Hail Mary Mallon"},
-		{"time": "2:24", "joke": "Sins of the Father - Metal Gear Solid V: The Phantom Pain"},
+		{"time": "2:24", "joke": "Sins of the Father - Donna Burke (Metal Gear Solid V: The Phantom Pain)"},
 		{"time": "2:24", "joke": "Energy Drink - Virtual Riot"},
 		{"time": "2:24", "joke": "Ievan Polkka - Loituma"},
 		{"time": "2:40", "joke": "Stronger Than You (Sans Parody) - djsmell"},
@@ -79888,7 +79883,7 @@ const db = {
 		{"time": "0:56", "joke": "Gangnam Style - PSY"},
 		{"time": "0:56", "joke": "Boulevard of Broken Dreams - Green Day"},
 		{"time": "0:56", "joke": "Moskau - Dschinghis Khan"},
-		{"time": "1:08", "joke": "Sins of the Father - Donna Burke"},
+		{"time": "1:08", "joke": "Sins of the Father - Donna Burke (Metal Gear Solid V: The Phantom Pain)"},
 		{"time": "1:23", "joke": "Harder, Better, Faster, Stronger - Daft Punk"},
 		{"time": "1:34", "joke": "Techno Syndrome (Mortal Kombat) - The Immortals"},
 		{"time": "1:36", "joke": "Who's the Nigga? - DJ RX"},
@@ -83310,7 +83305,7 @@ const db = {
 		{"time": "0:53, 2:20, 4:44", "joke": "I Don't Fuck With You - Big Sean ft. E-40"},
 		{"time": "0:53, 1:24, 1:39, 1:46, 1:55, 3:01", "joke": "Technologic - Daft Punk"},
 		{"time": "1:57", "joke": "Get Back - Ludacris"},
-		{"time": "3:33", "joke": "Sins of the Father - Metal Gear Solid V: The Phantom Pain"},
+		{"time": "3:33", "joke": "Sins of the Father - Donna Burke (Metal Gear Solid V: The Phantom Pain)"},
 		{"time": "4:05", "joke": "One More Night - Maroon 5"},
 		{"time": "4:40", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper"}],
 	"artist": "TeeOS"},
@@ -83812,7 +83807,7 @@ const db = {
 		{"time": "0:28 - 0:40", "joke": "FitnessGram PACER Test - FitnessGram"},
 		{"time": "0:40 - 1:09", "joke": "I Don't Fuck With You - Big Sean ft. E-40"},
 		{"time": "0:42 - 1:09", "joke": "Reese's Puffs Rap - RV & Terrance"},
-		{"time": "1:09 - 1:23", "joke": "Sins of the Father - Donna Burke"},
+		{"time": "1:09 - 1:23", "joke": "Sins of the Father - Donna Burke (Metal Gear Solid V: The Phantom Pain)"},
 		{"time": "1:09 - 1:25", "joke": "Take On Me - a-ha"},
 		{"time": "1:23 - 1:30", "joke": "Bonfire - Childish Gambino"},
 		{"time": "1:23 - 1:30", "joke": "World's Loudest Orgasm - Creampie Cathy"},
