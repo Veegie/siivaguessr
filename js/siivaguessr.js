@@ -10899,7 +10899,7 @@
             "artist": "Unknown Ripper"
         },
         "7MC9CtSmXJo": {
-            "title": "Title Theme - Punch-Out",
+            "title": "Title Theme - Punch-Out!!",
             "wiki": "https://siivagunner.wiki/wiki/Title%20Theme%20(Beta%20Mix)%20-%20Punch-Out",
             "joke": "Now That We're Men - The SpongeBob SquarePants Movie",
             "artist": "Unknown Ripper"
@@ -11933,7 +11933,7 @@
             "artist": "Memmy"
         },
         "LVj1wlBWxmc": {
-            "title": "Opponent Down - Punch-Out",
+            "title": "Opponent Down - Punch-Out!!",
             "wiki": "https://siivagunner.wiki/wiki/Opponent%20Down%20-%20Punch-Out",
             "joke": "Aria Math - Minecraft",
             "artist": "Jiko Music"
@@ -14159,7 +14159,7 @@
             "artist": "Jiko Music"
         },
         "znd-c3WlivI": {
-            "title": "Fight Theme - Punch-Out",
+            "title": "Fight Theme - Punch-Out!!",
             "wiki": "https://siivagunner.wiki/wiki/Fight%20Theme%20(Beta%20Mix)%20-%20Punch-Out",
             "joke": "Factory Inspection - Kirby 64: The Crystal Shards",
             "artist": "Bruh de la Boi"
@@ -22148,6 +22148,7 @@
         },
         "JjWIX8Scbo4": {
             "title": "Title Theme - Angry Birds Coca-Cola",
+            "exclude": "title",
             "wiki": "https://siivagunner.wiki/wiki/Title%20Theme%20-%20Angry%20Birds%20Coca-Cola",
             "joke": "Mr. Monokuma's Lesson - Danganronpa: Trigger Happy Havoc",
             "artist": "Grambam36"
@@ -36217,7 +36218,7 @@
         "VEdSuVU0LYc": {
             "title": "Flowers of Antimony (The Explodatorium) - Shovel Knight: Plague of Shadows",
             "wiki": "https://siivagunner.wiki/wiki/Flowers%20of%20Antimony%20(The%20Explodatorium)%20-%20Shovel%20Knight%3A%20Plague%20of%20Shadows",
-            "joke": "Fight Theme - Punch-Out",
+            "joke": "Fight Theme - Punch-Out!!",
             "artist": "eg_9371"
         },
         "Kq6aCPGNTz0": {
@@ -36815,7 +36816,7 @@
             "artist": "Unknown Ripper"
         },
         "6CP5ko0y7sw": {
-            "title": "Fight Theme - Punch-Out",
+            "title": "Fight Theme - Punch-Out!!",
             "wiki": "https://siivagunner.wiki/wiki/Fight%20Theme%20-%20Punch-Out",
             "joke": "J-E-N-O-V-A - Final Fantasy VII",
             "artist": "eg_9371"
@@ -40086,7 +40087,7 @@
         "h8P520tchYs": {
             "title": "Title Theme - Gravity Falls: Legend of the Gnome Gemulets",
             "wiki": "https://siivagunner.wiki/wiki/Title%20Theme%20-%20Gravity%20Falls%3A%20Legend%20of%20the%20Gnome%20Gemulets",
-            "joke": "Fight Theme - Punch-Out",
+            "joke": "Fight Theme - Punch-Out!!",
             "artist": "Sarvéproductions"
         },
         "0XYNjVQX0mc": {
@@ -47166,7 +47167,7 @@
             "artist": "beardfear"
         },
         "rZ4j1Uzooy8": {
-            "title": "Bout Winner - Punch-Out",
+            "title": "Bout Winner - Punch-Out!!",
             "wiki": "https://siivagunner.wiki/wiki/Bout%20Winner%20-%20Punch-Out",
             "joke": "Your Team Won - Team Fortress 2",
             "artist": "KewlNerd20X6"
@@ -48024,7 +48025,7 @@
             "artist": "Emotional Snail"
         },
         "oLdwzuXe8-U": {
-            "title": "Title Theme - Punch-Out",
+            "title": "Title Theme - Punch-Out!!",
             "wiki": "https://siivagunner.wiki/wiki/Title%20Theme%20-%20Punch-Out",
             "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin",
             "artist": "KewlNerd20X6"
@@ -48609,6 +48610,7 @@
         },
         "x0swc_uvDDA": {
             "title": "Gadget Room (Halloween Event) - Club Penguin: Elite Penguin Force",
+            "exclude": "title",
             "wiki": "https://siivagunner.wiki/wiki/Gadget%20Room%20(Halloween%20Event)%20-%20Club%20Penguin%3A%20Elite%20Penguin%20Force",
             "joke": "GHOST - nelward",
             "artist": "Retro Gaming"
@@ -50971,7 +50973,7 @@
             "artist": "Unknown Ripper"
         },
         "P9Oxzyxzg3E": {
-            "title": "Game Over - Punch-Out",
+            "title": "Game Over - Punch-Out!!",
             "wiki": "https://siivagunner.wiki/wiki/Game%20Over%20-%20Punch-Out",
             "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin",
             "artist": "The Duane"
@@ -51431,7 +51433,7 @@
         "EcLKdcqBvX8": {
             "title": "Forest Area - Kirby's Adventure",
             "wiki": "https://siivagunner.wiki/wiki/Forest%20Area%20(OST%20Version)%20-%20Kirby's%20Adventure",
-            "joke": "Angry Birds Theme - Angry Birds",
+            "joke": "Main Theme - Angry Birds",
             "artist": "Nernant"
         },
         "iObM1wjy-F8": {
@@ -57116,7 +57118,7 @@
         "NvIuL3SgsPM": {
             "title": "Kaepora Gaebora - The Legend of Zelda: Ocarina of Time",
             "wiki": "https://siivagunner.wiki/wiki/Kaepora%20Gaebora%20(OST%20Version)%20-%20The%20Legend%20of%20Zelda%3A%20Ocarina%20of%20Time",
-            "joke": "Angry Birds Theme - Angry Birds",
+            "joke": "Main Theme - Angry Birds",
             "artist": "wheel able"
         },
         "mdccgASIiyo": {
@@ -58640,7 +58642,7 @@
         "UbN-4AGXpe8": {
             "title": "Sky Kid March - Sky Kid",
             "wiki": "https://siivagunner.wiki/wiki/Sky%20Kid%20March%20-%20Sky%20Kid",
-            "joke": "Angry Birds Theme - Angry Birds",
+            "joke": "Main Theme - Angry Birds",
             "artist": "Can of Nothing"
         },
         "zEWA8XxYtmo": {
@@ -66308,7 +66310,7 @@
         "bBTx_LRLnaE": {
             "title": "6th Floor, Toadstool Castle II - Mario vs. Donkey Kong 2: March of the Minis",
             "wiki": "https://siivagunner.wiki/wiki/6th%20Floor%2C%20Toadstool%20Castle%20II%20-%20Mario%20vs.%20Donkey%20Kong%202%3A%20March%20of%20the%20Minis",
-            "joke": "Mii Plaza - Mii Channel",
+            "joke": "Mii Channel - Nintendo Wii",
             "artist": "lollo"
         },
         "KzMUqfvpV3w": {
@@ -73323,7 +73325,7 @@
                 { "time": "0:10", "joke": "Harlem Shake - Baauer" },
                 { "time": "0:11", "joke": "Rolex - Ayo & Teo" },
                 { "time": "0:11", "joke": "David S. Pumpkins - Saturday Night Live" },
-                { "time": "0:11", "joke": "Angry Birds Theme - Angry Birds" },
+                { "time": "0:11", "joke": "Main Theme - Angry Birds" },
                 { "time": "0:11", "joke": "The Bear Cha-Cha-Cha - Bear in the Big Blue House" },
                 { "time": "0:11", "joke": "Lalala - Y2K ft. bbno$" },
                 { "time": "0:12", "joke": "Poppy Playtime VS Garten of Ban Ban (I'm Jumbo Josh brah) - ZAMination" },
@@ -79180,7 +79182,7 @@
                 { "time": "56:18", "joke": "vrum nice (...- .-. ..- -- -. .. -.-. .) - Morse code" },
                 { "time": "56:28", "joke": "Spark Mandrill Stage - Mega Man X" },
                 { "time": "56:38", "joke": "Evans - DJ YOSHITAKA" },
-                { "time": "56:48", "joke": "Little Mac Down - Punch-Out" },
+                { "time": "56:48", "joke": "Little Mac Down - Punch-Out!!" },
                 { "time": "56:57", "joke": "Rapid Carefree Advice - Puyo Puyo!! 20th Anniversary" },
                 { "time": "57:07", "joke": "SigSig - kors k" },
                 { "time": "57:16", "joke": "Japan Break Industries - Manzo / 784" },
@@ -88008,7 +88010,7 @@
                 { "time": "2:06-2:41", "joke": "The Nutshack Theme - NUMP" },
                 { "time": "2:24", "joke": "Song of Time - The Legend of Zelda: Ocarina of Time" },
                 { "time": "2:40", "joke": "Wood Man Stage - Mega Man 2" },
-                { "time": "2:41", "joke": "Angry Birds Theme - Angry Birds" },
+                { "time": "2:41", "joke": "Main Theme - Angry Birds" },
                 { "time": "2:58", "joke": "Ievan Polkka - Loituma" },
                 { "time": "3:07", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin" },
                 { "time": "3:16", "joke": "Ievan Polkka - Loituma" },
@@ -94824,7 +94826,7 @@
                 { "time": "3:18", "joke": "Instrument Swap/Arrangement - Phineas and Ferb" },
                 { "time": "3:20", "joke": "BITE OF 87 - CG5 feat. Abdul Cisse" },
                 { "time": "3:22", "joke": "Goldfish Jingle - Goldfish" },
-                { "time": "3:24", "joke": "Angry Birds Theme - Angry Birds" },
+                { "time": "3:24", "joke": "Main Theme - Angry Birds" },
                 { "time": "3:26", "joke": "Bad Piggies Theme - Bad Piggies" },
                 { "time": "3:28", "joke": "Careless Whisper - George Michael" },
                 { "time": "3:30", "joke": "Reigen's Theme - Mob Psycho 100" },
