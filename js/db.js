@@ -13112,6 +13112,11 @@ const db = {
 	"wiki": "https://siivagunner.wiki/wiki/House%20by%20the%20Bay%20(Theme)%20-%20The%20Legend%20of%20Zelda%3A%20Link's%20Awakening%20(Switch)",
 	"joke": "Be Nice 2 Me - Bladee",
 	"artist": "eg_9371"},
+"j_6gIpvS6Sc": {
+	"title": "Far - Minecraft",
+	"wiki": "https://siivagunner.wiki/wiki/Far%20-%20Minecraft",
+	"joke": "No Surprises - Radiohead",
+	"artist": "eg_9371"},
 "TWaqFxwbCjQ": {
 	"title": "Spider - I Spy Spooky Mansion (Wii)",
 	"wiki": "https://siivagunner.wiki/wiki/Spider%20-%20I%20Spy%20Spooky%20Mansion%20(Wii)",
@@ -46388,6 +46393,7 @@ const db = {
 	"artist": "Blue Fairy"},
 "vypa865t_uE": {
 	"title": "We Are Number One - Máni Svavarsson (LazyTown): The Video Game",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/We%20Are%20Number%20One%20(Alpha%20Mix)%20-%20LazyTown%3A%20The%20Video%20Game",
 	"joke": "Witchcraft - Pendulum",
 	"artist": "NBGMusic"},
@@ -79372,6 +79378,7 @@ const db = {
 	"artist": "MovieMovies1"},
 "53sRUzQH9vE": {
 	"title": "We Are Number One - Máni Svavarsson (LazyTown): The Video Game",
+	"exclude": "title",
 	"wiki": "https://siivagunner.wiki/wiki/We%20Are%20Number%20One%20(Beta%20Mix)%20-%20LazyTown%3A%20The%20Video%20Game",
 	"joke": [
 		{"time": "0:40", "joke": "The Nutshack Theme - NUMP"},
