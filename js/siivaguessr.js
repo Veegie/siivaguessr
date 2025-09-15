@@ -73355,7 +73355,7 @@
                 { "time": "0:32", "joke": "Danger Aplenty on the Journey - Super Mario RPG (Switch)" },
                 { "time": "0:32", "joke": "BARVE BOY KUNG FU POKECHU - Vinesauce Vinny" },
                 { "time": "0:34", "joke": "Rude - MAGIC!" },
-                { "time": "0:35", "joke": "Pop Champagne - Jim Jones feat. Juelz Santana & Ron Brownz" },
+                { "time": "0:35", "joke": "Pop Champagne - Ron Browz and Jim Jones ft. Juelz Santana" },
                 { "time": "0:37", "joke": "The Hampsterdance Song - Hampton the Hamster" },
                 { "time": "0:38", "joke": "Five Nights at Freddy's 1 Song - The Living Tombstone" },
                 { "time": "0:40", "joke": "BITE OF 87 - CG5 feat. Abdul Cisse" },
