@@ -71230,7 +71230,6 @@
                 { "time": "5:50", "joke": "glass slipper - Mori Calliope" },
                 { "time": "6:22", "joke": "I Can't Watch This - \"Weird Al\" Yankovic" },
                 { "time": "6:23", "joke": "Let Mom Sleep - Jet Set Radio" },
-                { "time": "6:40", "joke": "SmallAnt singing \"Fly Me To the Moon\" - SmallAnt" },
                 { "time": "6:55", "joke": "Be with the world - D4DJ Groovy Mix (Photon Maiden)" },
                 { "time": "7:00", "joke": "UNBEATABLE - Friday Night Funkin': Mario's Madness" },
                 { "time": "7:27", "joke": "Still Alive - Portal" },
