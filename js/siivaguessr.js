@@ -99238,7 +99238,7 @@
     const dailyNumber = 1 + Math.floor((nowDate - firstDate) / 86400000);
 
     const SAVED_QUIZZES_KEY = 'savedQuizzes';
-    const daily = dailies[simpleCircleCipher(dateToString(nowDate)).split('').reverse().join('')];
+    const daily = dailies[simpleCircleCipher(dateToString(new Date())).split('').reverse().join('')];
     const backNavViews = ['customQuizView', 'createCustomQuizView', 'helpView', 'quizIntroView', 'quizEndView'];
     const backBtn = document.getElementById('backBtn');
     const vidPlayer = document.getElementById('vidPlayer');
