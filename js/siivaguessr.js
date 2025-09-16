@@ -99348,10 +99348,6 @@
         activeQuestionTotalAnswers = answerSet.size;
         document.getElementById('wikiLink').href = '/';
         ytPlayer.cueVideoById(videoHash);
-        if (isDaily && parseInt(localStorage.getItem('lDaily')) === dailyNumber) {
-            updateText(statusMsgElem, 'Come back tomorrow for a new question!');
-            endQuestion(false, true);
-        }
     };
 
     /**
@@ -99525,11 +99521,10 @@
         const lost = gaveUp || strikes === 3;
         const isMultiJoke = Array.isArray(activeQuestion.joke);
         const gotCount = activeQuestionTotalAnswers - answerSet.size;
-        let percentCorrect;
+        let percentCorrect = Math.floor((gotCount / activeQuestionTotalAnswers) * 100);
 
         // Display status message
         if (isMultiJoke) {
-            percentCorrect = Math.floor((gotCount / activeQuestionTotalAnswers) * 100);
             multiCorrect.innerText = `You got ${percentCorrect}%${(percentCorrect > 50 ? '!' : '')}`;
             if (!reloadingDaily) {
                 updateText(statusMsgElem, `(${gotCount} out of ${activeQuestionTotalAnswers})`);
@@ -99611,54 +99606,57 @@
         show([vidPlayer, 'ripCredits']);
 
         if (isDaily) {
-            // Update win streak
-            const w_streak_key = 'winStreak';
-            const l_daily_key = 'lDaily';
-            if (percentCorrect < 51) {
-                localStorage.removeItem(w_streak_key);
-            } else if (!localStorage.getItem(w_streak_key)
-                || !localStorage.getItem(l_daily_key)
-                || parseInt(localStorage.getItem(l_daily_key)) !== dailyNumber - 1) {
-                localStorage.setItem(w_streak_key, '1');
-            } else {
-                localStorage.setItem(w_streak_key, parseInt(localStorage.getItem(w_streak_key)) + 1);
-            }
-            localStorage.setItem(l_daily_key, dailyNumber);
-
-            const shareBtn = document.getElementById('shareResultsBtn');
-            let statLine = '';
-            if (isMultiJoke) {
-                let statIcon = '';
-                if (percentCorrect === 100) {
-                    statIcon += ' 🌟 ';
-                } else if (percentCorrect > 60) {
-                    statIcon += ' ✅ ';
-                } else if (percentCorrect > 30) {
-                    statIcon += ' 🆗 ';
-                }
-                statLine = `${statIcon}${gotCount}/${activeQuestionTotalAnswers}${statIcon}`;
-            } else {
-                if (!lost) {
-                    statLine = `✅ Got the answer in ⏱ ${durationToTimeCode(questionTime)}!`;
-                    if (questionTime === 0) {
-                        statLine += ' (Wow, that\'s really fast! I definitely didn\'t cheat. Don\'t make fun of me for sharing this without reading it first. 🙂)';
-                    }
+            if (!reloadingDaily) {
+                // Update win streak
+                const w_streak_key = 'winStreak';
+                const l_daily_key = 'lDaily';
+                if (percentCorrect < 51) {
+                    localStorage.removeItem(w_streak_key);
+                } else if (!localStorage.getItem(w_streak_key)
+                    || !localStorage.getItem(l_daily_key)
+                    || parseInt(localStorage.getItem(l_daily_key)) !== dailyNumber - 1) {
+                    localStorage.setItem(w_streak_key, '1');
                 } else {
-                    if (shareBtn.dataset.sickoMode === 'true' && gotCount > 0) {
-                        statLine = `${gotCount}/${activeQuestionTotalAnswers}`;
-                    } else if (strikes === 3) {
-                        statLine = `❌ Struck out!`
+                    localStorage.setItem(w_streak_key, parseInt(localStorage.getItem(w_streak_key)) + 1);
+                }
+                localStorage.setItem(l_daily_key, dailyNumber);
+
+                const shareBtn = document.getElementById('shareResultsBtn');
+                let statLine = '';
+                if (isMultiJoke) {
+                    let statIcon = '';
+                    if (percentCorrect === 100) {
+                        statIcon += ' 🌟 ';
+                    } else if (percentCorrect > 60) {
+                        statIcon += ' ✅ ';
+                    } else if (percentCorrect > 30) {
+                        statIcon += ' 🆗 ';
+                    }
+                    statLine = `${statIcon}${gotCount}/${activeQuestionTotalAnswers}${statIcon}`;
+                } else {
+                    if (!lost) {
+                        statLine = `✅ Got the answer in ⏱ ${durationToTimeCode(questionTime)}!`;
+                        if (questionTime === 0) {
+                            statLine += ' (Wow, that\'s really fast! I definitely didn\'t cheat. Don\'t make fun of me for sharing this without reading it first. 🙂)';
+                        }
                     } else {
-                        statLine = `🏳 in ⏱ ${durationToTimeCode(questionTime)}`
+                        if (shareBtn.dataset.sickoMode === 'true' && gotCount > 0) {
+                            statLine = `${gotCount}/${activeQuestionTotalAnswers}`;
+                        } else if (strikes === 3) {
+                            statLine = `❌ Struck out!`
+                        } else {
+                            statLine = `🏳 in ⏱ ${durationToTimeCode(questionTime)}`
+                        }
                     }
                 }
-            }
-            const winStreak = parseInt(localStorage.getItem(w_streak_key));
-            shareBtn.dataset.shareData =
-                `SiIvaGuessr #${dailyNumber}:${shareBtn.dataset.sickoMode === 'true' ? '\n 👺 Sicko Mode 👺' : ''}
+                const winStreak = parseInt(localStorage.getItem(w_streak_key));
+                shareBtn.dataset.shareData =
+                    `SiIvaGuessr #${dailyNumber}:${shareBtn.dataset.sickoMode === 'true' ? '\n 👺 Sicko Mode 👺' : ''}
 ${statLine}${winStreak > 1 ? '\nOn a win streak of ' + winStreak + '!' : ''}
 https://siivaguessr.meme`;
-            show([backBtn, 'shareResultsContainer']);
+                show('shareResultsContainer');
+            }
+            show(backBtn);
         } else {
             activeQuizQuestionIndex++;
             if (activeQuizQuestionIndex === activeQuiz.length) {
@@ -100000,6 +99998,10 @@ https://siivaguessr.meme/?quiz=${quizStr}`;
             updateTimeCode();
             show(playbackControls);
             showView('ripView');
+            if (isDaily && parseInt(localStorage.getItem('lDaily')) === dailyNumber) {
+                updateText(statusMsgElem, 'Come back tomorrow for a new question!');
+                endQuestion(false, true);
+            }
         }
     }
 
