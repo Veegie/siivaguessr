@@ -99606,6 +99606,7 @@
         show([vidPlayer, 'ripCredits']);
 
         if (isDaily) {
+            show(backBtn);
             if (!reloadingDaily) {
                 // Update win streak
                 const w_streak_key = 'winStreak';
@@ -99656,7 +99657,6 @@ ${statLine}${winStreak > 1 ? '\nOn a win streak of ' + winStreak + '!' : ''}
 https://siivaguessr.meme`;
                 show('shareResultsContainer');
             }
-            show(backBtn);
         } else {
             activeQuizQuestionIndex++;
             if (activeQuizQuestionIndex === activeQuiz.length) {
