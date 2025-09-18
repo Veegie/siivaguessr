@@ -40633,7 +40633,7 @@
         "5SVSYL7PnEo": {
             "title": "Stage Theme 1 - Yosumin! DS",
             "wiki": "https://siivagunner.wiki/wiki/Stage%20Theme%201%20-%20Yosumin!%20DS",
-            "joke": "Battle Field - Mega Man Battle Network 6",
+            "joke": "Steam Gardens - Super Mario Odyssey",
             "artist": "Credited to \"THE iRISM@STER\""
         },
         "-di1a7jVInM": {
@@ -86144,7 +86144,7 @@
             "title": "Operation! - Mega Man Battle Network",
             "wiki": "https://siivagunner.wiki/wiki/Operation!%20(Beta%20Mix)%20-%20Mega%20Man%20Battle%20Network",
             "joke": [
-                { "time": "0:06 - 1:38, 0:31", "joke": "Gangnam Style - PSY" },
+                { "time": "0:06 - 0:31", "joke": "Gangnam Style - PSY" },
                 { "time": "0:52", "joke": "New Face - PSY" },
                 { "time": "1:05 - 1:16", "joke": "The 7th Element - Vitas" },
                 { "time": "1:19", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin" }],
@@ -86977,10 +86977,10 @@
             "artist": "Kirbio, SkopioXV2"
         },
         "atb_LxcQC8A": {
-            "title": "Battle Theme - Final Fantasy VI",
+            "title": "Battle Theme - Final Fantasy X",
             "wiki": "https://siivagunner.wiki/wiki/Battle%20Theme%20-%20Final%20Fantasy%20X",
             "joke": [
-                { "time": "0:00 - 1:41, 0:07, 0:24", "joke": "Inspector Gadget Theme - Shuki Levy" },
+                { "time": "0:00 - 0:07, 0:24", "joke": "Inspector Gadget Theme - Shuki Levy" },
                 { "time": "0:07", "joke": "Vega's Theme - Street Fighter II: The World Warrior" },
                 { "time": "0:15", "joke": "He's a Pirate - Pirates of the Caribbean" },
                 { "time": "0:42", "joke": "Beware the Forest's Mushrooms - Super Mario RPG" },
