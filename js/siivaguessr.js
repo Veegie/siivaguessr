@@ -31566,7 +31566,7 @@
             "artist": "PuffballsUnited"
         },
         "5s23MKw_NPk": {
-            "title": "The Grand Finale - Super Smash Bros. for Wii U",
+            "title": "The Grand Finale - Mario & Luigi: Bowser's Inside Story",
             "wiki": "https://siivagunner.wiki/wiki/The%20Grand%20Finale%20(Beta%20Mix)%20-%20Super%20Smash%20Bros.%20for%20Wii%20U",
             "joke": "Hot Damned (Ch 4 Light World) - Super Meat Boy",
             "artist": "Blookerstein"
@@ -47318,6 +47318,7 @@
         },
         "34frOL0BvlM": {
             "title": "Mini-Porky's Entrance - MOTHER 3",
+            "exclude": "title",
             "wiki": "https://siivagunner.wiki/wiki/Mini-Porky's%20Entrance%20-%20MOTHER%203",
             "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin",
             "artist": "Unknown Ripper"
@@ -85977,7 +85978,7 @@
             "artist": "New Guy (audio), Supahstar Clod (illustration), Hinchy (visualizer)"
         },
         "-c7bzoFWhiY": {
-            "title": "The Grand Finale - Super Smash Bros. Ultimate",
+            "title": "The Grand Finale - Mario & Luigi: Bowser's Inside Story",
             "wiki": "https://siivagunner.wiki/wiki/The%20Grand%20Finale%20-%20Super%20Smash%20Bros.%20UItimate",
             "joke": [
                 { "time": "0:09", "joke": "The Noble Haltmann - Kirby Planet Robobot" },
@@ -93599,7 +93600,7 @@
             "title": "The End - Pokemon Omega Ruby & Alpha Sapphire",
             "wiki": "https://siivagunner.wiki/wiki/The%20End%20-%20Pok%C3%A9mon%20Omega%20Ruby%20%26%20Alpha%20Sapphire",
             "joke": [
-                { "time": "0:00", "joke": "Eight Melodies/Smiles and Tears - EarthBound" },
+                { "time": "0:00", "joke": "Eight Melodies - EarthBound" },
                 { "time": "1:16, 0:16", "joke": "Pollyanna - EarthBound Beginnings/MOTHER" },
                 { "time": "1:43, 0:43, 0:53, 1:24", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin" }],
             "artist": "Unknown Ripper"
@@ -99159,7 +99160,10 @@
             "Hybrid song 2:20 (Funky stars) - Quazar of Sanxion"],
 
         ["Radio: Lucky Channel/Game Corner - Pokemon Gold & Silver",
-            "Goldenrod Game Corner - Pokemon HeartGold & SoulSilver"]
+            "Goldenrod Game Corner - Pokemon HeartGold & SoulSilver"],
+
+        ["Eight Melodies - EarthBound",
+            "Smiles and Tears - EarthBound"]
     ];
     const aliasMap = new Map();
     const aliasedAnswers = new Map();
