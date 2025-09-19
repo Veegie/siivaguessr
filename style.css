@@ -507,7 +507,7 @@ button small {
   display: flex;
   justify-content: center;
   margin-bottom: 4px;
-  height: 3rem;
+  height: 4rem;
   break-inside: avoid;
 }
 
@@ -603,6 +603,10 @@ button small {
   text-shadow: none;
   font-weight: 900;
   box-shadow: inset 0px 0px 5px grey;
+}
+
+.long-song-title {
+  font-size:0.75rem;
 }
 
 :root.dark .multi-joke-timestamp.highlight {

@@ -71824,7 +71824,7 @@
                 { "time": "0:37, 0:47", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin" },
                 { "time": "0:43, 0:51", "joke": "Snow halation - Love Live!, µ's" },
                 { "time": "1:14, 1:45", "joke": "The Noble Haltmann - Kirby Planet Robobot" },
-                { "time": "1:34", "joke": "Confrontation ~ Presto 2011 - Ace Attorney Investigations 2" }],
+                { "time": "1:34", "joke": "Confrontation ~ Presto 2011 - Ace Attorney Investigations 2: Prosecutor's Gambit" }],
             "artist": "alan"
         },
         "iWIealoAgv4": {
@@ -78877,7 +78877,7 @@
                 { "time": "6:42", "joke": "Baka Mitai - Yakuza 5" },
                 { "time": "6:52", "joke": "Bon Appétit♡S - Blend S" },
                 { "time": "7:02", "joke": "Ren'ai Circulation - Bakemonogatari" },
-                { "time": "7:12", "joke": "Pursuit ~ Wanting to Find the Truth - Ace Attorney Investigations 2" },
+                { "time": "7:12", "joke": "Pursuit ~ Wanting to Find the Truth - Ace Attorney Investigations 2: Prosecutor's Gambit" },
                 { "time": "7:21", "joke": "Long Train Running - The Doobie Brothers" },
                 { "time": "7:31", "joke": "You Can Do It - Patrick Wilson & Adam Routh" },
                 { "time": "7:40", "joke": "Frozen Hillside - Kirby Air Ride" },
@@ -79525,7 +79525,7 @@
                 { "time": "1:51:40", "joke": "Stayin' Alive - Bee Gees" },
                 { "time": "1:51:50", "joke": "Emerald Sword - Rhapsody" },
                 { "time": "1:52:00", "joke": "Moonsiders 1st - Tekken 7" },
-                { "time": "1:52:09", "joke": "Logic Chess ~ Endgame - Ace Attorney Investigations 2" },
+                { "time": "1:52:09", "joke": "Logic Chess ~ Endgame - Ace Attorney Investigations 2: Prosecutor's Gambit" },
                 { "time": "1:52:19", "joke": "Courtesy - Super Hexagon" },
                 { "time": "1:52:28", "joke": "Cantina Band - Star Wars Episode IV: A New Hope" },
                 { "time": "1:52:38", "joke": "You Spin Me Round (Like a Record) - Dead or Alive" },
@@ -79968,7 +79968,7 @@
                 { "time": "3:03:31", "joke": "Let's Go Away - Daytona USA" },
                 { "time": "3:03:41", "joke": "In the Halls of the Usurper (Pridemoor Keep) - Shovel Knight" },
                 { "time": "3:03:50", "joke": "Fighting to the End - Bravely Default" },
-                { "time": "3:03:59", "joke": "Confrontation ~ Presto 2011 - Ace Attorney Investigations 2" },
+                { "time": "3:03:59", "joke": "Confrontation ~ Presto 2011 - Ace Attorney Investigations 2: Prosecutor's Gambit" },
                 { "time": "3:04:10", "joke": "No Ties - Chet Baker" },
                 { "time": "3:04:19", "joke": "Grand Vent - La Carte Aux Trésors" },
                 { "time": "3:04:29", "joke": "V'la l'Bon Vent - French-Canadian folk song" },
@@ -81644,7 +81644,7 @@
                 { "time": "1:44", "joke": "Pursuit ~ Caught - Phoenix Wright: Ace Attorney - Trials and Tribulations" },
                 { "time": "2:03", "joke": "Great Pursuit - The Resolve of Ryunosuke Naruhodo - The Great Ace Attorney 2: Resolve" },
                 { "time": "2:15", "joke": "Pursuit ~ Cornering Together - Phoenix Wright: Ace Attorney - Spirit of Justice" },
-                { "time": "2:40", "joke": "Pursuit ~ Wanting to Find the Truth - Ace Attorney Investigations 2" }],
+                { "time": "2:40", "joke": "Pursuit ~ Wanting to Find the Truth - Ace Attorney Investigations 2: Prosecutor's Gambit" }],
             "artist": "Unknown Ripper"
         },
         "YSuuW-ur46w": {
@@ -95293,17 +95293,19 @@
             "artist": "BobTheTacocat"
         },
         "6GQfzSxeWjo": {
-            "title": "The Grand Turnabout - Ace Attorney Investigations 2",
+            "title": "The Grand Turnabout - Ace Attorney Investigations 2: Prosecutor's Gambit",
             "wiki": "https://siivagunner.wiki/wiki/The_Grand_Turnabout_-_Ace_Attorney_Investigations_2:_Prosecutor%27s_Gambit",
             "joke": [
-                { "time": "0:00 - 18:08", "joke": "Dancing Mad - Final Fantasy VI" },
-                { "time": "0:00", "joke": "The Grand Turnabout - Ace Attorney Investigations 2: Prosecutor's Gambit" },
+                { "time": "0:00 - 4:30", "joke": "Dancing Mad (Movement 1) - Final Fantasy VI" },
                 { "time": "1:00", "joke": "Republic of Zheng Fa ~ The Land of the Phoenix - Ace Attorney Investigations 2: Prosecutor's Gambit" },
                 { "time": "1:28", "joke": "Logic Chess ~ Endgame - Ace Attorney Investigations 2: Prosecutor's Gambit" },
                 { "time": "1:53", "joke": "The Great Monster Taurusaurus - Ace Attorney Investigations 2: Prosecutor's Gambit" },
+                { "time": "4:31 - 8:13", "joke": "Dancing Mad (Movement 2) - Final Fantasy VI" },
                 { "time": "4:31", "joke": "Eustace Winner ~ Winning Indepence - Ace Attorney Investigations 2: Prosecutor's Gambit" },
                 { "time": "5:04", "joke": "Committee for Prosecutorial Excellence - Stone-Cold Justice - Ace Attorney Investigations 2: Prosecutor's Gambit" },
+                { "time": "8:14 - 11:32", "joke": "Dancing Mad (Movement 3) - Final Fantasy VI" },
                 { "time": "8:14", "joke": "Verity Gavèlle ~ Goddess of Justice - Ace Attorney Investigations 2: Prosecutor's Gambit" },
+                { "time": "11:33 - 18:08", "joke": "Dancing Mad (Movement 4) - Final Fantasy VI" },
                 { "time": "12:03", "joke": "The Puppeteer of the Game - Ace Attorney Investigations 2: Prosecutor's Gambit" },
                 { "time": "13:27", "joke": "Melancholic Folk - Ace Attorney Investigations 2: Prosecutor's Gambit" },
                 { "time": "13:52", "joke": "The Truth Revealed 2011 - Ace Attorney Investigations 2: Prosecutor's Gambit" },
@@ -99237,6 +99239,7 @@
     const dailyNumber = 1 + Math.floor((nowDate - firstDate) / 86400000);
 
     const SAVED_QUIZZES_KEY = 'savedQuizzes';
+    const LONG_TITLE_THRESHOLD = 84;
     const daily = dailies[simpleCircleCipher(dateToString(new Date())).split('').reverse().join('')];
     const backNavViews = ['customQuizView', 'createCustomQuizView', 'helpView', 'quizIntroView', 'quizEndView'];
     const backBtn = document.getElementById('backBtn');
@@ -99467,29 +99470,12 @@
         }
         guesses.add(hash);
         if (answerSet.has(hash)) {
-            answerSet.delete(hash);
             let replaceText = guess;
             if (aliasedAnswers.has(hash) && guess !== aliasedAnswers.get(hash)) {
                 updateText(statusMsgElem, "Close enough!", 2000);
                 replaceText = aliasedAnswers.get(hash);
             }
-            document.querySelectorAll('.' + hash).forEach((e) => {
-                if (e.id === 'stAns') {
-                    show(vidPlayer);
-                }
-                e.classList.add('correct');
-                e.innerText = replaceText;
-                setTimeout(() => {
-                    e.classList.add('fade');
-                    e.classList.remove('correct');
-                    setTimeout(() => {
-                        e.classList.remove('fade');
-                    }, 1100);
-                }, 250);
-            });
-            if (answerSet.size === 0) {
-                endQuestion();
-            }
+            markCorrect(hash, replaceText);
         } else {
             strikes++;
             show('strike' + strikes);
@@ -99506,6 +99492,30 @@
                     guessInput.classList.remove('fade');
                 }, 1100);
             }, 500);
+        }
+    }
+
+    const markCorrect = function (hash, replaceText) {
+        answerSet.delete(hash);
+        document.querySelectorAll('.' + hash).forEach((e) => {
+            if (e.id === 'stAns') {
+                show(vidPlayer);
+            }
+            e.classList.add('correct');
+            if (replaceText.length > LONG_TITLE_THRESHOLD && !e.classList.contains('free-text-answer')) {
+                e.classList.add('long-song-title');
+            }
+            e.innerText = replaceText;
+            setTimeout(() => {
+                e.classList.add('fade');
+                e.classList.remove('correct');
+                setTimeout(() => {
+                    e.classList.remove('fade');
+                }, 1100);
+            }, 250);
+        });
+        if (answerSet.size === 0) {
+            endQuestion();
         }
     }
 
@@ -99579,6 +99589,9 @@
                         document.querySelectorAll('.' + jHash).forEach((e) => {
                             if (!reloadingDaily) {
                                 e.classList.add('missed');
+                            }
+                            if (entry.joke.length > LONG_TITLE_THRESHOLD && !e.classList.contains('free-text-answer')) {
+                                e.classList.add('long-song-title');
                             }
                             e.innerText = entry.joke;
                         });
