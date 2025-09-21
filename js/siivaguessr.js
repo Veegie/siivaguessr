@@ -99435,6 +99435,7 @@
         this.blur();
         const sickoMode = document.getElementById('dailySickoSwitch').checked;
         isDaily = true;
+        activeQuizQuestionIndex = -1;
         loadQuestion(simpleCircleCipher(daily.hash), sickoMode ? QuestionMode.SICKO : daily.mode);
     });
     document.getElementById('customQuizBtn').addEventListener('click', function () {
