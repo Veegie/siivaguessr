@@ -2326,6 +2326,16 @@ const updateAutocomplete = function () {
     }
     // Filter the full list of songs.
     filteredSongs = filteredSongs.filter((s) => regexes.every((reg) => reg.test(s)));
+    filteredSongs.sort((a,b) => {
+        const aStarts = a.toLowerCase().startsWith(this.value.toLowerCase());
+        const bStarts = b.toLowerCase().startsWith(this.value.toLowerCase());
+        if (aStarts && !bStarts) {
+            return -1;
+        } else if (bStarts && !aStarts) {
+            return 1;
+        }
+        return 0;
+    });
     let lastVisibleMatchIndex = -1;
     // Only display the first 10 matches, for performance and to make brute-forcing harder.
     for (let i = 0; i < 10 && i < filteredSongs.length; i++) {
