@@ -2314,9 +2314,11 @@ const updateAutocomplete = function () {
     // Use regexes for each word, delimted by spaces. As a bonus, this means
     // the guess box technically supports regex for free.
     let regexes = [];
+    let wordBoundRegexes = [];
     this.value.split(' ').filter((w) => w.trim().length > 0).forEach((w) => {
         try {
             regexes.push(new RegExp(w.trim(), 'i'));
+            wordBoundRegexes.push(new RegExp('\\b' + w.trim() + '\\b', 'i'));
         } catch (error) {
             // Some bad character sequence. Skip this word.
         }
@@ -2326,12 +2328,22 @@ const updateAutocomplete = function () {
     }
     // Filter the full list of songs.
     filteredSongs = filteredSongs.filter((s) => regexes.every((reg) => reg.test(s)));
-    filteredSongs.sort((a,b) => {
+    filteredSongs.sort((a, b) => {
         const aStarts = a.toLowerCase().startsWith(this.value.toLowerCase());
         const bStarts = b.toLowerCase().startsWith(this.value.toLowerCase());
         if (aStarts && !bStarts) {
             return -1;
         } else if (bStarts && !aStarts) {
+            return 1;
+        }
+        return 0;
+    });
+    filteredSongs.sort((a, b) => {
+        const allExactWordsA = wordBoundRegexes.every((reg) => reg.test(a));
+        const allExactWordsB = wordBoundRegexes.every((reg) => reg.test(b));
+        if (allExactWordsA && !allExactWordsB) {
+            return -1;
+        } else if (allExactWordsB && !allExactWordsA) {
             return 1;
         }
         return 0;
