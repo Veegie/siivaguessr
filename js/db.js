@@ -2954,6 +2954,7 @@ const db = {
 	},
 	"EW0BpH9Im_M": {
 		"title": "Super Mario World Boss - Mario Remix",
+		"exclude": "title",
 		"wiki": "https://siivagunner.wiki/wiki/Super%20Mario%20World%20Boss%20-%20Mario%20Remix",
 		"joke": "Lalala - Y2K ft. bbno$",
 		"artist": "RANDY02"
@@ -16843,7 +16844,7 @@ const db = {
 		"artist": "lollo"
 	},
 	"DUDA1slQH3w": {
-		"title": "Star - Mari0",
+		"title": "Star - Super Mario Bros.",
 		"wiki": "https://siivagunner.wiki/wiki/Star%20-%20Mari0",
 		"joke": "Robots FTW - Portal 2",
 		"artist": "minindo"
@@ -27611,7 +27612,7 @@ const db = {
 		"artist": "Helpful Salad"
 	},
 	"4M9ijcJiNfc": {
-		"title": "Castle - Mari0",
+		"title": "Castle - Super Mario Bros.",
 		"wiki": "https://siivagunner.wiki/wiki/Castle%20-%20Mari0",
 		"joke": "4000 Degrees Kelvin - Portal",
 		"artist": "minindo"
@@ -38125,7 +38126,7 @@ const db = {
 		"artist": "Heapons"
 	},
 	"MoahsKyR8AU": {
-		"title": "Underground - Mari0",
+		"title": "Underground - Super Mario Bros.",
 		"wiki": "https://siivagunner.wiki/wiki/Underground%20-%20Mari0",
 		"joke": "Want You Gone - Portal 2",
 		"artist": "TurretBot"
@@ -49295,7 +49296,7 @@ const db = {
 		"artist": "Jp"
 	},
 	"Syz19sBD240": {
-		"title": "Overworld (Yoshi) - Super Mario World",
+		"title": "Overworld Theme - Super Mario World",
 		"wiki": "https://siivagunner.wiki/wiki/Overworld%20(Yoshi)%20(Super%20Mario%20World)%20-%20Super%20Mario%20Maker%202",
 		"joke": "The Fantastic Legend of Tohno - Touhou 7: Perfect Cherry Blossom",
 		"artist": "JerryStuff (Ro)"
@@ -63031,7 +63032,7 @@ const db = {
 		"artist": "Sarvéproductions"
 	},
 	"MpJsYFZtQbw": {
-		"title": "Overworld (Update 1.1) - Mari0",
+		"title": "Ground Theme (Overworld) - Super Mario Bros.",
 		"wiki": "https://siivagunner.wiki/wiki/Overworld%20(Update%201.1)%20-%20Mari0",
 		"joke": "Want You Gone - Portal 2",
 		"artist": "Retro Gaming"
