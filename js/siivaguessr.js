@@ -1678,7 +1678,10 @@ const aliases = [
         "Goldenrod Game Corner - Pokemon HeartGold & SoulSilver"],
 
     ["Eight Melodies - EarthBound",
-        "Smiles and Tears - EarthBound"]
+        "Smiles and Tears - EarthBound"],
+
+    ["Think (About It) - Lyn Collins",
+        "It Takes Two - Rob Base & DJ E-Z Rock"]
 ];
 const aliasMap = new Map();
 const aliasedAnswers = new Map();

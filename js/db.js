@@ -85827,6 +85827,7 @@ const db = {
 			{ "time": "0:23", "joke": "I Don't Fuck With You - Big Sean ft. E-40" },
 			{ "time": "0:29", "joke": "Reese's Puffs Rap - RV & Terrance" },
 			{ "time": "0:39", "joke": "Gangnam Style - PSY" },
+			{ "time": "0:39-0:57", "joke": "It Takes Two - Rob Base & DJ E-Z Rock" },
 			{ "time": "0:55", "joke": "Without Me - Eminem" },
 			{ "time": "1:11", "joke": "Aaron's Party (Come Get It) - Aaron Carter" },
 			{ "time": "1:43", "joke": "I Don't Fuck With You - Big Sean ft. E-40" }],
