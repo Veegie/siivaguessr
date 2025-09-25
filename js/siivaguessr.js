@@ -177,8 +177,8 @@ const dailies = {
         "mode": 1
     },
     "zwvuAwuw": {
-        "hash": "_H3bgs5tnHu",
-        "mode": 1
+        "hash": "bRq0AfjlzAk",
+        "mode": 2
     },
     "xwzuAwuw": {
         "hash": "Mab7-Dwzcg6",
@@ -661,7 +661,7 @@ const dailies = {
         "mode": 1
     },
     "uxDuzwuw": {
-        "hash": "be7P5R0Pc9_",
+        "hash": "h2zgLUXikkY",
         "mode": 1
     },
     "BwvuAwuw": {
@@ -1261,7 +1261,7 @@ const dailies = {
         "mode": 1
     },
     "Buwvzwuw": {
-        "hash": "gDoKV0MeamY",
+        "hash": "_H3bgs5tnHu",
         "mode": 1
     },
     "CuxuAwuw": {
@@ -1329,7 +1329,7 @@ const dailies = {
         "mode": 1
     },
     "AwAuAwuw": {
-        "hash": "h2zgLUXikkY",
+        "hash": "GsfS26kiz7s",
         "mode": 1
     },
     "wwzuAwuw": {
@@ -1393,8 +1393,8 @@ const dailies = {
         "mode": 1
     },
     "CwDuzwuw": {
-        "hash": "bRq0AfjlzAk",
-        "mode": 2
+        "hash": "gDoKV0MeamY",
+        "mode": 1
     },
     "vwvuAwuw": {
         "hash": "OYsek16dmQM",
@@ -1681,7 +1681,10 @@ const aliases = [
         "Smiles and Tears - EarthBound"],
 
     ["Think (About It) - Lyn Collins",
-        "It Takes Two - Rob Base & DJ E-Z Rock"]
+        "It Takes Two - Rob Base & DJ E-Z Rock"],
+
+    ["Sticker of Puyo Puyo - Puyo Puyo",
+        "Exercise Mode - Dr. Robotnik's Mean Bean Machine"]
 ];
 const aliasMap = new Map();
 const aliasedAnswers = new Map();
@@ -1823,7 +1826,7 @@ const loadQuestion = function (videoHash, mode) {
     if (activeQuestion.exclude !== 'title') {
         sourceTrackAnswerElem.innerText = '____________';
         sourceTrackAnswerElem.className = 'free-text-answer ' + sourceTrackHash;
-    } else if (mode === QuestionMode.REVERSE) {
+    } else if (mode === QuestionMode.REVERSE || mode === QuestionMode.SICKO) {
         mode = QuestionMode.NORMAL;
     }
     const jokeAnwserElem = document.getElementById('jAns');

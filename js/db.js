@@ -56996,6 +56996,13 @@ const db = {
 		"joke": "Menu 1 - Super Smash Bros. Melee",
 		"artist": "Sykhro"
 	},
+	"aYLmwAQO5BY": {
+		"title": "SK Credits - Sonic the Hedgehog 3 & Knuckles",
+		"exclude": "title",
+		"wiki": "https://siivagunner.wiki/wiki/SK%20Credits%20-%20Sonic%20the%20Hedgehog%203%20%26%20Knuckles",
+		"joke": "Roygbiv - Boards of Canada",
+		"artist": "Xarlable"
+	},
 	"hRUYjqNezTo": {
 		"title": "Grace and Glory - Jet Set Radio",
 		"wiki": "https://siivagunner.wiki/wiki/Grace%20and%20Glory%20(Alternate%20Mix)%20-%20Jet%20Set%20Radio",
