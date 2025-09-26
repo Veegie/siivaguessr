@@ -76580,7 +76580,6 @@ const db = {
 			{ "time": "1:38", "joke": "Gadget Room (Gary's Theme) - Club Penguin: Elite Penguin Force" },
 			{ "time": "1:49", "joke": "Science Blaster (Game Theory Theme) - SpellingPhailer" },
 			{ "time": "2:07", "joke": "Laughing Baby Bubbling Remix - Marcel Plomp" },
-			{ "time": "2:12", "joke": "Real trap shit - Trap-a-Holics" },
 			{ "time": "2:15", "joke": "GRAND DAD - Vinesauce Joel" },
 			{ "time": "2:19", "joke": "Ripple Star Select - Kirby 64: The Crystal Shards" },
 			{ "time": "2:28", "joke": "Inward Singing - Tenacious D" },
