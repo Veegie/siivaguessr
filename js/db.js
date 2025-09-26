@@ -8791,7 +8791,7 @@ const db = {
 		"artist": "BigBadBlob"
 	},
 	"OTVYNwhFmDM": {
-		"title": "Stickerbush Symphony (Stickerbrush Symphony, Bramble Scramble) - Donkey Kong Country 2: Diddy's Kong Quest",
+		"title": "Stickerbush Symphony (Stickerbrush Symphony, Bramble Blast) - Donkey Kong Country 2: Diddy's Kong Quest",
 		"wiki": "https://siivagunner.wiki/wiki/Stickerbush%20Symphony%20(Demo%20Version)%20-%20Donkey%20Kong%20Country%202",
 		"joke": "Bitter Sweet Symphony - The Verve",
 		"artist": "SEARCHING"
@@ -21560,7 +21560,7 @@ const db = {
 	"4WluQg6gR-o": {
 		"title": "Submerged Hell of Sunken Sorrow - Touhou 17.5: Sunken Fossil World",
 		"wiki": "https://siivagunner.wiki/wiki/Submerged%20Hell%20of%20Sunken%20Sorrow%20(Arrange%20Version)%20-%20Touhou%2017.5%3A%20Sunken%20Fossil%20World",
-		"joke": "Stickerbush Symphony (Stickerbrush Symphony, Bramble Scramble) - Donkey Kong Country 2: Diddy's Kong Quest",
+		"joke": "Stickerbush Symphony (Stickerbrush Symphony, Bramble Blast) - Donkey Kong Country 2: Diddy's Kong Quest",
 		"artist": "JerryStuff (Ro)"
 	},
 	"ldsQ_MRd1sc": {
@@ -22335,6 +22335,7 @@ const db = {
 	},
 	"Osj28qx7u38": {
 		"title": "Burst-In Rock 'n' Roll - MOTHER 3",
+		"exclude": "title",
 		"wiki": "https://siivagunner.wiki/wiki/Burst-In%20Rock%20'n'%20Roll%20(Beta%20Mix)%20-%20MOTHER%203",
 		"joke": "Baby Blue - Badfinger",
 		"artist": "AubyLover29"
@@ -26120,7 +26121,7 @@ const db = {
 		"artist": "BluLuigi7"
 	},
 	"uw4O6Z3YGfA": {
-		"title": "Stickerbush Symphony (Stickerbrush Symphony, Bramble Scramble) - Donkey Kong Country 2: Diddy's Kong Quest",
+		"title": "Stickerbush Symphony (Stickerbrush Symphony, Bramble Blast) - Donkey Kong Country 2: Diddy's Kong Quest",
 		"wiki": "https://siivagunner.wiki/wiki/Stickerbush%20Symphony%20(Alternate%20Version)%20-%20Donkey%20Kong%20Country%202",
 		"joke": [
 			{ "time": "0:00-2:31", "joke": "moment - Vierre Cloud" },
@@ -26269,7 +26270,7 @@ const db = {
 	"oT1WALQfApU": {
 		"title": "Glider - Sable",
 		"wiki": "https://siivagunner.wiki/wiki/Glider%20-%20Sable",
-		"joke": "Stickerbush Symphony (Stickerbrush Symphony, Bramble Scramble) - Donkey Kong Country 2: Diddy's Kong Quest",
+		"joke": "Stickerbush Symphony (Stickerbrush Symphony, Bramble Blast) - Donkey Kong Country 2: Diddy's Kong Quest",
 		"artist": "Eva Twin (previously Vari)"
 	},
 	"TSKqeuTAzag": {
@@ -29678,7 +29679,7 @@ const db = {
 		"artist": "BobTheTacocat, Madinstance"
 	},
 	"mM0LCWlPAL8": {
-		"title": "Stickerbush Symphony (Stickerbrush Symphony, Bramble Scramble) - Donkey Kong Country 2: Diddy's Kong Quest",
+		"title": "Stickerbush Symphony (Stickerbrush Symphony, Bramble Blast) - Donkey Kong Country 2: Diddy's Kong Quest",
 		"wiki": "https://siivagunner.wiki/wiki/Stickerbush%20Symphony%20(PAL%20Version)%20-%20Donkey%20Kong%20Country%202",
 		"joke": "Aria Math - Minecraft",
 		"artist": "Madinstance"
@@ -37556,7 +37557,7 @@ const db = {
 	"WPEyvmUqpfE": {
 		"title": "Build a Better Being - Spore",
 		"wiki": "https://siivagunner.wiki/wiki/Build%20a%20Better%20Being%20-%20Spore",
-		"joke": "Stickerbush Symphony (Stickerbrush Symphony, Bramble Scramble) - Donkey Kong Country 2: Diddy's Kong Quest",
+		"joke": "Stickerbush Symphony (Stickerbrush Symphony, Bramble Blast) - Donkey Kong Country 2: Diddy's Kong Quest",
 		"artist": "Madinstance"
 	},
 	"5_8IwQIB7hk": {
@@ -39977,7 +39978,7 @@ const db = {
 		"artist": "ChickenSuitGuy"
 	},
 	"DGO0M01Fks0": {
-		"title": "Stickerbush Symphony (Stickerbrush Symphony, Bramble Scramble) - Donkey Kong Country 2: Diddy's Kong Quest",
+		"title": "Stickerbush Symphony (Stickerbrush Symphony, Bramble Blast) - Donkey Kong Country 2: Diddy's Kong Quest",
 		"wiki": "https://siivagunner.wiki/wiki/Stickerbush%20Symphony%20(In-Game%20Version)%20-%20Donkey%20Kong%20Country%202",
 		"joke": "Satin Panties - Friday Night Funkin'",
 		"artist": "eg_9371"
@@ -44192,7 +44193,7 @@ const db = {
 		"artist": "eg_9371"
 	},
 	"-OST5rlvv_s": {
-		"title": "Stickerbush Symphony (Stickerbrush Symphony, Bramble Scramble) - Donkey Kong Country 2: Diddy's Kong Quest",
+		"title": "Stickerbush Symphony (Stickerbrush Symphony, Bramble Blast) - Donkey Kong Country 2: Diddy's Kong Quest",
 		"wiki": "https://siivagunner.wiki/wiki/Stickerbush%20Symphony%20(EU%20Version)%20-%20Donkey%20Kong%20Country%202",
 		"joke": "Peroxide - Ecco2K",
 		"artist": "OnBP"
@@ -45310,7 +45311,7 @@ const db = {
 		"artist": "Expensive Dispenser"
 	},
 	"Oy5mdV79dww": {
-		"title": "Stickerbush Symphony (Stickerbrush Symphony, Bramble Scramble) - Donkey Kong Country 2: Diddy's Kong Quest",
+		"title": "Stickerbush Symphony (Stickerbrush Symphony, Bramble Blast) - Donkey Kong Country 2: Diddy's Kong Quest",
 		"wiki": "https://siivagunner.wiki/wiki/Stickerbush%20Symphony%20(OST%20Version)%20-%20Donkey%20Kong%20Country%202",
 		"joke": "Goodbye to a World - Porter Robinson",
 		"artist": "wheel able"
@@ -51470,7 +51471,7 @@ const db = {
 	"MI5crLQUol0": {
 		"title": "Schala's Theme - Chrono Trigger",
 		"wiki": "https://siivagunner.wiki/wiki/Schala's%20Theme%20(Beta%20Mix)%20-%20Chrono%20Trigger",
-		"joke": "Stickerbush Symphony (Stickerbrush Symphony, Bramble Scramble) - Donkey Kong Country 2: Diddy's Kong Quest",
+		"joke": "Stickerbush Symphony (Stickerbrush Symphony, Bramble Blast) - Donkey Kong Country 2: Diddy's Kong Quest",
 		"artist": "Eva Twin"
 	},
 	"Vw14QBG0Z6E": {
@@ -62325,7 +62326,7 @@ const db = {
 	"l-DmfRd6WeI": {
 		"title": "Mega Mushroom - Mario Kart Wii",
 		"wiki": "https://siivagunner.wiki/wiki/Mega%20Mushroom%20-%20Mario%20Kart%20Wii",
-		"joke": "Stickerbush Symphony (Stickerbrush Symphony, Bramble Scramble) - Donkey Kong Country 2: Diddy's Kong Quest",
+		"joke": "Stickerbush Symphony (Stickerbrush Symphony, Bramble Blast) - Donkey Kong Country 2: Diddy's Kong Quest",
 		"artist": "Unknown Ripper"
 	},
 	"8ExlBsXeELw": {
@@ -64180,7 +64181,7 @@ const db = {
 		"artist": "RHMan"
 	},
 	"-KhRjFe6l6M": {
-		"title": "Stickerbush Symphony (Stickerbrush Symphony, Bramble Scramble) - Donkey Kong Country 2: Diddy's Kong Quest",
+		"title": "Stickerbush Symphony (Stickerbrush Symphony, Bramble Blast) - Donkey Kong Country 2: Diddy's Kong Quest",
 		"wiki": "https://siivagunner.wiki/wiki/Stickerbush%20Symphony%20(Unused%20Version)%20-%20Donkey%20Kong%20Country%202",
 		"joke": "Chocolate Rain - Tay Zonday",
 		"artist": "daypeecone"
@@ -69522,7 +69523,7 @@ const db = {
 	"xdidaeeiYIY": {
 		"title": "Level 4: The Toy Room - Tom and Jerry in Mouse Attacks!",
 		"wiki": "https://siivagunner.wiki/wiki/Level%204%3A%20The%20Toy%20Room%20-%20Tom%20and%20Jerry%20in%20Mouse%20Attacks!",
-		"joke": "Stickerbush Symphony (Stickerbrush Symphony, Bramble Scramble) - Donkey Kong Country 2: Diddy's Kong Quest",
+		"joke": "Stickerbush Symphony (Stickerbrush Symphony, Bramble Blast) - Donkey Kong Country 2: Diddy's Kong Quest",
 		"artist": "LuNiney"
 	},
 	"p6vY6UfO57I": {
@@ -69958,7 +69959,7 @@ const db = {
 			{ "time": "2:29", "joke": "Hare Hare Yukai - The Melancholy of Haruhi Suzumiya" },
 			{ "time": "2:31", "joke": "True My Heart - Nursery rhyme" },
 			{ "time": "2:36", "joke": "Boku to Watashi - Hyadain" },
-			{ "time": "3:07", "joke": "Stickerbush Symphony (Stickerbrush Symphony, Bramble Scramble) - Donkey Kong Country 2: Diddy's Kong Quest" }],
+			{ "time": "3:07", "joke": "Stickerbush Symphony (Stickerbrush Symphony, Bramble Blast) - Donkey Kong Country 2: Diddy's Kong Quest" }],
 		"artist": "berg8793"
 	},
 	"bnjq1tfmJpU": {
@@ -71135,7 +71136,7 @@ const db = {
 		"title": "Vexbolts - FNF Vs BopCity",
 		"wiki": "https://siivagunner.wiki/wiki/Vexbolts%20-%20FNF%20Vs%20BopCity",
 		"joke": [
-			{ "time": "0:10", "joke": "Stickerbush Symphony (Stickerbrush Symphony, Bramble Scramble) - Donkey Kong Country 2: Diddy's Kong Quest" },
+			{ "time": "0:10", "joke": "Stickerbush Symphony (Stickerbrush Symphony, Bramble Blast) - Donkey Kong Country 2: Diddy's Kong Quest" },
 			{ "time": "0:27", "joke": "STAY - The Kid LAROI & Justin Bieber" },
 			{ "time": "0:35", "joke": "Watch Me (Whip/Nae Nae) - Silento" },
 			{ "time": "0:43", "joke": "ANTONYMPH - Vylet Pony" }],
@@ -78479,7 +78480,7 @@ const db = {
 		"artist": "Xarlable (audio), GilvaSunner (visuals)"
 	},
 	"MPF-niKhXls": {
-		"title": "Donkey Kong Land 2 Music - Bramble Blast",
+		"title": "Bramble Blast - Donkey Kong Land 2",
 		"wiki": "https://siivagunner.wiki/wiki/Donkey%20Kong%20Land%202%20Music%20-%20Bramble%20Blast",
 		"joke": [
 			{ "time": "0:09", "joke": "Rainbow Road - Mario Kart: Double Dash!!" },
@@ -79033,7 +79034,7 @@ const db = {
 			{ "time": "31:50", "joke": "Grandma Got Run Over by a Reindeer - Randy Brooks, Elmo & Patsy Shropshire" },
 			{ "time": "32:09", "joke": "Positive Force - VVVVVV" },
 			{ "time": "32:19", "joke": "Character Select - Marvel vs. Capcom: Clash of Super Heroes" },
-			{ "time": "32:29", "joke": "Stickerbush Symphony (Stickerbrush Symphony, Bramble Scramble) - Donkey Kong Country 2: Diddy's Kong Quest" },
+			{ "time": "32:29", "joke": "Stickerbush Symphony (Stickerbrush Symphony, Bramble Blast) - Donkey Kong Country 2: Diddy's Kong Quest" },
 			{ "time": "32:38", "joke": "Ecuador - Sash!" },
 			{ "time": "32:47", "joke": "It's Everyday Bro - Jake Paul ft. Team 10" },
 			{ "time": "32:57", "joke": "Discussion Theme - GameXplain" },
@@ -93866,7 +93867,7 @@ const db = {
 			{ "time": "0:22, 1:11, 3:17", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin" },
 			{ "time": "1:03", "joke": "Megalovania - Toby Fox" },
 			{ "time": "1:21", "joke": "Family Guy Main Title - Walter Murphy" },
-			{ "time": "2:22", "joke": "Stickerbush Symphony (Stickerbrush Symphony, Bramble Scramble) - Donkey Kong Country 2: Diddy's Kong Quest" }],
+			{ "time": "2:22", "joke": "Stickerbush Symphony (Stickerbrush Symphony, Bramble Blast) - Donkey Kong Country 2: Diddy's Kong Quest" }],
 		"artist": "LuNiney"
 	},
 	"E3fAzWhW1qs": {
@@ -96788,7 +96789,7 @@ const db = {
 			{ "time": "3:10", "joke": "Barbie Girl - Aqua" },
 			{ "time": "3:41", "joke": "Ren'ai Circulation - Bakemonogatari" },
 			{ "time": "4:18", "joke": "Cake House - TENSI LOVE" },
-			{ "time": "5:08", "joke": "Stickerbush Symphony (Stickerbrush Symphony, Bramble Scramble) - Donkey Kong Country 2: Diddy's Kong Quest" },
+			{ "time": "5:08", "joke": "Stickerbush Symphony (Stickerbrush Symphony, Bramble Blast) - Donkey Kong Country 2: Diddy's Kong Quest" },
 			{ "time": "5:52", "joke": "Lively Spring Festival - 知らない者" },
 			{ "time": "6:18", "joke": "Chocobo Theme - Final Fantasy (Series)" },
 			{ "time": "6:48", "joke": "Pump It - Black Eyed Peas" },
