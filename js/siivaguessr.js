@@ -2211,7 +2211,9 @@ const endQuestion = function (lost = false, reloadingCompletedDaily = false) {
             resultObj.percentCorrect = `${percentCorrect}`;
             dailyResults[loadedDailyDateString] = resultObj;
             localStorage.setItem(DAILY_RESULTS_KEY, JSON.stringify(dailyResults));
-            addOrUpdateDailyArchiveEntry(loadedDailyDateString);
+            if (!playingTodaysDaily) {
+                addOrUpdateDailyArchiveEntry(loadedDailyDateString);
+            }
         }
 
         let statLine = '';
@@ -2795,6 +2797,9 @@ const addOrUpdateDailyArchiveEntry = function (dateString, dailyNumber = -1) {
     const existingBtn = document.getElementById('dailyArchive' + dateString);
     if (existingBtn) {
         dailyArchiveRow = existingBtn;
+    } else if (dailyNumber === -1) {
+        // Should not happen... hopefully.
+        return;
     } else {
         dailyArchiveRow = document.getElementById('dailyArchiveRowTemplate').cloneNode(true);
         dailyArchiveRow.removeAttribute('hidden');
