@@ -82159,7 +82159,7 @@ const db = {
 			{ "time": "0:10", "joke": "Blossom Haze - Press Garden Zone Act 2 - Sonic Mania" },
 			{ "time": "0:30", "joke": "Snow halation - Love Live!, µ's" },
 			{ "time": "0:49", "joke": "Neon Paradise ~ Parhelion Peak Act 2 - Sonic After the Sequel" },
-			{ "time": "0:50", "joke": "Big Chungus (background) - Endigo" },
+			{ "time": "0:50", "joke": "Big Chungus | Official Main Theme - Endigo" },
 			{ "time": "1:20", "joke": "Neon Paradise ~ Parhelion Peak Act 2 - Sonic After the Sequel" },
 			{ "time": "1:20", "joke": "Snow halation - Love Live!, µ's" },
 			{ "time": "1:40", "joke": "Before my body is dry - KILL LA KILL" },
