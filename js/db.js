@@ -31154,7 +31154,7 @@ const db = {
 	"OuejK4oZWVs": {
 		"title": "Buoyant Boogie - Splatoon 2",
 		"wiki": "https://siivagunner.wiki/wiki/Buoyant%20Boogie%20-%20Splatoon%202",
-		"joke": "Mambo No. 5 (A Little Bit of...) - Lou Bega",
+		"joke": "Mambo No. 5 (A Little Bit of...) - Dámaso Pérez Prado, Lou Bega",
 		"artist": "Brawlcats"
 	},
 	"OHIeN4tM5EM": {
@@ -34326,7 +34326,7 @@ const db = {
 	"CriB5iq2N0Q": {
 		"title": "Mambo de Battle - MOTHER 3",
 		"wiki": "https://siivagunner.wiki/wiki/Mambo%20de%20Battle%20-%20MOTHER%203",
-		"joke": "Mambo No. 5 (A Little Bit of...) - Lou Bega",
+		"joke": "Mambo No. 5 (A Little Bit of...) - Dámaso Pérez Prado, Lou Bega",
 		"artist": "R.L.99"
 	},
 	"uUgdkgrtZ7A": {
@@ -47687,7 +47687,7 @@ const db = {
 	"Qs0tfdvWfO8": {
 		"title": "Mike's Song - Super Smash Bros. Brawl",
 		"wiki": "https://siivagunner.wiki/wiki/Mike's%20Song%20-%20Super%20Smash%20Bros.%20Brawl",
-		"joke": "Mambo No. 5 (A Little Bit of...) - Lou Bega",
+		"joke": "Mambo No. 5 (A Little Bit of...) - Dámaso Pérez Prado, Lou Bega",
 		"artist": "Cryptrik"
 	},
 	"FLpgqBkJ6GI": {
@@ -50370,7 +50370,7 @@ const db = {
 		"title": "A Mambo Moment - Maroon GO",
 		"exclude": "title",
 		"wiki": "https://siivagunner.wiki/wiki/A%20Mambo%20Moment%20-%20Maroon%20GO",
-		"joke": "Mambo No. 5 (A Little Bit of...) - Lou Bega",
+		"joke": "Mambo No. 5 (A Little Bit of...) - Dámaso Pérez Prado, Lou Bega",
 		"artist": "Cryptrik"
 	},
 	"EJltSk1lijw": {
@@ -59936,7 +59936,7 @@ const db = {
 	"wK6-jFU2F6Q": {
 		"title": "Everybody Jump Around - Jet Set Radio",
 		"wiki": "https://siivagunner.wiki/wiki/Everybody%20Jump%20Around%20(OST%20Version)%20-%20Jet%20Set%20Radio",
-		"joke": "Mambo No. 5 (A Little Bit of...) - Lou Bega",
+		"joke": "Mambo No. 5 (A Little Bit of...) - Dámaso Pérez Prado, Lou Bega",
 		"artist": "Cryptrik"
 	},
 	"WYG_yu9T-n4": {
@@ -64735,7 +64735,7 @@ const db = {
 	"nPYHLAiLTKM": {
 		"title": "Character Select - Baby Felix Halloween",
 		"wiki": "https://siivagunner.wiki/wiki/Character%20Select%20(OST%20Version)%20-%20Baby%20Felix%20Halloween",
-		"joke": "Mambo No. 5 - Dámaso Pérez Prado",
+		"joke": "Mambo No. 5 (A Little Bit Of...) - Dámaso Pérez Prado",
 		"artist": "Person who is Cappy"
 	},
 	"JVP9adbdJ_Q": {
@@ -69907,7 +69907,7 @@ const db = {
 			{ "time": "1:17", "joke": "Dare to Be Stupid - \"Weird Al\" Yankovic" },
 			{ "time": "1:41", "joke": "Chip Zeal - Big Giant Circles" },
 			{ "time": "1:41", "joke": "Kiss Off - Violent Femmes" },
-			{ "time": "1:51", "joke": "Mambo No. 5 (A Little Bit of...) - Lou Bega" },
+			{ "time": "1:51", "joke": "Mambo No. 5 (A Little Bit of...) - Dámaso Pérez Prado, Lou Bega" },
 			{ "time": "1:51", "joke": "Raining Blood - Slayer" },
 			{ "time": "2:11", "joke": "Move Your Ass! - Scooter" },
 			{ "time": "2:56", "joke": "Bad Apple!! feat.nomico - Alstroemeria Records" }],
@@ -81945,7 +81945,7 @@ const db = {
 			{ "time": "0:24", "joke": "Desire - Yello" },
 			{ "time": "1:37", "joke": "Praise You - Fatboy Slim" },
 			{ "time": "1:54", "joke": "Fucking In Heaven - Fatboy Slim" },
-			{ "time": "2:03", "joke": "Mambo No. 5 (A Little Bit of...) - Lou Bega" }],
+			{ "time": "2:03", "joke": "Mambo No. 5 (A Little Bit of...) - Dámaso Pérez Prado, Lou Bega" }],
 		"artist": "Snowva"
 	},
 	"-KLKOQPcalc": {
@@ -83830,7 +83830,7 @@ const db = {
 			{ "time": "1:06", "joke": "Ka-chow - Cars" },
 			{ "time": "1:13", "joke": "Katamari on the Rocks - Katamari Damacy" },
 			{ "time": "1:16", "joke": "Beavis and Butthead intro - Beavis and Butthead" },
-			{ "time": "1:19", "joke": "Mambo No. 5 (A Little Bit of...) - Lou Bega" },
+			{ "time": "1:19", "joke": "Mambo No. 5 (A Little Bit of...) - Dámaso Pérez Prado, Lou Bega" },
 			{ "time": "1:20", "joke": "Number 7 - Top15s / Chills" },
 			{ "time": "1:21", "joke": "Kool is Back - Funk, Inc." },
 			{ "time": "1:21", "joke": "The Ultimate Showdown of Ultimate Destiny - Lemon Demon" },
@@ -83842,7 +83842,7 @@ const db = {
 			{ "time": "1:45", "joke": "Another 6 sec rap (Semi I stay automatic) - Semi" },
 			{ "time": "1:49", "joke": "Nokia Ringtone - Nokia" },
 			{ "time": "2:00", "joke": "Feel So Good - Chuck Mangione" },
-			{ "time": "2:00", "joke": "Mambo No. 5 (A Little Bit of...) - Lou Bega" },
+			{ "time": "2:00", "joke": "Mambo No. 5 (A Little Bit of...) - Dámaso Pérez Prado, Lou Bega" },
 			{ "time": "2:01", "joke": "Sgt. Pepper's Lonely Hearts Club Band - The Beatles" }],
 		"artist": "Mikroscopic"
 	},
@@ -84734,7 +84734,7 @@ const db = {
 		"title": "Interference Ending - Mario Forever",
 		"wiki": "https://siivagunner.wiki/wiki/Interference%20Ending%20-%20Mario%20Forever",
 		"joke": [
-			{ "time": "0:00-4:43", "joke": "Mambo No. 5 (A Little Bit of...) - Lou Bega" },
+			{ "time": "0:00-4:43", "joke": "Mambo No. 5 (A Little Bit of...) - Dámaso Pérez Prado, Lou Bega" },
 			{ "time": "0:09, 4:14", "joke": "Title Theme - Super Mario Maker" },
 			{ "time": "1:07", "joke": "Ground Theme (Overworld) - Super Mario Bros." },
 			{ "time": "1:35", "joke": "Satanic Panic - Feed Me" },
