@@ -1684,7 +1684,16 @@ const aliases = [
         "It Takes Two - Rob Base & DJ E-Z Rock"],
 
     ["Sticker of Puyo Puyo - Puyo Puyo",
-        "Exercise Mode - Dr. Robotnik's Mean Bean Machine"]
+        "Exercise Mode - Dr. Robotnik's Mean Bean Machine"],
+
+    ["Sins of the Father - Donna Burke (Metal Gear Solid V: The Phantom Pain)",
+        "Big Chungus | Official Main Theme - Endigo"],
+
+    ["Billie Jean - Michael Jackson's Moonwalker",
+        "Billie Jean - Michael Jackson"],
+
+    ["Beat It - Michael Jackson's Moonwalker",
+        "Beat It - Michael Jackson"]
 ];
 const aliasMap = new Map();
 const aliasedAnswers = new Map();
@@ -1764,8 +1773,13 @@ nowDate.setMinutes(nowDate.getMinutes() - nowDate.getTimezoneOffset())
 const dailyNumber = 1 + Math.floor((nowDate - firstDate) / 86400000);
 
 const SAVED_QUIZZES_KEY = 'savedQuizzes';
+const LAST_DAILY_WIN_KEY = 'lDailyWin';
+const LAST_DAILY_KEY = 'lDaily';
+const DAILY_RESULTS_KEY = 'dailyResults';
+const DAILY_RESULT_GUESS_DELIMITER = '__';
 const LONG_TITLE_THRESHOLD = 84;
-const daily = dailies[simpleCircleCipher(dateToString(new Date())).split('').reverse().join('')];
+const todaysDailyDateString = dateToString(new Date());
+const daily = dailies[simpleCircleCipher(todaysDailyDateString).split('').reverse().join('')];
 const backNavViews = ['customQuizView', 'createCustomQuizView', 'helpView', 'quizIntroView', 'quizEndView'];
 const backBtn = document.getElementById('backBtn');
 const vidPlayer = document.getElementById('vidPlayer');
@@ -1784,6 +1798,7 @@ const guessInput = document.getElementById('guessInput');
 const autofillOptionsElem = document.getElementById('autofill-options');
 const multiJokeContainer = document.getElementById('multiJokeContainer');
 const multiCorrect = document.getElementById('multiCorrect');
+const dailyResults = localStorage.getItem(DAILY_RESULTS_KEY) ? JSON.parse(localStorage.getItem(DAILY_RESULTS_KEY)) : {};
 const highlightRanges = new Map();
 let questionTime = 0;
 let questionTimerInterval = -1;
@@ -1796,7 +1811,15 @@ let guesses = new Set();
 let activeQuiz = [];
 let activeQuizQuestionIndex = -1;
 let hasUnsavedChanges = false;
-let isDaily = false;
+let loadedDailyDateString = '';
+
+if (!localStorage.getItem(LAST_DAILY_WIN_KEY) && localStorage.getItem(LAST_DAILY_KEY)) {
+    /**
+     * Returning players who played before the archive and grace rule update will not have a
+     * lastDailyWin entry. Set it to their current LastDaily to ensure no one loses their streak.
+     */
+    localStorage.setItem(LAST_DAILY_WIN_KEY, localStorage.getItem(LAST_DAILY_KEY));
+}
 
 /**
  * Loads a question and cues the corresponding video. When the video is cued,
@@ -1953,7 +1976,7 @@ const populateMultiJokeTable = function (jokesArray, isReverseMode = false) {
 document.getElementById('dailyBtn').addEventListener('click', function () {
     this.blur();
     const sickoMode = document.getElementById('dailySickoSwitch').checked;
-    isDaily = true;
+    loadedDailyDateString = todaysDailyDateString;
     activeQuizQuestionIndex = -1;
     loadQuestion(simpleCircleCipher(daily.hash), sickoMode ? QuestionMode.SICKO : daily.mode);
 });
@@ -1963,7 +1986,7 @@ document.getElementById('customQuizBtn').addEventListener('click', function () {
 });
 document.getElementById('helpBtn').addEventListener('click', function () {
     this.blur();
-    showView('helpView');
+    show('modalWrapper');
 });
 backBtn.addEventListener('click', function () {
     if (!hasUnsavedChanges || confirm('Your custom quiz has unsaved changes. Continue?')) {
@@ -1973,7 +1996,7 @@ backBtn.addEventListener('click', function () {
             ytPlayer.pauseVideo();
         }
         showView('startView');
-        isDaily = false;
+        loadedDailyDateString = '';
     }
 });
 
@@ -1981,20 +2004,21 @@ backBtn.addEventListener('click', function () {
  * Checks the specified string against the current question's answers.
  *
  * @param {string} guess the title being guessed
+ * @param {boolean} replaying flag indicating if this guess is a part of a saved daily result reconstruction by virtually replaying the saved list of guesses
  */
-const submitGuess = function (guess) {
+const submitGuess = function (guess, replaying = false) {
     if (!songSet.has(guess)) {
         return;
     }
     hide(autofillOptionsElem);
     clearActiveAutofillOption();
     guessInput.value = '';
-    const hash = hashAnswer(guess);
-    if (guesses.has(hash)) {
+    if (guesses.has(guess)) {
         updateText(statusMsgElem, 'Already guessed!', 2000);
         return;
     }
-    guesses.add(hash);
+    guesses.add(guess);
+    const hash = hashAnswer(guess);
     if (answerSet.has(hash)) {
         let replaceText = guess;
         if (aliasedAnswers.has(hash) && guess !== aliasedAnswers.get(hash)) {
@@ -2002,22 +2026,27 @@ const submitGuess = function (guess) {
             replaceText = aliasedAnswers.get(hash);
         }
         markCorrect(hash, replaceText);
+        if (!replaying && answerSet.size === 0) {
+            endQuestion();
+        }
     } else {
         strikes++;
         show('strike' + strikes);
-        if (strikes === 1) {
-            show('giveUpContainer');
-        } else if (strikes === 3) {
-            endQuestion();
-        }
-        guessInput.classList.add('incorrect');
-        setTimeout(() => {
-            guessInput.classList.add('fade');
-            guessInput.classList.remove('incorrect');
+        if (!replaying) {
+            if (strikes === 1) {
+                show('giveUpContainer');
+            } else if (strikes === 3) {
+                endQuestion(true);
+            }
+            guessInput.classList.add('incorrect');
             setTimeout(() => {
-                guessInput.classList.remove('fade');
-            }, 1100);
-        }, 500);
+                guessInput.classList.add('fade');
+                guessInput.classList.remove('incorrect');
+                setTimeout(() => {
+                    guessInput.classList.remove('fade');
+                }, 1100);
+            }, 500);
+        }
     }
 }
 
@@ -2040,21 +2069,17 @@ const markCorrect = function (hash, replaceText) {
             }, 1100);
         }, 250);
     });
-    if (answerSet.size === 0) {
-        endQuestion();
-    }
 }
 
 /**
  * Ends the current question. If the player has three strikes or gave up, missed answers will be revealed.
- * @param {boolean} gaveUp player gave up
- * @param {boolean} reloadingDaily if the player is reloading an already-finished daily question
+ * @param {boolean} lost player gave up or got three strikes
+ * @param {boolean} reloadingCompletedDaily if the player is reloading an already-finished daily question
  */
-const endQuestion = function (gaveUp = false, reloadingDaily = false) {
+const endQuestion = function (lost = false, reloadingCompletedDaily = false) {
     hide(guessInput);
     hide('giveUpContainer');
     clearInterval(questionTimerInterval);
-    const lost = gaveUp || strikes === 3;
     const isMultiJoke = Array.isArray(activeQuestion.joke);
     const gotCount = activeQuestionTotalAnswers - answerSet.size;
     let percentCorrect = Math.floor((gotCount / activeQuestionTotalAnswers) * 100);
@@ -2062,10 +2087,9 @@ const endQuestion = function (gaveUp = false, reloadingDaily = false) {
     // Display status message
     if (isMultiJoke) {
         multiCorrect.innerText = `You got ${percentCorrect}%${(percentCorrect > 50 ? '!' : '')}`;
-        if (!reloadingDaily) {
-            updateText(statusMsgElem, `(${gotCount} out of ${activeQuestionTotalAnswers})`);
-        }
-        if (!matchMedia('(prefers-reduced-motion: reduce)').matches) {
+        updateText(statusMsgElem, `(${gotCount} out of ${activeQuestionTotalAnswers})`);
+        hide(['strike1', 'strike2', 'strike3']);
+        if (!reloadingCompletedDaily && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
             if (percentCorrect > 60) {
                 confettea.burst({ origin: { x: 0.3, y: 0.3 } });
             }
@@ -2080,15 +2104,14 @@ const endQuestion = function (gaveUp = false, reloadingDaily = false) {
                 }, 2000);
             }
         }
-        if (!reloadingDaily) {
-            show(multiCorrect);
-        }
+        show(multiCorrect);
     } else {
         if (lost) {
             updateText(statusMsgElem, 'Better luck next time.');
-        } else if (!reloadingDaily) {
+        } else {
             updateText(statusMsgElem, 'You got it!');
-            if (!matchMedia('(prefers-reduced-motion: reduce)').matches) {
+            hide(['strike1', 'strike2', 'strike3']);
+            if (!reloadingCompletedDaily && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
                 confettea.burst();
             }
         }
@@ -2098,13 +2121,10 @@ const endQuestion = function (gaveUp = false, reloadingDaily = false) {
     }
 
     // Reveal any missed answers
-    if (lost || reloadingDaily) {
+    if (lost || reloadingCompletedDaily) {
         const tHash = hashAnswer(activeQuestion.title);
         if (answerSet.has(tHash)) {
             document.querySelectorAll('.' + tHash).forEach((e) => {
-                if (!reloadingDaily) {
-                    e.classList.add('missed');
-                }
                 e.innerText = activeQuestion.title;
             });
         }
@@ -2113,9 +2133,6 @@ const endQuestion = function (gaveUp = false, reloadingDaily = false) {
                 const jHash = hashAnswer(entry.joke);
                 if (answerSet.has(jHash)) {
                     document.querySelectorAll('.' + jHash).forEach((e) => {
-                        if (!reloadingDaily) {
-                            e.classList.add('missed');
-                        }
                         if (entry.joke.length > LONG_TITLE_THRESHOLD && !e.classList.contains('free-text-answer')) {
                             e.classList.add('long-song-title');
                         }
@@ -2128,9 +2145,6 @@ const endQuestion = function (gaveUp = false, reloadingDaily = false) {
             const jHash = hashAnswer(activeQuestion.joke);
             if (answerSet.has(jHash)) {
                 document.querySelectorAll('.' + jHash).forEach((e) => {
-                    if (!reloadingDaily) {
-                        e.classList.add('missed');
-                    }
                     e.innerText = activeQuestion.joke;
                 });
             }
@@ -2144,58 +2158,75 @@ const endQuestion = function (gaveUp = false, reloadingDaily = false) {
     document.getElementById('wikiLink').href = activeQuestion.wiki;
     show([vidPlayer, 'ripCredits']);
 
-    if (isDaily) {
+    if (loadedDailyDateString) {
         show(backBtn);
-        if (!reloadingDaily) {
+        const shareBtn = document.getElementById('shareResultsBtn');
+        const playingTodaysDaily = loadedDailyDateString === todaysDailyDateString;
+        const w_streak_key = 'winStreak';
+        if (playingTodaysDaily && !reloadingCompletedDaily) {
             // Update win streak
-            const w_streak_key = 'winStreak';
-            const l_daily_key = 'lDaily';
-            if (percentCorrect < 51) {
-                localStorage.removeItem(w_streak_key);
-            } else if (!localStorage.getItem(w_streak_key)
-                || !localStorage.getItem(l_daily_key)
-                || parseInt(localStorage.getItem(l_daily_key)) !== dailyNumber - 1) {
-                localStorage.setItem(w_streak_key, '1');
-            } else {
-                localStorage.setItem(w_streak_key, parseInt(localStorage.getItem(w_streak_key)) + 1);
-            }
-            localStorage.setItem(l_daily_key, dailyNumber);
-
-            const shareBtn = document.getElementById('shareResultsBtn');
-            let statLine = '';
-            if (isMultiJoke) {
-                let statIcon = '';
-                if (percentCorrect === 100) {
-                    statIcon += ' 🌟 ';
-                } else if (percentCorrect > 60) {
-                    statIcon += ' ✅ ';
-                } else if (percentCorrect > 30) {
-                    statIcon += ' 🆗 ';
-                }
-                statLine = `${statIcon}${gotCount}/${activeQuestionTotalAnswers}${statIcon}`;
-            } else {
-                if (!lost) {
-                    statLine = `✅ Got the answer in ⏱ ${durationToTimeCode(questionTime)}!`;
-                    if (questionTime === 0) {
-                        statLine += ' (Wow, that\'s really fast! I definitely didn\'t cheat. Don\'t make fun of me for sharing this without reading it first. 🙂)';
-                    }
+            if (!lost) {
+                if (!localStorage.getItem(w_streak_key)
+                    || !localStorage.getItem(LAST_DAILY_KEY)
+                    || parseInt(localStorage.getItem(LAST_DAILY_WIN_KEY)) < dailyNumber - 2) {
+                    localStorage.setItem(w_streak_key, '1');
                 } else {
-                    if (shareBtn.dataset.sickoMode === 'true' && gotCount > 0) {
-                        statLine = `${gotCount}/${activeQuestionTotalAnswers}`;
-                    } else if (strikes === 3) {
-                        statLine = `❌ Struck out!`
+                    localStorage.setItem(w_streak_key, parseInt(localStorage.getItem(w_streak_key)) + 1);
+                }
+                localStorage.setItem(LAST_DAILY_WIN_KEY, dailyNumber);
+            } else if (localStorage.getItem(LAST_DAILY_KEY)
+                && parseInt(localStorage.getItem(LAST_DAILY_WIN_KEY)) < dailyNumber - 2) {
+                localStorage.removeItem(w_streak_key);
+            }
+            localStorage.setItem(LAST_DAILY_KEY, dailyNumber);
+        }
+        const winStreak = localStorage.getItem(w_streak_key) ? parseInt(localStorage.getItem(w_streak_key)) : 0;
+        if (!reloadingCompletedDaily) {
+            // Save the result of this daily.
+            const resultObj = {};
+            resultObj.guesses = Array.from(guesses).join(DAILY_RESULT_GUESS_DELIMITER);
+            resultObj.time = questionTime;
+            dailyResults[loadedDailyDateString] = resultObj;
+            localStorage.setItem(DAILY_RESULTS_KEY, JSON.stringify(dailyResults));
+        }
+
+        let statLine = '';
+        if (isMultiJoke) {
+            let statIcon = '';
+            if (percentCorrect === 100) {
+                statIcon += ' 🌟 ';
+            } else if (percentCorrect > 60) {
+                statIcon += ' ✅ ';
+            } else if (percentCorrect > 30) {
+                statIcon += ' 🆗 ';
+            }
+            statLine = `${statIcon}${gotCount}/${activeQuestionTotalAnswers}${statIcon}`;
+        } else {
+            if (!lost) {
+                statLine = `✅ Got the answer in ⏱ ${durationToTimeCode(questionTime)}!`;
+                if (questionTime === 0) {
+                    if (shareBtn.dataset.sickoMode === 'true') {
+                        statLine += ' (0 seconds in Sicko Mode! Wow, that\'s really fast! I definitely didn\'t cheat. Don\'t make fun of me for sharing this without reading it first. 🙂)';
                     } else {
-                        statLine = `🏳 in ⏱ ${durationToTimeCode(questionTime)}`
+                        statLine += ' (Probably recognized this rip on sight. Try Sicko Mode for a real challenge!)'
                     }
                 }
+            } else {
+                if (shareBtn.dataset.sickoMode === 'true' && gotCount > 0) {
+                    statLine = `${gotCount}/${activeQuestionTotalAnswers}`;
+                } else if (strikes === 3) {
+                    statLine = `❌ Struck out!`
+                } else {
+                    statLine = `🏳 in ⏱ ${durationToTimeCode(questionTime)}`
+                }
             }
-            const winStreak = parseInt(localStorage.getItem(w_streak_key));
-            shareBtn.dataset.shareData =
-                `SiIvaGuessr #${dailyNumber}:${shareBtn.dataset.sickoMode === 'true' ? '\n 👺 Sicko Mode 👺' : ''}
-${statLine}${winStreak > 1 ? '\nOn a win streak of ' + winStreak + '!' : ''}
-https://siivaguessr.meme`;
-            show('shareResultsContainer');
         }
+
+        shareBtn.dataset.shareData =
+            `SiIvaGuessr #${dailyNumber}:${shareBtn.dataset.sickoMode === 'true' ? '\n 👺 Sicko Mode 👺' : ''}
+${statLine}${!lost && playingTodaysDaily && winStreak > 1 ? '\nOn a win streak of ' + winStreak + '!' : ''}
+https://siivaguessr.meme`;
+        show('shareResultsContainer');
     } else {
         activeQuizQuestionIndex++;
         if (activeQuizQuestionIndex === activeQuiz.length) {
@@ -2559,9 +2590,17 @@ function onVideoStateChange(event) {
         updateTimeCode();
         show(playbackControls);
         showView('ripView');
-        if (isDaily && parseInt(localStorage.getItem('lDaily')) === dailyNumber) {
-            updateText(statusMsgElem, 'Come back tomorrow for a new question!');
-            endQuestion(false, true);
+        if (loadedDailyDateString && dailyResults[loadedDailyDateString]) {
+            if (parseInt(localStorage.getItem('lDaily')) === dailyNumber) {
+                updateText(statusMsgElem, 'Come back tomorrow for a new question!');
+            }
+            const dailyResult = dailyResults[loadedDailyDateString];
+            const dailyResultGuesses = dailyResult.guesses.split(DAILY_RESULT_GUESS_DELIMITER);
+            for (const guess of dailyResultGuesses) {
+                submitGuess(guess, true);
+            }
+            questionTime = dailyResult.time;
+            endQuestion(strikes === 3 || answerSet.size > 0, true);
         }
     }
 }
@@ -2710,7 +2749,7 @@ document.getElementById('giveUpCancelBtn').addEventListener('click', function ()
 
 document.getElementById('giveUpConfirmBtn').addEventListener('click', function () {
     this.blur();
-    endQuestion(true);
+    endQuestion(true, false);
 });
 
 document.getElementById('shareResultsBtn').addEventListener('click', async function () {
