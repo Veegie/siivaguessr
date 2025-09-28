@@ -56,7 +56,7 @@
             <div id="loadingView">Loading...</div>
             <nav hidden id="startView">
                 <button id="dailyBtn" class="text-btn mx-1" type="button">Play Daily</button>
-                <div id="switchContainer" class="tooltip-container">
+                <div class="switch-container tooltip-container">
                     <label class="switch">
                         <input id="dailySickoSwitch" type="checkbox" aria-describedby="sickoSwitchHelpText">
                         <div class="slider switch"></div>
@@ -355,12 +355,27 @@
             </div>
 
             <div hidden id="dailyArchiveView">
-                <button type="button" hidden id="dailyArchiveButtonTemplate" class="daily-archive-btn" data-daily-date-string="yyyymmdd">
-                    <span class="daily-number">#1:</span>
-                    <span class="daily-date">yyyy/mm/dd</span>
-                    <span class="daily-result">result</span>
-                    <span class="daily-time">time</span>
-                </button>
+                <div class="switch-container tooltip-container">
+                    <label class="switch">
+                        <input id="dailyArchiveSickoSwitch" type="checkbox" aria-describedby="archiveSickoSwitchHelpText">
+                        <div class="slider switch"></div>
+                        <span>Sicko Mode</span>
+                    </label>
+                    <span class="tooltip-icon" id="sickoSwitchHelpIcon" tabindex="0">
+                        <svg width="24px" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12,1A11,11,0,1,0,23,12,11.013,11.013,0,0,0,12,1Zm0,20a9,9,0,1,1,9-9A9.011,9.011,0,0,1,12,21ZM13,8H11V6h2Zm0,10H11V10h2Z" />
+                        </svg>
+                    </span>
+                    <span id="archiveSickoSwitchHelpText" class="tooltip" aria-hidden="true" role="tooltip">When enabled, you must guess both the source track <em>and</em> the joke.</span>
+                </div>
+                <div hidden id="dailyArchiveRowTemplate" class="daily-archive-row">
+                    <button type="button" class="past-daily-btn py-1" data-daily-date-string="yyyymmdd">
+                        <span class="daily-number">#1:</span>
+                        <span class="daily-date">yyyy/mm/dd</span>
+                    </button>
+                    <span class="daily-result mx-2">result</span>
+                </div>
+                <div id="dailyList"></div>
             </div>
 
             <nav>

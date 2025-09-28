@@ -7,6 +7,8 @@
   --light-table-odd: #d7d7d7;
   --light-table-highlight: #87a3f3;
   --light-missed-answer-highlight: #f67070;
+  --light-btn-bg: #ffffff;
+  --light-btn-hover-bg: #cdcdcd;
   --dark-color-bg: #242329;
   --dark-panel-bg: #1d1d20;
   --dark-color-text: #efefef;
@@ -14,6 +16,8 @@
   --dark-table-odd: #282631;
   --dark-table-highlight: #ffffff;
   --dark-missed-answer-highlight: #6d1919;
+  --dark-btn-bg: #3c3b45;
+  --dark-btn-hover-bg: #2b2a32;
   --correct-answer-highlight: #1d6717;
   --incorrect-answer-guess-input-flash: #c02e2e;
   --default-shadow: 2px 2px 3px black;
@@ -69,7 +73,7 @@ body {
 }
 
 #modal {
-  margin: 30px auto;
+  margin: 100px auto;
   padding: 2rem;
   width: 50%;
   min-width: 350px;
@@ -827,7 +831,7 @@ input[type="range"]:focus::-moz-range-thumb {
   position: relative;
 }
 
-#switchContainer {
+.switch-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1026,4 +1030,71 @@ table thead tr {
 #savedQuizSelect {
   width: 24rem;
   font-size: 1.25rem;
+}
+
+#dailyList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-self: center;
+  max-width: 620px;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+}
+
+.daily-archive-row {
+  flex: 1 0 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 6px 0;
+}
+
+:root.dark .past-daily-btn {
+  color: #ffffff;
+  background-color: var(--dark-btn-bg);
+  text-shadow: 2px 2px black;
+}
+
+:root.dark .past-daily-btn:hover {
+  background-color: var(--dark-btn-hover-bg);
+}
+
+:root.light .past-daily-btn {
+  color: #000000;
+  background-color: var(--light-btn-bg);
+}
+
+:root.light .past-daily-btn:hover {
+  background-color: var(--light-btn-hover-bg);
+}
+
+.past-daily-btn {
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 4px black;
+  margin-left: 1rem;
+  transition: color 2s;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+}
+
+.past-daily-btn:hover {
+  background-color: #113d6b;
+}
+
+.past-daily-btn:active {
+  box-shadow: none;
+}
+
+.daily-result {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 450px) {
+  .daily-result, .past-daily-btn {
+    font-size: 1rem;
+  }
 }

@@ -1766,11 +1766,11 @@ const showView = function (id) {
 
 const beforeUnloadHandler = (event) => { event.preventDefault(); };
 
-const firstDate = new Date('2025-09-14T00:00:00');
-firstDate.setMinutes(firstDate.getMinutes() - firstDate.getTimezoneOffset())
+const firstDateUTCAdjusted = new Date('2025-09-14T00:00:00');
+firstDateUTCAdjusted.setMinutes(firstDateUTCAdjusted.getMinutes() - firstDateUTCAdjusted.getTimezoneOffset())
 const nowDate = new Date();
 nowDate.setMinutes(nowDate.getMinutes() - nowDate.getTimezoneOffset())
-const dailyNumber = 1 + Math.floor((nowDate - firstDate) / 86400000);
+const todaysDailyNumber = 1 + Math.floor((nowDate - firstDateUTCAdjusted) / 86400000);
 
 const SAVED_QUIZZES_KEY = 'savedQuizzes';
 const LAST_DAILY_WIN_KEY = 'lDailyWin';
@@ -1780,7 +1780,7 @@ const DAILY_RESULT_GUESS_DELIMITER = '__';
 const LONG_TITLE_THRESHOLD = 84;
 const todaysDailyDateString = dateToString(new Date());
 const daily = dailies[simpleCircleCipher(todaysDailyDateString).split('').reverse().join('')];
-const backNavViews = ['customQuizView', 'createCustomQuizView', 'helpView', 'quizIntroView', 'quizEndView'];
+const backNavViews = ['customQuizView', 'createCustomQuizView', 'helpView', 'quizIntroView', 'quizEndView', 'dailyArchiveView'];
 const backBtn = document.getElementById('backBtn');
 const vidPlayer = document.getElementById('vidPlayer');
 const playbackControls = document.getElementById('playbackControls');
@@ -1975,8 +1975,11 @@ const populateMultiJokeTable = function (jokesArray, isReverseMode = false) {
 
 document.getElementById('dailyBtn').addEventListener('click', function () {
     this.blur();
-    const sickoMode = document.getElementById('dailySickoSwitch').checked;
     loadedDailyDateString = todaysDailyDateString;
+    let sickoMode = document.getElementById('dailySickoSwitch').checked;
+    if (dailyResults[loadedDailyDateString] && !dailyResults[loadedDailyDateString].sickoMode) {
+        sickoMode = false;
+    }
     activeQuizQuestionIndex = -1;
     loadQuestion(simpleCircleCipher(daily.hash), sickoMode ? QuestionMode.SICKO : daily.mode);
 });
@@ -1995,7 +1998,11 @@ backBtn.addEventListener('click', function () {
         if (ytPlayer.getPlayerState() === 1 || ytPlayer.getPlayerState() === 3) {
             ytPlayer.pauseVideo();
         }
-        showView('startView');
+        if (loadedDailyDateString && loadedDailyDateString !== todaysDailyDateString) {
+            showView('dailyArchiveView');
+        } else {
+            showView('startView');
+        }
         loadedDailyDateString = '';
     }
 });
@@ -2125,6 +2132,7 @@ const endQuestion = function (lost = false, reloadingCompletedDaily = false) {
         const tHash = hashAnswer(activeQuestion.title);
         if (answerSet.has(tHash)) {
             document.querySelectorAll('.' + tHash).forEach((e) => {
+                e.classList.add('missed');
                 e.innerText = activeQuestion.title;
             });
         }
@@ -2133,6 +2141,7 @@ const endQuestion = function (lost = false, reloadingCompletedDaily = false) {
                 const jHash = hashAnswer(entry.joke);
                 if (answerSet.has(jHash)) {
                     document.querySelectorAll('.' + jHash).forEach((e) => {
+                        e.classList.add('missed');
                         if (entry.joke.length > LONG_TITLE_THRESHOLD && !e.classList.contains('free-text-answer')) {
                             e.classList.add('long-song-title');
                         }
@@ -2145,6 +2154,7 @@ const endQuestion = function (lost = false, reloadingCompletedDaily = false) {
             const jHash = hashAnswer(activeQuestion.joke);
             if (answerSet.has(jHash)) {
                 document.querySelectorAll('.' + jHash).forEach((e) => {
+                    e.classList.add('missed');
                     e.innerText = activeQuestion.joke;
                 });
             }
@@ -2168,42 +2178,49 @@ const endQuestion = function (lost = false, reloadingCompletedDaily = false) {
             if (!lost) {
                 if (!localStorage.getItem(w_streak_key)
                     || !localStorage.getItem(LAST_DAILY_KEY)
-                    || parseInt(localStorage.getItem(LAST_DAILY_WIN_KEY)) < dailyNumber - 2) {
+                    || parseInt(localStorage.getItem(LAST_DAILY_WIN_KEY)) < todaysDailyNumber - 2) {
                     localStorage.setItem(w_streak_key, '1');
                 } else {
                     localStorage.setItem(w_streak_key, parseInt(localStorage.getItem(w_streak_key)) + 1);
                 }
-                localStorage.setItem(LAST_DAILY_WIN_KEY, dailyNumber);
+                localStorage.setItem(LAST_DAILY_WIN_KEY, todaysDailyNumber);
             } else if (localStorage.getItem(LAST_DAILY_KEY)
-                && parseInt(localStorage.getItem(LAST_DAILY_WIN_KEY)) < dailyNumber - 2) {
+                && parseInt(localStorage.getItem(LAST_DAILY_WIN_KEY)) < todaysDailyNumber - 2) {
                 localStorage.removeItem(w_streak_key);
             }
-            localStorage.setItem(LAST_DAILY_KEY, dailyNumber);
+            localStorage.setItem(LAST_DAILY_KEY, todaysDailyNumber);
         }
         const winStreak = localStorage.getItem(w_streak_key) ? parseInt(localStorage.getItem(w_streak_key)) : 0;
         if (!reloadingCompletedDaily) {
             // Save the result of this daily.
+            let resultIcon = '';
+            if (strikes === 3) {
+                resultIcon = '❌';
+            } else if (lost) {
+                resultIcon = '🏳️';
+            } else {
+                resultIcon = '✅';
+            }
             const resultObj = {};
             resultObj.guesses = Array.from(guesses).join(DAILY_RESULT_GUESS_DELIMITER);
             resultObj.time = questionTime;
+            resultObj.singleResultIcon = resultIcon;
+            resultObj.sickoMode = shareBtn.dataset.sickoMode === 'true';
+            resultObj.isMultiJoke = isMultiJoke;
+            resultObj.multiResult = `${gotCount}/${activeQuestionTotalAnswers}`;
+            resultObj.percentCorrect = `${percentCorrect}`;
             dailyResults[loadedDailyDateString] = resultObj;
             localStorage.setItem(DAILY_RESULTS_KEY, JSON.stringify(dailyResults));
+            addOrUpdateDailyArchiveEntry(loadedDailyDateString);
         }
 
         let statLine = '';
         if (isMultiJoke) {
-            let statIcon = '';
-            if (percentCorrect === 100) {
-                statIcon += ' 🌟 ';
-            } else if (percentCorrect > 60) {
-                statIcon += ' ✅ ';
-            } else if (percentCorrect > 30) {
-                statIcon += ' 🆗 ';
-            }
+            let statIcon = getStatIcon(percentCorrect)
             statLine = `${statIcon}${gotCount}/${activeQuestionTotalAnswers}${statIcon}`;
         } else {
             if (!lost) {
-                statLine = `✅ Got the answer in ⏱ ${durationToTimeCode(questionTime)}!`;
+                statLine = `✅ Got the answer in ⏱️ ${durationToTimeCode(questionTime)}!`;
                 if (questionTime === 0) {
                     if (shareBtn.dataset.sickoMode === 'true') {
                         statLine += ' (0 seconds in Sicko Mode! Wow, that\'s really fast! I definitely didn\'t cheat. Don\'t make fun of me for sharing this without reading it first. 🙂)';
@@ -2217,13 +2234,13 @@ const endQuestion = function (lost = false, reloadingCompletedDaily = false) {
                 } else if (strikes === 3) {
                     statLine = `❌ Struck out!`
                 } else {
-                    statLine = `🏳 in ⏱ ${durationToTimeCode(questionTime)}`
+                    statLine = `🏳 in ⏱️ ${durationToTimeCode(questionTime)}`
                 }
             }
         }
 
         shareBtn.dataset.shareData =
-            `SiIvaGuessr #${dailyNumber}:${shareBtn.dataset.sickoMode === 'true' ? '\n 👺 Sicko Mode 👺' : ''}
+            `SiIvaGuessr #${todaysDailyNumber}:${shareBtn.dataset.sickoMode === 'true' ? '\n 👺 Sicko Mode 👺' : ''}
 ${statLine}${!lost && playingTodaysDaily && winStreak > 1 ? '\nOn a win streak of ' + winStreak + '!' : ''}
 https://siivaguessr.meme`;
         show('shareResultsContainer');
@@ -2235,6 +2252,17 @@ https://siivaguessr.meme`;
             show('nextQuestionBtn');
         }
     }
+}
+
+const getStatIcon = function (percentCorrect) {
+    if (percentCorrect === 100) {
+        return ' 🌟 ';
+    } else if (percentCorrect > 60) {
+        return ' ✅ ';
+    } else if (percentCorrect > 25) {
+        return ' 🆗 ';
+    }
+    return '❌';
 }
 
 const getStrikeString = function () {
@@ -2591,7 +2619,7 @@ function onVideoStateChange(event) {
         show(playbackControls);
         showView('ripView');
         if (loadedDailyDateString && dailyResults[loadedDailyDateString]) {
-            if (parseInt(localStorage.getItem('lDaily')) === dailyNumber) {
+            if (parseInt(localStorage.getItem('lDaily')) === todaysDailyNumber) {
                 updateText(statusMsgElem, 'Come back tomorrow for a new question!');
             }
             const dailyResult = dailyResults[loadedDailyDateString];
@@ -2654,6 +2682,24 @@ function onVideoPlayerReady() {
         const params = new URLSearchParams(window.location.search);
         loadQuiz(params.get('quiz'));
     } else {
+        // Populate the dailies archive.
+        let curDate = new Date('2025-09-14T00:00:00');
+        let number = 1;
+        while (dateToString(curDate) !== todaysDailyDateString) {
+            addOrUpdateDailyArchiveEntry(dateToString(curDate), number);
+            curDate.setDate(curDate.getDate() + 1);
+            number++;
+        }
+        document.querySelectorAll('.past-daily-btn').forEach((e) => {
+            e.addEventListener('click', function () {
+                loadedDailyDateString = this.dataset.dailyDateString;
+                activeQuizQuestionIndex = -1;
+                const dailyToLoad = dailies[simpleCircleCipher(loadedDailyDateString).split('').reverse().join('')];
+                const sickoMode = document.getElementById('dailyArchiveSickoSwitch').checked
+                    || (dailyResults[loadedDailyDateString] && dailyResults[loadedDailyDateString].sickoMode);
+                loadQuestion(simpleCircleCipher(dailyToLoad.hash), sickoMode ? QuestionMode.SICKO : dailyToLoad.mode);
+            });
+        });
         showView('startView');
     }
 }
@@ -2727,13 +2773,50 @@ if (localStorage.getItem('lightMode') !== null) {
 document.getElementById('dailySickoSwitch').addEventListener('change', function () {
     if (this.checked) {
         localStorage.setItem('dailySicko', this.checked);
+        document.getElementById('dailyArchiveSickoSwitch').checked = true;
     } else {
         localStorage.removeItem('dailySicko');
+        document.getElementById('dailyArchiveSickoSwitch').checked = false;
     }
 });
 
 if (localStorage.getItem('dailySicko') !== null) {
     document.getElementById('dailySickoSwitch').checked = true;
+    document.getElementById('dailyArchiveSickoSwitch').checked = true;
+}
+
+document.getElementById('dailyArchiveBtn').addEventListener('click', function () {
+    this.blur();
+    showView('dailyArchiveView');
+});
+
+const addOrUpdateDailyArchiveEntry = function (dateString, dailyNumber = -1) {
+    let dailyArchiveRow;
+    const existingBtn = document.getElementById('dailyArchive' + dateString);
+    if (existingBtn) {
+        dailyArchiveRow = existingBtn;
+    } else {
+        dailyArchiveRow = document.getElementById('dailyArchiveRowTemplate').cloneNode(true);
+        dailyArchiveRow.removeAttribute('hidden');
+        dailyArchiveRow.id = 'dailyArchive' + dateString;
+        dailyArchiveRow.querySelector('.past-daily-btn').dataset.dailyDateString = dateString;
+        dailyArchiveRow.querySelector('.daily-number').innerText = `#${dailyNumber}:`;
+        dailyArchiveRow.querySelector('.daily-date').innerText = `${dateString.substring(0, 4)}/${dateString.substring(4, 6)}/${dateString.substring(6)}`;
+        document.getElementById('dailyList').insertAdjacentElement('afterbegin', dailyArchiveRow);
+    }
+    if (dailyResults[dateString]) {
+        const resultObj = dailyResults[dateString];
+        let resultString = '';
+        if (resultObj.isMultiJoke) {
+            resultString += `${getStatIcon(parseInt(resultObj.percentCorrect))} ${resultObj.multiResult}`;
+        } else {
+            resultString += `${resultObj.singleResultIcon} in ⏱️ ${durationToTimeCode(resultObj.time)}`;
+        }
+        resultString += resultObj.sickoMode ? ' 👺' : '';
+        dailyArchiveRow.querySelector('.daily-result').innerText = resultString;
+    } else {
+        dailyArchiveRow.querySelector('.daily-result').innerText = `❔`
+    }
 }
 
 document.getElementById('giveUpBtn').addEventListener('click', function () {
