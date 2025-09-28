@@ -8,12 +8,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="color-scheme" content="dark light">
     <meta property="og:url" content="https://siivaguessr.meme">
-	<meta property="og:type" content="website">
-	<meta property="og:updated_time" content="2025-09-19T01:00:24.473Z">
-	<meta property="og:image" content="https://siivaguessr.meme/img/logo200.png">
-	<meta property="og:image:type" content="image/png">
-	<meta property="og:image:width" content="200">
-	<meta property="og:image:height" content="200">
+    <meta property="og:type" content="website">
+    <meta property="og:updated_time" content="2025-09-19T01:00:24.473Z">
+    <meta property="og:image" content="https://siivaguessr.meme/img/logo200.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="200">
+    <meta property="og:image:height" content="200">
     <link rel="stylesheet" href="./style.css?v=0.79b">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,12 +28,27 @@
 
 <body>
     <div class="wrapper">
-        <label class="switch" id="heavySwitch">
-            <svg width="24px" height="24px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M0 8.00002C0 4.75562 1.93132 1.9623 4.70701 0.707031L5.65436 1.65438C5.2352 2.51383 5 3.47946 5 4.50002C5 8.08987 7.91015 11 11.5 11C12.5206 11 13.4862 10.7648 14.3456 10.3457L15.293 11.293C14.0377 14.0687 11.2444 16 8 16C3.58172 16 0 12.4183 0 8.00002Z"/></svg>
-            <input id="lightModeSwitch" type="checkbox">
-            <div class="slider"></div>
-            <svg width="24px" height="24px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M7 3V0H9V3H7Z" /><path d="M9 13V16H7V13H9Z" /><path d="M11 8C11 9.65685 9.65685 11 8 11C6.34315 11 5 9.65685 5 8C5 6.34315 6.34315 5 8 5C9.65685 5 11 6.34315 11 8Z" /><path d="M0 9H3V7H0V9Z" /><path d="M16 7H13V9H16V7Z" /><path d="M3.75735 5.17157L1.63603 3.05025L3.05025 1.63603L5.17157 3.75735L3.75735 5.17157Z" /><path d="M12.2426 10.8284L14.364 12.9497L12.9497 14.364L10.8284 12.2426L12.2426 10.8284Z" /><path d="M3.05025 14.364L5.17157 12.2426L3.75735 10.8284L1.63603 12.9498L3.05025 14.364Z" /><path d="M12.9497 1.63604L10.8284 3.75736L12.2426 5.17158L14.364 3.05026L12.9497 1.63604Z" /></svg>
-        </label>
+        <div id="heavySwitch">
+            <label class="switch">
+                <svg width="24px" height="24px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 8.00002C0 4.75562 1.93132 1.9623 4.70701 0.707031L5.65436 1.65438C5.2352 2.51383 5 3.47946 5 4.50002C5 8.08987 7.91015 11 11.5 11C12.5206 11 13.4862 10.7648 14.3456 10.3457L15.293 11.293C14.0377 14.0687 11.2444 16 8 16C3.58172 16 0 12.4183 0 8.00002Z" />
+                </svg>
+                <input id="lightModeSwitch" type="checkbox">
+                <div class="slider"></div>
+                <svg width="24px" height="24px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7 3V0H9V3H7Z" />
+                    <path d="M9 13V16H7V13H9Z" />
+                    <path d="M11 8C11 9.65685 9.65685 11 8 11C6.34315 11 5 9.65685 5 8C5 6.34315 6.34315 5 8 5C9.65685 5 11 6.34315 11 8Z" />
+                    <path d="M0 9H3V7H0V9Z" />
+                    <path d="M16 7H13V9H16V7Z" />
+                    <path d="M3.75735 5.17157L1.63603 3.05025L3.05025 1.63603L5.17157 3.75735L3.75735 5.17157Z" />
+                    <path d="M12.2426 10.8284L14.364 12.9497L12.9497 14.364L10.8284 12.2426L12.2426 10.8284Z" />
+                    <path d="M3.05025 14.364L5.17157 12.2426L3.75735 10.8284L1.63603 12.9498L3.05025 14.364Z" />
+                    <path d="M12.9497 1.63604L10.8284 3.75736L12.2426 5.17158L14.364 3.05026L12.9497 1.63604Z" />
+                </svg>
+            </label>
+            <button id="helpBtn" class="text-btn text-xs mx-1" type="button">?</button>
+        </div>
         <header>
             <a href="https://siivaguessr.meme"><img id="logo" src="./img/banner.png" alt=""></a>
         </header>
@@ -54,9 +69,9 @@
                     </span>
                     <span id="sickoSwitchHelpText" class="tooltip" aria-hidden="true" role="tooltip">When enabled, you must guess both the source track <em>and</em> the joke.</span>
                 </div>
-                <button id="customQuizBtn" class="text-btn text-sm mx-1" type="button">Custom Quiz</button>
+                <button id="dailyArchiveBtn" class="text-btn text-sm mx-1" type="button">Previous Dailies</button>
                 <div>
-                    <button id="helpBtn" class="text-btn text-sm mx-1" type="button">Help</button>
+                    <button id="customQuizBtn" class="text-btn text-sm mx-1" type="button">Custom Quiz</button>
                 </div>
             </nav>
             <div hidden id="ripView">
@@ -337,35 +352,52 @@
                         </div>
                     </div>
                 </div>
-
             </div>
 
-            <div hidden id="helpView">
-                <h3>What is this?</h3>
-                <p>This is a daily browser game where you guess the joke of a given <a href="https://www.youtube.com/c/SiIvaGunner" target="_blank" rel="noopener noreferrer">SiIvaGunner</a> high-quality rip.</p>
-                <h3>SiIvaGunner?</h3>
-                <p>SiIvaGunner is a YouTube channel of music remixes and mashups. Uploads are misleadingly titled to resemble video game music rips, and often start off sounding like track they are advertised as (the "source track"), only to evolve into another song, or songs (the "joke"). See <a href="https://www.youtube.com/watch?v=rEcOzjg7vBU" target="_blank" rel="noopener noreferrer">this track</a> for an example. Here, the source track is "Athletic Theme" from Super Mario World, and the joke is "Witch Doctor", by David Seville.</p>
-                <h3>What are Reverse and Sicko Mode?</h3>
-                <p>In Normal Mode, the video will be shown on the page along with the source track name, and you'll have to guess the joke.</p>
-                <p>In Reverse Mode, the video will be hidden, the joke will already be revealed, and you have to guess the <em>source track</em> based on the audio. Some daily songs will be in Reverse Mode.</p>
-                <p>In Sicko Mode, the video will be hidden, and you'll have to guess <em>both</em> the joke and the source track based on the audio.</p>
-                <h3>This seems hard!</h3>
-                <p>It is! Unlike most <a href="https://dles.aukspot.com/" target="_blank" rel="noopener noreferrer">'dles</a>, there's no easy way to hint or provide extra information about how close a guess is to the answer. You either know it or you don't. Don't take it too seriously, and just have fun.</p>
-                <h3>One of the answers is wrong!</h3>
-                <p>This is quite possible! I sourced my data from the wonderful folks at the <a href="https://siivagunner.wiki/" target="_blank" rel="noopener noreferrer">SiIvaGunner wiki</a>, and the naive method I used to automate parsing and collating that data isn't foolproof.<sup>1</sup> I manually verify the daily questions before selecting them, so this should only be an issue in custom quizzes.</p>
-                <p>One thing to note is that for rips that feature incidental jokes (melody changes after a full loop, one or two smaller motific references, jokes while the track is fading out, etc.), I've opted to interpret the joke as the <em>first and most prominent</em> reference in the song <em>only</em>.</p>
-                <p>For any egregious errors, send me an <a id="enail" href="email-to-veegie/" target="_blank" rel="noreferrer noopener">email</a>, or message me on <a href="https://bsky.app/profile/veegie.me" target="_blank" rel="noreferrer noopener">Bluesky</a>.</p>
-                <p><small><sup>1</sup> No, I did not use an LLM.<sup>2</sup></small></p>
-                <p class="my-1"><small><sup>2</sup> No, I do not want to use an LLM.</small></p>
-                <h3>How do I add multiple songs to a custom quiz at once?</h3>
-                <p>Create a public YouTube playlist with the rips you want to use. Then add the playlist URL to the quiz instead of using a direct video link. Any songs in the playlist that exist in the database will be added.</p>
-                <p>This feature currently only supports adding the first 50 songs in a playlist. I'd hope that's sufficient, but if there is demand for it, I can look into expanding this feature in the future.</p>
-                <h3>I'm making a custom quiz, and you're missing a song I want to use.</h3>
-                <p>As of this writing, the database contains approximately 12,000 songs, or roughly a third of the channel's uploads. I'd ideally like to add as many as possible, but it's a pretty tedious process. There's no existing database suitable for this purpose, so it all has to be cobbled together by hand (with a few programming shortcuts, of course). I'll do my best to keep people apprised of any updates to the database.</p>
+            <div hidden id="dailyArchiveView">
+                <button type="button" hidden id="dailyArchiveButtonTemplate" class="daily-archive-btn" data-daily-date-string="yyyymmdd">
+                    <span class="daily-number">#1:</span>
+                    <span class="daily-date">yyyy/mm/dd</span>
+                    <span class="daily-result">result</span>
+                    <span class="daily-time">time</span>
+                </button>
             </div>
+
             <nav>
                 <button hidden id="backBtn" class="text-btn">↩ Back</button>
             </nav>
+
+            <div hidden id="modalWrapper">
+                <div id="modal">
+                    <div id="modalHeader">
+                        <button type="button" class="dismiss-btn" data-target="modalWrapper">×</button>
+                    </div>
+                    <div id="helpModalContents">
+                        <h3>What is this?</h3>
+                        <p>This is a daily browser game where you guess the joke of a given <a href="https://www.youtube.com/c/SiIvaGunner" target="_blank" rel="noopener noreferrer">SiIvaGunner</a> high-quality rip.</p>
+                        <h3>SiIvaGunner?</h3>
+                        <p>SiIvaGunner is a YouTube channel of music remixes and mashups. Uploads are misleadingly titled to resemble video game music rips. Typically, they start off sounding like the song they are advertised as (the "source track"), only to evolve into another song (the "joke").</p>
+                        <p>See <a href="https://www.youtube.com/watch?v=rEcOzjg7vBU" target="_blank" rel="noopener noreferrer">this track</a> for an example. Here, the source track is "Athletic Theme" from Super Mario World, and the joke is "Witch Doctor", by David Seville.</p>
+                        <h3>What are Reverse and Sicko Mode?</h3>
+                        <p>In Normal Mode, the video will be shown on the page along with the source track name, and you'll have to guess the joke.</p>
+                        <p>In Reverse Mode, the video will be hidden, the joke will already be revealed, and you have to guess the <em>source track</em> based on the audio. Some daily songs will be in Reverse Mode.</p>
+                        <p>In Sicko Mode, the video will be hidden, and you'll have to guess <em>both</em> the joke and the source track based on the audio.</p>
+                        <h3>This seems hard!</h3>
+                        <p>It is! Unlike most <a href="https://dles.aukspot.com/" target="_blank" rel="noopener noreferrer">'dles</a>, there's no easy way to hint or provide extra information about how close a guess is to the answer. You either know it or you don't. Don't take it too seriously, and just have fun.</p>
+                        <h3>One of the answers is wrong!</h3>
+                        <p>This is quite possible! I sourced my data from the wonderful folks at the <a href="https://siivagunner.wiki/" target="_blank" rel="noopener noreferrer">SiIvaGunner wiki</a>, and the naive method I used to automate parsing and collating that data isn't foolproof.<sup>1</sup> I manually verify the daily questions before selecting them, so this should only be an issue in custom quizzes.</p>
+                        <p>One thing to note is that for rips that feature incidental jokes (melody changes after a full loop, one or two smaller motific references, jokes while the track is fading out, etc.), I've opted to interpret the joke as the <em>first and most prominent</em> reference in the song <em>only</em>.</p>
+                        <p>For any egregious errors, send me an <a id="enail" href="email-to-veegie/" target="_blank" rel="noreferrer noopener">email</a>, or message me on <a href="https://bsky.app/profile/veegie.me" target="_blank" rel="noreferrer noopener">Bluesky</a>.</p>
+                        <p><small><sup>1</sup> No, I did not use an LLM.<sup>2</sup></small></p>
+                        <p class="my-1"><small><sup>2</sup> No, I do not want to use an LLM.</small></p>
+                        <h3>How do I add multiple songs to a custom quiz at once?</h3>
+                        <p>Create a public YouTube playlist with the rips you want to use. Then add the playlist URL to the quiz instead of using a direct video link. Any songs in the playlist that exist in the database will be added.</p>
+                        <p>This feature currently only supports adding the first 50 songs in a playlist. I'd hope that's sufficient, but if there is demand for it, I can look into expanding this feature in the future.</p>
+                        <h3>I'm making a custom quiz, and you're missing a song I want to use.</h3>
+                        <p>As of this writing, the database contains approximately 12,000 songs, or roughly a third of the channel's uploads. I'd ideally like to add as many as possible, but it's a pretty tedious process. There's no existing database suitable for this purpose, so it all has to be cobbled together by hand (with a few programming shortcuts, of course). I'll do my best to keep people apprised of any updates to the database.</p>
+                    </div>
+                </div>
+            </div>
         </main>
 
         <footer>
