@@ -1827,8 +1827,9 @@ if (!localStorage.getItem(LAST_DAILY_WIN_KEY) && localStorage.getItem(LAST_DAILY
  * 
  * @param {string} videoHash the YT hash of the video to load and the hash of the joke object in the database
  * @param {QuestionMode} mode the question mode to use
+ * @param {string} dailyNumber the number of the daily being loaded, if applicable
  */
-const loadQuestion = function (videoHash, mode) {
+const loadQuestion = function (videoHash, mode, dailyNumber = -1) {
     showView('loadingView');
     strikes = 0;
     questionTime = 0;
@@ -1895,7 +1896,9 @@ const loadQuestion = function (videoHash, mode) {
         show('credit');
         hide('creditUnknown');
     }
-    document.getElementById('shareResultsBtn').dataset.sickoMode = mode === QuestionMode.SICKO;
+    const shareBtn = document.getElementById('shareResultsBtn');
+    shareBtn.dataset.sickoMode = mode === QuestionMode.SICKO;
+    shareBtn.dataset.dailyNumber = dailyNumber;
     activeQuestionTotalAnswers = answerSet.size;
     document.getElementById('wikiLink').href = '/';
     ytPlayer.cueVideoById(videoHash);
@@ -1981,7 +1984,7 @@ document.getElementById('dailyBtn').addEventListener('click', function () {
         sickoMode = false;
     }
     activeQuizQuestionIndex = -1;
-    loadQuestion(simpleCircleCipher(daily.hash), sickoMode ? QuestionMode.SICKO : daily.mode);
+    loadQuestion(simpleCircleCipher(daily.hash), sickoMode ? QuestionMode.SICKO : daily.mode, todaysDailyNumber);
 });
 document.getElementById('customQuizBtn').addEventListener('click', function () {
     this.blur();
@@ -2242,7 +2245,7 @@ const endQuestion = function (lost = false, reloadingCompletedDaily = false) {
         }
 
         shareBtn.dataset.shareData =
-            `SiIvaGuessr #${todaysDailyNumber}:${shareBtn.dataset.sickoMode === 'true' ? '\n 👺 Sicko Mode 👺' : ''}
+            `SiIvaGuessr #${shareBtn.dataset.dailyNumber}:${shareBtn.dataset.sickoMode === 'true' ? '\n 👺 Sicko Mode 👺' : ''}
 ${statLine}${!lost && playingTodaysDaily && winStreak > 1 ? '\nOn a win streak of ' + winStreak + '!' : ''}
 https://siivaguessr.meme`;
         show('shareResultsContainer');
@@ -2697,9 +2700,12 @@ function onVideoPlayerReady() {
                 loadedDailyDateString = this.dataset.dailyDateString;
                 activeQuizQuestionIndex = -1;
                 const dailyToLoad = dailies[simpleCircleCipher(loadedDailyDateString).split('').reverse().join('')];
-                const sickoMode = document.getElementById('dailyArchiveSickoSwitch').checked
+                let sickoMode = document.getElementById('dailyArchiveSickoSwitch').checked
                     || (dailyResults[loadedDailyDateString] && dailyResults[loadedDailyDateString].sickoMode);
-                loadQuestion(simpleCircleCipher(dailyToLoad.hash), sickoMode ? QuestionMode.SICKO : dailyToLoad.mode);
+                if (dailyResults[loadedDailyDateString] && !dailyResults[loadedDailyDateString].sickoMode) {
+                    sickoMode = false;
+                }
+                loadQuestion(simpleCircleCipher(dailyToLoad.hash), sickoMode ? QuestionMode.SICKO : dailyToLoad.mode, this.dataset.dailyNumber);
             });
         });
         showView('startView');
@@ -2804,7 +2810,9 @@ const addOrUpdateDailyArchiveEntry = function (dateString, dailyNumber = -1) {
         dailyArchiveRow = document.getElementById('dailyArchiveRowTemplate').cloneNode(true);
         dailyArchiveRow.removeAttribute('hidden');
         dailyArchiveRow.id = 'dailyArchive' + dateString;
-        dailyArchiveRow.querySelector('.past-daily-btn').dataset.dailyDateString = dateString;
+        const pastDailyBtn = dailyArchiveRow.querySelector('.past-daily-btn');
+        pastDailyBtn.dataset.dailyDateString = dateString;
+        pastDailyBtn.dataset.dailyNumber = dailyNumber;
         dailyArchiveRow.querySelector('.daily-number').innerText = `#${dailyNumber}:`;
         dailyArchiveRow.querySelector('.daily-date').innerText = `${dateString.substring(0, 4)}/${dateString.substring(4, 6)}/${dateString.substring(6)}`;
         document.getElementById('dailyList').insertAdjacentElement('afterbegin', dailyArchiveRow);
