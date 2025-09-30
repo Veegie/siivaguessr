@@ -1372,7 +1372,7 @@ const db = {
 		"artist": "Smoky"
 	},
 	"T-P-zKbCCFc": {
-		"title": "Deck the Halls - Bratz: Forever Diamondz",
+		"title": "Deck the Halls (Nos Galan) - Thomas Oliphant",
 		"wiki": "https://siivagunner.wiki/wiki/Deck%20the%20Halls%20-%20Bratz%3A%20Forever%20Diamondz",
 		"joke": "BROKE BOI X FEIN MIXX - undergroundking47",
 		"artist": "Myeauxyoozi"
@@ -32017,7 +32017,7 @@ const db = {
 		"artist": "XYSam"
 	},
 	"pshf2iR88vA": {
-		"title": "Family Guy Theme Song - Family Guy Video Game!",
+		"title": "Family Guy Main Title Theme - Walter Murphy",
 		"wiki": "https://siivagunner.wiki/wiki/Family%20Guy%20Theme%20Song%20(Beta%20Mix)%20-%20Family%20Guy%20Video%20Game!",
 		"joke": "Lose Lose Days - Mori Calliope",
 		"artist": "Sarvéproductions"
@@ -43093,7 +43093,7 @@ const db = {
 		"artist": "Vincent Mashups"
 	},
 	"XLKTVVGHasA": {
-		"title": "Jingle Bells - Happyland Adventures: X-mas Edition",
+		"title": "Jingle Bells - James Lord Pierpont",
 		"wiki": "https://siivagunner.wiki/wiki/Jingle%20Bells%20(JP%20Version)%20-%20Happyland%20Adventures%3A%20X-mas%20Edition",
 		"joke": "Jingle Pauls - Jake Paul ft. Logan Paul",
 		"artist": "brubsby"
@@ -67124,7 +67124,7 @@ const db = {
 	"7iM_5tvc3bg": {
 		"title": "World Map - Mario is Missing! (NES)",
 		"wiki": "https://siivagunner.wiki/wiki/World%20Map%20-%20Mario%20is%20Missing!%20(NES)",
-		"joke": "Family Guy Main Title - Walter Murphy",
+		"joke": "Family Guy Main Title Theme - Walter Murphy",
 		"artist": "Sponge Lord"
 	},
 	"Z0KYRqw96pU": {
@@ -67214,7 +67214,7 @@ const db = {
 	"zX5WThHtvSI": {
 		"title": "Fun Shopping - MOTHER 3",
 		"wiki": "https://siivagunner.wiki/wiki/Fun%20Shopping%20(Short%20Version)%20-%20MOTHER%203",
-		"joke": "Family Guy Main Title - Walter Murphy",
+		"joke": "Family Guy Main Title Theme - Walter Murphy",
 		"artist": "dizzlybuck"
 	},
 	"65uOKa6Tnrs": {
@@ -67580,7 +67580,7 @@ const db = {
 	"pyQJCVzztro": {
 		"title": "Game Over - Kirby's Adventure",
 		"wiki": "https://siivagunner.wiki/wiki/Game%20Over%20-%20Kirby's%20Adventure",
-		"joke": "Family Guy Main Title - Walter Murphy",
+		"joke": "Family Guy Main Title Theme - Walter Murphy",
 		"artist": "Myeauxyoozi"
 	},
 	"kAtkoSPLmy8": {
@@ -69385,7 +69385,7 @@ const db = {
 	"P4c1-dKk9RY": {
 		"title": "True Welcome! - MOTHER 3",
 		"wiki": "https://siivagunner.wiki/wiki/True%20Welcome!%20-%20MOTHER%203",
-		"joke": "Family Guy Main Title - Walter Murphy",
+		"joke": "Family Guy Main Title Theme - Walter Murphy",
 		"artist": "Sean-Patrick"
 	},
 	"vI7RpAIiP0s": {
@@ -70260,7 +70260,7 @@ const db = {
 			{ "time": "0:41", "joke": "U Guessed It - OG Maco" },
 			{ "time": "0:50", "joke": "We Are Number One - Máni Svavarsson, LazyTown" },
 			{ "time": "0:55", "joke": "Megalovania - Toby Fox" },
-			{ "time": "1:00", "joke": "Family Guy Main Title - Walter Murphy" },
+			{ "time": "1:00", "joke": "Family Guy Main Title Theme - Walter Murphy" },
 			{ "time": "1:06", "joke": "POKEMON GO SONG!!! - Mishovy silenosti (Misha)" },
 			{ "time": "1:11", "joke": "Lisa Frank 420 / Modern Computing - MACINTOSH PLUS" },
 			{ "time": "1:17", "joke": "Crawling - Linkin Park" },
@@ -72483,7 +72483,7 @@ const db = {
 			{ "time": "2:03", "joke": "Subways of Your Mind (the Most Mysterious Song on the Internet) - FEX" },
 			{ "time": "2:03", "joke": "Smooth Criminal - Michael Jackson" },
 			{ "time": "2:03", "joke": "Puzzle Room - Kirby Planet Robobot" },
-			{ "time": "2:14", "joke": "Family Guy Main Title - Walter Murphy" },
+			{ "time": "2:14", "joke": "Family Guy Main Title Theme - Walter Murphy" },
 			{ "time": "2:16", "joke": "Sugar/Tzu - black midi" },
 			{ "time": "2:22", "joke": "Cinema (Skrillex remix) - Benny Benassi" },
 			{ "time": "2:26", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin" },
@@ -72683,7 +72683,7 @@ const db = {
 			{ "time": "1:10", "joke": "Battle! (Elite Four) - Pokemon Black & White" },
 			{ "time": "1:15", "joke": "Feel Good Inc. - Gorillaz ft. De La Soul" },
 			{ "time": "1:15", "joke": "Aerodynamic - Daft Punk" },
-			{ "time": "1:38", "joke": "Family Guy Main Title - Walter Murphy" },
+			{ "time": "1:38", "joke": "Family Guy Main Title Theme - Walter Murphy" },
 			{ "time": "1:38", "joke": "Rollin' & Scratchin' - Daft Punk" },
 			{ "time": "1:43", "joke": "Cock Pushups - Tenacious D" },
 			{ "time": "1:43", "joke": "Title Screen - CrazyBus" },
@@ -73624,7 +73624,7 @@ const db = {
 			{ "time": "9:33", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin" },
 			{ "time": "10:01", "joke": "100 Sunny - OMORI" },
 			{ "time": "10:12", "joke": "热爱105°C的你 / Super Idol - 阿肆, Tian Yiming" },
-			{ "time": "10:29", "joke": "Family Guy Main Title - Walter Murphy" },
+			{ "time": "10:29", "joke": "Family Guy Main Title Theme - Walter Murphy" },
 			{ "time": "10:57", "joke": "Dogsong - Undertale" },
 			{ "time": "11:52", "joke": "Sunshine, Rainbow, White Pony - Wowkie Zhang" },
 			{ "time": "12:04", "joke": "Play a Mini-Game! - Mario Party" },
@@ -75329,7 +75329,6 @@ const db = {
 			{ "time": "0:41", "joke": "I Am Very Glad, as I'm Finally Returning Back Home (\"Trololo\") - Eduard Khil" },
 			{ "time": "0:41", "joke": "Taco Bell Dorito Taco Review - Aaron Fink" },
 			{ "time": "0:43", "joke": "Four Peters - Family Guy" },
-			{ "time": "0:44", "joke": "D'oh - The Simpsons" },
 			{ "time": "0:46", "joke": "Hamood Habibi - Muhammad Ghaloum" },
 			{ "time": "0:47", "joke": "LEGO Yoda death sound - LEGO Star Wars" },
 			{ "time": "0:51", "joke": "Rock My Forum - Xarlable" },
@@ -75648,7 +75647,7 @@ const db = {
 			{ "time": "0:25", "joke": "Guillotine - Death Grips" },
 			{ "time": "0:28", "joke": "Eminem - Joeyy" },
 			{ "time": "0:38", "joke": "Crank That - Soulja Boy" },
-			{ "time": "0:44", "joke": "Family Guy Main Title - Walter Murphy" },
+			{ "time": "0:44", "joke": "Family Guy Main Title Theme - Walter Murphy" },
 			{ "time": "0:50", "joke": "WTF BOOM - The Steve Moustache Show, Mega64" }],
 		"artist": "Aps17"
 	},
@@ -75787,7 +75786,7 @@ const db = {
 		"joke": [
 			{ "time": "0:00", "joke": "The Nutshack Theme - NUMP" },
 			{ "time": "0:06", "joke": "World's Loudest Orgasm - Creampie Cathy" },
-			{ "time": "0:12", "joke": "Family Guy Main Title - Walter Murphy" },
+			{ "time": "0:12", "joke": "Family Guy Main Title Theme - Walter Murphy" },
 			{ "time": "0:17", "joke": "At a Medium Pace - Adam Sandler" },
 			{ "time": "0:30", "joke": "Temporary Secretary - Paul McCartney" },
 			{ "time": "0:37", "joke": "Stress - Justice" }],
@@ -76166,6 +76165,7 @@ const db = {
 	},
 	"1zVoluZxzns": {
 		"title": "Jingle Bells - Crazy Frog Racer: Christmas Edition",
+		"exclude": "title",
 		"wiki": "https://siivagunner.wiki/wiki/Jingle%20Bells%20-%20Crazy%20Frog%20Racer%3A%20Christmas%20Edition",
 		"joke": [
 			{ "time": "0:04", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin" },
@@ -76681,7 +76681,7 @@ const db = {
 			{ "time": "0:56", "joke": "Mr. Krabs' Song Request (\"Play that song again\", \"The one that goes... Beep, boop, bop!\") - SpongeBob SquarePants" },
 			{ "time": "0:56", "joke": "DK Rap - Donkey Kong 64" },
 			{ "time": "0:56", "joke": "Sugar - Maroon 5" },
-			{ "time": "0:58", "joke": "Family Guy Main Title - Walter Murphy" },
+			{ "time": "0:58", "joke": "Family Guy Main Title Theme - Walter Murphy" },
 			{ "time": "0:58", "joke": "Hot Food (\"Nice\") - Michael Rosen" },
 			{ "time": "0:59", "joke": "Barack Hussein Obama - Grady Warren" },
 			{ "time": "1:00", "joke": "Unknown from M.E. - Sonic Adventure" },
@@ -76839,7 +76839,7 @@ const db = {
 			{ "time": "8:55", "joke": "Watch Me (Whip/Nae Nae) - Silento" },
 			{ "time": "9:03", "joke": "Amazing Horse - MrWeebl" },
 			{ "time": "9:09", "joke": "U Guessed It - OG Maco" },
-			{ "time": "9:22", "joke": "Family Guy Main Title - Walter Murphy" },
+			{ "time": "9:22", "joke": "Family Guy Main Title Theme - Walter Murphy" },
 			{ "time": "9:36", "joke": "SuperTux Theme - SuperTux" },
 			{ "time": "9:44", "joke": "CHRISSY, WAKE UP - The Gregory Brothers" },
 			{ "time": "9:57", "joke": "Sandstorm - Darude" },
@@ -78713,7 +78713,7 @@ const db = {
 		"joke": [
 			{ "time": "0:25", "joke": "Have Yourself a Merry Little Christmas - Meet Me in St. Louis" },
 			{ "time": "0:28", "joke": "Jingle Bells - James Lord Pierpont" },
-			{ "time": "0:30", "joke": "Deck the Halls - Traditional" },
+			{ "time": "0:30", "joke": "Deck the Halls (Nos Galan) - Thomas Oliphant" },
 			{ "time": "0:35", "joke": "Last Christmas - Wham!" },
 			{ "time": "0:41", "joke": "Jingle Bell Rock - Bobby Helms" },
 			{ "time": "0:44", "joke": "12 Days of Christmas - Traditional" },
@@ -78847,14 +78847,14 @@ const db = {
 			{ "time": "1:16", "joke": "Athletic Theme - Super Mario World" },
 			{ "time": "1:26", "joke": "Witch Doctor - David Seville" },
 			{ "time": "1:35", "joke": "The Simpsons Main Title Theme - Danny Elfman" },
-			{ "time": "1:45", "joke": "Family Guy Main Title - Walter Murphy" },
+			{ "time": "1:45", "joke": "Family Guy Main Title Theme - Walter Murphy" },
 			{ "time": "2:04", "joke": "GO MY WAY!! - THE iDOLM@STER" },
 			{ "time": "2:24", "joke": "Gangnam Style - PSY" },
 			{ "time": "2:33", "joke": "Votre toast, je peux vous le rendre (Toreador Song / March) - Georges Bizet (Carmen)" },
 			{ "time": "2:42", "joke": "Epic - We Are Leo" },
 			{ "time": "2:52", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin" },
 			{ "time": "3:02", "joke": "Epic - Faith No More" },
-			{ "time": "3:12", "joke": "Deck the Halls - Thomas Oliphant" },
+			{ "time": "3:12", "joke": "Deck the Halls (Nos Galan) - Thomas Oliphant" },
 			{ "time": "3:31", "joke": "The Noble Haltmann - Kirby Planet Robobot" },
 			{ "time": "3:40", "joke": "Koi wa Chaos no Shimobenari - Nyarko-san: Another Crawling Chaos W" },
 			{ "time": "3:50", "joke": "Rudolph the Red-Nosed Reindeer - Johnny Marks" },
@@ -79469,7 +79469,7 @@ const db = {
 			{ "time": "1:42:43", "joke": "Moon Knights - Super Robot Wars J" },
 			{ "time": "1:42:52", "joke": "Witch Doctor Sings a Song - haveluckgoodfun" },
 			{ "time": "1:43:02", "joke": "Blitz - Digitalism" },
-			{ "time": "1:43:12", "joke": "Jingle Bells - Christmas carol" },
+			{ "time": "1:43:12", "joke": "Jingle Bells - James Lord Pierpont" },
 			{ "time": "1:43:21", "joke": "Science Blaster (Game Theory Theme) - SpellingPhailer" },
 			{ "time": "1:43:31", "joke": "Onett - EarthBound" },
 			{ "time": "1:43:40", "joke": "Megalomania - Live A Live" },
@@ -80815,7 +80815,7 @@ const db = {
 			{ "time": "0:06", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin" },
 			{ "time": "0:09", "joke": "Yankin - Lady" },
 			{ "time": "0:42", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper" },
-			{ "time": "0:45", "joke": "Family Guy Main Title - Walter Murphy" },
+			{ "time": "0:45", "joke": "Family Guy Main Title Theme - Walter Murphy" },
 			{ "time": "0:48", "joke": "Snow halation - Love Live!, µ's" }],
 		"artist": "brubsby"
 	},
@@ -81208,7 +81208,7 @@ const db = {
 		"wiki": "https://siivagunner.wiki/wiki/Puke%20Green%20Greens",
 		"joke": [
 			{ "time": "0:33", "joke": "Gemidão do zap - Alexis Texas" },
-			{ "time": "0:40", "joke": "Family Guy Main Title - Walter Murphy" },
+			{ "time": "0:40", "joke": "Family Guy Main Title Theme - Walter Murphy" },
 			{ "time": "1:17", "joke": "Title Screen - CrazyBus" },
 			{ "time": "1:26", "joke": "World's Loudest Orgasm - Creampie Cathy" },
 			{ "time": "1:36", "joke": "Startup Jingle - GameBoy Advance" }],
@@ -82008,7 +82008,7 @@ const db = {
 			{ "time": "0:03", "joke": "Megalovania - Toby Fox" },
 			{ "time": "0:03", "joke": "Space Jam - Quad City DJ's" },
 			{ "time": "0:03", "joke": "Chicken and Chips - LEGO Pornstars ft. Jordan Lee" },
-			{ "time": "0:05", "joke": "Family Guy Main Title - Walter Murphy" },
+			{ "time": "0:05", "joke": "Family Guy Main Title Theme - Walter Murphy" },
 			{ "time": "0:05", "joke": "World's Loudest Orgasm - Creampie Cathy" }],
 		"artist": "Unknown Ripper"
 	},
@@ -82175,7 +82175,7 @@ const db = {
 			{ "time": "0:09", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin" },
 			{ "time": "0:26", "joke": "Sleigh Ride - Leroy Anderson" },
 			{ "time": "0:34", "joke": "Sunshine, Rainbow, White Pony - Wowkie Zhang" },
-			{ "time": "0:52", "joke": "Deck the Halls - Thomas Oliphant" },
+			{ "time": "0:52", "joke": "Deck the Halls (Nos Galan) - Thomas Oliphant" },
 			{ "time": "1:01", "joke": "Game Dude Theme Song - Alan Wong-Moon" },
 			{ "time": "1:18", "joke": "The Twelve Days of Christmas - Frederic Austin" }],
 		"artist": "Nafun"
@@ -82187,14 +82187,14 @@ const db = {
 			{ "time": "0:01", "joke": "Jingle Bells - James Lord Pierpont" },
 			{ "time": "0:11", "joke": "Up On the House Top - Benjamin Hanby" },
 			{ "time": "0:13", "joke": "12 Days of Christmas - Traditional" },
-			{ "time": "0:16", "joke": "Deck the Halls - Traditional" },
+			{ "time": "0:16", "joke": "Deck the Halls (Nos Galan) - Thomas Oliphant" },
 			{ "time": "0:18", "joke": "Frosty the Snowman - Walter Rollins and Steve Nelson" },
 			{ "time": "0:23", "joke": "Santa Claus Is Comin' to Town - John Frederick Coots and Haven Gillespie" },
 			{ "time": "0:25", "joke": "The Little Drummer Boy - Katherine Kennicott Davis" },
 			{ "time": "0:30", "joke": "Christmas Vacation - Mavis Staples" },
 			{ "time": "0:47", "joke": "Here Comes Santa Claus - Gene Autry" },
 			{ "time": "0:50", "joke": "Sleigh Ride - Leroy Anderson" },
-			{ "time": "0:52", "joke": "Deck the Halls - Traditional" },
+			{ "time": "0:52", "joke": "Deck the Halls (Nos Galan) - Thomas Oliphant" },
 			{ "time": "0:55", "joke": "Jingle Bell Rock - Bobby Helms" },
 			{ "time": "1:02", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin" }],
 		"artist": "Nernant"
@@ -82659,7 +82659,7 @@ const db = {
 		"joke": [
 			{ "time": "0:00", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin" },
 			{ "time": "0:12", "joke": "Totino's - Tim and Eric" },
-			{ "time": "0:26", "joke": "Family Guy Main Title - Walter Murphy" },
+			{ "time": "0:26", "joke": "Family Guy Main Title Theme - Walter Murphy" },
 			{ "time": "0:39", "joke": "Scatman (Ski-Ba-Bop-Ba-Dop-Bop) - Scatman John" },
 			{ "time": "0:46", "joke": "PPAP (Pen-Pineapple-Apple-Pen) - Daimaou Kosaka / PIKOTARO" },
 			{ "time": "0:53", "joke": "Crank Dat Super Mario - Crank Squad" },
@@ -83154,7 +83154,7 @@ const db = {
 			{ "time": "1:19", "joke": "Epic - We Are Leo" },
 			{ "time": "1:21", "joke": "Fanboy & Chum Chum Theme - Fanboy & Chum Chum" },
 			{ "time": "1:21", "joke": "Tunak Tunak Tun - Daler Mehndi" },
-			{ "time": "1:24", "joke": "Family Guy Main Title - Walter Murphy" },
+			{ "time": "1:24", "joke": "Family Guy Main Title Theme - Walter Murphy" },
 			{ "time": "1:27", "joke": "Smooth - Santana ft. Rob Thomas" },
 			{ "time": "1:29", "joke": "Kid Cudi / Pissy Pamper - Young Nudy & Playboi Carti" },
 			{ "time": "1:29", "joke": "Crank Dat Super Mario - Crank Squad" },
@@ -84208,7 +84208,7 @@ const db = {
 			{ "time": "3:08", "joke": "DJ Got Us Fallin' in Love - Usher ft. Pitbull" },
 			{ "time": "3:08", "joke": "Revenge - TryHardNinja ft. CaptainSparklez" },
 			{ "time": "3:18", "joke": "MOTHER 3 Love Theme - MOTHER 3" },
-			{ "time": "3:36", "joke": "Jingle Bells - Traditional" },
+			{ "time": "3:36", "joke": "Jingle Bells - James Lord Pierpont" },
 			{ "time": "3:46", "joke": "Despacito - Luis Fonsi ft. Daddy Yankee" },
 			{ "time": "4:04", "joke": "Dogsong - Undertale" },
 			{ "time": "4:14", "joke": "Gangsta's Paradise - Coolio ft. L.V" },
@@ -84263,7 +84263,7 @@ const db = {
 			{ "time": "16:40", "joke": "All Star - Smash Mouth" },
 			{ "time": "16:50", "joke": "Millennium Anthem (2000 New Years Eve) - Jay Tholen" },
 			{ "time": "17:08", "joke": "Don't Forget - Deltarune" },
-			{ "time": "17:18", "joke": "Family Guy Main Title - Walter Murphy" },
+			{ "time": "17:18", "joke": "Family Guy Main Title Theme - Walter Murphy" },
 			{ "time": "17:36", "joke": "In-Game Music - Xevious" },
 			{ "time": "17:46", "joke": "Metal Beat - Metal Masters" },
 			{ "time": "18:04", "joke": "Snow halation - Love Live!, µ's" },
@@ -85634,7 +85634,7 @@ const db = {
 			{ "time": "1:03 - 1:13", "joke": "Pizza Theme - Spider-Man 2" },
 			{ "time": "1:03 - 1:13", "joke": "DK Rap - Donkey Kong 64" },
 			{ "time": "1:14 - 1:16", "joke": "Theme Song - Tim and Eric" },
-			{ "time": "1:15", "joke": "Family Guy Main Title - Walter Murphy" }],
+			{ "time": "1:15", "joke": "Family Guy Main Title Theme - Walter Murphy" }],
 		"artist": "andres"
 	},
 	"wKWe4Qqvazw": {
@@ -85814,7 +85814,7 @@ const db = {
 			{ "time": "3:04", "joke": "Fuck Bees - happening.tv / Huey Lewis and the News" },
 			{ "time": "3:05", "joke": "Smooth - Santana ft. Rob Thomas" },
 			{ "time": "3:07", "joke": "mm2wood.mid (Wood Man MIDI) - Mingo Games Ltd." },
-			{ "time": "3:12", "joke": "Family Guy Main Title - Walter Murphy" },
+			{ "time": "3:12", "joke": "Family Guy Main Title Theme - Walter Murphy" },
 			{ "time": "3:13", "joke": "This Love - Maroon 5" },
 			{ "time": "3:25", "joke": "Planet Wisp - Sonic Colors" }],
 		"artist": "MtH"
@@ -87097,7 +87097,7 @@ const db = {
 		"title": "Poison vs. Word Up - DJ Hero",
 		"wiki": "https://siivagunner.wiki/wiki/Poison%20vs.%20Word%20Up%20-%20DJ%20Hero",
 		"joke": [
-			{ "time": "0:04", "joke": "Family Guy Main Title - Walter Murphy" },
+			{ "time": "0:04", "joke": "Family Guy Main Title Theme - Walter Murphy" },
 			{ "time": "0:08", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper" },
 			{ "time": "0:14", "joke": "Mope (Here Comes Pacman) - Bloodhound Gang" },
 			{ "time": "0:32", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin" },
@@ -88495,7 +88495,7 @@ const db = {
 			{ "time": "0:37, 0:09", "joke": "Puzzle Room - Kirby Planet Robobot" },
 			{ "time": "0:15, 0:42, 1:00", "joke": "World's Loudest Orgasm - Creampie Cathy" },
 			{ "time": "0:15", "joke": "dog dancing to we no speak americano - LegoMaster121000" },
-			{ "time": "0:28", "joke": "Family Guy Main Title - Walter Murphy" },
+			{ "time": "0:28", "joke": "Family Guy Main Title Theme - Walter Murphy" },
 			{ "time": "0:29", "joke": "Laugh Factory incident - Michael Richards" },
 			{ "time": "0:46", "joke": "Tidus laughing - Final Fantasy X" },
 			{ "time": "0:57", "joke": "Computers - Rowdy Rebel ft. Bobby Shmurda" },
@@ -88597,7 +88597,7 @@ const db = {
 			{ "time": "0:51", "joke": "The Nutshack Theme - NUMP" },
 			{ "time": "0:52", "joke": "Hammer Bros. Theme - Super Mario Bros. 3" },
 			{ "time": "1:05", "joke": "GO MY WAY!! - THE iDOLM@STER" },
-			{ "time": "1:21", "joke": "Family Guy Main Title - Walter Murphy" }],
+			{ "time": "1:21", "joke": "Family Guy Main Title Theme - Walter Murphy" }],
 		"artist": "Dooki51"
 	},
 	"0K72Y1ag5cc": {
@@ -89028,7 +89028,7 @@ const db = {
 			{ "time": "0:25", "joke": "Snow halation - Love Live!, µ's" },
 			{ "time": "0:36", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin" },
 			{ "time": "0:47", "joke": "Uncle Fucka - South Park: Bigger, Longer & Uncut" },
-			{ "time": "1:09", "joke": "Family Guy Main Title - Walter Murphy" },
+			{ "time": "1:09", "joke": "Family Guy Main Title Theme - Walter Murphy" },
 			{ "time": "1:32", "joke": "The Simpsons Main Title Theme - Danny Elfman" },
 			{ "time": "1:37", "joke": "GO MY WAY!! - THE iDOLM@STER" },
 			{ "time": "1:54", "joke": "Lockstep - Rhythm Heaven" },
@@ -89699,7 +89699,7 @@ const db = {
 		"joke": [
 			{ "time": "0:58, 0:00", "joke": "Snow halation - Love Live!, µ's" },
 			{ "time": "2:15, 0:34, 1:10", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin" },
-			{ "time": "1:22, 0:46", "joke": "Family Guy Main Title - Walter Murphy" },
+			{ "time": "1:22, 0:46", "joke": "Family Guy Main Title Theme - Walter Murphy" },
 			{ "time": "1:33", "joke": "GO MY WAY!! - THE iDOLM@STER" },
 			{ "time": "1:40", "joke": "We Are Number One - Máni Svavarsson, LazyTown" },
 			{ "time": "1:52", "joke": "All Star - Smash Mouth" },
@@ -90724,7 +90724,7 @@ const db = {
 			{ "time": "0:25", "joke": "Snow halation - Love Live!, µ's" },
 			{ "time": "0:46", "joke": "Dreams of Our Generation (Night Walk) - Rhythm Heaven Fever" },
 			{ "time": "1:08", "joke": "The Nutshack Theme - NUMP" },
-			{ "time": "1:30", "joke": "Family Guy Main Title - Walter Murphy" }],
+			{ "time": "1:30", "joke": "Family Guy Main Title Theme - Walter Murphy" }],
 		"artist": "Akfamilyhome"
 	},
 	"ke__u7ddSQQ": {
@@ -90904,7 +90904,7 @@ const db = {
 		"wiki": "https://siivagunner.wiki/wiki/Outlaws%20-%20Outlaws",
 		"joke": [
 			{ "time": "0:07, 1:53 - 1:58", "joke": "Auld Lang Syne - Traditional Scottish folk song" },
-			{ "time": "0:52 - 1:04", "joke": "Family Guy Main Title - Walter Murphy" },
+			{ "time": "0:52 - 1:04", "joke": "Family Guy Main Title Theme - Walter Murphy" },
 			{ "time": "1:17", "joke": "Rawhide - Ned Washington and Dimitri Tiomkin" },
 			{ "time": "1:32 - 1:35", "joke": "Wood Man Stage - Mega Man 2" },
 			{ "time": "2:06 - 2:40", "joke": "The Noble Haltmann - Kirby Planet Robobot" },
@@ -91016,7 +91016,7 @@ const db = {
 			{ "time": "1:11-1:25", "joke": "Megalovania - Toby Fox" },
 			{ "time": "1:47-2:15", "joke": "All Star - Smash Mouth" },
 			{ "time": "2:30", "joke": "Splash Hill Zone (Act 1) - Sonic the Hedgehog 4: Episode I" },
-			{ "time": "3:20", "joke": "Family Guy Main Title - Walter Murphy" },
+			{ "time": "3:20", "joke": "Family Guy Main Title Theme - Walter Murphy" },
 			{ "time": "3:35-3:48", "joke": "Pink Shoelaces - Dodie Stevens" },
 			{ "time": "4:03", "joke": "GO MY WAY!! - THE iDOLM@STER" },
 			{ "time": "4:18", "joke": "Puzzle Room - Kirby Planet Robobot" },
@@ -91421,7 +91421,7 @@ const db = {
 			{ "time": "0:33", "joke": "Tunak Tunak Tun - Daler Mehndi" },
 			{ "time": "0:38", "joke": "Crank That - Soulja Boy" },
 			{ "time": "0:38", "joke": "Guillotine - Death Grips" },
-			{ "time": "0:44", "joke": "Family Guy Main Title - Walter Murphy" }],
+			{ "time": "0:44", "joke": "Family Guy Main Title Theme - Walter Murphy" }],
 		"artist": "Zoom"
 	},
 	"LKROINp1mr8": {
@@ -91458,7 +91458,7 @@ const db = {
 		"wiki": "https://siivagunner.wiki/wiki/Soul%200%20System%20-%20Kirby%20Planet%20Robobot",
 		"joke": [
 			{ "time": "0:00", "joke": "Crank That - Soulja Boy" },
-			{ "time": "0:03", "joke": "Family Guy Main Title - Walter Murphy" },
+			{ "time": "0:03", "joke": "Family Guy Main Title Theme - Walter Murphy" },
 			{ "time": "0:03", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper" },
 			{ "time": "0:05", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin" },
 			{ "time": "0:05", "joke": "Tunak Tunak Tun - Daler Mehndi" },
@@ -91593,7 +91593,7 @@ const db = {
 			{ "time": "2:00", "joke": "GRAND DAD - Vinesauce Joel" },
 			{ "time": "2:04", "joke": "All Star - Smash Mouth" },
 			{ "time": "2:04", "joke": "Take On Me - a-ha" },
-			{ "time": "2:22", "joke": "Family Guy Main Title - Walter Murphy" },
+			{ "time": "2:22", "joke": "Family Guy Main Title Theme - Walter Murphy" },
 			{ "time": "2:22", "joke": "Haunted House - 8-Bit Beast" }],
 		"artist": "Blue Fairy, Zoom Guy, 2achary, Senn"
 	},
@@ -91762,7 +91762,7 @@ const db = {
 			{ "time": "0:45", "joke": "Bird Up! - The Eric Andre Show" },
 			{ "time": "0:46", "joke": "Intro - Scott Pilgrim vs. The World: The Game" },
 			{ "time": "0:46", "joke": "Animals - Maroon 5" },
-			{ "time": "1:04", "joke": "Family Guy Main Title - Walter Murphy" },
+			{ "time": "1:04", "joke": "Family Guy Main Title Theme - Walter Murphy" },
 			{ "time": "1:05", "joke": "Funky's Armoury - Donkey Kong 64" },
 			{ "time": "1:05", "joke": "The Simpsons Main Title Theme - Danny Elfman" },
 			{ "time": "1:14", "joke": "Secret Course - Super Mario Sunshine" },
@@ -91827,7 +91827,7 @@ const db = {
 			{ "time": "0:02", "joke": "The Nutshack Theme - NUMP" },
 			{ "time": "0:13", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin" },
 			{ "time": "0:27", "joke": "The Simpsons Main Title Theme - Danny Elfman" },
-			{ "time": "0:34", "joke": "Family Guy Main Title - Walter Murphy" },
+			{ "time": "0:34", "joke": "Family Guy Main Title Theme - Walter Murphy" },
 			{ "time": "0:41", "joke": "All Star - Smash Mouth" },
 			{ "time": "0:48", "joke": "Snow halation - Love Live!, µ's" },
 			{ "time": "1:01", "joke": "World's Loudest Orgasm - Creampie Cathy" }],
@@ -91948,7 +91948,7 @@ const db = {
 			{ "time": "2:18", "joke": "Snow halation - Love Live!, µ's" },
 			{ "time": "2:26", "joke": "GO MY WAY!! - THE iDOLM@STER" },
 			{ "time": "2:49", "joke": "The Simpsons Main Title Theme - Danny Elfman" },
-			{ "time": "2:54", "joke": "Family Guy Main Title - Walter Murphy" },
+			{ "time": "2:54", "joke": "Family Guy Main Title Theme - Walter Murphy" },
 			{ "time": "3:07", "joke": "The Nutshack Theme - NUMP" },
 			{ "time": "3:19", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin" }],
 		"artist": "Princess Sylvysprit"
@@ -92030,7 +92030,7 @@ const db = {
 			{ "time": "0:32", "joke": "Snow halation - Love Live!, µ's" },
 			{ "time": "0:50 - 1:06", "joke": "GO MY WAY!! - THE iDOLM@STER" },
 			{ "time": "1:11", "joke": "POKEMON GO SONG!!! - Mishovy silenosti (Misha)" },
-			{ "time": "1:20", "joke": "Family Guy Main Title - Walter Murphy" },
+			{ "time": "1:20", "joke": "Family Guy Main Title Theme - Walter Murphy" },
 			{ "time": "1:55", "joke": "Night Walk - Rhythm Tengoku" },
 			{ "time": "2:04 - 2:06", "joke": "The Nutshack Theme - NUMP" },
 			{ "time": "2:12", "joke": "Puzzle Room - Kirby Planet Robobot" },
@@ -92049,7 +92049,7 @@ const db = {
 			{ "time": "1:53, 0:43", "joke": "Snow halation - Love Live!, µ's" },
 			{ "time": "1:01", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin" },
 			{ "time": "1:27", "joke": "Theme Song - Thomas the Tank Engine" },
-			{ "time": "1:35", "joke": "Family Guy Main Title - Walter Murphy" }],
+			{ "time": "1:35", "joke": "Family Guy Main Title Theme - Walter Murphy" }],
 		"artist": "Chunky104"
 	},
 	"ALxKsn6tIwg": {
@@ -92328,7 +92328,7 @@ const db = {
 			{ "time": "0:21", "joke": "The Simpsons Main Title Theme - Danny Elfman" },
 			{ "time": "1:29, 0:29", "joke": "With Cat-Like Tread, Upon Our Prey We Steal - The Pirates of Penzance" },
 			{ "time": "0:56", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin" },
-			{ "time": "1:03", "joke": "Family Guy Main Title - Walter Murphy" },
+			{ "time": "1:03", "joke": "Family Guy Main Title Theme - Walter Murphy" },
 			{ "time": "1:09", "joke": "Snow halation - Love Live!, µ's" },
 			{ "time": "1:10", "joke": "Gourmet Race - Kirby Super Star" },
 			{ "time": "1:15 - 1:19", "joke": "We Are Number One - Máni Svavarsson, LazyTown" },
@@ -92721,7 +92721,7 @@ const db = {
 			{ "time": "7:49, 1:33, 2:04", "joke": "The Nutshack Theme - NUMP" },
 			{ "time": "6:02, 1:46, 3:17", "joke": "Megalovania - Toby Fox" },
 			{ "time": "2:08", "joke": "The Simpsons Main Title Theme - Danny Elfman" },
-			{ "time": "2:18", "joke": "Family Guy Main Title - Walter Murphy" },
+			{ "time": "2:18", "joke": "Family Guy Main Title Theme - Walter Murphy" },
 			{ "time": "3:21", "joke": "Baker Street - Gerald Rafferty" },
 			{ "time": "3:37", "joke": "POKEMON GO SONG!!! - Mishovy silenosti (Misha)" },
 			{ "time": "4:03", "joke": "GRAND DAD - Vinesauce Joel" },
@@ -93038,7 +93038,7 @@ const db = {
 		"joke": [
 			{ "time": "0:05", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin" },
 			{ "time": "0:25", "joke": "Snow halation - Love Live!, µ's" },
-			{ "time": "0:36", "joke": "Family Guy Main Title - Walter Murphy" },
+			{ "time": "0:36", "joke": "Family Guy Main Title Theme - Walter Murphy" },
 			{ "time": "0:56", "joke": "The Simpsons Main Title Theme - Danny Elfman" },
 			{ "time": "1:07", "joke": "GO MY WAY!! - THE iDOLM@STER" },
 			{ "time": "1:18", "joke": "All Star - Smash Mouth" },
@@ -93178,7 +93178,7 @@ const db = {
 			{ "time": "1:15", "joke": "Megalovania - Toby Fox" },
 			{ "time": "1:25", "joke": "Jenka 1 - Cave Story" },
 			{ "time": "1:43", "joke": "Snow halation - Love Live!, µ's" },
-			{ "time": "1:58", "joke": "Family Guy Main Title - Walter Murphy" },
+			{ "time": "1:58", "joke": "Family Guy Main Title Theme - Walter Murphy" },
 			{ "time": "2:17", "joke": "The Nutshack Theme - NUMP" },
 			{ "time": "2:36", "joke": "GO MY WAY!! - THE iDOLM@STER" },
 			{ "time": "2:46", "joke": "Ancient Hero - The Legend of Zelda: The Wind Waker" },
@@ -93267,7 +93267,7 @@ const db = {
 			{ "time": "0:03", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin" },
 			{ "time": "0:21", "joke": "Snow halation - Love Live!, µ's" },
 			{ "time": "0:30", "joke": "GO MY WAY!! - THE iDOLM@STER" },
-			{ "time": "0:38", "joke": "Family Guy Main Title - Walter Murphy" },
+			{ "time": "0:38", "joke": "Family Guy Main Title Theme - Walter Murphy" },
 			{ "time": "0:56", "joke": "The Simpsons Main Title Theme - Danny Elfman" },
 			{ "time": "1:04", "joke": "The Nutshack Theme - NUMP" },
 			{ "time": "1:08", "joke": "Grassland Hillside - Nicolás Páez" }],
@@ -93536,7 +93536,7 @@ const db = {
 			{ "time": "0:17-0:22", "joke": "Snow halation - Love Live!, µ's" },
 			{ "time": "0:22-0:29", "joke": "Snow halation - Love Live!, µ's" },
 			{ "time": "0:29-0:38", "joke": "Puzzle Room - Kirby Planet Robobot" },
-			{ "time": "0:29-0:38", "joke": "Family Guy Main Title - Walter Murphy" },
+			{ "time": "0:29-0:38", "joke": "Family Guy Main Title Theme - Walter Murphy" },
 			{ "time": "0:38-0:51", "joke": "Crank That - Soulja Boy" },
 			{ "time": "0:40-0:51", "joke": "The Simpsons Main Title Theme - Danny Elfman" },
 			{ "time": "0:51-1:14", "joke": "S.L.A.B. Freestyle (Interior Crocodile Alligator) - Chip Tha Ripper" },
@@ -93577,7 +93577,7 @@ const db = {
 			{ "time": "0:38", "joke": "Granite - Pendulum" },
 			{ "time": "0:48", "joke": "Blue (Da Ba Dee) - Eiffel 65" },
 			{ "time": "0:57", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin" },
-			{ "time": "1:11", "joke": "Family Guy Main Title - Walter Murphy" }],
+			{ "time": "1:11", "joke": "Family Guy Main Title Theme - Walter Murphy" }],
 		"artist": "The Duane"
 	},
 	"0rofIUu83qk": {
@@ -93586,7 +93586,7 @@ const db = {
 		"joke": [
 			{ "time": "2:38, 0:00", "joke": "Snow halation - Love Live!, µ's" },
 			{ "time": "2:50, 0:34, 2:15", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin" },
-			{ "time": "3:02, 0:46", "joke": "Family Guy Main Title - Walter Murphy" },
+			{ "time": "3:02, 0:46", "joke": "Family Guy Main Title Theme - Walter Murphy" },
 			{ "time": "1:33", "joke": "GO MY WAY!! - THE iDOLM@STER" },
 			{ "time": "1:40", "joke": "His Theme - Undertale" },
 			{ "time": "1:52", "joke": "All Star - Smash Mouth" },
@@ -93609,7 +93609,7 @@ const db = {
 		"joke": [
 			{ "time": "0:09", "joke": "Dogsong - Undertale" },
 			{ "time": "0:11", "joke": "Splash Hill Zone (Act 1) - Sonic the Hedgehog 4: Episode I" },
-			{ "time": "0:13", "joke": "Family Guy Main Title - Walter Murphy" },
+			{ "time": "0:13", "joke": "Family Guy Main Title Theme - Walter Murphy" },
 			{ "time": "0:15", "joke": "World's Loudest Orgasm - Creampie Cathy" },
 			{ "time": "0:17", "joke": "Gangnam Style - PSY" },
 			{ "time": "0:22", "joke": "GO MY WAY!! - THE iDOLM@STER" },
@@ -93654,7 +93654,7 @@ const db = {
 		"joke": [
 			{ "time": "0:21", "joke": "The Simpsons Main Title Theme - Danny Elfman" },
 			{ "time": "0:24", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin" },
-			{ "time": "0:27", "joke": "Family Guy Main Title - Walter Murphy" },
+			{ "time": "0:27", "joke": "Family Guy Main Title Theme - Walter Murphy" },
 			{ "time": "0:30", "joke": "GO MY WAY!! - THE iDOLM@STER" },
 			{ "time": "1:03, 0:33", "joke": "Crank That - Soulja Boy" },
 			{ "time": "1:03, 0:33", "joke": "Megalovania - Toby Fox" },
@@ -93697,7 +93697,7 @@ const db = {
 			{ "time": "6:49", "joke": "Chocobo Theme - Final Fantasy (Series)" },
 			{ "time": "7:00", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin" },
 			{ "time": "7:12", "joke": "The Simpsons Main Title Theme - Danny Elfman" },
-			{ "time": "7:24", "joke": "Family Guy Main Title - Walter Murphy" },
+			{ "time": "7:24", "joke": "Family Guy Main Title Theme - Walter Murphy" },
 			{ "time": "7:35", "joke": "6 AM - Animal Crossing: New Leaf" },
 			{ "time": "7:45", "joke": "Nuclear - Mike Oldfield (Metal Gear Solid V: The Phantom Pain)" },
 			{ "time": "7:58", "joke": "Player Select - Super Mario Bros. 2" },
@@ -93865,7 +93865,7 @@ const db = {
 		"joke": [
 			{ "time": "0:22, 1:11, 3:17", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin" },
 			{ "time": "1:03", "joke": "Megalovania - Toby Fox" },
-			{ "time": "1:21", "joke": "Family Guy Main Title - Walter Murphy" },
+			{ "time": "1:21", "joke": "Family Guy Main Title Theme - Walter Murphy" },
 			{ "time": "2:22", "joke": "Stickerbush Symphony (Stickerbrush Symphony, Bramble Blast) - Donkey Kong Country 2: Diddy's Kong Quest" }],
 		"artist": "LuNiney"
 	},
@@ -93876,7 +93876,7 @@ const db = {
 			{ "time": "0:26", "joke": "Determination - Undertale" },
 			{ "time": "0:37", "joke": "Spooky Scary Skeletons - Andrew Gold" },
 			{ "time": "0:50", "joke": "Gruntilda's Lair - Banjo-Kazooie" },
-			{ "time": "1:14", "joke": "Family Guy Main Title - Walter Murphy" }],
+			{ "time": "1:14", "joke": "Family Guy Main Title Theme - Walter Murphy" }],
 		"artist": "Blazephlozard"
 	},
 	"3LwrzFBK2IQ": {
@@ -94458,7 +94458,7 @@ const db = {
 			{ "time": "0:25", "joke": "Snow halation - Love Live!, µ's" },
 			{ "time": "0:46", "joke": "Dreams of Our Generation (Night Walk) - Rhythm Heaven Fever" },
 			{ "time": "1:08", "joke": "The Nutshack Theme - NUMP" },
-			{ "time": "1:30", "joke": "Family Guy Main Title - Walter Murphy" }],
+			{ "time": "1:30", "joke": "Family Guy Main Title Theme - Walter Murphy" }],
 		"artist": "Akfamilyhome"
 	},
 	"scWJywMUtws": {
@@ -96273,7 +96273,7 @@ const db = {
 			{ "time": "1:03", "joke": "Smooth - Santana ft. Rob Thomas" },
 			{ "time": "1:06 - 1:42", "joke": "Snow halation - Love Live!, µ's" },
 			{ "time": "1:30 - 1:55", "joke": "The Simpsons Main Title Theme - Danny Elfman" },
-			{ "time": "1:52, 1:33, 1:40, 1:46", "joke": "Family Guy Main Title - Walter Murphy" },
+			{ "time": "1:52, 1:33, 1:40, 1:46", "joke": "Family Guy Main Title Theme - Walter Murphy" },
 			{ "time": "1:55 - 2:18", "joke": "Kyun! Vampire Girl - THE iDOLM@STER 2" },
 			{ "time": "1:55 - 2:44", "joke": "POKEMON GO SONG!!! - Mishovy silenosti (Misha)" },
 			{ "time": "2:04", "joke": "The Nutshack Theme - NUMP" },
@@ -96430,7 +96430,7 @@ const db = {
 		"title": "Stardust Speedway Zone Act 2 - Sonic Mania",
 		"wiki": "https://siivagunner.wiki/wiki/Stardust%20Speedway%20Zone%20Act%202%20-%20Sonic%20Mania",
 		"joke": [
-			{ "time": "0:12", "joke": "Family Guy Main Title - Walter Murphy" },
+			{ "time": "0:12", "joke": "Family Guy Main Title Theme - Walter Murphy" },
 			{ "time": "0:14", "joke": "Totino's - Tim and Eric" },
 			{ "time": "0:38, 0:30", "joke": "The Noble Haltmann - Kirby Planet Robobot" },
 			{ "time": "0:42, 0:33", "joke": "Totino's - Tim and Eric" },
@@ -96501,7 +96501,7 @@ const db = {
 			{ "time": "1:26", "joke": "Haunted House - 8-Bit Beast" },
 			{ "time": "1:34", "joke": "Whales - Hail Mary Mallon" },
 			{ "time": "1:43", "joke": "All Star - Smash Mouth" },
-			{ "time": "1:43", "joke": "Family Guy Main Title - Walter Murphy" },
+			{ "time": "1:43", "joke": "Family Guy Main Title Theme - Walter Murphy" },
 			{ "time": "1:51", "joke": "POKEMON GO SONG!!! - Mishovy silenosti (Misha)" },
 			{ "time": "1:53", "joke": "All Star - Smash Mouth" },
 			{ "time": "2:00", "joke": "DK Rap - Donkey Kong 64" },
@@ -96859,7 +96859,7 @@ const db = {
 			{ "time": "0:41", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin" },
 			{ "time": "1:12", "joke": "Snow halation - Love Live!, µ's" },
 			{ "time": "1:16", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin" },
-			{ "time": "1:50", "joke": "Family Guy Main Title - Walter Murphy" },
+			{ "time": "1:50", "joke": "Family Guy Main Title Theme - Walter Murphy" },
 			{ "time": "2:15", "joke": "World's Loudest Orgasm - Creampie Cathy" },
 			{ "time": "2:37", "joke": "The Final Countdown - Europe" },
 			{ "time": "3:14", "joke": "Snow halation - Love Live!, µ's" },
@@ -96889,7 +96889,7 @@ const db = {
 			{ "time": "1:35", "joke": "Snow halation - Love Live!, µ's" },
 			{ "time": "1:38", "joke": "Who's been drawing dicks? - Vinesauce Joel" },
 			{ "time": "1:40", "joke": "GRAND DAD - Vinesauce Joel" },
-			{ "time": "1:51", "joke": "Family Guy Main Title - Walter Murphy" },
+			{ "time": "1:51", "joke": "Family Guy Main Title Theme - Walter Murphy" },
 			{ "time": "1:52", "joke": "Thank you for... - beatmania IIDX 16 EMPRESS" },
 			{ "time": "1:54", "joke": "GRAND DAD - Vinesauce Joel" }],
 		"artist": "beat_shobon"
@@ -96910,7 +96910,7 @@ const db = {
 			{ "time": "1:17", "joke": "Jungle World - Yooka-Laylee" },
 			{ "time": "1:25", "joke": "I Love Beijing Tiananmen (Hong Kong 97 Theme) - Jin Yueling and Jin Guolin" },
 			{ "time": "1:37", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin" },
-			{ "time": "1:44", "joke": "Family Guy Main Title - Walter Murphy" },
+			{ "time": "1:44", "joke": "Family Guy Main Title Theme - Walter Murphy" },
 			{ "time": "1:51", "joke": "GO MY WAY!! - THE iDOLM@STER" },
 			{ "time": "2:05", "joke": "We Are Number One - Máni Svavarsson, LazyTown" },
 			{ "time": "2:23", "joke": "Take On Me - a-ha" }],
@@ -97161,7 +97161,7 @@ const db = {
 		"joke": [
 			{ "time": "0:17", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin" },
 			{ "time": "0:34", "joke": "Snow halation - Love Live!, µ's" },
-			{ "time": "0:52", "joke": "Family Guy Main Title - Walter Murphy" },
+			{ "time": "0:52", "joke": "Family Guy Main Title Theme - Walter Murphy" },
 			{ "time": "1:09", "joke": "The Simpsons Main Title Theme - Danny Elfman" },
 			{ "time": "1:17", "joke": "Madagascar - Edy Lemond" },
 			{ "time": "1:27", "joke": "The X-Files - The X-Files" }],
@@ -97213,7 +97213,7 @@ const db = {
 			{ "time": "0:06, 0:34, 4:30", "joke": "Take On Me - a-ha" },
 			{ "time": "0:11, 0:34", "joke": "Closer - Nine Inch Nails" },
 			{ "time": "0:11", "joke": "Makes Me Wonder - Maroon 5" },
-			{ "time": "0:20", "joke": "Family Guy Main Title - Walter Murphy" },
+			{ "time": "0:20", "joke": "Family Guy Main Title Theme - Walter Murphy" },
 			{ "time": "0:21", "joke": "This Love - Maroon 5" },
 			{ "time": "0:25", "joke": "Howie scream - Howie Long" },
 			{ "time": "0:30", "joke": "One More Night - Maroon 5" },
@@ -97338,7 +97338,7 @@ const db = {
 			{ "time": "0:48", "joke": "Totino's - Tim and Eric" },
 			{ "time": "0:55", "joke": "The Noble Haltmann - Kirby Planet Robobot" },
 			{ "time": "1:01", "joke": "All Star - Smash Mouth" },
-			{ "time": "1:06", "joke": "Family Guy Main Title - Walter Murphy" },
+			{ "time": "1:06", "joke": "Family Guy Main Title Theme - Walter Murphy" },
 			{ "time": "1:12", "joke": "Puzzle Room - Kirby Planet Robobot" },
 			{ "time": "1:18", "joke": "POKEMON GO SONG!!! - Mishovy silenosti (Misha)" },
 			{ "time": "1:25", "joke": "Ievan Polkka - Loituma" },

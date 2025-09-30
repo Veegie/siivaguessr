@@ -1693,7 +1693,10 @@ const aliases = [
         "Billie Jean - Michael Jackson"],
 
     ["Beat It - Michael Jackson's Moonwalker",
-        "Beat It - Michael Jackson"]
+        "Beat It - Michael Jackson"],
+
+    ["Jingle Bells - James Lord Pierpont",
+        "Jingle Bells - Gummibär"]
 ];
 const aliasMap = new Map();
 const aliasedAnswers = new Map();
