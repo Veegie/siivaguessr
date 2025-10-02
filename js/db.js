@@ -6885,7 +6885,7 @@ const db = {
 		"artist": "Grambam36"
 	},
 	"fY_wsgOGVsA": {
-		"title": "Type 3 (Korobeiniki) - Tetris",
+		"title": "Type A (Korobeiniki) - Tetris",
 		"wiki": "https://siivagunner.wiki/wiki/Korobeiniki%20(Type%203)%20-%20TETRIS%20x%20Hello%20Kitty",
 		"joke": "Neko Matsuri - Irodorimidori",
 		"artist": "Myeauxyoozi"
@@ -12811,7 +12811,7 @@ const db = {
 		"artist": "ThisGreenDingo"
 	},
 	"FQ_SJXfT0Sk": {
-		"title": "Type A - Tetris Ultimate",
+		"title": "Type A (Korobeiniki) - Tetris",
 		"wiki": "https://siivagunner.wiki/wiki/Type%20A%20-%20Tetris%20Ultimate",
 		"joke": "La Vaca - Mala Fe",
 		"artist": "MLPFun"
@@ -22737,7 +22737,7 @@ const db = {
 		"artist": "mullar"
 	},
 	"_XklavfMjRQ": {
-		"title": "Type C - Tetris",
+		"title": "Type C - Tetris (GB)",
 		"wiki": "https://siivagunner.wiki/wiki/Type%20C%20(Beta%20Mix)%20-%20Tetris",
 		"joke": "Little Prelude in C minor, BWV 934 - Johann Sebastian Bach",
 		"artist": "berg8793"
@@ -41221,7 +41221,7 @@ const db = {
 		"artist": "ItsGameBoy"
 	},
 	"PzLh7m8bxa8": {
-		"title": "Type 3 (Korobeiniki) - Tetris",
+		"title": "Type A (Korobeiniki) - Tetris",
 		"wiki": "https://siivagunner.wiki/wiki/Korobeiniki%20(Type%201)%20-%20TETRIS%20x%20Hello%20Kitty",
 		"joke": "Nyan's not hot! - Nyanners",
 		"artist": "Grambam36 and Ashley"
@@ -67794,7 +67794,7 @@ const db = {
 		"artist": "eg_9371"
 	},
 	"Id6X9-x6cXg": {
-		"title": "Tetris 1989 ~ Type A - Tetris Friends",
+		"title": "Type A (Korobeiniki) - Tetris",
 		"wiki": "https://siivagunner.wiki/wiki/Tetris%201989%20~%20Type%20A%20-%20Tetris%20Friends",
 		"joke": "FORTNITE SONG!!! - Misha",
 		"artist": "ChickenSuitGuy"
@@ -82310,7 +82310,7 @@ const db = {
 		"joke": [
 			{ "time": "0:05", "joke": "Rasputin - Boney M." },
 			{ "time": "0:15", "joke": "Puzzle Room - Kirby Planet Robobot" },
-			{ "time": "0:26", "joke": "Type 3 (Korobeiniki) - Tetris" },
+			{ "time": "0:26", "joke": "Type A (Korobeiniki) - Tetris" },
 			{ "time": "0:36", "joke": "SUPER GAY PUTIN - Squallido Anal Smithee" }],
 		"artist": "Grambam36"
 	},
