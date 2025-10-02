@@ -1696,7 +1696,10 @@ const aliases = [
         "Beat It - Michael Jackson"],
 
     ["Jingle Bells - James Lord Pierpont",
-        "Jingle Bells - Gummibär"]
+        "Jingle Bells - Gummibär"],
+
+    ["Bad Apple!! - Touhou 4: Lotus Land Story",
+        "Bad Apple!! feat.nomico - Alstroemeria Records"]
 ];
 const aliasMap = new Map();
 const aliasedAnswers = new Map();

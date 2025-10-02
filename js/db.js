@@ -64763,7 +64763,7 @@ const db = {
 		"artist": "eg_9371"
 	},
 	"McmYfuw8GNE": {
-		"title": "Bad Apple!! feat.nomico - Groove Coaster: Wai Wai Party!!!!",
+		"title": "Bad Apple!! feat.nomico - Alstroemeria Records",
 		"wiki": "https://siivagunner.wiki/wiki/Bad%20Apple!!%20feat.nomico%20-%20Groove%20Coaster%3A%20Wai%20Wai%20Party!!!!",
 		"joke": "Stuck Inside - Black Gryph0n ft. The Living Tombstone & Kevin Foster",
 		"artist": "DonnieTheGuy"
@@ -64970,7 +64970,7 @@ const db = {
 	"8I5nHDi_wbw": {
 		"title": "Back Attack - Wii Party",
 		"wiki": "https://siivagunner.wiki/wiki/Back%20Attack%20-%20Wii%20Party",
-		"joke": "Bad Apple!! feat.nomico - Masayoshi Minoshima",
+		"joke": "Bad Apple!! feat.nomico - Alstroemeria Records",
 		"artist": "AdamCrossing"
 	},
 	"IamjQhUh4pk": {
@@ -65090,7 +65090,7 @@ const db = {
 	"o8VYtZmuWVo": {
 		"title": "Hit & Run Theme - Jb_District_Remake",
 		"wiki": "https://siivagunner.wiki/wiki/Hit%20%26%20Run%20Theme%20-%20Jb%20District%20Remake",
-		"joke": "Bad Apple!! feat.nomico - Masayoshi Minoshima",
+		"joke": "Bad Apple!! feat.nomico - Alstroemeria Records",
 		"artist": "Grambam36"
 	},
 	"SZAFs_gtHYQ": {
@@ -65474,7 +65474,7 @@ const db = {
 	"-lxKraRjcNU": {
 		"title": "Bowser! - Mario & Luigi: Bowser's Inside Story",
 		"wiki": "https://siivagunner.wiki/wiki/Bowser!%20-%20Mario%20%26%20Luigi%20Bowser's%20Inside%20Story",
-		"joke": "Bad Apple!! - Touhou Project",
+		"joke": "Bad Apple!! - Touhou 4: Lotus Land Story",
 		"artist": "Emm Bee Sea"
 	},
 	"UVL4b3kzbiw": {
@@ -70153,7 +70153,6 @@ const db = {
 		"title": "Bad Apple!! - Touhou 4: Lotus Land Story",
 		"wiki": "https://siivagunner.wiki/wiki/Bad%20Apple!!%20(Original%20Version)%20-%20Touhou%204%3A%20Lotus%20Land%20Story",
 		"joke": [
-			{ "time": "0:00", "joke": "Bad Apple!! feat.nomico - Alstroemeria Records" },
 			{ "time": "0:29", "joke": "Locked Girl ~ The Girl's Secret Room - Touhou 6: the Embodiment of Scarlet Devil" },
 			{ "time": "0:36", "joke": "Septette for the Dead Princess - Remilia Scarlet" },
 			{ "time": "0:42", "joke": "Lunar Clock ~ Luna Dial - Sakuya Izayoi" },
@@ -72085,7 +72084,7 @@ const db = {
 		"artist": "Myeauxyoozi"
 	},
 	"KWJzADeKrd4": {
-		"title": "Bad Apple!! feat.nomico - SOUND VOLTEX III GRAVITY WARS",
+		"title": "Bad Apple!! feat.nomico - Alstroemeria Records",
 		"wiki": "https://siivagunner.wiki/wiki/Bad%20Apple!!%20feat.nomico%20(Beta%20Mix)%20-%20SOUND%20VOLTEX%20III%20GRAVITY%20WARS",
 		"joke": [
 			{ "time": "0:20", "joke": "JUMPER - CAPSULE" },
@@ -73129,7 +73128,6 @@ const db = {
 			{ "time": "1:22", "joke": "Unknown from M.E. - Sonic Adventure" },
 			{ "time": "1:22", "joke": "the new rick rolld - wtfradio1000" },
 			{ "time": "1:27", "joke": "Bad Apple!! feat.nomico - Alstroemeria Records" },
-			{ "time": "1:27", "joke": "Bad Apple!! - Touhou 4: Lotus Land Story" },
 			{ "time": "1:27", "joke": "YTPMV: Mario Wario Lucario - AxleCarp" },
 			{ "time": "1:37", "joke": "The Noble Haltmann - Kirby Planet Robobot" },
 			{ "time": "1:37", "joke": "STAY - The Kid LAROI & Justin Bieber" },
@@ -75965,7 +75963,7 @@ const db = {
 			{ "time": "0:55", "joke": "Gadget Room (Gary's Theme) - Club Penguin: Elite Penguin Force" },
 			{ "time": "0:58", "joke": "Purple Grape Soda - roachmg777" },
 			{ "time": "1:02", "joke": "Kyun! Vampire Girl - THE iDOLM@STER 2" },
-			{ "time": "1:04", "joke": "Bad Apple!! - Touhou Project" },
+			{ "time": "1:04", "joke": "Bad Apple!! - Touhou 4: Lotus Land Story" },
 			{ "time": "1:05", "joke": "The Nutshack Theme - NUMP" },
 			{ "time": "1:06", "joke": "Neko Matsuri - Irodorimidori" }],
 		"artist": "Nozobot"
