@@ -1699,7 +1699,11 @@ const aliases = [
         "Jingle Bells - Gummibär"],
 
     ["Bad Apple!! - Touhou 4: Lotus Land Story",
-        "Bad Apple!! feat.nomico - Alstroemeria Records"]
+        "Bad Apple!! feat.nomico - Alstroemeria Records"],
+    
+    ["Pollyanna (I Believe in You) - EarthBound Beginnings/MOTHER",
+        "Home Sweet Home - EarthBound",
+        "A Certain Someone's Memories - MOTHER 3"]
 ];
 const aliasMap = new Map();
 const aliasedAnswers = new Map();

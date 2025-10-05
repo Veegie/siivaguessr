@@ -596,7 +596,7 @@ const db = {
 		"artist": "scooblee"
 	},
 	"KhVY9nWOciU": {
-		"title": "Pollyanna - EarthBound Beginnings/MOTHER",
+		"title": "Pollyanna (I Believe in You) - EarthBound Beginnings/MOTHER",
 		"wiki": "https://siivagunner.wiki/wiki/Pollyanna%20(Extended%20Mix)%20-%20EarthBound%20Beginnings/MOTHER",
 		"joke": "Good Luck, Babe! - Chappell Roan",
 		"artist": "Brendan"
@@ -48816,7 +48816,7 @@ const db = {
 		"artist": "mullar"
 	},
 	"9jJaevl38go": {
-		"title": "Pollyanna - EarthBound Beginnings/MOTHER",
+		"title": "Pollyanna (I Believe in You) - EarthBound Beginnings/MOTHER",
 		"wiki": "https://siivagunner.wiki/wiki/Pollyanna%20(NTSC%20Version)%20-%20EarthBound%20Beginnings/MOTHER",
 		"joke": "Hobart Drive - Jerry Galeries",
 		"artist": "Emotional Snail"
@@ -49069,7 +49069,7 @@ const db = {
 		"artist": "Retro Gaming"
 	},
 	"SReYHLNbxXs": {
-		"title": "Pollyanna - EarthBound Beginnings/MOTHER",
+		"title": "Pollyanna (I Believe in You) - EarthBound Beginnings/MOTHER",
 		"wiki": "https://siivagunner.wiki/wiki/Pollyanna%20(OST%20Version)%20-%20EarthBound%20Beginnings/MOTHER",
 		"joke": "Revenge - TryHardNinja ft. CaptainSparklez",
 		"artist": "Retro Gaming"
@@ -54967,7 +54967,7 @@ const db = {
 	"CP5qjcLqhWw": {
 		"title": "Mothership Defeated - Fester's Quest",
 		"wiki": "https://siivagunner.wiki/wiki/Mothership%20Defeated%20-%20Fester's%20Quest",
-		"joke": "Pollyanna - EarthBound Beginnings/MOTHER",
+		"joke": "Pollyanna (I Believe in You) - EarthBound Beginnings/MOTHER",
 		"artist": "TheLeis."
 	},
 	"aj3SG3-7Iwc": {
@@ -55214,7 +55214,7 @@ const db = {
 	"GnDack-Q_Rk": {
 		"title": "Labyrinth Zone - Sonic the Hedgehog",
 		"wiki": "https://siivagunner.wiki/wiki/Labyrinth%20Zone%20-%20Sonic%20the%20Hedgehog",
-		"joke": "Pollyanna - EarthBound Beginnings/MOTHER",
+		"joke": "Pollyanna (I Believe in You) - EarthBound Beginnings/MOTHER",
 		"artist": "LuNiney"
 	},
 	"V8HgcBwyHVE": {
@@ -55603,7 +55603,7 @@ const db = {
 		"artist": "Unknown Ripper"
 	},
 	"OK11RXpoUAw": {
-		"title": "Pollyanna - EarthBound Beginnings/MOTHER",
+		"title": "Pollyanna (I Believe in You) - EarthBound Beginnings/MOTHER",
 		"wiki": "https://siivagunner.wiki/wiki/Pollyanna%20(US%20Version)%20-%20EarthBound%20Beginnings/MOTHER",
 		"joke": "Video Killed the Radio Star - The Buggles",
 		"artist": "toonlink"
@@ -61707,7 +61707,7 @@ const db = {
 	"II9qoGgcC4I": {
 		"title": "Chapter Transition Cutscene - Phineas and Ferb",
 		"wiki": "https://siivagunner.wiki/wiki/Chapter%20Transition%20Cutscene%20-%20Phineas%20and%20Ferb",
-		"joke": "Pollyanna - EarthBound Beginnings/MOTHER",
+		"joke": "Pollyanna (I Believe in You) - EarthBound Beginnings/MOTHER",
 		"artist": "C-Man"
 	},
 	"W6DWqiy02W4": {
@@ -67310,7 +67310,7 @@ const db = {
 	"hResaRy3Vh4": {
 		"title": "BGM #07 - Absolute Mahjong EG",
 		"wiki": "https://siivagunner.wiki/wiki/BGM%2007%20-%20Absolute%20Mahjong%20EG",
-		"joke": "Pollyanna - EarthBound Beginnings/MOTHER",
+		"joke": "Pollyanna (I Believe in You) - EarthBound Beginnings/MOTHER",
 		"artist": "Eva Twin"
 	},
 	"M39K3H3tIgw": {
@@ -68500,7 +68500,7 @@ const db = {
 	"DO9Q8YGbgoA": {
 		"title": "Treehouse - Here We Are, Together Again - OMORI",
 		"wiki": "https://siivagunner.wiki/wiki/Treehouse%20-%20Here%20We%20Are%2C%20Together%20Again%20(In-Game%20Version)%20-%20OMORI",
-		"joke": "Pollyanna - EarthBound Beginnings/MOTHER",
+		"joke": "Pollyanna (I Believe in You) - EarthBound Beginnings/MOTHER",
 		"artist": "Retro Gaming"
 	},
 	"sl7KOSXBJI0": {
@@ -71694,7 +71694,7 @@ const db = {
 			{ "time": "0:23", "joke": "Shelter - Porter Robinson & Madeon" },
 			{ "time": "0:33", "joke": "The Amazing Digital Circus Theme - The Amazing Digital Circus" },
 			{ "time": "0:53", "joke": "Watch Me (Whip/Nae Nae) - Silento" },
-			{ "time": "1:03", "joke": "Pollyanna - EarthBound Beginnings/MOTHER" },
+			{ "time": "1:03", "joke": "Pollyanna (I Believe in You) - EarthBound Beginnings/MOTHER" },
 			{ "time": "1:23", "joke": "Boykisser - Studi01" },
 			{ "time": "1:43", "joke": "Pedro - Raffaella Carrà" },
 			{ "time": "1:53", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin" },
@@ -78240,7 +78240,7 @@ const db = {
 		"joke": [
 			{ "time": "0:20", "joke": "Underwater Theme - Super Mario World" },
 			{ "time": "0:36", "joke": "Take Me Home, Country Roads - John Denver" },
-			{ "time": "0:46", "joke": "Pollyanna - EarthBound Beginnings/MOTHER" },
+			{ "time": "0:46", "joke": "Pollyanna (I Believe in You) - EarthBound Beginnings/MOTHER" },
 			{ "time": "0:54", "joke": "Showtime (Piano Refrain) - Homestuck" },
 			{ "time": "1:06", "joke": "Don't Forget - Deltarune" },
 			{ "time": "1:20", "joke": "Shelter - Porter Robinson & Madeon" },
@@ -84272,7 +84272,7 @@ const db = {
 			{ "time": "19:10", "joke": "Treasure Trove Cove - Banjo-Kazooie" },
 			{ "time": "19:28", "joke": "Onett - EarthBound" },
 			{ "time": "19:38", "joke": "Axel F (Beverly Hills Cop / Crazy Frog) - Harold Faltermeyer" },
-			{ "time": "19:55", "joke": "Pollyanna - EarthBound Beginnings/MOTHER" },
+			{ "time": "19:55", "joke": "Pollyanna (I Believe in You) - EarthBound Beginnings/MOTHER" },
 			{ "time": "20:06", "joke": "Caramelldansen - Caramell" },
 			{ "time": "20:24", "joke": "Back to the Future Theme - Back to the Future" },
 			{ "time": "20:34", "joke": "Totino's - Tim and Eric" },
@@ -88167,7 +88167,7 @@ const db = {
 			{ "time": "1:19-1:25", "joke": "In My Life - The Beatles" },
 			{ "time": "1:25-1:35", "joke": "In Other Words (Fly Me to the Moon) - Bart Howard" },
 			{ "time": "1:35-1:37", "joke": "Island in the Sun - Weezer" },
-			{ "time": "1:37-1:39", "joke": "Pollyanna - EarthBound Beginnings/MOTHER" },
+			{ "time": "1:37-1:39", "joke": "Pollyanna (I Believe in You) - EarthBound Beginnings/MOTHER" },
 			{ "time": "1:40-1:45", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin" },
 			{ "time": "1:45-1:54", "joke": "What You Won't Do For Love - Bobby Caldwell" },
 			{ "time": "1:55-2:00", "joke": "Take On Me - a-ha" },
@@ -90586,7 +90586,7 @@ const db = {
 		"wiki": "https://siivagunner.wiki/wiki/Solution!%20~%20Splendid%20Deduction%20-%20Ace%20Attorney%20Investigations%3A%20Miles%20Edgeworth",
 		"joke": [
 			{ "time": "0:10", "joke": "Finale - Undertale" },
-			{ "time": "0:29", "joke": "Pollyanna - EarthBound Beginnings/MOTHER" },
+			{ "time": "0:29", "joke": "Pollyanna (I Believe in You) - EarthBound Beginnings/MOTHER" },
 			{ "time": "0:51", "joke": "Snow halation - Love Live!, µ's" },
 			{ "time": "1:01 - 1:05", "joke": "Night Walk - Rhythm Tengoku" }],
 		"artist": "Akfamilyhome"
@@ -91508,7 +91508,7 @@ const db = {
 		"joke": [
 			{ "time": "0:14, 1:43 - 1:58", "joke": "Snow halation - Love Live!, µ's" },
 			{ "time": "0:27, 2:56, 3:29, 3:50, 5:22", "joke": "Space Jam - Quad City DJ's" },
-			{ "time": "1:43 - 2:12", "joke": "Pollyanna - EarthBound Beginnings/MOTHER" },
+			{ "time": "1:43 - 2:12", "joke": "Pollyanna (I Believe in You) - EarthBound Beginnings/MOTHER" },
 			{ "time": "2:12 - 2:19", "joke": "irony - ClariS" },
 			{ "time": "2:19 - 2:24", "joke": "GO MY WAY!! - THE iDOLM@STER" },
 			{ "time": "2:27 - 2:55", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin" },
@@ -92460,7 +92460,7 @@ const db = {
 			{ "time": "0:27", "joke": "Oh! One True Love - Undertale" },
 			{ "time": "0:56", "joke": "POKEMON GO SONG!!! - Mishovy silenosti (Misha)" },
 			{ "time": "1:22", "joke": "Oh! One True Love - Undertale" },
-			{ "time": "3:01", "joke": "Pollyanna - EarthBound Beginnings/MOTHER" }],
+			{ "time": "3:01", "joke": "Pollyanna (I Believe in You) - EarthBound Beginnings/MOTHER" }],
 		"artist": "Akfamilyhome"
 	},
 	"1FXk_04jpOI": {
@@ -93597,7 +93597,7 @@ const db = {
 		"wiki": "https://siivagunner.wiki/wiki/The%20End%20-%20Pok%C3%A9mon%20Omega%20Ruby%20%26%20Alpha%20Sapphire",
 		"joke": [
 			{ "time": "0:00", "joke": "Eight Melodies - EarthBound" },
-			{ "time": "1:16, 0:16", "joke": "Pollyanna - EarthBound Beginnings/MOTHER" },
+			{ "time": "1:16, 0:16", "joke": "Pollyanna (I Believe in You) - EarthBound Beginnings/MOTHER" },
 			{ "time": "1:43, 0:43, 0:53, 1:24", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin" }],
 		"artist": "Unknown Ripper"
 	},
@@ -93713,7 +93713,7 @@ const db = {
 			{ "time": "11:36", "joke": "Get Lucky - Daft Punk ft. Pharrell Williams & Nile Rodgers" },
 			{ "time": "11:56", "joke": "johnathan taylor thomas - Barkley, Shut Up and Jam: Gaiden" },
 			{ "time": "12:17", "joke": "Once Upon a Time - Undertale" },
-			{ "time": "12:37", "joke": "Pollyanna - EarthBound Beginnings/MOTHER" },
+			{ "time": "12:37", "joke": "Pollyanna (I Believe in You) - EarthBound Beginnings/MOTHER" },
 			{ "time": "13:08", "joke": "Megalovania - Toby Fox" },
 			{ "time": "13:27", "joke": "Science Blaster (Game Theory Theme) - SpellingPhailer" },
 			{ "time": "13:48", "joke": "Staff Roll - Kirby Super Star" },
