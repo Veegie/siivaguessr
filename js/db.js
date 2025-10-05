@@ -75873,7 +75873,7 @@ const db = {
 		"title": "Running Lights - FNaF World",
 		"wiki": "https://siivagunner.wiki/wiki/Running%20Lights%20-%20FNaF%20World",
 		"joke": [
-			{ "time": "0:00-1:24, 0:19", "joke": "Among Us Trap Remix - Leonz" },
+			{ "time": "0:00-0:19, 1:24", "joke": "Among Us Trap Remix - Leonz" },
 			{ "time": "0:17-0:43", "joke": "Cbat - Hudson Mohawke" },
 			{ "time": "0:29-0:43", "joke": "AA EE OO - Jerma985" },
 			{ "time": "0:43-1:12", "joke": "It's Butters! - South Park" }],
@@ -87223,7 +87223,7 @@ const db = {
 		"title": "Cog-tastrophe! - Toontown Online",
 		"wiki": "https://siivagunner.wiki/wiki/Cog-tastrophe!%20(Alternate%20Version)%20-%20Toontown%20Online",
 		"joke": [
-			{ "time": "0:06 - 0:24, 0:17", "joke": "The Nutshack Theme - NUMP" },
+			{ "time": "0:06 - 0:17, 0:24", "joke": "The Nutshack Theme - NUMP" },
 			{ "time": "0:06 - 0:10", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin" },
 			{ "time": "0:12 - 0:17", "joke": "Bonetrousle - Undertale" },
 			{ "time": "0:24", "joke": "Bad Apple!! feat.nomico - Alstroemeria Records" },
@@ -88385,8 +88385,8 @@ const db = {
 		"title": "Snow Go - Crash Bandicoot 2: Cortex Strikes Back",
 		"wiki": "https://siivagunner.wiki/wiki/Snow%20Go%20-%20Crash%20Bandicoot%202%3A%20Cortex%20Strikes%20Back",
 		"joke": [
-			{ "time": "0:06, 0:15, 0:25 - 1:55, 0:36", "joke": "Gas Gas Gas - Manuel" },
-			{ "time": "0:12, 0:21, 1:16 - 1:19, 1:25 - 2:01, 1:29", "joke": "Snow halation - Love Live!, µ's" },
+			{ "time": "0:06, 0:15, 0:25 - 0:36, 1:55", "joke": "Gas Gas Gas - Manuel" },
+			{ "time": "0:12, 0:21, 1:16 - 1:19, 1:25 - 1:29, 2:01", "joke": "Snow halation - Love Live!, µ's" },
 			{ "time": "0:44 - 0:48", "joke": "U Guessed It - OG Maco" },
 			{ "time": "1:02, 0:56", "joke": "The Nutshack Theme - NUMP" },
 			{ "time": "0:57", "joke": "Totino's - Tim and Eric" },
@@ -88966,7 +88966,7 @@ const db = {
 		"title": "Neo Green Hill Zone Act 1 - Sonic Advance",
 		"wiki": "https://siivagunner.wiki/wiki/Neo%20Green%20Hill%20Zone%20Act%201%20-%20Sonic%20Advance",
 		"joke": [
-			{ "time": "0:04 - 0:11, 0:32 - 1:16, 0:39", "joke": "Once Upon a Time - Undertale" },
+			{ "time": "0:04 - 0:11, 0:32 - 0:39, 1:16", "joke": "Once Upon a Time - Undertale" },
 			{ "time": "0:19 - 0:23, 0:47 - 0:51", "joke": "It's Showtime! - Undertale" },
 			{ "time": "0:55 - 1:11", "joke": "Main Theme - Stinky Shoe and Coach Laroo" }],
 		"artist": "Peacock Roy"
@@ -93200,7 +93200,7 @@ const db = {
 		"title": "02 Battle - Kirby 64: The Crystal Shards",
 		"wiki": "https://siivagunner.wiki/wiki/0%C2%B2%20Battle%20-%20Kirby%2064%3A%20The%20Crystal%20Shards",
 		"joke": [
-			{ "time": "0:41-2:23, 0:58", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin" },
+			{ "time": "0:41-0:58, 2:23", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin" },
 			{ "time": "1:03-1:25", "joke": "Frog's Theme - Chrono Trigger" },
 			{ "time": "1:04-1:26", "joke": "World's Loudest Orgasm - Creampie Cathy" },
 			{ "time": "1:26-1:37", "joke": "Snow halation - Love Live!, µ's" },
