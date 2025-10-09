@@ -138,7 +138,7 @@ const dailies = {
     },
     "xvuvzwuw": {
         "hash": "XfqyqJMR17s",
-        "mode": 2
+        "mode": 1
     },
     "Dvuvzwuw": {
         "hash": "l9niiAvIak6",
@@ -353,7 +353,7 @@ const dailies = {
         "mode": 1
     },
     "vvuvzwuw": {
-        "hash": "0FXGZ10C1Sk",
+        "hash": "_3H7Is5gJy_",
         "mode": 1
     },
     "yvvuAwuw": {
@@ -425,7 +425,7 @@ const dailies = {
         "mode": 2
     },
     "vuvvzwuw": {
-        "hash": "_3H7Is5gJy_",
+        "hash": "0FXGZ10C1Sk",
         "mode": 1
     },
     "uxvuAwuw": {
