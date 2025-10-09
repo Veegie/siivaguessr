@@ -30040,6 +30040,7 @@ const db = {
 	},
 	"i54x8TzXOwo": {
 		"title": "forEVER (beats to remember this moment to)",
+		"exclude": "title",
 		"wiki": "https://siivagunner.wiki/wiki/ForEVER%20(beats%20to%20remember%20this%20moment%20to)",
 		"joke": "forEVER - PSY ft. Tablo",
 		"artist": "Jiko Music"
@@ -75832,7 +75833,7 @@ const db = {
 		"joke": [
 			{ "time": "0:00", "joke": "Fake It - Seether" },
 			{ "time": "0:00", "joke": "Acid 8000 - Fatboy Slim" },
-			{ "time": "0:11", "joke": "nice - Michael Rosen" },
+			{ "time": "0:11", "joke": "Hot Food (\"Nice\") - Michael Rosen" },
 			{ "time": "0:32", "joke": "Ode To The Bouncer - Studio Killers" },
 			{ "time": "0:32", "joke": "Where Them Girls At - David Guetta ft. Nicki Minaj and Flo Rida" },
 			{ "time": "1:29, 2:24", "joke": "We Are Number One - Máni Svavarsson, LazyTown" },
