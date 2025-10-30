@@ -2457,6 +2457,7 @@ const updateAutocomplete = function () {
     activeAutofillOption = 0;
     document.getElementById('autofill-0').classList.add('active');
     show(autofillOptionsElem);
+    autofillOptionsElem.scrollTop = 0;
 }
 
 guessInput.addEventListener('click', updateAutocomplete);
