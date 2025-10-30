@@ -26,7 +26,7 @@ const dailies = {
     "20251008": { "hash": "KU4fK0OSUGk", "mode": QuestionMode.NORMAL },
     "20251009": { "hash": "mjNNM96ao0w", "mode": QuestionMode.NORMAL },
     "20251010": { "hash": "l-sY68RUAkQ", "mode": QuestionMode.NORMAL },
-    "20251011": { "hash": "u-ratvu8vmQ", "mode": QuestionMode.NORMAL },
+    "20251011": { "hash": "ExbBcYzMd4E", "mode": QuestionMode.NORMAL },
     "20251012": { "hash": "XQ2QyFrqy8g", "mode": QuestionMode.NORMAL }, // Sunday
     "20251013": { "hash": "rLW4WdglvBY", "mode": QuestionMode.REVERSE },
     "20251014": { "hash": "o09ZggKdP6A", "mode": QuestionMode.NORMAL },
@@ -47,8 +47,8 @@ const dailies = {
     "20251029": { "hash": "_UP2xQxiOTA", "mode": QuestionMode.REVERSE },
     "20251030": { "hash": "IMBDrWk0pOo", "mode": QuestionMode.NORMAL },
     "20251031": { "hash": "NrBB8i_axTY", "mode": QuestionMode.NORMAL },
-    "20251101": { "hash": "ExbBcYzMd4E", "mode": QuestionMode.NORMAL },
-    "20251102": { "hash": "J5WTlzTIEKc", "mode": QuestionMode.REVERSE }, // Sunday
+    "20251101": { "hash": "LoVDNaWdxJc", "mode": QuestionMode.NORMAL },
+    "20251102": { "hash": "u-ratvu8vmQ", "mode": QuestionMode.NORMAL }, // Sunday
     "20251103": { "hash": "E80MsMud5tU", "mode": QuestionMode.NORMAL },
     "20251104": { "hash": "4Z7-DIcEOCU", "mode": QuestionMode.NORMAL },
     "20251105": { "hash": "RYTC0ymI-Rw", "mode": QuestionMode.REVERSE },
@@ -71,7 +71,7 @@ const dailies = {
     "20251122": { "hash": "QM55RcYvU2o", "mode": QuestionMode.NORMAL },
     "20251123": { "hash": "yAwmsubK5Ck", "mode": QuestionMode.NORMAL }, // Sunday
     "20251124": { "hash": "rGPLLCxWeLc", "mode": QuestionMode.NORMAL },
-    "20251125": { "hash": "uw4O6Z3YGfA", "mode": QuestionMode.NORMAL },
+    "20251125": { "hash": "AZF9rIeH_do", "mode": QuestionMode.NORMAL },
     "20251126": { "hash": "22Pl4c1yD3w", "mode": QuestionMode.NORMAL },
     "20251127": { "hash": "2LZ3B2oMgGU", "mode": QuestionMode.NORMAL },
     "20251128": { "hash": "LG-0gHBshFc", "mode": QuestionMode.NORMAL },

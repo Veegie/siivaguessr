@@ -43643,14 +43643,7 @@ const db = {
 	"u-ratvu8vmQ": {
 		"title": "DK Rap - Donkey Kong 64",
 		"wiki": "https://siivagunner.wiki/wiki/DK%20Rap%20(Extended%20Mix)%20-%20Donkey%20Kong%2064",
-		"joke": [
-			{ "time": "0:00-6:14", "joke": "Rap God - Eminem" },
-			{ "time": "1:12-1:25", "joke": "Krem Isle - Donkey Kong 64" },
-			{ "time": "1:29-1:38", "joke": "Angry Aztec - Donkey Kong 64" },
-			{ "time": "3:06-3:11", "joke": "Saxophone Slam - Donkey Kong 64" },
-			{ "time": "3:28-3:57", "joke": "Boss Introduction - Donkey Kong 64" },
-			{ "time": "4:01-4:23", "joke": "Hideout Helm - Donkey Kong 64" },
-			{ "time": "4:55-5:38", "joke": "Mad Maze Maul - Donkey Kong 64" }],
+		"joke": "Rap God - Eminem",
 		"artist": "berg8793"
 	},
 	"-JmnFFP7WQg": {
@@ -95246,7 +95239,6 @@ const db = {
 		"wiki": "https://siivagunner.wiki/wiki/Zip%20(CD%20Version)%20-%20Bomberman%20Hero",
 		"joke": [
 			{ "time": "0:00-3:07", "joke": "Floro Sapien Caverns - Super Paper Mario" },
-			{ "time": "0:00, 1:23", "joke": "Zip - Bomberman Hero" },
 			{ "time": "0:13", "joke": "Redial - Bomberman Hero" },
 			{ "time": "0:26", "joke": "Cell - Bomberman Hero" },
 			{ "time": "0:40", "joke": "Monogenic - Bomberman Hero" },

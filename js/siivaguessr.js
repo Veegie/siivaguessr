@@ -333,7 +333,7 @@ const dailies = {
         "mode": 2
     },
     "zwvvzwuw": {
-        "hash": "02yiAtxsaL6",
+        "hash": "6t-DXcKbEJU",
         "mode": 1
     },
     "uwwvzwuw": {
@@ -425,7 +425,7 @@ const dailies = {
         "mode": 2
     },
     "vuvvzwuw": {
-        "hash": "0FXGZ10C1Sk",
+        "hash": "fUp9hGqJ3dI",
         "mode": 1
     },
     "uxvuAwuw": {
@@ -513,8 +513,8 @@ const dailies = {
         "mode": 2
     },
     "wuvvzwuw": {
-        "hash": "dzqnR5nc_eI",
-        "mode": 2
+        "hash": "0FXGZ10C1Sk",
+        "mode": 1
     },
     "wwDuzwuw": {
         "hash": "woCpTUSpMiu",
@@ -885,8 +885,8 @@ const dailies = {
         "mode": 1
     },
     "uwvvzwuw": {
-        "hash": "yt6pg2__l2U",
-        "mode": 1
+        "hash": "dzqnR5nc_eI",
+        "mode": 2
     },
     "zwwuAwuw": {
         "hash": "EXCfsiRuLq2",
