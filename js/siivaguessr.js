@@ -2462,7 +2462,6 @@ const updateAutocomplete = function () {
 guessInput.addEventListener('click', updateAutocomplete);
 guessInput.addEventListener('input', updateAutocomplete);
 guessInput.addEventListener('blur', function () {
-    hide(autofillOptionsElem);
     clearActiveAutofillOption();
 });
 
