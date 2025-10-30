@@ -385,6 +385,7 @@ button small {
   border-radius: 10px;
   width: 48vw;
   height: 27vw;
+  min-height: 170px;
   max-height: 345px;
   max-width: 615px;
 }
