@@ -1703,7 +1703,13 @@ const aliases = [
 
     ["Pollyanna (I Believe in You) - EarthBound Beginnings/MOTHER",
         "Home Sweet Home - EarthBound",
-        "A Certain Someone's Memories - MOTHER 3"]
+        "A Certain Someone's Memories - MOTHER 3"],
+
+    ["Through the Fire and Flames - DragonForce",
+        "Through The Fire And Flames - Guitar Hero III: Legends of Rock"],
+
+    ["Overworld Theme - New Super Mario Bros.",
+        "Overworld Theme - New Super Mario Bros. Wii"]
 ];
 const aliasMap = new Map();
 const aliasedAnswers = new Map();
