@@ -1700,7 +1700,7 @@ const aliases = [
 
     ["Bad Apple!! - Touhou 4: Lotus Land Story",
         "Bad Apple!! feat.nomico - Alstroemeria Records"],
-    
+
     ["Pollyanna (I Believe in You) - EarthBound Beginnings/MOTHER",
         "Home Sweet Home - EarthBound",
         "A Certain Someone's Memories - MOTHER 3"]
@@ -1789,6 +1789,7 @@ const DAILY_RESULTS_KEY = 'dailyResults';
 const DAILY_RESULT_GUESS_DELIMITER = '__';
 const LONG_TITLE_THRESHOLD = 84;
 const todaysDailyDateString = dateToString(new Date());
+const isAfd = todaysDailyDateString === '20260401';
 const daily = dailies[simpleCircleCipher(todaysDailyDateString).split('').reverse().join('')];
 const backNavViews = ['customQuizView', 'createCustomQuizView', 'helpView', 'quizIntroView', 'quizEndView', 'dailyArchiveView'];
 const backBtn = document.getElementById('backBtn');
@@ -2051,7 +2052,11 @@ const submitGuess = function (guess, replaying = false) {
         }
     } else {
         strikes++;
-        show('strike' + strikes);
+        if (isAfd) {
+            strikes--;
+        } else {
+            show('strike' + strikes);
+        }
         if (!replaying) {
             if (strikes === 1) {
                 show('giveUpContainer');
@@ -2107,7 +2112,7 @@ const endQuestion = function (lost = false, reloadingCompletedDaily = false) {
     // Display status message
     if (isMultiJoke) {
         multiCorrect.innerText = `You got ${percentCorrect}%${(percentCorrect > 50 ? '!' : '')}`;
-        updateText(statusMsgElem, `(${gotCount} out of ${activeQuestionTotalAnswers})`);
+        updateText(statusMsgElem, `(${gotCount} out of ${activeQuestionTotalAnswers})` + (isAfd ? '. Happy April Fool\'s Day! (Win streaks are unaffected)' : ''));
         hide(['strike1', 'strike2', 'strike3']);
         if (!reloadingCompletedDaily && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
             if (percentCorrect > 60) {
@@ -2188,7 +2193,7 @@ const endQuestion = function (lost = false, reloadingCompletedDaily = false) {
         const w_streak_key = 'winStreak';
         if (playingTodaysDaily && !reloadingCompletedDaily) {
             // Update win streak
-            if (!lost) {
+            if (!lost || isAfd) {
                 if (!localStorage.getItem(w_streak_key)
                     || !localStorage.getItem(LAST_DAILY_KEY)
                     || parseInt(localStorage.getItem(LAST_DAILY_WIN_KEY)) < todaysDailyNumber - 2) {
@@ -2232,7 +2237,11 @@ const endQuestion = function (lost = false, reloadingCompletedDaily = false) {
         let statLine = '';
         if (isMultiJoke) {
             let statIcon = getStatIcon(percentCorrect)
-            statLine = `${statIcon}${gotCount}/${activeQuestionTotalAnswers}${statIcon}`;
+            if (isAfd) {
+                statLine = `${statIcon} Got ${percentCorrect}% correct. Try it! 🙂`
+            } else {
+                statLine = `${statIcon}${gotCount}/${activeQuestionTotalAnswers}${statIcon}`;
+            }
         } else {
             if (!lost) {
                 statLine = `✅ Got the answer in ⏱️ ${durationToTimeCode(questionTime)}!`;
