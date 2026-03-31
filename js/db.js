@@ -77003,7 +77003,7 @@ const db = {
 			{ "time": "35:54", "joke": "Athletic Theme - Super Mario World" },
 			{ "time": "36:00", "joke": "No Cock Like Horse Cock - Pepper Coyote" },
 			{ "time": "36:08", "joke": "Waluigi Pinball / Wario Stadium - Mario Kart DS" },
-			{ "time": "36:14", "joke": "Megalo Clamour - Panpan" },
+			{ "time": "36:14", "joke": "Megalo Clamour - Lunaxis" },
 			{ "time": "36:29", "joke": "Never Gonna Give You Up - Rick Astley" },
 			{ "time": "36:35", "joke": "the new rick rolld - wtfradio1000" },
 			{ "time": "36:48", "joke": "Visitos - KOTO" },
