@@ -2064,7 +2064,7 @@ const submitGuess = function (guess, replaying = false) {
     }
     guesses.add(guess);
     const hash = hashAnswer(guess);
-    const isMultiJoke = !Array.isArray(activeQuestion.joke)
+    const isMultiJoke = Array.isArray(activeQuestion.joke)
     if (answerSet.has(hash)) {
         let replaceText = guess;
         if (aliasedAnswers.has(hash) && guess !== aliasedAnswers.get(hash)) {
