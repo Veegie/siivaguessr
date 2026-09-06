@@ -1824,6 +1824,7 @@ const durationTimeCode = document.getElementById('durationTimeCode');
 const muteBtn = document.getElementById('muteBtn');
 const volumeSlider = document.getElementById('volumeSlider');
 const statusMsgElem = document.getElementById('statusMsg');
+const giveUpContainer = document.getElementById('giveUpContainer');
 const customQuizHelpTextElem = document.getElementById('customQuizHelpText');
 const guessInput = document.getElementById('guessInput');
 const autofillOptionsElem = document.getElementById('autofill-options');
@@ -2207,9 +2208,9 @@ const endQuestion = function (lost = false, reloadingCompletedDaily = false) {
         }
     }
 
-    if (document.getElementById('giveUpContainer').dataset.timeout) {
-        clearTimeout(document.getElementById('giveUpContainer').dataset.timeout);
-        delete document.getElementById('giveUpContainer').dataset.timeout;
+    if (giveUpContainer.dataset.timeout) {
+        clearTimeout(giveUpContainer.dataset.timeout);
+        delete giveUpContainer.dataset.timeout;
     }
     document.getElementById('wikiLink').href = activeQuestion.wiki;
     show([vidPlayer, 'ripCredits']);
@@ -2264,7 +2265,7 @@ const endQuestion = function (lost = false, reloadingCompletedDaily = false) {
 
         let statLine = '';
         if (isMultiJoke) {
-            let statIcon = getStatIcon(percentCorrect)
+            const statIcon = getStatIcon(percentCorrect)
             if (isAfd) {
                 statLine = `${statIcon} Got ${percentCorrect}% correct. Try it! 🙂`
             } else {
@@ -2647,9 +2648,9 @@ function onVideoStateChange(event) {
         hide(playIcon);
         show(pauseIcon);
         // Ten seconds after first play, show Give Up button.
-        if (document.getElementById('giveUpContainer').hasAttribute('hidden')
-            && !document.getElementById('giveUpContainer').dataset.timeout) {
-            document.getElementById('giveUpContainer').dataset.timeout = setTimeout(() => {
+        if (giveUpContainer.hasAttribute('hidden')
+            && !giveUpContainer.dataset.timeout) {
+            giveUpContainer.dataset.timeout = setTimeout(() => {
                 if (document.getElementById('ripCredits').hasAttribute('hidden')) {
                     show('giveUpContainer');
                 }
