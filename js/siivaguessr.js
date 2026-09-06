@@ -1808,6 +1808,7 @@ const LAST_DAILY_KEY = 'lDaily';
 const DAILY_RESULTS_KEY = 'dailyResults';
 const DAILY_RESULT_GUESS_DELIMITER = '__';
 const LONG_TITLE_THRESHOLD = 84;
+const DAILY_ARCHIVE_ID_PREFIX = 'dailyArchive'
 const todaysDailyDateString = dateToString(new Date());
 const isAfd = todaysDailyDateString.endsWith('0401');
 const daily = dailies[simpleCircleCipher(todaysDailyDateString).split('').reverse().join('')];
@@ -2035,6 +2036,8 @@ backBtn.addEventListener('click', function () {
         }
         if (loadedDailyDateString && loadedDailyDateString !== todaysDailyDateString) {
             showView('dailyArchiveView');
+            const backFromDaily = document.getElementById(DAILY_ARCHIVE_ID_PREFIX + loadedDailyDateString);
+            document.scrollingElement.scrollTo({ top: backFromDaily.offsetTop - (document.scrollingElement.offsetHeight / 2), behavior: 'instant' });
         } else {
             showView('startView');
         }
@@ -2857,7 +2860,7 @@ document.getElementById('dailyArchiveBtn').addEventListener('click', function ()
  */
 const addOrUpdateDailyArchiveEntry = function (dateString, dailyNumber = -1) {
     let dailyArchiveRow;
-    const existingBtn = document.getElementById('dailyArchive' + dateString);
+    const existingBtn = document.getElementById(DAILY_ARCHIVE_ID_PREFIX + dateString);
     if (existingBtn) {
         dailyArchiveRow = existingBtn;
     } else if (dailyNumber === -1) {
@@ -2866,7 +2869,7 @@ const addOrUpdateDailyArchiveEntry = function (dateString, dailyNumber = -1) {
     } else {
         dailyArchiveRow = document.getElementById('dailyArchiveRowTemplate').cloneNode(true);
         dailyArchiveRow.removeAttribute('hidden');
-        dailyArchiveRow.id = 'dailyArchive' + dateString;
+        dailyArchiveRow.id = DAILY_ARCHIVE_ID_PREFIX + dateString;
         const pastDailyBtn = dailyArchiveRow.querySelector('.past-daily-btn');
         pastDailyBtn.dataset.dailyDateString = dateString;
         pastDailyBtn.dataset.dailyNumber = dailyNumber;
