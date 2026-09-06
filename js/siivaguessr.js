@@ -2061,6 +2061,7 @@ const submitGuess = function (guess, replaying = false) {
     }
     guesses.add(guess);
     const hash = hashAnswer(guess);
+    const isMultiJoke = !Array.isArray(activeQuestion.joke)
     if (answerSet.has(hash)) {
         let replaceText = guess;
         if (aliasedAnswers.has(hash) && guess !== aliasedAnswers.get(hash)) {
@@ -2075,13 +2076,13 @@ const submitGuess = function (guess, replaying = false) {
         strikes++;
         if (isAfd) {
             strikes--;
-        } else {
+        } else if (!isMultiJoke) {
             show('strike' + strikes);
         }
         if (!replaying) {
             if (strikes === 1) {
                 show('giveUpContainer');
-            } else if (strikes === 3) {
+            } else if (strikes === 3 && !isMultiJoke) {
                 endQuestion(true);
             }
             guessInput.classList.add('incorrect');
