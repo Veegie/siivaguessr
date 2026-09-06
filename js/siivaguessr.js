@@ -1809,7 +1809,7 @@ const DAILY_RESULTS_KEY = 'dailyResults';
 const DAILY_RESULT_GUESS_DELIMITER = '__';
 const LONG_TITLE_THRESHOLD = 84;
 const todaysDailyDateString = dateToString(new Date());
-const isAfd = todaysDailyDateString === '20260401';
+const isAfd = todaysDailyDateString.endsWith('0401');
 const daily = dailies[simpleCircleCipher(todaysDailyDateString).split('').reverse().join('')];
 const backNavViews = ['customQuizView', 'createCustomQuizView', 'helpView', 'quizIntroView', 'quizEndView', 'dailyArchiveView'];
 const backBtn = document.getElementById('backBtn');
