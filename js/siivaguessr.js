@@ -1591,6 +1591,12 @@ const simpleCircleCipher = function (str) {
     return res;
 };
 
+/**
+ * Aliases are alternate titles that are accepted for the same song.
+ * Useful when multiple songs have similar melodies, and particularly when one song
+ * heavily samples another to the point that a player might mistake them. Not much fun
+ * punishing players for being unaware of a song's sampled origin.
+ **/
 const aliases = [
     ["Can You Feel (Abstract Map, SMW Central VLDC 9) - Torchkas",
         "Abstract Map - Mario's Mystery Meat"],
@@ -1737,6 +1743,13 @@ for (let i = 0; i < aliases.length; i++) {
 }
 const songs = Array.from(songSet).sort();
 
+/**
+ * Hashes a given song title. Sets of aliases share a single hash.
+ *
+ * @param {string} answerString human-readable answer string
+ * @param {boolean} loading flag indicating if this hash op is being done while loading the question. When true, also populates the aliasedAnswers for the question.
+ * @returns the hash string for this answer
+ */
 const hashAnswer = function (answerString, loading = false) {
     if (aliasMap.has(answerString)) {
         if (loading) {
@@ -1782,6 +1795,7 @@ const showView = function (id) {
 
 const beforeUnloadHandler = (event) => { event.preventDefault(); };
 
+// You wouldn't think counting the daily numbers would be so hard, but timezones make everything more annoying.
 const firstDateUTCAdjusted = new Date('2025-09-14T00:00:00');
 firstDateUTCAdjusted.setMinutes(firstDateUTCAdjusted.getMinutes() - firstDateUTCAdjusted.getTimezoneOffset())
 const nowDate = new Date();
@@ -2081,13 +2095,21 @@ const submitGuess = function (guess, replaying = false) {
     }
 }
 
+/**
+ * Marks all instances of the hash for a given answer as correct, and removes that hash from the answer set.
+ * @param {string} hash the answer hash
+ * @param {string} replaceText the readable string version of the answer, which will replace the text in the target elements
+ */
 const markCorrect = function (hash, replaceText) {
     answerSet.delete(hash);
     document.querySelectorAll('.' + hash).forEach((e) => {
+        // If the source track has been guessed correctly, we can reveal the video player.
         if (e.id === 'stAns') {
             show(vidPlayer);
         }
         e.classList.add('correct');
+        // Some song titles are too long to display in the multi-answer table.
+        // If the answer text is long and we're putting the text in the table, add a class to shrink the text.
         if (replaceText.length > LONG_TITLE_THRESHOLD && !e.classList.contains('free-text-answer')) {
             e.classList.add('long-song-title');
         }
@@ -2823,6 +2845,14 @@ document.getElementById('dailyArchiveBtn').addEventListener('click', function ()
     showView('dailyArchiveView');
 });
 
+/**
+ * Adds or updates entries in the daily archive. This is called on initial pageload once the YouTube player reports a successful initialization,
+ * to add a row for each daily corresponding to dates in the past. The results of that daily are also displayed alongside the button.
+ * When a previous daily is completed while playing in the archive, this function is called to update that existing row in the archive.
+ *
+ * @param {string} dateString the date string of the daily entry to add/update
+ * @param {number} dailyNumber the number of the previous daily. only used on initial pageloads
+ */
 const addOrUpdateDailyArchiveEntry = function (dateString, dailyNumber = -1) {
     let dailyArchiveRow;
     const existingBtn = document.getElementById('dailyArchive' + dateString);
