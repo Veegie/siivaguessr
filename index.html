@@ -55,6 +55,9 @@
         <main>
             <div id="loadingView">Loading...</div>
             <nav hidden id="startView">
+                <div hidden id="dailiesOverMsg" class="my-2">
+                    <span>Curated dailies have ended.</span><button id="dailiesOverBtn" class="text-btn text-xs mx-1" type="button">?</button>
+                </div>
                 <button id="dailyBtn" class="text-btn mx-1" type="button">Play Daily</button>
                 <div class="switch-container tooltip-container">
                     <label class="switch">
@@ -383,11 +386,11 @@
             </nav>
 
             <div hidden id="modalWrapper">
-                <div id="modal">
-                    <div id="modalHeader">
-                        <button type="button" class="dismiss-btn" data-target="modalWrapper">×</button>
+                <div hidden id="helpModal" class="modal">
+                    <div class="modal-header">
+                        <button type="button" class="dismiss-btn" data-target="helpModal">×</button>
                     </div>
-                    <div id="helpModalContents">
+                    <div class="modal-contents">
                         <h3>What is this?</h3>
                         <p>This is a daily browser game where you guess the joke of a given <a href="https://www.youtube.com/c/SiIvaGunner" target="_blank" rel="noopener noreferrer">SiIvaGunner</a> high-quality rip.</p>
                         <h3>SiIvaGunner?</h3>
@@ -402,7 +405,6 @@
                         <h3>One of the answers is wrong!</h3>
                         <p>This is quite possible! I sourced my data from the wonderful folks at the <a href="https://siivagunner.wiki/" target="_blank" rel="noopener noreferrer">SiIvaGunner wiki</a>, and the naive method I used to automate parsing and collating that data isn't foolproof.<sup>1</sup> I manually verify the daily questions before selecting them, so this should only be an issue in custom quizzes.</p>
                         <p>One thing to note is that for rips that feature incidental jokes (melody changes after a full loop, one or two smaller motific references, jokes while the track is fading out, etc.), I've opted to interpret the joke as the <em>first and most prominent</em> reference in the song <em>only</em>.</p>
-                        <p>For any egregious errors, send me an <a id="enail" href="email-to-veegie/" target="_blank" rel="noreferrer noopener">email</a>, or message me on <a href="https://bsky.app/profile/veegie.me" target="_blank" rel="noreferrer noopener">Bluesky</a>.</p>
                         <p><small><sup>1</sup> No, I did not use an LLM.<sup>2</sup></small></p>
                         <p class="my-1"><small><sup>2</sup> No, I do not want to use an LLM.</small></p>
                         <h3>How do I add multiple songs to a custom quiz at once?</h3>
@@ -412,6 +414,20 @@
                         <p>As of this writing, the database contains approximately 12,000 songs, or roughly a third of the channel's uploads. I'd ideally like to add as many as possible, but it's a pretty tedious process. There's no existing database suitable for this purpose, so it all has to be cobbled together by hand (with a few programming shortcuts, of course). I'll do my best to keep people apprised of any updates to the database.</p>
                     </div>
                 </div>
+
+                <div hidden id="dailiesOverModal" class="modal">
+                    <div class="modal-header">
+                        <button type="button" class="dismiss-btn" data-target="dailiesOverModal">×</button>
+                    </div>
+                    <div class="modal-contents">
+                        <p>Thanks for playing SiIvaGuessr! The manually-curated daily questions have ended as of September 14, 2026.</p>
+                        <p>From September 15 onward, a completely random entry from the database will be chosen. These questions <em>haven't been verified by me</em>, so there may be some jank, and potentially even some completely wrong answers.</p>
+                        <p>Because of this, the strikes system has been removed. Make as many guesses as you want.</p>
+                        <p>I have no plans to do any further updates at this time, unless something <em>completely</em> breaks. Sorry!</p>
+                        <p>However, I've <a href="https://github.com/Veegie/siivaguessr" target="_blank" rel="noopener noreferrer">open-sourced</a> the website, so if anyone would like to make their own contributions (or even host their own fork), please feel free!</p>
+                    </div>
+                </div>
+                <div class="modal-bg"></div>
             </div>
         </main>
 

@@ -60,21 +60,31 @@ body {
 
 #modalWrapper {
   z-index: 1;
-  background-color: rgba(20, 20, 20, 0.5);
   position: absolute;
   top: 0;
   left: 0;
 }
 
-:root.dark #modal {
+#modalWrapper .modal-bg {
+  background-color: rgba(20, 20, 20, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+}
+
+:root.dark .modal {
   background: var(--dark-color-bg);
 }
 
-:root.light #modal {
+:root.light .modal {
   background: var(--light-color-bg);
 }
 
-#modal {
+.modal {
+  position: relative;
   margin: 100px auto;
   padding: 2rem;
   width: 50%;
@@ -83,9 +93,10 @@ body {
   box-shadow: 3px 2px 8px black;
   border-radius: 8px;
   transition: background-color 2s;
+  z-index: 2;
 }
 
-#helpModalContents p {
+.modal-contents p {
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -376,6 +387,17 @@ button {
 button small {
   font-size: 1rem;
   line-height: 1;
+}
+
+#dailiesOverBtn {
+    height: 40px;
+    width: 40px;
+}
+
+#dailiesOverMsg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #ripView {

@@ -1721,18 +1721,30 @@ const aliasMap = new Map();
 const aliasedAnswers = new Map();
 
 const songSet = new Set();
-for (const hash in db) {
-    if (db[hash].exclude !== 'title') {
-        songSet.add(db[hash].title);
-    }
-    if (Array.isArray(db[hash].joke)) {
-        for (const entry of db[hash].joke) {
-            songSet.add(entry.joke);
+let randomDailyHashes;
+
+const initSongSetAndRandomDailies = function () {
+    const curatedDailyHashes = new Set(Object.values(dailies).map((d) => simpleCircleCipher(d.hash)));
+    const randomDailiesSet = new Set(Object.keys(db));
+    for (const hash in db) {
+        if (db[hash].exclude !== 'title') {
+            songSet.add(db[hash].title);
         }
-    } else {
-        songSet.add(db[hash].joke);
+        if (Array.isArray(db[hash].joke)) {
+            for (const entry of db[hash].joke) {
+                songSet.add(entry.joke);
+            }
+        } else {
+            songSet.add(db[hash].joke);
+        }
+        if (curatedDailyHashes.has(hash)) {
+            randomDailiesSet.delete(hash);
+        }
     }
+    randomDailyHashes = Array.from(randomDailiesSet);
 }
+initSongSetAndRandomDailies();
+
 for (let i = 0; i < aliases.length; i++) {
     const aliasSet = aliases[i];
     const aliasHash = simpleHash('alias_set_' + i);
@@ -1801,6 +1813,22 @@ firstDateUTCAdjusted.setMinutes(firstDateUTCAdjusted.getMinutes() - firstDateUTC
 const nowDate = new Date();
 nowDate.setMinutes(nowDate.getMinutes() - nowDate.getTimezoneOffset())
 const todaysDailyNumber = 1 + Math.floor((nowDate - firstDateUTCAdjusted) / 86400000);
+if (todaysDailyNumber >= 366) {
+    show('dailiesOverMsg');
+}
+
+// This is a fairly future-proof way to generate daily puzzles, which also ensures that historical dailies will stay consistent
+// (e.g. daily#400 will always be the same song). However, if the database is *ever* changed, we will first have to get a list of all
+// random dailies up to the date of the database modification, and add those to the statically-declared dailies object at the top of
+// this file. Otherwise, the questions past 366 in the dailies archive will suddenly change, as they are selected pseudorandomly here.
+const randomDailies = {};
+// The starting index of this loop should be the first new daily number after updating the database.
+for (let i = 367; i <= todaysDailyNumber; i++) {
+    randomDailies[i] = {
+        hash: simpleCircleCipher(randomDailyHashes[(i * 40111) % randomDailyHashes.length]),
+        mode: 1
+    }
+}
 
 const SAVED_QUIZZES_KEY = 'savedQuizzes';
 const LAST_DAILY_WIN_KEY = 'lDailyWin';
@@ -1811,7 +1839,11 @@ const LONG_TITLE_THRESHOLD = 84;
 const DAILY_ARCHIVE_ID_PREFIX = 'dailyArchive'
 const todaysDailyDateString = dateToString(new Date());
 const isAfd = todaysDailyDateString.endsWith('0401');
-const daily = dailies[simpleCircleCipher(todaysDailyDateString).split('').reverse().join('')];
+
+let daily = dailies[simpleCircleCipher(todaysDailyDateString).split('').reverse().join('')];
+if (!daily) {
+    daily = randomDailies[todaysDailyNumber];
+}
 const backNavViews = ['customQuizView', 'createCustomQuizView', 'helpView', 'quizIntroView', 'quizEndView', 'dailyArchiveView'];
 const backBtn = document.getElementById('backBtn');
 const vidPlayer = document.getElementById('vidPlayer');
@@ -2025,7 +2057,11 @@ document.getElementById('customQuizBtn').addEventListener('click', function () {
 });
 document.getElementById('helpBtn').addEventListener('click', function () {
     this.blur();
-    show('modalWrapper');
+    show(['modalWrapper', 'helpModal']);
+});
+document.getElementById('dailiesOverBtn').addEventListener('click', function () {
+    this.blur();
+    show(['modalWrapper', 'dailiesOverModal']);
 });
 backBtn.addEventListener('click', function () {
     if (!hasUnsavedChanges || confirm('Your custom quiz has unsaved changes. Continue?')) {
@@ -2751,7 +2787,10 @@ function onVideoPlayerReady() {
             e.addEventListener('click', function () {
                 loadedDailyDateString = this.dataset.dailyDateString;
                 activeQuizQuestionIndex = -1;
-                const dailyToLoad = dailies[simpleCircleCipher(loadedDailyDateString).split('').reverse().join('')];
+                let dailyToLoad = dailies[simpleCircleCipher(loadedDailyDateString).split('').reverse().join('')];
+                if (!dailyToLoad) {
+                    dailyToLoad = randomDailies[this.dataset.dailyNumber];
+                }
                 let sickoMode = document.getElementById('dailyArchiveSickoSwitch').checked
                     || (dailyResults[loadedDailyDateString] && dailyResults[loadedDailyDateString].sickoMode);
                 if (dailyResults[loadedDailyDateString] && !dailyResults[loadedDailyDateString].sickoMode) {
@@ -3247,18 +3286,9 @@ document.querySelectorAll('.share-quiz-btn').forEach((e) => {
 document.querySelectorAll('.dismiss-btn').forEach((btn) => {
     btn.addEventListener('click', function () {
         this.blur();
-        hide(this.dataset.target);
+        hide(['modalWrapper', this.dataset.target]);
     });
 })
-
-// Basic email obfuscation. Apparently, surprisingly effective despite its simplicity.
-const a = document.getElementById('enail');
-a.setAttribute('href', a.getAttribute('href')
-    .replace('vee', 'il@ve')
-    .replace('e', '')
-    .replace('-', '')
-    .replace('-', ':ma')
-    .replace('gie/', 'egie.me'));
 
 const updateTimeCode = function () {
     curTimeCode.innerText = durationToTimeCode(parseInt(seekBar.value));
