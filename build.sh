@@ -6,7 +6,7 @@ cp -r img/ dist/img
 cp index.html dist/index.html
 cp style.css dist/style.css
 cd js
-cat db.js siivaguessr.js > bundle.js
+cat db.js dailies.js siivaguessr.js custom-quizzes.js > bundle.js
 sed -i '1s/^/{\n/' bundle.js
 echo '}' >> bundle.js
 terser confettea.js --compress --mangle --output confettea.min.js
