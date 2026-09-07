@@ -1474,7 +1474,9 @@ const dailies = {
     }
 }
 
-const ak = '6c5Gm465STOJdHcIUrP6NHIiJMtmNbdXSoW-Xbu';
+// If hosting a fork, create a YouTube Data API v3 key and add it here to enable parsing of YouTube playlists in the custom quiz creator.
+// This key will be visible to clients, so I would recommend using a highly-restricted key to prevent malicious use.
+const ak = '<youtube API key>';
 
 /**
  * Utility method to hide one or more elements.
@@ -3040,7 +3042,7 @@ document.getElementById('addQuestionBtn').addEventListener('click', function () 
             updateText(customQuizHelpTextElem, 'Fetching playlist contents...');
             const xhr = new XMLHttpRequest();
             let url = `https://www.googleapis.com/youtube/v3/playlistItems?\
-key=${simpleCircleCipher(ak)}\
+key=${ak}\
 &playlistId=${playlistCode}\
 &part=${encodeURIComponent('snippet,contentDetails')}\
 &maxResults=50\
