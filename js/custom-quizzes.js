@@ -94,7 +94,7 @@ document.getElementById('addQuestionBtn').addEventListener('click', function () 
             updateText(customQuizHelpTextElem, 'Fetching playlist contents...');
             const xhr = new XMLHttpRequest();
             let url = `https://www.googleapis.com/youtube/v3/playlistItems?\
-key=${simpleCircleCipher(ak)}\
+key=${ak}\
 &playlistId=${playlistCode}\
 &part=${encodeURIComponent('snippet,contentDetails')}\
 &maxResults=50\
