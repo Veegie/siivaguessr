@@ -1467,11 +1467,21 @@ const dailies = {
     "uvDuAwuw": {
         "hash": "3ZFtjdisL5s",
         "mode": 1
+    },
+    "vuyuBwuw": {
+        "hash": "Cm2N_kPDWKY",
+        "mode": 1
     }
 }
 
 const ak = '6c5Gm465STOJdHcIUrP6NHIiJMtmNbdXSoW-Xbu';
 
+/**
+ * Utility method to hide one or more elements.
+ *
+ * @param {Array<string|HTMLElement> | HTMLElement | string} val a reference to the target HTML element, a string
+ * containing the target element's ID, or an array containing any number of HTML Elements or IDs
+ */
 const hide = function (val) {
     if (Array.isArray(val)) {
         for (const elem of val) {
@@ -1485,6 +1495,13 @@ const hide = function (val) {
         document.getElementById(val).setAttribute('aria-hidden', 'true');
     }
 };
+
+/**
+ * Utility method to un-hide one or more elements.
+ *
+ * @param {Array<string|HTMLElement> | HTMLElement | string} val a reference to the target HTML element, a string
+ * containing the target element's ID, or an array containing any number of HTML elements or IDs
+ */
 const show = function (val) {
     if (Array.isArray(val)) {
         for (const elem of val) {
@@ -2234,6 +2251,9 @@ const endQuestion = function (lost = false, reloadingCompletedDaily = false) {
         }
     }
 
+    // The Give Up button normally displays after 10 seconds.
+    // If a player finishes a question, then loads another question, all in under 10 seconds, the Give Up button will appear too soon.
+    // Clear its timeout to prevent this.
     if (giveUpContainer.dataset.timeout) {
         clearTimeout(giveUpContainer.dataset.timeout);
         delete giveUpContainer.dataset.timeout;
@@ -2684,6 +2704,7 @@ function onVideoStateChange(event) {
         updateTimeCode();
         show(playbackControls);
         showView('ripView');
+        // If a question has just been loaded and it has already been completed, replay all guesses from the last attempt to re-create the results.
         if (loadedDailyDateString && dailyResults[loadedDailyDateString]) {
             if (parseInt(localStorage.getItem('lDaily')) === todaysDailyNumber) {
                 updateText(statusMsgElem, 'Come back tomorrow for a new question!');
