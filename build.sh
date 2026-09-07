@@ -1,9 +1,11 @@
 #!/bin/bash
 
-cat ./js/db.js ./js/siivaguessr.js > bundle.js
+cd js
+cat db.js siivaguessr.js > bundle.js
 sed -i '1s/^/{\n/' bundle.js
 echo '}' >> bundle.js
-terser bundle.js --compress --mangle --output ./js/bundle.min.js
-cat ./js/comment.js ./js/bundle.min.js > ./js/siivaguessr.min.js
+terser confettea.js --compress --mangle --output confettea.min.js
+cat confettea-license confettea.min.js > temp.js && mv temp.js confettea.min.js
+terser bundle.js --compress --mangle --output siivaguessr.min.js
+cat comment.js siivaguessr.min.js > temp.js && mv temp.js siivaguessr.min.js
 rm bundle.js
-rm ./js/bundle.min.js
