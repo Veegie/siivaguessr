@@ -1848,6 +1848,13 @@ for (let i = 367; i <= todaysDailyNumber; i++) {
         mode: 1
     }
 }
+const todaysDailyDateString = dateToString(new Date());
+const isAfd = todaysDailyDateString.endsWith('0401');
+
+let daily = dailies[simpleCircleCipher(todaysDailyDateString).split('').reverse().join('')];
+if (!daily) {
+    daily = randomDailies[todaysDailyNumber];
+}
 
 const SAVED_QUIZZES_KEY = 'savedQuizzes';
 const LAST_DAILY_WIN_KEY = 'lDailyWin';
@@ -1856,13 +1863,6 @@ const DAILY_RESULTS_KEY = 'dailyResults';
 const DAILY_RESULT_GUESS_DELIMITER = '__';
 const LONG_TITLE_THRESHOLD = 84;
 const DAILY_ARCHIVE_ID_PREFIX = 'dailyArchive'
-const todaysDailyDateString = dateToString(new Date());
-const isAfd = todaysDailyDateString.endsWith('0401');
-
-let daily = dailies[simpleCircleCipher(todaysDailyDateString).split('').reverse().join('')];
-if (!daily) {
-    daily = randomDailies[todaysDailyNumber];
-}
 const backNavViews = ['customQuizView', 'createCustomQuizView', 'helpView', 'quizIntroView', 'quizEndView', 'dailyArchiveView'];
 const backBtn = document.getElementById('backBtn');
 const vidPlayer = document.getElementById('vidPlayer');
