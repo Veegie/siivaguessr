@@ -1868,7 +1868,6 @@ const highlightRanges = new Map();
 let questionTime = 0;
 let questionTimerInterval = -1;
 let curView = 'loadingView';
-let strikes = 0;
 let activeQuestion = undefined;
 let activeQuestionTotalAnswers = 0;
 let answerSet = new Set();
@@ -1896,9 +1895,8 @@ if (!localStorage.getItem(LAST_DAILY_WIN_KEY) && localStorage.getItem(LAST_DAILY
  */
 const loadQuestion = function (videoHash, mode, dailyNumber = -1) {
     showView('loadingView');
-    strikes = 0;
     questionTime = 0;
-    hide(['strike1', 'strike2', 'strike3', 'ripCredits', 'giveUpConfirm', 'shareResultsContainer', 'quizResultsBtn', 'nextQuestionBtn', 'giveUpContainer', 'giveUpBtn', 'quizQuestionNumber', vidPlayer, multiCorrect]);
+    hide(['ripCredits', 'giveUpConfirm', 'shareResultsContainer', 'quizResultsBtn', 'nextQuestionBtn', 'giveUpContainer', 'giveUpBtn', 'quizQuestionNumber', vidPlayer, multiCorrect]);
     show(['giveUpBtn', guessInput]);
     activeQuestion = db[videoHash];
     if (activeQuizQuestionIndex > -1) {
@@ -2112,18 +2110,8 @@ const submitGuess = function (guess, replaying = false) {
             endQuestion();
         }
     } else {
-        strikes++;
-        if (isAfd) {
-            strikes--;
-        } else if (!isMultiJoke) {
-            show('strike' + strikes);
-        }
         if (!replaying) {
-            if (strikes === 1) {
-                show('giveUpContainer');
-            } else if (strikes === 3 && !isMultiJoke) {
-                endQuestion(true);
-            }
+            show('giveUpContainer');
             guessInput.classList.add('incorrect');
             setTimeout(() => {
                 guessInput.classList.add('fade');
@@ -2166,8 +2154,8 @@ const markCorrect = function (hash, replaceText) {
 }
 
 /**
- * Ends the current question. If the player has three strikes or gave up, missed answers will be revealed.
- * @param {boolean} lost player gave up or got three strikes
+ * Ends the current question. If the player gave up, missed answers will be revealed.
+ * @param {boolean} lost player gave up
  * @param {boolean} reloadingCompletedDaily if the player is reloading an already-finished daily question
  */
 const endQuestion = function (lost = false, reloadingCompletedDaily = false) {
@@ -2182,7 +2170,6 @@ const endQuestion = function (lost = false, reloadingCompletedDaily = false) {
     if (isMultiJoke) {
         multiCorrect.innerText = `You got ${percentCorrect}%${(percentCorrect > 50 ? '!' : '')}`;
         updateText(statusMsgElem, `(${gotCount} out of ${activeQuestionTotalAnswers})` + (isAfd ? '. Happy April Fool\'s Day! (Win streaks are unaffected)' : ''));
-        hide(['strike1', 'strike2', 'strike3']);
         if (!reloadingCompletedDaily && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
             if (percentCorrect > 60) {
                 confettea.burst({ origin: { x: 0.3, y: 0.3 } });
@@ -2204,7 +2191,6 @@ const endQuestion = function (lost = false, reloadingCompletedDaily = false) {
             updateText(statusMsgElem, 'Better luck next time.');
         } else {
             updateText(statusMsgElem, 'You got it!');
-            hide(['strike1', 'strike2', 'strike3']);
             if (!reloadingCompletedDaily && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
                 confettea.burst();
             }
@@ -2281,9 +2267,7 @@ const endQuestion = function (lost = false, reloadingCompletedDaily = false) {
         if (!reloadingCompletedDaily) {
             // Save the result of this daily.
             let resultIcon = '';
-            if (strikes === 3) {
-                resultIcon = '❌';
-            } else if (lost) {
+            if (lost) {
                 resultIcon = '🏳️';
             } else {
                 resultIcon = '✅';
@@ -2324,8 +2308,6 @@ const endQuestion = function (lost = false, reloadingCompletedDaily = false) {
             } else {
                 if (shareBtn.dataset.sickoMode === 'true' && gotCount > 0) {
                     statLine = `${gotCount}/${activeQuestionTotalAnswers}`;
-                } else if (strikes === 3) {
-                    statLine = `❌ Struck out!`
                 } else {
                     statLine = `🏳 in ⏱️ ${durationToTimeCode(questionTime)}`
                 }
@@ -2358,17 +2340,8 @@ const getStatIcon = function (percentCorrect) {
     return '❌';
 }
 
-const getStrikeString = function () {
-    switch (strikes) {
-        case 0: return '✅✅✅';
-        case 1: return '❌✅✅';
-        case 2: return '❌❌✅';
-        case 3: return '❌❌❌';
-        default: return '';
-    }
-}
-
 document.getElementById('nextQuestionBtn').addEventListener('click', function () {
+    this.blur();
     loadQuestion(simpleCircleCipher(activeQuiz[activeQuizQuestionIndex].id), parseInt(activeQuiz[activeQuizQuestionIndex].mode));
 });
 
@@ -2721,7 +2694,7 @@ function onVideoStateChange(event) {
                 submitGuess(guess, true);
             }
             questionTime = dailyResult.time;
-            endQuestion(strikes === 3 || answerSet.size > 0, true);
+            endQuestion(answerSet.size > 0, true);
         }
     }
 }
