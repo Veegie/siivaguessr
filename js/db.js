@@ -51970,8 +51970,10 @@ const db = {
 	},
 	"NFL_mPC5Jp8": {
 		"title": "Battle Tower - Pokemon Diamond & Pearl",
-		"wiki": "https://siivagunner.wiki/wiki/Battle%20Tower%20-%20Pok%C3%A9mon%20Diamond%20%26%20Pearl",
-		"joke": "It Takes a Time - TOME (Terrain of Magical Expertise)",
+		"wiki": "https://siivagunner.wiki/wiki/Battle%20Tower%20-%20Pok%C3%A9mon%20Diamond%20%26%20Pearl%20(April%2011,%202018)",
+		"joke": [
+			{ "time": "0:29, 1:14", "joke": "Meet the Flintstones (Flintstones Theme) - Hoyt Curtin" },
+			{ "time": "0:44, 1:28", "joke": "Snow halation - Love Live!, µ's" }],
 		"artist": "MtH"
 	},
 	"XGKO7p9tXnw": {
